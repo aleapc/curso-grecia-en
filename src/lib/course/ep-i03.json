@@ -1,725 +1,423 @@
 {
   "id": "i03",
-  "slot": "I03",
   "nivel": "intermediario",
   "numero": 21,
   "parte": "I03",
-  "titulo": "The dish you were never going to order",
-  "subtitulo": "Weekday lunch, three courses, bread, a drink and pudding for about fourteen euros twenty — and the one question that turns a board you cannot read into the plate the kitchen is proud of",
+  "titulo": "The dish you were not going to order",
+  "subtitulo": "Taverna, estiatório, ouzerí, psistariá — four words that are an expectation about the menu, not an official category",
+  "cena": "A laminated menu with photographs on it in one hand, and a woman two tables away eating something that is not on it.",
   "moldura": "ganha",
-
-  "cena": "Ten past two on a Tuesday, a bar two streets off the square, the waiter reels off three dish names in one breath and stands there with the pad open.",
-
-  "decisao": "which lunch, and what it costs — three courses, bread, a drink and pudding at about fourteen euros twenty on the board by the door, against paying for each of those plates on its own off the carta; and it is weekday lunchtime only, so the whole thing is finished by four",
+  "frasePiso": "Ask what they have today. That list is shorter than the menu, and it is the one worth ordering from.",
+  "decisao": "which dish you order, and for how much — whether you ask what they have today and name the magireftá, or pick off the laminated card at the laminated card's prices",
   "emJogo": "ambos",
-
-  "moldes": ["ELECCION"],
-
-  "clique": {
-    "contagem": ["the lunch table", "the fish counter", "the wine list", "the cheese counter"],
-    "desconto": "Nobody gave you those four sentences. You built them out of one question with two things in it, and two of them you could not even pronounce.",
-    "piso": "You will order a three-course Spanish lunch off a handwritten board. Most people who spend a fortnight here never do it once."
-  },
-  "cliqueAudioKey": "i03-n28",
-
-  "frasePiso": "You will order a three-course Spanish lunch off a handwritten board. Most people who spend a fortnight here never do it once.",
-
-  "permissao": "You do not have to understand the whole board. Take the one word you caught and go with it, or point at the plate on the next table and say 'lo mismo'. You are allowed to say yes to a name you have never heard, and you are allowed to leave half of the second course — two courses is a lot of lunch and nobody is watching your plate.",
-  "permissaoAudioKey": "i03-n25",
-
-  "espelho": "Reading the whole list back to the waiter to check you got it right is the bit that reads as odd there. Nobody checks. Everybody just orders, and half of them are still talking to somebody else while they do it.",
-
-  "fichasCulturais": [
-    {
-      "sinal": "He shuts the board, says the name of one dish you have never heard, and then stops talking and waits.",
-      "suaLeitura": "He is testing whether I understood. If I say yes and I am wrong, something horrible arrives.",
-      "oQueEAli": "In a house that cooks one thing properly on a Tuesday, naming it is the recommendation — the kitchen has already decided and he is passing that on, not asking a question.",
-      "oQueVoceFaz": "Say yes. Or say 'lo mismo' and point at the plate on the next table.",
-      "oQueMelhora": "You eat what the house does well that day instead of the one thing on the board you could already pronounce.",
-      "ondeNaoVale": "Not on a strip with photographs on the menu and a man outside inviting you in — there the list is the same every day of the year and the name he says means nothing.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i03-n22", "i03-n23", "i03-n24"]
-    },
-    {
-      "sinal": "Away from the set lunch, what you ordered lands in the middle of the table and nobody puts a plate in front of anybody.",
-      "suaLeitura": "They have got the order wrong, or they have brought one dish for the whole table.",
-      "oQueEAli": "A ración is built for the centre of the table and is sized for sharing, so two people ordering four of them are ordering for six. Half of one is a normal thing to ask for.",
-      "oQueVoceFaz": "Order fewer things than there are people, reach in, and ask for a media ración when you only want a taste of it.",
-      "ondeNaoVale": "Not the menú del día, which is plated per person — one starter, one main, yours, and asking to share it confuses everybody.",
-      "oQueMelhora": "You get four things on the table instead of one thing each, and you leave having tried the one you would never have ordered.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i03-n19", "i03-racion-e"]
-    }
-  ],
-
+  "moldes": [],
   "fatosDatados": [
     {
-      "id": "menu-del-dia-preco",
-      "afirmacao": "The national average for a menú del día is about €14.20 — cheapest in the Canaries, Asturias, Andalusia and Murcia, dearest in the Balearics.",
-      "valor": "€14,20",
-      "fonte": "Hostelería de España + Edenred, divulgado em 2026 — citado em docs/pesquisa-espanha.md §7.2",
-      "ano": 2026,
-      "revisarAte": "2027-04-01",
+      "id": "el-i03-categorias",
+      "afirmacao": "Taverna, estiatório, ouzerí and psistariá are not legal categories. Greek food-safety law groups all of them together as επιχειρήσεις μαζικής εστίασης, under the notification regime of law 4442/2016. The distinction between them is commercial and customary — an expectation about the menu and the register of the room, not an official classification.",
+      "fonte": "ν.4442/2016, regime de γνωστοποίηση; a legislação sanitária agrupa os estabelecimentos em «επιχειρήσεις μαζικής εστίασης» — a distinção entre ταβέρνα, εστιατόριο, ουζερί e ψησταριά é comercial e consuetudinária, não legal",
+      "ano": 2016,
+      "revisarAte": "2028-08-05",
       "evidencia": "FATO",
-      "risco": "medio",
-      "audioKeys": ["i03-n06"]
+      "risco": "baixo",
+      "audioKeys": [
+        "el-i03-n01",
+        "el-i03-n02"
+      ]
     },
     {
-      "id": "menu-del-dia-nao-obrigatorio",
-      "afirmacao": "No current law obliges a restaurant to offer a menú del día — the Franco-era requirement was repealed, and any course that says it is required by law is out of date.",
-      "fonte": "docs/pesquisa-espanha.md §7.2 — não se localizou norma vigente; obrigatoriedade franquista revogada, síntese jurídica secundária sem fonte primária citada",
-      "ano": 2026,
-      "revisarAte": "2028-01-01",
-      "evidencia": "CONSENSO",
+      "id": "el-i03-kouver",
+      "afirmacao": "A cover charge is prohibited in Greece. Article 72 of the ΔΙ.Ε.Π.Π.Υ. rules bars κουβέρ, and no product — bread and bottled water included — may be served and charged without prior consent, with a fine of €500 per item. Bread may be charged as an item if it is offered and accepted.",
+      "fonte": "Art. 72 dos Κανόνες ΔΙ.Ε.Π.Π.Υ., ΥΑ 91354/2017, ΦΕΚ Β΄2983/30.8.2017 — proibição de κουβέρ e de servir e cobrar qualquer produto sem consentimento prévio; multa de €500 por item",
+      "ano": 2017,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["i03-n08", "i03-n09"]
+      "audioKeys": [
+        "el-i03-n05",
+        "el-i03-n06"
+      ]
     },
     {
-      "id": "hora-da-comida",
-      "afirmacao": "La comida, the main meal, typically runs from about two to half three or four, so the set lunch is finished by mid-afternoon.",
-      "fonte": "consenso de fontes secundárias (guias gastronômicos e de viagem), registrado em docs/pesquisa-espanha.md §7.1 — o INE não publica horário médio de refeição",
-      "ano": 2026,
-      "revisarAte": "2027-07-01",
-      "evidencia": "CONSENSO",
+      "id": "el-i03-unesco",
+      "afirmacao": "The Mediterranean Diet is inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity, file ICH 00884, with Greece among the submitting states. The inscription states verbatim: «Eating together is the foundation of the cultural identity and continuity of communities throughout the Mediterranean basin.»",
+      "fonte": "UNESCO, Lista Representativa do Património Cultural Imaterial da Humanidade, ficha ICH 00884 — Dieta Mediterrânea, Grécia entre os proponentes",
+      "ano": 2013,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["i03-n09"]
+      "audioKeys": [
+        "el-i03-n04"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n01",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i03-n01",
+      "gesto": 1,
       "bloco": "aquecimento",
-      "gesto": 4,
-      "tom": "ganha",
-      "pt": "Part twenty-one. Warm-up: the flick. One touch of the tongue, never a roll. Pri-me-ro. Pos-tre. Car-ta."
+      "pt": "Four words on four signs: taverna, estiatório, ouzerí, psistariá. None of them is an official category."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n02",
-      "pt": "Two of today's words let it run long instead: ra-ción, a-rroz. Everything else gets one touch and moves on."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i03-n02",
+      "bloco": "corpo",
+      "pt": "The law files them all together. What the four words carry is an expectation about the menu and the room."
     },
     {
+      "consulta": [
+        "mesa/carta",
+        "mesa/comida"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "bloco": "callback",
-      "molde": "ME-PONE",
-      "encaixe": "una caña",
-      "encaixeGloss": "a small draught beer",
-      "promptAudioKey": "i03-p01",
-      "promptPt": "Yesterday's counter, the same barman, three deep again, and he has just looked straight at you and said 'dime'. No run-up, no sorry in front. Speak now.",
-      "audioKey": "e03a-cana-e",
-      "es": "¿Me pones una caña, por favor?",
-      "pinyin": "meh POH-nehs OO-nah KAH-nyah, por fah-BOR",
-      "pt": "the short cold glass"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n03",
-      "bloco": "cena",
-      "pt": "Ten past two on a Tuesday. A bar two streets off the square, and every single table in it is eating."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n04",
-      "pt": "The same three plates on every table, at the same price, and not one of them is on the list you were handed."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n05",
-      "pt": "They are on a chalkboard by the door, in handwriting, and you have walked past four of those this week."
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i03-p01",
+      "promptPt": "The laminated menu has forty things on it and you want the short list instead. Speak now.",
+      "audioKey": "el-i03-t01",
+      "es": "Τι έχετε σήμερα;",
+      "pinyin": "ti E-he-te SI-me-ra",
+      "pt": "What have you got today?",
+      "tts": "Τι έχετε σήμερα;",
+      "tom": "ganha"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i03-hoymenu-e",
-      "es": "Hoy tenemos menú del día.",
-      "pinyin": "oy teh-NEH-mohs meh-NOO del DEE-ah",
-      "pt": "👂 'We've got the set lunch on today.' — the three best-value words in the country.",
-      "tts": "Hoy tenemos menú del día."
+      "voz": "target_el_m",
+      "audioKey": "el-i03-r01",
+      "receptivo": true,
+      "es": "Έχουμε μαγειρευτά και της ώρας.",
+      "pt": "We have pot dishes and things grilled to order.",
+      "tts": "Έχουμε μαγειρευτά και της ώρας.",
+      "acao": "Two families, and he just named both. Magireftá were cooked this morning; tis óras goes on the grill now."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n06",
-      "pt": "Starter, main, bread, a drink and pudding or coffee, for one price. About fourteen euros twenty."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n07",
-      "pt": "El menú is that lunch. The list of everything else is la carta. Most visitors have the two the other way round."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n08",
-      "tom": "protege",
-      "pt": "Half the internet will tell you it is the law. It is not, and no kitchen has to put one on at all."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n09",
-      "tom": "ganha",
-      "pt": "It lasted because it works. Weekday lunch only, though: the kitchen has stopped by four, so go at two."
-    },
-    {
-      "consulta": ["mesa/carta","mesa/comida"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "HAY",
-      "encaixe": "menú del día",
-      "encaixeGloss": "the set lunch",
-      "promptAudioKey": "i03-p02",
-      "promptPt": "Quarter past two, a small place full of people in work clothes, and the board by the door is in handwriting you cannot read. Ask the man behind the counter whether they are doing it today. Speak now.",
-      "audioKey": "i03-haymenu-c",
-      "es": "¿Hay menú del día?",
-      "pinyin": "ai meh-NOO del DEE-ah",
-      "pt": "is the good one on today",
-      "tts": "¿Hay menú del día?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i03-delunesaviernes-e",
-      "es": "De lunes a viernes. Los sábados solo carta.",
-      "pinyin": "deh LOO-nehs ah BYEHR-nehs. lohs SAH-bah-dhohs SOH-loh KAR-tah",
-      "pt": "👂 'Monday to Friday. Saturdays it's à la carte only.' — the good-value lunch is a working-day thing.",
-      "tts": "De lunes a viernes. Los sábados solo carta."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n10",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i03-n03",
       "bloco": "molde",
-      "pt": "Now the sentence that does the work today. It is not 'what is good here'. It is: which of these two."
+      "pt": "The frame from part six comes back. Éhete, then the thing — and here the thing is what is cooking today."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i03-cualpulpo-e",
-      "es": "¿Cuál me recomienda: el pulpo o las croquetas?",
-      "pinyin": "KWAL meh rreh-koh-MYEN-dah: el POOL-poh oh lahs kroh-KEH-tahs",
-      "pt": "Which do you recommend: the octopus or the croquettes?",
-      "tts": "¿Cuál me recomienda: el pulpo o las croquetas?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n11",
-      "pt": "That is the frame. Cuál me recomienda, and then two things you can see. The front of it never moves."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n12",
-      "pt": "The little word in front of each one comes glued to it. Take it the way you heard it and nobody blinks."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i03-recita-e",
-      "es": "De segundo: el arroz, el pescado del día o la carne guisada.",
-      "pinyin": "deh seh-GOON-doh: el ah-RROTH, el pes-KAH-dhoh del DEE-ah oh lah KAR-neh gee-SAH-dhah",
-      "pt": "👂 The mains, in one breath, at the speed he says them to everybody.",
-      "tts": "De segundo: el arroz, el pescado del día o la carne guisada."
-    },
-    {
-      "consulta": ["mesa/comida","mesa/carta"],
+      "consulta": [
+        "mesa/comida"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "ELECCION",
-      "encaixe": "el arroz o el pescado",
-      "encaixeGloss": "the rice or the fish",
-      "promptAudioKey": "i03-p03",
-      "promptPt": "He has said three mains in one breath. The first two stuck and the third went straight past you. Pad open, he is waiting at your lunch table. Put the choice back to him. Speak now.",
-      "audioKey": "i03-cualarroz-c",
-      "es": "¿Cuál me recomienda: el arroz o el pescado?",
-      "pinyin": "KWAL meh rreh-koh-MYEN-dah: el ah-RROTH oh el pes-KAH-dhoh",
-      "pt": "which of the two",
-      "tts": "¿Cuál me recomienda: el arroz o el pescado?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n13",
-      "pt": "Two things, one question, and whatever comes back is one of the two. He cannot get away from you."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n14",
-      "pt": "Ask an open question and you get eleven seconds of Spanish. Ask which of two and you get a word."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i03-g01",
-      "pt": "GUIRI ALERT. George here. I once asked a man in Cádiz what he recommended. Lovely open question."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i03-g02",
-      "pt": "Forty words came back. I caught two, said 'perfecto', and got tripe — a proper dish I was not ready for."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i03-g03",
-      "pt": "Two things and an 'or' in the middle, and the answer fits in your head. That is all I ever needed."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n15",
-      "pt": "There is one more thing you can do to a name you have never heard: open it up, before it arrives."
+      "voz": "target_el_f",
+      "molde": "EXETE",
+      "encaixe": "μαγειρευτά",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i03-p02",
+      "promptPt": "You want the tray dishes that were made this morning, not something off the grill. Ask for them by name. Speak now.",
+      "audioKey": "el-i03-t02",
+      "es": "Έχετε μαγειρευτά;",
+      "pinyin": "E-he-te ma-yi-ref-TA",
+      "pt": "Do you have pot dishes?",
+      "tts": "Έχετε μαγειρευτά;",
+      "tom": "ganha"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i03-llevacarne-e",
-      "es": "¿Lleva carne?",
-      "pinyin": "YEH-bah KAR-neh",
-      "pt": "Has it got meat in it?",
-      "tts": "¿Lleva carne?"
+      "voz": "target_el_m",
+      "audioKey": "el-i03-r02",
+      "receptivo": true,
+      "es": "Σήμερα έχουμε γεμιστά και μπριάμ.",
+      "pt": "Today we have stuffed vegetables and briám.",
+      "tts": "Σήμερα έχουμε γεμιστά και μπριάμ.",
+      "acao": "Two names, said fast. Do not translate them — repeat one of them back and it becomes your order."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n15b",
-      "pt": "Three words, and the front is yours already from part thirteen. Only what hangs off the end ever moves."
-    },
-    {
-      "consulta": ["dieta/o-que-tem"],
+      "consulta": [
+        "mesa/comida",
+        "reparo/apontar"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "LLEVA",
-      "encaixe": "carne",
-      "encaixeGloss": "meat",
-      "promptAudioKey": "i03-p04",
-      "promptPt": "Saturday, a different town, and the starter on the board is one word long and means nothing to either of you. The person opposite has not eaten anything with a face since 2019. Speak now.",
-      "audioKey": "i03-llevacarne-e",
-      "es": "¿Lleva carne?",
-      "pinyin": "YEH-bah KAR-neh",
-      "pt": "before either of you commits"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i03-p03",
+      "promptPt": "He named two things and you recognised neither. Get one of them explained instead of retreating to the menu. Speak now.",
+      "audioKey": "el-i03-t03",
+      "es": "Τι είναι αυτό;",
+      "pinyin": "ti I-ne af-TO",
+      "pt": "What is that?",
+      "tts": "Τι είναι αυτό;",
+      "tom": "ganha"
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i03-poquitodejamon-e",
-      "es": "Carne no. Lleva un poquito de jamón, nada más.",
-      "pinyin": "KAR-neh noh. YEH-bah oon poh-KEE-toh deh khah-MOHN, NAH-dhah mahs",
-      "pt": "👂 'No meat. Just a bit of ham, nothing else.' — ham is seasoning here, not meat. That answer is a yes.",
-      "tts": "Carne no. Lleva un poquito de jamón, nada más."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n16",
-      "pt": "Ordering it has a shape, and it is the same shape in every bar in the country. Three little words carry it."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i03-primero-c",
-      "es": "De primero, la ensalada; de segundo, el pescado.",
-      "pinyin": "deh pree-MEH-roh, lah en-sah-LAH-dhah; deh seh-GOON-doh, el pes-KAH-dhoh",
-      "pt": "Starter, then main. De primero, de segundo — and pudding, when he asks, is de postre.",
-      "tts": "De primero, la ensalada. De segundo, el pescado."
-    },
-    {
-      "consulta": ["mesa/comida"],
+      "consulta": [
+        "mesa/carta",
+        "reparo/apontar"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i03-p05",
-      "promptPt": "He is stood at your lunch table with the pad, he has read you the board twice, and you have made your mind up. Give him both, in the sequence he read them. Speak now.",
-      "audioKey": "i03-primero-c",
-      "es": "De primero, la ensalada; de segundo, el pescado.",
-      "pinyin": "deh pree-MEH-roh, lah en-sah-LAH-dhah; deh seh-GOON-doh, el pes-KAH-dhoh",
-      "pt": "both of them, in sequence"
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "δω",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i03-p04",
+      "promptPt": "There is a glass counter by the till with today's trays in it. Ask before you lean over. Speak now.",
+      "audioKey": "el-i03-t04",
+      "es": "Μπορώ να δω;",
+      "pinyin": "bo-RO na dho",
+      "pt": "May I have a look?",
+      "tts": "Μπορώ να δω;",
+      "tom": "ganha"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n17",
-      "pt": "Sometimes it comes straight back at you, and the answer is one word. Listen to the end of what he asks."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i03-n04",
+      "pt": "Mezédes are small plates that arrive for the table. Ordering a few of them is ordering for everybody at once."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i03-conpatatas-e",
-      "es": "¿Con patatas o con ensalada?",
-      "pinyin": "kon pah-TAH-tahs oh kon en-sah-LAH-dhah",
-      "pt": "👂 'With chips or with salad?' — the question that lands back in your lap.",
-      "tts": "¿Con patatas o con ensalada?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n17b",
-      "pt": "You do not send the whole question back. Pick one of the two, put a please on it, and stop there."
-    },
-    {
+      "consulta": [
+        "mesa/comida",
+        "mesa/tamanho"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "SIN-CON-PARA",
-      "encaixe": "con ensalada",
-      "encaixeGloss": "with salad",
-      "promptAudioKey": "i03-p06",
-      "promptPt": "He has just put two things in front of you and you want the green one. Two words, and stop. Speak now.",
-      "audioKey": "i03-conensalada-c",
-      "es": "Con ensalada, por favor.",
-      "pinyin": "kon en-sah-LAH-dhah, por fah-BOR",
-      "pt": "the green one",
-      "tts": "Con ensalada, por favor."
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i03-p05",
+      "promptPt": "Three of you, nobody sure what they want, and one decision would solve it. Speak now.",
+      "audioKey": "el-i03-t05",
+      "es": "Θα πάρουμε μερικούς μεζέδες.",
+      "pinyin": "tha PA-roo-me me-ri-KOOS me-ZE-dhes",
+      "pt": "We'll take a few small plates.",
+      "tts": "Θα πάρουμε μερικούς μεζέδες.",
+      "tom": "ganha"
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n18",
-      "pt": "The same opener takes a different ending, for the counters where what is good changes every morning."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i03-mejorhoy-c",
-      "es": "¿Cuál está mejor hoy?",
-      "pinyin": "KWAL ehs-TAH meh-KHOR oy",
-      "pt": "Which is best today? — for a counter that changes with whatever came in this morning.",
-      "tts": "¿Cuál está mejor hoy?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n18b",
-      "pt": "No two things needed there. The counter has already laid them out, and he knows what he would eat."
-    },
-    {
+      "consulta": [
+        "mesa/comida",
+        "simpatia/puxar-conversa"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "ELECCION",
-      "encaixe": "está mejor hoy",
-      "encaixeGloss": "best today",
-      "promptAudioKey": "i03-p07",
-      "promptPt": "Half nine on a Saturday at the fish counter in the market. Six trays on ice, and the man has the tongs in one hand and an eyebrow up. Speak now.",
-      "audioKey": "i03-mejorhoy-c",
-      "es": "¿Cuál está mejor hoy?",
-      "pinyin": "KWAL ehs-TAH meh-KHOR oy",
-      "pt": "whatever came in this morning"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i03-p06",
+      "promptPt": "He has been doing this for thirty years and you have been reading a menu for two minutes. Hand it over. Speak now.",
+      "audioKey": "el-i03-t06",
+      "es": "Τι μας προτείνετε;",
+      "pinyin": "ti mas pro-TI-ne-te",
+      "pt": "What do you recommend for us?",
+      "tts": "Τι μας προτείνετε;",
+      "tom": "ganha"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n19",
-      "pt": "Away from that lunch, the food comes to the middle of the table, and it is bigger than it sounds."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i03-racion-e",
-      "es": "Una ración es para compartir. ¿Le pongo media ración?",
-      "pinyin": "OO-nah rrah-THYON es PAH-rah kom-par-TEER. leh POHN-goh MEH-dhyah rrah-THYON",
-      "pt": "👂 'A ración is for sharing — shall I do you half a one?' He has just said it for you.",
-      "tts": "Una ración es para compartir. ¿Le pongo media ración?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n19b",
-      "pt": "One of those between two of you is plenty, and asking for less than one is a completely ordinary thing."
-    },
-    {
-      "consulta": ["mesa/tamanho"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "QUERIA",
-      "encaixe": "media ración",
-      "encaixeGloss": "a half portion",
-      "promptAudioKey": "i03-p08",
-      "promptPt": "Eight in the evening, two of you stood at a counter, and the plate that just went past was the size of a hubcap. You want that, only smaller. Speak now.",
-      "audioKey": "i03-mediaracion-c",
-      "es": "Quería media ración, por favor.",
-      "pinyin": "keh-REE-ah MEH-dhyah rrah-THYON, por fah-BOR",
-      "pt": "the smaller one of those",
-      "tts": "Quería media ración, por favor."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i03-nomedia-e",
-      "es": "De eso no hacemos media. O entera, o nada.",
-      "pinyin": "deh EH-soh noh ah-THEH-mohs MEH-dhyah. oh en-TEH-rah, oh NAH-dhah",
-      "pt": "👂 'We don't do halves of that one. Whole plate or nothing.' — some dishes only come in one size. Share it.",
-      "tts": "De eso no hacemos media. O entera, o nada."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n20",
-      "pt": "One more ending, and this is the one that gets you what they are proud of rather than what they sell."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i03-tipico-e",
-      "es": "¿Cuál es más típico de aquí?",
-      "pinyin": "KWAL es mahs TEE-pee-koh deh ah-KEE",
-      "pt": "Which is the most local one? — fourteen names you cannot read, sorted in five words.",
-      "tts": "¿Cuál es más típico de aquí?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n20b",
-      "pt": "Not the one they sell most of. The one that only exists within an hour of where you are stood."
-    },
-    {
-      "consulta": ["mesa/comida","simpatia/puxar-conversa"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "ELECCION",
-      "encaixe": "más típico de aquí",
-      "encaixeGloss": "the most local",
-      "promptAudioKey": "i03-p09",
-      "promptPt": "The wine list has fourteen names on it, none of which you have ever seen in your life, and the woman who owns the place has brought it over herself and stayed. Speak now.",
-      "audioKey": "i03-tipico-e",
-      "es": "¿Cuál es más típico de aquí?",
-      "pinyin": "KWAL es mahs TEE-pee-koh deh ah-KEE",
-      "pt": "the one from round here"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i03-tardaveinte-e",
-      "es": "De aquí, el cocido. Pero tarda veinte minutos.",
-      "pinyin": "deh ah-KEE, el koh-THEE-dhoh. PEH-roh TAR-dhah BAYN-teh mee-NOO-tohs",
-      "pt": "👂 'Round here it's the cocido — but it takes twenty minutes.' — that is the trade, and it is usually worth it.",
-      "tts": "De aquí, el cocido. Pero tarda veinte minutos."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n21",
-      "pt": "And when you cannot name either of them, it still works. You point, and the frame carries the rest."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i03-esteaquel-c",
-      "es": "¿Cuál me recomienda: este o aquel?",
-      "pinyin": "KWAL meh rreh-koh-MYEN-dah: EHS-teh oh ah-KEL",
-      "pt": "This one or that one — two fingers do the naming for you.",
-      "tts": "¿Cuál me recomienda: este o aquel?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n21b",
-      "pt": "Nothing has moved except what you are pointing at. Four endings and a finger, and that is the lot."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "ELECCION",
-      "encaixe": "este o aquel",
-      "encaixeGloss": "this one or that one",
-      "promptAudioKey": "i03-p10",
-      "promptPt": "Saturday morning, the cheese counter at the market, eleven wheels of it under glass and a woman with all afternoon. You cannot pronounce a single label. Speak now.",
-      "audioKey": "i03-esteaquel-c",
-      "es": "¿Cuál me recomienda: este o aquel?",
-      "pinyin": "KWAL meh rreh-koh-MYEN-dah: EHS-teh oh ah-KEL",
-      "pt": "with two fingers"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n22",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i03-n05",
       "bloco": "capsula",
-      "pt": "Now watch what he does when you hesitate. He shuts the board, says one name, and stops talking."
+      "tom": "protege",
+      "pt": "A cover charge is illegal here, and nothing may be served and charged unless you agreed to it first."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i03-r03",
+      "receptivo": true,
+      "es": "Το ψωμί χρεώνεται. Θέλετε;",
+      "pt": "The bread is charged. Do you want it?",
+      "tts": "Το ψωμί χρεώνεται. Θέλετε;",
+      "acao": "That question is the rule working. Answer it either way, and the answer is the whole of your consent."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n23",
-      "pt": "That is not a test. In a house cooking one thing properly today, naming it is the recommendation."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i03-n06",
+      "pt": "Bread and bottled water are covered too. If either arrives unasked, you can say no without any fuss."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n24",
-      "pt": "Not on a strip with photographs on the menu. There the list never changes, and the name means nothing."
+      "consulta": [
+        "mesa/agua-pao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i03-p07",
+      "promptPt": "A basket lands on the table and you did not ask for it and do not want it. One calm sentence. Speak now.",
+      "audioKey": "el-i03-t07",
+      "es": "Όχι ψωμί, ευχαριστώ.",
+      "pinyin": "O-hi pso-MI, ef-ha-ri-STO",
+      "pt": "No bread, thank you.",
+      "tts": "Όχι ψωμί, ευχαριστώ."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n25",
-      "bloco": "permissao",
-      "pt": "You do not have to understand the whole board. Take the one word you caught and go with it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n26",
-      "pt": "Or point at the next table and say 'lo mismo'. And you can leave half of it. Nobody is watching your plate."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n27",
-      "bloco": "espelho",
-      "pt": "Reading the whole list back to check you got it right is the bit that reads as odd there. Nobody checks."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n28",
-      "bloco": "clique",
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
       "tom": "ganha",
-      "pt": "Count the places. The lunch table. The fish counter. The wine list. The cheese counter."
+      "molde": "EXETE",
+      "encaixe": "κάτι χωρίς κρέας",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i03-p08",
+      "promptPt": "Someone at your table does not eat meat and the day's list was read out loud, not printed. Speak now.",
+      "audioKey": "el-i03-t08",
+      "es": "Έχετε κάτι χωρίς κρέας;",
+      "pinyin": "E-he-te KA-ti ho-RIS KRE-as",
+      "pt": "Do you have anything without meat?",
+      "tts": "Έχετε κάτι χωρίς κρέας;"
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "EXETE",
+      "encaixe": "τοπικό κρασί",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i03-p09",
+      "promptPt": "The wine list is three imported labels and there is a barrel behind the counter. Speak now.",
+      "audioKey": "el-i03-t09",
+      "es": "Έχετε τοπικό κρασί;",
+      "pinyin": "E-he-te to-pi-KO kra-SI",
+      "pt": "Do you have local wine?",
+      "tts": "Έχετε τοπικό κρασί;",
+      "tom": "ganha"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i03-r04",
+      "receptivo": true,
+      "es": "Να τα φέρω όλα μαζί;",
+      "pt": "Shall I bring it all together?",
+      "tts": "Να τα φέρω όλα μαζί;",
+      "acao": "He is asking about order of arrival, not about quantity. Yes means the table fills at once."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i03-p10",
+      "promptPt": "You have decided, it is one of the two he named, and you can point at the tray. Speak now.",
+      "audioKey": "el-i03-t10",
+      "es": "Θα πάρω αυτό.",
+      "pinyin": "tha PA-ro af-TO",
+      "pt": "I'll have that one.",
+      "tts": "Θα πάρω αυτό.",
+      "tom": "ganha"
+    },
+    {
+      "consulta": [
+        "comer/escolher",
+        "conversa/elogiar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i03-p11",
+      "promptPt": "The dish they brought was the best thing you have eaten here. Tell them, and ask what else they do like that. Speak now.",
+      "audioKey": "el-i03-t11",
+      "es": "Ήταν πεντανόστιμο! Τι άλλο κάνετε καλά;",
+      "pinyin": "EE-tan pen-da-NO-sti-mo! tee AL-lo KA-ne-te ka-LA",
+      "pt": "That was delicious! What else do you do well?",
+      "tts": "Ήταν πεντανόστιμο! Τι άλλο κάνετε καλά;",
+      "tom": "ganha"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n29",
-      "pt": "Nobody gave you those four sentences. You built them out of one question with two things in it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n30",
-      "bloco": "piso",
-      "pt": "You will order a three-course Spanish lunch off a handwritten board. Most visitors never do it once."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-s00",
-      "pt": "Shadowing. Out loud, underneath them, one touch on the r. The two that go everywhere:"
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i03-n07",
+      "pt": "Mporó na do is a sentence, not a licence. It asks to look at what is out, not to walk into a kitchen."
     },
     {
       "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "i03-cualarroz-c",
-      "molde": "ELECCION",
-      "es": "¿Cuál me recomienda: el arroz o el pescado?",
-      "pinyin": "KWAL meh rreh-koh-MYEN-dah: el ah-RROTH oh el pes-KAH-dhoh",
-      "pt": "Which do you recommend: the rice or the fish?"
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Emilio",
-      "audioKey": "i03-tipico-e",
-      "molde": "ELECCION",
-      "es": "¿Cuál es más típico de aquí?",
-      "pinyin": "KWAL es mahs TEE-pee-koh deh ah-KEE",
-      "pt": "Which is the most local one?"
+      "voz": "target_el_f",
+      "audioKey": "el-i03-s01",
+      "es": "Τι έχετε σήμερα; Έχετε μαγειρευτά; Τι μας προτείνετε;",
+      "pinyin": "ti E-he-te SI-me-ra · E-he-te ma-yi-ref-TA · ti mas pro-TI-ne-te",
+      "pt": "Shadow the three questions that get you off the laminated menu and onto today's list.",
+      "tts": "Τι έχετε σήμερα; Έχετε μαγειρευτά; Τι μας προτείνετε;",
+      "molde": "EXETE"
     },
     {
       "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "i03-rend",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i03-n08",
       "bloco": "recap",
-      "pt": "One more out loud, somewhere we have not stood yet, and this time nobody has read you anything."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "ELECCION",
-      "encaixe": "este o aquel",
-      "encaixeGloss": "this one or that one",
-      "promptAudioKey": "i03-p11",
-      "promptPt": "Nine in the morning, a pastry shop two doors from the hotel, two trays of things you have never seen, and the woman has her tongs out. Speak now.",
-      "audioKey": "i03-esteaquel-c",
-      "es": "¿Cuál me recomienda: este o aquel?",
-      "pinyin": "KWAL meh rreh-koh-MYEN-dah: EHS-teh oh ah-KEL",
-      "pt": "the same two fingers"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i03-n31",
-      "pt": "That is it. Three courses, a name you could not read, and the plate they are proud of. Hasta luego."
+      "pt": "I03 done. What is cooking today, magireftá by name, and the bread you agree to before it is charged."
     }
   ],
-
   "aprofundar": {
-    "titulo": "Which of the two, and the lunch you keep walking past (optional reading)",
+    "titulo": "Four words, two families and one question",
     "secoes": [
       {
-        "titulo": "The question that comes back small",
-        "corpo": "An open question gets an open answer, and an open answer in Spanish at counter speed is eleven seconds you cannot hold on to. '¿Qué me recomienda?' is a perfectly good sentence that hands the whole board back to a stranger and asks him to describe it. '¿Cuál me recomienda: el arroz o el pescado?' hands him two things and takes one back. That is the entire design: you are not testing your comprehension, you are shrinking the answer until it fits. The front never moves — cuál me recomienda — and what changes is the two things, which you read off the board, off the shelf or off the next table. Four endings cover the trip: two things joined by 'o'; '¿cuál está mejor hoy?' when the counter changes daily; '¿cuál es más típico de aquí?' when you want the local one rather than the popular one; and '¿este es mejor que aquel?' when you are holding both. If you are wondering why it is cuál and not qué — Spanish reaches for cuál when the choice is between things already in front of you, and qué when you are asking for a category. You will never need to know that at a table. Pick the version with the two things in it and the question sorts itself out. One more thing you can safely ignore: we recorded 'recomienda', the version for somebody behind a counter you do not know. In a young bar you will hear 'recomiendas' flying about, and if somebody uses that with you, use it back. Nothing here breaks either way.",
+        "titulo": "The four words are custom, not law",
+        "corpo": "Greek food-safety law does not know what a taverna is. It files taverna, estiatório, ouzerí and psistariá together as επιχειρήσεις μαζικής εστίασης under the notification regime of law 4442/2016. The four words are a commercial and customary distinction, and that is exactly what makes them useful: they tell you what to expect on the menu and what register the room is in, and they promise nothing beyond that. A tsipourádiko is mostly a Vólos and Thessaly thing, so treat that one as regional rather than national.",
         "exemplos": [
           {
-            "es": "¿Cuál me llevo, el manchego o el cabrales?",
-            "pt": "KWAL meh YEH-boh — which shall I take, the manchego or the cabrales? (the version for a shop counter)"
-          },
-          {
-            "es": "¿Este es mejor que aquel?",
-            "pt": "EHS-teh es meh-KHOR keh ah-KEL — is this one better than that one? (when you are holding both)"
+            "es": "Τι έχετε σήμερα;",
+            "pt": "What have you got today?"
           }
         ]
       },
       {
-        "titulo": "El menú del día — what you get, what it costs, and the myth to bin",
-        "corpo": "A starter, a main, bread, a drink and pudding or coffee, for one fixed price, on weekdays at lunchtime. The national average was about €14.20 in 2026 (Hostelería de España with Edenred), and it moves by region: cheapest in the Canaries, Asturias, Andalusia and Murcia, dearest in the Balearics. It was €11.70 in 2016, which means it has risen more slowly than the cost of everything else. It is the best value in Spanish eating, and most English-speaking visitors walk straight past it because they are scanning for the words 'set menu' and what is written on the board is 'menú'. Correction worth carrying: no law in force obliges a restaurant to offer one. The requirement dates from the Franco era and was repealed, so any guide that tells you every restaurant must have one is out of date. It survives because it works — for the kitchen, which cooks two things well and in quantity, and for the customer. Two consequences you can act on. It is lunch, not dinner: la comida runs from about two to half three or four, and by mid-afternoon the offer has gone with it. And 'menú' is not 'menu' — the list of everything else is la carta, so 'la carta, por favor' gets you the full list and 'el menú, por favor' gets you today's three plates.",
+        "titulo": "Magireftá and tis óras",
+        "corpo": "Magireftá are the dishes cooked earlier in trays and pots — stuffed vegetables, beans, briám, things that sat and got better. Tis óras is what goes on the grill when you order it. Asking éhete magireftá names a whole family in two words, and it is the family a laminated tourist menu tends to bury.",
         "exemplos": [
           {
-            "es": "¿Hay menú del día?",
-            "pt": "ai meh-NOO del DEE-ah — is there a set lunch on?"
+            "es": "Έχετε μαγειρευτά;",
+            "pt": "Do you have pot dishes?"
           },
           {
-            "es": "¿El menú lleva postre o café?",
-            "pt": "el meh-NOO YEH-bah POHS-treh oh kah-FEH — does the set lunch come with pudding or coffee? (usually one or the other, your choice)"
+            "es": "Θα πάρω αυτό.",
+            "pt": "I'll have that one."
           }
         ]
       },
       {
-        "titulo": "Tapa, pincho, ración, media ración — and why the table filled up",
-        "corpo": "Four words, four different sizes, and getting them the wrong way round is how two people end up with food for six. A tapa is the small plate that goes with a drink — free with the round in eastern Andalusia and a paid item in Barcelona and Madrid, which is geography and not law, and which part eleven covers in full. A pincho or montadito is the northern version, usually on a slice of bread and charged by the piece. A ración is a full sharing plate built for the middle of the table, and it is the one that surprises people: four raciones between two of you is not four small dishes, it is dinner for a family. A media ración is half of one, it is completely normal to ask for, and it is what lets two people try four things instead of two. Sharing from the centre is the default rather than a special occasion, so nobody will look twice if you reach across. The exception is the menú del día, which is plated per person: your starter, your main, and asking to share it just confuses the waiter. And if you cannot tell which size is in front of you, there is one question that settles it before anything is cooked.",
-        "exemplos": [
-          {
-            "es": "¿Esto es tapa, media ración o ración?",
-            "pt": "EHS-toh es TAH-pah, MEH-dhyah rrah-THYON oh rrah-THYON — is this a tapa, a half portion or a full one?"
-          },
-          {
-            "es": "Una media ración, para probar.",
-            "pt": "OO-nah MEH-dhyah rrah-THYON, PAH-rah proh-BAR — a half portion, just to try it"
-          }
-        ]
+        "titulo": "Bread, water and the thing that cannot be charged",
+        "corpo": "Cover charge is prohibited outright, and no product at all — bread and bottled water explicitly included — may be served and charged without prior consent, at €500 an item. Bread can perfectly well appear on the bill if it was offered and you said yes. So the question to listen for is thélete, and the useful answer is whichever one you actually mean."
       },
       {
-        "titulo": "Reading a board you cannot read",
-        "corpo": "You are not going to translate a handwritten chalkboard in the ninety seconds you have before somebody comes over, and you do not need to. Ten words repeat on almost every board in the country, and they are worth more than a dictionary: de primero and de segundo are the two courses, de postre is the pudding, del día is today's, de la casa is the house one, casero is home-made, a la plancha is off the griddle, al horno is baked, frito is fried, and rebozado means it has been battered. Everything else is a noun you can survive not knowing, because three sentences pick up the slack: '¿lleva…?' opens a dish before it arrives, 'lo mismo' plus a finger at the next table orders something you cannot name, and the frame from this part turns the whole board into a choice between two. What none of this requires is understanding all of it. Nobody at that table is marking your comprehension, and the waiter shutting the board and naming one dish is not a trick question — it is the shortest recommendation he has. Say yes to it. The worst case is a plate you would not have picked, which is precisely the plate this part is named after.",
-        "exemplos": [
-          {
-            "es": "Lo mismo que ellos, por favor.",
-            "pt": "loh MEES-moh keh EH-yohs — the same as them, please (said with a finger at the next table)"
-          },
-          {
-            "es": "¿Y de postre, qué hay?",
-            "pt": "ee deh POHS-treh, keh ai — and for pudding, what is there?"
-          }
-        ]
+        "titulo": "Ordering for the table",
+        "corpo": "Mezédes are small plates that come to the middle of the table, so ordering a few of them settles what everybody eats in one sentence instead of four. That is a fact about how the plates arrive, and it is the whole of the claim this course makes. Separately, and it proves nothing about your table: UNESCO's inscription of the Mediterranean Diet, which Greece helped submit, records that eating together is foundational to the identity and continuity of communities across the Mediterranean. That is heritage listing, not an anthropological rule about who shares what — do not read it as one."
+      },
+      {
+        "titulo": "Mporó na do",
+        "corpo": "You will read in a lot of travel writing that visitors go into Greek kitchens to look in the pots. This course does not make that claim: there is no source behind it. What the course gives you is the sentence — mporó na do, may I have a look — which is ordinary, polite, and answerable with a yes or a no by whoever is standing there."
       }
     ]
-  }
+  },
+  "slot": "I03",
+  "permissao": "You are allowed to ignore the menu in your hand. The laminated card with pictures is not the enemy and it is not a trap — it is just a slower document than the person standing next to you, who knows what came out of the oven at eleven this morning and will tell you if you ask.",
+  "permissaoAudioKey": "el-i03-n03",
+  "espelho": "Anyone who has eaten in their own city and watched a visitor order the one dish on the menu that exists purely for visitors knows this from the other side. It is never that the visitor was fooled — it is that nobody asked, and the short list is only ever spoken out loud.",
+  "fichasCulturais": [
+    {
+      "sinal": "You are choosing between two places by the word on the sign — taverna here, estiatório there — and treating it as a grading.",
+      "suaLeitura": "One of these words means the authentic one and the other means the tourist one.",
+      "oQueEAli": "The words are not legal categories: food-safety law groups all of them as mass catering businesses under a single notification regime. The distinction is commercial and customary, so it tells you what kind of menu and what register of room to expect, and nothing about who eats there.",
+      "oQueVoceFaz": "Stop grading by the sign and ask inside instead: ti éhete símera, and éhete magireftá. The answer sorts the room in one sentence.",
+      "oQueMelhora": "You stop paying for a word on an awning and start choosing by what is actually cooked in the building.",
+      "ondeNaoVale": "Not a claim that the words are meaningless — they are a real and useful expectation. And glosses vary by region: a tsipourádiko is largely a Vólos and Thessaly institution, not a national one.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i03-n01"
+      ]
+    },
+    {
+      "sinal": "Bread you did not order arrives at the table, and a small charge for it turns up on the bill.",
+      "suaLeitura": "This is the local version of a cover charge and arguing about it would be tedious.",
+      "oQueEAli": "Cover charge is prohibited, and no product — bread and bottled water named explicitly — may be served and charged without prior consent, with a €500 fine per item. Bread offered and accepted is a normal chargeable item; bread landed silently and billed is not.",
+      "oQueVoceFaz": "Listen for thélete when it arrives, and answer it. If it comes without a question and you do not want it, óhi psomí, efharistó is enough, said once and calmly.",
+      "oQueMelhora": "You stop bracing for a charge that is not supposed to be there, and you keep the exchange friendly because you handled it at the table rather than at the bill.",
+      "ondeNaoVale": "Not a rule that bread is free — offered and accepted, it is a legitimate item at a legitimate price. And this is a consumer rule to know, not a script for a confrontation over one euro.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i03-n05"
+      ]
+    }
+  ]
 }

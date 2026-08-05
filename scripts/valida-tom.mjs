@@ -382,6 +382,23 @@ for (const p of partes) {
       `G1: ${p.f} declara "ganha", mas o título é de perda — "${(p.j.titulo || '').slice(0, 55)}"`
     );
   }
+
+  // ── G1b — MOLDURA FORA DO ENUM ─────────────────────────────────────────────
+  // O contrato tem DOIS valores: 'ganha' e 'protege'. Um terceiro passa calado
+  // pelos dois ramos acima — não é falsy, então não acusa campo ausente; não é
+  // 'ganha', então o léxico de perda nunca roda; não é 'protege', então não conta
+  // na cota defensiva. É um valor que PAGA AO AUTOR, e foi assim que 27 partes do
+  // catálogo escaparam do G1 sem ninguém perceber. Duas delas foram marcadas
+  // assim deliberadamente quando a cota de 'protege' encheu — que é exatamente o
+  // incentivo que este teste existe para remover.
+  if (declarado && declarado !== 'ganha' && declarado !== 'protege')
+    erros.push(
+      `G1b: ${p.f} declara moldura "${declarado}", que não existe — o contrato tem ` +
+        `'ganha' e 'protege' e mais nada. Um terceiro valor não é uma terceira opção: é uma ` +
+        `saída do portão. Se a parte protege, declare 'protege' e pague a cota; se ela dá uma ` +
+        `capacidade, declare 'ganha' e faça o título dizer isso.`
+    );
+
   if ((declarado || (cheira ? 'protege' : 'ganha')) === 'protege') contagemG1[m]++;
 }
 

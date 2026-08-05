@@ -1,835 +1,374 @@
 {
   "id": "a05",
-  "slot": "A05",
   "nivel": "avancado",
   "numero": 33,
   "parte": "A05",
-  "titulo": "Bon dia, kaixo, bo día",
-  "subtitulo": "Eight signs, eight words and two seconds at the door — knowing which language the house speaks, and what happens to the service when you use it",
+  "titulo": "The other language",
+  "subtitulo": "English turns up often and this course will not promise you it always will — because speaking is the weakest of the four skills in the index, and six Greek words carry the rest",
+  "cena": "You opened at the counter in English, the answer came back in one careful word, and now neither of you is sure which language this exchange is in.",
   "moldura": "ganha",
-
-  "cena": "Ten past nine on a Tuesday in Gràcia, the board behind the counter is in a language you half recognise, four regulars have looked up, and the barman is waiting for you to say something.",
-
-  "frasePiso": "You will read an exit, a closed door and a toilet in three languages you do not speak, and greet a room in the one on the door. Most visitors spend a fortnight assuming every sign in the country is in Spanish.",
-
-  "permissao": "You will not offend a soul by speaking Spanish in Barcelona, Bilbao or Santiago. Nobody expects a word of Catalan, Basque or Galician from a visitor, and almost everyone will answer you in Castilian the moment they hear your accent. Bon dia is a courtesy, not a requirement, and courtesy is free. You are also allowed to get a sign wrong and point at it.",
-  "permissaoAudioKey": "a05-n06",
-
-  "espelho": "Opening with 'sorry, I don't speak Catalan' is the bit that reads as odd there. It hands them something to sort out that they never had — they were going to answer you in Castilian anyway. Two words of greeting and then your ordinary Spanish does the same job, without asking to be forgiven for it.",
-
-  "fichasCulturais": [
-    {
-      "sinal": "The board behind the bar is in Catalan only, and the second you open your mouth the barman answers you in Castilian without being asked.",
-      "suaLeitura": "They have put the menu up in a language they know I cannot read, and now they are correcting me by switching out of it.",
-      "oQueEAli": "Two separate decisions by the same person. The board is in the language of the street the bar stands on; the switch is service, done in a second for anybody who is not from there.",
-      "oQueVoceFaz": "Say bon dia going in, then order in your ordinary Spanish and let the switch happen.",
-      "oQueMelhora": "You get served in the language you actually have, and the two seconds you spent at the door are the part that gets remembered next time.",
-      "ondeNaoVale": "Not with Basque. Far fewer people on a Bilbao street use it hour to hour, so kaixo lands as a nice gesture rather than as the language of the house — nothing switches, because nothing was in the other language to begin with.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["a05-n25", "a05-n26", "a05-n27"]
-    },
-    {
-      "sinal": "You say the friendly version of 'it's basically Spanish, isn't it', and the conversation that was going well goes flat in about four seconds.",
-      "suaLeitura": "I made a harmless remark about languages and now they have gone cold on me for no reason I can see.",
-      "oQueEAli": "It has its own grammar, its own spelling and about a thousand years of writing, and it has been co-official for decades under article 3 of the 1978 constitution. Filing it under Spanish reads as filing somebody's home address under a neighbour's name.",
-      "oQueVoceFaz": "Ask instead. Put a finger on the word on the board and ask what it says.",
-      "oQueMelhora": "You get two minutes of teaching, the table turns towards you, and you leave knowing a word you will see on forty more doors.",
-      "ondeNaoVale": "Not as a correction pointed the other way. In Valencia the people who wrote the menu call it valencià, and telling them it is Catalan is the same move in reverse. Use the name that is on the sign.",
-      "evidencia": "FATO",
-      "audioKeys": ["a05-n29", "a05-n30", "a05-n31", "a05-n32"]
-    },
-    {
-      "sinal": "You say bon dia, they beam at you, and the very next sentence out of them is in Castilian.",
-      "suaLeitura": "I got it wrong, or they have decided my two words are not worth playing along with.",
-      "oQueEAli": "The greeting is read as a courtesy, never as a claim to speak the language; switching to the one you both have is the polite half of the same exchange, and it happens in under a second.",
-      "oQueVoceFaz": "Take the switch, carry on in Spanish, and put adéu on the way out.",
-      "oQueMelhora": "The service warms up visibly, and it cost you four words in total across the whole visit.",
-      "ondeNaoVale": "Not everywhere it stays in Castilian afterwards. A village bakery inland, an older woman, and the answer keeps coming back in Catalan — that is not a rebuff either. Say adéu, point at what you want, and you both get there.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["a05-n26", "a05-n28"]
-    }
-  ],
-
+  "frasePiso": "Six words first, then the request. And when the ear runs out, ask for a pen.",
+  "moldes": [],
   "fatosDatados": [
     {
-      "id": "cooficialidade-1978",
-      "afirmacao": "Catalan, Basque and Galician are co-official alongside Castilian in the communities whose statutes establish them, under article 3 of the 1978 constitution.",
-      "fonte": "Constitución Española de 1978, art. 3 (BOE-A-1978-31229)",
-      "ano": 1978,
-      "revisarAte": "2030-01-01",
+      "id": "el-a05-efepi",
+      "afirmacao": "The EF English Proficiency Index 2025 places Greece at 592, ranked twentieth globally, in the «High» band, down ten points on the previous edition. Broken down by skill: reading 600, listening 592, writing 571 and speaking 533 — speaking is the weakest of the four. The caveat is obligatory and EF states it itself: respondents are self-selected, have internet access, and are skewed towards people already interested in languages. The index therefore does not measure the English of the Greek population; it measures the English of Greeks who chose to sit an online test. It supports saying that Greece figures among the high-proficiency countries in commercial self-selected indices, and never supports any claim of the form «X per cent of Greeks speak English».",
+      "fonte": "EF English Proficiency Index 2025 — Grécia 592, #20 global, banda «High»; por habilidade: leitura 600, compreensão oral 592, escrita 571, fala 533. Ressalva de autosseleção admitida pela própria EF",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "el-a05-n02",
+        "el-a05-n03",
+        "el-a05-n04",
+        "el-a05-n05"
+      ]
+    },
+    {
+      "id": "el-a05-elot",
+      "afirmacao": "The romanisation you meet on Greek road signs is a standard: ΕΛΟΤ 743, second edition of 2001, identical to ISO 843:1997, adopted by the British PCGN in 1996 and recommended by the United Nations in resolution V/19 of 1987. The PCGN's Greece Toponymic Factfile of April 2020 records verbatim that ELOT 743 «is very widely used on road signs in Greece as well as printed guide books», and also that it «is a less reliable guide to Modern Greek pronunciation» than the BGN/PCGN system of 1962 that it replaced. Reading the Latin-letter version of a Greek word aloud therefore does not produce the Greek pronunciation of it.",
+      "fonte": "PCGN, «Greece Toponymic Factfile», abril 2020; ΕΛΟΤ 743, 2ª edição, 2001 (= ISO 843:1997); resolução ONU V/19 (1987)",
+      "ano": 2020,
+      "revisarAte": "2029-08-05",
       "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["a05-n30"]
-    },
-    {
-      "id": "nome-valencia",
-      "afirmacao": "In the Valencian Community the same language is officially called valencià, and that is the name on the menus and the signs there.",
-      "fonte": "Estatut d'Autonomia de la Comunitat Valenciana (Llei Orgànica 1/2006), art. 6 — síntese secundária, sem consulta ao texto primário",
-      "ano": 2006,
-      "revisarAte": "2029-01-01",
-      "evidencia": "CONSENSO",
-      "risco": "baixo",
-      "audioKeys": ["a05-n32"]
-    },
-    {
-      "id": "basco-lingua-isolada",
-      "afirmacao": "Basque (euskara) has no demonstrated relationship to Spanish, to French, to Latin or to any other living language, and its origin is unresolved.",
-      "fonte": "Ethnologue / Glottolog classificam euskara como língua isolada; consenso da linguística histórica, sem fonte primária consultada",
-      "ano": 2026,
-      "revisarAte": "2031-01-01",
-      "evidencia": "CONSENSO",
-      "risco": "baixo",
-      "audioKeys": ["a05-n17", "a05-n18"]
+      "audioKeys": [
+        "el-a05-n11",
+        "el-a05-n12"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n01",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a05-n01",
+      "gesto": 1,
       "bloco": "aquecimento",
-      "gesto": 3,
-      "tom": "ganha",
-      "pt": "Part thirty-three. Warm-up: the punch. Bon DI-a. Es-ke-RRIK AS-ko. One hit a word, the rest small."
+      "pt": "You will meet English here, often. What this part will not do is promise you that you always will."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n02",
-      "pt": "Eight of today's words are not Spanish at all. The hand still works: one punch, and nothing swallowed."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "bloco": "callback",
-      "promptAudioKey": "a05-p01",
-      "promptPt": "Last night, second glass of wine, and the older man opposite has asked you straight out what you make of Catalan independence. Hand him the floor. Speak now.",
-      "audioKey": "c03b-18",
-      "es": "No conozco bien el tema, cuénteme.",
-      "pinyin": "noh koh-NOHTH-koh byen el TEH-mah, KWEN-teh-meh",
-      "pt": "hand it back, do not rule"
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a05-n02",
+      "bloco": "corpo",
+      "pt": "The commercial index puts Greece at 592 for 2025, twentieth in the world, in the High band."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n03",
-      "bloco": "cena",
-      "pt": "Ten past nine, Tuesday, a bar in Gràcia. The board behind the counter is in a language you half recognise."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a05-n03",
+      "pt": "With one caveat the publisher states itself: people opt into that test online. It measures them, not a country."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n04",
-      "pt": "You can read about a third of it. Sortida. Tancat. Esmorzar. Close enough to guess, far enough to be sure of nothing."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a05-n04",
+      "pt": "The useful detail is inside it. Reading scores 600 and speaking 533 — speaking is the weakest of the four."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n05",
-      "pt": "Four regulars have looked up. The barman is waiting. And today the permission comes before anything else."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n06",
-      "bloco": "permissao",
-      "pt": "You will not offend a soul by speaking Spanish in Barcelona. Not one. They will answer you in it before you finish."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n07",
-      "pt": "Bon dia is a courtesy, never a requirement, and courtesy is free. Nobody expects a second word of it from you."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n08",
-      "pt": "What you do need is your eyes. In a neighbourhood bar the door and the board may be in the other language only."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n09",
-      "pt": "Not to make a point at you. Because that is the language of the street the bar is standing on."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "c03b-14",
-      "es": "SORTIDA · OBERT · TANCAT",
-      "pinyin": "soor-TEE-dhuh · oo-BEHRT · tuhn-KAT",
-      "pt": "👂 Catalan on a door: EXIT · OPEN · CLOSED. Sortida is the salida; tancat is the cerrado.",
-      "tts": "Sortida. Obert. Tancat."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "c03b-15",
-      "es": "ESTIRAR · EMPÈNYER · LAVABOS",
-      "pinyin": "uhs-tee-RAH · uhm-PEH-nyuh · luh-BAH-boos",
-      "pt": "👂 Catalan doors: PULL · PUSH · TOILETS. Estirar is PULL, the same job as the tirar from part ten. Empènyer is the push, and it looks like nothing you know.",
-      "tts": "Estirar. Empènyer. Lavabos."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a05-esmorzar-c",
-      "es": "ESMORZAR · DINAR · SOPAR",
-      "pinyin": "uhz-moor-ZAH · dee-NAH · soo-PAH",
-      "pt": "👂 Catalan meals: BREAKFAST · LUNCH · DINNER. It is how the opening hours on the door are written.",
-      "tts": "Esmorzar. Dinar. Sopar."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a05-preu-e",
-      "es": "PREU · PA · AIGUA",
-      "pinyin": "PREH-oo · PAH · AI-gwuh",
-      "pt": "👂 Catalan on a menu: PRICE · BREAD · WATER. Three of the four things you read a menu for.",
-      "tts": "Preu. Pa. Aigua."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "c03b-16",
-      "es": "IRTEERA · KOMUNA · SAÍDA · PECHADO",
-      "pinyin": "eer-TEH-eh-rah · koh-MOO-nah · sah-EE-dhah · peh-CHAH-dhoh",
-      "pt": "👂 Basque: EXIT · TOILET. Galician: EXIT · CLOSED. Four words, and they are the four you would hate to miss.",
-      "tts": "Irteera. Komuna. Saída. Pechado."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n10",
-      "pt": "Two of those pay for the whole section: tancat on a door you were about to try, and sortida on your way out."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "a05-g01",
-      "tom": "protege",
-      "pt": "GUIRI ALERT. George here. Barcelona, day two, menu in Catalan, and I said the sentence out loud."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "a05-g02",
-      "pt": "'Why isn't this in Spanish?' The two blokes at the next table heard it. My evening got about an hour shorter."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "a05-g03",
-      "pt": "The line that does the opposite is two words and goes in first. Bon dia. That is the whole of it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n11",
-      "tom": "ganha",
-      "pt": "So: the words that cost two seconds and change the temperature of a room. Catalan first, where most of you are going."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "c03b-05",
-      "es": "Bon dia.",
-      "pinyin": "bohn DEE-ah",
-      "pt": "Hello, or good morning. — Catalan. It goes to the room, not to one person.",
-      "tts": "Bon dia."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n12",
-      "pt": "To the room. Loud enough that the man at the far end of the counter hears it, and then you carry on as normal."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a05-p02",
-      "promptPt": "You push open the door of a small bar in Gràcia at nine in the morning, and four regulars look up from the counter. Greet the room in the language on the board. Speak now.",
-      "audioKey": "c03b-05",
-      "es": "Bon dia.",
-      "pinyin": "bohn DEE-ah",
-      "pt": "to the room, on the way in",
-      "consulta": ["chegar/entrar"]
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a05-digui-e",
-      "es": "Bon dia! Digui.",
-      "pinyin": "bohn DEE-ah · DEE-ghee",
-      "pt": "👂 'Morning! Go ahead.' — digui is the Catalan dime. The door is open; order in your ordinary Spanish.",
-      "tts": "Bon dia! Digui."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n13",
-      "pt": "Two more and Catalan is finished for life. The one that hangs off the end of anything you ask for:"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a05-sisusplau-e",
-      "es": "Si us plau.",
-      "pinyin": "see oos PLAH-oo",
-      "pt": "The courteous ending. — Catalan. Three little words that behave like one.",
-      "tts": "Si us plau."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n13b",
-      "pt": "It goes on the end, after the pointing, never in front of it. It is the only thing a finger needs adding to it."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a05-p03",
-      "promptPt": "A bakery in Girona. You have pointed at the thing in the window and held up one finger, and she is already reaching for it. Round it off in the language of her sign. Speak now.",
-      "audioKey": "a05-sisusplau-e",
-      "es": "Si us plau.",
-      "pinyin": "see oos PLAH-oo",
-      "pt": "the ending, in hers",
-      "consulta": ["compras/balcao"]
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a05-aquite-c",
-      "es": "Aquí té.",
-      "pinyin": "ah-KEE TEH",
-      "pt": "👂 'There you are.' — Catalan, said as it goes across the counter into your hand.",
-      "tts": "Aquí té."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "c03b-06",
-      "es": "Moltes gràcies.",
-      "pinyin": "MOHL-tuhs GRAH-see-uhs",
-      "pt": "The big one. — Catalan. The ending is a soft 'uh', not the Spanish 'ah'.",
-      "tts": "Moltes gràcies."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n14",
-      "pt": "There is the first thing your mouth has to let go of. The ends of the words go soft here."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n15",
-      "pt": "Spanish holds all five vowels bright to the last letter. This one lets the last one fall away. By ear, never by rule."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a05-p04",
-      "promptPt": "She has wrapped it, handed it over and waved off the small change. Give her the big version of it, in hers. Speak now.",
-      "audioKey": "c03b-06",
-      "es": "Moltes gràcies.",
-      "pinyin": "MOHL-tuhs GRAH-see-uhs",
-      "pt": "the big version, soft on the end",
-      "consulta": ["simpatia/agradecer"]
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a05-derres-c",
-      "es": "De res.",
-      "pinyin": "deh RREHS",
-      "pt": "👂 'Not at all.' — Catalan. Same job as de nada, and it is the answer you will get.",
-      "tts": "De res."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n16",
-      "pt": "And the one on the way out, because here you greet coming in and going out — both in the same language if you like."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "c03b-09",
-      "es": "Adéu.",
-      "pinyin": "ah-DEH-oo",
-      "pt": "The sign-off. — Catalan. Two syllables, both fully paid.",
-      "tts": "Adéu."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n16b",
-      "pt": "Two syllables and both get paid. Not mumbled at the floor somewhere between the table and the door."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a05-p05",
-      "promptPt": "Coat on, coffee paid, and you are two steps from the door of that same bar. Do not just walk out — sign off in the language you came in with. Speak now.",
-      "audioKey": "c03b-09",
-      "es": "Adéu.",
-      "pinyin": "ah-DEH-oo",
-      "pt": "on the way out",
-      "consulta": ["chegar/sair"]
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a05-finsaviat-c",
-      "es": "Adéu! Fins aviat.",
-      "pinyin": "ah-DEH-oo · feens uh-BYAT",
-      "pt": "👂 'Bye! See you soon.' — Catalan. Fins aviat is what comes back when the door is being left open for you.",
-      "tts": "Adéu! Fins aviat."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n17",
-      "pt": "Basque next, and two words is all of it. Euskara is related to Spanish, to French and to Latin in exactly no way."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n18",
-      "pt": "Nor to anything else alive. Nobody knows where it came from, and nothing in it will remind you of anything."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a05-kaixo-c",
-      "es": "Kaixo.",
-      "pinyin": "KAI-shoh",
-      "pt": "Hello. — Basque. Easier than it looks on paper: kai-sho.",
-      "tts": "Kaixo."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n18b",
-      "pt": "One word, and it has to clear the noise. A pintxo bar at half one is the loudest room you will stand in all trip."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a05-p06",
-      "promptPt": "Half past one, a pintxo bar in the old town in Bilbao, and you have just got through the door into a wall of noise. Greet the room in the language of that street. Speak now.",
-      "audioKey": "a05-kaixo-c",
-      "es": "Kaixo.",
-      "pinyin": "KAI-shoh",
-      "pt": "one word, through the noise",
-      "consulta": ["chegar/entrar"]
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a05-zernahi-e",
-      "es": "Kaixo! Zer nahi duzu?",
-      "pinyin": "KAI-shoh · sehr NAH-ee DOO-soo",
-      "pt": "👂 'Hello! What would you like?' — Basque. Answer it in Spanish; that is what he is expecting anyway.",
-      "tts": "Kaixo! Zer nahi duzu?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "c03b-11",
-      "es": "Eskerrik asko.",
-      "pinyin": "ehs-KEH-rreek AHS-koh",
-      "pt": "Thank you. — Basque. Nothing in it looks like Spanish, and that is exactly the point.",
-      "tts": "Eskerrik asko."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n19",
-      "pt": "In a pintxo bar you take what you want off the counter and he counts the sticks at the end. This is for after he counts."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a05-p07",
-      "promptPt": "He has counted your sticks, said the total and pushed the plate aside. You have paid. Now give him the long one, in his. Speak now.",
-      "audioKey": "c03b-11",
-      "es": "Eskerrik asko.",
-      "pinyin": "ehs-KEH-rreek AHS-koh",
-      "pt": "the long one, in his"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n19b",
-      "pt": "And when the word coming back has nothing in it to hold on to, the kit from part three works in all three of these."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a05-p07b",
-      "promptPt": "The woman at the far end of the counter has named the pintxo you liked, twice, and it is five syllables of nothing you recognise. She will happily say it a third time. That is not what you need. Speak now.",
-      "audioKey": "e01c-08",
-      "es": "¿Me lo escribe, por favor?",
-      "pinyin": "meh loh ehs-KREE-beh, por fah-BOR",
-      "pt": "get it onto paper"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n20",
-      "pt": "Galicia last, and it sounds a great deal more Portuguese than you are expecting. Two words again, and then we stop."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a05-bodia-e",
-      "es": "Bo día.",
-      "pinyin": "boh DEE-ah",
-      "pt": "Good morning. — Galician. Say it in Santiago and watch the face opposite you change.",
-      "tts": "Bo día."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n20b",
-      "pt": "Half the vowels of the one you have been learning, and the rest of it you can nearly read off the page."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a05-p08",
-      "promptPt": "Rain in Santiago, and you have ducked into a café off the square where even the till receipt is in the other one. Open with their morning greeting. Speak now.",
-      "audioKey": "a05-bodia-e",
-      "es": "Bo día.",
-      "pinyin": "boh DEE-ah",
-      "pt": "the morning one, in theirs"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "c03b-12",
-      "es": "Grazas.",
-      "pinyin": "GRAH-thahs",
-      "pt": "Thanks. — Galician. The same 'th' as gracias, one syllable shorter.",
-      "tts": "Grazas."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n20c",
-      "pt": "One syllable shorter than the Spanish, and the th in the middle is the one you already own from part one."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a05-p09",
-      "promptPt": "He has brought the coffee and, beside it, a slice of something with almonds in it that you never ordered and are not being charged for. One word back. Speak now.",
-      "audioKey": "c03b-12",
-      "es": "Grazas.",
-      "pinyin": "GRAH-thahs",
-      "pt": "one word back"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n20d",
-      "pt": "And the move this whole part turns on: asking, instead of nodding at something you did not get."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a05-p09b",
-      "promptPt": "He answers with a whole sentence and that one was not in Spanish either. You did not catch a word of it and you are already nodding. Do the other thing, and ask him for it again. Speak now.",
-      "audioKey": "e01c-07",
-      "es": "No entiendo. ¿Cómo dice?",
-      "pinyin": "noh en-TYEN-doh. KOH-moh DEE-theh",
-      "pt": "say so, and ask again"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n21",
-      "pt": "One more language in the room, and this one is Spanish. It is the one they aim at two people at once."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n22",
-      "pt": "It comes at you and whoever you are with, so you are on the receiving end of it and almost never saying it."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a05-vais-c",
-      "es": "¿Qué vais a tomar?",
-      "pinyin": "keh bais ah toh-MAR",
-      "pt": "👂 'What are you two having?' — the bar question from part eleven, pointed at two people.",
-      "tts": "¿Qué vais a tomar?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a05-habeis-e",
-      "es": "¿Habéis reservado?",
-      "pinyin": "ah-BAYS rreh-sehr-BAH-dhoh",
-      "pt": "👂 'Have you booked?' — at the door of the restaurant, before you are through it.",
-      "tts": "¿Habéis reservado?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a05-sois-c",
-      "es": "¿De dónde sois?",
-      "pinyin": "deh DOHN-deh soys",
-      "pt": "👂 'Where are you two from?' — the first of the five questions from part twenty-three.",
-      "tts": "¿De dónde sois?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a05-pasad-e",
-      "es": "Pasad. Sentaos.",
-      "pinyin": "pah-SAHDH · sen-TAH-ohs",
-      "pt": "👂 'Come in. Sit down.' — an invitation, and it arrives as two words, not as a sentence.",
-      "tts": "Pasad. Sentaos."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n23",
-      "pt": "In your ear, never in your mouth. If you ever do need it, ustedes works and marks you as a foreigner, which you are."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n24",
-      "pt": "In the Canaries and much of western Andalusia you will hardly meet it. Ustedes goes to friends there too."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n25",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a05-n05",
       "bloco": "capsula",
-      "pt": "Back to the barman who answered your bon dia in Castilian before you had finished saying it."
+      "pt": "So the person in front of you may read your English better than they can answer it. Write things down."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a05-r01",
+      "receptivo": true,
+      "acao": "He has offered you a language and told you its size in the same breath. Slow down and shorten your sentences.",
+      "es": "Ναι, μιλάω λίγα αγγλικά. Λίγα!",
+      "pt": "Yes, I speak a little English. A little!",
+      "tts": "Ναι, μιλάω λίγα αγγλικά. Λίγα!"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n26",
-      "pt": "Two decisions by the same person. The board is in the language of his street; the switch is him serving you."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a05-n06",
+      "pt": "Six words carry almost every counter in the country, and you already know most of them."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n27",
-      "pt": "Neither of them was about you, and the greeting still counted. Take the switch and order in the Spanish you have."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a05-n07",
+      "pt": "Καλημέρα, καλησπέρα, γεια σας, παρακαλώ, ευχαριστώ, συγγνώμη. That is the whole set."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a05-p01",
+      "promptPt": "Half past nine, the bakery door, a woman already looking up at you. Put the greeting in before anything else. Speak now.",
+      "audioKey": "el-a05-t01",
+      "es": "Καλημέρα σας.",
+      "pinyin": "ka-li-ME-ra sas",
+      "pt": "Good morning.",
+      "tts": "Καλημέρα σας."
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a05-p02",
+      "promptPt": "What you need next is too complicated for the Greek you have. Ask before you launch into it, and open politely. Speak now.",
+      "audioKey": "el-a05-t02",
+      "es": "Συγγνώμη, μιλάτε αγγλικά;",
+      "pinyin": "si-GHNO-mi, mi-LA-te ang-li-KA",
+      "pt": "Excuse me, do you speak English?",
+      "tts": "Συγγνώμη, μιλάτε αγγλικά;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n28",
-      "pt": "Where it runs differently: a village bakery inland, an older woman, and the answer keeps coming back in Catalan. Adéu, point, and you both get there."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a05-n08",
+      "pt": "Παρακαλώ does three jobs on its own: please, you're welcome, and go ahead. Listen for which one."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-a05-r02",
+      "receptivo": true,
+      "acao": "Same word, third job. Said like a question it means go ahead, or say that again.",
+      "es": "Παρακαλώ;",
+      "pt": "Sorry — go ahead?",
+      "tts": "Παρακαλώ;"
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a05-p03",
+      "promptPt": "She answered you in fast Greek because your greeting was good. Set the level honestly, in her language. Speak now.",
+      "audioKey": "el-a05-t03",
+      "es": "Ελληνικά, λίγα μόνο.",
+      "pinyin": "e-li-ni-KA, LI-gha MO-no",
+      "pt": "Greek — only a little.",
+      "tts": "Ελληνικά, λίγα μόνο."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a05-p04",
+      "promptPt": "The answer came at full speed and you caught two words of it. Ask for the same sentence at a different pace. Speak now.",
+      "audioKey": "el-a05-t04",
+      "es": "Πιο αργά, παρακαλώ.",
+      "pinyin": "pyo ar-GHA, pa-ra-ka-LO",
+      "pt": "Slower, please.",
+      "tts": "Πιο αργά, παρακαλώ."
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a05-p05",
+      "promptPt": "It is a platform number and a time, and your ear has now failed twice. Move the problem onto paper. Speak now.",
+      "audioKey": "el-a05-t05",
+      "es": "Μπορείτε να το γράψετε;",
+      "pinyin": "bo-RI-te na to GHRA-pse-te",
+      "pt": "Can you write it down?",
+      "tts": "Μπορείτε να το γράψετε;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a05-r03",
+      "receptivo": true,
+      "acao": "He is offering you Latin letters to help. Take them for the meaning, not for the sound.",
+      "es": "Να σου το γράψω και στα λατινικά, να το διαβάσεις.",
+      "pt": "I'll write it in Latin letters too, so you can read it.",
+      "tts": "Να σου το γράψω και στα λατινικά, να το διαβάσεις."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n29",
-      "tom": "protege",
-      "pt": "One sentence to leave in your pocket, and it cools a good evening faster than anything else in this course."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a05-n09",
+      "pt": "The greeting changes in the middle of the day, and nobody agrees on exactly when it does."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n30",
-      "pt": "'It's basically Spanish, isn't it.' It has its own grammar, its own spelling, a thousand years of writing, and co-official standing under article three of the constitution."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a05-n10",
+      "pt": "Between noon and five you will hear all three, from natives, hesitating. Καλό μεσημέρι covers the gap."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-a05-r04",
+      "receptivo": true,
+      "acao": "That hesitation is real and it is hers, not yours. Whichever you picked was fine.",
+      "es": "Καλησπέρα! Ή καλημέρα ακόμα; Ούτε εγώ ξέρω.",
+      "pt": "Good evening! Or is it still good morning? I don't know either.",
+      "tts": "Καλησπέρα! Ή καλημέρα ακόμα; Ούτε εγώ ξέρω."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a05-p06",
+      "promptPt": "It is six in the evening and the same door, the same woman, the second visit of the day. Greet her for the hour it now is. Speak now.",
+      "audioKey": "el-a05-t06",
+      "es": "Καλησπέρα σας.",
+      "pinyin": "ka-li-SPE-ra sas",
+      "pt": "Good evening.",
+      "tts": "Καλησπέρα σας."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n31",
-      "tom": "ganha",
-      "pt": "So ask instead. Finger on the word, and ask what it says. You get two minutes of teaching and the table turns your way."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a05-n11",
+      "pt": "Signs give you Greek in Latin letters, by a standard, and that version is a poor guide to how a word sounds."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n32",
-      "pt": "Same care the other way round. In Valencia the people who wrote the menu call it valencià. Use the name on the sign."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a05-n12",
+      "pt": "So ask for the Greek word and copy the stress off a voice, never off a road sign."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n33",
-      "bloco": "espelho",
-      "pt": "And the bit you do that reads as odd there: opening with 'sorry, I don't speak Catalan'."
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a05-p07",
+      "promptPt": "You are holding the thing and you have no word for it in either language. Point, and ask for the local one. Speak now.",
+      "audioKey": "el-a05-t07",
+      "es": "Πώς το λένε αυτό στα ελληνικά;",
+      "pinyin": "POS to LE-ne af-TO sta e-li-ni-KA",
+      "pt": "What's this called in Greek?",
+      "tts": "Πώς το λένε αυτό στα ελληνικά;"
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n34",
-      "pt": "It hands them something to sort out that they never had. Greet, let them switch, carry on. No apology in front of it."
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a05-r05",
+      "receptivo": true,
+      "acao": "You have the word and the stress in one go. Say it straight back before it fades.",
+      "es": "Αυτό; Κολοκυθοκεφτέδες. Σιγά σιγά: κο-λο-κυ-θο-κε-φτέ-δες.",
+      "pt": "This? Slowly now — and the stress is near the end: ko-lo-ki-tho-ke-FTE-dhes.",
+      "tts": "Αυτό; Κολοκυθοκεφτέδες. Σιγά σιγά: κολοκυθοκεφτέδες."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n35",
-      "bloco": "piso",
-      "tom": "ganha",
-      "pt": "Count the doors you can now read. Exit, closed, pull, toilets, breakfast, price, bread, water — in a language you do not speak."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n36",
-      "pt": "Most visitors spend a fortnight assuming every sign in the country is in Spanish, and standing outside shut shops."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-s00",
-      "pt": "Shadowing. Out loud, underneath them. The two that go in and out of every door you will use:"
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a05-p08",
+      "promptPt": "She spent four minutes on a two-minute customer. Close it with the two words that always belong at a door. Speak now.",
+      "audioKey": "el-a05-t08",
+      "es": "Ευχαριστώ πολύ. Γεια σας!",
+      "pinyin": "ef-ha-ri-STO po-LI · YA sas",
+      "pt": "Thank you very much. Goodbye!",
+      "tts": "Ευχαριστώ πολύ. Γεια σας!"
     },
     {
       "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "c03b-05",
-      "es": "Bon dia.",
-      "pinyin": "bohn DEE-ah",
-      "pt": "Hello. — Catalan, on the way in."
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Emilio",
-      "audioKey": "c03b-09",
-      "es": "Adéu.",
-      "pinyin": "ah-DEH-oo",
-      "pt": "Bye. — Catalan, on the way out."
+      "voz": "target_el_f",
+      "audioKey": "el-a05-s01",
+      "es": "Καλημέρα σας. Συγγνώμη, μιλάτε αγγλικά; Ευχαριστώ πολύ. Γεια σας!",
+      "pinyin": "ka-li-ME-ra sas · si-GHNO-mi, mi-LA-te ang-li-KA · ef-ha-ri-STO po-LI · YA sas",
+      "pt": "Shadow the opening and the closing. Everything else in the exchange fits between them.",
+      "tts": "Καλημέρα σας. Συγγνώμη, μιλάτε αγγλικά; Ευχαριστώ πολύ. Γεια σας!"
     },
     {
       "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "a05-r01",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a05-n13",
       "bloco": "recap",
-      "tom": "ganha",
-      "pt": "One more out loud, somewhere quieter, and this time nobody has looked up yet."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a05-p10",
-      "promptPt": "Monday morning, a bakery in a village outside Girona, and the woman behind the counter has her back to you. Two words at the door. Speak now.",
-      "audioKey": "c03b-05",
-      "es": "Bon dia.",
-      "pinyin": "bohn DEE-ah",
-      "pt": "two words at the door"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a05-n37",
-      "pt": "That is part thirty-three. You cannot speak three of the four, and from tomorrow you can read them. Adéu."
+      "pt": "A05 done. Six words, one honest caveat about the index, and a pen for whatever the ear misses."
     }
   ],
-
   "aprofundar": {
-    "titulo": "Four languages, eight signs and the two seconds at the door (optional reading)",
+    "titulo": "What the number can say, and the six words that do the work",
     "secoes": [
       {
-        "titulo": "Who speaks what, and where you will meet it",
-        "corpo": "Castilian Spanish — the one this course teaches — is official across the whole territory, and it is what you will be answered in the moment anybody hears your accent. Alongside it, Catalan is co-official in Catalonia, the Balearics and the Valencian Community; Basque (euskara) in the Basque Country and the north of Navarre; Galician (galego) in Galicia. Catalan and Galician are Romance languages, so a lot of written Catalan and most written Galician is half-guessable if you already read Spanish. Basque is unrelated to any known living language, which is why nothing in it looks familiar and why you should stop trying to find a root in it. The practical shape of this for a visitor is lopsided and worth saying plainly: the co-official language matters to you almost entirely in writing — on doors, boards, timetables and menus — and almost not at all in speech, because the speech comes back to you in Castilian.",
+        "titulo": "What the index measures, and what it does not",
+        "corpo": "The EF English Proficiency Index 2025 puts Greece at 592, twentieth globally, in the band it calls High, ten points down on the previous edition. EF states the limitation itself: respondents are self-selected, they need internet access, and they skew towards people already interested in languages. So the index does not measure the English of the Greek population — it measures the English of Greeks who decided to sit an online test. That is worth saying plainly, because the number gets quoted as though it were a census. This course will tell you that Greece figures among the high-proficiency countries in commercial self-selected indices. It will not tell you what proportion of people you meet will speak English, because no material in this research supports such a figure.",
         "exemplos": [
           {
-            "es": "Bon dia · Bona tarda · Si us plau · Moltes gràcies · Adéu",
-            "pt": "Catalan: good morning · good afternoon · please · thank you very much · bye"
+            "es": "Συγγνώμη, μιλάτε αγγλικά;",
+            "pt": "Excuse me, do you speak English?"
           },
           {
-            "es": "Kaixo · Eskerrik asko / Bo día · Grazas",
-            "pt": "Basque: hello · thank you / Galician: good morning · thanks"
+            "es": "Ελληνικά, λίγα μόνο.",
+            "pt": "Greek — only a little."
           }
         ]
       },
       {
-        "titulo": "The sign module, and the two that earn their keep",
-        "corpo": "Recognition only — nothing here is ever produced out loud, and the return on being able to write a Catalan sign is zero. Catalan: obert / tancat (open / closed) · sortida (exit) · entrada · lavabos or serveis (toilets) · estirar / empènyer (pull / push) · esmorzar / dinar / sopar (breakfast / lunch / dinner, which is how you read opening hours) · preu (price) · pa (bread) · aigua (water). Basque: irteera (exit) · komuna (toilet) · itxita (closed). Galician: saída (exit) · aberto / pechado (open / closed). Two of these do the work of all the rest: tancat, because otherwise you stand outside a shut door reading it as an invitation, and sortida, because otherwise you walk past your own way out. One pair worth naming, because it is the one people brace for and it turns out to be safe: estirar is PULL in Catalan, and the Spanish tirar you learned in part ten is PULL as well, so the two agree. The one that gives you nothing is empènyer, which is push and looks like no word you own.",
-        "exemplos": [
-          {
-            "es": "TANCAT PER VACANCES",
-            "pt": "👂 closed for the holidays — the Catalan of CERRADO POR VACACIONES, and you will meet it all August"
-          },
-          {
-            "es": "ITXITA",
-            "pt": "👂 closed, in Basque. If the door does not move, this is usually why"
-          }
-        ]
+        "titulo": "The asymmetry inside the number, which is the actionable part",
+        "corpo": "The skill breakdown is where the practical instruction lives: reading 600, listening 592, writing 571, speaking 533. Speaking is the weakest of the four by a clear margin. Translated into a counter, that means the person in front of you may follow your English comfortably and still find answering it hard work — and it means the gap between what they understand and what they will volunteer is wider than you would guess from the first exchange. Two habits follow. Shorten your sentences and slow the delivery rather than raising the volume. And when the exchange contains a number, a time, a platform or a street, move it onto paper: μπορείτε να το γράψετε; costs four words and removes the skill that scores lowest from the problem entirely."
       },
       {
-        "titulo": "Why bon dia works when it is not needed",
-        "corpo": "Nobody in Barcelona needs you to speak Catalan and practically nobody expects it. That is precisely why two words of it land: the greeting is read as a courtesy rather than as a claim, and it costs the person opposite nothing to accept. What normally follows is that they switch to Castilian immediately, and beginners read that switch as a rejection. It is not one. Greeting in the language of the house and then serving you in the language you both have are two different courtesies performed by the same person in the same second. Take the switch, keep going in your ordinary Spanish, and put adéu on the way out — greeting on the way in and on the way out is Spanish habit anyway, and doing both in Catalan is a two-word investment for the whole trip. The one thing that reliably goes the other way is the sentence 'it's basically Spanish, isn't it'. Catalan has its own grammar and orthography and about a thousand years of literature behind it, and it has been co-official since article 3 of the 1978 constitution. Asking a question about the word on the board gets you the opposite reaction to making an observation about the language.",
-        "exemplos": [
-          {
-            "es": "Bon dia! Digui.",
-            "pt": "👂 morning, go ahead — digui is the Catalan of dime, and it is your cue to order"
-          },
-          {
-            "es": "De res.",
-            "pt": "👂 not at all — the Catalan de nada, and the usual answer to moltes gràcies"
-          }
-        ]
+        "titulo": "The six words",
+        "corpo": "Καλημέρα, καλησπέρα, γεια σας, παρακαλώ, ευχαριστώ, συγγνώμη. That is the entire courtesy kit and it covers nearly every counter you will stand at. Two of them do more than one job. Παρακαλώ is please, you're welcome and go ahead all at once, so you will hear it answering your thanks as often as you say it asking for something, and as a question it means say that again. Γεια σας is the polite form to a stranger or to more than one person, γεια σου the familiar one, and if you are not sure which, the plural is never wrong. What none of this comes with is a promised effect: nobody has studied what a well-pronounced ευχαριστώ actually buys, and this course does not claim a number for it. What can be said is smaller and truer — the words are short, you will hear all six back at you within a day, and using them puts you inside the exchange rather than beside it."
       },
       {
-        "titulo": "Valencian, and the mistake pointed the other way",
-        "corpo": "In the Valencian Community the same language is officially called valencià, and that is the name on the menus, the street signs and the official paperwork there. Visitors who have just learned that Catalan is a language of its own sometimes go one step too far and correct a Valencian — 'that's Catalan, isn't it' — which lands exactly as badly as calling Catalan a dialect, and for the same reason: it files somebody's own name for their own language under a name chosen elsewhere. The rule that costs you nothing and never misfires is to use the name that is printed on the sign in front of you. The linguistic question is genuinely disputed by people who care a great deal about it, it is not a question a visitor is required to have a view on, and it belongs in the same drawer as the subject in part thirty-two.",
-        "exemplos": [
-          {
-            "es": "Bon dia · Bona vesprada",
-            "pt": "Valencia: the afternoon greeting is vesprada there, where Barcelona says tarda"
-          }
-        ]
+        "titulo": "Midday, and the greeting nobody agrees about",
+        "corpo": "The switch from καλημέρα to καλησπέρα has no normative source. There is a well-known prescriptive position — the lexicographer Babiniotis argues that the εσπέρα begins at sunset and that καλησπέρα at noon is imitation of a foreign habit — and there is ordinary practice, in which three different usages coexist quite happily. Between about noon and five you will hear natives hesitate, correct themselves and laugh about it, and καλό μεσημέρι exists precisely for that stretch. The honest teaching is that the ambiguity is real and shared. You cannot get this wrong in a way anybody notices, because the person opposite is not sure either."
       },
       {
-        "titulo": "Vosotros: in your ear, not your mouth",
-        "corpo": "Peninsular Spanish has a second-person plural that Latin American Spanish does not, and it is the form that will be aimed at you and your travelling companion roughly fifty times a day: ¿qué vais a tomar?, ¿habéis reservado?, ¿de dónde sois?, ¿sois vosotros?, pasad, sentaos, tenéis que esperar. You are almost always the target of it and almost never the speaker, because to need to produce it you would have to be giving instructions to two Spaniards at once. So it lives in the receptive half of this course on purpose. If you ever do need it, ustedes is grammatical, is understood everywhere, and marks you as a foreigner — which you are, and which costs nothing. Two useful edges: in the Canaries and much of western Andalusia ustedes is used for friends as well, so if you never hear vosotros in Seville, nothing has gone wrong; and the endings themselves are the giveaway to listen for — the -áis and -éis at the end of a question is the sound of somebody talking to both of you.",
-        "exemplos": [
-          {
-            "es": "¿Qué queréis?",
-            "pt": "👂 what do you two want? — the shorter, blunter version of ¿qué vais a tomar?"
-          },
-          {
-            "es": "Tenéis que esperar.",
-            "pt": "👂 you two will have to wait — usually said with a nod at the queue"
-          }
-        ]
-      },
-      {
-        "titulo": "One sound note, for the two words you do say",
-        "corpo": "Everything about Spanish vowels that part one drilled into you — five of them, pure, bright, and held to the last letter — stops being true the moment you say a Catalan word. Catalan reduces its unstressed vowels: the -es on the end of moltes gràcies is not the Spanish 'ehs', it is a soft, half-swallowed 'uhs', and sortida comes out closer to soor-TEE-duh than to the Spanish sor-TEE-dah. This is not a rule to learn, it is a warning not to apply the rule you have. Copy what you hear on the recording and let the ending fall away; the punch on the stressed syllable is the part that carries, and that half of the hand still works exactly as it did. Basque and Galician are kinder to you here — Galician vowels behave broadly like Spanish ones, and Basque, for all its strangeness on the page, is pronounced almost exactly as it is written once you know that x is 'sh' and z is a plain 's'.",
-        "exemplos": [
-          {
-            "es": "Moltes gràcies.",
-            "pt": "MOHL-tuhs GRAH-see-uhs — the two endings go soft, and the punch stays on the first syllable of each word"
-          },
-          {
-            "es": "Kaixo.",
-            "pt": "KAI-shoh — the x is 'sh'. Written as it sounds, once you know that one letter"
-          }
-        ]
+        "titulo": "The Latin-letter version is a different language of the same word",
+        "corpo": "The romanisation on road signs is a standard — ΕΛΟΤ 743, second edition 2001, identical to ISO 843:1997, adopted by the PCGN in 1996 and recommended by the UN in 1987 — and the PCGN's own Greece factfile of April 2020 records both that it is very widely used on Greek road signs and printed guides, and that it is a less reliable guide to Modern Greek pronunciation than the older system it replaced. That is the whole warning: the Latin spelling is built to be converted back into Greek letters, not to be read aloud by an English speaker. Use it to match a word on a sign to a word on your ticket. For the sound, ask a person — πώς το λένε αυτό στα ελληνικά; — and copy the stress off the voice, because the accent mark on a Greek word of two syllables or more tells you exactly where it goes."
       }
     ]
-  }
+  },
+  "slot": "A05",
+  "permissao": "You are allowed to mangle ευχαριστώ. No study has ever measured what a good one buys or a bad one costs, so nobody can honestly sell you the effect — what is true is smaller and more useful: the word is short, you will hear it come back at you within a day, and the version you attempt is the one you will be corrected into. You are also allowed to ask for English outright, in Greek, after the greeting. That order is the whole trick, and it costs three seconds.",
+  "permissaoAudioKey": "el-a05-n06",
+  "espelho": "Anyone who has been served in their own country by somebody working in a second language knows both halves of this from the other side: how much they understood, and how much less they were willing to say out loud. That gap is the one you are standing in front of, and it is nobody's fault.",
+  "fichasCulturais": [
+    {
+      "sinal": "You ask a question in English, get a fluent-sounding start, and then the answer shrinks to two or three words and stops.",
+      "suaLeitura": "They do not want to help me, or they have decided the conversation is over.",
+      "oQueEAli": "In the EF index for 2025 Greece scores 600 on reading and 533 on speaking, the lowest of the four skills. The gap between understanding your question and producing an answer for it is real and measured — with the standing caveat that the index samples self-selected online test-takers rather than the population.",
+      "oQueVoceFaz": "Shorten your sentences instead of repeating the long one, and put anything numerical onto paper: μπορείτε να το γράψετε; Give a beat of silence rather than filling it, because the answer is usually being assembled.",
+      "oQueMelhora": "You get the platform number and the time instead of a shrug, and the exchange stops feeling like a refusal when it was only a harder task than you realised.",
+      "ondeNaoVale": "Not a rule about anybody in particular. You will also meet people whose English is faster than yours and who would rather use it than watch you struggle — the index is a national average of volunteers, and it predicts nothing at all about the individual at the till.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-a05-n04",
+        "el-a05-n05"
+      ]
+    },
+    {
+      "sinal": "At half past one you say καλημέρα, and the person answering seems to hesitate over which greeting to give you back.",
+      "suaLeitura": "I used the wrong one and they are too polite to correct me.",
+      "oQueEAli": "There is no norm to be wrong about. No normative source fixes the switch from καλημέρα to καλησπέρα; there is a named prescriptive position holding that the evening begins at sunset, and there is ordinary practice, where three usages coexist. Between noon and about five, natives hesitate too, which is why καλό μεσημέρι exists for the gap.",
+      "oQueVoceFaz": "Pick either and carry on. If you want the safe one for the awkward hours, καλό μεσημέρι fits, and copying whichever greeting you were given is never wrong.",
+      "oQueMelhora": "You stop rehearsing a clock rule that does not exist, and you spend the attention on the request instead of on the greeting.",
+      "ondeNaoVale": "Not true at the edges of the day. At eight in the morning καλησπέρα is genuinely odd, and at ten at night so is καλημέρα — the ambiguity lives in the middle of the day, not across all of it.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-a05-n09",
+        "el-a05-n10"
+      ]
+    }
+  ]
 }

@@ -1,837 +1,408 @@
 {
   "id": "i04",
-  "slot": "I04",
   "nivel": "intermediario",
   "numero": 22,
   "parte": "I04",
-  "titulo": "The night doesn't start when you think it does",
-  "subtitulo": "Half nine is early, the second bar is where the evening actually is, and the drinks are paid whole — one person at a time, and it comes back to you",
+  "titulo": "The evening that starts late and ends with one bill",
+  "subtitulo": "Which table, what is on it, who pays for the round, and how to leave without ending the night",
+  "cena": "Half past ten, a table out on the pavement, small glasses and small plates arriving, and someone else already deciding who pays.",
   "moldura": "ganha",
-
-  "cena": "Half nine on a Thursday, you are out, and the square you crossed at eight is filling up instead of emptying — by half ten there are children running about in it and every table outside is taken.",
-
-  "decisao": "what time you walk out of the door, and what happens at the table when the glasses are empty — go at eight and the only room with people in it is the one that lives off visitors; go at half ten, take a turn whole instead of counting your own drinks, and the table, the second bar and the evening cost you what they cost everybody",
-  "emJogo": "ambos",
-
-  "frasePiso": "You will get a table at half ten, take a turn at the bar and pay it whole, and leave without breaking the table up. Most visitors are back at the hotel by then, wondering where everybody was.",
-
-  "clique": {
-    "contagem": ["the first bar", "the wine bar", "the second bar", "the third bar", "the table of eight", "the village fiesta"],
-    "desconto": "Nobody gave you a single one of those tonight. Two openers you already owned did the whole evening, and the shorter of them is two words long.",
-    "piso": "You will get a table at half ten, take a turn whole and leave it still going. Most visitors are in bed by then."
-  },
-  "cliqueAudioKey": "i04-n36b",
-
-  "permissao": "You are allowed to nurse one glass for an hour and nobody will move you on. You are allowed to walk out after one and go to the next place — that is what the evening is, not you being got rid of. You are allowed to let somebody else pay for everybody without arguing about it: you take the one after. And you are allowed to stand outside a bar with a glass in your hand all night, as long as the glass belongs to the ground you are standing on.",
-  "permissaoAudioKey": "i04-n35",
-
-  "espelho": "Splitting it item by item at the end is the bit that reads as odd there. Counting out who had which beer turns four friends into an audit, and it is exactly what taking turns exists to avoid.",
-
-  "fichasCulturais": [
-    {
-      "sinal": "Half eleven at night and the square is fuller than it was at eight, with children still running about in it and nothing on the calendar.",
-      "suaLeitura": "Something must be on tonight — a fiesta, a match — and either way, at this hour the evening has to be nearly over.",
-      "oQueEAli": "Kitchens take their last orders around half eleven, so the hour you would call late is the middle of it. The heat has gone, dinner is finished, and the evening starts after the meal rather than before it.",
-      "oQueVoceFaz": "Walk out of the door later than feels right, and take the second bar rather than the first one you pass.",
-      "oQueMelhora": "You get the table you would not have got at eight, in the room the street is actually in, for the same money.",
-      "ondeNaoVale": "Not the last metro and not the last train home. Those run to a printed time and they do not care what kind of evening you are having.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i04-n31", "i04-n32", "i04-n33", "i04-n34"]
-    },
-    {
-      "sinal": "The glasses go down empty, somebody at your table says two words to the barman without asking anybody, and four more arrive.",
-      "suaLeitura": "He has just bought for everybody without checking, and now there is going to be an awkward conversation about money at the end of the night.",
-      "oQueEAli": "Turns are taken whole and they run across the evening: one person invites, the next one takes the following one. It is a tab between friends, not a debt to be settled at the door — the same money, in a different order.",
-      "oQueVoceFaz": "Let it happen, and when the glasses are empty next, be the one who says it. If somebody beats you to it, claim the one after out loud.",
-      "oQueMelhora": "You are inside it instead of outside it, nobody adds anything up all night, and you get asked out again.",
-      "ondeNaoVale": "Not with eight people, half of them eating and half of them not, and not with people you met an hour ago and will not see again. There you ask to pay separately — and you ask when you order, not when the bill is written.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i04-n15", "i04-n16", "i04-n18"]
-    },
-    {
-      "sinal": "At the door of the bar people are stood outside holding their glasses, and twenty metres up the same street somebody is walking along with a can.",
-      "suaLeitura": "It is all one street, so it must all be one rule, and nobody seems bothered either way.",
-      "oQueEAli": "The line is the licensed ground the bar is allowed to serve on, not the alcohol. Two metres one way it is a table; two metres the other way it is a public street, and drinking there is a minor offence under national law.",
-      "oQueVoceFaz": "Keep the glass on the terrace side of the line, and when you move on, leave it on the bar rather than carrying it.",
-      "oQueMelhora": "You are out on the street until three like everybody else, with nothing in your hand and nothing to explain.",
-      "ondeNaoVale": "Not the terrace table two metres from the same kerb, where the identical drink is ordinary all night — and not a village fiesta with a licensed street bar, where the whole street is the bar for three days.",
-      "evidencia": "FATO",
-      "audioKeys": ["i04-g02", "i04-g05", "i04-n26"]
-    },
-    {
-      "sinal": "The host who was charm itself at check-in messages you at half past midnight as though you had set fire to something.",
-      "suaLeitura": "He is wildly overreacting to four people talking on a staircase.",
-      "oQueEAli": "The neighbour's complaint does not go to him, it goes to the local police, and in a licensed tourist flat repeated complaints put the licence itself at risk. What you are seeing is a licence being protected, not a bad night's sleep.",
-      "oQueVoceFaz": "Library voice on the stairs after midnight, nothing on the inner courtyard after eleven, and no suitcase wheels on a residential street at two in the morning.",
-      "oQueMelhora": "The host stays on your side for the whole stay, and the neighbours never learn your name.",
-      "ondeNaoVale": "Not inside the bar. A bar here is loud, nobody is arguing, and dropping your voice in there is the one thing that will mark you out.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i04-n23", "i04-n24", "i04-n25"]
-    }
-  ],
-
+  "frasePiso": "One table, one bill, and you know both what is on it and how to stand up from it.",
+  "decisao": "em que mesa me ponho e quanto custa a noite; a rodada, quem paga, e como me despeço da mesa sem encerrar a noite dos outros",
+  "moldes": [],
   "fatosDatados": [
     {
-      "id": "cena-hora-ultima-comanda",
-      "afirmacao": "Dinner typically starts from nine in the evening, with kitchens taking their last orders around half eleven.",
-      "fonte": "consenso de fontes secundárias (guias gastronômicos e de viagem), registrado em docs/pesquisa-espanha.md §7.1 — o INE não publica hora média da cena, e o curso diz 'typically', nunca 'the official schedule'",
-      "ano": 2026,
-      "revisarAte": "2028-01-01",
-      "evidencia": "CONSENSO",
+      "id": "el-i04-kouver",
+      "afirmacao": "In Greece a cover charge is prohibited, and no product — bread and bottled water included — may be served and billed without prior consent, with a fine of €500 per item. Bread may be charged as an item if it is offered and accepted. The price list is compulsory, in Greek, visible at the entrance and again before you order, with VAT included: €1,000 for a missing list and €500 for any item billed above the listed price.",
+      "fonte": "Art. 72 dos Κανόνες ΔΙ.Ε.Π.Π.Υ. (ΥΑ 91354/2017, ΦΕΚ Β΄2983/30.8.2017) proíbe cobrar κουβέρ, e nenhum produto — incluindo pão e água engarrafada — pode ser servido e cobrado sem consentimento prévio. Multa de €500 por item. Transparência de preço, arts. 70–71: lista obrigatória, em grego, visível na entrada E antes do pedido, preços com IVA; multa de €1.000 pela ausência de lista e €500 por item cobrado acima do listado.",
+      "ano": 2017,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["i04-n06", "i04-cocina-e"]
+      "audioKeys": [
+        "el-i04-n03",
+        "el-i04-n04"
+      ]
     },
     {
-      "id": "beber-na-rua-nacional",
-      "afirmacao": "Drinking alcohol in a public street is a minor offence under national law, at a hundred to six hundred euros.",
-      "fonte": "Ley Orgánica 4/2015 de protección de la seguridad ciudadana, art. 37.17 — citada em docs/pesquisa-espanha.md §7.7(b)",
-      "ano": 2015,
-      "revisarAte": "2027-07-01",
+      "id": "el-i04-gorjeta",
+      "afirmacao": "Tipping in Greece is institutionally recognised, but only as a tax matter: law 5162/2024 exempts tips of up to €300 a month per worker from income tax, for amounts paid from 01.11.2024, and exempts the whole of it from social contributions. That confirms tipping exists. It confirms no percentage whatsoever.",
+      "fonte": "Gorjeta tem fonte institucional, mas só para o tratamento FISCAL: o ν.5162/2024 isenta de imposto gorjetas até €300/mês por trabalhador, para valores pagos a partir de 01.11.2024, e isenta de contribuição social o total. Isso confirma que a gorjeta existe e é reconhecida — não confirma percentual nenhum.",
+      "ano": 2024,
+      "revisarAte": "2027-08-05",
       "evidencia": "FATO",
       "risco": "medio",
-      "audioKeys": ["i04-g02"]
-    },
-    {
-      "id": "beber-na-rua-barcelona",
-      "afirmacao": "In Barcelona it reaches one thousand five hundred euros where children are present or in a night-time noise zone, and organising or promoting a pub crawl is three thousand.",
-      "fonte": "Ordenança de civismo de Barcelona, aprovada dez/2025 e em vigor desde fev/2026 — docs/pesquisa-espanha.md §7.7(b)",
-      "ano": 2026,
-      "revisarAte": "2026-12-01",
-      "evidencia": "FATO",
-      "risco": "alto",
-      "audioKeys": ["i04-g03"]
-    },
-    {
-      "id": "baleares-excessos",
-      "afirmacao": "In the Balearic excess-tourism zones, drinking outside an authorised area is five hundred to one thousand five hundred euros, and shops may not sell alcohol between half nine at night and eight in the morning.",
-      "fonte": "decreto balear reportado por BBC/agências e confirmado pelo UK FCDO — docs/pesquisa-espanha.md §7.7(b)",
-      "ano": 2026,
-      "revisarAte": "2027-07-01",
-      "evidencia": "FATO",
-      "risco": "medio",
-      "audioKeys": ["i04-g04"]
-    },
-    {
-      "id": "multa-cobrada-no-ato-barcelona",
-      "afirmacao": "Since February 2026 Barcelona requires non-residents to pay on the spot, and the Guàrdia Urbana carries card terminals to collect it.",
-      "fonte": "Ordenança de civismo de Barcelona (dez/2025, em vigor fev/2026) — docs/pesquisa-espanha.md §7.7(e)",
-      "ano": 2026,
-      "revisarAte": "2026-12-01",
-      "evidencia": "FATO",
-      "risco": "alto",
-      "audioKeys": ["i04-n22"]
-    },
-    {
-      "id": "horas-de-descanso",
-      "afirmacao": "Quiet hours run typically from ten or eleven at night to eight in the morning, set by the town hall and by the building; the neighbour's complaint goes to the local police rather than to the host, and in a licensed tourist flat repeated complaints threaten the licence.",
-      "fonte": "competência municipal + regime de condomínio; NÃO PÚBLICO — não há tabela nacional de multas, e por isso o curso não cita valor — docs/pesquisa-espanha.md §7.7(c)",
-      "ano": 2026,
-      "revisarAte": "2027-07-01",
-      "evidencia": "CONSENSO",
-      "risco": "baixo",
-      "audioKeys": ["i04-n24", "i04-n25"]
+      "audioKeys": [
+        "el-i04-n07"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n01",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i04-n01",
+      "gesto": 1,
       "bloco": "aquecimento",
-      "gesto": 3,
-      "tom": "ganha",
-      "pt": "Part twenty-two. Warm-up: the punch. One syllable a word, and only one. RON-da. in-VI-ta. se-pa-RA-do."
+      "pt": "The evening here starts later than yours and moves slower. Nobody is waiting for you to finish your glass."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n02",
-      "pt": "Three of them, and the punch never spreads. Hand flat on your leg, one strike a word. Twice more."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i04-n02",
+      "bloco": "corpo",
+      "pt": "You order for the table, not for yourself. Small glasses, small plates, and the night assembles itself."
     },
     {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i04-r01",
+      "es": "Καλησπέρα! Έξω ή μέσα;",
+      "pt": "Good evening! Outside or inside?",
+      "tts": "Καλησπέρα! Έξω ή μέσα;"
+    },
+    {
+      "consulta": [
+        "mesa/mesa",
+        "chegar/entrar"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "bloco": "callback",
-      "molde": "OTRA",
-      "promptAudioKey": "i04-p01",
-      "promptPt": "Ten past nine, the first bar of the evening, your glass empty a while now, and he is going past with a tray. Two words. Speak now.",
-      "audioKey": "e03a-otra-c",
-      "es": "Otra, por favor.",
-      "pinyin": "OH-trah, por fah-BOR",
-      "pt": "one more of the same"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i04-p01",
+      "promptPt": "The pavement tables are still empty and the room is loud. Say which side you want. Speak now.",
+      "audioKey": "el-i04-t01",
+      "es": "Έχετε τραπέζι έξω;",
+      "pinyin": "E-he-te tra-PE-zi E-kso",
+      "pt": "Do you have a table outside?",
+      "tts": "Έχετε τραπέζι έξω;",
+      "molde": "EXETE",
+      "encaixe": "τραπέζι έξω"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n03",
-      "bloco": "cena",
-      "pt": "Half nine on a Thursday. You crossed this square at eight and it was empty. Look at it now."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i04-n03",
+      "pt": "Nothing may be served and billed without being offered first. Bread and bottled water are included in that."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n04",
-      "pt": "Half ten, and it is fuller than it has been all day. There are children running about in it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n05",
-      "pt": "This is the middle of the evening, not the end of it. And that changes where you can sit."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n06",
-      "pt": "Kitchens take their last orders around half eleven. Work back from that and the hours come out."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i04-cocina-e",
-      "es": "La cocina cierra a las once y media.",
-      "pinyin": "lah koh-THEE-nah THYEH-rrah ah lahs OHN-theh ee MEH-dhyah",
-      "pt": "👂 'The kitchen shuts at half eleven.' — said at the door, and it is not a hint to hurry.",
-      "tts": "La cocina cierra a las once y media."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n07",
-      "pt": "Walk in at eight and the only room with people in it is the one that lives off visitors."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n08",
-      "pt": "Walk in at half ten and you are in the room the street is in. Same money, better evening."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n09",
-      "pt": "And nobody stays in one bar. One drink, out, next place. The walk between them is the night."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i04-otrositio-c",
-      "es": "¿Nos vamos a otro sitio?",
-      "pinyin": "nohs BAH-mohs ah OH-troh SEE-tyoh",
-      "pt": "👂 'Shall we move on?' — after one drink, and it is not you being got rid of.",
-      "tts": "¿Nos vamos a otro sitio?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n10",
-      "pt": "Second bar, then. There is a board behind him with a dozen names on it and no prices you can read."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n11",
-      "bloco": "molde",
-      "pt": "You already own the sentence for that, from part twenty-one. It hands the choice straight back."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i04-tinto-e",
-      "es": "¿Cuál me recomienda, el tinto o el blanco?",
-      "pinyin": "kwahl meh rreh-koh-MYEN-dah, el TEEN-toh oh el BLAHN-koh",
-      "pt": "Which do you recommend, the red or the white?",
-      "tts": "¿Cuál me recomienda, el tinto o el blanco?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n11b",
-      "pt": "Two things go in, and he picks one. That is a different question from asking him what is good."
-    },
-    {
+      "consulta": [
+        "mesa/agua-pao",
+        "compras/quanto"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "ELECCION",
-      "encaixe": "el tinto o el blanco",
-      "encaixeGloss": "the red or the white",
-      "promptAudioKey": "i04-p02",
-      "promptPt": "A wine bar on the second stop, twelve names chalked up behind him, and one glass is coming either way. Put the choice back to him. Speak now.",
-      "audioKey": "i04-tinto-e",
-      "es": "¿Cuál me recomienda, el tinto o el blanco?",
-      "pinyin": "kwahl meh rreh-koh-MYEN-dah, el TEEN-toh oh el BLAHN-koh",
-      "pt": "give him two, let him pick"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n12",
-      "pt": "He answers with one of the two, and one word is all you have to give back. It travels, that one."
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i04-p02",
+      "promptPt": "A basket lands on the table before you have ordered anything. Ask the one question that settles it. Speak now.",
+      "audioKey": "el-i04-t02",
+      "es": "Το ψωμί χρεώνεται;",
+      "pinyin": "to pso-MEE hre-O-ne-te",
+      "pt": "Is the bread charged?",
+      "tts": "Το ψωμί χρεώνεται;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i04-mejor-c",
-      "es": "¿Cuál está mejor, este o aquel?",
-      "pinyin": "kwahl ehs-TAH meh-KHOR, EHS-teh oh ah-KEL",
-      "pt": "Which is better, this one or that one? — for two things you can point at.",
-      "tts": "¿Cuál está mejor, este o aquel?"
+      "voz": "target_el_m",
+      "audioKey": "el-i04-r02",
+      "es": "Ένα ευρώ το άτομο. Το θέλετε;",
+      "pt": "One euro a head. Do you want it?",
+      "tts": "Ένα ευρώ το άτομο. Το θέλετε;",
+      "receptivo": true,
+      "acao": "That second half is the law working. Say yes or say no — both are complete answers here."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n12b",
-      "pt": "Same shape, and it works on anything a finger reaches. Only the two on the end ever move."
-    },
-    {
+      "consulta": [
+        "mesa/bebida"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "ELECCION",
-      "encaixe": "este o aquel",
-      "encaixeGloss": "this one or that one",
-      "promptAudioKey": "i04-p03",
-      "promptPt": "Third bar, near midnight, two trays behind the glass and no label you can read from where you are stood. Point at both and make him choose. Speak now.",
-      "audioKey": "i04-mejor-c",
-      "es": "¿Cuál está mejor, este o aquel?",
-      "pinyin": "kwahl ehs-TAH meh-KHOR, EHS-teh oh ah-KEL",
-      "pt": "point at two, let him choose"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i04-p03",
+      "promptPt": "The first round of the evening, and you want the aniseed one that comes with ice and water. Speak now.",
+      "audioKey": "el-i04-t03",
+      "es": "Θα ήθελα ένα ούζο, παρακαλώ.",
+      "pinyin": "tha EE-the-la E-na OO-zo, pa-ra-ka-LO",
+      "pt": "I'd like an ouzo, please.",
+      "tts": "Θα ήθελα ένα ούζο, παρακαλώ.",
+      "molde": "THA-ITHELA",
+      "encaixe": "ένα ούζο"
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n13",
-      "pt": "Two glasses down, and the table is empty again. You do not need a new sentence for that."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i04-ronda-c",
-      "es": "Otra ronda, por favor.",
-      "pinyin": "OH-trah RROHN-dah, por fah-BOR",
-      "pt": "Another round, please.",
-      "tts": "Otra ronda, por favor."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n14",
-      "pt": "That is the frame from part eleven. The front of it has not moved. Only what hangs off the end."
-    },
-    {
-      "consulta": ["mesa/bebida"],
+      "consulta": [
+        "mesa/bebida",
+        "simpatia/puxar-conversa"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "OTRA",
-      "encaixe": "ronda",
-      "encaixeGloss": "round",
-      "promptAudioKey": "i04-p04",
-      "promptPt": "Four of you at the second bar, four glasses empty at the same moment, and everybody has had a turn except you. Speak now.",
-      "audioKey": "i04-ronda-c",
-      "es": "Otra ronda, por favor.",
-      "pinyin": "OH-trah RROHN-dah, por fah-BOR",
-      "pt": "the whole table, not one glass"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n15",
-      "pt": "Now watch how that gets paid for, because it is not how it gets paid for at home."
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i04-p04",
+      "promptPt": "The shelf behind the bar has bottles with no labels you recognise. Open the door to those. Speak now.",
+      "audioKey": "el-i04-t04",
+      "es": "Τι έχετε ντόπιο;",
+      "pinyin": "tee E-he-te DO-pyo",
+      "pt": "What do you have that's local?",
+      "tts": "Τι έχετε ντόπιο;",
+      "molde": "EXETE",
+      "encaixe": "ντόπιο"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i04-invito-e",
-      "es": "Invito yo.",
-      "pinyin": "een-BEE-toh yoh",
-      "pt": "'This one's on me.' — all four glasses, and there is no discussion after it.",
-      "tts": "Invito yo."
+      "voz": "target_el_m",
+      "audioKey": "el-i04-r03",
+      "es": "Έχουμε ρακόμελο, τσίπουρο και ούζο από τη Λέσβο.",
+      "pt": "We have rakomelo, tsipouro and ouzo from Lesbos.",
+      "tts": "Έχουμε ρακόμελο, τσίπουρο και ούζο από τη Λέσβο.",
+      "receptivo": true,
+      "acao": "Three names and one island. Pick by the island if the drink means nothing to you yet."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n16",
-      "pt": "One person takes the whole lot. Nobody counts, nobody works anything out, and it comes back to you."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i04-n04",
+      "pt": "The price list on the wall is in Greek, at the door and again before you order. It is an obligation, not decor."
     },
     {
-      "consulta": ["pagar/rachar","simpatia/brindar"],
+      "consulta": [
+        "simpatia/brindar"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i04-p05",
-      "promptPt": "The glasses land on the table and a hand is already going towards a back pocket. Get in first — it is yours tonight. Two words. Speak now.",
-      "audioKey": "i04-invito-e",
-      "es": "Invito yo.",
-      "pinyin": "een-BEE-toh yoh",
-      "pt": "two words, and it is yours"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i04-p05",
+      "promptPt": "Four glasses are up, four people are looking at you, and nobody has drunk yet. Speak now.",
+      "audioKey": "el-i04-t05",
+      "es": "Γεια μας!",
+      "pinyin": "YA mas",
+      "pt": "Cheers! (to our health)",
+      "tts": "Γεια μας!"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n17",
-      "pt": "And when somebody beats you to it, one line keeps you inside the evening instead of outside it."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i04-n05",
+      "pt": "The toast is short and it is said to faces, not to the ceiling. Glasses meet, eyes meet, then you drink."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i04-proxima-c",
-      "es": "La próxima la pago yo.",
-      "pinyin": "lah PROK-see-mah lah PAH-goh yoh",
-      "pt": "'I'll get the next one.' — said straight away, and then you do.",
-      "tts": "La próxima la pago yo."
-    },
-    {
-      "consulta": ["pagar/rachar","simpatia/convite"],
+      "consulta": [
+        "pagar/rachar",
+        "mesa/conta"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i04-p06",
-      "promptPt": "He had his wallet out before you had your jacket off, and the evening is nowhere near over. Claim the one after it. Speak now.",
-      "audioKey": "i04-proxima-c",
-      "es": "La próxima la pago yo.",
-      "pinyin": "lah PROK-see-mah lah PAH-goh yoh",
-      "pt": "claim the one after"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n18",
-      "pt": "That is the arithmetic of it: the same money, in a different order, and nobody adds anything up."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n19",
-      "pt": "Where it does not fit — eight of you, half eating — there is a sentence, and it has a clock on it."
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i04-p06",
+      "promptPt": "The second round has just been ordered and you want it on your side of the table. Speak now.",
+      "audioKey": "el-i04-t06",
+      "es": "Κερνάω εγώ.",
+      "pinyin": "ker-NA-o e-GO",
+      "pt": "This one's on me.",
+      "tts": "Κερνάω εγώ."
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i04-separado-e",
-      "es": "¿Podemos pagar por separado?",
-      "pinyin": "poh-DEH-mohs pah-GAR por seh-pah-RAH-dhoh",
-      "pt": "Can we pay separately? — and the clock on it is the ordering, not the ending.",
-      "tts": "¿Podemos pagar por separado?"
+      "voz": "target_el_m",
+      "audioKey": "el-i04-r04",
+      "es": "Όχι, όχι! Σήμερα κερνάω εγώ. Την άλλη φορά εσύ.",
+      "pt": "No, no! Today it's on me. Next time it's you.",
+      "tts": "Όχι, όχι! Σήμερα κερνάω εγώ. Την άλλη φορά εσύ.",
+      "receptivo": true,
+      "acao": "Do not push back twice. Thank him and take the next one — that is the whole arrangement."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n20",
-      "pt": "Once it is written it is one number on one piece of paper. So it goes in at the very start."
-    },
-    {
-      "consulta": ["pagar/rachar"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i04-p07",
-      "promptPt": "A table of eight, half of you eating and half not, and he has come over with the pad open for the first time. Now, before anything is written down. Speak now.",
-      "audioKey": "i04-separado-e",
-      "es": "¿Podemos pagar por separado?",
-      "pinyin": "poh-DEH-mohs pah-GAR por seh-pah-RAH-dhoh",
-      "pt": "before anything is written"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "e03c-cuenta-c",
-      "es": "La cuenta, por favor.",
-      "pinyin": "lah KWEN-tah, por fah-BOR",
-      "pt": "And the one from part fourteen, at the end. It still never arrives on its own.",
-      "tts": "La cuenta, por favor."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n21",
-      "tom": "protege",
-      "pt": "One thing changes on the street after ten, and it is worth ninety seconds, because it is money."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i04-g01",
-      "pt": "GUIRI ALERT. George here. The most expensive thing I have ever done in Spain, I did with a can in my hand."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i04-g02",
-      "pt": "Drinking in the street is a national offence: a hundred to six hundred euros, and that is the floor."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i04-g03",
-      "pt": "Barcelona goes to fifteen hundred near children or in a night-noise zone. Promoting a pub crawl: three thousand."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i04-g04",
-      "pt": "Balearic party towns: five hundred to fifteen hundred, and the shops stop selling at half nine at night."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i04-g05",
-      "pt": "Two metres away, at the terrace table, that same drink costs nothing at all. It is the ground, not the drink."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "c03a-10",
-      "es": "PROHIBIDO EL CONSUMO DE ALCOHOL EN LA VÍA PÚBLICA",
-      "pinyin": "proh-ee-BEE-dhoh el kon-SOO-moh deh al-koh-OL en lah BEE-ah POO-blee-kah",
-      "pt": "👂 sign: NO DRINKING ALCOHOL IN THE STREET. On a lamp post, the amount is already set.",
-      "tts": "Prohibido el consumo de alcohol en la vía pública."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n22",
-      "pt": "And in Barcelona, since February, they take it there and then, by card. So one question earns its keep."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "c03a-12",
-      "es": "Perdone, ¿se puede beber aquí?",
-      "pinyin": "pehr-DOH-neh, seh PWEH-dheh beh-BEHR ah-KEE",
-      "pt": "Excuse me — is drinking allowed here?",
-      "tts": "Perdone, ¿se puede beber aquí?"
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i04-p08",
-      "promptPt": "Eleven at night in a Madrid square, half a dozen people stood about with cans, and no sign anywhere. Stop the man shutting the kiosk. Speak now.",
-      "audioKey": "c03a-12",
-      "es": "Perdone, ¿se puede beber aquí?",
-      "pinyin": "pehr-DOH-neh, seh PWEH-dheh beh-BEHR ah-KEE",
-      "pt": "ask, instead of finding out"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n23",
-      "pt": "The other one is the stairwell, and it is why the host messages you at half twelve in capitals."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n24",
-      "pt": "Quiet hours run from ten or eleven at night until eight. The neighbour rings the local police, not him."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n25",
-      "pt": "In a licensed flat, repeated calls put the licence at risk. That is what he is guarding, not his sleep."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "c03a-16",
-      "es": "Perdón, bajamos la voz ahora mismo.",
-      "pinyin": "pehr-DOHN, bah-KHAH-mohs lah bohth ah-OH-rah MEES-moh",
-      "pt": "Sorry — we'll keep it down right now.",
-      "tts": "Perdón, bajamos la voz ahora mismo."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i04-p09",
-      "promptPt": "Half twelve, your rented flat, and the man underneath is banging on his ceiling with a broom handle. Open the door and settle it in one line. Speak now.",
-      "audioKey": "c03a-16",
-      "es": "Perdón, bajamos la voz ahora mismo.",
-      "pinyin": "pehr-DOHN, bah-KHAH-mohs lah bohth ah-OH-rah MEES-moh",
-      "pt": "one line, and it stops"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n26",
-      "tom": "ganha",
-      "pt": "That is the whole of it. Glass on the terrace side, voice inside the bar, and you stay out as late as you like."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n27",
-      "pt": "Which you will. And then comes the bit nobody rehearses: getting up from a table that is still going."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i04-yendo-e",
-      "es": "Yo me voy yendo.",
-      "pinyin": "yoh meh boy YEN-doh",
-      "pt": "'I'm going to head off.' — said on your feet, with the jacket already on.",
-      "tts": "Yo me voy yendo."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n28",
-      "pt": "What comes back at you is not a goodbye. It is a protest, and it is meant kindly."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i04-pronto-c",
-      "es": "¡Pero si es pronto!",
-      "pinyin": "PEH-roh see es PROHN-toh",
-      "pt": "👂 'But it's early!' — the first refusal is ritual. Yours goes again.",
-      "tts": "¡Pero si es pronto!"
-    },
-    {
-      "consulta": ["simpatia/convite"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i04-p10",
-      "promptPt": "Quarter to one, the table is still full and still loud, and you are on your feet with your jacket in your hand. Speak now.",
-      "audioKey": "i04-yendo-e",
-      "es": "Yo me voy yendo.",
-      "pinyin": "yoh meh boy YEN-doh",
-      "pt": "on your feet, and going"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n29",
-      "pt": "Then the second time, with a reason on it. Any will do, and this is the one everybody reaches for."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i04-madrugo-c",
-      "es": "Es que mañana madrugo.",
-      "pinyin": "es keh mah-NYAH-nah mah-DHROO-goh",
-      "pt": "'I've got an early start tomorrow.' — nobody argues with that one.",
-      "tts": "Es que mañana madrugo."
-    },
-    {
-      "consulta": ["simpatia/convite"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i04-p11",
-      "promptPt": "They have told you to sit back down, twice, and you are due somewhere at eight. Second time, with the reason on it. Speak now.",
-      "audioKey": "i04-madrugo-c",
-      "es": "Es que mañana madrugo.",
-      "pinyin": "es keh mah-NYAH-nah mah-DHROO-goh",
-      "pt": "the reason nobody argues with"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n30",
-      "pt": "And you go without the table going with you. Everybody stays. That is the whole point of leaving well."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n31",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i04-n06",
       "bloco": "capsula",
-      "tom": "ganha",
-      "pt": "Back to that square at half eleven, children still in it. Nothing is on tonight. That is a Thursday."
+      "pt": "One person pays for the table and the next round belongs to somebody else. It gets remembered, not settled."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i04-p07",
+      "promptPt": "Your glass is empty, the plates are still half full, and the table is nowhere near going home. Speak now.",
+      "audioKey": "el-i04-t07",
+      "es": "Άλλο ένα, παρακαλώ.",
+      "pinyin": "AL-lo E-na, pa-ra-ka-LO",
+      "pt": "Another one, please.",
+      "tts": "Άλλο ένα, παρακαλώ.",
+      "molde": "THA-ITHELA",
+      "encaixe": "άλλο ένα"
+    },
+    {
+      "consulta": [
+        "mesa/conta",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i04-p08",
+      "promptPt": "Six things came to the table over two hours and you want one number for the lot. Speak now.",
+      "audioKey": "el-i04-t08",
+      "es": "Πόσο κάνει όλα μαζί;",
+      "pinyin": "PO-so KA-ni O-la ma-ZEE",
+      "pt": "How much is it all together?",
+      "tts": "Πόσο κάνει όλα μαζί;",
+      "molde": "POSO-KANI",
+      "encaixe": "όλα μαζί"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n32",
-      "pt": "The heat has gone and dinner is finished, so the evening starts where yours would be ending."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i04-n07",
+      "pt": "Tips are real here and legally recognised. No percentage is standard, so rounding up is a complete answer."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i04-p09",
+      "promptPt": "The bill is on a saucer in front of you and there are eleven euros in your pocket. Speak now.",
+      "audioKey": "el-i04-t09",
+      "es": "Μπορώ να πληρώσω με κάρτα;",
+      "pinyin": "bo-RO na pli-RO-so me KAR-ta",
+      "pt": "Can I pay by card?",
+      "tts": "Μπορώ να πληρώσω με κάρτα;",
+      "molde": "BORO",
+      "encaixe": "πληρώσω με κάρτα"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i04-r05",
+      "es": "Βεβαίως. Θέλετε απόδειξη;",
+      "pt": "Of course. Do you want a receipt?",
+      "tts": "Βεβαίως. Θέλετε απόδειξη;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n33",
-      "pt": "Go out later than feels right, and take the second bar. That is where the free table is."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i04-n08",
+      "pt": "Leaving is announced, not performed. You say you are going, you say goodnight, and then you actually go."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n34",
-      "pt": "Not the last metro, mind. That runs to a printed time and cares nothing for your evening."
+      "consulta": [
+        "chegar/sair",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i04-p10",
+      "promptPt": "It is one in the morning, the table is staying, and you have a ferry at seven. Stand up and say it. Speak now.",
+      "audioKey": "el-i04-t10",
+      "es": "Εγώ φεύγω. Καληνύχτα!",
+      "pinyin": "e-GO FEV-go. ka-li-NEEH-ta",
+      "pt": "I'm off. Goodnight!",
+      "tts": "Εγώ φεύγω. Καληνύχτα!"
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n35",
-      "bloco": "permissao",
-      "pt": "You can nurse one glass for an hour. You can leave after one. And you can let somebody else pay."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n36",
-      "bloco": "espelho",
-      "pt": "Splitting it item by item at the end is the odd bit there. Four friends turn into an audit."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n36b",
-      "bloco": "clique",
-      "pt": "Count the places. The first bar. The wine bar. The second. The third. The table of eight. The fiesta."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n36c",
-      "pt": "Nobody gave you those tonight. Two openers you already owned did the whole evening, and one is two words."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n37",
-      "bloco": "piso",
-      "pt": "You will get a table at half ten, take a turn whole, and leave it going. Most visitors are in bed."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-s00",
-      "pt": "Shadowing. Out loud, underneath them, one punch a word. The two you will use every night out:"
+      "consulta": [
+        "simpatia/convite",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i04-p11",
+      "promptPt": "The table is already planning the next night while you are still standing up. Leave the door open. Speak now.",
+      "audioKey": "el-i04-t11",
+      "es": "Τα λέμε αύριο.",
+      "pinyin": "ta LE-me AV-ri-o",
+      "pt": "See you tomorrow.",
+      "tts": "Τα λέμε αύριο."
     },
     {
       "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "i04-ronda-c",
-      "molde": "OTRA",
-      "es": "Otra ronda, por favor.",
-      "pinyin": "OH-trah RROHN-dah, por fah-BOR",
-      "pt": "Another round, please."
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Emilio",
-      "audioKey": "i04-invito-e",
-      "es": "Invito yo.",
-      "pinyin": "een-BEE-toh yoh",
-      "pt": "This one's on me."
+      "voz": "target_el_f",
+      "audioKey": "el-i04-s01",
+      "es": "Έχετε τραπέζι έξω; Γεια μας! Πόσο κάνει όλα μαζί; Τα λέμε αύριο.",
+      "pinyin": "E-he-te tra-PE-zi E-kso. YA mas. PO-so KA-ni O-la ma-ZEE. ta LE-me AV-ri-o",
+      "pt": "Shadow the four sentences that carry an entire evening from the pavement to the door.",
+      "tts": "Έχετε τραπέζι έξω; Γεια μας! Πόσο κάνει όλα μαζί; Τα λέμε αύριο.",
+      "molde": "EXETE"
     },
     {
       "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "i04-rend",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i04-n09",
       "bloco": "recap",
-      "pt": "One more out loud, somewhere we have not stood tonight, and this time nobody has paid for anything yet."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i04-p12",
-      "promptPt": "A street bar at a village fiesta, plastic table, four of you, and the first glasses have just landed in front of you. Speak now.",
-      "audioKey": "i04-invito-e",
-      "es": "Invito yo.",
-      "pinyin": "een-BEE-toh yoh",
-      "pt": "two words, before anybody else"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i04-n38",
-      "pt": "That is it. Out late, second bar, one turn whole, and gone without breaking it up. Hasta luego."
+      "pt": "I04 done. A table outside, a local glass, one bill, and a goodnight that keeps the table open for you."
     }
   ],
-
   "aprofundar": {
-    "titulo": "The second bar, the turn, and the line on the pavement (optional reading)",
+    "titulo": "One table, one bill, one goodnight",
     "secoes": [
       {
-        "titulo": "Why nine o'clock is early, and what that buys you",
-        "corpo": "Typically, and none of this is official: the main meal of the day is at two, there is a snack around five or six, and dinner runs from nine, with kitchens taking their last orders somewhere around half eleven. Work backwards from that and the evening comes out at the shape you have been seeing — a square that is emptier at eight than at half ten, and a bar that has a queue at eleven. The practical consequence is not authenticity theatre, it is a filter: a place happily serving full dinners at seven is, almost by definition, a place living on people who do not know the hours, and that is also where the inflated bill and the price-free tourist menu live. There is one straightforward exception and it is worth writing on your hand: the transport does not move with the evening. The last metro, the last cercanías and the train home all run to a printed timetable, and the timetable does not know what kind of night you are having. Book dinner at half nine, and check the last train before you order the second bottle rather than after.",
+        "titulo": "Order for the table",
+        "corpo": "Drinks arrive small and food arrives in the middle. Nobody is guarding a plate, and the plate you were given is not a portion assigned to you. Ordering two or three things and pushing them into the centre is the ordinary move, and it is also the cheapest way to try five things instead of committing to one.",
         "exemplos": [
           {
-            "es": "La cocina cierra a las once y media.",
-            "pt": "lah koh-THEE-nah THYEH-rrah — 👂 the kitchen shuts at half eleven"
+            "es": "Τι έχετε ντόπιο;",
+            "pt": "What do you have that's local?"
           },
           {
-            "es": "¿Hasta qué hora está abierto?",
-            "pt": "AHS-tah keh OH-rah ehs-TAH ah-BYEHR-toh — how late are you open?"
+            "es": "Άλλο ένα, παρακαλώ.",
+            "pt": "Another one, please."
           }
         ]
       },
       {
-        "titulo": "The turn: invito yo, la próxima, and when to ask to split",
-        "corpo": "Drinks are bought in whole turns rather than by the glass. One person says 'invito yo' — this one is on me — and the next round is somebody else's, and it carries on like that across the evening and often across several bars. Nobody is keeping a ledger; the assumption is simply that it evens out, and it usually does. Two things follow. First, if you sit there paying for your own drink each time, you are not being careful, you are quietly stepping outside the group, and it is noticed. Second, if somebody gets in before you, the repair is one sentence said immediately: 'la próxima la pago yo' — I'll get the next one — and then you actually do it. The variants all work the same way: 'esta la pago yo' for this one, 'te invito' when it is one other person, and 'invita la casa' is what you will hear when the bar itself is buying, which does happen. Where turns genuinely do not fit — eight people, half of them eating, or a table of strangers you will not see again — the sentence is '¿podemos pagar por separado?', and it has a clock on it: say it while you are ordering. Once the bill has been added up as one number, unpicking it is a job for the till and the answer is often no. 'A partes iguales' — equal shares — is the other ordinary way out, and it is far more common at a Spanish table than working out who had the extra beer.",
-        "exemplos": [
-          {
-            "es": "Esta la pago yo.",
-            "pt": "EHS-tah lah PAH-goh yoh — this one is on me (the same move, different words)"
-          },
-          {
-            "es": "Pagamos a partes iguales.",
-            "pt": "ah PAR-tehs ee-GWAH-lehs — let's split it equally"
-          }
-        ]
+        "titulo": "The bread question, and why it is a question",
+        "corpo": "A cover charge is prohibited outright, and no item may be served and billed without prior consent — bread and bottled water named explicitly, with a fine of €500 per item. Bread can perfectly well be charged if it was offered and you took it. So the useful sentence is not a complaint, it is a question asked in three words before the basket is opened."
       },
       {
-        "titulo": "Getting up from a table that is still going",
-        "corpo": "Leaving is a two-move business and the first move is not expected to work. You stand, you say 'yo me voy yendo' — literally 'I am going going', which is exactly the softness it carries — and what comes back is '¡pero si es pronto!' or 'anda, quédate un poco más'. That is not somebody trying to trap you; it is the ordinary shape of the exchange, and going straight out of the door on the first attempt reads as if something has gone wrong. The second move is where you actually leave, and it wants a reason attached: 'es que mañana madrugo' — I have an early start tomorrow — which is the one everybody uses because it cannot be argued with. Then 'hasta luego' or 'nos vemos' and you go, and crucially the table does not go with you. Nobody stands up, nobody puts a coat on, nobody feels obliged to call it a night because you have. Two you will hear on the way out and never need to say: 'que sigáis bien' and 'que os vaya bien' are what stays behind wishes the leaver. If you want the shorter version of everything above: say it once, take the protest, say it again with a reason, and walk.",
-        "exemplos": [
-          {
-            "es": "Anda, quédate un poco más.",
-            "pt": "AHN-dah, KEH-dhah-teh oon POH-koh mahs — 👂 go on, stay a bit longer"
-          },
-          {
-            "es": "Nos vemos mañana.",
-            "pt": "nohs BEH-mohs mah-NYAH-nah — see you tomorrow"
-          }
-        ]
+        "titulo": "The list on the wall",
+        "corpo": "Prices have to be listed in Greek, visible at the entrance and again before you order, VAT included. A missing list carries a €1,000 fine and an item billed above the listed price carries €500. You do not need to argue with anything: reading the board on the way in tells you what the evening costs before you sit down."
       },
       {
-        "titulo": "The line on the pavement, with the numbers and the dates on them",
-        "corpo": "The alcohol is not the offence; the ground is. Drinking on a public street is a minor offence under national law — Ley Orgánica 4/2015, article 37.17 — at €100 to €600, and that is the national floor rather than the whole story. Barcelona's civility ordinance, approved in December 2025 and in force since February 2026, takes it to €1,500 where children are around or in a night-time noise zone, and prices organising or promoting a pub crawl at €3,000. In the Balearic excess-tourism zones — Playa de Palma, Magaluf, Sant Antoni — drinking outside an authorised area is €500 to €1,500, happy hours and organised pub crawls are banned outright, and shops cannot sell you alcohol between 21:30 and 08:00. Two metres away, at a licensed terrace table on the same kerb, the identical drink is simply a drink. The change that killed the old folk wisdom is worth knowing: the same Barcelona ordinance obliges non-residents to pay on the spot and the Guàrdia Urbana carries card terminals, because collection used to be near zero once the tourist had flown home. So the two questions that belong in your mouth are '¿de cuánto es la multa?' and '¿me lo puede dar por escrito?' — the receipt is your only proof you paid. Amounts and ordinances move: these are as of 2026, and a municipal rule can change in a single council meeting.",
-        "exemplos": [
-          {
-            "es": "¿De cuánto es la multa?",
-            "pt": "deh KWAN-toh es lah MOOL-tah — how much is it?"
-          },
-          {
-            "es": "¿Me lo puede dar por escrito, por favor?",
-            "pt": "meh loh PWEH-dheh dar por ehs-KREE-toh — could you give me that in writing?"
-          }
-        ]
+        "titulo": "Κερνάω εγώ",
+        "corpo": "One person pays for the table. Trying to divide the bill mid-evening tends to be waved away, not because anyone is being extravagant but because the round is the unit and the next one is somebody else's. Saying κερνάω εγώ early is a gesture; producing a calculator at one in the morning is arithmetic on the pavement."
       },
       {
-        "titulo": "The flat, the stairwell, and why the host panics",
-        "corpo": "Quiet hours — 'las horas de descanso' — typically run from ten or eleven at night to eight in the morning, and they are set by the town hall and by the building's own rules rather than nationally. There is no national fines table, so treat any single figure you read online with suspicion; what is reliable is where the complaint goes. The neighbour rings the local police, not your host, and in a licensed tourist flat repeated complaints put the flat's licence at risk. That, and not his sleep, is what is behind the message at half past midnight from somebody who was charm itself at check-in. The body actions cost nothing: library voice on the stairwell after midnight, no inner courtyard or terrace after eleven, and no suitcase wheels down a residential street at two in the morning — that last one is also, in a city arguing about housing, the single most reliable way to make an enemy in four seconds. If somebody does knock, do not argue through the door: 'perdón, bajamos la voz ahora mismo' ends it, because regret plus immediate action is the pairing that defuses almost anything here. And note the inversion that catches British visitors out: the bar itself is loud, nobody minds, and lowering your voice in there is the only thing that marks you out. Volume belongs in the bar. Quiet belongs on the stairs.",
-        "exemplos": [
-          {
-            "es": "¿A qué hora son las horas de descanso?",
-            "pt": "lahs OH-rahs deh dehs-KAN-soh — what are the quiet hours?"
-          },
-          {
-            "es": "Perdón, bajamos la voz ahora mismo.",
-            "pt": "bah-KHAH-mohs lah bohth — sorry, we'll keep it down right now"
-          }
-        ]
-      },
-      {
-        "titulo": "Otra, and the two-way question — where else they go",
-        "corpo": "'Otra' on its own is a complete sentence when the empty glass says the rest, and everything you hang off it travels with it: 'otra ronda' for the table, 'otra caña', 'otro vino', 'otra de esas' pointing at the tray. The ending of the word follows the thing hanging off it — otra ronda, otro vino — and you take that by ear and refuse to think about it, because getting it the other way round is heard as an accent and not as a mistake. The two-way question from part twenty-one does the same trick in a different direction: instead of asking what is good, which produces an answer you then have to understand, you offer two things and let them pick one, which produces an answer you already know. '¿Cuál me recomienda, el tinto o el blanco?' at a wine bar; '¿cuál está mejor, este o aquel?' pointing at two trays; '¿cuál cierra más tarde?' when the choice is between two bars rather than two drinks. It works because you have made the answer binary, and a binary answer survives a loud room, a strong accent and a fortnight of jet lag. Word to bank while we are here: 'la última' is what the table calls the last one of the night, and it is almost never the last one.",
-        "exemplos": [
-          {
-            "es": "Otra de esas, por favor.",
-            "pt": "OH-trah deh EH-sahs — another one of those, please (pointing works)"
-          },
-          {
-            "es": "¿Nos tomamos la última?",
-            "pt": "lah OOL-tee-mah — 👂 shall we have the last one? (it is not the last one)"
-          }
-        ]
+        "titulo": "Tipping without a number",
+        "corpo": "Tips are recognised in Greek tax law — up to €300 a month per worker is exempt from income tax — which tells you they exist and are normal. It tells you nothing about how much. There is no defensible national percentage, and rounding the bill up or leaving the coins is a complete answer everywhere."
       }
     ]
-  }
+  },
+  "slot": "I04",
+  "permissao": "You are allowed to sit at a table for three hours and order twice. Nobody is counting your glasses, nobody needs the table back, and the waiter who has not come over is not ignoring you — he is leaving you alone, which is the same gesture done the other way round. And when somebody insists on paying, you are allowed to simply say thank you and take the next round instead of fighting over a bill.",
+  "permissaoAudioKey": "el-i04-n01",
+  "espelho": "Anyone who has ever been in a group where one person quietly gets the round in already knows the arrangement — it works on memory rather than arithmetic, and it only feels strange when you are the newest person at the table. The only new part is that here the memory runs to tomorrow night rather than to next month.",
+  "fichasCulturais": [
+    {
+      "sinal": "You reach for your share and your money is pushed back across the table, twice, with some force.",
+      "suaLeitura": "He is being extravagant, or he thinks I cannot afford it.",
+      "oQueEAli": "The round, not the individual drink, is the unit that gets paid for. One person covers the table and the next occasion belongs to someone else. Refusing the offer twice reads as declining the arrangement rather than as good manners.",
+      "oQueVoceFaz": "Say thank you, put the money away, and get the next round in before anyone else moves — that is the second half of the same gesture, and it is what makes the first half work.",
+      "oQueMelhora": "The evening stops having an accounting layer running underneath it, and you get invited to the one after this one.",
+      "ondeNaoVale": "This is an observed pattern of hospitality, not a rule. Younger groups and mixed tables split perfectly happily, and if the table is dividing it up on a phone, divide it up on a phone.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-i04-n06"
+      ]
+    },
+    {
+      "sinal": "Bread, and then a small dish nobody asked for, arrive at the table before you have ordered.",
+      "suaLeitura": "This will show up on the bill and there will be nothing I can do about it.",
+      "oQueEAli": "A cover charge is prohibited, and no product may be served and billed without prior consent — bread and bottled water named explicitly, at €500 per item. Bread is lawfully charged only when it was offered and accepted, which is why waiters here often ask.",
+      "oQueVoceFaz": "Ask before the basket is opened, in three words, and read the price list at the entrance on the way in. Both are ordinary moves, and neither of them is a confrontation.",
+      "oQueMelhora": "You stop bracing for the end of the meal, and the small dish that really was a gift stays a gift.",
+      "ondeNaoVale": "Not every extra plate is a charge. Something sent over at the end of the evening is very often exactly what it looks like, and treating it as a line item is the one way to get it wrong.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i04-n03",
+        "el-i04-n04"
+      ]
+    }
+  ]
 }

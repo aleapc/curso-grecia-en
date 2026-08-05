@@ -1,792 +1,368 @@
 {
   "id": "b10",
-  "slot": "B10",
   "nivel": "basico",
   "numero": 10,
   "parte": "B10",
-  "titulo": "Every sign in Spain that has been lying to you",
-  "subtitulo": "The words on doors, shutters, platforms and windscreens — read at a glance, with a suitcase in each hand, and acted on before you have translated anything",
+  "titulo": "ΡΟΔΟΣ is not Podos — reading the sign and saying the word",
+  "subtitulo": "Five letters do not mean what your eye says, and the Latin line underneath is a spelling, not a pronunciation",
+  "cena": "A departures board, a street corner and a shop door, each written twice — once in letters you are learning to match and once in letters that mislead you.",
   "moldura": "ganha",
-
-  "cena": "Ten past one, a glass door with one word painted on it at eye height, three people waiting behind you, and your shoulder is already against the half that does not move.",
-
+  "frasePiso": "Read the sign to find the place. Say the place out loud with ψάχνω.",
+  "moldes": [
+    "PSAXNO"
+  ],
   "clique": {
     "contagem": [
-      "the station",
-      "the department store",
-      "the market stall",
-      "the old town"
+      "the ferry gate",
+      "the kiosk in the square",
+      "the station window",
+      "the back of the café"
     ],
-    "desconto": "Nobody translated a word for you. You read four signs, and the frame you already owned did the rest.",
-    "piso": "You will read a Spanish street at walking speed and act on it before you have translated it. Most visitors spend a fortnight pushing pull doors."
+    "desconto": "Nobody gave you a sentence for each of those. You kept one opening and changed only the thing after it — and the opening worked even where you could not yet read the word.",
+    "piso": "Next time a sign is written in letters you cannot decode at speed, you will not stand there decoding. You will say what you are looking for and let someone point."
   },
-  "cliqueAudioKey": "b10-n39",
-
-  "frasePiso": "Spot salida, aseos, empujar and tirar and you are already ahead of most English speakers here — the ones who spend a fortnight pushing pull doors and eating dinner at seven in a place that lives off them.",
-
-  "permissao": "You never have to say a single one of these out loud. Reading is the whole job here — and when you get a door back to front, the door tells you in half a second, nobody in the queue thinks anything of it, and everybody standing in it has done the same.",
-  "permissaoAudioKey": "b10-n37",
-
-  "espelho": "Standing in the doorway working out which way it opens is the bit that reads as odd there. Everyone else read the word two steps ago and went through without slowing down.",
-
-  "fichasCulturais": [
-    {
-      "sinal": "The person ahead of you looks up at the door, reads the word painted on the glass and goes through without breaking step. You look at the handle instead, and push.",
-      "suaLeitura": "The door is badly made, and anyway a door is a door — I can work it out from the ironmongery like I do at home.",
-      "oQueEAli": "The word is the instruction, and it is doing the entire job. The hardware on a Spanish door is not designed to tell you anything, which is exactly why TIRAR and EMPUJAR are painted at eye height.",
-      "oQueVoceFaz": "Read the four or six letters before your hand arrives. One second, at eye height, every single time.",
-      "oQueMelhora": "You stop being the one person in the doorway going the other way, which is the thing that marks a visitor from ten metres away.",
-      "ondeNaoVale": "Not on the automatic doors of a supermarket, a metro or an airport — there is no word on those and nothing to read, and standing there reading is its own kind of odd.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["b10-n34", "b10-n35", "b10-n36"]
-    },
-    {
-      "sinal": "A Tuesday in August, a whole street of metal shutters down, and one handwritten card taped inside the glass of each.",
-      "suaLeitura": "Something has gone on here — either these places have folded, or I have the day of the week muddled.",
-      "oQueEAli": "The card says the holidays. A family business shuts for the whole month and the card is the only notice there is; the online listing very often still says open.",
-      "oQueVoceFaz": "Read the card, and ring the next place before you walk twenty-five minutes to it.",
-      "oQueMelhora": "You plan the week the way the neighbourhood plans it, and August turns into the emptiest, cheapest, longest-evening month you could have picked.",
-      "ondeNaoVale": "Not the big chains, the restaurants or the museums, which stay open all August — and on the coast August is the busiest month of the year, not the quietest.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["b10-n24", "b10-g01", "b10-g02"]
-    },
-    {
-      "sinal": "Three letters on a plate at the edge of the old town, a camera on the post above them, and no barrier, no officer and nothing physically stopping you driving in.",
-      "suaLeitura": "Nothing is blocking the road and nobody is standing there, so this must be advice rather than a rule.",
-      "oQueEAli": "There is no officer because none is needed. The camera reads the plate and the paperwork travels by post, months later, in Spanish, to wherever you live.",
-      "oQueVoceFaz": "Stop before the sign. Leave the car outside the zone and walk in — an old town is a few streets across.",
-      "oQueMelhora": "You park once, on the edge, and spend the afternoon on foot in a place that was built before cars and is much better without one.",
-      "ondeNaoVale": "Not every town has a zone — the requirement lands on municipalities over fifty thousand people, so in a village there is no plate, no camera and nothing to read.",
-      "evidencia": "FATO",
-      "audioKeys": ["b10-n25", "b10-n26", "b10-n27", "b10-n28"]
-    }
-  ],
-
   "fatosDatados": [
     {
-      "id": "zbe-obrigatoria",
-      "afirmacao": "Since January 2026 every Spanish town over fifty thousand people has had to run a low-emission zone. Enforcement is an automatic camera, the fine is up to two hundred euros and halves if you pay early, and the DGT sticker that lets a car in is only issued to vehicles registered in Spain.",
-      "valor": "até €200 (€100 com pagamento antecipado)",
-      "fonte": "docs/pesquisa-espanha.md §8.4 — obrigatoriedade desde 01/jan/2026 para municípios >50.000 habitantes, territórios insulares e municípios >20.000 acima dos limites de poluição; infração grave, multa até €200 reduzível a €100; distintivo ambiental da DGT emitido apenas a veículos matriculados na Espanha",
-      "ano": 2026,
-      "revisarAte": "2027-01-31",
-      "evidencia": "FATO",
-      "risco": "alto",
-      "audioKeys": ["b10-n26", "b10-n27", "b10-n28"]
-    },
-    {
-      "id": "cartao-nao-obrigatorio",
-      "afirmacao": "SOLO EFECTIVO is cash only, and it is perfectly legal here: no shop or bar in Spain is obliged to accept a card.",
-      "fonte": "Euro Weekly News, 'Cash or card in Spain: when shops can refuse your payment and when they can't' (abr/2026); síntese em docs/pesquisa-espanha.md §8.2",
-      "ano": 2026,
-      "revisarAte": "2027-07-01",
+      "id": "el-b10-elot",
+      "afirmacao": "The Greek romanisation standard is ELOT 743, second edition, 2001, identical to ISO 843:1997. It defines two types: Type 1, a reversible transliteration, and Type 2, a phonetic transcription. The standard names road signs and map toponyms as a case for Type 2 — and it does not impose which type an application must use. Each application chooses and declares.",
+      "fonte": "ΕΛΟΤ 743, 2ª edição, 2001, idêntica à ISO 843:1997. Τύπος 1 = transliteração reversível; Τύπος 2 = transcrição fonética, que «μπορεί να χρησιμοποιηθεί … στα οδικά σήματα, στα τοπωνύμια χαρτών». O padrão não impõe qual tipo usar.",
+      "ano": 2001,
+      "revisarAte": "2029-08-05",
       "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["b10-n15"]
+      "audioKeys": [
+        "el-b10-n06"
+      ]
     },
     {
-      "id": "hojas-reclamaciones-cartaz",
-      "afirmacao": "The poster saying complaint forms are available is compulsory, and a business that displays it has to hand one over on the spot, free, when a customer asks.",
-      "fonte": "docs/pesquisa-espanha.md §7.6 — normativa autonômica de consumo (Consumo Responde / Junta de Andalucía; Consumo Región de Murcia): obrigação de ter as folhas, entregá-las de forma imediata e gratuita e anunciar sua existência em cartaz visível",
-      "ano": 2026,
-      "revisarAte": "2027-07-01",
+      "id": "el-b10-pcgn",
+      "afirmacao": "The British Permanent Committee on Geographical Names records that ELOT 743 «is very widely used on road signs in Greece as well as printed guide books», that it «is a less reliable guide to Modern Greek pronunciation» than the BGN/PCGN 1962 system it replaced, and that «place names in Wikipedia and on Google Earth are not romanized consistently». PCGN adopted the system in 1996; the UN recommended it by resolution V/19 in 1987.",
+      "fonte": "PCGN britânico, «Greece Toponymic Factfile», abril de 2020 — texto bruto verificado. PCGN adotou em 1996; ONU recomendou pela resolução V/19 (1987).",
+      "ano": 2020,
+      "revisarAte": "2028-08-05",
       "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["b10-n18", "b10-n19"]
-    },
-    {
-      "id": "siesta-comercial",
-      "afirmacao": "A HORARIO card has two ranges on it, not one: the small shop closes in the middle of the day, roughly half one to half four. The big chains, the restaurants and the museums stay open through it.",
-      "fonte": "docs/pesquisa-espanha.md §7.1 — consenso de fontes de comércio 2025–2026, rotulado ali como FATO qualitativo (~10:00 → 13:30/14:00 → reabre 16:30/17:00 → 20:00/20:30); não fecham El Corte Inglés, Mercadona, Lidl, Carrefour, Zara e cadeias, restaurantes e museus",
-      "ano": 2026,
-      "revisarAte": "2028-01-01",
-      "evidencia": "CONSENSO",
-      "risco": "baixo",
-      "audioKeys": ["b10-n22", "b10-n23"]
-    },
-    {
-      "id": "agosto-cerrado-por-vacaciones",
-      "afirmacao": "CERRADO POR VACACIONES is August. A family business shuts for the whole month, and the online listing frequently does not know.",
-      "fonte": "docs/pesquisa-espanha.md §7.1 — negócio familiar fecha o mês inteiro em agosto e o Google Maps frequentemente não sabe; feriado nacional de 15/ago (Asunción)",
-      "ano": 2026,
-      "revisarAte": "2027-07-01",
-      "evidencia": "CONSENSO",
-      "risco": "baixo",
-      "audioKeys": ["b10-n24", "b10-g01"]
-    },
-    {
-      "id": "agua-del-grifo-gratis",
-      "afirmacao": "AGUA NO POTABLE is on square fountains. Tap water asked for inside a hospitality business is free by law.",
-      "fonte": "Ley 7/2022, de 8 de abril, de residuos y suelos contaminados para una economía circular, art. 18.3 (BOE); síntese em docs/pesquisa-espanha.md §7.3",
-      "ano": 2022,
-      "revisarAte": "2028-01-01",
-      "evidencia": "FATO",
-      "risco": "baixo",
-      "audioKeys": ["b10-agua-e"]
-    },
-    {
-      "id": "farmacia-de-guardia-rodizio",
-      "afirmacao": "In every locality at least one pharmacy is on duty outside shop hours, and the rota is posted on the door of every pharmacy, including the shut one you are standing in front of.",
-      "fonte": "docs/pesquisa-espanha.md §7.1 — rede de Colegios Oficiales de Farmacéuticos, prática nacional; fonte oficial em Madri: COFM (cofm.es → Farmacias de guardia); agregador nacional farmacias365.com",
-      "ano": 2026,
-      "revisarAte": "2027-07-01",
-      "evidencia": "FATO",
-      "risco": "baixo",
-      "audioKeys": ["b10-n21"]
+      "audioKeys": [
+        "el-b10-n04"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n01",
-      "bloco": "aquecimento",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b10-n01",
       "gesto": 1,
-      "tom": "ganha",
-      "pt": "Part ten. Warm-up: metronome hand. Sa-li-da. Three taps, all the same size."
+      "bloco": "aquecimento",
+      "pt": "Greek signs come in two scripts. Only one of them is the place. The other is a spelling, not a sound."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n02",
-      "pt": "Em-pu-jar. Four taps, and the punch lands on the last one. Your mouth will want to move it forward."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b10-n02",
+      "bloco": "molde",
+      "pt": "The frame is ψάχνω, then the thing. It says what you are after long before you can read the word for it."
     },
     {
-      "consulta": ["transporte/plataforma","transporte/placas"],
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-b10-t01",
+      "es": "Ψάχνω την έξοδο.",
+      "pinyin": "PSAKH-no tin E-kso-dho",
+      "pt": "I'm looking for the exit.",
+      "tts": "Ψάχνω την έξοδο."
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "bloco": "callback",
-      "molde": "DONDE",
-      "encaixe": "la vía",
-      "encaixeGloss": "the track",
-      "promptAudioKey": "b10-p01",
-      "promptPt": "Yesterday's station, nine minutes to go, and the board has just put a four beside your train that you cannot find on any wall from here. Stop the man in the red waistcoat. Speak now.",
-      "audioKey": "b10-via-e",
-      "es": "¿Dónde está la vía cuatro?",
-      "pinyin": "DOHN-deh ehs-TAH lah BEE-ah KWAH-troh",
-      "pt": "the one the board just gave you",
-      "tts": "¿Dónde está la vía cuatro?"
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "την έξοδο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b10-p01",
+      "promptPt": "The hall has four doors and the only word above them is in letters you are still matching. Say what you are after. Speak now.",
+      "audioKey": "el-b10-t01",
+      "es": "Ψάχνω την έξοδο.",
+      "pinyin": "PSAKH-no tin E-kso-dho",
+      "pt": "I'm looking for the exit.",
+      "tts": "Ψάχνω την έξοδο."
     },
     {
       "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b10-controlcierra-c",
-      "es": "Vía cuatro es abajo. Pero corre, que el control cierra antes.",
-      "pinyin": "BEE-ah KWAH-troh es ah-BAH-khoh. PEH-roh KOH-rreh, keh el kon-TROL THYEH-rrah AN-tehs",
-      "pt": "👂 'Platform four is downstairs — but hurry, the gate shuts before departure.' — long distance here boards like a small airport.",
-      "tts": "Vía cuatro es abajo. Pero corre, que el control cierra antes."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n03",
-      "bloco": "cena",
-      "pt": "Ten past one. A glass door, one word painted on it at eye height, and three people behind you."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n04",
-      "pt": "Your shoulder is already on it. The word says the other thing, and the door does not move."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n05",
-      "pt": "Today you say almost nothing. You read, and you act — and the street stops fighting you."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "e08b-placas2-e",
+      "voz": "target_el_m",
+      "audioKey": "el-b10-r01",
       "receptivo": true,
-      "es": "TIRAR · EMPUJAR",
-      "pinyin": "tee-RAR · em-poo-KHAR",
-      "pt": "👂 PULL / PUSH — the two that walk you into the door. Read them, then move your hand.",
-      "tts": "Tirar. Empujar."
+      "es": "Εκεί, δεξιά. Γράφει ΕΞΟΔΟΣ πάνω από την πόρτα.",
+      "pt": "Over there, on the right. It says ΕΞΟΔΟΣ above the door.",
+      "tts": "Εκεί, δεξιά. Γράφει ΕΞΟΔΟΣ πάνω από την πόρτα.",
+      "acao": "You were handed the shape to look for. Find the two Ξ-and-Ο word above a door and walk at it."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n06",
-      "pt": "Em-PU-jar is push. Tirar is pull — and it looks like tear, which is the whole of the problem."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b10-n03",
+      "bloco": "corpo",
+      "pt": "Five letters lie to your eye. Ρ is R, Η is I, Χ is CH, Β is V, and Υ comes out as ee."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n07",
-      "pt": "Read the word, never the shape of the handle. The ironmongery on a Spanish door tells you nothing."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "e08b-placas1-c",
-      "receptivo": true,
-      "es": "SALIDA · SALIDAS",
-      "pinyin": "sah-LEE-dhah · sah-LEE-dhahs",
-      "pt": "👂 the way out — and in the plural, over an airport concourse: departures. Follow it on foot, not on a boarding card.",
-      "tts": "Salida. Salidas."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n08",
-      "pt": "Salida is the way out. It is not a sale — that word is rebajas, and it is the happier one."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n09",
-      "pt": "At an airport the plural turns it over. Salidas up there means departures, not exits."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b10-aseos-c",
-      "receptivo": true,
-      "es": "ASEOS · SERVICIOS · LAVABOS · PLANTA BAJA",
-      "pinyin": "ah-SEH-ohs · sehr-BEE-thyohs · lah-BAH-bohs · PLAN-tah BAH-khah",
-      "pt": "👂 toilets, three ways · ground floor. Follow the first three; the fourth is street level, and it is not the button marked 1.",
-      "tts": "Aseos. Servicios. Lavabos. Planta baja."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n10",
-      "pt": "Three words for the toilets, and baño is on none of them. Those three are what is on the door."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n11",
-      "pt": "Planta baja is the ground floor. The Spanish first floor is one flight up from the street."
-    },
-    {
-      "consulta": ["chegar/entrar"],
+      "consulta": [
+        "transporte/qual-trem",
+        "transporte/placas"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "DONDE",
-      "encaixe": "los aseos",
-      "encaixeGloss": "the toilets",
-      "promptAudioKey": "b10-p02",
-      "promptPt": "Third floor of a department store, two coffees ago, and a shop assistant is folding shirts a metre from your elbow. Ask her. Speak now.",
-      "audioKey": "b08-donde-aseos-c",
-      "es": "¿Dónde están los aseos?",
-      "pinyin": "DOHN-deh ehs-TAN lohs ah-SEH-ohs",
-      "pt": "the ones with three names"
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "το πλοίο για τη Ρόδο",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b10-p02",
+      "promptPt": "At the ferry gate the board reads ΡΟΔΟΣ and your printed ticket reads RODOS. Tell the agent which sailing you want. Speak now.",
+      "audioKey": "el-b10-t02",
+      "es": "Ψάχνω το πλοίο για τη Ρόδο.",
+      "pinyin": "PSAKH-no to PLEE-o ya ti RO-dho",
+      "pt": "I'm looking for the boat to Rhodes.",
+      "tts": "Ψάχνω το πλοίο για τη Ρόδο."
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "e06b-s-anden",
+      "voz": "target_el_m",
+      "audioKey": "el-b10-r02",
       "receptivo": true,
-      "es": "ANDÉN · VÍA",
-      "pinyin": "an-DEN · BEE-ah",
-      "pt": "👂 platform · track. Same thing to you, and only one of them is on any given board. Read the one in front of you.",
-      "tts": "andén, vía"
+      "es": "Ρόδος; Πύλη τρία, στο βάθος αριστερά.",
+      "pt": "Rhodes? Gate three, at the far end on the left.",
+      "tts": "Ρόδος; Πύλη τρία, στο βάθος αριστερά.",
+      "acao": "The Ρ at the front is an R sound, not a P. Repeat the gate number back before you move."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n12",
-      "pt": "On the metro the platform is the andén. On a Renfe train the same thing is called the vía."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b10-n04",
+      "pt": "The British board on geographical names calls that Latin line a less reliable guide to pronunciation. Read it, don't say it."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b10-cocina-e",
-      "receptivo": true,
-      "es": "COCINA CERRADA · S.M. · SEGÚN MERCADO",
-      "pinyin": "koh-THEE-nah theh-RRAH-dhah · seh-GOON mehr-KAH-dhoh",
-      "pt": "👂 kitchen closed · market price, by weight. First one: the kitchen has stopped, the room has not — sit down and ask what is left. Second one: ask the price per kilo before you order it.",
-      "tts": "Cocina cerrada. Según mercado."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n13",
-      "pt": "Cocina cerrada means the kitchen has gone home. The room is open, the drinks are on — so ask what is left."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n14",
-      "pt": "And S.M. beside the fish is según mercado — sold by weight, at today's price. Ask before, not after."
-    },
-    {
-      "consulta": ["mesa/comida"],
+      "consulta": [
+        "pagar/dinheiro"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "HAY",
-      "encaixe": "algo para picar",
-      "encaixeGloss": "something to nibble",
-      "promptAudioKey": "b10-p03",
-      "promptPt": "Five past five, nothing since the plane, and the only lit place on the street has that card propped in the window. The barman is drying glasses. Speak now.",
-      "audioKey": "b10-picar-c",
-      "es": "¿Hay algo para picar?",
-      "pinyin": "ai AL-goh PAH-rah pee-KAR",
-      "pt": "anything at all, cold, on a plate",
-      "tts": "¿Hay algo para picar?"
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "ένα ΑΤΜ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b10-p03",
+      "promptPt": "Your wallet is down to coins and there is a machine somewhere off this square. Ask at the kiosk. Speak now.",
+      "audioKey": "el-b10-t03",
+      "es": "Ψάχνω ένα ΑΤΜ.",
+      "pinyin": "PSAKH-no E-na ei-tee-EM",
+      "pt": "I'm looking for a cash machine.",
+      "tts": "Ψάχνω ένα ΑΤΜ."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b10-dinero-c",
-      "receptivo": true,
-      "es": "SOLO EFECTIVO · CON CONVERSIÓN · SIN CONVERSIÓN",
-      "pinyin": "SOH-loh eh-fek-TEE-boh · kon kon-behr-SYOHN · seen kon-behr-SYOHN",
-      "pt": "👂 cash only · with conversion · without conversion. First one: find a machine. The other two are on the card reader, and the one you want is the second.",
-      "tts": "Solo efectivo. Con conversión. Sin conversión."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n15",
-      "pt": "Solo efectivo is cash only, and it is perfectly legal here. No bar has to take your card."
-    },
-    {
+      "consulta": [
+        "transporte/qual-trem"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "HAY",
-      "encaixe": "un cajero",
-      "encaixeGloss": "a cash machine",
-      "promptAudioKey": "b10-p04",
-      "promptPt": "Saturday, a market stall, half a kilo already on the scale, and the woman has just tapped the little card taped to the till. The man beside you is waiting his turn. Speak now.",
-      "audioKey": "b08-cajero-c",
-      "es": "¿Hay un cajero por aquí?",
-      "pinyin": "ai oon kah-KHEH-roh por ah-KEE",
-      "pt": "somewhere to get money out"
+      "voz": "target_el_f",
+      "molde": "POU-INE",
+      "encaixe": "η στάση",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b10-p04",
+      "promptPt": "You have the bus number written on your hand and no idea which side of the road it is picked up from. Ask a passer-by. Speak now.",
+      "audioKey": "el-b10-t04",
+      "es": "Πού είναι η στάση;",
+      "pinyin": "poo EE-ne ee STA-si",
+      "pt": "Where is the stop?",
+      "tts": "Πού είναι η στάση;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n16",
-      "pt": "The other two live on the little card machine, and the one that shows your own money is the one you do not want."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b10-n05",
+      "pt": "ΑΝΔΡΩΝ is men, ΓΥΝΑΙΚΩΝ is women. They end the same way, so read the front of the word."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n17",
-      "pt": "Sin conversión. Two words. They come back with a number attached in a few parts' time."
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "την τουαλέτα",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b10-p05",
+      "promptPt": "Two unmarked doors at the back of the café and no picture on either one. Speak now.",
+      "audioKey": "el-b10-t05",
+      "es": "Ψάχνω την τουαλέτα.",
+      "pinyin": "PSAKH-no tin too-a-LE-ta",
+      "pt": "I'm looking for the toilet.",
+      "tts": "Ψάχνω την τουαλέτα."
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "μπορείτε να το γράψετε",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b10-p06",
+      "promptPt": "They have said the street name twice and it still has not landed in your ear. Ask for it on paper. Speak now.",
+      "audioKey": "el-b10-t06",
+      "es": "Συγγνώμη, μπορείτε να το γράψετε;",
+      "pinyin": "si-GHNO-mi, bo-REE-te na to GHRA-pse-te",
+      "pt": "Sorry, could you write it down?",
+      "tts": "Συγγνώμη, μπορείτε να το γράψετε;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b10-hojas-e",
+      "voz": "target_el_m",
+      "audioKey": "el-b10-r03",
       "receptivo": true,
-      "es": "HAY HOJAS DE RECLAMACIONES A DISPOSICIÓN DEL CONSUMIDOR",
-      "pinyin": "ai OH-khahs deh rreh-klah-mah-THYOH-nehs ah dees-poh-see-THYOHN del kon-soo-mee-DOR",
-      "pt": "👂 complaint forms are available here. Spot it on the wall and remember which wall — it is the poster that makes the form impossible to deny you.",
-      "tts": "Hay hojas de reclamaciones a disposición del consumidor."
+      "es": "Ναι, να σας το γράψω. Φαρμακείο — με φι και με κάπα.",
+      "pt": "Yes, let me write it for you. Φαρμακείο — with a phi and a kappa.",
+      "tts": "Ναι, να σας το γράψω. Φαρμακείο — με φι και με κάπα.",
+      "acao": "Now you are carrying the shape, not the sound. Hold the paper up against the words above the doors."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n18",
-      "pt": "That poster is on the wall behind almost every till in the country, and almost no visitor reads it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n19",
-      "pt": "It says the official forms are there. A business that displays it cannot then tell you it has none."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b10-calle-c",
-      "receptivo": true,
-      "es": "NO TOCAR LA FRUTA · FARMACIA DE GUARDIA",
-      "pinyin": "noh toh-KAR lah FROO-tah · far-MAH-thyah deh GWAR-dhyah",
-      "pt": "👂 do not touch the fruit · duty pharmacy. First one: hands in pockets, point. Second one: read the list taped inside the glass — it names the one that is open tonight.",
-      "tts": "No tocar la fruta. Farmacia de guardia."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n20",
-      "pt": "At a traditional stall the fruit is hers until it is yours. Hands in your pockets, and point."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n21",
-      "pt": "And guardia is the word that finds you a chemist at midnight. The rota is on the pharmacy door."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b10-horario-e",
-      "receptivo": true,
-      "es": "HORARIO · HORARIO DE VERANO · CERRADO POR VACACIONES",
-      "pinyin": "oh-RAH-ryoh · oh-RAH-ryoh deh beh-RAH-noh · theh-RRAH-dhoh por bah-kah-THYOH-nehs",
-      "pt": "👂 opening hours · summer opening hours · closed for the holidays. Two ranges, not one — and if a second card is taped over the first, the season on it is the one that counts.",
-      "tts": "Horario. Horario de verano. Cerrado por vacaciones."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n22",
-      "pt": "A horario card has two ranges on it, not one. The small shop shuts in the middle of the day."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n23",
-      "pt": "Roughly half one to half four. The chains, the restaurants and the museums stay open right through it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n24",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b10-n06",
       "bloco": "capsula",
-      "pt": "Cerrado por vacaciones is August. The family business shuts the month, and the map often has no idea."
+      "pt": "One standard, two types, and no rule on which. A town can be spelled three ways across map, ticket and sign."
     },
     {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "b10-g01",
-      "pt": "GUIRI ALERT. August, thirty-four degrees, and our man has walked twenty-five minutes to a shut door."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "b10-g02",
-      "pt": "There is a card in the glass. He photographs it, sends it to a friend at home, and asks what it says."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "b10-g03",
-      "pt": "Two words. He could have rung ahead. Read the card first — that is the entire trick, the whole fortnight."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "e07b-placas-c",
-      "receptivo": true,
-      "es": "ZBE · ZONA DE BAJAS EMISIONES · ACCESO RESTRINGIDO · CÁMARAS",
-      "pinyin": "THEH-tah beh eh · THOH-nah deh BAH-khahs eh-mee-SYOH-nehs · ak-THEH-soh rrehs-treen-KHEE-dhoh · KAH-mah-rahs",
-      "pt": "👂 Low-emission zone · restricted access · cameras. Saw it? Don't drive in — park outside and walk.",
-      "tts": "Zeta, be, e. Zona de bajas emisiones. Acceso restringido. Cámaras."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n25",
-      "tom": "protege",
-      "pt": "Three letters on a plate at the edge of an old town, and a camera on the post above them."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n26",
-      "pt": "Since January twenty twenty-six, every town over fifty thousand people runs one of these zones."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n27",
-      "pt": "There is nobody standing there. The camera reads the plate, and the envelope reaches your house months later."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n28",
-      "pt": "Up to two hundred euros, halved if you pay early. And the sticker that lets a car in is only issued in Spain."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n29",
-      "tom": "ganha",
-      "pt": "So the rule is short, and it works at the speed of a car: see those three letters, and stop before them."
-    },
-    {
-      "consulta": ["taxi/estacionar","transporte/placas"],
+      "consulta": [
+        "saude/algo-para"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "PUEDO",
-      "encaixe": "aparcar",
-      "encaixeGloss": "leave the car",
-      "promptAudioKey": "b10-p05",
-      "promptPt": "Two streets short of the old town, a row of empty spaces along the kerb, and a man is hosing his windscreen at the pump beside you. Point at the row and ask him. Speak now.",
-      "audioKey": "b10-aparcar-e",
-      "es": "¿Puedo aparcar aquí?",
-      "pinyin": "PWEH-dhoh ah-par-KAR ah-KEE",
-      "pt": "here, outside, on this bit of kerb",
-      "tts": "¿Puedo aparcar aquí?"
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "το φαρμακείο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b10-p07",
+      "promptPt": "The green cross you walked past yesterday is not on this street. Say what you are after at the kiosk in the square. Speak now.",
+      "audioKey": "el-b10-t07",
+      "es": "Ψάχνω το φαρμακείο.",
+      "pinyin": "PSAKH-no to far-ma-KEE-o",
+      "pt": "I'm looking for the chemist.",
+      "tts": "Ψάχνω το φαρμακείο."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n30",
-      "pt": "An old town is a few streets across, and you were going to walk it anyway."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n43",
-      "pt": "Which leaves one question, and it is the one that turns a fine into a walk. Ask it before the line, not after."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "e07b-aparcar-e",
-      "es": "¿Dónde puedo aparcar sin entrar?",
-      "pinyin": "DON-deh PWEH-dhoh ah-par-KAR seen en-TRAR",
-      "pt": "Where can I park without going in?",
-      "tts": "¿Dónde puedo aparcar sin entrar?"
-    },
-    {
-      "consulta": ["taxi/estacionar","transporte/placas"],
+      "consulta": [
+        "transporte/placas"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "e07b-p08",
-      "promptPt": "You're two streets short of a sign reading ZBE, there's a petrol station attendant beside you, and you'd rather walk than gamble two hundred euros. Ask where you can park without going in. Speak now.",
-      "audioKey": "e07b-aparcar-e",
-      "es": "¿Dónde puedo aparcar sin entrar?",
-      "pinyin": "DON-deh PWEH-dhoh ah-par-KAR seen en-TRAR",
-      "pt": "Where can I park without going in?"
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "περάσω από εδώ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b10-p08",
+      "promptPt": "A rope and a small printed card block half the walkway, and someone in a uniform is standing beside it. Speak now.",
+      "audioKey": "el-b10-t08",
+      "es": "Μπορώ να περάσω από εδώ;",
+      "pinyin": "bo-RO na pe-RA-so a-PO e-DHO",
+      "pt": "Can I go through here?",
+      "tts": "Μπορώ να περάσω από εδώ;"
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b10-agua-e",
-      "receptivo": true,
-      "es": "AGUA NO POTABLE",
-      "pinyin": "AH-gwah noh poh-TAH-bleh",
-      "pt": "👂 not drinking water — on a square fountain. Ask for tap water inside a bar instead: free by law since 2022.",
-      "tts": "Agua no potable."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n31",
-      "pt": "One more on a wall, and it is short. If the fountain says that, fill your bottle somewhere else."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b10-cooficial-c",
-      "receptivo": true,
-      "es": "OBERT · TANCAT · SORTIDA",
-      "pinyin": "oh-BEHRT · tan-KAT · sor-TEE-dhah",
-      "pt": "👂 Catalan: open · shut · way out. Same three jobs, different letters. Read them and walk on.",
-      "tts": "Obert. Tancat. Sortida."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n32",
-      "pt": "In Barcelona the shutter may say it in Catalan. Obert is open, tancat is shut, sortida is the way out."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n33",
-      "pt": "Three words you will never say. There is a whole part on that language much later on."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n34",
-      "pt": "Now watch the person in front of you at the next glass door. Their eyes go up before their hand goes out."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n35",
-      "pt": "That one second of reading is what stops the doorway collision, and the collision is what marks you."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n36",
-      "pt": "Not at a supermarket, mind — those doors carry no word and open themselves. Nothing to read there."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n37",
-      "bloco": "permissao",
-      "pt": "You never have to say one of these out loud. Reading is the job, and the door answers in half a second."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n38",
-      "pt": "Get one back to front and nobody notices but you. Everybody in that queue has done exactly the same."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n39",
-      "bloco": "clique",
-      "pt": "Count where you spoke, not where you read. The station. The department store. A market stall. An old town."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n40",
-      "pt": "Nobody translated a word for you. You read four signs, and the frame you already owned did the rest."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-s00",
-      "pt": "Shadowing, and it is short today. Two you will actually say out loud, over the top of them."
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "τα εισιτήρια",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b10-p09",
+      "promptPt": "Three of them in a row, and the word above the station window is still only a shape to you. Speak now.",
+      "audioKey": "el-b10-t09",
+      "es": "Ψάχνω τα εισιτήρια.",
+      "pinyin": "PSAKH-no ta ee-see-TEE-ree-a",
+      "pt": "I'm looking for the tickets.",
+      "tts": "Ψάχνω τα εισιτήρια."
     },
     {
       "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "b08-donde-aseos-c",
-      "molde": "DONDE",
-      "es": "¿Dónde están los aseos?",
-      "pinyin": "DOHN-deh ehs-TAN lohs ah-SEH-ohs",
-      "pt": "Where are the toilets?"
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Emilio",
-      "audioKey": "b10-aparcar-e",
-      "molde": "PUEDO",
-      "es": "¿Puedo aparcar aquí?",
-      "pinyin": "PWEH-dhoh ah-par-KAR ah-KEE",
-      "pt": "Can I leave the car here?"
+      "voz": "target_el_f",
+      "audioKey": "el-b10-s01",
+      "es": "Ψάχνω την έξοδο. Ψάχνω το φαρμακείο. Ψάχνω τα εισιτήρια.",
+      "pinyin": "PSAKH-no tin E-kso-dho. PSAKH-no to far-ma-KEE-o. PSAKH-no ta ee-see-TEE-ree-a",
+      "pt": "Shadow the same opening across three things you could not read a minute ago.",
+      "tts": "Ψάχνω την έξοδο. Ψάχνω το φαρμακείο. Ψάχνω τα εισιτήρια.",
+      "molde": "PSAXNO"
     },
     {
       "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "b10-rend",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b10-n07",
       "bloco": "recap",
-      "pt": "One more out loud, at a door we have not stood at yet. Terminal two, and every board overhead is plural."
-    },
-    {
-      "consulta": ["transporte/placas","chegar/sair"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "DONDE",
-      "encaixe": "la salida",
-      "encaixeGloss": "the way out",
-      "promptAudioKey": "b10-p06",
-      "promptPt": "Case in hand, you want the taxi rank, and every sign above your head is pointing at aeroplanes. There is a woman at the information desk. Speak now.",
-      "audioKey": "b10-salida-e",
-      "es": "¿Dónde está la salida?",
-      "pinyin": "DOHN-deh ehs-TAH lah sah-LEE-dhah",
-      "pt": "on foot, into the city",
-      "tts": "¿Dónde está la salida?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n41",
-      "bloco": "piso",
-      "pt": "Spot salida, aseos, empujar and tirar, and you are ahead of most English speakers in the country."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b10-n42",
-      "pt": "That is it. No exam, nothing to write down, and the street stops arguing with you. Hasta luego."
+      "pt": "B10 done. Ψάχνω plus the thing, five letters that lie, and a sign you now match by shape."
     }
   ],
-
   "aprofundar": {
-    "titulo": "The full sign board (optional reading)",
+    "titulo": "The sign, the Latin line, and the word you say out loud",
     "secoes": [
       {
-        "titulo": "Doors, buildings and the toilet",
-        "corpo": "SALIDA is the way out and never a sale; the sale is REBAJAS, and the official seasons are January and July. ENTRADA is both the entrance and the admission ticket. EMPUJAR is push and TIRAR is pull — em-PU-jar carries the mnemonic, and between them they cause the daily doorway collision. The toilets are ASEOS, SERVICIOS or LAVABOS; ask for the baño and you will be understood and instantly placed. CABALLEROS and SEÑORAS are gents and ladies, and modern bars also use M/H or ELLOS/ELLAS. ABIERTO and CERRADO are open and closed. PLANTA BAJA, sometimes just PB or 0, is the ground floor, which matters most to Americans: the Spanish first floor is one flight up from the street, so a lift button marked 1 does not take you out. NO FUNCIONA, FUERA DE SERVICIO and AVERIADO all mean out of order. PROHIBIDO EL PASO and PRIVADO mean no entry. CUIDADO CON EL ESCALÓN is mind the step, and it is usually there because the step is a bad one. AGUA NO POTABLE is on square fountains and means exactly what it says.",
+        "titulo": "The five letters that lie to an English eye",
+        "corpo": "Ρ is an R — ΡΟΔΟΣ is Rhodes, and reading it as Podos is the classic first error. Η is an I. Χ is CH. Β is V. Υ is written Y and sounds like ee. Add Ν, whose lowercase ν looks like a v; Ξ, which is X; Ψ, which is PS; and Θ, which is TH. Two clusters shift under you: ΜΠ comes out B or MP depending on where it sits, and ΕΥ comes out EV or EF depending on the sound after it.",
         "exemplos": [
           {
-            "es": "TIRAR · EMPUJAR",
-            "pt": "tee-RAR · em-poo-KHAR — pull · push. The one that looks like 'tear' is the one that means pull."
+            "es": "Ψάχνω το πλοίο για τη Ρόδο.",
+            "pt": "I'm looking for the boat to Rhodes."
           },
           {
-            "es": "PLANTA BAJA",
-            "pt": "PLAN-tah BAH-khah — ground floor. The button you want in the lift is often 0 or PB, not 1."
+            "es": "Ψάχνω την έξοδο.",
+            "pt": "I'm looking for the exit."
           }
         ]
       },
       {
-        "titulo": "Platforms, tracks and the door that does not open itself",
-        "corpo": "ANDÉN is the platform on the metro; VÍA is the track number on Renfe. They are the same thing from where you are standing, and only one of them will be on the board in front of you. LLEGADAS and SALIDAS are arrivals and departures — the plural of the word that means 'exit' everywhere else in the country, which is the single most reliable false friend in Spain. CERCANÍAS, called RODALIES in Catalonia, is the commuter rail: a separate system with separate tickets, and the airport supplement is separate again. CORRESPONDENCIA and TRANSBORDO both mean interchange. TAQUILLA is the ticket office, VALIDAR is validate and RECARGA is top up. Two that are buttons rather than information: SOLICITE PARADA on a bus means request stop, and if you do not press it the bus does not stop; PULSE PARA ABRIR on a train means press to open, because on many Cercanías and older metro trains the door genuinely will not open by itself and people have watched their station go past waiting for it.",
-        "exemplos": [
-          {
-            "es": "ANDÉN · VÍA",
-            "pt": "an-DEN · BEE-ah — platform (metro) · track (Renfe)."
-          },
-          {
-            "es": "PULSE PARA ABRIR",
-            "pt": "POOL-seh PAH-rah ah-BREER — press to open. The door is waiting for you, not the other way round."
-          }
-        ]
+        "titulo": "One standard, two jobs",
+        "corpo": "ELOT 743, second edition 2001, is identical to ISO 843:1997 and contains two systems, not one. Type 1 is a reversible transliteration: you can rebuild the Greek from it letter by letter. Type 2 is a phonetic transcription, and the standard names road signs and map place names as a case for that one. What the standard does not do is order anybody to pick a particular type — each application chooses and says which it used. Which is why the Latin line under a sign is doing a different job from the Latin line on your ticket."
       },
       {
-        "titulo": "Money, the counter and the poster nobody reads",
-        "corpo": "SOLO EFECTIVO means cash only, and it is entirely legal: there is no obligation in Spain to accept a card, which is why the cash machine is part of the first hour of the trip. On the card reader itself, CON CONVERSIÓN and SIN CONVERSIÓN — or a screen offering you the total in pounds or dollars instead of euros — are the same decision wearing two coats, and the option that shows you your own money is the expensive one. That gets a part of its own later, with the numbers attached. COCINA CERRADA means the kitchen has shut for the gap between services, and drinks carry on. S.M. or SEGÚN MERCADO next to shellfish and fish means the price is by weight at today's market rate, so the question to ask is the price per kilo and the weight of the piece, before it is cooked. MENÚ DEL DÍA is the weekday set lunch; PLATO DEL DÍA is one dish and not the same offer. And HAY HOJAS DE RECLAMACIONES A DISPOSICIÓN DEL CONSUMIDOR is the small framed poster you have walked past a hundred times: the complaint forms are official, they come in three copies, one of which goes to the regional consumer authority, and a business displaying that poster cannot then tell you it does not have any. Refusing to hand one over is itself an offence, separate from whatever the argument was about.",
-        "exemplos": [
-          {
-            "es": "SOLO EFECTIVO",
-            "pt": "SOH-loh eh-fek-TEE-boh — cash only. Legal, common, and the reason to know where the cash machine is."
-          },
-          {
-            "es": "S.M. / SEGÚN MERCADO",
-            "pt": "seh-GOON mehr-KAH-dhoh — market price, by weight. Ask price per kilo and weight before you order."
-          }
-        ]
+        "titulo": "Why the Latin line is not a script for your mouth",
+        "corpo": "The British Permanent Committee on Geographical Names, whose 2020 factfile on Greece is the reference in English, states plainly that ELOT 743 is a less reliable guide to Modern Greek pronunciation than the older BGN/PCGN system it replaced, while being very widely used on road signs and in printed guide books. Both halves matter. The romanised name is excellent for matching what you are holding to what is on the pole. It is a poor set of instructions for your mouth."
       },
       {
-        "titulo": "The clock on the shutter: HORARIO, the middle of the day, and August",
-        "corpo": "A HORARIO card usually has two ranges on it and not one, because the small shop closes in the middle of the day — roughly ten until half one or two, then again from half four or five until eight or half eight. What does not close: the big chains and supermarkets, the restaurants, which are at their busiest then, and the museums. HORARIO DE VERANO is the summer version of the same card, and where a second card is taped over the first, the season written on it is the one that applies. CERRADO POR VACACIONES means closed for the holidays and in practice means August: a family business shuts for the whole month, the online listing very often still says open, and the honest action is to ring before you walk twenty-five minutes across a city in thirty-four degrees. CERRADO POR DESCANSO DEL PERSONAL is the weekly rest day, usually Sunday or Monday. And FARMACIA DE GUARDIA is the one that saves a night: every locality always has at least one pharmacy on duty outside shop hours, and the rota is posted on the door of every pharmacy — including the dark, shut one you are standing in front of at half eleven at night. The word to look for is guardia.",
-        "exemplos": [
-          {
-            "es": "CERRADO POR VACACIONES",
-            "pt": "theh-RRAH-dhoh por bah-kah-THYOH-nehs — closed for the holidays. It is August, not a closure."
-          },
-          {
-            "es": "FARMACIA DE GUARDIA",
-            "pt": "far-MAH-thyah deh GWAR-dhyah — duty pharmacy. The list of tonight's is taped to the door of the shut one."
-          }
-        ]
+        "titulo": "Words worth knowing by shape, not by sound",
+        "corpo": "ΕΞΟΔΟΣ out, ΕΙΣΟΔΟΣ in, ΩΘΗΣΑΤΕ push, ΣΥΡΑΤΕ pull, ΑΝΟΙΧΤΟ open, ΚΛΕΙΣΤΟ shut, ΤΑΜΕΙΟ the till, ΕΙΣΙΤΗΡΙΑ tickets, ΑΦΙΞΕΙΣ arrivals, ΑΝΑΧΩΡΗΣΕΙΣ departures, ΦΑΡΜΑΚΕΙΟ the chemist, ΤΡΑΠΕΖΑ the bank, ΑΝΔΡΩΝ and ΓΥΝΑΙΚΩΝ on the two doors at the back. Learn the silhouette of each, the way you know a logo, and the reading stops being letter work."
       },
       {
-        "titulo": "ZBE: the plate on the road that photographs you",
-        "corpo": "Since 1 January 2026 every Spanish municipality over fifty thousand inhabitants, plus the island territories and smaller towns over the pollution limits, has been required to run a low-emission zone — a zona de bajas emisiones, ZBE. They already cover a large share of the population and are still spreading, and they sit exactly where the historic centre is, which is exactly where the hotel is. Enforcement is an automatic camera that reads and traces foreign plates; the fine is classed as a serious infringement, up to €200, reduced to €100 for early payment, with no licence points. The structural trap is the sticker: the DGT environmental label is only issued to vehicles registered in Spain, so a British-plated car cannot simply buy one — a driver bringing their own car down through France has to register it online with each individual city before entering, which is usually free. A car hired in Spain has Spanish plates and a sticker already, so the question there is not whether it has one but which category it is, and that is a thirty-second question to ask at the counter while the person is still in front of you. Either way, the sign on the road is the last chance to decide: see ZBE, stop before it, leave the car outside and walk in.",
-        "exemplos": [
-          {
-            "es": "ZBE · ACCESO RESTRINGIDO · CÁMARAS",
-            "pt": "Low-emission zone · restricted access · cameras. Do not drive in to check."
-          },
-          {
-            "es": "¿Puedo aparcar aquí?",
-            "pt": "PWEH-dhoh ah-par-KAR ah-KEE — Can I leave the car here? Asked outside the zone, not inside it."
-          }
-        ]
-      },
-      {
-        "titulo": "When the sign is not in Spanish at all",
-        "corpo": "In a neighbourhood bar in Barcelona, Girona, València, Palma, Bilbao or Santiago the menu and the sign may be in the co-official language only, and there is nothing to do about that except recognise a handful of words. Catalan: obert and tancat for open and closed, sortida for the way out, entrada, lavabos or serveis for the toilets, estirar and empènyer for pull and push, esmorzar, dinar and sopar for breakfast, lunch and dinner, preu for price, pa for bread and aigua for water. Basque: irteera for the way out, komuna for the toilet, itxita for closed. Galician: saída, aberto, pechado. You do not need to produce a single one of them, and nobody expects you to. There is a whole part later on what those languages are, what they are not, and the half-dozen courtesy words that visibly change how you are served.",
-        "exemplos": [
-          {
-            "es": "OBERT · TANCAT",
-            "pt": "oh-BEHRT · tan-KAT — Catalan for open and closed, respelled the way the Spanish voice reads it out in this part."
-          },
-          {
-            "es": "ESTIRAR · EMPÈNYER",
-            "pt": "Catalan for pull and push. Same doorway, different letters — and these two you only ever read, so there is nothing to imitate."
-          }
-        ]
+        "titulo": "The same place, spelled three ways",
+        "corpo": "PCGN also records that place names in Wikipedia and on Google Earth are not romanized consistently. So your booking, your map app and the sign at the junction can disagree on the vowels and all three be the town you want. Trust the Greek spelling as the anchor: it is the one that does not move."
       }
     ]
-  }
+  },
+  "slot": "B10",
+  "permissao": "You are allowed to not read the alphabet yet. Matching a word by its shape is real reading, and saying ψάχνω plus the thing gets you moved along by someone who reads it fluently — you do not owe anybody a decoded sign before you are allowed to ask.",
+  "permissaoAudioKey": "el-b10-n02",
+  "espelho": "Anyone who has stood in front of a departures board in a country whose script they do not have, comparing a printed booking against a row of words letter by letter, already knows this exact stillness. The only new part is that here you can also just say what you are looking for.",
+  "fichasCulturais": [
+    {
+      "sinal": "You say the name of the town exactly as it is printed in Latin letters on your ticket, and the person you are asking looks blank.",
+      "suaLeitura": "My accent is so bad that a place name did not survive it.",
+      "oQueEAli": "The Latin line is a spelling system, not a pronunciation key. The British committee on geographical names records that the standard used on Greek road signs is a less reliable guide to Modern Greek pronunciation than the system it replaced. Reading it aloud produces something the ear on the other side was not expecting.",
+      "oQueVoceFaz": "Point at the Greek spelling while you say it, and let them say it back. Then repeat their version, not yours — you have just been given the word for free.",
+      "oQueMelhora": "Place names start landing on the first try, and the pointing turns a failed exchange into a two-second lesson you keep.",
+      "ondeNaoVale": "Not a reason to distrust the Latin line — it is exactly what lets you match a ticket to a sign, and plenty of names come out close enough that saying them as printed works perfectly well. It is a bad script for your mouth, not bad information.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b10-n04"
+      ]
+    },
+    {
+      "sinal": "The same town appears with three different Latin spellings across your booking, your map app and the sign at the roadside.",
+      "suaLeitura": "One of these is a typo, or I have the wrong place entirely.",
+      "oQueEAli": "The romanisation standard contains two different systems and does not order anyone to pick one; each application chooses. And the same British factfile records that place names in Wikipedia and on Google Earth are not romanized consistently. Three spellings of one name is the expected state of things, not an error.",
+      "oQueVoceFaz": "Treat the Greek spelling as the anchor and match it by shape. Photograph the Greek form of your destination before you set off, and compare that, not the Latin version.",
+      "oQueMelhora": "You stop losing minutes at junctions deciding whether two spellings are the same place, and you start carrying the one form that never shifts.",
+      "ondeNaoVale": "Not a licence to assume any two similar spellings must be the same place. Greece has genuinely distinct towns with names that differ by a letter, and the Greek spelling is what tells them apart — which is the whole reason to carry it.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b10-n06"
+      ]
+    }
+  ]
 }

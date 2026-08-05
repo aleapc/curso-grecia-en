@@ -1,704 +1,417 @@
 {
   "id": "b15",
-  "slot": "B15",
   "nivel": "basico",
   "numero": 15,
   "parte": "B15",
-  "titulo": "Half a kilo of that, and can I try it on?",
-  "subtitulo": "A Saturday market stall, a shop assistant at your elbow in four seconds, and the little piece of paper that decides whether any of it can come back",
+  "titulo": "Πόσο κάνει — three words in front of anything with a price",
+  "subtitulo": "The market stall, the clothes shop, the kiosk and the ticket window all answer the same opening",
+  "cena": "A Saturday morning street market that turns into a row of small shops, and by lunchtime you will have bought four things from four different people.",
   "moldura": "ganha",
-
-  "cena": "Half nine on a Saturday, the market stall in front of you is three deep, the scoop is already in her hand, and your hand is halfway to the tomatoes.",
-
+  "frasePiso": "Πόσο κάνει, plus the thing. Three words that go in front of anything you might end up holding.",
+  "moldes": [
+    "POSO-KANI"
+  ],
   "clique": {
     "contagem": [
       "the market stall",
-      "the cheese shop",
-      "the fitting room",
-      "the till"
+      "the clothes shop",
+      "the kiosk",
+      "the ticket window"
     ],
-    "desconto": "Nobody handed you those four sentences. You carried two frames in from the bar and spent them here.",
-    "piso": "You will buy food by weight, at a counter, in Spanish. Most people who spend a fortnight here never do it once."
+    "desconto": "Nobody gave you a separate sentence for the fruit seller, the shop assistant, the kiosk and the ticket window. You kept one opening and changed only the noun that came after it.",
+    "piso": "Next time you are holding something with no price on it, you will not turn it over looking for a sticker. You will ask in three words, out loud, before you decide."
   },
-  "cliqueAudioKey": "b15-n23",
-
-  "frasePiso": "You will buy food by weight, at a counter, in Spanish. Most people who spend a fortnight here never do it once.",
-
-  "permissao": "You are allowed to leave with nothing. Solo estoy mirando is a finished answer in any shop in the country, and nobody follows you round after it. And you never have to know the name of the thing: point, say the weight, and let the counter fill in the noun.",
-  "permissaoAudioKey": "b15-n22",
-
-  "espelho": "Picking your own fruit is the helpful thing to do at home, and at a traditional stall it is the one move that marks you out. Standing there with your hands in your pockets is what a regular looks like.",
-
-  "fichasCulturais": [
-    {
-      "sinal": "You reach for a tomato and the woman behind the stall takes it out of your fingers.",
-      "suaLeitura": "I have done something rude, she thinks I am handling her stock, and now the whole queue has seen it.",
-      "oQueEAli": "At a traditional stall the seller picks and weighs, and the produce is sold in the order she chooses to shift it. The sign is usually up: NO TOCAR LA FRUTA.",
-      "oQueVoceFaz": "Hands in your pockets, point at the box you want, and say the weight out loud.",
-      "oQueMelhora": "She picks for you, and she picks well — you get served like somebody who lives two doors down instead of somebody passing through.",
-      "ondeNaoVale": "Not in a supermarket. There the plastic gloves are on a roll, you pick and bag your own, and waiting to be served is what looks odd.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["b15-n18", "b15-n19", "b15-n20", "b15-n21"]
-    }
-  ],
-
   "fatosDatados": [
     {
-      "id": "rebajas-temporadas",
-      "afirmacao": "REBAJAS means the sales, and they run in two seasons: January and July.",
-      "valor": "janeiro e julho",
-      "fonte": "docs/pesquisa-espanha.md §6.3 (modo placa, comércio) — temporadas oficiais de rebajas; síntese sem fonte primária citada",
-      "ano": 2026,
-      "revisarAte": "2027-12-31",
-      "evidencia": "CONSENSO",
-      "risco": "baixo",
-      "audioKeys": ["b15-n12"]
-    },
-    {
-      "id": "troca-nao-automatica",
-      "afirmacao": "A shop here does not have to take back something you simply changed your mind about, and without the receipt there is no exchange anywhere.",
-      "fonte": "docs/pesquisa-espanha.md §5.I, frase 116 ('Guarde o tique: sem ele, não há troca') — regra prática de campo, sem fonte primária citada; não cobre produto defeituoso, que tem garantia legal própria",
-      "ano": 2026,
-      "revisarAte": "2027-07-01",
-      "evidencia": "CONSENSO",
+      "id": "el-b15-karta",
+      "afirmacao": "In Greece the obligation is to ACCEPT card payment, not merely to own a terminal. Article 65 of Law 4446/2016 imposes it by activity code, and article 66 requires the business to inform the customer visibly at the entrance and at the till. The list of activity codes was replaced by a 2023 joint ministerial decision that extended it to 35 more codes, including open-air markets, food retail and kiosks. Coverage still follows the list of codes, so it is not universal.",
+      "fonte": "Aceitar cartão — e a obrigação é de ACEITAR, não só de ter POS. Art. 65 do ν.4446/2016, «Υποχρέωση αποδοχής μέσων πληρωμής με κάρτα», obriga por ΚΑΔ (código de atividade); o art. 66 obriga a informar o consumidor de forma visível na entrada e no caixa. A lista de ΚΑΔ foi substituída pela ΚΥΑ 119899/2023, ΦΕΚ Β΄7115/18.12.2023, que estendeu a mais 35 ΚΑΔ — feiras livres, varejo alimentar, bancas. ⚠️ a cobertura NÃO é universal: o critério legal continua sendo a lista de ΚΑΔ, não «todo o comércio».",
+      "ano": 2023,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
       "risco": "medio",
-      "audioKeys": ["b15-n14"]
+      "audioKeys": [
+        "el-b15-n06"
+      ]
     },
     {
-      "id": "nota-de-cincuenta",
-      "afirmacao": "Fifty-euro notes are routinely refused in small shops, and a bakery selling a one-euro loaf cannot break one first thing in the morning.",
-      "fonte": "docs/pesquisa-espanha.md §8.2 — regra prática derivada de guias de campo convergentes de 2026, marcada ali como INFERÊNCIA",
-      "ano": 2026,
-      "revisarAte": "2027-07-01",
-      "evidencia": "INFERENCIA",
+      "id": "el-b15-metrita",
+      "afirmacao": "Cash from a consumer to a business is capped at €500. Article 69 §2 of Law 4446/2016 set the limit, reducing the previous €1,500. An invoice of €500 or more has to be paid by card, transfer or another electronic means.",
+      "fonte": "Teto de espécie: €500 para consumidor→empresa — art. 69 §2 do ν.4446/2016, que reduziu o limite anterior de €1.500. Fatura de valor igual ou superior a €500 tem de ser paga por cartão, transferência ou meio eletrônico.",
+      "ano": 2016,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["b15-n16"]
+      "audioKeys": [
+        "el-b15-n07"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n01",
-      "bloco": "aquecimento",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b15-n01",
       "gesto": 1,
-      "tom": "ganha",
-      "pt": "Part fifteen. Warm-up: metronome hand. One tap a syllable, all the same size. Pón-ga-me."
+      "bloco": "aquecimento",
+      "pt": "Money is where a stranger's language starts costing you. Greece hands you one opening for all of it."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n02",
-      "pt": "Pro-bár-me-lo. Four taps. English swallows the last two. The hand will not let you."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "bloco": "callback",
-      "molde": "SIN-CON-PARA",
-      "encaixe": "conversión",
-      "encaixeGloss": "conversion",
-      "promptAudioKey": "b15-p01",
-      "promptPt": "Yesterday's table. The little machine the waiter is holding out is offering you a total in pounds. Two words. Speak now.",
-      "audioKey": "e03b-sinconversion-c",
-      "es": "Sin conversión.",
-      "pinyin": "seen kon-behr-SYON",
-      "pt": "in euros, then"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n03",
-      "bloco": "cena",
-      "pt": "Half nine on a Saturday. The market stall in front of you is three deep, and the scoop is already in her hand."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n04",
-      "pt": "Your hand is halfway to the tomatoes. Leave it there. We come back to that hand at the end."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n05",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b15-n02",
       "bloco": "molde",
-      "pt": "The frame that opens a counter is póngame. PON-ga-meh. Put me. Then the weight, then the thing."
+      "pt": "Here is the frame: πόσο κάνει, then the thing. How much is — and then whatever you happen to be holding."
     },
     {
       "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "e05b-pongame-c",
-      "es": "Póngame medio kilo de tomates, por favor.",
-      "pinyin": "POHN-gah-meh MEH-dhyoh KEE-loh deh toh-MAH-tehs, por fah-BOR",
-      "pt": "Half a kilo of tomatoes, please.",
-      "tts": "Póngame medio kilo de tomates, por favor."
+      "voz": "target_el_f",
+      "audioKey": "el-b15-t01",
+      "es": "Πόσο κάνει αυτό;",
+      "pinyin": "PO-so KA-ni af-TO",
+      "pt": "How much is this?",
+      "tts": "Πόσο κάνει αυτό;"
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n06",
-      "pt": "The two ends never move. Half a kilo, a hundred grams, two of those — that is the middle."
+      "consulta": [
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "POSO-KANI",
+      "encaixe": "αυτό",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b15-p01",
+      "promptPt": "At the market stall you have picked up a small painted bowl and there is no sticker anywhere on it. Speak now.",
+      "audioKey": "el-b15-t01",
+      "es": "Πόσο κάνει αυτό;",
+      "pinyin": "PO-so KA-ni af-TO",
+      "pt": "How much is this?",
+      "tts": "Πόσο κάνει αυτό;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b15-jamon-e",
-      "es": "Póngame cien gramos de jamón, por favor.",
-      "pinyin": "POHN-gah-meh thyen GRAH-mohs deh khah-MOHN, por fah-BOR",
-      "pt": "A hundred grams of ham, please.",
-      "tts": "Póngame cien gramos de jamón, por favor."
-    },
-    {
-      "consulta": ["compras/balcao"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "ME-PONE",
-      "encaixe": "tomates",
-      "encaixeGloss": "tomatoes",
-      "promptAudioKey": "b15-p02",
-      "promptPt": "Saturday, the stall, four people behind you and the scoop already in her hand. Half a kilo of the red ones in the front box. Speak now.",
-      "audioKey": "e05b-pongame-c",
-      "es": "Póngame medio kilo de tomates, por favor.",
-      "pinyin": "POHN-gah-meh MEH-dhyoh KEE-loh deh toh-MAH-tehs, por fah-BOR",
-      "pt": "half a kilo of them"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "e05b-pongame2-e",
-      "es": "Póngame medio kilo de aceitunas, por favor.",
-      "pinyin": "POHN-gah-meh MEH-dhyoh KEE-loh deh ah-thay-TOO-nahs, por fah-BOR",
-      "pt": "Half a kilo of olives, please.",
-      "tts": "Póngame medio kilo de aceitunas, por favor."
-    },
-    {
-      "consulta": ["compras/balcao"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "ME-PONE",
-      "encaixe": "aceitunas",
-      "encaixeGloss": "olives",
-      "promptAudioKey": "b15-p11",
-      "promptPt": "Thirty seconds later, same stall, and the black wrinkled ones in the tub beside the tomatoes look far better than the tomatoes did. Same weight of those. Speak now.",
-      "audioKey": "e05b-pongame2-e",
-      "es": "Póngame medio kilo de aceitunas, por favor.",
-      "pinyin": "POHN-gah-meh MEH-dhyoh KEE-loh deh ah-thay-TOO-nahs, por fah-BOR",
-      "pt": "half a kilo of those"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "e05b-sc2-e",
-      "es": "¿Algo más?",
-      "pinyin": "AL-goh mahs",
-      "pt": "👂 Anything else? — it keeps coming back until you close the order yourself",
-      "tts": "¿Algo más?"
-    },
-    {
-      "consulta": ["compras/quanto","compras/balcao"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "b15-p03",
-      "promptPt": "She has a hand on the peppers to tempt you and your bag is already full. Close the order, and ask her the damage. Speak now.",
-      "audioKey": "e05b-nadamas-c",
-      "es": "Nada más, gracias. ¿Cuánto vale?",
-      "pinyin": "NAH-dhah mahs, GRAH-thyahs. KWAN-toh BAH-leh",
-      "pt": "that is everything — how much?",
-      "tts": "Nada más, gracias. ¿Cuánto vale?"
+      "voz": "target_el_m",
+      "audioKey": "el-b15-r01",
+      "es": "Οκτώ ευρώ. Είναι χειροποίητο.",
+      "pt": "Eight euros. It's handmade.",
+      "tts": "Οκτώ ευρώ. Είναι χειροποίητο.",
+      "receptivo": true,
+      "acao": "The number came first and the reason came after. Take the number; the rest is conversation."
     },
     {
       "tipo": "intro",
-      "voz": "George",
-      "audioKey": "b15-g01",
-      "pt": "GUIRI ALERT. Vale is the most Spanish word alive. OK, right, agreed, go on then."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "b15-g02",
-      "pt": "But ¿cuánto vale? is not how OK is it. It is how much is it. Same word, two lives."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n07",
-      "pt": "Next counter: the cheese shop. And here you cannot name the thing you want in any language."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b15-esto-c",
-      "es": "Quería medio kilo de esto.",
-      "pinyin": "keh-REE-ah MEH-dhyoh KEE-loh deh EHS-toh",
-      "pt": "Half a kilo of this, please.",
-      "tts": "Quería medio kilo de esto."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n08",
-      "pt": "Quería, the weight, and a finger. The name of it is the shop's problem, not yours."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "QUERIA",
-      "encaixe": "esto",
-      "promptAudioKey": "b15-p04",
-      "promptPt": "A shop the size of a lift, a whole wall behind the counter, and the one you want is the crumbly white round on the left. You have no word for it. Point, and ask for half a kilo. Speak now.",
-      "audioKey": "b15-esto-e",
-      "es": "Quería medio kilo de esto.",
-      "pinyin": "keh-REE-ah MEH-dhyoh KEE-loh deh EHS-toh",
-      "pt": "half a kilo of that one",
-      "tts": "Quería medio kilo de esto."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "ME-PONE",
-      "encaixe": "jamón",
-      "encaixeGloss": "ham",
-      "promptAudioKey": "b15-p05",
-      "promptPt": "Tuesday, the long counter at the back of the supermarket. A whole leg up on a stand, and a man with a very thin knife waiting on you. A hundred grams of what he is slicing. Speak now.",
-      "audioKey": "b15-jamon-e",
-      "es": "Póngame cien gramos de jamón, por favor.",
-      "pinyin": "POHN-gah-meh thyen GRAH-mohs deh khah-MOHN, por fah-BOR",
-      "pt": "a hundred grams of it"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n09",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b15-n03",
       "bloco": "corpo",
-      "pt": "Different door now. A clothes shop, and somebody is at your elbow inside four seconds."
+      "pt": "The frame does not move. Only the noun after it changes, and you are allowed to point while you say it."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "e05b-mirando-e",
-      "es": "Solo estoy mirando, gracias.",
-      "pinyin": "SOH-loh ehs-TOY mee-RAHN-doh, GRAH-thyahs",
-      "pt": "I'm just looking, thanks.",
-      "tts": "Solo estoy mirando, gracias."
-    },
-    {
-      "consulta": ["compras/so-olhando"],
+      "consulta": [
+        "compras/quanto"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "b15-p06",
-      "promptPt": "Eleven seconds through the door and a woman is already asking what you are after. You genuinely do not know yet. Warm voice. Speak now.",
-      "audioKey": "e05b-mirando-e",
-      "es": "Solo estoy mirando, gracias.",
-      "pinyin": "SOH-loh ehs-TOY mee-RAHN-doh, GRAH-thyahs",
-      "pt": "nothing yet, thanks"
+      "voz": "target_el_f",
+      "molde": "POSO-KANI",
+      "encaixe": "το κιλό",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b15-p02",
+      "promptPt": "Two stalls down, the peaches are in crates with a handwritten card you cannot read. Speak now.",
+      "audioKey": "el-b15-t02",
+      "es": "Πόσο κάνει το κιλό;",
+      "pinyin": "PO-so KA-ni to ki-LO",
+      "pt": "How much is a kilo?",
+      "tts": "Πόσο κάνει το κιλό;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n10",
-      "pt": "Say it warmly and it buys you the whole shop. Nobody walks two steps behind you after that."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b15-n04",
+      "pt": "Ask before you commit, never after. A price said out loud is a price you both heard at the same moment."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b15-probar-c",
-      "es": "¿Puedo probármelo?",
-      "pinyin": "PWEH-dhoh proh-BAR-meh-loh",
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "EXETE",
+      "encaixe": "μεγαλύτερο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b15-p03",
+      "promptPt": "In the clothes shop, the shirt on the rail is the right colour and clearly cut for someone smaller. Speak now.",
+      "audioKey": "el-b15-t03",
+      "es": "Έχετε μεγαλύτερο;",
+      "pinyin": "EH-he-te me-gha-LEE-te-ro",
+      "pt": "Do you have a bigger one?",
+      "tts": "Έχετε μεγαλύτερο;"
+    },
+    {
+      "consulta": [
+        "compras/so-olhando"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "το δοκιμάσω",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b15-p04",
+      "promptPt": "She has found the bigger one and is holding it out to you. There is a curtain at the back of the clothes shop. Speak now.",
+      "audioKey": "el-b15-t04",
+      "es": "Μπορώ να το δοκιμάσω;",
+      "pinyin": "bo-RO na to dho-ki-MA-so",
       "pt": "Can I try it on?",
-      "tts": "¿Puedo probármelo?"
+      "tts": "Μπορώ να το δοκιμάσω;"
     },
     {
-      "consulta": ["compras/quanto"],
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b15-r02",
+      "es": "Ναι, βέβαια. Το δοκιμαστήριο είναι εκεί πίσω.",
+      "pt": "Yes, of course. The fitting room is back there.",
+      "tts": "Ναι, βέβαια. Το δοκιμαστήριο είναι εκεί πίσω.",
+      "receptivo": true,
+      "acao": "Δοκιμαστήριο is the room, δοκιμάσω is the verb — the same root twice. You already knew half of that word."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b15-n05",
+      "pt": "Πόσο κάνει, not πόσο κοστίζει. The second one is correct and belongs in a classroom, not at a stall."
+    },
+    {
+      "consulta": [
+        "compras/quanto"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "PUEDO",
-      "encaixe": "probármelo",
-      "encaixeGloss": "try it on",
-      "promptAudioKey": "b15-p07",
-      "promptPt": "A linen shirt on a hanger in your hand, three mirrors and a curtain at the back of the shop, and she is watching you weigh it up. Speak now.",
-      "audioKey": "b15-probar-c",
-      "es": "¿Puedo probármelo?",
-      "pinyin": "PWEH-dhoh proh-BAR-meh-loh",
-      "pt": "before I buy it"
+      "voz": "target_el_f",
+      "molde": "POSO-KANI",
+      "encaixe": "αυτό το καπέλο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b15-p05",
+      "promptPt": "At the kiosk there is a rack of straw hats outside and the sun has been brutal since ten. Speak now.",
+      "audioKey": "el-b15-t05",
+      "es": "Πόσο κάνει αυτό το καπέλο;",
+      "pinyin": "PO-so KA-ni af-TO to ka-PE-lo",
+      "pt": "How much is this hat?",
+      "tts": "Πόσο κάνει αυτό το καπέλο;"
     },
     {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b15-talla-c",
-      "es": "¿Tiene una talla más grande?",
-      "pinyin": "TYEH-neh OO-nah TAH-yah mahs GRAHN-deh",
-      "pt": "Have you got a bigger one? — talla is clothes; a shoe is un número",
-      "tts": "¿Tiene una talla más grande?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n11",
-      "pt": "Otra does the same errand in two words, and it works on anything you are holding."
-    },
-    {
+      "consulta": [
+        "compras/quanto",
+        "transporte/bilhete"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "OTRA",
-      "encaixe": "talla",
-      "encaixeGloss": "size",
-      "promptAudioKey": "b15-p08",
-      "promptPt": "You are behind the curtain, the shirt is on, and the buttons are not going to meet. She is outside asking how it went. Speak now.",
-      "audioKey": "b15-otratalla-e",
-      "es": "¿Tiene otra talla?",
-      "pinyin": "TYEH-neh OH-trah TAH-yah",
-      "pt": "a different one of these",
-      "tts": "¿Tiene otra talla?"
+      "voz": "target_el_f",
+      "molde": "POSO-KANI",
+      "encaixe": "το εισιτήριο",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b15-p06",
+      "promptPt": "At the ticket window the board above the glass is in Greek only and the queue behind you is short. Speak now.",
+      "audioKey": "el-b15-t06",
+      "es": "Πόσο κάνει το εισιτήριο;",
+      "pinyin": "PO-so KA-ni to i-si-TEE-rio",
+      "pt": "How much is the ticket?",
+      "tts": "Πόσο κάνει το εισιτήριο;"
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "e05b-placas-e",
-      "es": "REBAJAS · CAJA · PROBADORES · NO TOCAR LA FRUTA",
-      "pinyin": "rreh-BAH-khahs · KAH-khah · proh-bah-DOH-rehs · noh toh-KAR lah FROO-tah",
-      "pt": "👂 SALES · TILL · FITTING ROOMS · DON'T TOUCH THE FRUIT. Four signs, four things to do with your feet and your hands.",
-      "tts": "Rebajas. Caja. Probadores. No tocar la fruta."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n12",
-      "pt": "Rebajas is the sales, and it is a season rather than a whim: January, and July."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n13",
-      "pt": "And at the till, one small piece of paper decides whether any of this can come back."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b15-tique-e",
-      "es": "¿Me da el tique, por favor?",
-      "pinyin": "meh dah el TEE-keh, por fah-BOR",
-      "pt": "Can I have the receipt, please?",
-      "tts": "¿Me da el tique, por favor?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n14",
-      "tom": "protege",
-      "pt": "Returns are not automatic here. Changed my mind is not a right, and with no tique there is no exchange."
-    },
-    {
-      "consulta": ["compras/devolver","compras/pagar"],
+      "consulta": [
+        "compras/balcao"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "b15-p09",
-      "promptPt": "You are buying it for your sister and you have no idea whether it will fit her. Ask, at the till, before the card comes out. Speak now.",
-      "audioKey": "b15-cambiar-c",
-      "es": "¿Se puede cambiar o devolver?",
-      "pinyin": "seh PWEH-dheh kam-BYAR oh deh-bol-BEHR",
-      "pt": "can this come back",
-      "tts": "¿Se puede cambiar o devolver?"
+      "voz": "target_el_f",
+      "molde": "THA-ITHELA",
+      "encaixe": "δύο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b15-p07",
+      "promptPt": "You heard the number at the ticket window, it is fine, and there are two of you travelling. Speak now.",
+      "audioKey": "el-b15-t07",
+      "es": "Θα ήθελα δύο, παρακαλώ.",
+      "pinyin": "tha EE-the-la DHEE-o, pa-ra-ka-LO",
+      "pt": "I'd like two, please.",
+      "tts": "Θα ήθελα δύο, παρακαλώ."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b15-n06",
+      "pt": "Businesses across a long list of trades are obliged to accept a card, and to say so visibly at the door and the till."
+    },
+    {
+      "consulta": [
+        "pagar/cartao",
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b15-p08",
+      "promptPt": "Back at the kiosk with the hat in your hand, and your notes went on the ticket window ten minutes ago. Speak now.",
+      "audioKey": "el-b15-t08",
+      "es": "Δέχεστε κάρτα;",
+      "pinyin": "DHE-he-ste KAR-ta",
+      "pt": "Do you take card?",
+      "tts": "Δέχεστε κάρτα;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b15-coneltique-e",
-      "es": "Cambiar sí, con el tique. Devolver el dinero, no.",
-      "pinyin": "kam-BYAR see, kon el TEE-keh. deh-bol-BEHR el dee-NEH-roh, noh",
-      "pt": "👂 'Exchange yes, with the receipt. Money back, no.' — the receipt is the whole conversation. Keep it.",
-      "tts": "Cambiar sí, con el tique. Devolver el dinero, no."
+      "voz": "target_el_m",
+      "audioKey": "el-b15-r03",
+      "es": "Ναι, φυσικά. Βάλτε την κάρτα εδώ.",
+      "pt": "Yes, of course. Put the card in here.",
+      "tts": "Ναι, φυσικά. Βάλτε την κάρτα εδώ.",
+      "receptivo": true,
+      "acao": "Βάλτε is an instruction: put it in. When a machine is turned towards you, the sentence is telling you to act."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n15",
-      "tom": "ganha",
-      "pt": "Ask that before you pay and you get a sentence back. Ask it a day later and you get a shrug."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b15-n07",
+      "pt": "Cash from you to a business is capped at five hundred euros. Above that, the payment has to be electronic."
+    },
+    {
+      "consulta": [
+        "compras/so-olhando"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b15-p09",
+      "promptPt": "You have been in the shop for nine seconds and someone has already crossed the floor towards you. Speak now.",
+      "audioKey": "el-b15-t09",
+      "es": "Απλώς κοιτάζω, ευχαριστώ.",
+      "pinyin": "a-PLOS ki-TA-zo, ef-ha-ri-STO",
+      "pt": "I'm just looking, thank you.",
+      "tts": "Απλώς κοιτάζω, ευχαριστώ."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "EXETE",
+      "encaixe": "άλλο χρώμα",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b15-p10",
+      "promptPt": "The one that fits is a shade you would never wear, and there is a whole shelf behind her. Speak now.",
+      "audioKey": "el-b15-t10",
+      "es": "Έχετε άλλο χρώμα;",
+      "pinyin": "EH-he-te A-lo HRO-ma",
+      "pt": "Do you have another colour?",
+      "tts": "Έχετε άλλο χρώμα;"
     },
     {
       "tipo": "intro",
-      "voz": "George",
-      "audioKey": "b15-g03",
-      "pt": "GUIRI ALERT. Two words, one letter between them, and they are not the same errand."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "b15-g04",
-      "pt": "Cambiar is taking the shirt back. El cambio is the coins in your hand. Mind the ending."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "e05b-cambio50-c",
-      "es": "¿Tiene cambio de cincuenta?",
-      "pinyin": "TYEH-neh KAM-byoh deh theen-KWEN-tah",
-      "pt": "Have you got change for a fifty?",
-      "tts": "¿Tiene cambio de cincuenta?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n16",
-      "tom": "protege",
-      "pt": "A fifty in a bakery selling a one-euro loaf is a scene. Asked first, it is not a scene at all."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n17",
-      "tom": "ganha",
-      "pt": "Small notes for small counters. That is the whole of it, and it costs you nothing to do."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n26",
-      "pt": "Whole thing at the stall now, with a fifty in your hand and a three-euro bag. Listen to where it ends."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "e05b-sc1-c",
-      "es": "Buenos días. Póngame medio kilo de tomates, por favor.",
-      "pinyin": "BWEH-nohs DEE-ahs. POHN-gah-meh MEH-dhyoh KEE-loh deh toh-MAH-tehs",
-      "pt": "— Morning. Half a kilo of tomatoes, please.",
-      "tts": "Buenos días. Póngame medio kilo de tomates, por favor."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "e05b-sc2-e",
-      "es": "¿Algo más?",
-      "pinyin": "AL-goh mahs",
-      "pt": "— Anything else?",
-      "tts": "¿Algo más?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "e05b-nadamas-c",
-      "es": "Nada más, gracias. ¿Cuánto vale?",
-      "pinyin": "NAH-dhah mahs, GRAH-thyahs. KWAN-toh BAH-leh",
-      "pt": "— That's everything, thanks. How much is it?",
-      "tts": "Nada más, gracias. ¿Cuánto vale?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "e05b-sc3-e",
-      "es": "Tres euros con veinte.",
-      "pinyin": "trehs EH-oo-rohs kon BAYN-teh",
-      "pt": "— Three euros twenty.",
-      "tts": "Tres euros con veinte."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "e05b-cambio50-c",
-      "es": "¿Tiene cambio de cincuenta?",
-      "pinyin": "TYEH-neh KAM-byoh deh theen-KWEN-tah",
-      "pt": "— Do you have change for a fifty?",
-      "tts": "¿Tiene cambio de cincuenta?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "e05b-sc4-e",
-      "es": "Uy, de cincuenta no. Lo siento.",
-      "pinyin": "wee, deh theen-KWEN-tah noh. loh SYEN-toh",
-      "pt": "— Oof, not for a fifty. Sorry. (and that is exactly why you asked first)",
-      "tts": "Uy, de cincuenta no. Lo siento."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n27",
-      "pt": "Asked first, that is a shrug. Asked after she has weighed and wrapped it, it is a scene with an audience."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-s00",
-      "pt": "Shadowing. Straight over the top of her, do not wait for a gap. Two of them."
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "e05b-pongame-c",
-      "molde": "ME-PONE",
-      "es": "Póngame medio kilo de tomates, por favor.",
-      "pinyin": "POHN-gah-meh MEH-dhyoh KEE-loh deh toh-MAH-tehs, por fah-BOR",
-      "pt": "Say it with her."
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "b15-probar-c",
-      "molde": "PUEDO",
-      "es": "¿Puedo probármelo?",
-      "pinyin": "PWEH-dhoh proh-BAR-meh-loh",
-      "pt": "And the one that saves you a bad jacket."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n18",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b15-n08",
       "bloco": "capsula",
-      "pt": "Back to that hand. You reach for a tomato, and she takes it out of your fingers."
+      "pt": "Έχετε and μπορώ να came from earlier parts. In a shop they stand beside the frame, unchanged, doing shop work."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n19",
-      "pt": "Nothing has gone wrong. At a traditional stall the seller picks and weighs, and the sign says so."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n20",
-      "pt": "So: hands in your pockets, point at the box, say the weight. She picks, and she picks well."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n21",
-      "pt": "Not in a supermarket, mind. There the gloves are on a roll, and you pick and bag your own."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n22",
-      "bloco": "permissao",
-      "pt": "And you may leave with nothing. Solo estoy mirando is a finished answer in any shop in the country."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n23",
-      "bloco": "clique",
-      "pt": "Count the counters. The market stall. The cheese shop. The fitting room. The till."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n24",
-      "pt": "Nobody handed you those four sentences. You carried two frames in from the bar and spent them here."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b15-n25",
-      "bloco": "piso",
-      "pt": "You will buy food by weight, at a counter, in Spanish. Most people who spend a fortnight here never do it once."
-    },
-    {
-      "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "b15-r01",
-      "bloco": "recap",
-      "pt": "Part fifteen done. One more out loud, at a counter we have not stood at yet."
-    },
-    {
-      "consulta": ["pagar/dinheiro","compras/pagar"],
+      "consulta": [
+        "compras/devolver"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "b15-p10",
-      "promptPt": "Seven in the morning, a village bakery, one loaf, and the only thing in your wallet is a single big note. Ask her before she wraps it. Speak now.",
-      "audioKey": "e05b-cambio50-c",
-      "es": "¿Tiene cambio de cincuenta?",
-      "pinyin": "TYEH-neh KAM-byoh deh theen-KWEN-tah",
-      "pt": "have you got change for it"
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "το αλλάξω",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b15-p11",
+      "promptPt": "You are at the till with the shirt and no idea yet whether it will survive the hotel mirror. Ask about later. Speak now.",
+      "audioKey": "el-b15-t11",
+      "es": "Μπορώ να το αλλάξω;",
+      "pinyin": "bo-RO na to a-LA-kso",
+      "pt": "Can I exchange it?",
+      "tts": "Μπορώ να το αλλάξω;"
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b15-maspequeno-e",
-      "es": "De cincuenta no tengo. ¿No llevas nada más pequeño?",
-      "pinyin": "deh theen-KWEN-tah noh TEN-goh. noh YEH-bahs NAH-dhah mahs peh-KEH-nyoh",
-      "pt": "👂 'I've no change for a fifty. Nothing smaller?' — which is why the fifty stays in the hotel.",
-      "tts": "De cincuenta no tengo. ¿No llevas nada más pequeño?"
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-b15-s01",
+      "es": "Πόσο κάνει αυτό; Πόσο κάνει το κιλό; Πόσο κάνει το εισιτήριο;",
+      "pinyin": "PO-so KA-ni af-TO. PO-so KA-ni to ki-LO. PO-so KA-ni to i-si-TEE-rio",
+      "pt": "Shadow the same three words across three completely different counters.",
+      "tts": "Πόσο κάνει αυτό; Πόσο κάνει το κιλό; Πόσο κάνει το εισιτήριο;",
+      "molde": "POSO-KANI"
     },
     {
       "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "b15-r02",
-      "pt": "Póngame and a weight open any counter. Solo estoy mirando buys you room to look. Next: the front desk."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b15-n09",
+      "bloco": "recap",
+      "pt": "B15 done. One frame, four counters, and every price heard out loud before anything left your pocket."
     }
   ],
-
   "aprofundar": {
-    "titulo": "Counters, sizes and the little piece of paper (optional reading)",
+    "titulo": "One frame, four counters",
     "secoes": [
       {
-        "titulo": "Póngame, quería, and which one to reach for",
-        "corpo": "Both open a counter and both are already conjugated for you, so nothing has to be worked out on the spot. 'Póngame…' is the counter verb proper — literally 'put me' — and it is what you hear at a market stall, a bakery, a deli counter and a fishmonger. It expects a quantity: medio kilo, un kilo, cien gramos, dos barras. 'Quería…' is the softer, wider one you already own from part twelve: it takes a thing rather than a weight, and it works in a ticket office, a chemist, a hotel and a shop as well as at a counter. Where they overlap, use whichever comes out first — nobody is grading you, and a stall holder who hears either will start filling a bag. What closes the order is the part people forget: 'Nada más, gracias.' Without it the offers keep arriving, because as far as she is concerned you have not finished.",
+        "titulo": "Πόσο κάνει plus the thing",
+        "corpo": "Keep πόσο κάνει and put after it anything that could carry a price. Nothing in the opening moves: no ending changes, no agreement to work out, and the question mark is doing its job through the rising tone and the Greek semicolon at the end. That invariance is the entire reason this one earns a place — at a stall, with people behind you, you want a sentence you can start before you have finished deciding how it ends.",
         "exemplos": [
           {
-            "es": "Póngame dos barras de pan, por favor.",
-            "pt": "POHN-gah-meh dohs BAH-rrahs deh pan — two loaves, please"
+            "es": "Πόσο κάνει αυτό;",
+            "pt": "How much is this?"
           },
           {
-            "es": "Quería medio kilo de esto.",
-            "pt": "keh-REE-ah MEH-dhyoh KEE-loh deh EHS-toh — half a kilo of this (with a finger doing the naming)"
+            "es": "Πόσο κάνει το εισιτήριο;",
+            "pt": "How much is the ticket?"
           }
         ]
       },
       {
-        "titulo": "Talla, número, and the two words for change",
-        "corpo": "'Talla' is a garment size and 'número' is a shoe size: ask a shoe shop for a bigger 'talla' and you will be shown a jumper, which is a harmless mistake and a good story. The pair worth separating properly is 'cambiar' and 'cambio'. 'Cambiar' is to swap one thing for another — 'Se puede cambiar' is what you ask about the shirt. 'El cambio' is money coming back to you, which is why '¿Tiene cambio de cincuenta?' asks whether she can break a big note, and 'Quédese con el cambio' tells a taxi driver to keep it. Same root, two errands, and the sentence around it tells you which one is in play.",
+        "titulo": "Κάνει, not κοστίζει",
+        "corpo": "Both verbs exist and both are correct. Πόσο κοστίζει is the one a textbook reaches for and the one that marks you as a student of Greek rather than a person buying peaches. Πόσο κάνει is what is actually said across a counter and down a market row. If somebody later tells you κοστίζει is more proper, they are right about the dictionary and wrong about the street."
+      },
+      {
+        "titulo": "The semicolon that is a question mark",
+        "corpo": "Greek writes its question mark as «;» — the character that looks like a Latin semicolon. So the sign in the window, the message on your phone and the sentence in this course all end πόσο κάνει; and that is a complete question, correctly punctuated. It matters when you are typing to someone, and it matters more when you are reading: a semicolon at the end of a short line is usually a question aimed at you."
+      },
+      {
+        "titulo": "The card is an obligation, not a favour",
+        "corpo": "Article 65 of Law 4446/2016 obliges businesses to accept card payment, and article 66 obliges them to display that visibly at the entrance and at the till. The list of trades covered was replaced in December 2023 and extended to thirty-five more activity codes, reaching open-air markets, food retail and kiosks. Two honest limits: the obligation follows the list of activity codes rather than covering all commerce, so it is not universal; and IRIS, the instant-payment system now compulsory in Greek retail, is domestic — a foreign visitor normally cannot use it. What protects you is the card obligation, not IRIS.",
         "exemplos": [
           {
-            "es": "¿Qué número usa?",
-            "pt": "keh NOO-meh-roh OO-sah — 👂 what shoe size are you? — the question that comes back at you in a shoe shop"
-          },
-          {
-            "es": "¿Dónde están los probadores?",
-            "pt": "DOHN-deh ehs-TAN lohs proh-bah-DOH-rehs — where are the fitting rooms?"
+            "es": "Δέχεστε κάρτα;",
+            "pt": "Do you take card?"
           }
         ]
       },
       {
-        "titulo": "The tique, and what a shop actually owes you",
-        "corpo": "Keep the receipt. A Spanish shop is not obliged to take back something you have simply gone off, so a change of mind depends on that shop's own policy — many do accept returns, usually within a stated number of days, and almost all of them ask for the tique before anything else. That is why the question goes in before the card comes out: '¿Se puede cambiar o devolver? ¿En cuántos días?'. This is a different matter from something that arrives broken or stops working, which is covered by the legal guarantee of conformity that every seller in Spain owes under the consumer act (Real Decreto Legislativo 1/2007, as amended in 2021); that case is not a favour and does not depend on the shop's goodwill. Sale items are not a separate universe either: the same guarantee covers a garment bought in the rebajas and one bought in May.",
-        "exemplos": [
-          {
-            "es": "¿Se puede cambiar o devolver? ¿En cuántos días?",
-            "pt": "seh PWEH-dheh kam-BYAR oh deh-bol-BEHR — can it be exchanged or returned? within how many days?"
-          },
-          {
-            "es": "¿Me da el tique, por favor?",
-            "pt": "meh dah el TEE-keh — can I have the receipt, please? ('la factura' is the version with your details on it, which is the one an insurer wants)"
-          }
-        ]
-      },
-      {
-        "titulo": "Why the fruit is not yours to pick",
-        "corpo": "At a traditional market stall the seller chooses, weighs and bags, and there is usually a sign about it: NO TOCAR LA FRUTA. It reads as officious from the outside and it is nothing of the kind — she is managing stock that has to be sold in a particular order, and handling by strangers costs her the ripe end of the box. Stand back, point at the tray, name the weight, and she will pick better than you would. In a supermarket the arrangement inverts completely: the gloves are on a roll beside the produce, you pick and bag your own, and standing there waiting to be served is the thing that looks out of place.",
-        "exemplos": [
-          {
-            "es": "NO TOCAR LA FRUTA",
-            "pt": "noh toh-KAR lah FROO-tah — 👂 do not touch the fruit"
-          },
-          {
-            "es": "Póngame un kilo de naranjas, por favor.",
-            "pt": "POHN-gah-meh oon KEE-loh deh nah-RAHN-khahs — a kilo of oranges, please"
-          }
-        ]
+        "titulo": "Five hundred in cash, and no further",
+        "corpo": "Article 69 §2 of the same law caps cash payment from a consumer to a business at five hundred euros, down from a previous fifteen hundred. An invoice of five hundred or more must go by card, transfer or another electronic route. You will rarely meet this buying a hat, but it appears the moment you rent something, settle a longer hotel stay or buy a single expensive object — and it is a rule about the payment, not a suggestion the shop is making."
       }
     ]
-  }
+  },
+  "slot": "B15",
+  "permissao": "You are allowed to ask the price of something you have already picked up, and then put it down again. Asking is not a commitment to buy, and πόσο κάνει is not a first move in a negotiation you did not want to start. You are also allowed to use the identical three words at all four counters without dressing them up — the fruit seller, the shop, the kiosk and the ticket window are not comparing notes on your vocabulary, and nobody expects a visitor to own more than one way of asking what something costs.",
+  "permissaoAudioKey": "el-b15-n02",
+  "espelho": "Anyone who has stood in a shop at home holding something with no price on it, quietly hoping a label would appear so they would not have to ask, already knows this whole part. The only new thing is that here the asking costs three words, and the answer arrives as a number you can hold up on your fingers if you miss it.",
+  "fichasCulturais": [
+    {
+      "sinal": "The window has a card logo on it, the total is small, and you are told it is cash only.",
+      "suaLeitura": "Every small business does this and there is nothing to be done about it.",
+      "oQueEAli": "Greece is stricter than most of its neighbours here. Article 65 of Law 4446/2016 creates an obligation to ACCEPT card payment — not merely to own a terminal — imposed by activity code, and article 66 requires visible notice to the customer at the entrance and at the till. A 2023 joint ministerial decision replaced the list and extended it to thirty-five further codes, taking in open-air markets, food retail and kiosks.",
+      "oQueVoceFaz": "Ask δέχεστε κάρτα; before you choose rather than at the till, and look for the notice at the door on your way in. If card genuinely is not possible, decide then, with the item still on the shelf.",
+      "oQueMelhora": "You stop treating a cash-only line as fixed weather, and you find out which it is while you can still walk away without a scene.",
+      "ondeNaoVale": "Coverage is not universal, and claiming it is would be wrong: the legal test remains the list of activity codes, not all commerce. Nor does IRIS help you — it is a domestic instant-payment system that a foreign visitor normally cannot use. And on a small island a machine may be down rather than a rule being ignored, which is why carrying some cash is still sensible.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b15-n06"
+      ]
+    },
+    {
+      "sinal": "You ask πόσο κάνει and get back far more than a number — where it came from, who made it, what you should do with it, and a question about where you are from.",
+      "suaLeitura": "This is a sales pitch and the price is about to go up, or I have accidentally started haggling.",
+      "oQueEAli": "Work comparing politeness in Greek and English describes Greek usage as oriented towards involvement and closeness, where English leans towards distance and non-imposition. A transaction is a small piece of contact, and contact tends to come with talk. The number is usually in there — often first — with the rest arriving as conversation rather than pressure.",
+      "oQueVoceFaz": "Take the number when it lands and let the rest run for a few seconds. Ευχαριστώ, and either θα ήθελα δύο or a smile and a step back, both close it cleanly.",
+      "oQueMelhora": "You stop bracing for a pitch that is not coming, and the exchange ends the way it was meant to — with a price you heard and a short conversation you did not have to have but did.",
+      "ondeNaoVale": "An orientation described by research is not a prediction about any individual, and it does not mean every long answer is friendliness. In a heavily touristed spot, a price with no list behind it and a lot of talk around it is worth checking against the board — which, in restaurants and cafés, the law requires to be there.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-b15-n05"
+      ]
+    }
+  ]
 }

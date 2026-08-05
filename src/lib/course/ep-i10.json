@@ -1,727 +1,420 @@
 {
   "id": "i10",
-  "slot": "I10",
   "nivel": "intermediario",
   "numero": 28,
   "parte": "I10",
-  "titulo": "The coins you leave, and the second time you walk in",
-  "subtitulo": "What a table here actually leaves on the little plate, the four words that hand it over, the one job on this trip where the tip is somebody's wage, and how to let the other hand get there first",
+  "titulo": "Money here: the card is the one with a law behind it",
+  "subtitulo": "Taking the card is an obligation tied to the trade's activity code, cash stops at five hundred, and a single-machine island now costs nothing to withdraw from",
+  "cena": "A till in a village square, a card in your hand, and a cash machine forty metres away that you are about to need — or not.",
   "moldura": "ganha",
-
-  "cena": "Ten past four on a Sunday, three of you at the end of a long lunch, twenty-eight sixty on the little plate, and everybody has gone quiet and is waiting to see what somebody puts on top of it.",
-
-  "decisao": "how much goes on top of the bill, and who puts it there — the rounding the next table leaves against the fifth of it your hand wants to leave, across twenty-eight paid meals; and whether the counter you walk back into on Thursday reads you as somebody who lives here this week or as somebody passing through",
-  "emJogo": "dinheiro",
-
+  "frasePiso": "Δέχεστε κάρτα; asked in the doorway costs you nothing and settles the whole meal.",
+  "decisao": "decidir na porta como vou pagar e quanto tiro no caixa — cartão é obrigação legal por ΚΑΔ, espécie tem teto de €500 e a taxa de saque tem teto nacional de €1,50 — em vez de descobrir a condição com a conta na mão e tratar «μόνο μετρητά» como golpe",
   "moldes": [],
-
-  "clique": {
-    "contagem": ["the terrace", "the counter", "the taxi", "the square"],
-    "desconto": "Nobody gave you those sentences. You put a coin down and said four words, and you never once did a sum.",
-    "piso": "You will leave what the next table leaves, without a single sum. Most visitors pay a fifth more all fortnight and never find out."
-  },
-  "cliqueAudioKey": "i10-n36",
-
-  "frasePiso": "You will leave what the next table leaves, without a single sum. Most visitors pay a fifth more all fortnight and never find out.",
-
-  "permissao": "Round it up. That is the whole system, and nothing at all is an ordinary amount to leave — the tip here is extra, not the wage, and nobody goes home short because of you. You are allowed to put your wallet away when somebody's hand stops yours, and you are allowed to hand over notes and say four words without working out a single percentage.",
-  "permissaoAudioKey": "i10-n34",
-
-  "espelho": "Working out a percentage at the table is the bit that reads as odd there. Nobody at that table is doing sums, and the one who is doing sums is the one being watched.",
-
-  "fichasCulturais": [
-    {
-      "sinal": "The notes go down on the little plate, the coins out of the change stay where they are, and nobody at the table counts them or mentions them.",
-      "suaLeitura": "That is almost nothing. I should put more down, or the person who has been looking after us all afternoon is out of pocket because of me.",
-      "oQueEAli": "Waiting staff here are on a salary and a collective agreement, so what stays on the plate is a rounding rather than an income. A table that rounds up has done the ordinary thing, and a table that leaves nothing has also done the ordinary thing.",
-      "oQueVoceFaz": "Round the total up to something tidy, leave it, and stand up. No sum, no announcement, no apology.",
-      "oQueMelhora": "You leave what the next table leaves, and the money your hand wanted to give away out of habit buys the last night of the holiday instead.",
-      "ondeNaoVale": "Not the walk that was sold to you as free. There what goes into the guide's hand at the end is the wage, and that one you pay properly.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i10-n31", "i10-n32", "i10-n33"]
-    },
-    {
-      "sinal": "You reach for your wallet, a hand comes across and stops yours, and the other person has already given the man a note.",
-      "suaLeitura": "He has just paid for me and I barely know him. I have to get my money out or I look like somebody taking advantage.",
-      "oQueEAli": "One person settles the whole thing and the next one comes round to you — the going round is the point of it, and the wrestling match over the plate is the part that turns money into a scene.",
-      "oQueVoceFaz": "Let it go, put your wallet away, thank him, and put a name on the next one out loud.",
-      "oQueMelhora": "There is a next one, which is the entire reason he did it, and you are the one who gets there first the following morning.",
-      "ondeNaoVale": "Not with somebody you have just met and will not see again, and not on a bill big enough to hurt — there you say the separate one from part fourteen, before he closes anything.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i10-n28", "i10-n29", "i10-n30"]
-    },
-    {
-      "sinal": "The walk finishes in a square, the guide says thank you and takes a step back, and nobody has been asked for anything at all.",
-      "suaLeitura": "It said free on the website, so it was free, and everybody drifting off is what is supposed to happen.",
-      "oQueEAli": "On a walk advertised as free, what goes into that hand at the end is what the guide is paid — it is the one job you will meet on this trip with a real expectation attached to it.",
-      "oQueVoceFaz": "Have notes in your pocket before it ends, go up to her, put it in her hand and say thank you to her face.",
-      "oQueMelhora": "You get the ten minutes afterwards that nobody else waits for: where to eat tonight, from the person who walks that street every day.",
-      "ondeNaoVale": "Not a ticketed tour you paid for online — there it was settled at the checkout and nothing more is expected of you.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i10-n22", "i10-n23", "i10-n27"]
-    }
-  ],
-
   "fatosDatados": [
     {
-      "id": "propina-pratica-por-situacao",
-      "afirmacao": "Spanish practice by situation: coffee or a small beer at the counter, nothing or the loose change; neighbourhood bar or set lunch, round up by fifty cents to a euro; a mid-range restaurant you enjoyed, five to ten per cent, and most leave less or nothing; taxi, round up; hotel porter or room cleaner, one or two euros in cash.",
-      "fonte": "consenso de guias de viagem 2025–2026, registrado em docs/pesquisa-espanha.md §7.3 — a mesma seção marca o valor médio de gorjeta na Espanha como NÃO PÚBLICO (§11.3), e por isso nenhum número médio é afirmado aqui",
-      "ano": 2026,
-      "revisarAte": "2028-01-01",
-      "evidencia": "CONSENSO",
-      "risco": "baixo",
-      "audioKeys": ["i10-n07", "i10-n08", "i10-n09", "i10-n10"]
-    },
-    {
-      "id": "propina-nao-e-o-salario",
-      "afirmacao": "Hospitality staff in Spain are on a salary and a collective agreement; the tip is extra rather than the income, which is why leaving nothing harms nobody and is not read as rudeness.",
-      "fonte": "docs/pesquisa-espanha.md §7.3, apoiada no salário mínimo interprofesional (RD 126/2026) e nos convênios coletivos de hostelaria",
-      "ano": 2026,
-      "revisarAte": "2027-06-01",
-      "evidencia": "CONSENSO",
-      "risco": "baixo",
-      "audioKeys": ["i10-n12", "i10-n13"]
-    },
-    {
-      "id": "menu-del-dia-preco",
-      "afirmacao": "The national average for a menú del día is about €14.20.",
-      "valor": "€14,20",
-      "fonte": "Hostelería de España + Edenred, divulgado em 2026 — citado em docs/pesquisa-espanha.md §7.2",
-      "ano": 2026,
-      "revisarAte": "2027-04-01",
+      "id": "el-i10-karta",
+      "afirmacao": "In Greece the duty is to ACCEPT card payment, not merely to own a terminal. Article 65 of law 4446/2016 imposes acceptance of card payment means, and article 66 requires the business to inform the consumer visibly at the entrance and at the till. The scope runs by ΚΑΔ, the activity code of the trade: the list was replaced by joint ministerial decision 119899/2023, ΦΕΚ Β΄7115 of 18.12.2023, which added 35 further codes, among them open-air markets, food retail and kiosks. That makes refusing a card unlawful far more often here than in Italy or France. Two honest limits: coverage is not universal, because the legal criterion remains the ΚΑΔ list rather than «all commerce», and the domestic instant-payment scheme IRIS, compulsory across retail since 01.11.2025, runs on Greek bank accounts and is normally out of reach for a foreign visitor.",
+      "fonte": "Art. 65 do ν.4446/2016, «Υποχρέωση αποδοχής μέσων πληρωμής με κάρτα», obriga por ΚΑΔ (código de atividade); o art. 66 obriga a informar o consumidor de forma visível na entrada e no caixa. A lista de ΚΑΔ foi substituída pela ΚΥΑ 119899/2023, ΦΕΚ Β΄7115/18.12.2023, que estendeu a mais 35 ΚΑΔ — feiras livres, varejo alimentar, bancas. ⚠️ A cobertura NÃO é universal: o critério legal continua sendo a lista de ΚΑΔ. IRIS é doméstico e o turista estrangeiro normalmente não consegue usar.",
+      "ano": 2023,
+      "revisarAte": "2028-08-05",
       "evidencia": "FATO",
       "risco": "medio",
-      "audioKeys": ["i10-n14"]
+      "audioKeys": [
+        "el-i10-n02",
+        "el-i10-n04"
+      ]
     },
     {
-      "id": "delta-do-reflexo-de-vinte-por-cento",
-      "afirmacao": "On a €14.20 lunch, a twenty per cent reflex is €2.84 and rounding up to €15 is €0.80 — a difference of about two euros a meal, which over twenty-eight paid meals for a couple comes to roughly €115.",
-      "valor": "≈ €115 por casal / 14 dias",
-      "fonte": "INFERÊNCIA aritmética sobre o preço médio do menú del día (Hostelería de España + Edenred, 2026), com a conta aberta em docs/pesquisa-espanha.md §7.3",
-      "ano": 2026,
-      "revisarAte": "2027-04-01",
-      "evidencia": "INFERENCIA",
-      "risco": "medio",
-      "audioKeys": ["i10-n15", "i10-n16"]
-    },
-    {
-      "id": "guia-de-tour-a-unica-expectativa-real",
-      "afirmacao": "The walking-tour guide is the one role in Spain with a genuine expectation attached: on a tour advertised as free, the tip is the wage.",
-      "fonte": "consenso de fontes secundárias 2025–2026 sobre gorjeta na Espanha, registrado em docs/pesquisa-espanha.md §7.3",
-      "ano": 2026,
-      "revisarAte": "2028-01-01",
-      "evidencia": "CONSENSO",
+      "id": "el-i10-metrita",
+      "afirmacao": "Cash to a business has a ceiling of 500 euros. Article 69 §2 of law 4446/2016 set that figure, cutting the previous 1 500 euros: an invoice of 500 euros or more has to be settled by card, transfer or another electronic means. Property is a separate regime altogether — article 3 of law 5073/2023 requires payment exclusively through banking channels, with no cash allowance at all, on pain of nullity.",
+      "fonte": "Teto de espécie: €500 para consumidor→empresa — art. 69 §2 do ν.4446/2016, que reduziu o limite anterior de €1.500. Fatura de valor igual ou superior a €500 tem de ser paga por cartão, transferência ou meio eletrônico. Imóveis são caso à parte: o art. 3 do ν.5073/2023 exige pagamento exclusivamente por meio bancário, sem franquia em numerário, sob pena de nulidade de pleno direito. ⚠️ A multa de €100 ao emitente vem de fonte secundária — não afirmar o valor.",
+      "ano": 2016,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["i10-n22", "i10-n23"]
+      "audioKeys": [
+        "el-i10-n06"
+      ]
+    },
+    {
+      "id": "el-i10-analipsi",
+      "afirmacao": "Withdrawal fees were capped by article 48 of law 5167/2024, amended on 25.07.2025 and in force since 11.08.2025. It removes the commission on a withdrawal made on the issuing bank's own network; it takes the fee to zero in a municipal community served by a single cash machine; and it fixes a national ceiling of 1.50 euros per withdrawal charged by an independent operator. The practical consequence for a small island or a mountain village is direct: you are not at the mercy of whatever figure the machine announces.",
+      "fonte": "ACHADO NOVO E ÚTIL PARA ILHA — taxa de saque. O art. 48 do ν.5167/2024, alterado em 25.07.2025 e vigente desde 11.08.2025: elimina comissão em saque na rede do próprio banco emissor, zera a tarifa em comunidade municipal onde opera um ÚNICO ATM, e fixa teto nacional de €1,50 por saque cobrado por operador independente.",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "el-i10-n07",
+        "el-i10-n08"
+      ]
+    },
+    {
+      "id": "el-i10-filodorima",
+      "afirmacao": "Tipping exists here and is institutionally recognised, but no percentage is published anywhere. What exists is a tax rule: law 5162/2024 exempts tips of up to 300 euros a month per worker from income tax, for amounts paid from 01.11.2024, and exempts the whole of them from social contributions. That confirms the practice and confirms nothing about how much. No research body, sector federation or statistical office publishes a figure for Greece, so any percentage you have read came from a blog.",
+      "fonte": "Gorjeta tem fonte institucional, mas só para o tratamento FISCAL: o ν.5162/2024 isenta de imposto gorjetas até €300/mês por trabalhador, para valores pagos a partir de 01.11.2024, e isenta de contribuição social o total. Isso confirma que a gorjeta existe e é reconhecida — não confirma percentual nenhum. ⚠️ AUSENTE: percentual de gorjeta. Ensinar a mecânica (τον λογαριασμό, παρακαλώ, arredondar) e declarar que é costume variável. Não citar número.",
+      "ano": 2024,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-i10-n10"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n01",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i10-n01",
+      "gesto": 1,
       "bloco": "aquecimento",
-      "gesto": 4,
-      "tom": "ganha",
-      "pt": "Part twenty-eight. Warm-up: the flick. One tap of the tongue, never a roll. Gra-cias. Pro-pi-na. Ver-dad."
+      "pt": "Four money questions come up every single day here, and Greece answers three of them with an actual law."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n01b",
-      "pt": "Finger flicks once and stops. If it buzzes, you have rolled it. Three more, out loud, on your leg."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i10-n02",
+      "bloco": "corpo",
+      "pt": "First: taking your card is an obligation here, not a courtesy — written in law, tied to the trade's activity code."
     },
     {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-i10-t01",
+      "es": "Δέχεστε κάρτα;",
+      "pinyin": "DHE-he-ste KAR-ta",
+      "pt": "Do you take card?",
+      "tts": "Δέχεστε κάρτα;"
+    },
+    {
+      "consulta": [
+        "pagar/cartao",
+        "chegar/entrar"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "bloco": "callback",
-      "promptAudioKey": "i10-p01",
-      "promptPt": "Three of you, one bill, and nobody wants to sit there working out who had the extra beer. Tell him how to do it. Speak now.",
-      "audioKey": "b14-iguales-c",
-      "es": "Pagamos a partes iguales.",
-      "pinyin": "pah-GAH-mohs ah PAR-tehs ee-GWAH-lehs",
-      "pt": "one total, split down the middle"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n02",
-      "bloco": "cena",
-      "pt": "Ten past four on a Sunday. Three of you, a long lunch, and the little plate with the paper on it has landed."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n03",
-      "pt": "Twenty-eight sixty. Everybody has gone quiet, and a hand is already reaching for a phone to work something out."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n04",
-      "pt": "Nobody at the next table is doing that. What they do instead takes four words, and we get to them shortly."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n05",
-      "pt": "First, one question he asks on his way over. It has two answers, and you have owned one of them since part fourteen."
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i10-p01",
+      "promptPt": "You are still in the doorway of a small place off the square, nothing ordered, wallet unopened. Settle it now. Speak now.",
+      "audioKey": "el-i10-t01",
+      "es": "Δέχεστε κάρτα;",
+      "pinyin": "DHE-he-ste KAR-ta",
+      "pt": "Do you take card?",
+      "tts": "Δέχεστε κάρτα;",
+      "molde": "BORO",
+      "encaixe": "πληρώσω με κάρτα"
     },
     {
       "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i10-vajunto-c",
-      "es": "¿Va todo junto o por separado?",
-      "pinyin": "bah TOH-dhoh KHOON-toh oh por seh-pah-RAH-dhoh",
-      "pt": "👂 'All on one, or separately?' — asked before he rings anything up, not after.",
-      "tts": "¿Va todo junto o por separado?"
+      "voz": "target_el_m",
+      "audioKey": "el-i10-r01",
+      "receptivo": true,
+      "acao": "The answer is usually yes here, and the sign at the door said so before you asked.",
+      "es": "Βεβαίως, δεχόμαστε κάρτα.",
+      "pt": "Of course, we take card.",
+      "tts": "Βεβαίως, δεχόμαστε κάρτα."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n06",
-      "pt": "The other answer is two words, and it means the evening is yours. It is the one you will hear yourself using."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i10-n03",
+      "pt": "The same law makes them post it. A card sign at the entrance and another at the till is part of the duty."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i10-todojunto-e",
-      "es": "Todo junto, por favor.",
-      "pinyin": "TOH-dhoh KHOON-toh, por fah-BOR",
-      "pt": "All on one, please.",
-      "tts": "Todo junto, por favor."
-    },
-    {
-      "consulta": ["pagar/rachar","pagar/pedir"],
+      "consulta": [
+        "pagar/cartao",
+        "pagar/dinheiro"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i10-p02",
-      "promptPt": "Four of you on the terrace, the plates are gone, and he is coming over asking how he should ring it up. Tonight is on you. Speak now.",
-      "audioKey": "i10-todojunto-e",
-      "es": "Todo junto, por favor.",
-      "pinyin": "TOH-dhoh KHOON-toh, por fah-BOR",
-      "pt": "one bill, and it is yours"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i10-tarjetaoefectivo-c",
-      "es": "¿Con tarjeta o en efectivo?",
-      "pinyin": "kon tar-KHEH-tah oh en eh-fek-TEE-boh",
-      "pt": "👂 'Card or cash?' — decide before he walks back with the machine.",
-      "tts": "¿Con tarjeta o en efectivo?"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i10-p02",
+      "promptPt": "The little terminal behind the counter is face down and there is no sign anywhere on the glass. Check the one thing that decides your next ten minutes. Speak now.",
+      "audioKey": "el-i10-t02",
+      "es": "Μόνο μετρητά;",
+      "pinyin": "MO-no me-tri-TA",
+      "pt": "Cash only?",
+      "tts": "Μόνο μετρητά;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n07",
-      "pt": "Right. What actually gets left, place by place. Coffee at the counter: nothing, or the coins out of your change."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i10-n04",
+      "pt": "Coverage runs by list, not by everything. Some very small trade sits outside it, so keep notes for the day it does."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n08",
-      "pt": "Neighbourhood bar, the set lunch: round it up. Fifty cents. A euro. Nobody is counting and nobody minds."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n09",
-      "pt": "A proper evening you genuinely loved: five to ten per cent. Most tables here leave less than that, or nothing."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n10",
-      "pt": "Taxi: round it up. The man who carries your cases up three floors: a euro or two, in cash, in his hand."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n11",
-      "pt": "One job on this trip sits outside that whole table, and it is the last thing we do today. Hold on to that."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n12",
-      "pt": "Now the line that resets an English-speaking head. Waiting staff here are on a salary and a collective agreement."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n13",
-      "pt": "The tip is extra. It is not the income. Leaving nothing harms nobody, and nobody goes home short because of you."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n14",
-      "pt": "The sums, quickly, because they are funnier than they are important. A set lunch averages fourteen euros twenty."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n15",
-      "pt": "A twenty per cent reflex on that is two eighty-four. Rounding it up to fifteen is eighty cents. Two euros a meal."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n16",
-      "pt": "Twice a day, a fortnight, two of you: about a hundred and fifteen euros. And the money is not the interesting bit."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n17",
-      "pt": "Nobody was expecting anything, so twenty per cent does not land as generous. It lands as: this one is new here."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i10-g01",
-      "pt": "GUIRI ALERT. George here. Two ways to get this one wrong, and each of them has a flag on it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i10-g02",
-      "pt": "The American leaves twenty per cent and beams. The waiter beams back and files him, quietly, under visitor."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i10-g03",
-      "pt": "The Brit builds a small cairn of coppers on the saucer, apologises to it, then apologises again at the door."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i10-g04",
-      "pt": "Round it up, or leave nothing. Both are entirely ordinary here. The only wrong answer is a performance."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n18",
-      "pt": "So how does it physically happen? You put the notes down and you say four words. That is the whole business."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "c02a-08",
-      "es": "Está bien así, gracias.",
-      "pinyin": "ehs-TAH byehn ah-SEE, GRAH-thyahs",
-      "pt": "That's fine as it is, thanks. — four words that leave the coins where they are.",
-      "tts": "Está bien así, gracias."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n19",
-      "pt": "It says nothing about who you are talking to, which is why it works at every counter you will stand at."
-    },
-    {
-      "consulta": ["pagar/gorjeta"],
+      "consulta": [
+        "pagar/pedir",
+        "compras/quanto"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i10-p03",
-      "promptPt": "Morning coffee at the counter, one euro forty, you have put a two-euro piece down and he is turning for the till. Speak now.",
-      "audioKey": "c02a-08",
-      "es": "Está bien así, gracias.",
-      "pinyin": "ehs-TAH byehn ah-SEE, GRAH-thyahs",
-      "pt": "leave the sixty where it is"
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i10-p04",
-      "promptPt": "The man who carried both cases up three floors is stood in your doorway, you have handed him two euros, and he is now fishing in his pocket. Speak now.",
-      "audioKey": "c02a-08",
-      "es": "Está bien así, gracias.",
-      "pinyin": "ehs-TAH byehn ah-SEE, GRAH-thyahs",
-      "pt": "the same four, in a doorway"
+      "voz": "target_el_f",
+      "molde": "POSO-KANI",
+      "encaixe": "όλα μαζί",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i10-p03",
+      "promptPt": "Four of you ordered in waves over two hours and exactly one card is coming out. Get the figure before it does. Speak now.",
+      "audioKey": "el-i10-t03",
+      "es": "Πόσο κάνει όλα μαζί;",
+      "pinyin": "PO-so KA-ni O-la ma-ZI",
+      "pt": "How much is it all together?",
+      "tts": "Πόσο κάνει όλα μαζί;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n20",
-      "pt": "There is a second one, for an older man at a smart hotel, or a driver who has got out to lift the boot for you."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i10-n05",
+      "pt": "That is the frame from B15, working at a table instead of a shelf. One opening, and the number arrives."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "c02a-09",
-      "es": "Quédese con el cambio.",
-      "pinyin": "KEH-dheh-seh kon el KAHM-byoh",
-      "pt": "Keep the change. — a whole sentence, and there is nothing to add to it.",
-      "tts": "Quédese con el cambio."
-    },
-    {
-      "consulta": ["pagar/gorjeta","taxi/parar"],
+      "consulta": [
+        "mesa/conta",
+        "pagar/pedir"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i10-p05",
-      "promptPt": "Eleven forty on the meter of the taxi, you have handed over twelve, and he has his hand on the little machine to give you sixty cents back. Speak now.",
-      "audioKey": "c02a-09",
-      "es": "Quédese con el cambio.",
-      "pinyin": "KEH-dheh-seh kon el KAHM-byoh",
-      "pt": "the sixty is his"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i10-p04",
+      "promptPt": "The plates were cleared twenty minutes ago, nobody is coming past, and you have a boat at six. Speak now.",
+      "audioKey": "el-i10-t04",
+      "es": "Τον λογαριασμό, παρακαλώ.",
+      "pinyin": "ton lo-gha-ria-SMO, pa-ra-ka-LO",
+      "pt": "The bill, please.",
+      "tts": "Τον λογαριασμό, παρακαλώ."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n21",
-      "pt": "One habit worth picking up before you go out: a couple of euros in coins, because little plates take coins."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i10-tarjetaefectivo-e",
-      "es": "¿Con tarjeta o en efectivo?",
-      "pinyin": "kon tar-KHEH-tah oh en eh-fek-TEE-boh",
-      "pt": "👂 'Card or cash?' — asked at the till, and either answer is completely ordinary.",
-      "tts": "¿Con tarjeta o en efectivo?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i10-efectivo-c",
-      "es": "En efectivo, por favor.",
-      "pinyin": "en eh-fek-TEE-boh, por fah-BOR",
-      "pt": "Cash, please. — the answer that leaves something behind on the plate.",
-      "tts": "En efectivo, por favor."
-    },
-    {
-      "consulta": ["pagar/dinheiro","pagar/gorjeta"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i10-p06",
-      "promptPt": "Sunday lunch is finished, he has asked you which of the two it will be, and you already have the coins in your pocket for it. Speak now.",
-      "audioKey": "i10-efectivo-c",
-      "es": "En efectivo, por favor.",
-      "pinyin": "en eh-fek-TEE-boh, por fah-BOR",
-      "pt": "the one with coins in it"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n22",
-      "tom": "protege",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i10-n06",
       "bloco": "capsula",
-      "pt": "Now the job that sits outside the table. The walk finishes in a square, the guide thanks you, and steps back."
+      "pt": "Second: cash stops at five hundred euros. At or above that figure the payment goes electronic, by card or transfer."
+    },
+    {
+      "consulta": [
+        "pagar/cartao",
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i10-p05",
+      "promptPt": "The total is well over what is in your wallet and three people are waiting behind you. Say how this ends. Speak now.",
+      "audioKey": "el-i10-t05",
+      "es": "Θα πληρώσω με κάρτα.",
+      "pinyin": "tha pli-RO-so me KAR-ta",
+      "pt": "I'll pay by card.",
+      "tts": "Θα πληρώσω με κάρτα."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n23",
-      "pt": "On a walk sold as free, what goes into that hand at the end is the wage. Drifting off is where this one goes wrong."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i10-n07",
+      "pt": "Third, and this part is new. Since August 2025, taking money out where a community has a single machine costs nothing."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n24",
-      "tom": "ganha",
-      "pt": "So sort it out early. You are at the counter of the bar you had a coffee in, and all you have on you is a fifty."
+      "consulta": [
+        "pagar/dinheiro",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "POSO-KANI",
+      "encaixe": "η προμήθεια",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i10-p06",
+      "promptPt": "The only machine in the village wants you to agree to a screen of small print before it counts anything out, and the kiosk owner is standing right there. Speak now.",
+      "audioKey": "el-i10-t06",
+      "es": "Πόσο κάνει η προμήθεια;",
+      "pinyin": "PO-so KA-ni i pro-MI-thi-a",
+      "pt": "How much is the fee?",
+      "tts": "Πόσο κάνει η προμήθεια;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i10-cambio-c",
-      "es": "Quería cambio, por favor.",
-      "pinyin": "keh-REE-ah KAHM-byoh, por fah-BOR",
-      "pt": "I'd like some change, please.",
-      "tts": "Quería cambio, por favor."
+      "voz": "target_el_m",
+      "audioKey": "el-i10-r02",
+      "receptivo": true,
+      "acao": "One fifty is the national ceiling for an independent operator. Above that figure, something is wrong with the screen, not with you.",
+      "es": "Ένα ευρώ και πενήντα, όπως παντού.",
+      "pt": "One euro fifty, like everywhere.",
+      "tts": "Ένα ευρώ και πενήντα, όπως παντού."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n25",
-      "bloco": "molde",
-      "pt": "That front is the frame you have had since part twelve. Today it carries something you can put in a hand."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i10-n08",
+      "pt": "An independent operator cannot charge more than one euro fifty a withdrawal, anywhere in the country."
     },
     {
-      "consulta": ["pagar/dinheiro"],
+      "consulta": [
+        "pagar/dinheiro",
+        "compras/pagar"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "QUERIA",
-      "encaixe": "cambio",
-      "encaixeGloss": "change",
-      "promptAudioKey": "i10-p07",
-      "promptPt": "The walk ends in ten minutes and the only thing in your pocket is a fifty. Nobody puts a fifty in a guide's hand. Speak now.",
-      "audioKey": "i10-cambio-c",
-      "es": "Quería cambio, por favor.",
-      "pinyin": "keh-REE-ah KAHM-byoh, por fah-BOR",
-      "pt": "what a fifty has to become"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i10-p07",
+      "promptPt": "The kiosk owes you four euros back and everything in your hand is a fifty the machine just spat out. Speak now.",
+      "audioKey": "el-i10-t07",
+      "es": "Έχετε ψιλά;",
+      "pinyin": "E-he-te psi-LA",
+      "pt": "Do you have change?",
+      "tts": "Έχετε ψιλά;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n26",
-      "pt": "Then you go up to her, put it in her hand, and use the one you already own from part twenty-five."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i10-n09",
+      "pt": "You will see a domestic instant-payment app on till signs. It runs on Greek bank accounts, so it is not yours to use."
+    },
+    {
+      "consulta": [
+        "pagar/rachar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i10-p08",
+      "promptPt": "Two of you, two cards already out, one small tray in the middle of the table. Speak now.",
+      "audioKey": "el-i10-t08",
+      "es": "Μπορούμε να πληρώσουμε χωριστά;",
+      "pinyin": "bo-RU-me na pli-RO-su-me ho-ri-STA",
+      "pt": "Can we pay separately?",
+      "tts": "Μπορούμε να πληρώσουμε χωριστά;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i07-graciasverdad-c",
-      "es": "Muchas gracias, de verdad.",
-      "pinyin": "MOO-chahs GRAH-thyahs, deh behr-DAHDH",
-      "pt": "Thank you, really. — the last two words are what make it land.",
-      "tts": "Muchas gracias, de verdad."
+      "voz": "target_el_m",
+      "audioKey": "el-i10-r03",
+      "receptivo": true,
+      "acao": "Yes arrives as an action, not as a word. He is already splitting it and printing twice.",
+      "es": "Βεβαίως, χωριστά. Δύο αποδείξεις.",
+      "pt": "Of course, separately. Two receipts.",
+      "tts": "Βεβαίως, χωριστά. Δύο αποδείξεις."
     },
     {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i10-n10",
+      "pt": "Fourth: the tip. No institution publishes a percentage here, because there is no percentage to publish. Round up."
+    },
+    {
+      "consulta": [
+        "pagar/gorjeta"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i10-p08",
-      "promptPt": "The group is breaking up in the square, she is being thanked by four people at once, and you have the notes folded in your palm. Speak now.",
-      "audioKey": "i07-graciasverdad-c",
-      "es": "Muchas gracias, de verdad.",
-      "pinyin": "MOO-chahs GRAH-thyahs, deh behr-DAHDH",
-      "pt": "to her face, not to the group"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i10-p09",
+      "promptPt": "Long lunch, attentive service, and the coins have just landed on the saucer in front of you. Close it without arithmetic. Speak now.",
+      "audioKey": "el-i10-t09",
+      "es": "Κρατήστε τα ρέστα.",
+      "pinyin": "kra-TI-ste ta RE-sta",
+      "pt": "Keep the change.",
+      "tts": "Κρατήστε τα ρέστα."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n27",
-      "pt": "And you get the ten minutes nobody else waits for. Where to eat tonight, from the woman who walks it daily."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i10-n11",
+      "pt": "The printed receipt is the trader's legal duty, not a favour to you. Ask for it and it appears."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n28",
-      "pt": "Last one, and it is where money most nearly turns into a scene. You reach for your wallet and a hand stops yours."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i10-invitoyo-e",
-      "es": "Invito yo.",
-      "pinyin": "een-BEE-toh yoh",
-      "pt": "👂 'This one's on me.' — said quickly, and said as a fact rather than an offer.",
-      "tts": "Invito yo."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n29",
-      "pt": "Do not fight it. The wrestling over the plate is the awkward part, never the paying. Four words end it."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i10-proxima-c",
-      "es": "La próxima invito yo.",
-      "pinyin": "lah PROHK-see-mah een-BEE-toh yoh",
-      "pt": "The next one's on me. — it settles this one and it books the next coffee.",
-      "tts": "La próxima invito yo."
-    },
-    {
-      "consulta": ["pagar/rachar","simpatia/convite"],
+      "consulta": [
+        "compras/pagar",
+        "mesa/conta"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i10-p09",
-      "promptPt": "You both have your hands out over the same little plate and he has already put a note into the barman's hand. Let it go, and put a name on tomorrow. Speak now.",
-      "audioKey": "i10-proxima-c",
-      "es": "La próxima invito yo.",
-      "pinyin": "lah PROHK-see-mah een-BEE-toh yoh",
-      "pt": "hands off, and claim tomorrow"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n30",
-      "pt": "And then you do it. It going round is the whole point of it, and getting there first is how you take your turn."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i10-p10",
-      "promptPt": "Next morning, same counter, same man, and his hand is going into his pocket again. Get in ahead of him, in two words. Speak now.",
-      "audioKey": "i10-invitoyo-e",
-      "es": "Invito yo.",
-      "pinyin": "een-BEE-toh yoh",
-      "pt": "two words, said first"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n31",
-      "bloco": "capsula",
-      "pt": "Back to that little plate on the table. The notes go down and the coins from the change stay where they are."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n32",
-      "pt": "Nobody counts them and nobody mentions them. And the table that leaves nothing has done an ordinary thing too."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n33",
-      "pt": "Not the walk sold as free, mind. There it is the wage, and that is the one you pay properly, in a hand."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n34",
-      "bloco": "permissao",
-      "pt": "Round it up. That is the system, all of it. You never have to work out a percentage at a table here again."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n35",
-      "bloco": "espelho",
-      "pt": "And doing sums at the table is the bit that reads as odd there. The one doing sums is the one being watched."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n36",
-      "bloco": "clique",
-      "tom": "ganha",
-      "pt": "Count the places. The terrace. The counter. The taxi. The square at the end of the walk. Four words each time."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n37",
-      "pt": "Nobody gave you those sentences. You put a coin down and said four words, and you never once did a sum."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n38",
-      "bloco": "piso",
-      "pt": "You will leave what the next table leaves, without a single sum. Most visitors pay a fifth more all fortnight."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-s00",
-      "pt": "Shadowing. Out loud, underneath them, one tap of the tongue on the r. The two you will use every single day:"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i10-p10",
+      "promptPt": "The terminal beeps, the drawer shuts, and nothing at all has printed. You want the paper for the hire-car claim. Speak now.",
+      "audioKey": "el-i10-t10",
+      "es": "Την απόδειξη, παρακαλώ.",
+      "pinyin": "tin a-PO-dhi-ksi, pa-ra-ka-LO",
+      "pt": "The receipt, please.",
+      "tts": "Την απόδειξη, παρακαλώ."
     },
     {
       "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "c02a-08",
-      "es": "Está bien así, gracias.",
-      "pinyin": "ehs-TAH byehn ah-SEE, GRAH-thyahs",
-      "pt": "That's fine as it is, thanks."
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Emilio",
-      "audioKey": "i10-todojunto-e",
-      "es": "Todo junto, por favor.",
-      "pinyin": "TOH-dhoh KHOON-toh, por fah-BOR",
-      "pt": "All on one, please."
+      "voz": "target_el_f",
+      "audioKey": "el-i10-s01",
+      "es": "Δέχεστε κάρτα; Πόσο κάνει όλα μαζί; Την απόδειξη, παρακαλώ.",
+      "pinyin": "DHE-he-ste KAR-ta · PO-so KA-ni O-la ma-ZI · tin a-PO-dhi-ksi pa-ra-ka-LO",
+      "pt": "Shadow the three sentences that settle almost any till in Greece.",
+      "tts": "Δέχεστε κάρτα; Πόσο κάνει όλα μαζί; Την απόδειξη, παρακαλώ.",
+      "molde": "POSO-KANI"
     },
     {
       "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "i10-rend",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i10-n12",
       "bloco": "recap",
-      "pt": "One more out loud, at a counter we have not stood at yet, and this time it is six in the morning."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i10-p11",
-      "promptPt": "The station bar on the last morning, a coffee and a slice of tortilla, and you have put a five down for four sixty. Speak now.",
-      "audioKey": "c02a-08",
-      "es": "Está bien así, gracias.",
-      "pinyin": "ehs-TAH byehn ah-SEE, GRAH-thyahs",
-      "pt": "the forty stays there"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i10-n39",
-      "pt": "That is it. You paid, you left what they leave, and nobody at that table noticed you doing it. Hasta luego."
+      "pt": "I10 done, and GET THE GOOD STUFF with it. Card by law, cash to five hundred, and the machine fee has a ceiling."
     }
   ],
-
   "aprofundar": {
-    "titulo": "What gets left, who pays, and the one that is really a wage (optional reading)",
+    "titulo": "Four money questions, three of them answered by law",
     "secoes": [
       {
-        "titulo": "The table, written down",
-        "corpo": "Coffee or a caña standing at the counter: nothing, or the loose coins out of your change. Neighbourhood bar, or a menú del día: round the total up — fifty cents, a euro. A mid-range restaurant where the evening was genuinely lovely: five to ten per cent, and it is worth knowing that most people at the tables around you leave less than that, or nothing at all. Somewhere smart: up to ten per cent, after a glance at whether 'servicio' is already on the bill. Taxi: round it up. The porter who carries your cases, or the person who cleans your room: a euro or two, in cash. One honest caveat about all of the above, and it is the reason there are no averages in this part: there is no published series for what people actually leave in Spain — no figure from the national statistics office and none from the hospitality federation. What you have here is the convergent advice of field guides, which is why it is a shape rather than a number.",
+        "titulo": "The card is theirs to take, not to grant",
+        "corpo": "Article 65 of law 4446/2016 imposes the acceptance of card payment — the duty is to accept, not merely to own a terminal — and article 66 makes the business say so visibly at the entrance and at the till. That is a stricter position than Italy or France, and a traveller arriving with the French habit of expecting a lawful minimum has the wrong expectation here. The limit worth knowing is where the duty comes from: it runs by ΚΑΔ, the activity code of the trade, and the code list was replaced by decision 119899/2023 (ΦΕΚ Β΄7115, 18.12.2023), which added 35 more codes covering open-air markets, food retail and kiosks. Wide, then, but a list rather than the whole of commerce.",
         "exemplos": [
           {
-            "es": "Está bien así, gracias.",
-            "pt": "ehs-TAH byehn ah-SEE — that's fine as it is, thanks. The four words, and they fit every counter"
+            "es": "Δέχεστε κάρτα;",
+            "pt": "Do you take card?"
           },
           {
-            "es": "Quédese con el cambio.",
-            "pt": "KEH-dheh-seh kon el KAHM-byoh — keep the change, for the porter or the driver who got out of the car"
+            "es": "Θα πληρώσω με κάρτα.",
+            "pt": "I'll pay by card."
           }
         ]
       },
       {
-        "titulo": "Why it all stays so small",
-        "corpo": "The structural fact underneath the whole table is that hospitality staff in Spain are on a salary and a collective agreement. The tip is a bonus on top, not the income, and that single sentence does more work than any amount of etiquette: it means leaving nothing harms nobody and is not read as meanness. It also explains why over-tipping does not buy what an American hand expects it to buy. Nobody was waiting for it, so twenty per cent cannot read as generous — it simply reads as somebody who has not worked out where they are. If you want the arithmetic, here it is with the working shown: an average menú del día is €14.20 (Hostelería de España and Edenred, 2026). A twenty per cent reflex on that is €2.84; rounding to €15 is €0.80; the gap is about two euros a meal. Two paid meals a day for a fortnight is twenty-eight meals, so roughly €57 a head, about €115 for a couple. The British ten per cent reflex costs around €17 a head over the same trip. Treat all of that as a projection off one published average, not as a measurement — and then forget it, because the money was never the interesting part.",
-        "exemplos": [
-          {
-            "es": "Son catorce con veinte.",
-            "pt": "sohn kah-TOR-theh kon BAYN-teh — 👂 that's fourteen twenty. Two 'th' sounds and the price of lunch"
-          }
-        ]
+        "titulo": "IRIS is on the sign and is not for you",
+        "corpo": "You will see IRIS advertised at tills all over the country: it is the domestic instant-payment scheme, compulsory across retail since November 2025. It settles between Greek bank accounts, which means a visiting card-holder normally cannot use it at all. This is worth knowing only so that the sign does not confuse you: what protects you at the counter is the card obligation, not the app."
       },
       {
-        "titulo": "Todo junto, por separado, a partes iguales — and the round that comes back to you",
-        "corpo": "Three ways a bill gets settled, and the waiter will usually ask you which before he rings anything up. 'Todo junto' is all on one — you are getting this. 'Pagamos por separado' is each of us our own, and the important half of that one, from part fourteen, is that you say it before he closes anything rather than after. 'Pagamos a partes iguales' is one total divided evenly, which is the easiest of the three for him and the commonest at a table of friends. Splitting a bill item by item is friction here and generally does not happen. The other custom sitting alongside it is the round: one person settles the whole thing and the next one comes round to you. 'Invito yo' is what you will hear, said quickly and said as a fact; the honest answer is not to get your wallet out but 'la próxima invito yo', and then actually to do it the next morning. The wrestling match over the little plate is the part that turns money into a scene, and losing that wrestling match gracefully is the skill. Two places where it does not apply: somebody you have just met and will not see again, and a bill big enough to hurt — there, 'por separado', early and cheerfully.",
-        "exemplos": [
-          {
-            "es": "¿Va todo junto o por separado?",
-            "pt": "bah TOH-dhoh KHOON-toh — 👂 all on one, or separately? The question that arrives before the bill does"
-          },
-          {
-            "es": "La próxima invito yo.",
-            "pt": "lah PROHK-see-mah een-BEE-toh yoh — the next one's on me. It settles this one and books the next"
-          }
-        ]
+        "titulo": "Cash, its ceiling, and the machine that stopped charging",
+        "corpo": "Cash to a business tops out at five hundred euros — article 69 §2 of law 4446/2016, down from the fifteen hundred that applied before — so an invoice at or above that figure goes electronic. And the withdrawal side changed recently in a way that matters on a small island: article 48 of law 5167/2024, as amended in July 2025 and in force since 11 August 2025, removes the commission on your own issuing bank's network, takes the fee to zero in a municipal community served by a single machine, and caps an independent operator at one euro fifty a withdrawal nationally. Carrying notes to a small island is still sensible — not every island has a machine at all — but the fee itself is no longer the thing to fear."
       },
       {
-        "titulo": "Who you are talking to, and why 'está bien así' dodges the question",
-        "corpo": "'Está bien así, gracias' has a quiet virtue that is easy to miss: it contains nothing at all about the person opposite you. No tú, no usted, no decision to make while somebody is holding a card machine. That is exactly why it is the workhorse of this part and why it turns up at a bar counter, a hotel doorway and a station café without changing a syllable. 'Quédese con el cambio' does carry that decision — it is the usted shape — and we recorded it that way because the two places you are most likely to want it are an older man carrying your cases and a driver who has got out of the car to lift the boot. In a young bar, among people already on tú with you, 'quédate con el cambio' is the version flying about, and nothing breaks if you use the one you remember. If you want to sidestep the whole question, hand the money over and say the four words instead. That is what most of this part is quietly built to let you do.",
-        "exemplos": [
-          {
-            "es": "Quédate con el cambio.",
-            "pt": "KEH-dhah-teh kon el KAHM-byoh — 👂 the tú version, for a bar where you are already on first-name terms"
-          }
-        ]
-      },
-      {
-        "titulo": "The free tour, and the ten minutes afterwards",
-        "corpo": "The walking tour advertised as free is the single role you will meet in Spain with a real expectation attached to it, and it works differently from everything else in this part: what people put into the guide's hand at the end is not a bonus on top of a wage, it is the wage. The guide has usually paid a per-head fee to the company that sent you, so a group that drifts off costs her money rather than merely disappointing her. Practicalities, in order. Get change before the walk ends — 'quería cambio, por favor' at any counter, because nobody hands over a fifty and nobody has a card machine in a square. Go up to her rather than joining the vague semicircle: a note in the hand, eye contact, 'muchas gracias, de verdad'. And then stay for the ten minutes almost nobody waits for, which is when you ask where to eat tonight and get an answer from a person who walks that street every day. That answer is routinely worth more than the walk was. A ticketed tour you booked and paid for online is a different animal entirely: it was settled at the checkout and nothing further is expected of you.",
-        "exemplos": [
-          {
-            "es": "Quería cambio, por favor.",
-            "pt": "keh-REE-ah KAHM-byoh — I'd like some change, please. The opener from part twelve, doing a new job"
-          },
-          {
-            "es": "¿Cuánto suele dar la gente?",
-            "pt": "KWAN-toh SWEH-leh dhar lah KHEN-teh — 👂 how much do people usually give? Ask another walker, not the guide"
-          }
-        ]
+        "titulo": "The tip has a tax rule and no percentage",
+        "corpo": "Law 5162/2024 exempts up to three hundred euros a month per worker in tips from income tax, and the whole amount from social contributions, for sums paid from 1 November 2024. That is institutional confirmation that tipping happens and is recognised. It is not confirmation of a rate, and no ministry, federation or statistical office publishes one. So the mechanics are what you learn: ask for the bill, round the figure up, leave the coins. A calculated percentage is a habit imported from somewhere else."
       }
     ]
-  }
+  },
+  "slot": "I10",
+  "permissao": "You are allowed to ask how a place takes money before you order anything. Δέχεστε κάρτα; in the doorway is not suspicion and nobody reads it that way — it is thirty seconds of certainty bought before the bill exists, and the answer here is yes far more often than a visitor expects.",
+  "permissaoAudioKey": "el-i10-n03",
+  "espelho": "Anyone who has stood at a corner shop at home working out whether to break a big note or walk to a machine already knows this whole calculation. The only new part is that here most of it has been decided for you, in writing, by somebody else.",
+  "fichasCulturais": [
+    {
+      "sinal": "You put a card on the counter for a small purchase and hear μόνο μετρητά, with no sign anywhere explaining it.",
+      "suaLeitura": "This is how it works here, and a visitor arguing about it would be the rude one.",
+      "oQueEAli": "The duty in Greece is to accept card payment — article 65 of law 4446/2016 — and article 66 obliges the business to inform the customer visibly at the entrance and at the till. The scope is defined by activity code, and the code list was widened in December 2023 to take in open-air markets, food retail and kiosks. So a great many counters that say cash only are outside what the law allows.",
+      "oQueVoceFaz": "Ask in the doorway rather than at the end. If the answer is cash only, decide there whether it is worth it, and go elsewhere or take out notes — you are choosing, not conceding.",
+      "oQueMelhora": "You stop planning your day around cash you did not need, and you stop reading a lawful yes as a favour.",
+      "ondeNaoVale": "Not a licence to lecture anyone at a counter, and not a claim of universal coverage: the legal criterion is the ΚΑΔ list, not all commerce, so some very small trades genuinely sit outside it. And IRIS, the app on the sign next to the till, settles between Greek bank accounts — it is not the thing protecting you.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i10-n02",
+        "el-i10-n04"
+      ]
+    },
+    {
+      "sinal": "The only cash machine in a village or on a small island puts a fee on the screen before it will release any notes.",
+      "suaLeitura": "This is the price of being somewhere remote, and whatever number appears is what I have to accept.",
+      "oQueEAli": "Article 48 of law 5167/2024, amended in July 2025 and in force since 11 August 2025, removed the commission on the issuing bank's own network, took the fee to zero in a municipal community served by a single machine, and set a national ceiling of one euro fifty per withdrawal by an independent operator. The remote village is precisely the case the rule was written for.",
+      "oQueVoceFaz": "Read the figure on the screen before you confirm. Where there is one machine in the community, expect nothing; anywhere else, expect a small number and not a large one. Take out a sensible amount in one go rather than in three visits.",
+      "oQueMelhora": "You stop treating the fee screen as a toll on being a foreigner and start reading it as information you can check.",
+      "ondeNaoVale": "Not a promise about your own bank at home: currency conversion and your card issuer's own foreign-use charge are a separate contract and this law says nothing about them. Nor a promise that a machine exists — some small islands have none, and notes in your bag remain the sensible precaution.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i10-n07",
+        "el-i10-n08"
+      ]
+    }
+  ]
 }

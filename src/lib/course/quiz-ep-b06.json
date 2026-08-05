@@ -1,0 +1,96 @@
+{
+  "id": "q-b06",
+  "nivel": "basico",
+  "titulo": "Quiz — Έχετε, and then whatever you need",
+  "subtitulo": "One frame across four counters",
+  "introAudioKey": "el-b06-q-i",
+  "introPt": "A traveller crosses the arrivals hall with one opening and nine different needs.",
+  "cenario": "Athens arrivals, the first hour.",
+  "dialogo": [
+    {
+      "audioKey": "el-b06-q01",
+      "voz": "target_el_f",
+      "es": "Καλημέρα, έχετε χάρτη;",
+      "pt": "Good morning, do you have a map?",
+      "tts": "Καλημέρα, έχετε χάρτη;"
+    },
+    {
+      "audioKey": "el-b06-q02",
+      "voz": "target_el_m",
+      "es": "Καλημέρα! Ναι, ορίστε.",
+      "pt": "Good morning! Yes, here you are.",
+      "tts": "Καλημέρα! Ναι, ορίστε."
+    },
+    {
+      "audioKey": "el-b06-q03",
+      "voz": "target_el_f",
+      "es": "Έχετε ψιλά;",
+      "pt": "Do you have small change?",
+      "tts": "Έχετε ψιλά;"
+    },
+    {
+      "audioKey": "el-b06-q04",
+      "voz": "target_el_m",
+      "es": "Όχι εδώ, αλλά έχει στο περίπτερο απέναντι.",
+      "pt": "Not here, but there is some at the kiosk opposite.",
+      "tts": "Όχι εδώ, αλλά έχει στο περίπτερο απέναντι."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What goes after «έχετε»?",
+      "opcoes": [
+        "A verb",
+        "The thing you want them to have",
+        "A number",
+        "Your name"
+      ],
+      "correta": 1,
+      "explica": "The frame is έχετε plus a thing: χάρτη, φορτιστή, ψιλά, νερό, τουαλέτα. The opening itself never changes shape."
+    },
+    {
+      "pergunta": "Greek changes the ending of a noun according to its job. What does that mean for this frame?",
+      "opcoes": [
+        "You have to work out the ending at the counter",
+        "Nothing — after έχετε the ending is fixed, so you learn the pair whole",
+        "You should use the dictionary form every time",
+        "The frame only works with words that never change"
+      ],
+      "correta": 1,
+      "explica": "Έχετε χάρτη is learned as one block, the way you learn a phone number. That χάρτη is χάρτης in the dictionary can be ignored for the whole trip."
+    },
+    {
+      "pergunta": "«Όχι εδώ, αλλά έχει στο περίπτερο απέναντι.» What should you do?",
+      "opcoes": [
+        "Thank them and walk off",
+        "Ask again more slowly",
+        "Stay one beat — the no carries the address of the yes",
+        "Try a different language"
+      ],
+      "correta": 2,
+      "explica": "The first word is only the first half. The useful part is the kiosk opposite, the other terminal, the machine that does break a twenty."
+    },
+    {
+      "pergunta": "A kiosk says cash only. What does Greek law actually oblige?",
+      "opcoes": [
+        "Nothing — accepting card is always the trader's choice",
+        "Owning a terminal, but not using it",
+        "Accepting card payment for a long list of trades, with visible notice at the door and till",
+        "Accepting card only above twenty euros"
+      ],
+      "correta": 2,
+      "explica": "The duty is to accept, not merely to own a terminal, and it attaches to the trade's activity code — widened at the end of 2023 to cover markets, food retail and kiosks. It is broad, not universal."
+    },
+    {
+      "pergunta": "What belongs in front of the frame at every counter?",
+      "opcoes": [
+        "Παρακαλώ",
+        "Συγγνώμη",
+        "Καλημέρα",
+        "Ευχαριστώ"
+      ],
+      "correta": 2,
+      "explica": "The greeting comes first, every time. Arriving with the request and no καλημέρα is entering without knocking."
+    }
+  ]
+}

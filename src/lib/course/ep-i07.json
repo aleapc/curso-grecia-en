@@ -1,818 +1,357 @@
 {
   "id": "i07",
-  "slot": "I07",
   "nivel": "intermediario",
   "numero": 25,
   "parte": "I07",
-  "titulo": "Estaba buenísimo — and the cook comes out",
-  "subtitulo": "The four words that get you the recommendation the house really makes, a thank you that gets heard, one word for a raised glass, and the quiet sentence that sorts a cold plate out in ten seconds",
+  "titulo": "The praise that reaches the kitchen, and the flat sentence that gets the plate sorted",
+  "subtitulo": "Name the dish and the compliment travels; name the fact and the plate moves — both in about six words",
+  "cena": "The fish was genuinely excellent, the plate that came after it arrived cold, and you have ten seconds to do something useful with either fact.",
   "moldura": "ganha",
-
-  "cena": "Half eleven at night, the plates went ten minutes ago, the card machine is on its way to your table, and the woman who cooked what you have just eaten is four steps away behind a bead curtain.",
-
-  "decisao": "whether the four words get said before you pay — the table that names the dish gets the recommendation the house really makes, the welcome back on Thursday and, in a small place, sometimes the round nobody charged for; and the plate that arrived cold either gets sorted in ten seconds or gets paid for in silence",
-  "emJogo": "ambos",
-
-  "moldes": ["APRECIACION"],
-
-  "clique": {
-    "contagem": ["the restaurant table", "the counter", "the courtyard", "the taxi", "the hotel desk"],
-    "desconto": "Nobody gave you those sentences. You made them on the spot, out of two openers, and the shortest of them is two words long.",
-    "piso": "You will tell a Spanish kitchen that what it made was good, and be understood. Most visitors spend a fortnight eating well and never say so to anybody."
-  },
-  "cliqueAudioKey": "i07-n30",
-
-  "frasePiso": "You will tell a Spanish kitchen that what it made was good, and be understood. Most visitors spend a fortnight eating well and never say so to anybody.",
-
-  "permissao": "You are allowed to say two words and stop — no speech, no list, and no sorry in front of it. You are allowed to praise the food with your mouth full, which is when it is usually said. And you are allowed to send a cold plate back without apologising for it: saying so is information, not a scene, and it is over in ten seconds.",
-  "permissaoAudioKey": "i07-n28",
-
-  "espelho": "Thanking at every single turn is the bit that reads as odd there. Spent that often it stops being warmth and starts being distance — one, at the end, meant, is worth all six of them.",
-
-  "fichasCulturais": [
+  "frasePiso": "Put a noun in it. Praise with a dish in it reaches the kitchen; a sentence with a fact in it gets acted on.",
+  "decisao": "elogiar nomeando o prato e dizer o fato em voz calma na hora, em vez de dizer «poli oreo» a tudo e guardar o incômodo para a avaliação online",
+  "moldes": [],
+  "fatosDatados": [
     {
-      "sinal": "You say the food was good, the waiter says almost nothing, turns round and disappears through a curtain at the back.",
-      "suaLeitura": "I have said it wrong, or he is not interested, and now I have made the whole thing awkward.",
-      "oQueEAli": "In a house where one person is cooking, that sentence is information the kitchen wants, so somebody carries it through. Coming out to hear it again is the ordinary end of it, not a ceremony.",
-      "oQueVoceFaz": "Stay where you are for half a minute and say it again to the person who made it, with the name of the dish at the front.",
-      "oQueMelhora": "You get the recommendation the house actually makes instead of the safe one, and the table is remembered when you walk back in on Thursday.",
-      "ondeNaoVale": "Not where forty tables are served off one pass and the plates leave through a hatch — there it stops at the waiter, nobody comes out, and nothing has gone wrong.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i07-n25", "i07-n26", "i07-n27"]
-    },
-    {
-      "sinal": "You put a please and a thank you on every single turn, and the person serving you answers the first one and lets the rest go past.",
-      "suaLeitura": "They are being short with me, or I have done something to annoy them.",
-      "oQueEAli": "Thanks lands at the end of an exchange rather than inside every beat of it. Spent at every turn it reads as ceremony, and ceremony puts distance exactly where you were trying to close it.",
-      "oQueVoceFaz": "Spend one, at the end, looking at them, and put 'de verdad' on it when you mean it.",
-      "oQueMelhora": "The one you do spend is heard, and you stop sounding like somebody being handled at a counter.",
-      "ondeNaoVale": "Not when somebody has gone out of their way — walked you round the corner, rung a taxi, held a shop open past closing. There you thank properly, twice, and it is not too much.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i07-n16", "i07-n17"]
-    },
-    {
-      "sinal": "A plate lands cold, and at the next table the same thing is sorted in ten seconds with nobody's voice going up.",
-      "suaLeitura": "Saying anything is going to turn into a scene, so I will eat it and say nothing.",
-      "oQueEAli": "A flat statement of fact — this is cold, this is not what I asked for — is heard as information, and putting it right is routine work. What is read badly is the performance around it, not the request.",
-      "oQueVoceFaz": "Say the fact in the voice you order in, sitting down, and then ask for the thing that fixes it. No apology in front.",
-      "oQueMelhora": "You eat what you actually ordered, and the temperature of the room does not change at all.",
-      "ondeNaoVale": "Not an allergy. That one is not a preference to be sorted with a smile — it is the flat, serious sentence from part thirteen, and it never gets this easy voice.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i07-n19", "i07-n20", "i07-n22"]
+      "id": "el-i07-politeness",
+      "afirmacao": "Politeness in Greek and in English is described in the research literature as pulling in different directions: Greek is oriented towards positive politeness — involvement, closeness — and English towards negative politeness — distance and non-imposition. The practical consequence is symmetrical and documented, not folklore: the English speaker can read the Greek exchange as abrupt or intrusive, and the Greek speaker can read the English one as cold. Both readings are wrong in the same way.",
+      "fonte": "Maria Sifianou, Politeness Phenomena in England and Greece, e Bayraktaroğlu & Sifianou (eds.), Linguistic Politeness Across Boundaries, John Benjamins, P&BNS 88. Panorama recente: Languages, 2026, doi:10.3390/languages11050107.",
+      "ano": 2026,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-i07-n05"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n01",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i07-n01",
+      "gesto": 1,
       "bloco": "aquecimento",
-      "gesto": 3,
-      "tom": "ganha",
-      "pt": "Part twenty-five. Warm-up: the punch. One syllable takes it, and only one. Bue-NÍ-si-mo. Ri-QUÍ-si-mo."
+      "pt": "Two sentences tonight, opposite jobs, one rule: put a noun in it. Vague praise stops at your own table."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n02",
-      "pt": "Four beats, the second one hit hard, the last two small and still there. Hand on your leg, twice more."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i07-n02",
+      "bloco": "corpo",
+      "pt": "Praise first. Poli oreo is warm and it is also nothing. Name the dish and it becomes a message someone can carry."
     },
     {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-i07-t01",
+      "es": "Το ψάρι ήταν εξαιρετικό.",
+      "pinyin": "to PSA-ri EE-tan e-kse-re-ti-KO",
+      "pt": "The fish was outstanding.",
+      "tts": "Το ψάρι ήταν εξαιρετικό."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-comida"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "bloco": "callback",
-      "promptAudioKey": "i07-p01",
-      "promptPt": "Twenty-five minutes since the last plate went, everybody is chatting, and nobody is coming near you — because here nobody ever will. Speak now.",
-      "audioKey": "e03c-cuenta-c",
-      "es": "La cuenta, por favor.",
-      "pinyin": "lah KWEN-tah, por fah-BOR",
-      "pt": "it is never coming otherwise"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n03",
-      "bloco": "cena",
-      "pt": "Half eleven at night. The plates went ten minutes ago and the card machine is on its way over."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n04",
-      "pt": "Four steps behind you, through a bead curtain, is the woman who cooked what you have just eaten."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n05",
-      "pt": "You are going to pay and walk out, and the whole evening will have happened without her hearing a word."
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i07-p01",
+      "promptPt": "One plate on the table was better than everything else on it. Praise that one by name. Speak now.",
+      "audioKey": "el-i07-t01",
+      "es": "Το ψάρι ήταν εξαιρετικό.",
+      "pinyin": "to PSA-ri EE-tan e-kse-re-ti-KO",
+      "pt": "The fish was outstanding.",
+      "tts": "Το ψάρι ήταν εξαιρετικό."
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i07-quetaltodo-e",
-      "es": "¿Qué tal todo?",
-      "pinyin": "keh tahl TOH-dhoh",
-      "pt": "👂 'How is it all?' — asked halfway through, and it is not small talk.",
-      "tts": "¿Qué tal todo?"
+      "voz": "target_el_m",
+      "audioKey": "el-i07-r01",
+      "receptivo": true,
+      "es": "Να 'στε καλά! Θα το πω στην κουζίνα.",
+      "pt": "That's kind of you! I'll pass it on to the kitchen.",
+      "tts": "Να 'στε καλά! Θα το πω στην κουζίνα.",
+      "acao": "Stay seated a beat. The reply is short and the message still travels."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n06",
-      "pt": "That is a door being held open, and almost every visitor answers it with a nod. Two words fit through it."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i07-n03",
+      "pt": "Nostimo, iperoho, exeretiko. Three ordinary words here, and every one of them beats a nod and a smile."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i07-buenisimo-e",
-      "es": "Estaba buenísimo.",
-      "pinyin": "ehs-TAH-bah bweh-NEE-see-moh",
-      "pt": "It was delicious. — about a plate you have finished.",
-      "tts": "Estaba buenísimo."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n07",
-      "bloco": "molde",
-      "pt": "That is the frame. Estaba, and then what you thought of it. The front of it never moves."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i07-riquisimo-c",
-      "es": "Estaba riquísimo.",
-      "pinyin": "ehs-TAH-bah rree-KEE-see-moh",
-      "pt": "The other word for it. Both are ordinary, and both land.",
-      "tts": "Estaba riquísimo."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n08",
-      "pt": "The list is the list: six of them, learnt whole, so there is nothing to work out at a table."
-    },
-    {
+      "consulta": [
+        "simpatia/elogiar-comida"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "APRECIACION",
-      "encaixe": "buenísimo",
-      "encaixeGloss": "delicious",
-      "promptAudioKey": "i07-p02",
-      "promptPt": "The plates are gone from the restaurant table, the owner is stood there with the card machine, and that fish was the best thing you have eaten all week. Tell him, before you pay. Speak now.",
-      "audioKey": "i07-buenisimo-e",
-      "es": "Estaba buenísimo.",
-      "pinyin": "ehs-TAH-bah bweh-NEE-see-moh",
-      "pt": "what you thought of it"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i07-p02",
+      "promptPt": "The plates are being cleared and the two of you are still eating well. Say so as they pass. Speak now.",
+      "audioKey": "el-i07-t02",
+      "es": "Πολύ νόστιμο, ευχαριστούμε.",
+      "pinyin": "po-LEE NO-sti-mo, ef-ha-ri-STOO-me",
+      "pt": "Really tasty, thank you.",
+      "tts": "Πολύ νόστιμο, ευχαριστούμε."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n09",
-      "pt": "Watch what he does with that. He does not say much. He turns round and goes to the back."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i07-lehagustado-c",
-      "es": "¿Le ha gustado el arroz?",
-      "pinyin": "leh ah goos-TAH-dhoh el ah-RROTH",
-      "pt": "👂 'Did you like the rice?' — the kitchen has been told, and now it has come out to hear it.",
-      "tts": "¿Le ha gustado el arroz?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i07-arroz-e",
-      "es": "El arroz estaba buenísimo.",
-      "pinyin": "el ah-RROTH ehs-TAH-bah bweh-NEE-see-moh",
-      "pt": "The same two words with the name of the thing in front of them — four words in all.",
-      "tts": "El arroz estaba buenísimo."
-    },
-    {
-      "consulta": ["simpatia/elogiar-comida"],
+      "consulta": [
+        "simpatia/elogiar-comida"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "APRECIACION",
-      "encaixe": "el arroz",
-      "encaixeGloss": "the rice",
-      "promptAudioKey": "i07-p03",
-      "promptPt": "She has come out of the kitchen wiping her hands, and she is waiting to hear you name the thing she made. Put its name at the front. Speak now.",
-      "audioKey": "i07-arroz-e",
-      "es": "El arroz estaba buenísimo.",
-      "pinyin": "el ah-RROTH ehs-TAH-bah bweh-NEE-see-moh",
-      "pt": "with its name at the front"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i07-p03",
+      "promptPt": "You want the praise to go past the person serving and reach whoever cooked. Speak now.",
+      "audioKey": "el-i07-t03",
+      "es": "Συγχαρητήρια στην κουζίνα!",
+      "pinyin": "sing-ha-ri-TEE-ree-a stin koo-ZEE-na",
+      "pt": "Compliments to the kitchen!",
+      "tts": "Συγχαρητήρια στην κουζίνα!"
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n10",
-      "pt": "Four words now, not two. Naming it is the whole difference: the one who names it gets talked to."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i07-comosellama-c",
-      "es": "¿Me puede decir cómo se llama?",
-      "pinyin": "meh PWEH-dheh deh-THEER KOH-moh seh YAH-mah",
-      "pt": "Could you tell me what it is called? — the opener from part three, with a new ending on it.",
-      "tts": "¿Me puede decir cómo se llama?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n10b",
-      "pt": "You already own the front of that one, from part three. Only what hangs off the end is new tonight."
-    },
-    {
-      "consulta": ["reparo/como-se-diz","mesa/comida"],
+      "consulta": [
+        "simpatia/elogiar-lugar"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "ME-PUEDE",
-      "encaixe": "decir cómo se llama",
-      "encaixeGloss": "what it is called",
-      "promptAudioKey": "i07-p04",
-      "promptPt": "Something arrived with the second round that you never ordered and cannot name, and you want it again tomorrow in another town. He is clearing the next table. Speak now.",
-      "audioKey": "i07-comosellama-c",
-      "es": "¿Me puede decir cómo se llama?",
-      "pinyin": "meh PWEH-dheh deh-THEER KOH-moh seh YAH-mah",
-      "pt": "so you can ask for it again"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i07-p04",
+      "promptPt": "It is the room you like, not one dish — the light, the noise, the whole thing. Say it on your way past the counter. Speak now.",
+      "audioKey": "el-i07-t04",
+      "es": "Πολύ ωραίο μαγαζί.",
+      "pinyin": "po-LEE o-RE-o ma-ga-ZEE",
+      "pt": "Really lovely place.",
+      "tts": "Πολύ ωραίο μαγαζί."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n11",
-      "pt": "There is a shorter one for when your mouth is full, and that is exactly when it gets said."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i07-querico-c",
-      "es": "¡Qué rico!",
-      "pinyin": "keh RREE-koh",
-      "pt": "'How good is that!' — two words, and you can say it chewing.",
-      "tts": "¡Qué rico!"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i07-quebueno-e",
-      "es": "¡Qué bueno!",
-      "pinyin": "keh BWEH-noh",
-      "pt": "The same one with the other word in it. Either does the job.",
-      "tts": "¡Qué bueno!"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n12",
-      "pt": "Qué, and then what you think of it. Two words, and it fits between two bites."
-    },
-    {
-      "consulta": ["simpatia/elogiar-comida"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "APRECIACION",
-      "encaixe": "rico",
-      "encaixeGloss": "tasty",
-      "promptAudioKey": "i07-p05",
-      "promptPt": "Standing at the counter, a plate of small things between you, and you have just bitten into the one with egg in it. Mouth full, two words. Speak now.",
-      "audioKey": "i07-querico-c",
-      "es": "¡Qué rico!",
-      "pinyin": "keh RREE-koh",
-      "pt": "two words, mouth full"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i07-buenapinta-e",
-      "es": "¡Qué buena pinta!",
-      "pinyin": "keh BWEH-nah PEEN-tah",
-      "pt": "'That looks good!' — said to a plate as it lands, and to the person carrying it.",
-      "tts": "¡Qué buena pinta!"
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "APRECIACION",
-      "encaixe": "buena pinta",
-      "encaixeGloss": "looks good",
-      "promptAudioKey": "i07-p06",
-      "promptPt": "A tray goes past your table on its way to somebody else, and the smell of it arrives first. Say it to the man carrying it, before he is gone. Speak now.",
-      "audioKey": "i07-buenapinta-e",
-      "es": "¡Qué buena pinta!",
-      "pinyin": "keh BWEH-nah PEEN-tah",
-      "pt": "to the plate, and to the man carrying it"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n13",
-      "pt": "The same opener takes what is around you, not just what is in front of you. One word rides in the middle."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i07-sitio-e",
-      "es": "¡Qué sitio más bonito!",
-      "pinyin": "keh SEE-tyoh mahs boh-NEE-toh",
-      "pt": "'What a lovely spot!' — the patio, the bar, the room they have just walked you into.",
-      "tts": "¡Qué sitio más bonito!"
-    },
-    {
-      "consulta": ["simpatia/elogiar-lugar"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "APRECIACION",
-      "encaixe": "sitio",
-      "encaixeGloss": "the place",
-      "promptAudioKey": "i07-p07",
-      "promptPt": "They have walked you through the bar and out into a courtyard with a lemon tree in it, and the owner is watching your face. Speak now.",
-      "audioKey": "i07-sitio-e",
-      "es": "¡Qué sitio más bonito!",
-      "pinyin": "keh SEE-tyoh mahs boh-NEE-toh",
-      "pt": "about the room you are standing in"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n14",
-      "pt": "And the end of the word moves with the thing in front of it. You take that by ear, never by rule."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i07-ciudad-c",
-      "es": "¡Qué ciudad más bonita!",
-      "pinyin": "keh thyoo-DHAHDH mahs boh-NEE-tah",
-      "pt": "The same one about all of it. Bonita here, bonito there — nobody minds either way.",
-      "tts": "¡Qué ciudad más bonita!"
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "APRECIACION",
-      "encaixe": "ciudad",
-      "encaixeGloss": "the city",
-      "promptAudioKey": "i07-p08",
-      "promptPt": "Twenty minutes in a taxi in from the station, the river on your left, and the driver has asked what you make of it so far. Speak now.",
-      "audioKey": "i07-ciudad-c",
-      "es": "¡Qué ciudad más bonita!",
-      "pinyin": "keh thyoo-DHAHDH mahs boh-NEE-tah",
-      "pt": "about all of it, not just the street"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n15",
-      "pt": "One more, and it has nothing to do with food. It is for the person who has gone out of their way."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i07-amable-e",
-      "es": "¡Qué amable!",
-      "pinyin": "keh ah-MAH-bleh",
-      "pt": "'How kind!' — for the man who walked you round the corner, or the girl who rang the taxi.",
-      "tts": "¡Qué amable!"
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "APRECIACION",
-      "encaixe": "amable",
-      "encaixeGloss": "kind",
-      "promptAudioKey": "i07-p09",
-      "promptPt": "The girl at the hotel desk has just spent four minutes on the phone getting you a table for tonight, and she is holding the door open for you. Speak now.",
-      "audioKey": "i07-amable-e",
-      "es": "¡Qué amable!",
-      "pinyin": "keh ah-MAH-bleh",
-      "pt": "about her, not the food"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i07-muyamable-c",
-      "es": "Muy amable, gracias.",
-      "pinyin": "mwee ah-MAH-bleh, GRAH-thyahs",
-      "pt": "The version you say on your way out. Warmer than gracias on its own, and just as short.",
-      "tts": "Muy amable, gracias."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n16",
-      "pt": "At home you thank at every turn. Here that many of them reads as ceremony, and ceremony is distance."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n17",
-      "pt": "So spend one. At the end, looking at them, with two words on it that hardly any visitor says."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i07-graciasverdad-c",
-      "es": "Muchas gracias, de verdad.",
-      "pinyin": "MOO-chahs GRAH-thyahs, deh behr-DAHDH",
-      "pt": "'Thank you, really.' — the last two words are what make it land.",
-      "tts": "Muchas gracias, de verdad."
-    },
-    {
-      "consulta": ["simpatia/agradecer"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i07-p10",
-      "promptPt": "You are at the door on the way out, and the evening was far better than it had any business being. Say it once, and mean the end of it. Speak now.",
-      "audioKey": "i07-graciasverdad-c",
-      "es": "Muchas gracias, de verdad.",
-      "pinyin": "MOO-chahs GRAH-thyahs, deh behr-DAHDH",
-      "pt": "the one that gets heard"
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i07-g01",
-      "pt": "GUIRI ALERT. George here. The British compliment, in full: 'Sorry — that was actually really lovely, thanks so much.'"
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i07-g02",
-      "pt": "Four hedges and an apology, delivered to a man's back while he carries the plates away. He heard none of it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i07-g03",
-      "pt": "Two words, to a face, out loud. Qué rico. That one gets carried into the kitchen. Mine died at the table."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n18",
-      "pt": "Glasses go up before the first sip. One word does it, and it is the shortest thing you learn today."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i07-salud-e",
-      "es": "¡Salud!",
-      "pinyin": "sah-LOODH",
-      "pt": "'Cheers!' — up, out, and then you drink.",
-      "tts": "¡Salud!"
-    },
-    {
-      "consulta": ["simpatia/brindar"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i07-p11",
-      "promptPt": "Four of you round a small table, the first round has landed, and everybody has a hand on a glass waiting for somebody to start it off. Speak now.",
-      "audioKey": "i07-salud-e",
-      "es": "¡Salud!",
-      "pinyin": "sah-LOODH",
-      "pt": "up, and then you drink"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i07-aproveche-c",
-      "es": "Que aproveche.",
-      "pinyin": "keh ah-proh-BEH-cheh",
-      "pt": "'Enjoy your meal' — to anybody eating, including strangers you walk past.",
-      "tts": "Que aproveche."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i07-p12",
-      "promptPt": "You are squeezing past a table on your way out and the couple sat there have just been served. Two words as you pass. Speak now.",
-      "audioKey": "i07-aproveche-c",
-      "es": "Que aproveche.",
-      "pinyin": "keh ah-proh-BEH-cheh",
-      "pt": "two words, in passing"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n19",
-      "tom": "protege",
-      "pt": "Now the other half of the same skill, in the same voice. Something has landed at your table cold."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n20",
-      "pt": "There will be no scene. A scene here buys you a shrug. The table sorts this in about ten seconds."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i07-frio-c",
-      "es": "Perdone, esto está frío.",
-      "pinyin": "pehr-DOH-neh, EHS-toh ehs-TAH FREE-oh",
-      "pt": "'Sorry — this is cold.' A fact. Nobody has been accused of anything yet.",
-      "tts": "Perdone, esto está frío."
-    },
-    {
-      "consulta": ["mesa/errado"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i07-p13",
-      "promptPt": "The soup has been in front of you for a minute and it is barely warm, and he is still stood there with the tray. Say what it is, and nothing else. Speak now.",
-      "audioKey": "i07-frio-c",
-      "es": "Perdone, esto está frío.",
-      "pinyin": "pehr-DOH-neh, EHS-toh ehs-TAH FREE-oh",
-      "pt": "the fact, and nothing else"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i07-ocaliento-e",
-      "es": "Uy, perdona. ¿Te lo cambio o te lo caliento?",
-      "pinyin": "OO-ee, pehr-DOH-nah. teh loh KAM-byoh oh teh loh kah-LYEN-toh",
-      "pt": "👂 'Sorry! Shall I change it or heat it up?' — pick one. Nobody is upset with you.",
-      "tts": "Uy, perdona. ¿Te lo cambio o te lo caliento?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n21",
-      "pt": "Then the ask, and it is the opener from part three again, with something new hanging off the end."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i07-cambiar-e",
-      "es": "¿Me lo puede cambiar, por favor?",
-      "pinyin": "meh loh PWEH-dheh kam-BYAR, por fah-BOR",
-      "pt": "'Could you change it for me, please?' — the 'me lo' rides on the front as one word.",
-      "tts": "¿Me lo puede cambiar, por favor?"
-    },
-    {
-      "consulta": ["mesa/errado"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "ME-PUEDE",
-      "encaixe": "cambiar",
-      "encaixeGloss": "take it back",
-      "promptAudioKey": "i07-p14",
-      "promptPt": "He has had a look at the plate and he agrees with you. Ask him for the thing that fixes it, in the same voice you have ordered in all evening. Speak now.",
-      "audioKey": "i07-cambiar-e",
-      "es": "¿Me lo puede cambiar, por favor?",
-      "pinyin": "meh loh PWEH-dheh kam-BYAR, por fah-BOR",
-      "pt": "the ask that fixes it"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n22",
-      "pt": "No apology in front, no speech behind. He takes it away, and the evening carries on as it was."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n23",
-      "pt": "The same flat voice works on paper, when there is a line at the bottom that nobody mentioned."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "c02a-23",
-      "es": "Aquí hay un cargo que no estaba en la carta. ¿Qué es?",
-      "pinyin": "ah-KEE ai oon KAR-goh keh noh ehs-TAH-bah en lah KAR-tah. keh ehs",
-      "pt": "'There is a charge here that was not on the menu. What is it?' — from part fourteen, said sitting down.",
-      "tts": "Aquí hay un cargo que no estaba en la carta. ¿Qué es?"
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i07-p15",
-      "promptPt": "The total at the bottom has something in it you never ordered, and you are still sat down and still calm. Name it, ask for nothing yet, and wait. Speak now.",
-      "audioKey": "c02a-23",
-      "es": "Aquí hay un cargo que no estaba en la carta. ¿Qué es?",
-      "pinyin": "ah-KEE ai oon KAR-goh keh noh ehs-TAH-bah en lah KAR-tah. keh ehs",
-      "pt": "name it and wait"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n24",
-      "tom": "ganha",
-      "pt": "That is as far as it goes tonight. The rest of that ladder you already own, from part fourteen."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n25",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i07-n04",
       "bloco": "capsula",
-      "pt": "Back to the man who walked off. He was not being short with you and he was not ignoring you."
+      "pt": "Now the other one. Signomi, then the fact, then stop talking. No story, no apology stacked on top of it."
+    },
+    {
+      "consulta": [
+        "mesa/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "αυτό είναι κρύο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i07-p05",
+      "promptPt": "The plate in front of you came out cold. Say only that, in a level voice. Speak now.",
+      "audioKey": "el-i07-t05",
+      "es": "Συγγνώμη, αυτό είναι κρύο.",
+      "pinyin": "si-GHNO-mi, af-TO EE-ne KREE-o",
+      "pt": "Excuse me, this is cold.",
+      "tts": "Συγγνώμη, αυτό είναι κρύο."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i07-r02",
+      "es": "Αμέσως, συγγνώμη, σας το αλλάζω.",
+      "pt": "Right away, sorry, I'll change it for you.",
+      "tts": "Αμέσως, συγγνώμη, σας το αλλάζω."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n26",
-      "pt": "Where one person is cooking, that sentence is worth carrying, so somebody carries it through the curtain."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i07-n05",
+      "pt": "Research puts the two languages on opposite settings: Greek leans to closeness, English to distance. Neither one is rudeness."
+    },
+    {
+      "consulta": [
+        "mesa/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "δεν παρήγγειλα αυτό",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i07-p06",
+      "promptPt": "Something landed in front of you that nobody at this table asked for. Say that, and nothing else. Speak now.",
+      "audioKey": "el-i07-t06",
+      "es": "Συγγνώμη, δεν παρήγγειλα αυτό.",
+      "pinyin": "si-GHNO-mi, then pa-REEN-gi-la af-TO",
+      "pt": "Excuse me, I didn't order this.",
+      "tts": "Συγγνώμη, δεν παρήγγειλα αυτό."
+    },
+    {
+      "consulta": [
+        "mesa/errado",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i07-p07",
+      "promptPt": "The glass they put down has a chip on the rim. Ask for the swap, no explanation attached. Speak now.",
+      "audioKey": "el-i07-t07",
+      "es": "Μπορείτε να το αλλάξετε, παρακαλώ;",
+      "pinyin": "bo-REE-te na to a-LA-kse-te, pa-ra-ka-LO",
+      "pt": "Could you change it, please?",
+      "tts": "Μπορείτε να το αλλάξετε, παρακαλώ;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n27",
-      "pt": "Not where forty tables are served through a hatch. There it stops at the waiter, and nothing has gone wrong."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i07-n06",
+      "pt": "Signomi comes first every single time. It is the knock, and whatever follows it lands as information."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n28",
-      "bloco": "permissao",
-      "pt": "You can say two words and stop. No speech, no list, no sorry in front of it, and you can say it chewing."
+      "consulta": [
+        "mesa/comida",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "θα αργήσει πολύ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i07-p08",
+      "promptPt": "Forty minutes have gone by and the table beside you is on dessert. Ask about the wait without accusing anyone. Speak now.",
+      "audioKey": "el-i07-t08",
+      "es": "Συγγνώμη, θα αργήσει πολύ;",
+      "pinyin": "si-GHNO-mi, tha ar-YEE-si po-LEE",
+      "pt": "Excuse me, will it be much longer?",
+      "tts": "Συγγνώμη, θα αργήσει πολύ;"
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n29",
-      "bloco": "espelho",
-      "pt": "And thanking at every single turn is the bit that reads as odd there. One, at the end, meant, beats six."
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i07-r03",
+      "receptivo": true,
+      "es": "Δύο λεπτά, έρχεται τώρα.",
+      "pt": "Two minutes, it's coming now.",
+      "tts": "Δύο λεπτά, έρχεται τώρα.",
+      "acao": "Two minutes means the plate is at the pass. Stay at the table."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n30",
-      "bloco": "clique",
-      "tom": "ganha",
-      "pt": "Count the places. The restaurant table. The counter. The courtyard. The taxi. The hotel desk."
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i07-p09",
+      "promptPt": "They sorted the whole thing in under a minute. Close the loop so the table stays warm. Speak now.",
+      "audioKey": "el-i07-t09",
+      "es": "Ευχαριστώ πολύ, πολύ ευγενικό.",
+      "pinyin": "ef-ha-ri-STO po-LEE, po-LEE ev-ye-ni-KO",
+      "pt": "Thank you very much, that's very kind.",
+      "tts": "Ευχαριστώ πολύ, πολύ ευγενικό."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n31",
-      "pt": "Nobody gave you those sentences. You made them on the spot, out of two openers, and the shortest is two words."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n32",
-      "bloco": "piso",
-      "pt": "You will tell a Spanish kitchen that what it made was good, and be understood. Most visitors never say it at all."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-s00",
-      "pt": "Shadowing. Out loud, underneath them, flat vowels and one punch a word. The two you will use daily:"
+      "consulta": [
+        "simpatia/elogiar-lugar",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i07-p10",
+      "promptPt": "You are standing up to leave and you mean it about coming back. Say the strongest compliment there is. Speak now.",
+      "audioKey": "el-i07-t10",
+      "es": "Θα ξανάρθουμε σίγουρα.",
+      "pinyin": "tha ksa-NAR-thoo-me SEE-goo-ra",
+      "pt": "We'll definitely come back.",
+      "tts": "Θα ξανάρθουμε σίγουρα."
     },
     {
       "tipo": "shadow",
-      "voz": "Emilio",
-      "audioKey": "i07-buenisimo-e",
-      "molde": "APRECIACION",
-      "es": "Estaba buenísimo.",
-      "pinyin": "ehs-TAH-bah bweh-NEE-see-moh",
-      "pt": "It was delicious."
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "i07-querico-c",
-      "molde": "APRECIACION",
-      "es": "¡Qué rico!",
-      "pinyin": "keh RREE-koh",
-      "pt": "How good is that!"
+      "voz": "target_el_f",
+      "audioKey": "el-i07-s01",
+      "es": "Το ψάρι ήταν εξαιρετικό. Συγγνώμη, αυτό είναι κρύο. Ευχαριστώ πολύ, πολύ ευγενικό.",
+      "pinyin": "to PSA-ri EE-tan e-kse-re-ti-KO. si-GHNO-mi, af-TO EE-ne KREE-o. ef-ha-ri-STO po-LEE, po-LEE ev-ye-ni-KO",
+      "pt": "Shadow the praise, the fact, and the close that keeps the room warm.",
+      "tts": "Το ψάρι ήταν εξαιρετικό. Συγγνώμη, αυτό είναι κρύο. Ευχαριστώ πολύ, πολύ ευγενικό.",
+      "molde": "SIGNOMI"
     },
     {
       "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "i07-rend",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i07-n07",
       "bloco": "recap",
-      "pt": "One more out loud, somewhere we have not stood yet, and this time nobody has asked you anything."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "APRECIACION",
-      "encaixe": "rico",
-      "encaixeGloss": "tasty",
-      "promptAudioKey": "i07-p16",
-      "promptPt": "A market stall, and the woman has cut a sliver off the wheel and put it in your hand without being asked. It is still in your mouth. Speak now.",
-      "audioKey": "i07-querico-c",
-      "es": "¡Qué rico!",
-      "pinyin": "keh RREE-koh",
-      "pt": "with your mouth full"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i07-n33",
-      "pt": "That is it. You said it, they heard it, and the cold plate went back with nobody's voice going up. Hasta luego."
+      "pt": "I07 done. Name the dish to send praise through, name the fact to get the plate sorted, and close warm either way."
     }
   ],
-
   "aprofundar": {
-    "titulo": "Saying it, meaning it, and sending it back (optional reading)",
+    "titulo": "Both sentences need a noun in them",
     "secoes": [
       {
-        "titulo": "Estaba, not está — and why the -ísimo does the work",
-        "corpo": "About a plate you have finished, the natural thing to say is 'estaba buenísimo': the food was good while it lasted, and it has now stopped existing. 'Está buenísimo' is what you say with a fork still in it. Both are correct and nobody will blink at either, so this is not a rule to hold in your head at the table — it is simply why the recorded version says estaba. The ending -ísimo is a whole extra layer of enthusiasm bolted onto the adjective: bueno becomes buenísimo, rico becomes riquísimo (the c hardens to a qu so the sound stays the same). It is very common, it is not childish or over the top, and it is the single cheapest way to sound like you meant it rather than like you are being polite. One warning worth having: 'soy bueno' about yourself does not mean you are a good person, and 'estoy buena' about yourself is a comment on your looks. The food gets buenísimo; leave your own adjectives alone.",
+        "titulo": "Name the dish and it becomes carriable",
+        "corpo": "Nobody can walk «everything was lovely» into a kitchen. They can walk «to psari» in. Το ψάρι ήταν εξαιρετικό is six words and it is repeatable by whoever hears it, which is the whole mechanism. Συγχαρητήρια στην κουζίνα is the fixed phrase that addresses the cooking rather than the serving, and it works in a taverna the same way it works at a counter.",
         "exemplos": [
           {
-            "es": "Estaba todo buenísimo.",
-            "pt": "ehs-TAH-bah TOH-dhoh bweh-NEE-see-moh — everything was delicious (the whole-table version, at the end of a meal)"
+            "es": "Το ψάρι ήταν εξαιρετικό.",
+            "pt": "The fish was outstanding."
           },
           {
-            "es": "Está riquísimo.",
-            "pt": "ehs-TAH rree-KEE-see-moh — this is delicious (with the fork still in your hand)"
+            "es": "Συγχαρητήρια στην κουζίνα!",
+            "pt": "Compliments to the kitchen!"
           }
         ]
       },
       {
-        "titulo": "¡Qué + the thing + más + the word! — one shape, four uses",
-        "corpo": "The second half of the frame is even shorter: ¡Qué rico! ¡Qué bueno! ¡Qué amable! Two words and three beats, which is why it survives a mouthful of tortilla. When you want to say it about a thing rather than about the taste, the thing goes in the middle and 'más' props it up: ¡Qué sitio más bonito! ¡Qué ciudad más bonita! ¡Qué plaza más bonita! The ending of the last word follows the thing in the middle — bonito for sitio, bonita for ciudad — and this is the one place where you take it by ear and refuse to think about it. Getting it the wrong way round costs you precisely nothing: it is heard as an accent, not as an error, and the compliment arrives intact. You can also drop 'más' entirely (¡Qué sitio bonito!) and it still works. Two more that come free: '¡Qué buena pinta!' is said to a plate as it lands — la pinta is the look of a thing — and '¡Qué rico está esto!' is the long version of the short one, for when you have time.",
+        "titulo": "Signomi plus the fact",
+        "corpo": "Αυτό είναι κρύο. Δεν παρήγγειλα αυτό. Θα αργήσει πολύ; Three sentences, no adjectives about how the evening has gone, no account of your day. The shorter it is, the faster the plate moves — and the opener does the softening so the content does not have to.",
         "exemplos": [
           {
-            "es": "¡Qué plaza más bonita!",
-            "pt": "keh PLAH-thah mahs boh-NEE-tah — what a lovely square"
+            "es": "Συγγνώμη, αυτό είναι κρύο.",
+            "pt": "Excuse me, this is cold."
           },
           {
-            "es": "¡Qué amable, muchas gracias!",
-            "pt": "keh ah-MAH-bleh — how kind, thank you very much (for a person, never for food)"
+            "es": "Μπορείτε να το αλλάξετε, παρακαλώ;",
+            "pt": "Could you change it, please?"
           }
         ]
       },
       {
-        "titulo": "The thank you that gets heard",
-        "corpo": "British courtesy spends a please and a thank you on every turn of an exchange, and in Spain that count reads as ceremony — not rude, but formal, and formality at a counter is distance. The local shape is one, at the end, meant: 'muchas gracias' with your eyes up, and 'de verdad' on the end when the person actually did something for you. 'Muy amable' — you're very kind — is the other one, and it is the natural reply when somebody has gone out of their way. The exception runs the other way and it matters: when somebody has genuinely put themselves out, walked you three streets, rung a taxi, opened up after closing, then thank them properly and twice, and nothing about that is too much. What you are trading is quantity for weight. Bank one more, for the room rather than the person: 'que aproveche' is what you say to people who are eating as you pass them, and it is said between strangers all day long. Waiters say it when the food lands; you say it on your way out.",
-        "exemplos": [
-          {
-            "es": "Muchas gracias, de verdad.",
-            "pt": "deh behr-DAHDH — thank you, really. The two words on the end are the whole point"
-          },
-          {
-            "es": "Que aproveche.",
-            "pt": "keh ah-proh-BEH-cheh — enjoy your meal, said in passing to anybody eating"
-          }
-        ]
+        "titulo": "Two politeness systems, pointed in different directions",
+        "corpo": "Descriptive work on Greek and English politeness places them on opposite settings: Greek oriented to involvement and closeness, English to distance and non-imposition. That is why the same flat factual sentence you would hedge three times at home lands here as ordinary information, and why a warmly delivered Greek exchange can read to you as more forward than it is meant to be. The mismatch runs both ways and neither side is being rude."
       },
       {
-        "titulo": "The glass, and what not to make of it",
-        "corpo": "'¡Salud!' is the toast, it is one word, and it covers every table you will sit at. Glasses go up, you say it, you drink. There is no speech, no clinking ritual you have to get right, and no round-the-table order to learn. If somebody says something longer and you did not catch it, '¡Salud!' back is a complete and correct answer. Two neighbours of it that you will hear and never need to produce: 'que vaya bien' is said to somebody leaving, and 'que aproveche' is the one for eating. What we are deliberately not doing here is turning a toast into a performance: the whole social weight of it is in raising the glass and looking up, and the word is just the noise that goes with it. The evening at somebody's home — what to take, where to sit, when to leave, and how to accept the invitation in the first place — is a part of its own further on.",
-        "exemplos": [
-          {
-            "es": "¡Salud!",
-            "pt": "sah-LOODH — cheers. One word, every table, every time"
-          },
-          {
-            "es": "Que vaya bien.",
-            "pt": "keh BAH-yah byen — 👂 all the best, said to somebody heading off"
-          }
-        ]
+        "titulo": "Why the over-apology backfires",
+        "corpo": "Stacking sorries on top of a fact buries the one piece of information the other person needs and signals that you are braced for an argument. Signomi once, the fact, then silence. If the fix comes, ευχαριστώ πολύ closes it; if it does not, you have still said the thing out loud rather than typed it into a phone in the taxi."
       },
       {
-        "titulo": "Sending something back without it becoming an event",
-        "corpo": "The sentence that works is a flat statement of fact with nobody in it: 'Perdone, esto está frío.' There is no accusation, no story about how long you waited and no apology in front of it, which is exactly why it gets a quick fix rather than a defensive one. Other endings for the same shape: 'esto no es lo que he pedido' (this is not what I ordered), 'esto está crudo' (this is underdone), 'esta copa está sucia' (this glass is dirty). Then the ask, which is an opener you already own: '¿Me lo puede cambiar?' — the me lo travels on the front of it as if it were part of the word, and you never take it apart. Volume and posture do more than vocabulary here: stay sitting, keep the voice you order in, and let the fact stand on its own. A tourist performing outrage is theatre and is treated as theatre; a customer stating a fact is work, and work gets done. If it is a line on the bill rather than a plate, the ladder from part fourteen takes over — the itemised bill first, then naming the charge, then the complaint form — and it is the same voice all the way up. And the one thing that never gets this easy register is an allergy: that is the flat, serious sentence from part thirteen, said looking at them, with the card in your hand.",
-        "exemplos": [
-          {
-            "es": "Perdone, esto no es lo que he pedido.",
-            "pt": "noh es loh keh eh peh-DEE-dhoh — sorry, this is not what I ordered"
-          },
-          {
-            "es": "¿Me lo puede cambiar, por favor?",
-            "pt": "meh loh PWEH-dheh kam-BYAR — could you change it for me, please?"
-          }
-        ]
-      },
-      {
-        "titulo": "Tú, usted, and who you are talking to when you say it",
-        "corpo": "The compliments in this part are the same words whoever you are talking to, which is half the reason they are the ones we chose: 'estaba buenísimo' and '¡qué rico!' carry no decision about the person opposite. Only two sentences here lean either way. '¿Le ha gustado el arroz?' is what you will hear from an older waiter or in a more formal dining room — le is the usted version — and you do not have to answer in kind; naming the dish is the answer. And '¿Me lo puede cambiar?' is the same shape you learned in part three for '¿me lo puede escribir?' — we recorded it that way so the opener you already know does not change on you halfway through the course, not because a restaurant demands it. In a young bar the tú version, '¿me lo puedes cambiar?', is flying about all evening, and if somebody uses tú with you, use it back. Nothing in this part breaks if you get it the other way round.",
-        "exemplos": [
-          {
-            "es": "¿Te ha gustado?",
-            "pt": "teh ah goos-TAH-dhoh — 👂 the tú version of the same question, in a younger place"
-          },
-          {
-            "es": "¿Me lo puedes cambiar?",
-            "pt": "meh loh PWEH-dhehs kam-BYAR — the tú version of the ask, for a bar where you are already on tú"
-          }
-        ]
+        "titulo": "The strongest compliment is the return",
+        "corpo": "Θα ξανάρθουμε σίγουρα outranks any adjective available to you. A room that feeds the same neighbourhood every week counts its work in the people who walk back in, and saying it on the way out costs four words."
       }
     ]
-  }
+  },
+  "slot": "I07",
+  "permissao": "You are allowed to say that a plate is cold. Συγγνώμη, αυτό είναι κρύο is an ordinary sentence in a Greek dining room, it is heard as information and not as an attack, and the version where you eat it cold and grumble about it afterwards helps nobody, least of all you.",
+  "permissaoAudioKey": "el-i07-n04",
+  "espelho": "Anyone who has eaten a wrong order at home rather than flag it, and then complained about it in the car on the way back, already knows this reflex. It has nothing to do with Greek. It is the belief that saying something out loud makes you difficult, which is exactly backwards.",
+  "fichasCulturais": [
+    {
+      "sinal": "You praise a dish warmly and get a quick «να 'στε καλά» and nothing more — no held smile, no follow-up question.",
+      "suaLeitura": "The compliment landed badly, or they were too busy to care about it.",
+      "oQueEAli": "At the table the reply to praise is usually short and the part that matters happens where you cannot see it. The length of the answer measures how busy the room is, not how the message was received.",
+      "oQueVoceFaz": "Say it once, with the dish named, and let the short answer be the whole answer. Do not repeat it louder or produce a second, longer version.",
+      "oQueMelhora": "The compliment gets passed on, and the exchange stays the size it was meant to be — which is also what makes it easy to do again the next night.",
+      "ondeNaoVale": "Not when what you actually want is a change to the plate. Praise carries no request inside it, and the request needs its own sentence, opening with συγγνώμη.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-i07-n02"
+      ]
+    },
+    {
+      "sinal": "You deliver a fact about your plate the way you would at home — hedged, apologetic, wrapped in explanation — and the reply comes back puzzled or clipped.",
+      "suaLeitura": "Complaints are not welcome here, and I should have kept quiet.",
+      "oQueEAli": "Politeness research describes Greek as oriented towards involvement and closeness and English towards distance and non-imposition. A padded, distance-keeping sentence is doing work that this setting does not ask for, and the padding hides the fact that the other person needs in order to act.",
+      "oQueVoceFaz": "Συγγνώμη, then the fact, then stop. Level voice, no adjectives, no account of the evening. Six words is a complete, well-formed request here.",
+      "oQueMelhora": "The same fact gets a different reception, and you stop reading a difference in style as a verdict on you.",
+      "ondeNaoVale": "Not a licence to drop the opener or to raise your voice — the shortness works because συγγνώμη is in front of it. And a genuinely swamped kitchen will be brisk with everyone in the room, which is what «δύο λεπτά» is telling you.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i07-n05"
+      ]
+    }
+  ]
 }

@@ -1,692 +1,375 @@
 {
   "id": "i02",
-  "slot": "I02",
   "nivel": "intermediario",
   "numero": 20,
   "parte": "I02",
-  "titulo": "Nine seconds at the bar",
-  "subtitulo": "Where to put your body, how short the sentence gets, the two words that fetch a waiter across a full room, and the line that keeps a table yours for as long as you want it",
+  "titulo": "The counter, and the sentence that is shorter than yours",
+  "subtitulo": "Politeness research puts Greek on the side of closeness and English on the side of distance — which is why your padded version lands as coldness",
+  "cena": "A counter three deep, a coffee machine going, and you rehearsing a sentence with four cushions in it while the person in front of you says five words and leaves.",
   "moldura": "ganha",
-
-  "cena": "Half nine at night, four deep at a bar with no queue in it, your money already in your hand, and the pair who walked in after you are on their second drink.",
-
-  "decisao": "whether you are in the order at all — a body at the wood, an eye held and one short sentence out loud gets the round in about nine seconds; hanging back for a turn nobody is keeping leaves you stood there with the money in your hand while two rounds go past you",
+  "frasePiso": "Greeting, then the thing, then parakaló. Short is not rude here.",
+  "decisao": "how you order at the counter — whether you shorten the request instead of padding it, and put the whole of the courtesy into the greeting and into parakaló",
   "emJogo": "tempo",
-
-  "clique": {
-    "contagem": ["the counter", "the terrace", "the market bar", "the restaurant table"],
-    "desconto": "Nobody handed you those sentences. You walked in owning the frame from part eleven, and it paid four times before you had even sat down.",
-    "piso": "You will get into the order at a four-deep bar without a single sorry in front of it. Most visitors are served last all fortnight and go home thinking it was them."
-  },
-  "cliqueAudioKey": "i02-n34",
-
-  "frasePiso": "You will get into the order at a four-deep bar without a single sorry in front of it. Most visitors are served last all fortnight and go home thinking it was them.",
-
-  "permissao": "'Ponme una caña' is not rude — it is what the whole room sounds like, and the padding you would put in front of it at home is the only part anybody notices. You are allowed to say it louder than feels polite, to call across a busy room with '¡Perdone!', and to take his eye the second it reaches you. None of that costs you anything with anyone.",
-  "permissaoAudioKey": "i02-n31",
-
-  "espelho": "Asking for a beer in five clauses is the bit that reads as odd there. It does not arrive as manners — it arrives as fog, and fog is what makes his eye move on to somebody else.",
-
-  "fichasCulturais": [
+  "moldes": [],
+  "fatosDatados": [
     {
-      "sinal": "There is no line at the counter. People are stood along it in no order at all, and he is plainly serving them in an order that exists.",
-      "suaLeitura": "There is a queue here that I cannot see, so I had better hang back until it is obviously my go.",
-      "oQueEAli": "He carries the order in his head, by face, and refreshes it every time somebody's eyes come up. Standing back takes you out of it, because a face that is not at the wood is not one he can count.",
-      "oQueVoceFaz": "Two steps in, a hand or a forearm on the counter, and your eyes up along the row every time his run down it.",
-      "oQueMelhora": "You are served on the first pass instead of the fourth, and the round arrives while the people who came in with you are still deciding.",
-      "ondeNaoVale": "Not in a pharmacy, a bakery or at a fish counter — there the order is kept out loud, you ask who is last on the way in, and walking to the front puts you at the back of a queue you had not noticed joining.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i02-n28", "i02-n29", "i02-n30"]
+      "id": "el-i02-sifianou",
+      "afirmacao": "Politeness research describes Greek as oriented towards positive politeness — involvement and closeness — and English towards negative politeness — distance and non-imposition. The documented consequence is symmetrical: the English speaker reads Greek directness as abrupt, and the Greek speaker reads English hedging as cold. Both readings are wrong in the same way.",
+      "fonte": "Maria Sifianou, «Politeness Phenomena in England and Greece»; Bayraktaroğlu & Sifianou (eds.), «Linguistic Politeness Across Boundaries», John Benjamins, P&BNS 88; panorama recente em «Languages», 2026, doi:10.3390/languages11050107",
+      "ano": 2026,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-i02-n02",
+        "el-i02-n04"
+      ]
     },
     {
-      "sinal": "Somebody two tables over says '¡Oiga!' across the room at ordinary volume, and not one person in the place turns round.",
-      "suaLeitura": "That was rude, everybody heard it, and I could never do that.",
-      "oQueEAli": "Calling out is simply how you reach a man working three rooms. It is a hand up and one word, aimed at him and at nobody else, and the room is already louder than it is.",
-      "oQueVoceFaz": "Catch his eye, lift a hand to about shoulder height, and say it once at the volume the room is already at.",
-      "oQueMelhora": "You are answered on the first try, instead of waving at a back for ten minutes and deciding you are being ignored.",
-      "ondeNaoVale": "Not in a quiet dining room with cloth on the tables, where the same call is made with a raised hand and no word at all. And nowhere at all with clicked fingers, a whistle or a note held up — that version lands the same way in every price bracket.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i02-n17", "i02-n18", "i02-n19", "i02-n20"]
-    },
-    {
-      "sinal": "The plates went twenty-five minutes ago, the place is busy, and nobody has come near your table with anything at all.",
-      "suaLeitura": "We have been forgotten, or they are cross with us for sitting here this long.",
-      "oQueEAli": "Putting a bill down before it is asked for is how a house tells a table to leave, so nobody does it. Until you say the word, the table is yours, and it stays yours after you have paid.",
-      "oQueVoceFaz": "Catch an eye from where you sit, hand up a little, and ask for it out loud in the voice you ordered in.",
-      "oQueMelhora": "You get an hour of table that nobody was ever going to hurry you out of, and you leave at the minute you chose.",
-      "ondeNaoVale": "Not at a breakfast counter, where he adds it up out loud while you are still drinking and you pay standing — there is nothing to ask for there, and nothing is being kept from you.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i02-n22", "i02-n23", "i02-n24"]
+      "id": "el-i02-timokatalogos",
+      "afirmacao": "A price list in Greek is compulsory and has to be visible at the entrance and before you order, with prices including VAT. Absence of the list carries a €1,000 fine, and charging above the listed price €500 per item. Article 72 requires a visible list in self-service areas as well.",
+      "fonte": "Κανόνες ΔΙ.Ε.Π.Π.Υ., ΥΑ 91354/2017, ΦΕΚ Β΄2983/30.8.2017, arts. 70-72 — lista obrigatória em grego, visível na entrada e antes do pedido, preços com IVA",
+      "ano": 2017,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-i02-n05"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n01",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i02-n01",
+      "gesto": 1,
       "bloco": "aquecimento",
-      "gesto": 3,
-      "tom": "ganha",
-      "pt": "Part twenty. Warm-up: the punch. One syllable takes it, and only one. PON-me. per-DO-ne. OI-ga."
+      "pt": "A counter moves fast, and the sentence that works at one is shorter than the one you would say at home."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i02-r01",
+      "receptivo": true,
+      "es": "Παρακαλώ;",
+      "pt": "Yes? Go ahead.",
+      "tts": "Παρακαλώ;",
+      "acao": "This one is not please. Said to you, with a rise on the end, it means: go ahead, I'm listening."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n02",
-      "pt": "Three words you will say standing up tonight. Hand on your leg, one hit each. Twice more."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i02-n02",
+      "bloco": "corpo",
+      "pt": "Politeness research puts Greek on the side of closeness and English on the side of distance."
     },
     {
+      "consulta": [
+        "chegar/balcao",
+        "mesa/bebida"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "bloco": "callback",
-      "promptAudioKey": "i02-p01",
-      "promptPt": "Ten past eight, the place is lit up and half empty, and the man in the doorway has a tea towel over his shoulder. Ask him when the food starts. Speak now.",
-      "audioKey": "c01a-15",
-      "es": "¿A qué hora abre la cocina?",
-      "pinyin": "ah keh OH-rah AH-breh lah koh-THEE-nah",
-      "pt": "when the food starts"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i02-p01",
+      "promptPt": "Your turn at the counter, morning, one thing wanted and three people behind you. Speak now.",
+      "audioKey": "el-i02-t01",
+      "es": "Καλημέρα. Έναν καφέ, παρακαλώ.",
+      "pinyin": "ka-li-ME-ra · E-nan ka-FE, pa-ra-ka-LO",
+      "pt": "Good morning. A coffee, please.",
+      "tts": "Καλημέρα. Έναν καφέ, παρακαλώ."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n03",
-      "bloco": "cena",
-      "pt": "Half nine at night. Four deep at the counter, and there is no queue in it anywhere."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i02-n03",
+      "pt": "Parakaló does four jobs: please, you're welcome, go ahead, and yes at a counter."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n04",
-      "pt": "You have been stood at the back eleven minutes, politely, with your money already in your hand."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n05",
-      "pt": "The pair who came in after you are on their second drink. Nothing has gone amiss. You are simply not in it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n06",
-      "pt": "He carries the order in his head, by face — and he can only count the faces that are at the wood."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i02-quetepongo-e",
-      "es": "¿Qué te pongo?",
-      "pinyin": "keh teh POHN-goh",
-      "pt": "👂 'What am I putting you?' — that is the counter being handed over, and it does not wait.",
-      "tts": "¿Qué te pongo?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n07",
-      "pt": "Two steps in. A hand on the wood, and your eyes up where his run along the row."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n08",
-      "pt": "That is the whole thing, and you do it with your body before you say a single word."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "e01b-15",
-      "es": "Buenas.",
-      "pinyin": "BWEH-nahs",
-      "pt": "The one word on the way in. It covers morning, afternoon and midnight.",
-      "tts": "Buenas."
-    },
-    {
+      "consulta": [
+        "chegar/ultimo",
+        "reparo/apontar"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i02-p02",
-      "promptPt": "You push the door of a small bar and eleven heads are already inside it. Do the thing you do before anything else. Speak now.",
-      "audioKey": "e01b-15",
-      "es": "Buenas.",
-      "pinyin": "BWEH-nahs",
-      "pt": "one word, on the way in"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n09",
-      "pt": "Then the sentence, and it is the one you have owned since the counter in part eleven."
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "περιμένετε",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i02-p02",
+      "promptPt": "Nobody is in a line and you cannot tell who got here first. Find out before you step forward. Speak now.",
+      "audioKey": "el-i02-t02",
+      "es": "Συγγνώμη, περιμένετε;",
+      "pinyin": "sing-NO-mi, pe-ri-ME-ne-te",
+      "pt": "Excuse me, are you waiting?",
+      "tts": "Συγγνώμη, περιμένετε;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i02-pincho-e",
-      "es": "¿Me pones una caña y un pincho de tortilla?",
-      "pinyin": "meh POH-nehs OO-nah KAH-nyah ee oon PEEN-choh deh tor-TEE-yah",
-      "pt": "A small beer and a wedge of potato omelette — one sentence, two things.",
-      "tts": "¿Me pones una caña y un pincho de tortilla?"
+      "voz": "target_el_m",
+      "audioKey": "el-i02-r02",
+      "receptivo": true,
+      "es": "Τι θα πάρετε;",
+      "pt": "What will you have?",
+      "tts": "Τι θα πάρετε;",
+      "acao": "That is the whole question. Answer it with the thing and parakaló, nothing in front of it."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i02-p03",
+      "promptPt": "He asked what you will have, and you take yours without sugar. Answer in one breath. Speak now.",
+      "audioKey": "el-i02-t03",
+      "es": "Έναν καφέ σκέτο, παρακαλώ.",
+      "pinyin": "E-nan ka-FE SKE-to, pa-ra-ka-LO",
+      "pt": "A coffee with no sugar, please.",
+      "tts": "Έναν καφέ σκέτο, παρακαλώ."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n10",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i02-n04",
       "bloco": "molde",
-      "pt": "Two things hanging off one sentence, and the join between them is a single letter. Y. And."
+      "pt": "The padded version is not heard as extra respect. It is heard as distance, which is not what you meant."
     },
     {
-      "consulta": ["chegar/balcao","mesa/comida"],
+      "consulta": [
+        "chegar/balcao"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "ME-PONE",
-      "encaixe": "un pincho de tortilla",
-      "encaixeGloss": "a wedge of potato omelette",
-      "promptAudioKey": "i02-p03",
-      "promptPt": "You are at the counter with a hand on the wood, his eye has landed on you, and you want the short cold glass plus the yellow thing under the dome beside it. Speak now.",
-      "audioKey": "i02-pincho-e",
-      "es": "¿Me pones una caña y un pincho de tortilla?",
-      "pinyin": "meh POH-nehs OO-nah KAH-nyah ee oon PEEN-choh deh tor-TEE-yah",
-      "pt": "the glass, and the thing under the dome"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i02-p04",
+      "promptPt": "Two of you, both thirsty, and the counter is waiting. Two words and the polite one. Speak now.",
+      "audioKey": "el-i02-t04",
+      "es": "Δύο νερά, παρακαλώ.",
+      "pinyin": "DHI-o ne-RA, pa-ra-ka-LO",
+      "pt": "Two waters, please.",
+      "tts": "Δύο νερά, παρακαλώ."
     },
     {
       "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i02-concebolla-c",
-      "es": "¿La tortilla con cebolla o sin cebolla?",
-      "pinyin": "lah tor-TEE-yah kon theh-BOH-yah oh seen theh-BOH-yah",
-      "pt": "👂 'Tortilla with onion or without?' — there is no neutral answer and everyone in the country has a side. Pick one.",
-      "tts": "¿La tortilla con cebolla o sin cebolla?"
+      "voz": "target_el_m",
+      "audioKey": "el-i02-r03",
+      "receptivo": true,
+      "es": "Αμέσως. Για εδώ ή για έξω;",
+      "pt": "Right away. For here or to take away?",
+      "tts": "Αμέσως. Για εδώ ή για έξω;",
+      "acao": "Two options, one word each. Give back the one you want and nothing else."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n11",
-      "pt": "He will come back at you with two words while he is still pouring. They want two words back."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "e05b-sc2-e",
-      "es": "¿Algo más?",
-      "pinyin": "AL-goh mahs",
-      "pt": "👂 'Anything else?' — asked over his shoulder, and it wants an answer, not a smile.",
-      "tts": "¿Algo más?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i02-nadamas-c",
-      "es": "Nada más, gracias.",
-      "pinyin": "NAH-dhah mahs, GRAH-thyahs",
-      "pt": "Three words, and the exchange is closed. He turns to the till.",
-      "tts": "Nada más, gracias."
-    },
-    {
+      "consulta": [
+        "chegar/balcao"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i02-p04",
-      "promptPt": "The beer is down in front of you, the plate is coming, and he has asked you something over his shoulder without stopping. Close it. Speak now.",
-      "audioKey": "i02-nadamas-c",
-      "es": "Nada más, gracias.",
-      "pinyin": "NAH-dhah mahs, GRAH-thyahs",
-      "pt": "close it, three words"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i02-p05",
+      "promptPt": "You are staying, sitting at the little table by the window. Answer the question you were just asked. Speak now.",
+      "audioKey": "el-i02-t05",
+      "es": "Για εδώ, ευχαριστώ.",
+      "pinyin": "ya e-DHO, ef-ha-ri-STO",
+      "pt": "For here, thanks.",
+      "tts": "Για εδώ, ευχαριστώ."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n12",
-      "pt": "Out in the sun the same sentence walks with you, except there the waiter comes to you."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n13",
-      "pt": "The long cold one out here has lemonade in it, and in August grown adults drink it all day."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i02-dosclaras-c",
-      "es": "¿Me pones dos claras, por favor?",
-      "pinyin": "meh POH-nehs dohs KLAH-rahs, por fah-BOR",
-      "pt": "Two shandies, please. Beer with lemonade in it, and there are two of you.",
-      "tts": "¿Me pones dos claras, por favor?"
-    },
-    {
-      "consulta": ["mesa/bebida"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "ME-PONE",
-      "encaixe": "dos claras",
-      "encaixeGloss": "two shandies",
-      "promptAudioKey": "i02-p05",
-      "promptPt": "Out on the terrace in the sun, the person opposite wants exactly what you want, and it is far too hot for anything stronger. Speak now.",
-      "audioKey": "i02-dosclaras-c",
-      "es": "¿Me pones dos claras, por favor?",
-      "pinyin": "meh POH-nehs dohs KLAH-rahs, por fah-BOR",
-      "pt": "the long cold one, and make it a pair"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n14",
-      "pt": "There is a shorter one in the room, and you will hear it tonight more than you hear yours."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "c01b-06",
-      "es": "Ponme una caña, por favor.",
-      "pinyin": "POHN-meh OO-nah KAH-nyah, por fah-BOR",
-      "pt": "The two-syllable opener. Put me a small beer, please.",
-      "tts": "Ponme una caña, por favor."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n15",
-      "pt": "Ponme. Put me. It reads blunt to an English ear, and it is nothing of the kind."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n16",
-      "pt": "The manners live in your tone and in the please on the end, never in the run-up out front."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n16b",
-      "pt": "Either opener works, everywhere, all fortnight. Take whichever one arrives in your mouth first."
-    },
-    {
-      "consulta": ["chegar/balcao","chegar/tu-usted","mesa/bebida"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "ME-PONE",
-      "encaixe": "una caña",
-      "encaixeGloss": "a small beer",
-      "promptAudioKey": "i02-p06",
-      "promptPt": "The market bar behind the fish stalls, half eleven in the morning, and every man along it has the same short cold glass in front of him. Order it the way they do. Speak now.",
-      "audioKey": "c01b-08",
-      "es": "Ponme una caña, por favor.",
-      "pinyin": "POHN-meh OO-nah KAH-nyah, por fah-BOR",
-      "pt": "the short way in"
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i02-g01",
-      "pt": "GUIRI ALERT. George. Eleven minutes I stood at that bar, doing the thing we are brought up to do."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i02-g02",
-      "pt": "Waiting my turn. At the back. Being no bother to anyone. He was never keeping a turn for me."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i02-g03",
-      "pt": "Two steps forward, hand on the wood, eyes up. Served on the next pass. Eleven minutes of manners, undone by two steps."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n17",
-      "pt": "Sitting down, the room changes shape. He is working three rooms and he is not looking at you."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i02-oiga-e",
-      "es": "¡Oiga, por favor!",
-      "pinyin": "OY-gah, por fah-BOR",
-      "pt": "'Listen — please!' Said across a room, to one man, at the volume the room is already at.",
-      "tts": "¡Oiga, por favor!"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n18",
-      "pt": "Hand up to about shoulder height, one word, and then you stop. He will come."
-    },
-    {
-      "consulta": ["chegar/balcao","mesa/mesa"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i02-p07",
-      "promptPt": "A table at the far end of a long dining room, he is working the other half of it, and he has not looked over once in ten minutes. Speak now.",
-      "audioKey": "i02-oiga-e",
-      "es": "¡Oiga, por favor!",
-      "pinyin": "OY-gah, por fah-BOR",
-      "pt": "across the room, once"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i02-voy-c",
-      "es": "¡Voy!",
-      "pinyin": "boy",
-      "pt": "👂 'Coming!' — he is not coming yet. It means he heard you, and you stop calling.",
-      "tts": "¡Voy!"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n19",
-      "tom": "protege",
-      "pt": "One version of that lands badly in every price bracket, so it is worth naming once and dropping."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n20",
-      "pt": "Clicked fingers. A whistle. A note held up in the air. None of the three, anywhere, ever."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n21",
-      "tom": "ganha",
-      "pt": "The hand and the word are the entire kit, and they work at a counter and at a tablecloth alike."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n22",
-      "pt": "Now the best part of the evening, and it is free. The plates went twenty-five minutes ago."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n23",
-      "pt": "Nobody has been near you. Putting a bill down unasked is how a house tells a table to leave."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n24",
-      "pt": "So nobody does it, and the table is yours until you say the word. Here is the word."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "e03c-noscobras-e",
-      "es": "¿Nos cobras?",
-      "pinyin": "nohs KOH-brahs",
-      "pt": "The local-sounding half of it, from part fourteen. 'Will you take ours?'",
-      "tts": "¿Nos cobras?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i02-perdonecobras-c",
-      "es": "Perdone, ¿nos cobras?",
-      "pinyin": "pehr-DOH-neh, nohs KOH-brahs",
-      "pt": "The same one with the call on the front of it, so it reaches him across two tables.",
-      "tts": "Perdone, ¿nos cobras?"
-    },
-    {
-      "consulta": ["mesa/conta","pagar/pedir"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i02-p08",
-      "promptPt": "The restaurant table, twenty-five minutes after the plates went, and there is a train at eleven. Nothing is coming until you say it. Speak now.",
-      "audioKey": "i02-perdonecobras-c",
-      "es": "Perdone, ¿nos cobras?",
-      "pinyin": "pehr-DOH-neh, nohs KOH-brahs",
-      "pt": "the word that starts it"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i02-todojuntooseparado-e",
-      "es": "¿Todo junto o por separado?",
-      "pinyin": "TOH-dhoh KHOON-toh oh por seh-pah-RAH-dhoh",
-      "pt": "👂 'All together or separately?' — answer now. Once it is printed, it is one bill.",
-      "tts": "¿Todo junto o por separado?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n25",
-      "pt": "And it stays yours after you have paid. Nobody is counting the minutes at your table but you."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n26",
-      "pt": "One more on the way out, and it is the shortest thing you will say all night."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "e01b-12",
-      "es": "Vale, gracias. Hasta luego.",
-      "pinyin": "BAH-leh, GRAH-thyahs. AHS-tah LWEH-goh",
-      "pt": "The whole exit, said to the room rather than to anybody in it.",
-      "tts": "Vale, gracias. Hasta luego."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i02-p09",
-      "promptPt": "You have paid, you are two steps from the door, and there are six people in there who served you nothing at all. Say it to the room. Speak now.",
-      "audioKey": "e01b-12",
-      "es": "Vale, gracias. Hasta luego.",
-      "pinyin": "BAH-leh, GRAH-thyahs. AHS-tah LWEH-goh",
-      "pt": "to the room, on the way out"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n28",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i02-n05",
       "bloco": "capsula",
-      "pt": "Back to the queue that was not there. He is not ignoring anyone — he is counting bodies at the wood."
+      "pt": "The price list is on the wall by law, in Greek, before you order. You are allowed to read it first."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n29",
-      "pt": "Stand back and you are not in the count. Two steps and an eye put you into it inside a second."
+      "consulta": [
+        "compras/quanto",
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "POSO-KANI",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i02-p06",
+      "promptPt": "The list on the wall is in an alphabet you are still decoding. Get the number spoken instead. Speak now.",
+      "audioKey": "el-i02-t06",
+      "es": "Πόσο κάνει;",
+      "pinyin": "PO-so KA-ni",
+      "pt": "How much is it?",
+      "tts": "Πόσο κάνει;"
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n30",
-      "pt": "Not in a pharmacy or a bakery, mind. There the order is kept out loud, and you ask on the way in."
+      "consulta": [
+        "pagar/pedir",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "πού πληρώνω",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i02-p07",
+      "promptPt": "You have the cup in your hand and there are two possible tills and no queue at either. Speak now.",
+      "audioKey": "el-i02-t07",
+      "es": "Συγγνώμη, πού πληρώνω;",
+      "pinyin": "sing-NO-mi, poo pli-RO-no",
+      "pt": "Excuse me, where do I pay?",
+      "tts": "Συγγνώμη, πού πληρώνω;"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "δεν κατάλαβα",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i02-p08",
+      "promptPt": "The answer came back fast and over the noise of the machine. Say so, without apologising twice. Speak now.",
+      "audioKey": "el-i02-t08",
+      "es": "Συγγνώμη, δεν κατάλαβα.",
+      "pinyin": "sing-NO-mi, dhen ka-TA-la-va",
+      "pt": "Sorry, I didn't catch that.",
+      "tts": "Συγγνώμη, δεν κατάλαβα."
     },
     {
       "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "e08a-ultimo-c",
-      "es": "¿Quién es el último?",
-      "pinyin": "kyen es el OOL-tee-moh",
-      "pt": "👂 'Who is last?' — the counter where the order is spoken, not watched. Yours comes back in part seventeen.",
-      "tts": "¿Quién es el último?"
+      "voz": "target_el_m",
+      "audioKey": "el-i02-r04",
+      "receptivo": true,
+      "es": "Ορίστε. Τρία ευρώ.",
+      "pt": "Here you are. Three euros.",
+      "tts": "Ορίστε. Τρία ευρώ.",
+      "acao": "Oríste arrives with things and with turns. Here it hands you the cup and the number together."
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i02-p09",
+      "promptPt": "Your name has just been called over the counter and you are the one who ordered. Speak now.",
+      "audioKey": "el-i02-t09",
+      "es": "Ναι, εγώ είμαι.",
+      "pinyin": "ne, e-GHO I-me",
+      "pt": "Yes, that's me.",
+      "tts": "Ναι, εγώ είμαι."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n31",
-      "bloco": "permissao",
-      "pt": "You may say it louder than feels polite, call across a busy room, and take his eye the second it lands."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i02-n06",
+      "pt": "Say the greeting, then the thing, then parakaló. That is the whole shape of it."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n32",
-      "bloco": "espelho",
-      "pt": "Asking for a beer in five clauses is the odd bit there. It does not arrive as manners. It arrives as fog."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n34",
-      "bloco": "clique",
-      "tom": "ganha",
-      "pt": "Count the places. The counter. The terrace. The market bar. The restaurant table."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n35",
-      "pt": "Nobody handed you those sentences. You walked in owning the frame from part eleven, and it paid four times."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n36",
-      "bloco": "piso",
-      "pt": "You will get into the order at a four-deep bar with no sorry in front of it. Most visitors are served last all fortnight."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-s00",
-      "pt": "Shadowing. Out loud, underneath them, one punch a word and nothing soft on the front."
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i02-p10",
+      "promptPt": "Cup in hand, ten seconds spent, and you are stepping away from the counter. Close it. Speak now.",
+      "audioKey": "el-i02-t10",
+      "es": "Ευχαριστώ πολύ. Γεια σας.",
+      "pinyin": "ef-ha-ri-STO po-LI · ya sas",
+      "pt": "Thank you very much. Goodbye.",
+      "tts": "Ευχαριστώ πολύ. Γεια σας."
     },
     {
       "tipo": "shadow",
-      "voz": "Emilio",
-      "audioKey": "i02-pincho-e",
-      "molde": "ME-PONE",
-      "es": "¿Me pones una caña y un pincho de tortilla?",
-      "pinyin": "meh POH-nehs OO-nah KAH-nyah ee oon PEEN-choh deh tor-TEE-yah",
-      "pt": "A small beer and a wedge of potato omelette."
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Emilio",
-      "audioKey": "c01b-06",
-      "molde": "ME-PONE",
-      "es": "Ponme una caña, por favor.",
-      "pinyin": "POHN-meh OO-nah KAH-nyah, por fah-BOR",
-      "pt": "Put me a small beer, please."
+      "voz": "target_el_f",
+      "audioKey": "el-i02-s01",
+      "es": "Καλημέρα. Έναν καφέ, παρακαλώ. Πόσο κάνει; Ευχαριστώ πολύ.",
+      "pinyin": "ka-li-ME-ra · E-nan ka-FE, pa-ra-ka-LO · PO-so KA-ni · ef-ha-ri-STO po-LI",
+      "pt": "Shadow the whole counter, start to finish, at the speed the counter actually runs.",
+      "tts": "Καλημέρα. Έναν καφέ, παρακαλώ. Πόσο κάνει; Ευχαριστώ πολύ.",
+      "molde": "POSO-KANI"
     },
     {
       "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "i02-rend",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i02-n07",
       "bloco": "recap",
-      "pt": "One more out loud, at a counter we have not stood at yet, where nothing has a name you know."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i02-lomismo-e",
-      "es": "¿Me pones lo mismo que él?",
-      "pinyin": "meh POH-nehs loh MEES-moh keh el",
-      "pt": "The same as him. Your chin does the pointing, and the sentence does the rest.",
-      "tts": "¿Me pones lo mismo que él?"
-    },
-    {
-      "consulta": ["chegar/balcao","reparo/apontar","mesa/comida"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "ME-PONE",
-      "encaixe": "lo mismo que él",
-      "encaixeGloss": "the same as him",
-      "promptAudioKey": "i02-p10",
-      "promptPt": "A counter up north, a tray of small things behind glass, and the man beside you is eating the one you want. You cannot name any of it. Speak now.",
-      "audioKey": "i02-lomismo-e",
-      "es": "¿Me pones lo mismo que él?",
-      "pinyin": "meh POH-nehs loh MEES-moh keh el",
-      "pt": "point with your chin, and order"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i02-n37",
-      "pt": "That is it. You are in the order, you were heard, and the table stayed yours. Hasta luego."
+      "pt": "I02 done. One greeting, one thing, one parakaló — and parakaló coming back at you means go ahead."
     }
   ],
-
   "aprofundar": {
-    "titulo": "Getting served, and the padding that stops it (optional reading)",
+    "titulo": "Short, and why short is the polite one",
     "secoes": [
       {
-        "titulo": "Ponme, me pones, me pone — three doors, and why we recorded two",
-        "corpo": "All three fetch the same beer. '¿Me pones…?' is the one you learned at the counter in part eleven and it is the safest thing in your mouth: it sounds like a request, it works with anybody, and nobody has ever been marked down for it. 'Ponme…' is the short one you will hear all around you — it drops the question and puts the verb first, which is why it sounds abrupt written down in English and does not sound abrupt at all in the room. The politeness is carried by 'por favor' on the end and by your tone, not by anything on the front. '¿Me pone…?' is the third, and it is simply the version you use with somebody older or in a smarter place; you will hear it and you never have to choose it under pressure, because the other two cover the fortnight. What we have deliberately not done is give you a table of when to use which. There isn't a decision to make: pick the one that arrives first, put a please on it, and get on with your evening. The one thing worth knowing is that all three take exactly the same tail — a drink, a plate, two of something, or 'lo mismo que él' when you cannot name any of it.",
+        "titulo": "Two politeness systems, pulling opposite ways",
+        "corpo": "Research on politeness describes Greek as oriented to positive politeness — involvement, closeness, showing the other person is one of yours — and English as oriented to negative politeness — distance, not imposing, leaving an exit. The consequence is symmetrical and documented: the same exchange reads as abrupt from one side and as cold from the other. Neither reading is about the person in front of you.",
         "exemplos": [
           {
-            "es": "¿Me pones un cortado?",
-            "pt": "meh POH-nehs oon kor-TAH-dhoh — a small coffee with a splash of milk, please"
+            "es": "Έναν καφέ, παρακαλώ.",
+            "pt": "A coffee, please."
           },
           {
-            "es": "Ponme otra, por favor.",
-            "pt": "POHN-meh OH-trah — put me another one, please (the two short frames stacked together)"
+            "es": "Δύο νερά, παρακαλώ.",
+            "pt": "Two waters, please."
           }
         ]
       },
       {
-        "titulo": "The order that is not a queue — and the counters where it is",
-        "corpo": "At a busy bar there is no line and there is an order, and the two facts sit together perfectly well. The barman holds a rough sequence of faces in his head, refreshed every time he comes down the row and somebody's eyes come up to meet his. What breaks it for a visitor is not rudeness, it is geometry: he cannot include a face that is a metre and a half behind the counter, half turned away, waiting to be invited. Two steps and a hand on the wood put you in it, and holding his eye for the second and a half he offers you is what keeps you there. If two of you are ordering, one of you does the ordering — a huddle facing each other reads as a table that has not decided. And there is a proper exception, which is the whole reason it is worth learning as a habit rather than a rule: in pharmacies, bakeries, butchers, fish counters and most places with a ticket machine, the order is kept out loud. You walk in, you say '¿Quién es el último?', you memorise the person who answers, and you go after them. That sentence gets its own turn in part seventeen. Walking to the front of one of those is the one version of this that genuinely annoys people.",
+        "titulo": "Where the courtesy actually lives",
+        "corpo": "It is not in the number of conditional clauses. It is in the greeting on the way in, in parakaló on the end of the order, and in efharistó on the way out. Put it there and the middle can be two words, which is what the counter is built for."
+      },
+      {
+        "titulo": "Parakaló, four jobs",
+        "corpo": "Please, on the end of a request. You're welcome, after a thank-you. Go ahead — said to you with a rising tone, it is the counter opening its turn. And in a shop it can simply mean yes, I'm with you. One word, four positions, and you only ever have to recognise which position you are in.",
         "exemplos": [
           {
-            "es": "¿Quién es el último?",
-            "pt": "kyen es el OOL-tee-moh — 👂 who is last? — the spoken queue, at a pharmacy or a bakery"
+            "es": "Παρακαλώ;",
+            "pt": "Yes? Go ahead."
           },
           {
-            "es": "¿Qué te pongo?",
-            "pt": "keh teh POHN-goh — 👂 what am I putting you? — your second and a half, being handed over"
+            "es": "Ορίστε.",
+            "pt": "Here you are. / Go ahead."
           }
         ]
       },
       {
-        "titulo": "Reaching a waiter across a room",
-        "corpo": "Two words do all of it. '¡Perdone!' is the polite general-purpose one and works at any distance and any price level. '¡Oiga!' is literally 'listen' and it is the one that carries; it sounds sharp translated and is entirely ordinary in a busy room. Either one goes with a hand raised to about shoulder height, said once, at the volume the room is already running at — which is louder than a British dining room and is not an argument. Then you stop and let him finish what he is carrying. What does not work, in any bar or restaurant in the country, at any price: clicking your fingers, whistling, calling '¡chico!' or waving a note in the air. Those are not regional or generational; they read the same everywhere. In a quiet dining room the hand alone usually does it, and in the very smartest ones you will notice nobody says anything at all. One more thing worth having: nobody is going to come over and ask you how everything is tasting. That silence is not neglect. It is the same instinct that keeps the bill off your table — your table is treated as yours, and being interrupted in it is what would be rude.",
-        "exemplos": [
-          {
-            "es": "¡Perdone!",
-            "pt": "pehr-DOH-neh — excuse me (the general-purpose call, any distance, any place)"
-          },
-          {
-            "es": "Perdone, ¿nos cobras?",
-            "pt": "pehr-DOH-neh, nohs KOH-brahs — excuse me, will you take ours? (the local-sounding way to ask for the bill)"
-          }
-        ]
-      },
-      {
-        "titulo": "Why the padding costs you, and what it is doing",
-        "corpo": "British and Spanish courtesy are both doing polite work; they are simply pointed at different things. English courtesy is built on staying out of somebody's way — hedges, apologies and questions wrapped around a request so it never lands as an imposition: 'sorry, I was wondering whether I could possibly get a beer at some point, if that's alright?'. Spanish courtesy is built on closeness — you show respect by treating the other person as somebody you are already at ease with, which means short, direct and warm, with the politeness carried by tone, by 'por favor' and 'gracias' at the ends rather than the middles, and by the fact that you greeted them at all. Linguists describe the two poles as negative and positive politeness, and neither is more polite than the other; they simply misread across the gap. Translated into a bar, the practical effect is one-directional and unlucky for you: the hedged version takes six seconds longer to arrive at its point, and six seconds is roughly four times the attention you have been given. He does not decide you are rude. He decides you have not decided, and he moves along the row. Drop the run-up, keep the please, and the whole thing works.",
-        "exemplos": [
-          {
-            "es": "Hola. Ponme una caña, por favor.",
-            "pt": "the entire transaction, front to back — greeting, order, please"
-          },
-          {
-            "es": "Perdone, ¿me pone otra?",
-            "pt": "pehr-DOH-neh, meh POH-neh OH-trah — excuse me, another one? (the same thing in a smarter room)"
-          }
-        ]
-      },
-      {
-        "titulo": "Caña, clara, pincho — the tails you can hang on it tonight",
-        "corpo": "A 'caña' is the small glass of draught you saw in part eleven, and it stays the default all fortnight. A 'clara' is that same beer with lemonade in it, and in summer grown adults order it all day long. In some places you will be asked which one you want: 'con limón' is the lemonade version, and 'con casera' is made with plain fizzy water instead, so it is the less sweet of the two. A 'pincho' is a small portion, usually on a slice of bread, and 'un pincho de tortilla' — a wedge of the potato omelette sitting under the glass dome — is the single most reliable thing to eat standing up in Spain. In the Basque Country the same word is spelled 'pintxo', the plates sit out on the counter for you to help yourself, and the cocktail sticks left on your plate are what gets added up at the end, so you keep every one of them — that half of it is covered in part eleven, along with where the free plate is a habit and where it is an item. And when nothing on the counter has a name you know, the sentence that never fails is '¿me pones lo mismo que él?' with your chin pointed at the man beside you, who will be delighted.",
-        "exemplos": [
-          {
-            "es": "¿Me pones una clara con limón?",
-            "pt": "meh POH-nehs OO-nah KLAH-rah kon lee-MOHN — a shandy with lemonade, please"
-          },
-          {
-            "es": "¿Me pones dos pinchos de tortilla?",
-            "pt": "meh POH-nehs dohs PEEN-chohs deh tor-TEE-yah — two wedges of potato omelette, please"
-          }
-        ]
+        "titulo": "The list on the wall is yours to read",
+        "corpo": "A price list in Greek is compulsory and it has to be visible at the entrance and before you order, prices including VAT — with a €1,000 fine for not having one and €500 per item charged above it. Standing there and reading the wall before you speak is not rudeness or suspicion; it is exactly what the list is posted for."
       }
     ]
-  }
+  },
+  "slot": "I02",
+  "permissao": "You are allowed to drop the cushions. The four-clause English request — sorry to bother you, I was just wondering whether I might possibly — does not arrive as respect here; it arrives as somebody holding themselves back. Two words and parakaló is the courteous version, and you have permission to say it that short.",
+  "permissaoAudioKey": "el-i02-n04",
+  "espelho": "Anyone who has stood at a busy counter at home and watched a visitor deliver a beautifully constructed sentence while four people wait behind them knows both halves of this. You have been on the fast side of that counter yourself, and you were not annoyed — you were just already reaching for the cup.",
+  "fichasCulturais": [
+    {
+      "sinal": "You ask for something in your most careful, most cushioned English and get a short flat answer back.",
+      "suaLeitura": "I have annoyed them, or they would rather not deal with me.",
+      "oQueEAli": "Politeness research places Greek on the positive-politeness side — closeness and involvement — and English on the negative-politeness side, which builds courtesy out of distance and hedging. The short answer is that system running normally. It is not a verdict on you, and the mismatch runs in both directions.",
+      "oQueVoceFaz": "Move your courtesy to the edges: greeting on the way in, parakaló on the request, efharistó on the way out, and let the middle be two words.",
+      "oQueMelhora": "You get served at counter speed instead of at rehearsal speed, and the exchange ends with the warmth you were trying to signal in the first place.",
+      "ondeNaoVale": "This describes an orientation documented in research on politeness, not a personality and not a rule about individuals. Plenty of exchanges anywhere are short because it is the end of a shift, and none of this licenses skipping the greeting.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i02-n02"
+      ]
+    },
+    {
+      "sinal": "You want to check a price before ordering and it feels like an accusation to ask.",
+      "suaLeitura": "Asking what it costs first suggests I think they will overcharge me.",
+      "oQueEAli": "The list is posted because the law requires it: in Greek, visible at the entrance and before you order, prices including VAT, with fines for its absence and for charging above it. The list exists to be read by whoever is standing there, and reading it is the ordinary use of it.",
+      "oQueVoceFaz": "Read the wall on the way in. If the alphabet is still slow for you, ask póso káni and take the number by ear.",
+      "oQueMelhora": "You stop treating the price as something to be discovered at the end, and you order the thing you actually wanted rather than the safest-looking thing.",
+      "ondeNaoVale": "Not a licence to treat a missing list as proof of bad faith. Kiosks, market stalls and moving situations vary, and the enforceable point is the posted list and the price you are charged — not an argument at the counter.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i02-n05"
+      ]
+    }
+  ]
 }

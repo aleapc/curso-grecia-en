@@ -18,7 +18,10 @@
 const REGRAS = {
   en: [
     // povo + cópula: plural direto, ou "people are/tend to…" no singular
-    /\b(the )?(spanish|spaniards|thai|chinese|italians?|french|germans?|argentin\w+|brazilians?|british|americans?)\s+(?:people\s+(?:are|is|always|never|tend to|love to|like to)|are|always|never|tend to|love to|like to)\b/i
+    // `greeks?`/`greek people` entrou porque o SKU EN → Grécia narra em inglês e o
+    // regex sem o gentílico do destino dá VERDE sem olhar — exatamente a falha do
+    // curso alemão descrita acima, só que no destino em produção agora.
+    /\b(the )?(spanish|spaniards|thai|chinese|italians?|french|germans?|greeks?|argentin\w+|brazilians?|british|americans?)\s+(?:people\s+(?:are|is|always|never|tend to|love to|like to)|are|always|never|tend to|love to|like to)\b/i
   ],
   pt: [
     /\b(os |as )?(espanhóis|espanhola?s|tailandeses|chineses|italianos|italianas|franceses|francesas|alemães|alemãs|argentinos|argentinas|brasileiros|brasileiras)\s+(são|estão|sempre|nunca|costumam|adoram|gostam de|tendem a)\b/i

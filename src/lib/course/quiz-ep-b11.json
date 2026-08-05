@@ -1,0 +1,96 @@
+{
+  "id": "q-b11",
+  "nivel": "basico",
+  "titulo": "Quiz — Θα ήθελα and the first round",
+  "subtitulo": "Two words, one table",
+  "introAudioKey": "el-b11-q-i",
+  "introPt": "A table for two, a menu that has not arrived, and a basket of bread nobody asked about.",
+  "cenario": "A taverna terrace at half past eight in the evening.",
+  "dialogo": [
+    {
+      "audioKey": "el-b11-q01",
+      "voz": "target_el_f",
+      "es": "Καλησπέρα. Θα ήθελα ένα τραπέζι για δύο.",
+      "pt": "Good evening. I'd like a table for two.",
+      "tts": "Καλησπέρα. Θα ήθελα ένα τραπέζι για δύο."
+    },
+    {
+      "audioKey": "el-b11-q02",
+      "voz": "target_el_m",
+      "es": "Καλησπέρα! Έξω ή μέσα;",
+      "pt": "Good evening! Outside or inside?",
+      "tts": "Καλησπέρα! Έξω ή μέσα;"
+    },
+    {
+      "audioKey": "el-b11-q03",
+      "voz": "target_el_f",
+      "es": "Έξω, παρακαλώ. Θα ήθελα τον κατάλογο.",
+      "pt": "Outside, please. I'd like the menu.",
+      "tts": "Έξω, παρακαλώ. Θα ήθελα τον κατάλογο."
+    },
+    {
+      "audioKey": "el-b11-q04",
+      "voz": "target_el_m",
+      "es": "Αμέσως. Νερό στο τραπέζι, να σας φέρω;",
+      "pt": "Right away. Water on the table, shall I bring some?",
+      "tts": "Αμέσως. Νερό στο τραπέζι, να σας φέρω;"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Why θα ήθελα rather than θέλω at a counter?",
+      "opcoes": [
+        "Θέλω is incorrect Greek",
+        "Θέλω lands drier; the conditional is the register the counter expects",
+        "Θέλω is only used in writing",
+        "Θα ήθελα is shorter"
+      ],
+      "correta": 1,
+      "explica": "Θέλω is perfectly correct. It just arrives flatter in Greek than I want does in English, and the conditional does the work of please before you reach the noun."
+    },
+    {
+      "pergunta": "The waiter asks Νερό στο τραπέζι, να σας φέρω; That question is:",
+      "opcoes": [
+        "A formality — the water comes either way",
+        "The consent step, and yes means it can go on the bill",
+        "A sign that tap water is unavailable",
+        "An offer that is always free of charge"
+      ],
+      "correta": 1,
+      "explica": "Nothing may be served and charged without prior consent, bottled water expressly included. The question is the mechanism working."
+    },
+    {
+      "pergunta": "A cover charge in Greece is:",
+      "opcoes": [
+        "Lawful if it is printed on the menu",
+        "Lawful only at the busiest hours",
+        "Prohibited",
+        "Left to each region to decide"
+      ],
+      "correta": 2,
+      "explica": "Article 72 of the trading rules bans κουβέρ outright, at €500 per item. This is the opposite of the Italian coperto, which is lawful when declared."
+    },
+    {
+      "pergunta": "Ταβέρνα, εστιατόριο, ουζερί and ψησταριά are:",
+      "opcoes": [
+        "Four legal licence classes",
+        "Trade custom — a forecast of the card and the room, not a licence class",
+        "Regional words for exactly the same thing",
+        "Grades set by the tourism ministry"
+      ],
+      "correta": 1,
+      "explica": "The legislation groups them all as mass catering under one regime. The names survive because they are useful, not because they are official."
+    },
+    {
+      "pergunta": "Where does the price list have to be, by law?",
+      "opcoes": [
+        "Only inside, at the till",
+        "In Greek, visible at the entrance and before you order, with tax included",
+        "On request, in the language of the customer",
+        "Nowhere — posting it is voluntary"
+      ],
+      "correta": 1,
+      "explica": "Articles 70 and 71: €1,000 where the list is missing, €500 for an item charged above what is listed. You can check it from the pavement."
+    }
+  ]
+}

@@ -1,937 +1,364 @@
 {
   "id": "i09",
-  "slot": "I09",
   "nivel": "intermediario",
   "numero": 27,
   "parte": "I09",
-  "titulo": "An afternoon doing what they do",
-  "subtitulo": "Market, corner bar, square and the week the street belongs to everyone — how each one is entered, and why the rule that decides the rest is written by the town hall two streets away and not by Spain",
+  "titulo": "Doing what they do — the market, the long coffee, and the square after dark",
+  "subtitulo": "Sunday morning looks shut and is not, and one freddo buys you a table for as long as you want it",
+  "cena": "It is Sunday, the shutters are down along an entire street, and two hundred metres away every café table is taken.",
   "moldura": "ganha",
-
-  "cena": "Ten past six on a Thursday, two streets up from the sand, your shirt still in your hand, and the square in front of you filling up with people who live here.",
-
-  "decisao": "how the six hours between lunch and dinner get spent, and what the same six hours cost two hundred kilometres away — the shirt in your hand, the can in the street and the blanket you buy the bag off are each priced by the town hall you happen to be standing in, and the amounts run from a hundred to six hundred euros, taken on the spot in Barcelona since February",
-  "emJogo": "ambos",
-
-  "clique": {
-    "contagem": ["the market", "the corner bar", "the square", "the terrace"],
-    "desconto": "Nobody handed you those sentences. You owned the frame already, and the afternoon only changed what went in it.",
-    "piso": "You will spend a Spanish afternoon where they spend it, and pay what they pay for it. Most visitors spend a fortnight within sight of the seafront."
-  },
-  "cliqueAudioKey": "i09-n46",
-
-  "frasePiso": "You will spend a Spanish afternoon where they spend it, and pay what they pay for it. Most visitors spend a fortnight within sight of the seafront.",
-
-  "permissao": "You are allowed to walk a whole market and buy nothing. You are allowed to make one small drink last a whole half at the bar, and one order hold a table in the square for an hour — that is what the order was for. You are allowed to stand in the middle of somebody else's street party: nobody at either end is checking a ticket, because there isn't one. And the can that is a problem in your hand is nothing at all on the terrace table two metres away.",
-  "permissaoAudioKey": "i09-n43",
-
-  "espelho": "Ordering a second one every twenty minutes to justify the chair is the bit that reads as odd there. Nobody is counting what is in front of you, and buying your way through the hour is the one thing that marks the table out.",
-
-  "fichasCulturais": [
-    {
-      "sinal": "Twenty past one on a Tuesday and the man at the stall has started stacking crates while you are still deciding.",
-      "suaLeitura": "He has had enough of me, or the place is shutting early today and nobody said so.",
-      "oQueEAli": "The small trade works two shifts and not one — roughly ten to half one, then again from about five until eight. The middle of the day is the gap between them, and the market is the first thing to go into it.",
-      "oQueVoceFaz": "Do the market before half one or after five, and put whatever you meant to do in between at a table with a plate in front of you.",
-      "oQueMelhora": "You get the market with the neighbourhood still in it instead of the tail end of it, and the empty hour turns into the long lunch it was always going to be.",
-      "ondeNaoVale": "Not the big chains — El Corte Inglés, Mercadona, Lidl, Carrefour and the like stay open straight through it, and so do the restaurants and the museums.",
-      "evidencia": "FATO",
-      "audioKeys": ["i09-n06", "i09-n07"]
-    },
-    {
-      "sinal": "Half seven, the square is full, and every person in it is sitting at a table with one small drink that has clearly been there a long while.",
-      "suaLeitura": "They must have to keep buying, so if I sit down with one coffee for an hour somebody will come and move me along.",
-      "oQueEAli": "The chair is bought once. One order holds the table and the hour after it is what the order was for — the same square empties and fills three times between six and midnight, and nobody is counted out of it.",
-      "oQueVoceFaz": "Take a table, order one thing, and then stop ordering. Sit through the whole of it.",
-      "oQueMelhora": "You get the best hour of the day for the price of one small beer, and you are sitting where the town actually is instead of where it is sold.",
-      "ondeNaoVale": "Not at a table on a station concourse or an airport gate, where the chairs turn over on a timetable and somebody is genuinely waiting for yours.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i09-n40", "i09-n41", "i09-n42"]
-    },
-    {
-      "sinal": "You walk two streets with a can in your hand in one town and nothing at all happens; in the next one an officer changes direction and comes at you with a card machine in his hand.",
-      "suaLeitura": "One of those two places is being unreasonable, because I did not do anything different in either of them.",
-      "oQueEAli": "Almost none of this is written nationally. The street rules are set by each town hall, so the same act carries an amount in one place and passes unremarked forty kilometres inland — and since February 2026 Barcelona takes that amount from a non-resident where he is standing.",
-      "oQueVoceFaz": "Look at what the people around you are doing with theirs: the can goes on the terrace table, and the shirt goes on at the edge of the sand rather than at the hotel door.",
-      "oQueMelhora": "You spend the afternoon in exactly the places they spend it, and the money stays where it was.",
-      "ondeNaoVale": "Not in a village inland with one bar and no seafront, where nobody has written any of it down and the shirt is nobody's business at all.",
-      "evidencia": "FATO",
-      "audioKeys": ["i09-n20", "i09-n21", "i09-n26"]
-    },
-    {
-      "sinal": "The street you walked down yesterday is closed off, there is a band on a flatbed and a crowd four deep, and nobody at either end is selling anything or checking anyone.",
-      "suaLeitura": "This is somebody's private do and I have walked into the middle of it.",
-      "oQueEAli": "A street closed for the town's own week is public in the plainest sense there is: the door is the end of the street, standing in it is the whole of the participation, and being looked at by people who do not know you is part of what it is for.",
-      "oQueVoceFaz": "Stand at the edge, on your feet, and stay for the whole of it. Ask before you put a phone in anybody's face.",
-      "oQueMelhora": "You get the one afternoon of the year the town puts on for itself, from inside the crowd rather than from a window.",
-      "ondeNaoVale": "Not a procession where the crowd has gone quiet and stopped moving — there you stop too, and the phone stays down until it has gone past.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i09-n33", "i09-n34", "i09-n37"]
-    }
-  ],
-
+  "frasePiso": "Psachno for what you want, boro na for what you may do — and one coffee holds the table.",
+  "decisao": "gastar a tarde onde eles gastam — feira de manhã, um café que dura uma hora, a praça à noite — em vez de programar a partir de uma lista de horários que não vale para tavernas e cafés",
+  "moldes": [],
   "fatosDatados": [
     {
-      "id": "regras-de-rua-sao-municipais",
-      "afirmacao": "Almost none of the street rules a visitor can fall foul of are national law: they are municipal ordinances, so the amount is set by the town hall and changes from city to city.",
-      "fonte": "docs/pesquisa-espanha.md §7.7 — aviso de arquitetura: quase tudo é ordenança municipal, o valor muda de cidade para cidade",
-      "ano": 2026,
-      "revisarAte": "2027-07-01",
-      "evidencia": "FATO",
-      "risco": "baixo",
-      "audioKeys": ["i09-n20", "i09-n21"]
-    },
-    {
-      "id": "sin-camiseta-barcelona-palma",
-      "afirmacao": "Walking or standing about a public space with no shirt on is €120 to €300 in Barcelona under the civility ordinance in force since February 2026, and €100 to €200 across the whole of Palma de Mallorca, beach and seafront promenade excepted.",
-      "valor": "Barcelona €120–300 · Palma €100–200",
-      "fonte": "docs/pesquisa-espanha.md §7.7(a) — ordenança de civismo de Barcelona (em vigor fev/2026), rotulada FATO; Palma via imprensa espanhola, rotulada FATO",
-      "ano": 2026,
-      "revisarAte": "2027-02-01",
+      "id": "el-i09-kyriaki",
+      "afirmacao": "Sunday closing in Greece was instituted in 1909, and from that first version it already carried an exception for restaurants, tavernas, patisseries, cafés and shops selling tourist goods — meaning that the places a visitor actually uses have never been inside the rule. The present regime is article 16 of law 4177/2013, which sets out the closing rule together with its exceptions — the Sundays before Christmas, the sale periods, the first Sunday of May and of November — and allows tourist zones to be designated by ministerial decision. Which other categories of shop may open on a Sunday has been repeatedly contested, and one liberalisation decision was struck down as unconstitutional, so the shop side of this should not be treated as settled.",
+      "fonte": "Domingo: fechamento instituído em 1909, já então com exceção para restaurantes, tavernas, confeitarias, cafés e lojas de artigo turístico — o que interessa ao turista sempre esteve fora da regra. Regime atual: art. 16 do ν.4177/2013, com exceções (domingos de Natal, liquidações, 1º de maio e de novembro) e zonas turísticas por decisão ministerial. ⚠️ CONTESTADO: uma decisão de liberalização foi julgada inconstitucional; tema politicamente disputado. Não apresentar como estável.",
+      "ano": 2013,
+      "revisarAte": "2028-08-05",
       "evidencia": "FATO",
       "risco": "medio",
-      "audioKeys": ["i09-g02", "i09-g03"]
-    },
-    {
-      "id": "beber-en-la-via-publica",
-      "afirmacao": "Drinking alcohol in the street is a minor offence nationally at €100 to €600; in Barcelona it reaches €1,500 where there are children about or in a night-time noise zone. On a terrace table it is nothing at all.",
-      "valor": "€100–600 nacional · até €1.500 em Barcelona",
-      "fonte": "Ley Orgánica 4/2015 de protección de la seguridad ciudadana, art. 37.17; ordenança de civismo de Barcelona (fev/2026) — docs/pesquisa-espanha.md §7.7(b)",
-      "ano": 2026,
-      "revisarAte": "2027-02-01",
-      "evidencia": "FATO",
-      "risco": "medio",
-      "audioKeys": ["i09-n22", "i09-n23"]
-    },
-    {
-      "id": "compra-a-vendedor-ambulante",
-      "afirmacao": "Buying from an unlicensed street seller is itself an offence in Barcelona, at up to €600 — and it falls on the person buying, not only on the person selling.",
-      "valor": "até €600 para quem compra",
-      "fonte": "Ordenança de civismo de Barcelona, em vigor fev/2026 — docs/pesquisa-espanha.md §7.7(c): venda ambulante €100–600 e quem COMPRA até €600",
-      "ano": 2026,
-      "revisarAte": "2027-02-01",
-      "evidencia": "FATO",
-      "risco": "medio",
-      "audioKeys": ["i09-n24"]
-    },
-    {
-      "id": "noite-na-praia",
-      "afirmacao": "Spending the night on a Barcelona beach is €500, tent or no tent — asleep on a towel is treated the same way. The nap after lunch on the sand is untouched.",
-      "valor": "€500",
-      "fonte": "decreto municipal de Barcelona, reportagem 2026 — docs/pesquisa-espanha.md §7.7(d); ordenanças municipais preveem sanções até €1.500, rotuladas ali como faixa e não como valor único",
-      "ano": 2026,
-      "revisarAte": "2027-02-01",
-      "evidencia": "FATO",
-      "risco": "medio",
-      "audioKeys": ["i09-n25"]
-    },
-    {
-      "id": "pagamento-no-ato-barcelona",
-      "afirmacao": "Since February 2026 the Barcelona ordinance requires tourists and non-residents to pay on the spot, and the Guàrdia Urbana carry card machines to take it there and then.",
-      "fonte": "Ordenança de civismo de Barcelona, aprovada dez/2025 e em vigor fev/2026 — docs/pesquisa-espanha.md §7.7(e); teto sancionador da ordenança €3.000",
-      "ano": 2026,
-      "revisarAte": "2027-02-01",
-      "evidencia": "FATO",
-      "risco": "alto",
-      "audioKeys": ["i09-n26"]
-    },
-    {
-      "id": "zbe-obrigatoria",
-      "afirmacao": "Since January 2026 every Spanish town over fifty thousand people has had to run a low-emission zone. Enforcement is an automatic camera, the amount is up to €200 and halves if you pay early, and the DGT sticker that lets a car in is only issued to vehicles registered in Spain.",
-      "valor": "até €200 (€100 com pagamento antecipado)",
-      "fonte": "docs/pesquisa-espanha.md §8.4 — obrigatoriedade desde 01/jan/2026 para municípios >50.000 habitantes; infração grave, multa até €200 reduzível a €100; distintivo ambiental da DGT emitido apenas a veículos matriculados na Espanha",
-      "ano": 2026,
-      "revisarAte": "2027-01-31",
-      "evidencia": "FATO",
-      "risco": "alto",
-      "audioKeys": ["i09-n29", "i09-n30"]
-    },
-    {
-      "id": "vape-en-terraza-status",
-      "afirmacao": "As of July 2026, smoking and vaping on a terrace is still legal in Spain; indoors has been out since 2011. A bill that would ban both, and treat a vape exactly like a cigarette, was approved by the cabinet on 21 July 2026 and is now in parliament.",
-      "fonte": "Conselho de Ministros, anteproyecto aprovado em 21/jul/2026, em tramitação no Congresso — docs/pesquisa-espanha.md §7.7(f), marcado ali como o item mais volátil do dossiê",
-      "ano": 2026,
-      "revisarAte": "2026-10-01",
-      "evidencia": "CONSENSO",
-      "risco": "alto",
-      "audioKeys": ["i09-n32", "i09-n33b"]
-    },
-    {
-      "id": "siesta-comercial",
-      "afirmacao": "The small trade closes in the middle of the day — roughly ten to half one, then again from about five until eight. The big chains, the restaurants and the museums stay open through it.",
-      "fonte": "docs/pesquisa-espanha.md §7.1 — consenso de fontes de comércio 2025–2026, rotulado ali como FATO qualitativo (~10:00 → 13:30/14:00 → reabre 16:30/17:00 → 20:00/20:30)",
-      "ano": 2026,
-      "revisarAte": "2028-01-01",
-      "evidencia": "FATO",
-      "risco": "baixo",
-      "audioKeys": ["i09-n07"]
+      "audioKeys": [
+        "el-i09-n03",
+        "el-i09-n04"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n01",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i09-n01",
+      "gesto": 1,
       "bloco": "aquecimento",
-      "gesto": 4,
-      "tom": "ganha",
-      "pt": "Part twenty-seven. Warm-up: the flick. One touch of the tongue and gone. Me-r-cado. Apa-r-car. Pe-r-dón."
+      "pt": "An afternoon here has a shape: the market early, a coffee that lasts an hour, the square once it cools down."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n02",
-      "pt": "Not the English r, which sits there and hums. One tap on the roof of the mouth. Three more, with the hand."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i09-n02",
+      "bloco": "corpo",
+      "pt": "Two openings you already own do most of this: psachno for what you want, boro na for what you may do."
     },
     {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-i09-t01",
+      "es": "Ψάχνω τη λαϊκή αγορά.",
+      "pinyin": "PSA-hno ti la-i-KEE a-go-RA",
+      "pt": "I'm looking for the street market.",
+      "tts": "Ψάχνω τη λαϊκή αγορά."
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "transporte/placas"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "bloco": "callback",
-      "molde": "APRECIACION",
-      "promptAudioKey": "i09-p01",
-      "promptPt": "A stranger has just walked you the last two streets to the door you could not find, and he is already turning back the way he came. Two words, before he goes. Speak now.",
-      "audioKey": "i07-amable-e",
-      "es": "¡Qué amable!",
-      "pinyin": "keh ah-MAH-bleh",
-      "pt": "about him, not the street"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n03",
-      "bloco": "cena",
-      "pt": "Ten past six on a Thursday. Two streets up from the sand, and your shirt is still in your hand."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n04",
-      "pt": "The square in front of you is filling up with people who live here, and not one of them is eating yet."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n05",
-      "pt": "Today is the six hours nobody sells you a ticket for. Four of them, and how each one is walked into."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n06",
-      "pt": "First one has a clock on it. The neighbourhood market, which is a place people spend an hour in."
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "τη λαϊκή αγορά",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i09-p01",
+      "promptPt": "Someone told you the neighbourhood has a street market and you are two streets away from something noisy. Ask. Speak now.",
+      "audioKey": "el-i09-t01",
+      "es": "Ψάχνω τη λαϊκή αγορά.",
+      "pinyin": "PSA-hno ti la-i-KEE a-go-RA",
+      "pt": "I'm looking for the street market.",
+      "tts": "Ψάχνω τη λαϊκή αγορά."
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i09-cerramos-e",
-      "es": "Cerramos a la una y media.",
-      "pinyin": "the-RRAH-mohs ah lah OO-nah ee MEH-dhyah",
-      "pt": "👂 'We shut at half one.' Two shifts, not one — and that is the first of them ending.",
-      "tts": "Cerramos a la una y media."
+      "voz": "target_el_m",
+      "audioKey": "el-i09-r01",
+      "receptivo": true,
+      "es": "Η λαϊκή είναι Τετάρτη και Σάββατο, μέχρι τις δύο.",
+      "pt": "The market is Wednesday and Saturday, until two.",
+      "tts": "Η λαϊκή είναι Τετάρτη και Σάββατο, μέχρι τις δύο.",
+      "acao": "Two days and a closing time just went past. Write down the days before you write down the time."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n07",
-      "pt": "Ten to half one, then five to eight. The chains and the restaurants stay open; the small trade does not."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i09-cual-c",
-      "es": "¿Cuál me llevo, este o aquel?",
-      "pinyin": "KWAHL meh YEH-boh, EHS-teh oh ah-KEL",
-      "pt": "'Which do I take, this one or that one?' — two things on the marble, and neither of them named.",
-      "tts": "¿Cuál me llevo, este o aquel?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n08",
-      "bloco": "molde",
-      "pt": "You do not have to name either of them. A finger at each, and the frame carries the rest of it."
-    },
-    {
-      "consulta": ["compras/balcao","reparo/apontar"],
+      "consulta": [
+        "compras/balcao"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "ELECCION",
-      "encaixe": "este o aquel",
-      "encaixeGloss": "this one or that one",
-      "promptAudioKey": "i09-p02",
-      "promptPt": "Two wheels of cheese on the marble, no label on either, and the woman behind the counter has all afternoon. Put the decision back to her. Speak now.",
-      "audioKey": "i09-cual-c",
-      "es": "¿Cuál me llevo, este o aquel?",
-      "pinyin": "KWAHL meh YEH-boh, EHS-teh oh ah-KEL",
-      "pt": "the two in front of you"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i09-p02",
+      "promptPt": "You want to come back tomorrow morning and you do not want to arrive as they pack up. Ask about the start. Speak now.",
+      "audioKey": "el-i09-t02",
+      "es": "Τι ώρα ανοίγει;",
+      "pinyin": "ti O-ra a-NEE-yi",
+      "pt": "What time does it open?",
+      "tts": "Τι ώρα ανοίγει;",
+      "molde": "TI-ORA",
+      "encaixe": "ανοίγει"
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i09-estemejor-e",
-      "es": "Este está mejor hoy. ¿Cuánto le pongo?",
-      "pinyin": "EHS-teh ehs-TAH meh-KHOR oy. KWAN-toh leh POHN-goh",
-      "pt": "'This one is better today. How much shall I give you?' — she has answered and handed it straight back.",
-      "tts": "Este está mejor hoy. ¿Cuánto le pongo?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n09",
-      "pt": "So she needs one number now, and you already own the sentence it lives in. From part fifteen."
-    },
-    {
+      "consulta": [
+        "compras/so-olhando",
+        "mesa/comida"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i09-p03",
-      "promptPt": "She is holding the knife over the better one, waiting for you to say how big a piece. Give her one, and point at it. Speak now.",
-      "audioKey": "b15-esto-e",
-      "es": "Quería medio kilo de esto.",
-      "pinyin": "keh-REE-ah MEH-dhyoh KEE-loh deh EHS-toh",
-      "pt": "a weight, and the thing under your finger"
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "κάτι ντόπιο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i09-p03",
+      "promptPt": "You are at a stall stacked with things you cannot name and you want whatever is from here. Speak now.",
+      "audioKey": "el-i09-t03",
+      "es": "Ψάχνω κάτι ντόπιο.",
+      "pinyin": "PSA-hno KA-ti DO-pio",
+      "pt": "I'm looking for something local.",
+      "tts": "Ψάχνω κάτι ντόπιο."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n10",
-      "pt": "Nothing you bought there needed a name. That is most of a market anywhere here, done in ninety seconds."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n11",
-      "pt": "Second one. A corner bar with the match on, and every face in the room is pointing the same way."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n12",
-      "pt": "No ticket and no seat plan. You come in, you get a drink, and you stand where there is room to stand."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i09-sentarme-e",
-      "es": "¿Puedo sentarme aquí?",
-      "pinyin": "PWEH-dhoh sen-TAR-meh ah-KEE",
-      "pt": "'Can I sit here?' — asked of the two men already at the table, not of the barman.",
-      "tts": "¿Puedo sentarme aquí?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n13",
-      "pt": "A table with four chairs and two men at it is not a full table. The opener is the one from part six."
-    },
-    {
-      "consulta": ["mesa/mesa","chegar/entrar"],
+      "consulta": [
+        "compras/so-olhando"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "PUEDO",
-      "encaixe": "sentarme",
-      "encaixeGloss": "sit down",
-      "promptAudioKey": "i09-p04",
-      "promptPt": "The counter is three deep, there are two spare chairs at a table where two men are watching the screen, and one of them has caught your eye. Speak now.",
-      "audioKey": "i09-sentarme-e",
-      "es": "¿Puedo sentarme aquí?",
-      "pinyin": "PWEH-dhoh sen-TAR-meh ah-KEE",
-      "pt": "at the table with the room at it"
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "δοκιμάσω",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i09-p04",
+      "promptPt": "There is an open tub of olives on the stall and a spoon beside it. Ask before your hand moves. Speak now.",
+      "audioKey": "el-i09-t04",
+      "es": "Μπορώ να δοκιμάσω;",
+      "pinyin": "bo-RO na tho-ki-MA-so",
+      "pt": "Can I try some?",
+      "tts": "Μπορώ να δοκιμάσω;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i09-sientate-c",
-      "es": "Sí, sí, siéntate.",
-      "pinyin": "see, see, SYEN-tah-teh",
-      "pt": "👂 'Go on, sit down.' The chair was never being kept for anybody.",
-      "tts": "Sí, sí, siéntate."
+      "voz": "target_el_m",
+      "audioKey": "el-i09-r02",
+      "es": "Πάρε, δοκίμασε! Δικά μας είναι.",
+      "pt": "Go on, try it! They're ours.",
+      "tts": "Πάρε, δοκίμασε! Δικά μας είναι."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n14",
-      "pt": "One drink lasts the whole half in there. Nobody counts what is in front of you and nobody clears it."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i09-n03",
+      "pt": "Sunday closing was written in 1909, and tavernas, cafés, patisseries and tourist shops were exempt from the start."
     },
     {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i09-n04",
+      "pt": "Which other shops may open has been argued and litigated for years, so ask the one you care about rather than plan on it."
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "transporte/placas"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i09-p05",
-      "promptPt": "Half time, your glass has been empty for ten minutes, and the barman has just looked down the counter at you. Speak now.",
-      "audioKey": "e03a-otra-c",
-      "es": "Otra, por favor.",
-      "pinyin": "OH-trah, por fah-BOR",
-      "pt": "one more of what worked"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n15",
-      "pt": "Third one, and it is the cheapest hour of the day. Seven o'clock, and the square begins to fill up."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n16",
-      "pt": "Everybody out there is at a table with one small drink that has clearly been there a long while."
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i09-p05",
+      "promptPt": "You want to come back on Sunday to this particular counter and the sign gives you nothing. Ask them directly. Speak now.",
+      "audioKey": "el-i09-t05",
+      "es": "Είστε ανοιχτά την Κυριακή;",
+      "pinyin": "EE-ste a-nih-TA tin ki-rya-KEE",
+      "pt": "Are you open on Sunday?",
+      "tts": "Είστε ανοιχτά την Κυριακή;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i09-quetal-e",
-      "es": "¿Y qué tal el barrio? ¿Os gusta?",
-      "pinyin": "ee keh tahl el BAH-rryoh? ohs GOOS-tah",
-      "pt": "👂 'And how's the area? Do you like it?' — from the next table, and aimed at you.",
-      "tts": "¿Y qué tal el barrio? ¿Os gusta?"
+      "voz": "target_el_m",
+      "audioKey": "el-i09-r03",
+      "receptivo": true,
+      "es": "Την Κυριακή τα μαγαζιά είναι κλειστά, αλλά τα καφέ και οι ταβέρνες ανοιχτά.",
+      "pt": "On Sunday the shops are closed, but the cafés and the tavernas are open.",
+      "tts": "Την Κυριακή τα μαγαζιά είναι κλειστά, αλλά τα καφέ και οι ταβέρνες ανοιχτά.",
+      "acao": "Hear the second half. The half of the town you were going to use is the half that stays open."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n17",
-      "pt": "That is a door held open, not small talk. What goes back through it is one thing, and then you stop."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i09-barrio-e",
-      "es": "Me gusta mucho este barrio.",
-      "pinyin": "meh GOOS-tah MOO-choh EHS-teh BAH-rryoh",
-      "pt": "'I like it round here a lot.' The front of it never moves; what you like goes on the end.",
-      "tts": "Me gusta mucho este barrio."
-    },
-    {
-      "consulta": ["simpatia/puxar-conversa","simpatia/elogiar-lugar"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "PREFERENCIA",
-      "encaixe": "este barrio",
-      "encaixeGloss": "round here",
-      "promptAudioKey": "i09-p06",
-      "promptPt": "The man at the next table has asked what you make of where you are both sitting, and he lives four doors up from it. Give him one thing and stop. Speak now.",
-      "audioKey": "i09-barrio-e",
-      "es": "Me gusta mucho este barrio.",
-      "pinyin": "meh GOOS-tah MOO-choh EHS-teh BAH-rryoh",
-      "pt": "one thing, and then stop"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n18",
-      "pt": "Same front, different end. It also takes what you would rather do, which settles most of an evening."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i09-andar-c",
-      "es": "Prefiero andar.",
-      "pinyin": "preh-FYEH-roh an-DAR",
-      "pt": "'I'd rather go on foot.' Two words, and nothing after them by way of a reason.",
-      "tts": "Prefiero andar."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "PREFERENCIA",
-      "encaixe": "andar",
-      "encaixeGloss": "on foot",
-      "promptAudioKey": "i09-p07",
-      "promptPt": "They are getting a taxi over to the other side of the river and there is a seat in it for you, but it is a warm evening and the river is right there. Speak now.",
-      "audioKey": "i09-andar-c",
-      "es": "Prefiero andar.",
-      "pinyin": "preh-FYEH-roh an-DAR",
-      "pt": "what you would rather do"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n19",
-      "pt": "And the same two words you were giving a kitchen two parts ago land on the place itself just as well."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i09-plaza-c",
-      "es": "¡Qué plaza más bonita!",
-      "pinyin": "keh PLAH-thah mahs boh-NEE-tah",
-      "pt": "'What a lovely one this is!' — said out loud, to whoever has walked you into it.",
-      "tts": "¡Qué plaza más bonita!"
-    },
-    {
-      "consulta": ["simpatia/elogiar-lugar"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "APRECIACION",
-      "encaixe": "plaza",
-      "encaixeGloss": "the square",
-      "promptAudioKey": "i09-p08",
-      "promptPt": "They have brought you round a corner into the one with the orange trees and the bandstand in the middle, and they are watching your face. Speak now.",
-      "audioKey": "i09-plaza-c",
-      "es": "¡Qué plaza más bonita!",
-      "pinyin": "keh PLAH-thah mahs boh-NEE-tah",
-      "pt": "about the place they have just shown you"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n20",
-      "tom": "protege",
-      "pt": "One thing runs underneath all three of those, and it takes two minutes because it carries an amount."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n21",
-      "pt": "Almost none of it is national law. The street rules are set by each town hall, one town at a time."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i09-g01",
-      "pt": "GUIRI ALERT. George here, shirtless, two streets up from the sand in Barcelona, feeling absolutely marvellous."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i09-g02",
-      "pt": "A hundred and twenty to three hundred euros, under the civility ordinance in force there since February."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i09-g03",
-      "pt": "Palma is a hundred to two hundred, the whole city. Forty kilometres inland nobody has written anything."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i09-g04",
-      "pt": "The shirt lives in the bag now. On at the edge of the sand, not at the hotel door. Took me one afternoon."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n22",
-      "pt": "The other one is the can in your hand. In the street it is a hundred to six hundred, right across Spain."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n23",
-      "pt": "In Barcelona with children about, up to fifteen hundred. On the terrace table two metres away: nothing."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i09-nosepuede-e",
-      "es": "Aquí no se puede.",
-      "pinyin": "ah-KEE noh seh PWEH-dheh",
-      "pt": "👂 'You can't, here.' Four words end it. Put it down, or carry it to a table.",
-      "tts": "Aquí no se puede."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n24",
-      "pt": "Two more from the same ordinance. The bag off the blanket is up to six hundred — for the one buying."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n25",
-      "pt": "And the night on the beach is five hundred, towel or tent. The nap after lunch is left alone entirely."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n26",
-      "pt": "Since February, Barcelona takes it from a visitor on the spot. The officers walk about with card machines."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "c03a-05",
-      "es": "Aquí no se puede ir sin camiseta.",
-      "pinyin": "ah-KEE noh seh PWEH-dheh eer seen kah-mee-SEH-tah",
-      "pt": "👂 'You can't go about here with no shirt on.' — what he says first, and it is a chance, not a fine.",
-      "tts": "Aquí no se puede ir sin camiseta."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "c03a-06",
-      "es": "Perdón, no lo sabía. Ahora mismo me la pongo.",
-      "pinyin": "pehr-DOHN, noh loh sah-BEE-ah. ah-OH-rah MEES-moh meh lah POHN-goh",
-      "pt": "'Sorry, I had no idea. I'm putting it on now.' Two halves: the not-knowing, then the fixing.",
-      "tts": "Perdón, no lo sabía. Ahora mismo me la pongo."
-    },
-    {
-      "consulta": ["apuro/denuncia"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i09-p09",
-      "promptPt": "You are still bare-chested three streets up, and an officer has changed direction and is coming straight at you. Get out in front of it. Speak now.",
-      "audioKey": "c03a-06",
-      "es": "Perdón, no lo sabía. Ahora mismo me la pongo.",
-      "pinyin": "pehr-DOHN, noh loh sah-BEE-ah. ah-OH-rah MEES-moh meh lah POHN-goh",
-      "pt": "the one that stops it where it is"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n27",
-      "pt": "Said before he opens his mouth, that ends most of these at a word. Same voice you order a coffee in."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n50",
-      "pt": "And if it is going ahead anyway, two things belong in your mouth before you tap anything on that machine."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "c03a-20",
-      "es": "¿De cuánto es la multa?",
-      "pinyin": "deh KWAN-toh es lah MOOL-tah",
-      "pt": "How much is it? — the amount, before the card comes out of your pocket.",
-      "tts": "¿De cuánto es la multa?"
-    },
-    {
-      "consulta": ["apuro/denuncia"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "c03a-21",
-      "promptPt": "The officer has your passport in one hand and is reaching for the card machine with the other. Before you tap anything, ask what this is going to cost. Speak now.",
-      "audioKey": "c03a-22",
-      "es": "¿De cuánto es la multa?",
-      "pinyin": "deh KWAN-toh es lah MOOL-tah",
-      "pt": "How much is the fine?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i09-lanotificacion-c",
-      "es": "Eso lo pone la notificación. Yo solo levanto el acta.",
-      "pinyin": "EH-soh loh POH-neh lah noh-tee-fee-kah-THYON. yoh SOH-loh leh-BAN-toh el AK-tah",
-      "pt": "👂 'The notice will say. I only file the report.' — the amount is not decided at the kerb, and arguing there buys nothing.",
-      "tts": "Eso lo pone la notificación. Yo solo levanto el acta."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n51",
-      "pt": "The second one you have owned since the hire desk: ask for it in writing. The receipt is your proof you paid."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n28",
-      "pt": "One last one, and it runs on a camera instead of a person. It decides how you arrive at any of this."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n29",
-      "pt": "Since January, every town over fifty thousand runs a low-emission zone. The camera reads the plate."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n30",
-      "pt": "Up to two hundred euros, halved if you pay early. And the sticker that lets a car in is issued only in Spain."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n31",
-      "tom": "ganha",
-      "pt": "Which gives the afternoon its shape: park outside, walk in. An old town is a few streets across anyway."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n32",
-      "tom": "protege",
-      "pt": "One dated thing, because it may have moved by the time you fly. It is about the terrace you are sat on."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n33b",
-      "pt": "As of July twenty twenty-six, smoking and vaping on one is still legal. Indoors has been out since 2011."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n33c",
-      "tom": "ganha",
-      "pt": "A bill that would end both went to parliament in July. Going after that? Ask at the bar. One question."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n33",
-      "pt": "Fourth afternoon, and it is the one you cannot plan. The street you walked yesterday is closed off."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n34",
-      "pt": "A band on a flatbed, a crowd four deep, and nobody at either end selling anything or checking anyone."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n35",
-      "pt": "The door is the end of the street. You stand at the edge, on your feet, and you stay for all of it."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i09-foto-c",
-      "es": "¿Puedo sacar una foto?",
-      "pinyin": "PWEH-dhoh sah-KAR OO-nah FOH-toh",
-      "pt": "'Can I take a picture?' — asked of the face you are about to point the thing at.",
-      "tts": "¿Puedo sacar una foto?"
-    },
-    {
-      "consulta": ["simpatia/puxar-conversa"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "PUEDO",
-      "encaixe": "sacar una foto",
-      "encaixeGloss": "take a picture",
-      "promptAudioKey": "i09-p10",
-      "promptPt": "The band has stopped right in front of you and a woman in the costume is laughing two metres away with her hands full. Your phone is already up. Speak now.",
-      "audioKey": "i09-foto-c",
-      "es": "¿Puedo sacar una foto?",
-      "pinyin": "PWEH-dhoh sah-KAR OO-nah FOH-toh",
-      "pt": "before the phone goes up"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n36",
-      "pt": "Ask it once and it is nearly always yes. Ask nobody, and you are the only one holding a screen up."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n37",
-      "pt": "And if the crowd goes quiet and stops moving, you stop too. The phone waits until it has gone past."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n40",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i09-n05",
       "bloco": "capsula",
-      "tom": "ganha",
-      "pt": "Back to the square, and the thing that makes the whole afternoon cheap. The chair is bought once."
+      "pt": "Coffee is the unit of the afternoon, not the fuel for it. One freddo buys the table for as long as you want it."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i09-p06",
+      "promptPt": "It is four in the afternoon, thirty-one degrees, and every table around you has the same tall glass. Order one. Speak now.",
+      "audioKey": "el-i09-t06",
+      "es": "Έναν φρέντο εσπρέσο, παρακαλώ.",
+      "pinyin": "E-nan FRE-do e-SPRE-so, pa-ra-ka-LO",
+      "pt": "One freddo espresso, please.",
+      "tts": "Έναν φρέντο εσπρέσο, παρακαλώ."
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "καθίσω εδώ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i09-p07",
+      "promptPt": "There is one free table under the tree and nobody has looked up at you yet. Ask before you sit. Speak now.",
+      "audioKey": "el-i09-t07",
+      "es": "Μπορώ να καθίσω εδώ;",
+      "pinyin": "bo-RO na ka-THEE-so e-DO",
+      "pt": "Can I sit here?",
+      "tts": "Μπορώ να καθίσω εδώ;"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i09-p08",
+      "promptPt": "The person who brought your coffee is standing there with nothing to do. Ask what the day looks like from the inside. Speak now.",
+      "audioKey": "el-i09-t08",
+      "es": "Τι κάνει ο κόσμος εδώ την Κυριακή;",
+      "pinyin": "ti KA-ni o KO-zmos e-DO tin ki-rya-KEE",
+      "pt": "What do people do here on Sunday?",
+      "tts": "Τι κάνει ο κόσμος εδώ την Κυριακή;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n41",
-      "pt": "One order holds the table, and the hour after it is what the order was for. Nobody counts you out."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i09-n06",
+      "pt": "The square after dark is the other half of it. Ask what is on tonight instead of looking it up on a screen."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n42",
-      "pt": "Not on a station concourse, mind. There the chairs turn over, and somebody really is waiting for yours."
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i09-p09",
+      "promptPt": "Chairs are being carried into the square and something is clearly being set up. Ask about tonight. Speak now.",
+      "audioKey": "el-i09-t09",
+      "es": "Έχει κάτι απόψε στην πλατεία;",
+      "pinyin": "E-hi KA-ti a-PO-pse stin pla-TEE-a",
+      "pt": "Is there something on in the square tonight?",
+      "tts": "Έχει κάτι απόψε στην πλατεία;"
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n43",
-      "bloco": "permissao",
-      "pt": "You can walk a whole market and buy nothing. You can make one drink last a whole half in that bar."
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i09-r04",
+      "receptivo": true,
+      "es": "Ναι, έχει μουσική στις εννιά. Ελάτε!",
+      "pt": "Yes, there's music at nine. Come along!",
+      "tts": "Ναι, έχει μουσική στις εννιά. Ελάτε!",
+      "acao": "That last word is an invitation, and it is in the plural — it is aimed at your whole table."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n44",
-      "pt": "And you can stand in the middle of somebody else's street party. There is no ticket to be without."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n45",
-      "bloco": "espelho",
-      "pt": "Buying a second one every twenty minutes to earn the chair is the bit that reads as odd out there."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n46",
-      "bloco": "clique",
-      "tom": "ganha",
-      "pt": "Count the places. The market. The corner bar. The square. The terrace table beside the road."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n47",
-      "pt": "Nobody handed you those sentences. You owned the frame already, and the afternoon changed what went in it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n48",
-      "bloco": "piso",
-      "pt": "You will spend an afternoon where they spend it and pay what they pay. Most visitors never leave the front."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-s00",
-      "pt": "Shadowing. Out loud, underneath them, one tap on every r. The two you will want this afternoon:"
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i09-p10",
+      "promptPt": "You have finished the coffee, the light is going, and the person you came with is on their phone. Propose the obvious. Speak now.",
+      "audioKey": "el-i09-t10",
+      "es": "Πάμε μια βόλτα;",
+      "pinyin": "PA-me mia VOL-ta",
+      "pt": "Shall we go for a walk?",
+      "tts": "Πάμε μια βόλτα;"
     },
     {
       "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "i09-plaza-c",
-      "molde": "APRECIACION",
-      "es": "¡Qué plaza más bonita!",
-      "pinyin": "keh PLAH-thah mahs boh-NEE-tah",
-      "pt": "What a lovely square this is!"
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "i09-foto-c",
-      "molde": "PUEDO",
-      "es": "¿Puedo sacar una foto?",
-      "pinyin": "PWEH-dhoh sah-KAR OO-nah FOH-toh",
-      "pt": "Can I take a picture?"
+      "voz": "target_el_f",
+      "audioKey": "el-i09-s01",
+      "es": "Ψάχνω τη λαϊκή αγορά. Μπορώ να δοκιμάσω; Έχει κάτι απόψε στην πλατεία;",
+      "pinyin": "PSA-hno ti la-i-KEE a-go-RA. bo-RO na tho-ki-MA-so. E-hi KA-ti a-PO-pse stin pla-TEE-a",
+      "pt": "Shadow the three questions that turn an empty afternoon into their afternoon.",
+      "tts": "Ψάχνω τη λαϊκή αγορά. Μπορώ να δοκιμάσω; Έχει κάτι απόψε στην πλατεία;",
+      "molde": "PSAXNO"
     },
     {
       "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "i09-rend",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i09-n07",
       "bloco": "recap",
-      "pt": "One more out loud, somewhere we have not stood yet, and this time nobody has offered you anything."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "PUEDO",
-      "encaixe": "sentarme",
-      "encaixeGloss": "sit down",
-      "promptAudioKey": "i09-p11",
-      "promptPt": "The band has gone past, the bar on the corner has one free stool left, and the man beside it has his coat over the back of it. Speak now.",
-      "audioKey": "i09-sentarme-e",
-      "es": "¿Puedo sentarme aquí?",
-      "pinyin": "PWEH-dhoh sen-TAR-meh ah-KEE",
-      "pt": "at the stool with the coat on it"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i09-n49",
-      "pt": "That is it. Four afternoons, no tickets, and the shirt lives in the bag from here on. Hasta luego."
+      "pt": "I09 done. Market early, one coffee for an hour, and a question in the square about tonight."
     }
   ],
-
   "aprofundar": {
-    "titulo": "Who writes the rule, and the three questions that get you through an afternoon (optional reading)",
+    "titulo": "An afternoon, in three moves",
     "secoes": [
       {
-        "titulo": "Cuál, and why a two-way question beats an open one",
-        "corpo": "'¿Qué me recomienda?' is the question everybody teaches and almost nobody can survive the answer to: it is open, and what comes back is a sentence at full speed with four nouns in it that you have never heard. '¿Cuál me llevo, este o aquel?' does the same social work — you are still handing the decision to the person who knows — but the answer can only be one of two things you are already looking at, and it will arrive as 'este' with a finger. That is the whole trick, and it is the same trick as '¿Hay…?' from part eight: make the reply fit in your head. Cuál is 'which one' when you are choosing between things already in view; qué is 'what' when nothing has been put in front of you yet. You will hear both and you only need one. Note that you never have to name either object: 'este' and 'aquel' — this one, that one over there — plus a finger, will do it at a cheese counter, a fishmonger's, a wine shelf and a bakery.",
+        "titulo": "The two openings carry the whole day",
+        "corpo": "Ψάχνω puts a thing or a place after it — τη λαϊκή αγορά, κάτι ντόπιο, την πλατεία — and works even when you do not know whether the thing exists nearby. Μπορώ να puts an action after it — δοκιμάσω, καθίσω εδώ, περάσω — and is the question you need at a stall, at a table and at a door. Neither changes shape when you change what follows it.",
         "exemplos": [
           {
-            "es": "¿Cuál me llevo, este o aquel?",
-            "pt": "KWAHL meh YEH-boh — which do I take, this one or that one?"
+            "es": "Ψάχνω κάτι ντόπιο.",
+            "pt": "I'm looking for something local."
           },
           {
-            "es": "¿Cuál está mejor hoy?",
-            "pt": "KWAHL ehs-TAH meh-KHOR oy — which is best today? (when there are more than two and you would rather she decided)"
+            "es": "Μπορώ να δοκιμάσω;",
+            "pt": "Can I try some?"
           }
         ]
       },
       {
-        "titulo": "Me gusta and prefiero — the front that never moves",
-        "corpo": "Both of these are learnt whole, with the thing you like hung off the end, and you never take the front of either apart. 'Me gusta' plus a thing — me gusta este barrio, me gusta el vino tinto, me gusta mucho. 'Prefiero' plus a thing or plus an action — prefiero andar, prefiero el tinto, prefiero sentarme fuera. There is an old exam question about which word in 'me gusta' is doing what, and it is genuinely of no use to you at a table: the recorded version is the version, and it has never let anybody down in a square. Two things worth knowing. First, 'me gusta mucho' is warmer than 'me gusta' and costs one word, so spend it. Second, when they ask you in the plural — '¿os gusta?' — they are asking the two of you, and the answer is still 'me gusta' or 'nos gusta' and either is fine. The neighbouring one you will hear all evening and never need to produce is '¿qué te parece?' — what do you make of it — and 'me gusta mucho' is a complete answer to that too.",
-        "exemplos": [
-          {
-            "es": "Prefiero sentarme fuera.",
-            "pt": "preh-FYEH-roh sen-TAR-meh FWEH-rah — I'd rather sit outside"
-          },
-          {
-            "es": "Nos gusta mucho.",
-            "pt": "nohs GOOS-tah MOO-choh — we like it a lot (when the question came at both of you)"
-          }
-        ]
+        "titulo": "Sunday, and the exception that is older than the rule",
+        "corpo": "Sunday closing dates from 1909, and the first version already exempted restaurants, tavernas, patisseries, cafés and shops selling goods to visitors. The current framework is article 16 of law 4177/2013, with its own list of exceptions — the Sundays before Christmas, the sale periods, the first Sunday of May and of November — and tourist zones designated by ministerial decision. The practical reading is short: the eating-and-drinking half of a town is open on a Sunday and always has been."
       },
       {
-        "titulo": "Se puede — the sentence with nobody in it",
-        "corpo": "You will hear 'aquí no se puede' — you can't, here — more than almost anything else on this trip, on a square at midnight, at a museum door, in a chapel with a phone in your hand. It is worth recognising instantly and it is worth understanding why it sounds blunt and is not: there is no 'you' in it at all. It does not say you are not allowed; it says the thing is not done here. That is why it comes out flat and why nobody is being told off. The question form, '¿se puede beber aquí?', is the least confrontational question in the language for exactly the same reason, and if you want it, it is yours — but we have deliberately not drilled it, because '¿Puedo…?' from part six already gets you the same answer and you have already paid for it. Where 'se puede' earns its keep is on the receiving end: hear it, put the thing down or walk on, and there is nothing else to say.",
-        "exemplos": [
-          {
-            "es": "Aquí no se puede.",
-            "pt": "ah-KEE noh seh PWEH-dheh — 👂 you can't, here. Not a telling-off; a statement about the place"
-          },
-          {
-            "es": "¿Se puede pasar?",
-            "pt": "seh PWEH-dheh pah-SAR — 👂 may one come through? Said at a doorway, and to nobody in particular"
-          }
-        ]
+        "titulo": "What is not settled, and how to handle it",
+        "corpo": "Which other categories of shop may trade on a Sunday has moved more than once, and at least one liberalisation was struck down as unconstitutional. That is a live argument and this course has no opinion in it — but it does mean that any list of Sunday opening rules you read online may be out of date. Είστε ανοιχτά την Κυριακή; asked at the actual counter beats any list."
       },
       {
-        "titulo": "Who actually writes these rules, and where to look before you go",
-        "corpo": "The single most useful thing in this part is not a number, it is the shape: the street rules that carry an amount are municipal ordinances, written by each ayuntamiento, and there is no national table of them. That is why the same shirtless walk is €120 to €300 in Barcelona under the civility ordinance in force since February 2026, €100 to €200 across the whole of Palma de Mallorca, and nothing at all in a village forty kilometres inland. The exceptions that are national are few and worth knowing by name: drinking in the street sits in the 2015 public security act at €100 to €600, and the taxi you take without a licence can cost the passenger up to €600 under the same sort of provision — that one comes from the UK Foreign Office's own advice for Spain. What changed in 2026, and what makes the old advice that 'they will never chase you for it' out of date, is collection: the Barcelona ordinance requires a non-resident to pay on the spot and the Guàrdia Urbana carry card readers. If you want the actual text before you travel, the search that works is the name of the town plus 'ordenanza de civismo' or 'ordenanza de convivencia' — every ayuntamiento publishes its own, in full, free.",
-        "exemplos": [
-          {
-            "es": "¿De cuánto es la multa?",
-            "pt": "deh KWAN-toh es lah MOOL-tah — how much is it? Ask before anything is tapped"
-          },
-          {
-            "es": "¿Me lo puede dar por escrito, por favor?",
-            "pt": "por ehs-KREE-toh — could you give me that in writing? The receipt is your only proof you paid"
-          }
-        ]
+        "titulo": "The coffee is the table, not the drink",
+        "corpo": "Ordering a freddo espresso or a freddo cappuccino buys the seat, and there is no expectation that finishing it means leaving. Nobody will bring the bill until you ask for it. If you want an hour in a square with a book, one glass is the entire cost of the hour, and the second one is optional."
       },
       {
-        "titulo": "The car, the sticker and the camera",
-        "corpo": "The low-emission zone is the one rule in this part that is enforced without a human being anywhere near it, and it is the reason the afternoon starts with where you leave the car. Since 1 January 2026, every Spanish municipality over fifty thousand inhabitants has had to operate one, and they sit exactly where the old town is. A camera reads the plate; the penalty is a serious infraction at up to €200, halved to €100 if you pay within twenty days of the notice. The structural trap is the sticker: the DGT environmental badge is issued only to vehicles registered in Spain, so a British car does not have one and cannot simply buy one at the border — several cities run a foreign-vehicle register instead, which you complete online, city by city, before you drive in. A hire car is not automatically safe either: it carries a Spanish plate and a badge, but you still need to know which category it is in, and if a fine does arrive the hire company passes it to you with an administrative fee attached. The practical rule survives all of that unchanged: see the letters, park outside, walk in. Historic centres are small and walking them was the plan.",
-        "exemplos": [
-          {
-            "es": "¿Este coche tiene etiqueta ambiental? ¿Cuál?",
-            "pt": "eh-tee-KEH-tah am-byen-TAL — does this car have an emissions badge, and which one? Asked at the hire desk, not at the barrier"
-          },
-          {
-            "es": "¿Dónde puedo aparcar sin entrar?",
-            "pt": "seen en-TRAR — where can I park without going in?"
-          }
-        ]
-      },
-      {
-        "titulo": "The vape, with a date written on it",
-        "corpo": "This is the most perishable thing in the whole course and it is being told to you with its date attached on purpose. As of July 2026 the position is: smoking indoors has been illegal in Spain since 2011, and smoking or vaping on a bar or restaurant terrace is still legal. On 21 July 2026 the cabinet approved a draft bill that would ban both on terraces, on beaches, at public pools, in sports grounds and national parks, would create fifteen-metre protection zones around hospitals, schools and playgrounds, and would for the first time treat an electronic cigarette, a nicotine pouch, a water pipe and heated tobacco exactly like a cigarette, whether or not there is nicotine in them. It is a draft, it is in a fragmented parliament, and nobody can honestly tell you today what month it lands. So the honest instruction is the one in the audio: if you are travelling after this, ask at the bar before you light anything, and take the answer from the person who would be fined rather than from us. This entry is on the review list for every edition of the course.",
-        "exemplos": [
-          {
-            "es": "¿Se puede fumar aquí?",
-            "pt": "seh PWEH-dheh foo-MAR — is smoking allowed here? The one question that settles it, asked of the bar"
-          },
-          {
-            "es": "¿Puedo vapear en la terraza?",
-            "pt": "bah-peh-AR — can I vape on the terrace? Same answer, same person"
-          }
-        ]
+        "titulo": "Βόλτα and the square",
+        "corpo": "Πάμε μια βόλτα; is a walk with no destination attached, usually after the heat drops, usually ending at whatever the square is doing. Έχει κάτι απόψε στην πλατεία; is how you find out what that is, and it is a better source than a listings page in a town small enough that the chairs are being carried out in front of you."
       }
     ]
-  }
+  },
+  "slot": "I09",
+  "permissao": "You are allowed to spend an afternoon doing almost nothing. One coffee, one table, one hour is not a wasted day here — it is the day. And you are allowed to ask a person what is on tonight instead of searching for it, which in a town of any size is also the faster method.",
+  "permissaoAudioKey": "el-i09-n05",
+  "espelho": "Anyone who has spent a holiday afternoon walking briskly between the things on a list, arriving at each one slightly out of breath, already knows the feeling of having seen a place without ever sitting down in it. Nothing about that is Greek. It is what happens when the day has a list instead of a square.",
+  "fichasCulturais": [
+    {
+      "sinal": "It is Sunday morning, every shutter on the street is down, and the day looks like a write-off.",
+      "suaLeitura": "Everything is closed and there is nothing to do until tomorrow.",
+      "oQueEAli": "Sunday closing was instituted in 1909 and already exempted restaurants, tavernas, patisseries, cafés and shops selling goods to visitors; the current framework is article 16 of law 4177/2013, with listed exceptions and tourist zones set by ministerial decision. The half of town you were actually going to use was never inside the rule.",
+      "oQueVoceFaz": "Walk to where the tables are rather than where the shops are. If a specific counter matters to you, ask it directly: Είστε ανοιχτά την Κυριακή;",
+      "oQueMelhora": "Sunday stops being a lost day and becomes the day the eating-and-sitting side of the town is busiest, which is also when it is most worth watching.",
+      "ondeNaoVale": "Not a promise about shops. Which other categories may open on a Sunday has changed repeatedly and one liberalisation was struck down as unconstitutional, so treat any published list as possibly stale — and a designated tourist zone in one city says nothing about the next town.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i09-n03",
+        "el-i09-n04"
+      ]
+    },
+    {
+      "sinal": "You finish your coffee, and nothing happens — no bill, no second look, no one clearing the glass.",
+      "suaLeitura": "I have been forgotten, or I am supposed to leave now.",
+      "oQueEAli": "The order bought the table, not just the drink. The bill arrives when it is asked for, and an empty glass is not read as a signal that you are done sitting there.",
+      "oQueVoceFaz": "Stay as long as you want to. When you do want to go, ask for it out loud: τον λογαριασμό, παρακαλώ.",
+      "oQueMelhora": "You stop rushing an hour that was never on a clock, and you stop reading a slow table as bad service.",
+      "ondeNaoVale": "Not at a packed place at its busiest with people waiting outside, and not where a queue has formed behind you at a counter with no seating. Read the room before you settle in for the second hour.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-i09-n05"
+      ]
+    }
+  ]
 }

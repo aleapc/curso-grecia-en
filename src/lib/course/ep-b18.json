@@ -1,724 +1,392 @@
 {
   "id": "b18",
-  "slot": "B18",
   "nivel": "basico",
   "numero": 18,
   "parte": "B18",
-  "titulo": "The last morning, and the jacket you left in the taxi",
-  "subtitulo": "Checking out, leaving the cases behind the hotel desk for the day, and the one sentence that sends a barman to go and look",
+  "titulo": "The last morning — μπορώ να αφήσω, and the goodbye that gets you asked back",
+  "subtitulo": "Check-out is at eleven and your flight is at nine, and the hours in between are still yours",
+  "cena": "Reception again, one week later. The key is going back across the counter, the bag has nowhere to be, and the island has one more afternoon in it.",
   "moldura": "ganha",
-
-  "cena": "Twenty to eight in the morning, the case is already in the taxi boot, and your phone is on the counter of the bar where you had the last coffee.",
-
-  "clique": {
-    "contagem": [
-      "the bar",
-      "the lift",
-      "the taxi office",
-      "the counter"
-    ],
-    "desconto": "Nobody handed you those four sentences. You built all four out of one, in an hour, on the way to the airport.",
-    "piso": "You will get the thing back, because you said the sentence that starts a search. Most people who leave something behind here never ask at all."
-  },
-  "cliqueAudioKey": "b18-n23",
-
-  "frasePiso": "You will get the thing back, because you said the sentence that starts a search. Most people who leave something behind here never ask at all.",
-
-  "permissao": "You are allowed to say the one Spanish sentence and then carry on in English — the Spanish part is only there to start them looking. You are allowed to leave the cases at the hotel desk after you have handed the key back, and to come for them at six. A last day with nine hours in the middle of it is the ordinary shape of a last day, and that desk sees it every week.",
-  "permissaoAudioKey": "b18-n22",
-
-  "espelho": "Apologising for the twenty seconds it takes them to look under the counter is the bit that reads as odd there. Nobody has been put out. You left a thing, they go and look.",
-
-  "fichasCulturais": [
-    {
-      "sinal": "You use the word for stolen in the bar where you had breakfast, and the barman's face closes and he starts answering for the bar.",
-      "suaLeitura": "He has gone defensive, so somebody in here probably did take it, and I am not seeing it again.",
-      "oQueEAli": "Two sentences that feel close in English go to different counters here. Me han robado is an accusation and belongs at a police desk; me he dejado says the thing is where you put it, and it is the one that sends somebody to look under the till.",
-      "oQueVoceFaz": "Say me he dejado, name the thing, name the place, and then ask whether they have found it.",
-      "oQueMelhora": "The bar searches for you instead of defending itself from you, and the search starts in the twenty seconds you are standing there.",
-      "ondeNaoVale": "Not at a police counter after a real theft. There me han robado is exactly the right sentence and the one the report is written from — that is part seventeen, not this one.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["b18-n05", "b18-robado-e", "b18-dejado-c", "b18-n08"]
-    },
-    {
-      "sinal": "At check-out the desk asks you for another forty-odd euros for nights you already settled online, and sometimes wants it in cash.",
-      "suaLeitura": "I have been billed twice, and they have left it to the last morning because they know I am in a hurry.",
-      "oQueEAli": "A nightly tourist tax exists in Catalonia, the Balearics and, since 2026, the Basque Country. The property collects it for the region, and it is almost never inside the price you paid online.",
-      "oQueVoceFaz": "Ask whether it is included on the first morning, and keep a few small notes back for the last one.",
-      "oQueMelhora": "You leave with the invoice you came for and the taxi still waiting, instead of a conversation at the door with the meter running.",
-      "ondeNaoVale": "Not in most of the country. In Madrid or Andalusia nobody asks you for it, because there is nothing there to ask for.",
-      "evidencia": "FATO",
-      "audioKeys": ["b18-n13", "b18-n14", "e07a-tasa-e", "b18-n15"]
-    }
-  ],
-
+  "frasePiso": "Μπορώ να αφήσω τις βαλίτσες — and the day stays yours until the gate.",
+  "moldes": [],
   "fatosDatados": [
     {
-      "id": "tasa-turistica-onde",
-      "afirmacao": "There is a nightly tourist tax in Catalonia, the Balearics and, since 2026, the Basque Country, and it is almost never inside the price you paid online.",
-      "fonte": "docs/pesquisa-espanha.md §8.2 — entrada do País Basco em 2026. ⚠️ A atribuição de Canárias vem de fonte agregadora e conflita com outra fonte (R6 da pesquisa): NÃO é afirmada no áudio. Mesmo id declarado em ep-e07a (B16), onde o fato nasce.",
+      "id": "el-b18-oasa",
+      "afirmacao": "In Athens the metro to the airport costs €9.00 one way and €16.00 return, and the Express bus to the airport is €5.50. The ordinary integrated ticket, valid 90 minutes, is €1.20; a day is €4.10, five days €8.20 and the three-day tourist ticket €20.00. Validity is counted from the first validation, so validating is the act that starts the clock.",
+      "fonte": "Atenas (ΟΑΣΑ, oasa.gr): integrado 90 min €1,20; diário €4,10; 5 dias €8,20; turístico 3 dias €20,00; metrô aeroporto €9,00 / €16,00 ida e volta; Express aeroporto €5,50. Validade conta «since its first validation» — a validação é o fato gerador.",
       "ano": 2026,
-      "revisarAte": "2027-04-01",
-      "evidencia": "FATO",
-      "risco": "alto",
-      "audioKeys": ["b18-n13", "b18-n14"]
-    },
-    {
-      "id": "taxi-tarifa-fija-madrid",
-      "afirmacao": "In Madrid the taxi between the airport and any address inside the M-30 is a fixed thirty-three euros, at any hour, with no surcharges allowed.",
-      "valor": "€33",
-      "fonte": "docs/pesquisa-espanha.md §8.4 — tarifa fixa Barajas ↔ qualquer endereço dentro da M-30, 24h, sem recargos (era €30 até 01/01/2024); as tarifas de táxi de Madri subiram 2,36% em 2026 e o valor fixo é revisto por ordenança.",
-      "ano": 2026,
-      "revisarAte": "2027-01-01",
+      "revisarAte": "2027-08-05",
       "evidencia": "FATO",
       "risco": "medio",
-      "audioKeys": ["b18-n16b"]
+      "audioKeys": [
+        "el-b18-n05"
+      ]
     },
     {
-      "id": "tasa-barcelona-12",
-      "afirmacao": "In Barcelona the total for a five-star or luxury hotel reached twelve euros a night on 1 April 2026, with the municipal surcharge on a published schedule to keep climbing to 2029.",
-      "valor": "€12/noite no total (5★/gran lujo, Barcelona, desde 01/04/2026)",
-      "fonte": "docs/pesquisa-espanha.md §8.2, citando o calendário do recargo municipal de Barcelona (até €8 em 2029). ⚠️ A pesquisa diz «€12 por noite no total» e NÃO diz «por pessoa». Mesmo id declarado em ep-e07a (B16). Neste episódio o número vive SÓ no `aprofundar`, nunca no áudio.",
-      "ano": 2026,
-      "revisarAte": "2027-04-01",
+      "id": "el-b18-akteploika",
+      "afirmacao": "A Greek ferry ticket is nominal by law: name, sex, nationality and date of birth are registered with the ticket. The practical consequence is that you cannot buy a ticket in someone else's name and you cannot pass an unused ticket on to another traveller.",
+      "fonte": "Bilhete de balsa é NOMINAL por lei. π.δ. 23/1999, alterado pelo π.δ. 102/2019 (Diretiva UE 2017/2109): registro de nome, sexo, nacionalidade, data de nascimento. Consequência a ensinar: não se compra bilhete para outra pessoa nem se repassa bilhete.",
+      "ano": 2019,
+      "revisarAte": "2028-08-05",
       "evidencia": "FATO",
-      "risco": "alto"
-    },
-    {
-      "id": "ees-saida-reuso-do-perfil",
-      "afirmacao": "The border system records your exit as well as your entry, and once your profile exists the second pass is much faster than the first. The ninety-days-in-any-one-hundred-and-eighty count is now automatic and centralised.",
-      "fonte": "Comissão Europeia, DG HOME — Regulamento (UE) 2025/1534, plenamente operacional em 10/abr/2026; síntese em docs/pesquisa-espanha.md §8.1 («registra data/local de entrada e saída»; «vezes seguintes, reuso do perfil, muito mais rápido»; «a contagem 90/180 é agora automática e centralizada»). A segunda frase vive só no `aprofundar`.",
-      "ano": 2026,
-      "revisarAte": "2026-12-01",
-      "evidencia": "FATO",
-      "risco": "alto",
-      "audioKeys": ["b18-n18", "b18-n19"]
+      "risco": "medio",
+      "audioKeys": [
+        "el-b18-n06"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n01",
-      "bloco": "aquecimento",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b18-n01",
       "gesto": 1,
-      "tom": "ganha",
-      "pt": "Part eighteen, and it is the last one. Warm-up: metronome hand. One tap a syllable, all the same size."
+      "bloco": "aquecimento",
+      "pt": "Last morning. Check-out is early, the flight is not, and the gap between them is the whole point."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n02",
-      "pt": "De-ja-do. Three taps, three the same. English swallows the middle one. The hand will not let you."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "bloco": "callback",
-      "molde": "ME-PUEDE",
-      "encaixe": "el dolor de estómago",
-      "encaixeGloss": "a stomach ache",
-      "promptAudioKey": "b18-p01",
-      "promptPt": "Something from last night's goodbye dinner is still arguing with you, and there is a green cross two doors down. Ask the woman behind that counter. Speak now.",
-      "audioKey": "e08a-estomago-e",
-      "es": "¿Me puede recomendar algo para el dolor de estómago?",
-      "pinyin": "meh PWEH-dheh rreh-koh-men-DAR AL-goh PAH-rah el doh-LOR deh ehs-TOH-mah-goh",
-      "pt": "something for that"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n03",
-      "bloco": "cena",
-      "pt": "Twenty to eight in the morning. The case is already in the taxi boot, and you are patting your pockets."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n04",
-      "pt": "Your phone is on the counter of the bar where you had the last coffee. You have about eleven minutes."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n05",
-      "pt": "There are two ways to say that here, and only one of them ends with the phone back in your hand."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b18-robado-e",
-      "es": "Me han robado el móvil.",
-      "pinyin": "meh ahn rroh-BAH-dhoh el MOH-beel",
-      "pt": "👂 'My phone has been stolen.' — the police counter sentence, and part seventeen's, not this morning's.",
-      "tts": "Me han robado el móvil."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b18-dejado-c",
-      "es": "Me he dejado el móvil en el bar.",
-      "pinyin": "meh eh deh-KHAH-dhoh el MOH-beel en el bar",
-      "pt": "I've left my phone in the bar. — nobody did anything to you; it is where you put it.",
-      "tts": "Me he dejado el móvil en el bar."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n06",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b18-n02",
       "bloco": "molde",
-      "pt": "The frame is me he dejado — the one from the taxi on night one. It never moves. Then the thing, then where."
+      "pt": "Ask them to keep the bags before you hand back the key. That request buys the day back."
+    },
+    {
+      "consulta": [
+        "quarto/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b18-p01",
+      "promptPt": "You are at the desk at half past ten with the key in your hand. Open the check-out. Speak now.",
+      "audioKey": "el-b18-t01",
+      "es": "Καλημέρα, φεύγω σήμερα.",
+      "pinyin": "ka-li-ME-ra, FEV-gho SEE-me-ra",
+      "pt": "Good morning, I'm leaving today.",
+      "tts": "Καλημέρα, φεύγω σήμερα."
+    },
+    {
+      "consulta": [
+        "quarto/mala"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "αφήσω τις βαλίτσες μέχρι το βράδυ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b18-p02",
+      "promptPt": "The room goes back at eleven and your flight is at nine tonight. Ask before you hand the key over. Speak now.",
+      "audioKey": "el-b18-t02",
+      "es": "Μπορώ να αφήσω τις βαλίτσες μέχρι το βράδυ;",
+      "pinyin": "bo-RO na a-FEE-so tis va-LEE-tses ME-khri to VRA-thi",
+      "pt": "Can I leave my bags until this evening?",
+      "tts": "Μπορώ να αφήσω τις βαλίτσες μέχρι το βράδυ;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b18-chaqueta-e",
-      "es": "Me he dejado la chaqueta en el taxi.",
-      "pinyin": "meh eh deh-KHAH-dhoh lah chah-KEH-tah en el TAK-see",
-      "pt": "I've left my jacket in the taxi.",
-      "tts": "Me he dejado la chaqueta en el taxi."
+      "voz": "target_el_m",
+      "audioKey": "el-b18-r01",
+      "es": "Φυσικά. Θα τις βάλω στον χώρο αποσκευών.",
+      "pt": "Of course. I'll put them in the luggage room.",
+      "tts": "Φυσικά. Θα τις βάλω στον χώρο αποσκευών.",
+      "receptivo": true,
+      "acao": "The bags now live somewhere with a door. Ask what time that door is staffed until."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n07",
-      "pt": "Two little pieces: the thing, and then where. En el taxi. En el tren. En la habitación. Aquí."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b18-n03",
+      "bloco": "corpo",
+      "pt": "Μπορώ να still opens everything on this floor. Leave the bag, hand back the key, call a car."
     },
     {
+      "consulta": [
+        "quarto/checkout"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "ME-HE-DEJADO",
-      "encaixe": "el móvil",
-      "encaixeGloss": "the phone",
-      "promptAudioKey": "b18-p02",
-      "promptPt": "Back on the pavement outside that bar, eleven minutes left, and the barman is already looking at you. Say what is on his counter, and where. Speak now.",
-      "audioKey": "b18-dejado-c",
-      "es": "Me he dejado el móvil en el bar.",
-      "pinyin": "meh eh deh-KHAH-dhoh el MOH-beel en el bar",
-      "pt": "left it behind, and where"
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "αφήσω το κλειδί εδώ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b18-p03",
+      "promptPt": "Nobody is behind the desk and there is a small bowl on the counter. Call through to the back and ask. Speak now.",
+      "audioKey": "el-b18-t03",
+      "es": "Μπορώ να αφήσω το κλειδί εδώ;",
+      "pinyin": "bo-RO na a-FEE-so to kli-THEE e-THO",
+      "pt": "Can I leave the key here?",
+      "tts": "Μπορώ να αφήσω το κλειδί εδώ;"
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n08",
-      "pt": "Said that way, a barman goes and looks. Said the other way, he stops looking and starts defending his bar."
-    },
-    {
+      "consulta": [
+        "pagar/pedir",
+        "compras/quanto"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "ME-HE-DEJADO",
-      "encaixe": "las llaves",
-      "encaixeGloss": "the keys",
-      "promptAudioKey": "b18-p03",
-      "promptPt": "You are in the lift going down, and whatever it was that opened the door upstairs is still lying on the bed. Tell the desk as you land. Speak now.",
-      "audioKey": "b18-llaves-e",
-      "es": "Me he dejado las llaves en la habitación.",
-      "pinyin": "meh eh deh-KHAH-dhoh lahs YAH-behs en lah ah-bee-tah-THYON",
-      "pt": "upstairs, on the bed",
-      "tts": "Me he dejado las llaves en la habitación."
+      "voz": "target_el_f",
+      "molde": "POSO-KANI",
+      "encaixe": "όλα μαζί",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b18-p04",
+      "promptPt": "Seven nights, three breakfasts and two things from the fridge are about to be added up. Speak now.",
+      "audioKey": "el-b18-t04",
+      "es": "Πόσο κάνει όλα μαζί;",
+      "pinyin": "PO-so KA-ni O-la ma-ZEE",
+      "pt": "How much is it all together?",
+      "tts": "Πόσο κάνει όλα μαζί;"
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n09",
-      "pt": "And there is a second half to it, four words long, which is what turns your sentence into their search."
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "πληρώσω με κάρτα",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b18-p05",
+      "promptPt": "The total has just been said out loud and you have no wish to count notes. Speak now.",
+      "audioKey": "el-b18-t05",
+      "es": "Μπορώ να πληρώσω με κάρτα;",
+      "pinyin": "bo-RO na pli-RO-so meh KAR-ta",
+      "pt": "Can I pay by card?",
+      "tts": "Μπορώ να πληρώσω με κάρτα;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b18-encontrado-c",
-      "es": "¿Lo han encontrado?",
-      "pinyin": "loh ahn en-kon-TRAH-dhoh",
-      "pt": "Has anyone found it? — ask it straight after, in the same breath.",
-      "tts": "¿Lo han encontrado?"
+      "voz": "target_el_m",
+      "audioKey": "el-b18-r02",
+      "es": "Βεβαίως. Ορίστε η απόδειξη.",
+      "pt": "Of course. Here's your receipt.",
+      "tts": "Βεβαίως. Ορίστε η απόδειξη."
     },
     {
-      "consulta": ["apuro/perdi","taxi/errado"],
+      "consulta": [
+        "quarto/mala",
+        "apuro/perdi"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "ME-HE-DEJADO",
-      "encaixe": "la chaqueta",
-      "encaixeGloss": "the jacket",
-      "promptAudioKey": "b18-p04",
-      "promptPt": "The little office at the rank, and last night's receipt is in your hand with the car number on it. Tell them what is on the back seat, and where. Speak now.",
-      "audioKey": "b18-chaqueta-e",
-      "es": "Me he dejado la chaqueta en el taxi.",
-      "pinyin": "meh eh deh-KHAH-dhoh lah chah-KEH-tah en el TAK-see",
-      "pt": "on the back seat, and where"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b18-p06",
+      "promptPt": "Halfway down the street you picture the charger still in the socket by the bed. Go back and say it. Speak now.",
+      "audioKey": "el-b18-t06",
+      "es": "Ξέχασα κάτι στο δωμάτιο.",
+      "pinyin": "KSE-kha-sa KA-ti sto tho-MA-ti-o",
+      "pt": "I left something in the room.",
+      "tts": "Ξέχασα κάτι στο δωμάτιο."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b18-n04",
+      "pt": "Πόσο κάνει before you commit is worth as much on the last day as it was on the first one."
+    },
+    {
+      "consulta": [
+        "taxi/destino",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "POSO-KANI",
+      "encaixe": "η διαδρομή για το αεροδρόμιο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b18-p07",
+      "promptPt": "A driver has stopped and the boot is open, and you have not agreed anything yet. Speak now.",
+      "audioKey": "el-b18-t07",
+      "es": "Πόσο κάνει η διαδρομή για το αεροδρόμιο;",
+      "pinyin": "PO-so KA-ni i thi-a-thro-MEE ya to a-e-ro-THRO-mi-o",
+      "pt": "How much is the ride to the airport?",
+      "tts": "Πόσο κάνει η διαδρομή για το αεροδρόμιο;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b18-n05",
+      "pt": "In Athens the metro out is nine euros, sixteen return, and the Express bus is five fifty."
+    },
+    {
+      "consulta": [
+        "taxi/destino"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "καλέσω ταξί από εδώ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b18-p08",
+      "promptPt": "It is raining, the bags are heavy and the desk has a phone on it. Speak now.",
+      "audioKey": "el-b18-t08",
+      "es": "Μπορώ να καλέσω ταξί από εδώ;",
+      "pinyin": "bo-RO na ka-LE-so ta-KSEE a-PO e-THO",
+      "pt": "Can I call a taxi from here?",
+      "tts": "Μπορώ να καλέσω ταξί από εδώ;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b18-n06",
+      "pt": "If your way out is a boat, the ticket carries your name. Nobody travels on someone else's."
     },
     {
       "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b18-recibo-c",
-      "es": "¿Tiene el recibo?",
-      "pinyin": "TYEH-neh el rreh-THEE-boh",
-      "pt": "👂 'Have you got the receipt?' — the slip you asked for on the way in. It is the car number.",
-      "tts": "¿Tiene el recibo?"
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "b18-p05",
-      "promptPt": "He asks for the bit of paper you took when you got out that night, and it is in your wallet. Four words and a nod. Speak now.",
-      "consulta": ["apuro/perdi"],
-      "audioKey": "b18-siaqui-e",
-      "es": "Sí, aquí lo tengo.",
-      "pinyin": "see, ah-KEE loh TEN-goh",
-      "pt": "yes — here it is",
-      "tts": "Sí, aquí lo tengo."
+      "voz": "target_el_m",
+      "audioKey": "el-b18-r03",
+      "es": "Το εισιτήριο είναι ονομαστικό. Χρειάζομαι το όνομά σας.",
+      "pt": "The ticket is issued in a name. I need your name.",
+      "tts": "Το εισιτήριο είναι ονομαστικό. Χρειάζομαι το όνομά σας.",
+      "receptivo": true,
+      "acao": "Ονομαστικό means it carries a name. Spell yours as it appears in the passport."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n10",
-      "pt": "And for the thing you have never known the word for, there is una cosa — a thing — plus your screen."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n10b",
-      "pt": "Lo for the phone, la for the jacket. That little word moves with the thing, and no jacket was ever lost over it."
-    },
-    {
-      "consulta": ["apuro/perdi","reparo/apontar"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "ME-HE-DEJADO",
-      "encaixe": "una cosa",
-      "encaixeGloss": "a thing",
-      "promptAudioKey": "b18-p06",
-      "promptPt": "Whatever it is called in Spanish, you have never known. You are back at the counter with a photo of it on your screen. Say you left one here, ask, and show them. Speak now.",
-      "audioKey": "b18-cosa-c",
-      "es": "Me he dejado una cosa aquí. ¿La han encontrado?",
-      "pinyin": "meh eh deh-KHAH-dhoh OO-nah KOH-sah ah-KEE · lah ahn en-kon-TRAH-dhoh",
-      "pt": "no word needed, and the photo does the rest",
-      "tts": "Me he dejado una cosa aquí. ¿La han encontrado?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n11",
-      "pt": "Now rewind an hour, to the hotel desk. Checking out is three sentences and about four minutes."
-    },
-    {
-      "consulta": ["quarto/checkout"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "YA-ESTA",
-      "encaixe": "pagado",
-      "encaixeGloss": "paid",
-      "promptAudioKey": "b18-p07",
-      "promptPt": "He turns the screen round with the whole week on it, waiting for a card. You settled every night of it online back in March. Three words. Speak now.",
-      "audioKey": "b18-pagado-e",
-      "es": "Ya está pagado.",
-      "pinyin": "yah ehs-TAH pah-GAH-dhoh",
-      "pt": "that one is already done",
-      "tts": "Ya está pagado."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b18-quedatasa-c",
-      "es": "Sí, aquí me sale pagado. Solo queda la tasa turística.",
-      "pinyin": "see, ah-KEE meh SAH-leh pah-GAH-dhoh. SOH-loh KEH-dhah lah TAH-sah too-REES-tee-kah",
-      "pt": "👂 'Yes, it shows as paid. Only the tourist tax left.' — that one is charged at the desk, not by the website.",
-      "tts": "Sí, aquí me sale pagado. Solo queda la tasa turística."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n12",
-      "pt": "Ya está — it is already — and then the one word saying which. Pagado. Reservado. Hecho. Incluido."
-    },
-    {
-      "consulta": ["quarto/checkout","compras/pagar"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "ME-PUEDE",
-      "encaixe": "dar la factura",
-      "encaixeGloss": "the invoice",
-      "promptAudioKey": "b18-p08",
-      "promptPt": "Somebody at work will want to see this week on paper, with the hotel's name across the top. Ask before he closes the screen. Speak now.",
-      "audioKey": "b18-factura-c",
-      "es": "¿Me puede dar la factura, por favor?",
-      "pinyin": "meh PWEH-dheh dar lah fak-TOO-rah, por fah-BOR",
-      "pt": "the paper one, with the name on it",
-      "tts": "¿Me puede dar la factura, por favor?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b18-anombrede-e",
-      "es": "¿A nombre de quién?",
-      "pinyin": "ah NOM-breh deh kyen",
-      "pt": "👂 'In whose name?' — a factura carries your name; a tique does not, and the insurer wants the one with the name.",
-      "tts": "¿A nombre de quién?"
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "PUEDO",
-      "encaixe": "dejar las maletas",
-      "encaixeGloss": "leave the cases",
-      "promptAudioKey": "b18-p09",
-      "promptPt": "Out of the room at eleven, flight at nine tonight, and two heavy things you do not fancy dragging round a city. You will come back for them at six. Speak now.",
-      "audioKey": "b18-maletas-e",
-      "es": "¿Puedo dejar las maletas hasta las seis?",
-      "pinyin": "PWEH-dhoh deh-KHAR lahs mah-LEH-tahs AHS-tah lahs says",
-      "pt": "until six, behind the desk",
-      "tts": "¿Puedo dejar las maletas hasta las seis?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n13",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b18-n07",
       "bloco": "capsula",
-      "tom": "protege",
-      "pt": "One line on that bill you did not put there: a tax per night, and it is not inside what you paid online."
+      "pt": "Then the goodbye, which is short here and does considerably more than it looks like it does."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b18-p09",
+      "promptPt": "The same person has sorted out four things for you this week and is behind the desk now. Speak now.",
+      "audioKey": "el-b18-t09",
+      "es": "Ευχαριστώ για όλα. Ήταν υπέροχα.",
+      "pinyin": "ef-kha-ri-STO ya O-la. EE-tan i-PE-ro-kha",
+      "pt": "Thank you for everything. It was wonderful.",
+      "tts": "Ευχαριστώ για όλα. Ήταν υπέροχα."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n14",
-      "pt": "Catalonia, the Balearics, and the Basque Country since twenty twenty-six. In Madrid or Seville, nothing."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b18-n08",
+      "pt": "Θα ξανάρθω — I'll come back. Say it loosely: it lands as warmth, not as a promise you owe."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b18-p10",
+      "promptPt": "You are at the door with the bag on your shoulder and they are watching you go. Speak now.",
+      "audioKey": "el-b18-t10",
+      "es": "Θα ξανάρθω σίγουρα.",
+      "pinyin": "tha ksa-NAR-tho SEE-ghoo-ra",
+      "pt": "I'll definitely come back.",
+      "tts": "Θα ξανάρθω σίγουρα."
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "e07a-tasa-e",
-      "es": "¿La tasa turística está incluida?",
-      "pinyin": "lah TAH-sah too-REES-tee-kah ehs-TAH een-kloo-EE-dhah",
-      "pt": "Is the tourist tax included? — you asked this on day one, which is why it is a line and not a shock."
+      "voz": "target_el_m",
+      "audioKey": "el-b18-r04",
+      "es": "Καλό ταξίδι! Να 'στε καλά.",
+      "pt": "Safe journey! All the best to you.",
+      "tts": "Καλό ταξίδι! Να 'στε καλά."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n15",
-      "tom": "ganha",
-      "pt": "It is often cash, at the desk, on the way out. Keep two small notes back for it and it takes ten seconds."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n16",
-      "pt": "Outside, the car. Same question as the night you landed, in the same order, before the boot closes."
-    },
-    {
-      "consulta": ["taxi/taximetro"],
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "b18-p10",
-      "promptPt": "The rank outside the hotel, the airport an hour away, and he has not touched the meter. Settle what it comes to before you get in. Speak now.",
-      "audioKey": "b18-tarifa-c",
-      "es": "¿Es tarifa fija al aeropuerto?",
-      "pinyin": "es tah-REE-fah FEE-khah al ah-eh-roh-PWEHR-toh",
-      "pt": "is it the flat one, out there",
-      "tts": "¿Es tarifa fija al aeropuerto?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b18-dentrom30-e",
-      "es": "Fija, sí. Si vamos dentro de la M-30.",
-      "pinyin": "FEE-khah, see. see BAH-mohs DEN-troh deh lah EH-meh TRAYN-tah",
-      "pt": "👂 'Fixed, yes — if we're going inside the M-30.' — the flat airport fare stops at the ring road.",
-      "tts": "Fija, sí. Si vamos dentro de la eme treinta."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n16b",
-      "pt": "In Madrid it is thirty-three euros between Barajas and anywhere inside the M-thirty, any hour, nothing added."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n16c",
-      "pt": "Going out by train instead? One window, one sentence, and the opener you have had since the bakery."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "QUERIA",
-      "encaixe": "dos billetes para el aeropuerto",
-      "encaixeGloss": "two tickets to the airport",
-      "promptAudioKey": "b18-p15",
-      "promptPt": "Cercanías, half seven, and the machine has a queue you have not got time for. The window is open, the man is waiting, and there are two of you going where the planes are. Speak now.",
-      "audioKey": "b18-billetes-e",
-      "es": "Quería dos billetes para el aeropuerto.",
-      "pinyin": "keh-REE-ah dohs bee-YEH-tehs PAH-rah el ah-eh-roh-PWEHR-toh",
-      "pt": "two, and where to",
-      "tts": "Quería dos billetes para el aeropuerto."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n17",
-      "pt": "If there is a hire car, give yourself an extra half hour and fill the tank before you reach the counter."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "ME-PUEDE",
-      "encaixe": "dar por escrito",
-      "encaixeGloss": "in writing",
-      "promptAudioKey": "b18-p11",
-      "promptPt": "He walks round the car with a tablet, says everything is in order, and turns to go. You would like that sentence somewhere other than his mouth. Speak now.",
-      "audioKey": "e07b-escrito-e",
-      "es": "¿Me lo puede dar por escrito, por favor?",
-      "pinyin": "meh loh PWEH-dheh dar por ehs-KREE-toh, por fah-BOR",
-      "pt": "on paper, please"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n18",
-      "pt": "At the airport, the machine that took four fingerprints off you on the way in logs you going out, too."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n19",
-      "pt": "It has you on file now, so this pass is the quick one. Same queue, a fraction of the time."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "b18-g01",
-      "pt": "GUIRI ALERT, and it is the last one, so let us make it count. The owner comes out and asks if you liked the food."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "b18-g02",
-      "pt": "You mean absolutely, so you say en absoluto. You have just told him: not in the slightest. Not one bit."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "b18-g03",
-      "pt": "It is the one that flips on you. What you wanted was totalmente. Or desde luego. Say them once, out loud."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b18-totalmente-c",
-      "es": "¡Totalmente! Desde luego.",
-      "pinyin": "toh-tal-MEN-teh · DEHS-deh LWEH-goh",
-      "pt": "Absolutely! Of course. — the two that mean what you thought the other one meant.",
-      "tts": "¡Totalmente! Desde luego."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n20",
-      "pt": "One thing left, and it is the one everybody skips. The bar you stood in every morning of this week."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b18-genial-c",
-      "es": "Ha estado genial. Volveré.",
-      "pinyin": "ah ehs-TAH-dhoh kheh-NYAL · bol-beh-REH",
-      "pt": "It's been great. I'll come back.",
-      "tts": "Ha estado genial. Volveré."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n21",
-      "pt": "Not a speech. Two short ones at the counter, on your way past, with the case still in your hand."
-    },
-    {
-      "consulta": ["simpatia/agradecer","simpatia/elogiar-lugar"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "b18-p12",
-      "promptPt": "The man who has made your coffee every day since Monday, and thirty seconds before the taxi goes. Tell him how it was, and that this is not the end of it. Speak now.",
-      "audioKey": "b18-genial-c",
-      "es": "Ha estado genial. Volveré.",
-      "pinyin": "ah ehs-TAH-dhoh kheh-NYAL · bol-beh-REH",
-      "pt": "how it was, and that you'll be back"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b18-hasta-e",
-      "es": "Muchas gracias por todo. Hasta la próxima.",
-      "pinyin": "MOO-chahs GRAH-thyahs por TOH-dhoh · AHS-tah lah PROK-see-mah",
-      "pt": "Thank you for everything. Until the next time.",
-      "tts": "Muchas gracias por todo. Hasta la próxima."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "b18-p13",
-      "promptPt": "The woman at the desk who kept your bags all afternoon and rang for the car. Longer than a nod, and it is the last thing you say in this building. Speak now.",
-      "audioKey": "b18-hasta-e",
-      "es": "Muchas gracias por todo. Hasta la próxima.",
-      "pinyin": "MOO-chahs GRAH-thyahs por TOH-dhoh · AHS-tah lah PROK-see-mah",
-      "pt": "for all of it — and until next time"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n22",
-      "bloco": "permissao",
-      "pt": "And you may say your sentence and then carry on in English. The Spanish part is what starts them looking."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n22b",
-      "pt": "You may also leave the cases after you hand the key back and come for them at six. That desk sees it weekly."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n23",
-      "bloco": "clique",
-      "pt": "Count the places, not the phrases. The bar. The lift going down. The taxi office. The counter with the photo."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n24",
-      "pt": "Nobody handed you those four sentences. You built all four out of one, in an hour, on the way to the airport."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-n25",
-      "bloco": "piso",
-      "pt": "You will get the thing back, because you said the sentence that starts a search. Most people never ask at all."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b18-s00",
-      "pt": "Shadowing. Over the top of them, out loud, hand going. One for the morning, one for the door."
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b18-p11",
+      "promptPt": "They have just wished you a good journey and you have one line left to give back. Speak now.",
+      "audioKey": "el-b18-t11",
+      "es": "Καλή συνέχεια! Να 'στε καλά.",
+      "pinyin": "ka-LEE si-NE-khi-a! na steh ka-LA",
+      "pt": "Enjoy the rest of it! All the best to you.",
+      "tts": "Καλή συνέχεια! Να 'στε καλά."
     },
     {
       "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "b18-dejado-c",
-      "molde": "ME-HE-DEJADO",
-      "es": "Me he dejado el móvil en el bar.",
-      "pinyin": "meh eh deh-KHAH-dhoh el MOH-beel en el bar",
-      "pt": "I've left my phone in the bar."
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "b18-genial-c",
-      "es": "Ha estado genial. Volveré.",
-      "pinyin": "ah ehs-TAH-dhoh kheh-NYAL · bol-beh-REH",
-      "pt": "It's been great. I'll come back."
+      "voz": "target_el_f",
+      "audioKey": "el-b18-s01",
+      "es": "Μπορώ να αφήσω τις βαλίτσες μέχρι το βράδυ; Πόσο κάνει όλα μαζί; Θα ξανάρθω σίγουρα.",
+      "pinyin": "bo-RO na a-FEE-so tis va-LEE-tses ME-khri to VRA-thi. PO-so KA-ni O-la ma-ZEE. tha ksa-NAR-tho SEE-ghoo-ra",
+      "pt": "Shadow the three that carry the last day: the bag, the bill and the door left open.",
+      "tts": "Μπορώ να αφήσω τις βαλίτσες μέχρι το βράδυ; Πόσο κάνει όλα μαζί; Θα ξανάρθω σίγουρα."
     },
     {
       "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "b18-r01",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b18-n09",
       "bloco": "recap",
-      "pt": "One more, out loud, on a platform where we have not put anything down yet. Then we are done."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "ME-HE-DEJADO",
-      "encaixe": "la maleta",
-      "encaixeGloss": "the case",
-      "promptAudioKey": "b18-p14",
-      "promptPt": "Atocha, the doors have shut behind you, and you are one short of what you got on with in Seville. The man in the red waistcoat is right there. Speak now.",
-      "audioKey": "b18-maleta-c",
-      "es": "Me he dejado la maleta en el tren.",
-      "pinyin": "meh eh deh-KHAH-dhoh lah mah-LEH-tah en el tren",
-      "pt": "the big one, and where",
-      "tts": "Me he dejado la maleta en el tren."
-    },
-    {
-      "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "b18-rend",
-      "pt": "That is Get by, all eighteen. You arrive, you order, you pay, you sleep — and you go home with your jacket."
+      "pt": "B18 done, and the module with it. The bag is safe, the bill is settled, the door is open."
     }
   ],
-
   "aprofundar": {
-    "titulo": "The last morning, in order (optional reading)",
+    "titulo": "The day between check-out and the gate",
     "secoes": [
       {
-        "titulo": "'Me he dejado' and 'me han robado' go to different counters",
-        "corpo": "Spanish keeps two clean sentences where English blurs one. 'Me he dejado el móvil en el bar' says the thing is where you put it and nobody did anything wrong; it is an appeal for help and the person hearing it has no reason to feel accused, which is exactly why they go and look. 'Me han robado el móvil' says somebody took it; it is the sentence a police report is written from, it is the one your insurer needs, and it is taught in part seventeen for that reason. Say the second one in a bar and you will usually get a defence rather than a search — not because anyone is touchy, but because you have just described a crime in their premises. The frame takes an object and a place, and the object list is short enough to hold in your head: el móvil, la chaqueta, las llaves, la maleta, el pasaporte. The places are en el taxi, en el tren, en la habitación, en el bar, and the shortest of all, aquí. Add '¿lo han encontrado?' straight afterwards — 'has anyone found it?' — and the sentence stops being an announcement and becomes a request. If the thing is feminine, the little word changes to 'la han encontrado', and nobody has ever failed to find a jacket because a visitor said 'lo' instead of 'la'.",
+        "titulo": "The bag first, the key second",
+        "corpo": "Almost every place that rents rooms will keep a bag for the day, and almost none will volunteer it. Ask while the key is still in your hand, because the request reads as part of check-out rather than as a favour asked by someone who no longer has a room. Then ask the second question that matters: μέχρι τι ώρα — until what time — because the luggage room is only useful while somebody is there to open it.",
         "exemplos": [
           {
-            "es": "Me he dejado el pasaporte en la habitación.",
-            "pt": "meh eh deh-KHAH-dhoh el pah-sah-POR-teh — I've left my passport in the room."
+            "es": "Μπορώ να αφήσω τις βαλίτσες μέχρι το βράδυ;",
+            "pt": "Can I leave my bags until this evening?"
           },
           {
-            "es": "Me he dejado una cosa aquí. ¿La han encontrado?",
-            "pt": "OO-nah KOH-sah ah-KEE — I've left a thing here. Has anyone found it? (with the photo on your screen, this is a complete sentence)"
+            "es": "Μπορώ να αφήσω το κλειδί εδώ;",
+            "pt": "Can I leave the key here?"
           }
         ]
       },
       {
-        "titulo": "Check-out, and the tax that is not on your booking",
-        "corpo": "Three sentences do the desk: 'Ya está pagado' if you settled online, '¿Me puede dar la factura, por favor?' for the itemised bill with the property's name on it, and '¿Puedo dejar las maletas hasta las seis?' for the gap between the room and the flight. Note that leaving the cases is a normal request and not a favour — the luggage room exists because everybody's flight is at nine. The one thing that surprises people is the nightly tourist tax. It exists in Catalonia, the Balearics and, since 2026, the Basque Country; the property collects it on behalf of the region, it is generally not inside what you paid on a booking site, and it is often asked for in cash at the desk on the way out. In most of Spain there is no such tax at all, which is why it feels like an invention when it appears. The defence is not an argument, it is a question asked on the first morning — '¿La tasa turística está incluida?' — so that on the last morning it is a line you were expecting. Barcelona sits at the top end of the scale, where the total for a five-star hotel reached twelve euros a night in April 2026 and the municipal part of it is on a published schedule to keep rising to 2029.",
-        "exemplos": [
-          {
-            "es": "¿Se paga aparte la tasa?",
-            "pt": "seh PAH-gah ah-PAR-teh — Is the tax paid separately?"
-          },
-          {
-            "es": "¿Puedo dejar las maletas hasta las seis?",
-            "pt": "deh-KHAR lahs mah-LEH-tahs — Can I leave the cases until six?"
-          }
-        ]
+        "titulo": "Πόσο κάνει, one last time",
+        "corpo": "The frame that started at the market closes the trip: πόσο κάνει όλα μαζί at the desk, πόσο κάνει η διαδρομή before the boot closes. Asking the number before you commit costs nothing on the last day either, and the last day is exactly when people stop asking because they are already halfway home in their heads."
       },
       {
-        "titulo": "The ride out, the hire car, and the machine at the border",
-        "corpo": "Going out is the same conversation as coming in, with the questions in the same order: '¿Está libre?', the address on the screen rather than in your accent, and the fare settled before the boot shuts. In Madrid there is nothing to negotiate — a taxi between Barajas and any address inside the M-30 is a fixed thirty-three euros, twenty-four hours a day, with no surcharges permitted, which is why '¿Es tarifa fija al aeropuerto?' is a confirmation rather than a haggle. If you are returning a hire car, the two things that cost money are the tank and the paperwork: fill it before you arrive if the contract is full-to-full, and when the man with the tablet says everything is in order, ask for that in writing — '¿Me lo puede dar por escrito, por favor?' The pressure at that counter is verbal by design, and a sentence in writing is the only kind that survives the drive home. Ask also when the deposit comes back off the card. At the border, the same system that photographed you and took four fingerprints on the way in records your exit; the profile already exists, so the second pass is much faster than the first. It also means the ninety-days-in-any-one-hundred-and-eighty count is now automatic, and your exit date is part of it.",
-        "exemplos": [
-          {
-            "es": "¿Cuándo me lo devuelven?",
-            "pt": "KWAN-doh meh loh deh-BWEL-behn — When do I get it back? (the deposit blocked on your card)"
-          },
-          {
-            "es": "¿Es lleno a lleno?",
-            "pt": "es YEH-noh ah YEH-noh — Is it full-to-full? (the only fuel policy worth having)"
-          }
-        ]
+        "titulo": "Getting out of Athens",
+        "corpo": "From the centre the metro to the airport is €9.00 one way and €16.00 return, and the Express bus is €5.50 — the ordinary €1.20 ticket does not cover the airport line. A normal integrated ticket lasts 90 minutes and, like all of them, it starts counting from its first validation, not from purchase. So buy early if you like, but validate at the moment you actually travel."
       },
       {
-        "titulo": "Saying goodbye to people who served you all week",
-        "corpo": "The last thing is the cheapest thing in the course and the one most visitors skip: a sentence to the bar that fed you every morning. 'Ha estado genial' — it's been great — and 'Volveré' — I'll come back. Add 'Muchas gracias por todo' at the hotel desk and 'Hasta la próxima' on the way out of the door, and you have done in fifteen seconds what a card and a tip do not do. 'Hasta luego' is the ordinary goodbye and it does not commit you to returning later that day — it is what you say on the way out of a shop, even to someone you will never see again, and 'Adiós' does the same job. Keep 'en absoluto' out of your mouth entirely on this last morning: it looks like 'absolutely' and it means 'not in the slightest', so the enthusiastic answer to '¿Le ha gustado?' turns into a flat no in front of the person who cooked it. What you want is '¡Totalmente!' or 'Desde luego'. And if you are asked whether you will be back, the honest answer, said out loud, tends to be the one that gets remembered next year.",
-        "exemplos": [
-          {
-            "es": "Hasta la próxima.",
-            "pt": "AHS-tah lah PROK-see-mah — Until the next time."
-          },
-          {
-            "es": "Que os vaya muy bien.",
-            "pt": "keh ohs BAH-yah mwee byen — All the best to you (said to the pair of them behind the counter)"
-          }
-        ]
+        "titulo": "A ferry ticket has your name on it",
+        "corpo": "Greek ferry tickets are nominal by law — name, sex, nationality and date of birth are registered with the booking. Two practical consequences: you cannot buy a ticket for a friend using your own details, and an unused ticket cannot be handed to somebody else. If plans change, the conversation is with the company, not with the person you meant to give it to."
+      },
+      {
+        "titulo": "The three lines that close a week",
+        "corpo": "Ευχαριστώ για όλα, thank you for everything. Ήταν υπέροχα, it was wonderful. Θα ξανάρθω, I'll come back. The last one is not a contract and nobody hears it as one; it is the standard warm close, and the answer you will usually get is να 'στε καλά or καλό ταξίδι. Καλή συνέχεια — enjoy the rest of it — is the one you can give them back."
       }
     ]
-  }
+  },
+  "slot": "B18",
+  "permissao": "You are allowed to leave your bag behind a desk you have stopped paying for, and you are allowed to say θα ξανάρθω without knowing whether it is true. Nobody is holding you to it — it is the ordinary way a good week is closed here, and saying it badly still says it.",
+  "permissaoAudioKey": "el-b18-n08",
+  "espelho": "Anyone who has spent a last day dragging a suitcase around a city they were enjoying until that morning already knows exactly what this part is worth. The only new part is that eleven Greek words hand the bag over and hand the afternoon back.",
+  "fichasCulturais": [
+    {
+      "sinal": "You say goodbye at the desk and it does not end — there are more questions, a coffee is offered, and you are somehow still standing there ten minutes later.",
+      "suaLeitura": "I have handled the goodbye badly, or they want something from me.",
+      "oQueEAli": "Research comparing politeness in England and Greece describes Greek interaction as oriented towards involvement and closeness rather than towards distance and non-imposition. A leave-taking built out of that orientation runs longer and warmer than the English one, which is built to release both people quickly. Neither is a judgement about you.",
+      "oQueVoceFaz": "Budget five extra minutes for the goodbye and spend them. Give the closing lines rather than backing towards the door: ευχαριστώ για όλα, ήταν υπέροχα, θα ξανάρθω. A clear line said warmly ends things better than a slow retreat.",
+      "oQueMelhora": "You leave on the note the week actually deserved, and the person behind the desk remembers a guest rather than a room number.",
+      "ondeNaoVale": "This describes a documented difference between two politeness systems, not a personality, and it predicts nothing about any particular morning. A busy check-out with four people queuing behind you is short for reasons that have nothing to do with warmth.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b18-n07"
+      ]
+    },
+    {
+      "sinal": "Your plans change, you offer your unused ferry ticket to someone at the hostel, and the counter will not let them board on it.",
+      "suaLeitura": "The company is being difficult about a piece of paper that is already paid for.",
+      "oQueEAli": "Greek ferry tickets are nominal by law: name, sex, nationality and date of birth are registered against the ticket, under a 1999 presidential decree amended in 2019 to implement the EU passenger-registration directive. The name on the ticket is the point of it, and the crew list is built from those names.",
+      "oQueVoceFaz": "Buy tickets in the name of the person actually travelling, with the passport in front of you, and take spelling seriously. If plans change, talk to the ferry company about changing or refunding, not to another traveller.",
+      "oQueMelhora": "You stop losing money on a transfer that was never going to work, and boarding takes seconds because the name matches the document.",
+      "ondeNaoVale": "It is a rule about ferries and their passenger lists, not about every ticket in the country, and it says nothing about how flexible a given company is on changing the date once you ask them directly.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b18-n06"
+      ]
+    }
+  ]
 }

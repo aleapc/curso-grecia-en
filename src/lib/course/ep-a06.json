@@ -1,706 +1,406 @@
 {
   "id": "a06",
-  "slot": "A06",
   "nivel": "avancado",
   "numero": 34,
   "parte": "A06",
-  "titulo": "August, the saint, and the week the street belongs to everyone",
-  "subtitulo": "The month the neighbourhood empties out, the Saturday that feeds your Sunday, the two days a year that belong to one town and nowhere else, and the afternoon a brass band takes the street you were walking down",
+  "titulo": "Thirteen days of drift, nine named dates, and the month the island is yours",
+  "subtitulo": "Easter here is reckoned on the Julian calendar and usually lands weeks away from yours; the compulsory holidays are a short list fixed by law; and July and January are two different countries",
+  "cena": "The Thursday before an Easter your own calendar says already happened, and the baker is stacking flour like something large is coming.",
   "moldura": "ganha",
-
-  "cena": "Quarter past four on a Tuesday in August, twenty-five minutes on foot behind you, a metal shutter down, and the woman in the bar next door watching you read the card taped to it.",
-
-  "decisao": "whether the week gets planned around their calendar or yours — the Saturday shop against a Sunday spent walking to a shut grille, and the twenty-five minutes on foot in August that one twenty-second phone call turns into nothing",
-  "emJogo": "tempo",
-
+  "frasePiso": "Nine dates are fixed by name. Everything else you settle at the door: είστε ανοιχτά αύριο;",
   "moldes": [],
-
-  "frasePiso": "You will plan a Spanish week around their calendar — the Saturday shop, the shut Tuesday, the street that belongs to a saint. Most visitors spend a fortnight finding it out one shut door at a time.",
-
-  "permissao": "August is not a bad month to be in Spain. It is a bad month to rely on one specific address, and ringing first is the whole of the fix. You are allowed to walk into the middle of somebody else's fiesta and stand there watching: the street is the venue, nobody bought a ticket, and the people around you are neighbours, not an audience that paid. And you are allowed to spend a Sunday on a long lunch and a museum, because both of those are open all day.",
-  "permissaoAudioKey": "a06-n28",
-
-  "espelho": "Asking why a shop is shut for the whole of August is the bit that reads as odd there. It lands the way 'why is nobody at work on Christmas Day' would land at home — the answer is not a reason, it is a month.",
-
-  "fichasCulturais": [
-    {
-      "sinal": "Half a street has metal shutters down on a Tuesday in August, each with a handwritten card taped to the glass, and the bars on the same street are full.",
-      "suaLeitura": "This corner has gone under, or I have picked the one dead bit of the city to stay in.",
-      "oQueEAli": "A shop the family owns shuts for the month and everybody in it goes to the coast or back to the village. The card says closed for the holidays and it means the whole of it, not the afternoon — and the opening hours on the map frequently do not know.",
-      "oQueVoceFaz": "Ring before you walk. One question — are you open today — and then carry on in English.",
-      "oQueMelhora": "You get the August the people who live there get: emptier streets, a table anywhere at nine, and every bar, restaurant and museum still running.",
-      "ondeNaoVale": "Not the chains, the department stores, the restaurants or the museums, and not a shop on a street that lives off visitors — none of those shut, and a full shutter row is itself the sign of which kind of street you are standing on.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["a06-n06", "a06-n07", "a06-n07b", "a06-n08", "b10-horario-e"]
-    },
-    {
-      "sinal": "Sunday lunchtime: the restaurants are full, the bakery has a queue out of the door, and the supermarket four doors along has the grille down.",
-      "suaLeitura": "It is a holiday nobody told me about and the whole city is shut for it.",
-      "oQueEAli": "Sunday sorts by what the shop sells, not by the hour. Food you eat out is open; food you carry home is not. Declared tourist zones do trade on Sunday, and the residential street your flat is on is not one of them.",
-      "oQueVoceFaz": "Do the big shop on Saturday. Then Sunday is lunch, a walk and whatever has a door open, which is most things.",
-      "oQueMelhora": "You spend Sunday the way the neighbours spend it, instead of carrying a rented kitchen's worth of shopping around a street that is not going to open.",
-      "ondeNaoVale": "Not in the middle of Madrid or Barcelona, where the declared zone opens seven days a week — walk four streets out of it and the rule comes straight back.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["a06-n13", "a06-n14", "a06-domingo-c", "a06-n16", "a06-n16b", "a06-n16c"]
-    },
-    {
-      "sinal": "The bank, the town hall and the post office are shut on an ordinary Wednesday, and the town twenty minutes down the road is working normally.",
-      "suaLeitura": "Something has happened, or there is a strike on that I should know about.",
-      "oQueEAli": "Paid public holidays are capped at fourteen a year: twelve belong to the country and the region and two are chosen by the town hall — usually the patron saint. Those two apply to that municipality and to nowhere else at all.",
-      "oQueVoceFaz": "Ask at the desk on the way in which days are local ones that week, and put the bank and the errands either side of them.",
-      "oQueMelhora": "You hear about it the night before rather than at the door, and the day turns into something to go to instead of something that shut the bank.",
-      "ondeNaoVale": "Not for the bars, the restaurants and the terraces. A local holiday is the busiest trading day of their year and every one of them is open, often from breakfast.",
-      "evidencia": "FATO",
-      "audioKeys": ["a06-n17", "a06-n18", "a06-n19", "a06-patrona-c"]
-    },
-    {
-      "sinal": "A brass band and a few hundred people are coming up the street you wanted, there is no cordon, no ticket and no stage, and everybody around you has stopped walking.",
-      "suaLeitura": "I have wandered into a private thing that is not mine, and I should get out of the way of it.",
-      "oQueEAli": "The street is the venue. The route is published beforehand, it closes while the thing passes, and the people watching are the neighbours — there is no inside to be on the wrong side of.",
-      "oQueVoceFaz": "Stand still, let it pass, ask the person next to you what the day is, and cross behind it rather than through it.",
-      "oQueMelhora": "You get the one afternoon of the fortnight nobody sold you a ticket for, and asking gets it explained to you by somebody who has walked it since they were six.",
-      "ondeNaoVale": "Not on the way to a station or an airport. A route that closes the centre for three hours closes your taxi with it, and that is the morning to go early or go underground.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["a06-n21", "a06-n22", "a06-patron-e", "a06-n24"]
-    }
-  ],
-
   "fatosDatados": [
     {
-      "id": "agosto-cierre-familiar",
-      "afirmacao": "A family-run shop shuts for the whole of August, the card on the shutter says CERRADO POR VACACIONES, and the opening hours listed online frequently do not know about it.",
-      "fonte": "docs/pesquisa-espanha.md §7.1 (consenso de fontes de comércio 2025–2026) e §6.3 (a placa); fonte secundária citada na pesquisa: how2spanish, 'why Spain closes in August'. Sem fonte primária estatística — o INE não publica fechamento por mês.",
+      "id": "el-a06-pascha",
+      "afirmacao": "Orthodox Easter is reckoned on the Julian calendar: the equinox is fixed at 21 March Julian, which is 3 April Gregorian, then the full moon, then the following Sunday, plus the rule that it may not fall before or together with Passover. The current drift between the two calendars is thirteen days. The two Easters coincided in 2025, on 20 April, and the next coincidence is 2028, on 16 April.",
+      "fonte": "Páscoa ortodoxa: calendário juliano, equinócio fixado em 21 de março juliano (= 3 de abril gregoriano), lua cheia, domingo seguinte, mais a regra de não cair antes nem junto do Pessach. Defasagem atual 13 dias. 2025 coincidiu (20 de abril); a próxima coincidência é 2028 (16 de abril). ⚠️ Mecanismo com confiança alta; lista de anos vem de tabelas de calendário, não da Εκκλησία της Ελλάδος.",
       "ano": 2026,
-      "revisarAte": "2027-07-01",
-      "evidencia": "CONSENSO",
-      "risco": "baixo",
-      "audioKeys": ["a06-n06", "a06-n07", "a06-n08"]
-    },
-    {
-      "id": "asuncion-15-agosto",
-      "afirmacao": "The fifteenth of August is a public holiday across the whole country, and it sits in the middle of the month everything else is already shut for.",
-      "fonte": "docs/pesquisa-espanha.md §7.1 (Asunción, 15/ago, feriado nacional); calendário laboral nacional publicado anualmente no BOE.",
-      "ano": 2026,
-      "revisarAte": "2027-01-31",
+      "revisarAte": "2028-08-05",
       "evidencia": "FATO",
-      "risco": "baixo",
-      "audioKeys": ["a06-p08"]
-    },
-    {
-      "id": "domingo-comercio",
-      "afirmacao": "Supermarkets and most shops are shut on a Sunday while bars, restaurants and attractions are open; declared tourist zones trade on Sundays, and a residential neighbourhood does not.",
-      "fonte": "docs/pesquisa-espanha.md §7.1 — abertura dominical em zonas turísticas declaradas, comércio de bairro fechado. Consenso de fontes de comércio 2025–2026; regime de horários é competência autonômica e varia por comunidade.",
-      "ano": 2026,
-      "revisarAte": "2027-06-01",
-      "evidencia": "CONSENSO",
       "risco": "medio",
-      "audioKeys": ["a06-n13", "a06-n14", "a06-n16", "a06-n16b", "a06-n16c"]
+      "audioKeys": [
+        "el-a06-n02",
+        "el-a06-n03"
+      ]
     },
     {
-      "id": "siesta-comercial",
-      "afirmacao": "The small shop closes in the middle of the day, roughly half one to five, and reopens until eight or half eight — while the department stores, the big supermarket chains, the restaurants and the museums do not close at all.",
-      "fonte": "docs/pesquisa-espanha.md §7.1 — 'siesta comercial ≠ siesta', FATO qualitativo por consenso de fontes de comércio 2025–2026.",
-      "ano": 2026,
-      "revisarAte": "2027-06-01",
-      "evidencia": "CONSENSO",
-      "risco": "baixo",
-      "audioKeys": ["a06-n11", "a06-n12", "a06-cincoymedia-e"]
-    },
-    {
-      "id": "dos-fiestas-locales",
-      "afirmacao": "Paid public holidays are capped at fourteen a year, and two of them are set by the town hall — so a shut Wednesday in one town is an ordinary Wednesday twenty minutes down the road.",
-      "fonte": "Estatuto de los Trabajadores, Real Decreto Legislativo 2/2015, art. 37.2 — máximo de catorze festas laborais por ano, das quais duas serão locais. Fonte primária; NÃO consta de docs/pesquisa-espanha.md, que não cobre o calendário laboral.",
-      "ano": 2026,
-      "revisarAte": "2028-01-01",
+      "id": "el-a06-argies",
+      "afirmacao": "Article 60 of Law 4808/2021 fixes the compulsory public holidays: 1 January, 6 January, 25 March, Easter Monday, 1 May, 15 August, 28 October, 25 December and 26 December. Good Friday is not on that list — it is a holiday for the public sector and for schools, while in the private sector it follows sector rules.",
+      "fonte": "O art. 60 da Lei 4808/2021 fixa as ημέρες υποχρεωτικής αργίας: 1/1, 6/1, 25/3, Segunda-feira de Páscoa, 1/5, 15/8, 28/10, 25/12 e 26/12 (Επιθεώρηση Εργασίας, hli.gov.gr). A Μεγάλη Παρασκευή NÃO está nessa lista.",
+      "ano": 2021,
+      "revisarAte": "2029-08-05",
       "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["a06-n18", "a06-n19"]
+      "audioKeys": [
+        "el-a06-n04",
+        "el-a06-n05"
+      ]
     },
     {
-      "id": "procesion-calle-cortada",
-      "afirmacao": "A patron-saint procession or a Holy Week route takes the street itself: the itinerary is published beforehand, the road closes while it passes, and the centre can be shut to traffic for hours.",
-      "fonte": "Consenso de fontes secundárias locais (itinerários publicados pelos ayuntamientos e pela imprensa local a cada ano). NÃO consta de docs/pesquisa-espanha.md — a pesquisa não tem seção de calendário festivo. Sem fonte primária única: o itinerário é municipal e muda todo ano.",
-      "ano": 2026,
-      "revisarAte": "2027-03-01",
-      "evidencia": "CONSENSO",
+      "id": "el-a06-temporada",
+      "afirmacao": "Greece recorded 29.3 million international air arrivals in 2024, up 9.7 percent. July is the peak with 5.0 million, 16.9 percent of the total; January is the low with 648 thousand, 2.2 percent. The summer share, June to August, fell from 56 percent in 2019 to 50 percent in 2024, while spring rose 21 percent and winter 16 percent — the season is widening.",
+      "fonte": "INSETE, International Air Arrivals 2023-2024 (mar/2025): 29,3 M de chegadas aéreas internacionais em 2024 (+9,7%); julho é o pico com 5,0 M, 16,9% do total; janeiro é o mínimo com 648 mil, 2,2%. A participação do verão (jun-ago) caiu de 56% em 2019 para 50% em 2024, com primavera +21% e inverno +16%.",
+      "ano": 2025,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-a06-n06",
+        "el-a06-n07"
+      ]
+    },
+    {
+      "id": "el-a06-kyriaki",
+      "afirmacao": "Sunday closing for shops was instituted in 1909, and already then it exempted restaurants, tavernas, patisseries, cafés and shops selling tourist goods — so what a visitor wants was never inside the rule. The current regime is article 16 of law 4177/2013, with declared exceptions and tourist zones set by ministerial decision.",
+      "fonte": "Domingo: fechamento instituído em 1909, já então com exceção para restaurantes, tavernas, confeitarias, cafés e lojas de artigo turístico. Regime atual: art. 16 do ν.4177/2013, com exceções (domingos de Natal, liquidações, 1º de maio e de novembro) e zonas turísticas por decisão ministerial. ⚠️ CONTESTADO: uma decisão de liberalização foi julgada inconstitucional; tema politicamente disputado.",
+      "ano": 2013,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
       "risco": "medio",
-      "audioKeys": ["a06-n22", "a06-n24", "a06-detras-c"]
-    },
-    {
-      "id": "canarias-temporada-invertida",
-      "afirmacao": "The Canaries run the year backwards for the British visitor — November to February is their season — while the Balearics are busy from May to October.",
-      "fonte": "docs/pesquisa-espanha.md §8.6, a partir de INE/Frontur 2025 publicado em 2026: Canárias 27% das chegadas britânicas, Balears movimentada de maio a outubro, Canárias novembro a fevereiro.",
-      "ano": 2026,
-      "revisarAte": "2027-04-01",
-      "evidencia": "FATO",
-      "risco": "baixo",
-      "audioKeys": ["a06-n26", "a06-n27"]
+      "audioKeys": [
+        "el-a06-n09"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n01",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a06-n01",
+      "gesto": 1,
       "bloco": "aquecimento",
-      "gesto": 3,
-      "tom": "ganha",
-      "pt": "Part thirty-four. Warm-up: the punch. One syllable takes it, and only one. A-GOS-to. Do-MIN-go. A-BIER-to."
+      "pt": "Greece runs on two calendars at once, and the one that reshapes your week is not the one on your phone."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n02",
-      "pt": "Three beats, then four, the hit always in the middle. Hand flat on your leg, twice more, out loud."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "bloco": "callback",
-      "promptAudioKey": "a06-p00",
-      "promptPt": "The woman in the bar next door tells you when the shop reopens, at speed, and it goes straight past you. Speak now.",
-      "audioKey": "e01c-08",
-      "es": "¿Me lo escribe, por favor?",
-      "pinyin": "meh loh ehs-KREE-beh, por fah-BOR",
-      "pt": "get it onto paper"
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a06-p01",
-      "promptPt": "A doorway at eight, drinks only, and one number decides the whole evening. Ask him for it. Speak now.",
-      "audioKey": "c01a-15",
-      "es": "¿A qué hora abre la cocina?",
-      "pinyin": "ah keh OH-rah AH-breh lah koh-THEE-nah",
-      "pt": "one number, and the evening plans itself"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n03",
-      "bloco": "cena",
-      "pt": "That is their clock inside one day. This part is the other one — their clock across a whole year."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n04",
-      "pt": "Quarter past four, a Tuesday in August, twenty-five minutes on foot behind you, and a metal shutter down."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n05",
-      "pt": "There is a card taped to it, handwritten, and the woman in the bar next door is watching you read it."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a06-n02",
+      "bloco": "corpo",
+      "pt": "Easter here is reckoned on the Julian calendar. Thirteen days of drift, so it usually lands away from yours."
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b10-horario-e",
+      "voz": "target_el_m",
+      "audioKey": "el-a06-r01",
       "receptivo": true,
-      "es": "HORARIO · HORARIO DE VERANO · CERRADO POR VACACIONES",
-      "pinyin": "oh-RAH-ryoh · oh-RAH-ryoh deh beh-RAH-noh · theh-RRAH-dhoh por bah-kah-THYOH-nehs",
-      "pt": "👂 opening hours · summer opening hours · closed for the holidays — the three cards you will read all fortnight.",
-      "tts": "Horario. Horario de verano. Cerrado por vacaciones."
+      "acao": "Two Easters, two dates. Check which one the week you booked is actually sitting next to.",
+      "es": "Φέτος το Πάσχα μας είναι δύο εβδομάδες μετά το δικό σας.",
+      "pt": "This year our Easter is two weeks after yours.",
+      "tts": "Φέτος το Πάσχα μας είναι δύο εβδομάδες μετά το δικό σας."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n06",
-      "pt": "Closed for the holidays. Not gone under, not for the afternoon — for the month, and the month is August."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a06-n03",
+      "pt": "The two coincided in 2025, on the twentieth of April. The next time they meet is 2028."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n07",
-      "pt": "A shop the family owns shuts the whole of it and goes to the coast. The street empties out behind them."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n07b",
-      "pt": "The chains, the department stores, the restaurants and the museums never do it. It is the family shops."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n08",
-      "tom": "protege",
-      "pt": "And the hours on the map frequently do not know. That is what costs you the twenty-five minutes, not the shutter."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n09",
-      "tom": "ganha",
-      "pt": "So the whole fix is twenty seconds long and it is a phone call. Four words of it are Spanish."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a06-abiertos-c",
-      "es": "¿Están abiertos hoy?",
-      "pinyin": "ehs-TAHN ah-BYEHR-tohs oi",
-      "pt": "Are you open today? — four words, and the whole month stops being a guess.",
-      "tts": "¿Están abiertos hoy?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n10",
-      "pt": "Say those, then carry on in English. They are only there to get the phone answered properly."
-    },
-    {
+      "consulta": [
+        "compras/balcao"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a06-p02",
-      "consulta": ["chegar/entrar", "compras/balcao"],
-      "promptPt": "Tuesday morning, the little shop's number on your screen, and a walk right across town if nobody picks up the truth first. Speak now.",
-      "audioKey": "a06-abiertos-c",
-      "es": "¿Están abiertos hoy?",
-      "pinyin": "ehs-TAHN ah-BYEHR-tohs oi",
-      "pt": "before you walk, never after"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a06-p01",
+      "promptPt": "A red date lands the next morning and this is the shop you need. Check with the counter before you plan it. Speak now.",
+      "audioKey": "el-a06-t01",
+      "es": "Είστε ανοιχτά αύριο;",
+      "pinyin": "I-ste a-nih-TA AV-ri-o",
+      "pt": "Are you open tomorrow?",
+      "tts": "Είστε ανοιχτά αύριο;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a06-hoysi-e",
-      "es": "Hoy sí, pero cerramos todo agosto.",
-      "pinyin": "oi see, PEH-roh theh-RRAH-mohs TOH-dhoh ah-GOHS-toh",
-      "pt": "👂 'Today yes — but we shut for the whole of August.' The answer comes back as a month, not a time.",
-      "tts": "Hoy sí, pero cerramos todo agosto."
+      "voz": "target_el_f",
+      "audioKey": "el-a06-r02",
+      "receptivo": true,
+      "acao": "Take that as the answer for this door only. The place next to it decided separately.",
+      "es": "Αύριο είναι αργία, αλλά εμείς είμαστε ανοιχτά.",
+      "pt": "Tomorrow's a public holiday, but we're open.",
+      "tts": "Αύριο είναι αργία, αλλά εμείς είμαστε ανοιχτά."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n11",
-      "pt": "Now the other shutter — the one that comes down every afternoon and goes back up around five."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a06-n04",
+      "pt": "Nine dates are compulsory holidays by name in law. Good Friday, surprisingly to most visitors, is not one."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a06-tarde-c",
-      "es": "¿A qué hora abren por la tarde?",
-      "pinyin": "ah keh OH-rah AH-brehn por lah TAR-dheh",
-      "pt": "What time do you open in the afternoon? — the second half of a small shop's day.",
-      "tts": "¿A qué hora abren por la tarde?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n12",
-      "pt": "It is the small shop, the chemist, the cobbler. The department store and the museum never shut at all."
-    },
-    {
+      "consulta": [
+        "compras/balcao"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a06-p03",
-      "consulta": ["compras/balcao"],
-      "promptPt": "Twenty past one, the man behind the counter is already reaching for his keys, and you need him again later on. Speak now.",
-      "audioKey": "a06-tarde-c",
-      "es": "¿A qué hora abren por la tarde?",
-      "pinyin": "ah keh OH-rah AH-brehn por lah TAR-dheh",
-      "pt": "the second half of his day"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a06-p02",
+      "promptPt": "The street feels quieter than a Wednesday should, and you want to know what the date is doing. Speak now.",
+      "audioKey": "el-a06-t02",
+      "es": "Είναι αργία αύριο;",
+      "pinyin": "I-ne ar-YI-a AV-ri-o",
+      "pt": "Is tomorrow a public holiday?",
+      "tts": "Είναι αργία αύριο;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a06-cincoymedia-e",
-      "es": "A las cinco y media.",
-      "pinyin": "ah lahs THEENG-koh ee MEH-dhyah",
-      "pt": "👂 'At half past five.' Which is why the card by the door has two ranges on it, not one.",
-      "tts": "A las cinco y media."
+      "voz": "target_el_m",
+      "audioKey": "el-a06-r03",
+      "receptivo": true,
+      "acao": "That is the one date on the compulsory list that empties a town. Shop on the Saturday.",
+      "es": "Τη Δευτέρα του Πάσχα κλείνουν σχεδόν όλα.",
+      "pt": "On Easter Monday nearly everything closes.",
+      "tts": "Τη Δευτέρα του Πάσχα κλείνουν σχεδόν όλα."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n13",
-      "pt": "Sunday sorts differently again, and it sorts by what the shop sells rather than by the hour."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n14",
-      "pt": "Food you eat out is open. Food you carry home is not. The supermarket is the one with the grille down."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a06-super-e",
-      "es": "¿Hay algún supermercado abierto por aquí?",
-      "pinyin": "ai ahl-GOON soo-pehr-mehr-KAH-dhoh ah-BYEHR-toh por ah-KEE",
-      "pt": "Is there a supermarket open round here? — the front of that has been yours since part eight.",
-      "tts": "¿Hay algún supermercado abierto por aquí?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n15",
-      "pt": "Only the last two words are about today. The rest of it you have been saying since the first week."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a06-p04",
-      "consulta": ["compras/balcao"],
-      "promptPt": "Sunday, a rented kitchen with nothing in it, and a man walking his dog who has lived on this street forty years. Speak now.",
-      "audioKey": "a06-super-e",
-      "es": "¿Hay algún supermercado abierto por aquí?",
-      "pinyin": "ai ahl-GOON soo-pehr-mehr-KAH-dhoh ah-BYEHR-toh por ah-KEE",
-      "pt": "somewhere, and he will know where"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a06-domingo-c",
-      "es": "Hoy es domingo. Hasta mañana, nada.",
-      "pinyin": "oi ehs doh-MEEN-goh. AHS-tah mah-NYAH-nah, NAH-dhah",
-      "pt": "👂 'Today is Sunday. Nothing until tomorrow.' Which is the whole reason the big shop is Saturday.",
-      "tts": "Hoy es domingo. Hasta mañana, nada."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n16",
-      "pt": "So the big shop is Saturday, and Sunday is a long lunch, a walk and a museum. All three are open."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n16b",
-      "pt": "Dead centre of Madrid or Barcelona is a declared zone, and there the shops do trade seven days."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n16c",
-      "pt": "Walk four streets out of it, onto the road your flat is on, and the rule comes straight back."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "a06-g01",
-      "pt": "GUIRI ALERT. George here. First Sunday, self-catering flat, four adults, and I had put the shopping on Sunday."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "a06-g02",
-      "pt": "Forty minutes on foot past three shut supermarkets, home with crisps and a bottle from a petrol station."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "a06-g03",
-      "pt": "The bakery on my own corner had a queue out of the door the entire time. Saturday, lads. Saturday."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n17",
-      "pt": "Now the day that is shut in one town and completely ordinary in the next one, twenty minutes away."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n18",
-      "pt": "At most fourteen paid public holidays a year. Twelve are the country's and the region's. Two are the town's."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n19",
-      "pt": "The town hall picks those two, and they are usually the patron saint. The bank shuts. The bars do not."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a06-fiesta-e",
-      "es": "¿Mañana es fiesta?",
-      "pinyin": "mah-NYAH-nah ehs FYEHS-tah",
-      "pt": "Is tomorrow a public holiday? — three words, asked the night before.",
-      "tts": "¿Mañana es fiesta?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n20",
-      "pt": "Ask it at the desk on your way in, and you find out the night before instead of at a locked door."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a06-p05",
-      "consulta": ["quarto/pedir"],
-      "promptPt": "Hotel desk, half past nine at night, and the bank and the post office are both on your list for the morning. Speak now.",
-      "audioKey": "a06-fiesta-e",
-      "es": "¿Mañana es fiesta?",
-      "pinyin": "mah-NYAH-nah ehs FYEHS-tah",
-      "pt": "the night before, not during it"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a06-patrona-c",
-      "es": "Sí, es la patrona. Está todo cerrado.",
-      "pinyin": "see, ehs lah pah-TROH-nah. ehs-TAH TOH-dhoh theh-RRAH-dhoh",
-      "pt": "👂 'Yes, it's the patron saint. Everything is shut.' Everything except the street itself.",
-      "tts": "Sí, es la patrona. Está todo cerrado."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n21",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a06-n05",
       "bloco": "capsula",
-      "pt": "And that is the good half of it. The town that shuts the bank is the town that fills the street."
+      "pt": "Easter Monday is on the list, and it is the one that stops a whole town. Buy your food the Saturday before."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n22",
-      "pt": "A brass band, a few hundred people, no cordon, no ticket and no stage. The neighbours are the whole of it."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a06-celebra-c",
-      "es": "¿Qué se celebra hoy?",
-      "pinyin": "keh seh theh-LEH-brah oi",
-      "pt": "What is being celebrated today? — four words to the person standing beside you.",
-      "tts": "¿Qué se celebra hoy?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n23",
-      "pt": "Ask that of somebody who has walked it since they were six, and you get the whole thing told to you."
-    },
-    {
+      "consulta": [
+        "compras/balcao"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a06-p06",
-      "consulta": ["simpatia/puxar-conversa"],
-      "promptPt": "The band has gone past, the woman beside you has not moved, and she has been standing on this corner since long before you were born. Ask her what the day is. Speak now.",
-      "audioKey": "a06-celebra-c",
-      "es": "¿Qué se celebra hoy?",
-      "pinyin": "keh seh theh-LEH-brah oi",
-      "pt": "and she will tell you all of it"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a06-patron-e",
-      "es": "Es la patrona del barrio. Sale todos los años.",
-      "pinyin": "ehs lah pah-TROH-nah del BAH-rryoh. SAH-leh TOH-dhohs lohs AH-nyohs",
-      "pt": "👂 'It's the neighbourhood's patron saint. She goes out every year.' Every year, and always this street.",
-      "tts": "Es la patrona del barrio. Sale todos los años."
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a06-p03",
+      "promptPt": "The shutter is down and there is a handwritten card taped to the glass that you cannot read. Ask a neighbour. Speak now.",
+      "audioKey": "el-a06-t03",
+      "es": "Πότε ανοίγετε πάλι;",
+      "pinyin": "PO-te a-NI-ye-te PA-li",
+      "pt": "When do you open again?",
+      "tts": "Πότε ανοίγετε πάλι;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n24",
-      "tom": "protege",
-      "pt": "One practical bit, and it is the only one. A route that closes the centre for three hours closes your taxi too."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a06-n06",
+      "pt": "Then the second calendar: the season. July carries almost seventeen percent of the year's arrivals; January, two."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a06-pasar-e",
-      "es": "¿Por dónde puedo pasar?",
-      "pinyin": "por DOHN-deh PWEH-dhoh pah-SAR",
-      "pt": "Which way can I get through? — asked of the nearest person in a uniform.",
-      "tts": "¿Por dónde puedo pasar?"
-    },
-    {
+      "consulta": [
+        "quarto/pedir",
+        "compras/quanto"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a06-p07",
-      "consulta": ["taxi/destino"],
-      "promptPt": "Half seven, a train at nine, and the road you need has two thousand people standing in it. Ask the officer on the corner. Speak now.",
-      "audioKey": "a06-pasar-e",
-      "es": "¿Por dónde puedo pasar?",
-      "pinyin": "por DOHN-deh PWEH-dhoh pah-SAR",
-      "pt": "round it, never through it"
+      "voz": "target_el_f",
+      "molde": "POSO-KANI",
+      "encaixe": "το δωμάτιο τον Ιανουάριο",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a06-p04",
+      "promptPt": "You are on the phone in November, thinking about a very quiet week two months out. Ask about the deep off-season. Speak now.",
+      "audioKey": "el-a06-t04",
+      "es": "Πόσο κάνει το δωμάτιο τον Ιανουάριο;",
+      "pinyin": "PO-so KA-ni to dho-MA-ti-o ton i-a-nu-A-ri-o",
+      "pt": "How much is the room in January?",
+      "tts": "Πόσο κάνει το δωμάτιο τον Ιανουάριο;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a06-detras-c",
-      "es": "Por detrás, cuando pase la banda.",
-      "pinyin": "por deh-TRAHS, KWAHN-doh PAH-seh lah BAHN-dah",
-      "pt": "👂 'Round the back, once the band has gone by.' Behind it, and never between the band and the front.",
-      "tts": "Por detrás, cuando pase la banda."
+      "voz": "target_el_f",
+      "audioKey": "el-a06-r04",
+      "receptivo": true,
+      "acao": "Cheap, empty and half shut all arrive together. Ask what is still running before you book it.",
+      "es": "Τον Ιανουάριο τα μισά μαγαζιά στο νησί είναι κλειστά.",
+      "pt": "In January half the places on the island are shut.",
+      "tts": "Τον Ιανουάριο τα μισά μαγαζιά στο νησί είναι κλειστά."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n25",
-      "tom": "ganha",
-      "pt": "That is the whole of the small print. The rest of the afternoon is the best one you will get here."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a06-n07",
+      "pt": "And the summer is shrinking. Its share fell from fifty-six percent to fifty, while spring and winter grew."
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "κλείσω για τον Μάιο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a06-p05",
+      "promptPt": "You liked this place and want the shoulder month instead of the crowded one. Put the request to the owner. Speak now.",
+      "audioKey": "el-a06-t05",
+      "es": "Μπορώ να κλείσω για τον Μάιο;",
+      "pinyin": "bo-RO na KLI-so ya ton MA-i-o",
+      "pt": "Can I book for May?",
+      "tts": "Μπορώ να κλείσω για τον Μάιο;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n26",
-      "pt": "One last turn of their year, and it runs backwards. The Canaries are at their best from November."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a06-n08",
+      "pt": "The fifteenth of August is a national holiday, and the largest pilgrimage of the year is on the island of Tinos."
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "EXETE",
+      "encaixe": "δωμάτιο στις δεκαπέντε Αυγούστου",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a06-p06",
+      "promptPt": "You are planning around the biggest date of the Greek summer and you have left it late. Ask the guesthouse. Speak now.",
+      "audioKey": "el-a06-t06",
+      "es": "Έχετε δωμάτιο στις δεκαπέντε Αυγούστου;",
+      "pinyin": "E-he-te dho-MA-ti-o stis dhe-ka-PE-de av-GHU-stu",
+      "pt": "Do you have a room on the fifteenth of August?",
+      "tts": "Έχετε δωμάτιο στις δεκαπέντε Αυγούστου;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a06-r05",
+      "receptivo": true,
+      "acao": "Boats and beds around that date go early. Book the crossing before you settle the room.",
+      "es": "Δεκαπενταύγουστο; Κλείστε εισιτήρια νωρίς.",
+      "pt": "The fifteenth of August? Book tickets early.",
+      "tts": "Δεκαπενταύγουστο; Κλείστε εισιτήρια νωρίς."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n27",
-      "pt": "The islands off Africa are the winter ones. The ones in the Mediterranean are May to October."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a06-n09",
+      "pt": "Sunday closing dates from 1909 and always exempted the visitor's side: tavernas, cafés, shops selling to travellers."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n28",
-      "bloco": "permissao",
-      "tom": "ganha",
-      "pt": "August is not a bad month to be in Spain. It is a bad month to rely on one specific address."
+      "consulta": [
+        "compras/balcao",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "TI-ORA",
+      "encaixe": "κλείνετε σήμερα",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a06-p07",
+      "promptPt": "Late afternoon on a holiday weekend, one errand left, and you would rather not cross town for nothing. Speak now.",
+      "audioKey": "el-a06-t07",
+      "es": "Συγγνώμη, τι ώρα κλείνετε σήμερα;",
+      "pinyin": "si-GHNO-mi, ti O-ra KLI-ne-te SI-me-ra",
+      "pt": "Excuse me, what time do you close today?",
+      "tts": "Συγγνώμη, τι ώρα κλείνετε σήμερα;"
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n29",
-      "pt": "And you can walk straight into somebody else's fiesta. The street is the venue and nobody bought a ticket."
+      "consulta": [
+        "saude/guardia"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "ένα φαρμακείο ανοιχτό",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a06-p08",
+      "promptPt": "Three shutters down in a row on the same pavement, and you still need the counter behind one of them. Ask a passer-by. Speak now.",
+      "audioKey": "el-a06-t08",
+      "es": "Ψάχνω ένα φαρμακείο ανοιχτό.",
+      "pinyin": "PSA-hno E-na far-ma-KI-o a-nih-TO",
+      "pt": "I'm looking for a pharmacy that's open.",
+      "tts": "Ψάχνω ένα φαρμακείο ανοιχτό."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n30",
-      "bloco": "espelho",
-      "pt": "Asking why a shop is shut for the whole of August is the bit that reads as odd there."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n31",
-      "pt": "It lands the way 'why is nobody at work on Christmas Day' lands at home. The answer is not a reason. It is a month."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n32",
-      "bloco": "piso",
-      "tom": "ganha",
-      "pt": "You will plan a Spanish week around their calendar. Most visitors find it out one shut door at a time."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-s00",
-      "pt": "Shadowing. Out loud, underneath them, one punch a word. The two that save you the walk:"
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a06-p09",
+      "promptPt": "A stranger just saved you a pointless walk across town on a holiday. Close it warmly. Speak now.",
+      "audioKey": "el-a06-t09",
+      "es": "Ευχαριστώ πολύ, καλή σας μέρα.",
+      "pinyin": "ef-ha-ri-STO po-LI, ka-LI sas ME-ra",
+      "pt": "Thank you very much, have a good day.",
+      "tts": "Ευχαριστώ πολύ, καλή σας μέρα."
     },
     {
       "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "a06-abiertos-c",
-      "es": "¿Están abiertos hoy?",
-      "pinyin": "ehs-TAHN ah-BYEHR-tohs oi",
-      "pt": "Are you open today?"
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Emilio",
-      "audioKey": "a06-fiesta-e",
-      "es": "¿Mañana es fiesta?",
-      "pinyin": "mah-NYAH-nah ehs FYEHS-tah",
-      "pt": "Is tomorrow a public holiday?"
+      "voz": "target_el_f",
+      "audioKey": "el-a06-s01",
+      "es": "Είστε ανοιχτά αύριο; Πότε ανοίγετε πάλι; Συγγνώμη, τι ώρα κλείνετε σήμερα;",
+      "pinyin": "I-ste a-nih-TA AV-ri-o · PO-te a-NI-ye-te PA-li · si-GHNO-mi, ti O-ra KLI-ne-te SI-me-ra",
+      "pt": "Shadow the three that cover any calendar: tomorrow, again, and until when.",
+      "tts": "Είστε ανοιχτά αύριο; Πότε ανοίγετε πάλι; Συγγνώμη, τι ώρα κλείνετε σήμερα;",
+      "molde": "TI-ORA"
     },
     {
       "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "a06-rend",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a06-n10",
       "bloco": "recap",
-      "pt": "One more out loud. It is the fourteenth of August, the day before the big one, and you have a shop in mind."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a06-p08",
-      "promptPt": "The number is ringing, tomorrow is the fifteenth and half the country is off, and you are about to spend half an hour walking. Speak now.",
-      "audioKey": "a06-abiertos-c",
-      "es": "¿Están abiertos hoy?",
-      "pinyin": "ehs-TAHN ah-BYEHR-tohs oi",
-      "pt": "twenty seconds, not twenty-five minutes"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a06-n33",
-      "pt": "That is their year. The month, the Sunday, the town's own two days, and the street that belongs to a saint. Hasta luego."
+      "pt": "A06 done. Thirteen days of drift, nine named dates, July against January, and one question at the door."
     }
   ],
-
   "aprofundar": {
-    "titulo": "The month, the Sunday and the two days that are only theirs (optional reading)",
+    "titulo": "Two calendars, nine dates, and a season that is stretching",
     "secoes": [
       {
-        "titulo": "August, and the card taped to the shutter",
-        "corpo": "The thing to understand about August is that it is not a slow month, it is an absent one, and only for a particular kind of business: the shop with one family in it. They shut, they put a handwritten card on the glass — CERRADO POR VACACIONES — and they come back in September. Nothing about this is a sign of trouble, and the neighbours all know exactly who is away and where they have gone. What makes it cost you something is not the closure but the listing: opening hours online are very often the ones the shop keeps in March, and a month-long holiday rarely gets typed in anywhere. Hence the rule that is worth more than any sentence in this part — in August, ring before you walk. What does not shut, and this is the half that never gets said: the department stores, the big supermarket chains, the restaurants, the bars, the museums, the galleries and anything on a street that lives off visitors. Sitting inside the month is the fifteenth, la Asunción, a public holiday across the whole country. Plan a supermarket run for the fourteenth and the fifteenth stops mattering. And if you are in the south or the interior, the middle of an August afternoon is not walking time regardless of what anybody is open: two in the afternoon in Seville in August is a taxi, not a stroll, and the shuttered street at four is partly the reason the evening starts at nine.",
+        "titulo": "Why Easter moves away from yours",
+        "corpo": "Orthodox Easter is worked out on the Julian calendar. The equinox is fixed at 21 March Julian, which is 3 April in the calendar on your phone; then the full moon; then the following Sunday; plus the rule that it may not fall before or together with Passover. The two calendars are thirteen days apart at present, which is why the dates usually sit weeks apart rather than on top of each other. They did coincide in 2025, on 20 April, and they meet again in 2028, on 16 April. Everything about your week — ferries, opening hours, whether a village has three hundred extra people in it — hangs on which of the two you are standing inside.",
         "exemplos": [
           {
-            "es": "CERRADO POR VACACIONES",
-            "pt": "theh-RRAH-dhoh por bah-kah-THYOH-nehs — 👂 closed for the holidays. It means the month, not the afternoon"
+            "es": "Είστε ανοιχτά αύριο;",
+            "pt": "Are you open tomorrow?"
           },
           {
-            "es": "¿Están abiertos hoy?",
-            "pt": "ehs-TAHN ah-BYEHR-tohs oi — are you open today? The four words that replace the twenty-five minute walk"
+            "es": "Πότε ανοίγετε πάλι;",
+            "pt": "When do you open again?"
           }
         ]
       },
       {
-        "titulo": "Two ranges on the card, not one",
-        "corpo": "A small shop's day has a hole in the middle of it. Roughly: open around ten, down at half one or two, back up at half four or five, and then trading until eight or half eight — which is why the horario card by the door has two ranges printed on it and why reading only the first one is how people end up outside a locked chemist at three. This is commercial, not biological: almost nobody is asleep. The country is at lunch, which is the big meal, and lunch takes a proper hour and a half. What ignores the hole entirely: El Corte Inglés and the other department stores, Mercadona, Lidl, Carrefour, Zara and the chains generally, every restaurant (it is their peak), and the museums. So the practical shape of an afternoon is that the errand goes before half one or after five, and the middle belongs to eating and to anything with a roof and air conditioning. One more card worth knowing by sight: HORARIO DE VERANO, summer opening hours, which is a different and usually shorter timetable taped over the normal one. If two cards are on the glass, the seasonal one is the one that counts.",
-        "exemplos": [
-          {
-            "es": "¿A qué hora abren por la tarde?",
-            "pt": "ah keh OH-rah AH-brehn por lah TAR-dheh — what time do you open in the afternoon?"
-          },
-          {
-            "es": "HORARIO DE VERANO",
-            "pt": "oh-RAH-ryoh deh beh-RAH-noh — 👂 summer hours. A second card over the first one"
-          }
-        ]
+        "titulo": "The nine that are fixed by name",
+        "corpo": "Article 60 of law 4808/2021 lists the compulsory public holidays: 1 January, 6 January, 25 March, Easter Monday, 1 May, 15 August, 28 October, 25 December and 26 December. Nine dates, and Easter Monday is the moving one. The surprise for most visitors is what is not there: Good Friday. It is a holiday for the public sector and for schools, and in the private sector it follows sector rules rather than the compulsory list — which is why some shutters are down and others are not on a day that feels, from the street, like the most solemn of the year."
       },
       {
-        "titulo": "Fourteen days, and the two that belong to one town",
-        "corpo": "Spanish labour law caps paid public holidays at fourteen a year, and it says explicitly that two of them are local. That single sentence explains almost everything odd you will meet in a calendar here. Nine or so are national, a few more are set by the region, and then the town hall of the place you happen to be standing in picks two — nearly always the patron saint of the town or of the neighbourhood. The consequence for a visitor is the one nobody warns you about: a Wednesday can be completely shut in one town and a normal working day in the town twenty minutes down the road, and no national calendar you look up will show it. What actually closes is the official layer — banks, town halls, post offices, many chemists, most small shops, some museums. What does not close is hospitality: a local holiday is one of the best trading days of the year for the bars and the restaurants, and they open early for it. The move is trivial and it is the whole point of this part: ask at the hotel desk, on arrival, which days that week are local ones, and put the bank and the paperwork on either side of them. Holy Week works on the same logic with a moving date, since it is tied to Easter and shifts every year — the useful thing to know about it is that in a lot of towns the calendar is less disrupted than the street map is.",
-        "exemplos": [
-          {
-            "es": "¿Mañana es fiesta?",
-            "pt": "mah-NYAH-nah ehs FYEHS-tah — is tomorrow a public holiday? Three words, asked the night before"
-          },
-          {
-            "es": "Es fiesta local.",
-            "pt": "ehs FYEHS-tah loh-KAHL — 👂 it's a local holiday. Meaning here, and not in the next town"
-          }
-        ]
+        "titulo": "July and January are two different countries",
+        "corpo": "Greece took 29.3 million international air arrivals in 2024. July alone was 5.0 million of them, 16.9 percent of the year; January was 648 thousand, 2.2 percent. That is a ratio of roughly eight to one between the same two islands in two different months. The useful part is what has been moving: the June-to-August share fell from 56 percent in 2019 to 50 percent in 2024, with spring up 21 percent and winter up 16 percent. The season is widening at both ends, which is exactly where the good weeks are. What nobody can tell you from a source is which specific island closes on which date — that varies radically between a large resort island and a small one, so the question belongs to the door, not to the statistics."
       },
       {
-        "titulo": "Standing in somebody else's street",
-        "corpo": "A procession — a patron saint going out, a Holy Week brotherhood, a neighbourhood fiesta with a band — uses the street as the venue. There is no gate, no ticket, no seating and no inside: the route is published in advance by the town hall and the local press, the road closes while the thing passes, and the crowd is made of the people who live on it. Three small pieces of etiquette cover you completely. Stand still while it goes by rather than walking across the front of it. Cross behind, not through. And if you want to know what it is, ask the person next to you, because being asked is a small pleasure for somebody who has walked in it since they were a child. The one operational fact worth planning around is that a route through the centre can shut it to traffic for hours, taxis included, so a station or airport run on a fiesta afternoon goes early or goes underground. Finally, the other end of the year, which is the piece most British visitors have backwards: the Canary Islands run an inverted season, and November to February is their best and busiest stretch, while the Balearics are a May to October proposition. Booking the Canaries for August and the Balearics for January is the single most common way to get the wrong island at the wrong time.",
-        "exemplos": [
-          {
-            "es": "¿Qué se celebra hoy?",
-            "pt": "keh seh theh-LEH-brah oi — what is being celebrated today? The best conversation opener in the module"
-          },
-          {
-            "es": "¿Por dónde puedo pasar?",
-            "pt": "por DOHN-deh PWEH-dhoh pah-SAR — which way can I get through?"
-          }
-        ]
+        "titulo": "Sunday, and why it never applied to you",
+        "corpo": "Sunday closing for shops goes back to 1909, and from the very beginning it exempted restaurants, tavernas, patisseries, cafés and shops selling tourist goods. In other words, the side of the economy a visitor actually uses was never inside the rule. The present regime is article 16 of law 4177/2013, with declared exceptions and tourist zones set by ministerial decision. It is worth knowing that this is live, contested ground — one liberalisation decision was struck down as unconstitutional — so treat any general claim about Sunday trading as unstable, and ask the specific shop."
+      },
+      {
+        "titulo": "The one question that beats every list",
+        "corpo": "Είστε ανοιχτά αύριο, asked the evening before, is worth more than any holiday table you could memorise, because it resolves the one door you need rather than the country. Add πότε ανοίγετε πάλι when the answer is no, and τι ώρα κλείνετε σήμερα when the answer is yes but the afternoon is running out. Three sentences, and you never plan a day around a guess."
       }
     ]
-  }
+  },
+  "slot": "A06",
+  "permissao": "You are allowed to ask about opening hours as often as you like, in the plainest words you own, and you are allowed to be openly confused about which Easter is which. People who live there ask the same question constantly, precisely because the answer changes shop by shop and nobody expects a visitor to have worked out a Julian computus on the way from the airport.",
+  "permissaoAudioKey": "el-a06-n03",
+  "espelho": "Anyone who has driven across town on a bank holiday at home and found the car park empty already knows this shape. The only new part is that here two calendars are running side by side, so the trip you save is the one you asked about the evening before.",
+  "fichasCulturais": [
+    {
+      "sinal": "Your calendar says Easter was five weeks ago, and the town around you is only now filling with candles and closed shutters.",
+      "suaLeitura": "I have got my dates wrong, or this is some regional variation nobody told me about.",
+      "oQueEAli": "Orthodox Easter is reckoned on the Julian calendar — equinox fixed at 21 March Julian, then the full moon, then the following Sunday, with the rule about Passover on top. The calendars are thirteen days apart, so the two dates usually land weeks away from each other. They coincided in 2025 and meet again in 2028.",
+      "oQueVoceFaz": "Look up the Greek date before you book, not the one you grew up with, and treat the Saturday before Easter Monday as your last full shopping day.",
+      "oQueMelhora": "You stop being ambushed by the single busiest travel week of the Greek year, and you get to see it on purpose instead of through a train window.",
+      "ondeNaoVale": "The thirteen-day drift is a calendar mechanism, not a fixed offset between the two Easters — the gap between them varies year to year and sometimes vanishes. Look up the actual date rather than adding thirteen days to your own.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-a06-n02",
+        "el-a06-n03"
+      ]
+    },
+    {
+      "sinal": "It is Good Friday, the day feels like the most solemn of the year, and the supermarket on the corner is open.",
+      "suaLeitura": "Somebody is working a day they are not supposed to, or I have misread which day this is.",
+      "oQueEAli": "Article 60 of law 4808/2021 fixes nine compulsory public holidays, and Good Friday is not among them. It is a holiday for the public sector and for schools; in the private sector it follows sector rules. So the shutters go down unevenly, one decision at a time.",
+      "oQueVoceFaz": "Ask the specific door about the specific day — είστε ανοιχτά αύριο — and save the hard planning for Easter Monday, which is on the compulsory list.",
+      "oQueMelhora": "You stop writing off a whole week as closed, and you stop being surprised on the one date that really does stop.",
+      "ondeNaoVale": "Open does not mean ordinary. Services run through the evening, plenty of businesses close by their own choice, and in a small village the practical result can look exactly like a full holiday even though no law requires it.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-a06-n04",
+        "el-a06-n05"
+      ]
+    }
+  ]
 }

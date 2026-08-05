@@ -1,759 +1,369 @@
 {
   "id": "a07",
-  "slot": "A07",
   "nivel": "avancado",
   "numero": 35,
   "parte": "A07",
-  "titulo": "Two kisses, one hand, and knowing when to go",
-  "subtitulo": "The greeting that is settled by whoever moves first, the hand on your arm that means the evening is going well, the two seconds of quiet that mean you have found the edge of something, and the goodbye that runs on from the room to the street because it is meant to",
+  "titulo": "Ορίστε, πέρνα, να πηγαίνω — the signals that arrive before the sentence",
+  "subtitulo": "Εσείς and εσύ are a door somebody else opens, the no is a tilt of the head with a small click, volume is engagement rather than temperature, and leaving starts long before anyone stands up",
+  "cena": "You have been at the table forty minutes, everyone is talking over everyone, and you genuinely cannot tell whether you are welcome or in the way.",
   "moldura": "ganha",
-
-  "cena": "Half eleven at night, the plates went an hour ago, you have twice said you ought to be going, and the man beside you has just put a hand on your arm and started another story.",
-
-  "decisao": "whether you stay when the room means stay and go when it means go — the hour a table only opens after the food has gone, against the evening that ends at ten with everybody being very polite about it",
-  "emJogo": "tempo",
-
+  "frasePiso": "Start on εσείς and wait to be moved. Say να πηγαίνω, then take ten more minutes to actually go.",
   "moldes": [],
-
-  "frasePiso": "You will know when the room wants you to stay and when it has finished, and be right about both. Most visitors go home at ten and never find out that the good hour comes after the plates.",
-
-  "permissao": "You are allowed to put a hand out instead of a cheek, anywhere, with anybody, and nobody in Spain is offended by it — ever. You are allowed to go over the top of somebody who is still talking: no gap is coming, and holding out for one is how a visitor spends a whole evening silent. You are allowed to stay after the plates have gone, because the table is yours until somebody stands up. And you are allowed to say nothing at all for ten minutes at a loud table — nobody is counting your turns.",
-  "permissaoAudioKey": "a07-n45",
-
-  "espelho": "Backing off half a step when somebody moves in to talk to you is the bit that reads as odd there. Eighty centimetres of clear air is not respect at that table — it is read as somebody with somewhere else to be.",
-
-  "fichasCulturais": [
-    {
-      "sinal": "She comes across the room, tilts her head and goes for your right cheek before either of you has said a word.",
-      "suaLeitura": "I have to do this now, I am going to pick the wrong side, and everybody is watching me pick it.",
-      "oQueEAli": "Two kisses are private rather than commercial: right cheek first, then left, and the lips land on nothing. Whoever puts a hand out first has settled it for both of you, and the other person simply takes the hand.",
-      "oQueVoceFaz": "Lean in, right cheek first, two words while it happens — or put your own hand out first and let that be the version.",
-      "oQueMelhora": "The first three seconds stop being a negotiation, and you spend the rest of the evening talking instead of watching everybody's shoulders.",
-      "ondeNaoVale": "Not across a counter, a desk or a till. Nobody selling you something, serving you or checking you in will offer it, and there the hand is the whole of the protocol.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["a07-n10", "a07-n11", "a07-n12", "a07-n13", "a07-gusto-c"]
-    },
-    {
-      "sinal": "He is standing closer than feels normal, he has not once dropped your eye, and a hand lands on your arm halfway through a sentence.",
-      "suaLeitura": "This is a lot of person at close range, and I ought to give him a bit more room.",
-      "oQueEAli": "The arm is the thermometer of the conversation. It turns up when the thing is going well, and it is doing the work that a nod and an mm-hm do at home.",
-      "oQueVoceFaz": "Stay exactly where you are, keep your eyes up, and carry on with what you were saying.",
-      "oQueMelhora": "You get read as present rather than as polite, the conversation keeps its temperature, and you get the second half of it — which is the half worth having.",
-      "ondeNaoVale": "Not at a bank counter, at a doctor's, or with anybody in a uniform. Those keep about the distance yours does at home, and closeness there would be as odd for them as it is for you.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["a07-n14", "a07-n15", "a07-n16", "a07-n17", "a07-n18"]
-    },
-    {
-      "sinal": "The table goes quiet for about two seconds and somebody starts a completely different subject without looking at you while they do it.",
-      "suaLeitura": "I have offended them, and I need to explain what I actually meant before this gets any worse.",
-      "oQueEAli": "That pause is the room drawing a line and then papering over it. The new subject is the repair, offered by somebody else precisely so that nobody has to name what happened.",
-      "oQueVoceFaz": "Take the new subject at once, with interest, and leave the old one exactly where it fell.",
-      "oQueMelhora": "The evening carries on at the temperature it had, and you become the visitor who noticed — which is worth more than the story you were in the middle of.",
-      "ondeNaoVale": "Not between them. They will go back over the same subject with each other for an hour, at volume. The two seconds are about who said it, not about what was said.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["a07-n24", "a07-n25", "a07-n26", "a07-n27", "a07-ya-c"]
-    },
-    {
-      "sinal": "You put Thursday to somebody and what comes back is warm, agreeable and has no day of the week anywhere in it.",
-      "suaLeitura": "That is a yes, then. He is going to message me.",
-      "oQueEAli": "Ya te diré and ya veremos are the polite shape of no. They exist so that nobody has to hand somebody a flat one to their face, and everyone at the table hears them correctly.",
-      "oQueVoceFaz": "Say vale, otro día, and change the subject yourself before he has to.",
-      "oQueMelhora": "You keep the person, and the invitation they do mean still turns up later in the week.",
-      "ondeNaoVale": "Not from a shop or an office, where ya le digo algo can be a real answer that is genuinely pending. This is about a plan between people, not about a quote for a job.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["a07-n29", "a07-yatedire-e", "a07-yaveremos-c", "a07-otrodia-c"]
-    },
-    {
-      "sinal": "Midnight, everything has been cleared, no bill has come, and the moment you stand up three people ask whether you are off already.",
-      "suaLeitura": "The evening finished half an hour ago and they are too well brought up to say so.",
-      "oQueEAli": "Clearing is not closing. The end is done with a body rather than a sentence: the host stands, says bueno, pues nada, and starts moving plates — and even then the goodbye itself runs on through the room, the hall and the street.",
-      "oQueVoceFaz": "Sit back down once, stay another half hour, and leave when somebody else is on their feet.",
-      "oQueMelhora": "You get the hour that only opens after the food has gone, which is the hour where you stop being the guest and start being the person they ask back.",
-      "ondeNaoVale": "Not at a restaurant on its last sitting, where chairs going up on tables is exactly what it looks like — and not on a weeknight in a house with school in the morning.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["a07-n34", "a07-n35", "a07-n36", "a07-yatevas-e", "a07-n39", "a07-puesnada-e"]
-    }
-  ],
-
   "fatosDatados": [
     {
-      "id": "dos-besos-protocolo",
-      "afirmacao": "Two kisses, right cheek first, are the private greeting and not the commercial one — and whoever puts a hand out first settles which of the two happens.",
-      "fonte": "NÃO consta de docs/pesquisa-espanha.md: a pesquisa não trata de saudação, distância nem toque (§4 é tú/usted/vosotros e gênero; §7.8 é regiões, línguas cooficiais e política). Convenção bem atestada por consenso de fontes secundárias e guias 2025–2026; sem fonte primária conferida. ⚠️ NÃO existe estudo observacional europeu de distância e toque que inclua a Espanha — o melhor levantamento do gênero exclui o país. Por isso o áudio diz o comportamento e a dispensa, e nunca «estudos mostram» nem um número de centímetros.",
+      "id": "el-a07-politeness",
+      "afirmacao": "Politeness research places Greek on the positive-politeness side — involvement, closeness — and English on the negative-politeness side — distance, non-imposition. The documented consequence is symmetrical and it is not folklore: the English speaker reads the Greek one as abrupt or intrusive, and the Greek speaker reads the English one as cold or distant. Both readings are wrong.",
+      "fonte": "Maria Sifianou, Politeness Phenomena in England and Greece, e Bayraktaroğlu & Sifianou (eds.), Linguistic Politeness Across Boundaries, John Benjamins, P&BNS 88: o grego é orientado a positive politeness (envolvimento, proximidade) e o inglês a negative politeness (distância, não-imposição). Panorama recente: Languages, 2026, doi:10.3390/languages11050107.",
       "ano": 2026,
-      "revisarAte": "2029-01-01",
-      "evidencia": "CONSENSO",
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["a07-n10", "a07-n11", "a07-n12", "a07-n13"]
-    },
-    {
-      "id": "guiri-nao-e-insulto",
-      "afirmacao": "Guiri is the ordinary word for a northern-European visitor. It is teasing, it is normally spent without hostility and often affectionately, and it is not aimed at you as an insult.",
-      "fonte": "docs/pesquisa-espanha.md §7.8, linha «'Guiri' is not a slur» — gíria corrente, normalmente sem hostilidade, às vezes afetuosa. Consenso de fontes secundárias; sem levantamento lexicográfico de atitude.",
-      "ano": 2026,
-      "revisarAte": "2029-01-01",
-      "evidencia": "CONSENSO",
-      "risco": "baixo",
-      "audioKeys": ["a07-n32", "a07-guiri-e", "a07-n33"]
+      "audioKeys": [
+        "el-a07-n02",
+        "el-a07-n03"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n01",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a07-n01",
+      "gesto": 1,
       "bloco": "aquecimento",
-      "gesto": 4,
-      "tom": "ganha",
-      "pt": "Part thirty-five. Warm-up: the flick. One tap of the tongue and out. O-tro. Ra-to. Pla-cer."
+      "pt": "Half of what you need to read in a Greek room arrives before the sentence does, and most of it is not body language."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n02",
-      "pt": "Pe-ro, never perrro. The finger flicks off your leg once and stops dead. Three more, out loud."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a07-n02",
+      "bloco": "corpo",
+      "pt": "Politeness research puts Greek on the involvement side and English on the distance side. That is measured, not folklore."
     },
     {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a07-n03",
+      "pt": "So warmth can read to you as intrusion, and your good manners can read to them as coldness. Both readings are wrong."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a07-n04",
+      "pt": "First signal: εσείς and εσύ. Formal and familiar, and the same distinction you already met in γεια σας and γεια σου."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-a07-r01",
+      "receptivo": true,
+      "acao": "That is εσείς: σας, είστε, the plural forms. A stranger, a counter, someone older. Answer in the same register.",
+      "es": "Πώς σας λένε; Από πού είστε;",
+      "pt": "What's your name? Where are you from?",
+      "tts": "Πώς σας λένε; Από πού είστε;"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "bloco": "callback",
-      "promptAudioKey": "a07-p01",
-      "promptPt": "Last night's street, the band long gone by, and the woman beside you still has not moved an inch. Ask her what the day is. Speak now.",
-      "audioKey": "a06-celebra-c",
-      "es": "¿Qué se celebra hoy?",
-      "pinyin": "keh seh theh-LEH-brah oi",
-      "pt": "four words, to whoever is nearest"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a07-p01",
+      "promptPt": "Someone behind a counter has been kind to you three days running and you still do not know how to address them. Ask, politely. Speak now.",
+      "audioKey": "el-a07-t01",
+      "es": "Πώς σας λένε;",
+      "pinyin": "pos sas LE-ne",
+      "pt": "What's your name?",
+      "tts": "Πώς σας λένε;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n03",
-      "bloco": "cena",
-      "pt": "That was them out in the street. Tonight is the other end of it, a metre away from your face."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n04",
-      "pt": "Half eleven, the plates went an hour ago, and you have twice said you ought to be going."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n05",
-      "pt": "Nobody stood up. The man beside you has a hand on your arm and has started another story."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n06",
-      "pt": "Three things get said to you tonight without one word in them. Stay. Ease off. And now you can go."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n07",
-      "pt": "The first one you send yourself, at the door, out loud, before anybody in there has looked up."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a07-n05",
+      "pt": "The move to εσύ is offered, not taken. You start on εσείς and wait for someone to open the other door."
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "e01b-15",
-      "es": "Buenas.",
-      "pinyin": "BWEH-nahs",
-      "pt": "One word, any hour of the day. Shop, bar, lift, waiting room — it is the entrance fee.",
-      "tts": "Buenas."
+      "voz": "target_el_m",
+      "audioKey": "el-a07-r02",
+      "receptivo": true,
+      "acao": "That is the offer. Πάμε στον ενικό means let's drop the formal. Accepting is the whole of your job here.",
+      "es": "Έλα, πάμε στον ενικό. Τι λες;",
+      "pt": "Come on, let's drop the formal. What do you say?",
+      "tts": "Έλα, πάμε στον ενικό. Τι λες;"
     },
     {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a07-p02",
-      "consulta": ["chegar/entrar"],
-      "promptPt": "You have pushed open the door of a small bar with four people in it, and every one of them has looked up at you. One word, from the doorway. Speak now.",
-      "audioKey": "e01b-15",
-      "es": "Buenas.",
-      "pinyin": "BWEH-nahs",
-      "pt": "before anything else happens"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a07-p02",
+      "promptPt": "The door just opened and the only wrong answer is hesitating. Take it, warmly. Speak now.",
+      "audioKey": "el-a07-t02",
+      "es": "Ναι, βέβαια! Πάμε στον ενικό.",
+      "pinyin": "ne, VE-ve-a! PA-me ston e-ni-KO",
+      "pt": "Yes, of course! Let's drop the formal.",
+      "tts": "Ναι, βέβαια! Πάμε στον ενικό."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n08",
-      "pt": "Silence in a doorway reads as coldness there. One word buys you the room for the next hour."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n09",
-      "pt": "Then the greeting itself, and it is the bit that puts British visitors on the back foot."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n10",
-      "pt": "Two kisses. Right cheek first, then the left, and the lips land on nothing at all."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n11",
-      "pt": "It is private, not commercial. Nobody at a counter, a desk or a till is going to do it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n12",
-      "pt": "And the hand settles it. Whoever puts one out has chosen, and the other person takes it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n13",
-      "pt": "Put yours out and nobody in Spain is offended. Ever. That is the whole of the get-out."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a07-gusto-c",
-      "es": "Mucho gusto.",
-      "pinyin": "MOO-choh GOOS-toh",
-      "pt": "Pleased to meet you. — two words that go with either version, and they never change shape.",
-      "tts": "Mucho gusto."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a07-p03",
-      "consulta": ["chegar/entrar", "simpatia/puxar-conversa"],
-      "promptPt": "A friend of a friend has walked into the flat, come straight across the room and is already leaning in. Two words, while it is happening. Speak now.",
-      "audioKey": "a07-gusto-c",
-      "es": "Mucho gusto.",
-      "pinyin": "MOO-choh GOOS-toh",
-      "pt": "two words, whichever way it goes"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a07-encantado-e",
-      "es": "Encantado. ¿Qué tal?",
-      "pinyin": "en-kahn-TAH-dhoh. keh tahl",
-      "pt": "👂 What comes back at you. Take it by ear — yours is already said and it fits anybody.",
-      "tts": "Encantado. ¿Qué tal?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n14",
-      "pt": "Now the thing that is not a rule at all. It is a distance, and it is shorter than the one you keep."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n15",
-      "pt": "Round that table the gap is smaller, the eyes stay on you, and a hand lands on your arm mid-sentence."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n16",
-      "pt": "That hand is the welcome. It shows up once the conversation is going well, and never before."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n17",
-      "pt": "Take half a step back and the temperature changes, and neither of you can say quite why."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n18",
-      "pt": "So the body action tonight is nothing. Stay put, eyes up, and let the arm happen."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "a07-g01",
-      "pt": "GUIRI ALERT. George here. Woman at a barbecue leaned in, and I put my hand out like a bank manager."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "a07-g02",
-      "pt": "She took it, shook it, and the whole table watched me arrange a mortgage with her mother."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "a07-g03",
-      "pt": "Nobody minded that. What they did clock was me reversing half a metre afterwards."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n19",
-      "pt": "The volume works the same way. Four people going at once is not a row. It is interest."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n20",
-      "pt": "Nobody is holding a gap open for you, because a gap means the subject has died on the table."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a07-oye-e",
-      "es": "Oye, una cosa.",
-      "pinyin": "OH-yeh, OO-nah KOH-sah",
-      "pt": "Listen — one thing. Three words that take the floor without anybody being interrupted.",
-      "tts": "Oye, una cosa."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n21",
-      "pt": "Say it at normal speed, straight across whoever is going, and the table turns round to you."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a07-p04",
-      "consulta": ["simpatia/puxar-conversa"],
-      "promptPt": "Five of them round a table, all going at once, no pause in six minutes, and you have something to add. Over the top of him. Speak now.",
-      "audioKey": "a07-oye-e",
-      "es": "Oye, una cosa.",
-      "pinyin": "OH-yeh, OO-nah KOH-sah",
-      "pt": "three words, and the table turns"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n22",
-      "pt": "And when the whole thing runs off without you, there is a line you have owned since week one."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "e01c-02",
-      "es": "Hablo un poco de español.",
-      "pinyin": "AH-bloh oon POH-koh deh ehs-pah-NYOL",
-      "pt": "The sentence that keeps a table where it was, once somebody has switched over for you.",
-      "tts": "Hablo un poco de español."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a07-p05",
-      "consulta": ["reparo/ingles"],
-      "promptPt": "You get to the table and the whole lot of them switch into English mid-sentence, purely out of kindness. Hand it back to them. Speak now.",
-      "audioKey": "e01c-02",
-      "es": "Hablo un poco de español.",
-      "pinyin": "AH-bloh oon POH-koh deh ehs-pah-NYOL",
-      "pt": "and the table comes back"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n23",
-      "pt": "It is not a correction of them. It says you would rather work at it, and most of them will."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n24",
-      "tom": "protege",
-      "pt": "Now the second signal, and it lasts about two seconds. The table goes quiet all at once."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n25",
-      "pt": "Somebody starts a completely different subject, and nobody looks at you while they do it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n26",
-      "pt": "That is the room telling you where the edge was. It is not anger, and it is already over."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n27",
-      "pt": "What you do is take the new subject, at once, and leave the old one where it fell."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n28",
-      "pt": "An apology reopens it. The two seconds close it, and everybody at that table would rather they did."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a07-ya-c",
-      "es": "Ya, ya. Bueno.",
-      "pinyin": "yah, yah. BWEH-noh",
-      "pt": "👂 Flat, short, eyes elsewhere — the same two seconds, in words. Move on with them.",
-      "tts": "Ya, ya. Bueno."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n29",
-      "pt": "The same flatness turns up in an answer that sounds like a yes and is nothing of the kind."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a07-yatedire-e",
-      "es": "Ya te diré.",
-      "pinyin": "yah teh dee-REH",
-      "pt": "👂 I'll let you know. Nobody is going to let you know. It is a no with the door left open.",
-      "tts": "Ya te diré."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a07-yaveremos-c",
-      "es": "Ya veremos.",
-      "pinyin": "yah beh-REH-mohs",
-      "pt": "👂 We'll see. The same answer in a different coat. Neither of them is a plan.",
-      "tts": "Ya veremos."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n30",
-      "pt": "Chase either one and you make somebody say a word they were being kind by leaving out."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a07-otrodia-c",
-      "es": "Vale, otro día.",
-      "pinyin": "BAH-leh, OH-troh DEE-ah",
-      "pt": "All right, another day. Three words that let somebody off without anybody losing face.",
-      "tts": "Vale, otro día."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a07-p06",
-      "consulta": ["simpatia/convite"],
-      "promptPt": "You have put Thursday to him twice now, and what comes back is warm, agreeable and pins nothing down. Let him off it. Speak now.",
-      "audioKey": "a07-otrodia-c",
-      "es": "Vale, otro día.",
-      "pinyin": "BAH-leh, OH-troh DEE-ah",
-      "pt": "and nobody has to say it out loud"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n31",
-      "tom": "ganha",
-      "pt": "Say that, and the invitation they do mean still turns up. Push once more and it quietly stops."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n32",
-      "pt": "One word you will overhear about yourself, and it lands nothing like it sounds."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a07-guiri-e",
-      "es": "Mira, los guiris.",
-      "pinyin": "MEE-rah, lohs GEE-rees",
-      "pt": "👂 Look — the guiris. Northern-European visitor. Teasing, rarely hostile, and not a shot at you.",
-      "tts": "Mira, los guiris."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n33",
-      "pt": "It names a category, not a person, and there is normally no hostility in it, often the opposite."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n34",
-      "pt": "Last signal, and it is the one British visitors read four hours early, every single time."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n35",
-      "pt": "The plates going does not mean it. No bill coming does not mean it either — that is the rule."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n36",
-      "pt": "A quiet minute does not mean it. Somebody on a phone for two minutes does not mean it."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a07-yatevas-e",
-      "es": "¿Ya te vas?",
-      "pinyin": "yah teh bahs",
-      "pt": "👂 Off already? Asked at midnight, of somebody who stood up two hours early.",
-      "tts": "¿Ya te vas?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n37",
-      "pt": "That is not a formality either. It is the table asking you to sit back down again."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a07-quedo-c",
-      "es": "No, no, me quedo un rato.",
-      "pinyin": "noh, noh, meh KEH-dhoh oon RRAH-toh",
-      "pt": "No, no — I'll stay a while. The answer that keeps the chair, and keeps the evening.",
-      "tts": "No, no, me quedo un rato."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a07-p07",
-      "promptPt": "Half twelve in the courtyard, you got to your feet out of pure habit, and three of them have turned round to look. Sit down and say it. Speak now.",
-      "audioKey": "a07-quedo-c",
-      "es": "No, no, me quedo un rato.",
-      "pinyin": "noh, noh, meh KEH-dhoh oon RRAH-toh",
-      "pt": "and the chair is yours again"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n38",
-      "pt": "So what does mean it? One thing only, and it is done with a body, not with a sentence."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n39",
-      "pt": "The host stands up and starts moving plates about. That is the end of it, and the only one."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a07-puesnada-e",
-      "es": "Bueno, pues nada.",
-      "pinyin": "BWEH-noh, pwehs NAH-dhah",
-      "pt": "👂 Right then, that's that. Said standing, hands on the table. The long goodbye starts here.",
-      "tts": "Bueno, pues nada."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n40",
-      "pt": "A good ten minutes, because leaving is something you do together and nobody hurries it along."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n41",
-      "pt": "You will say it in the room, again in the hall, again at the lift and again from the street."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a07-placer-c",
-      "es": "Un placer.",
-      "pinyin": "oon plah-THEHR",
-      "pt": "A pleasure. Two words at the door, with the hand out or the cheek already turned.",
-      "tts": "Un placer."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n42",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a07-n06",
       "bloco": "capsula",
-      "pt": "Back to that door. Whoever puts a hand out has chosen, and both versions are ordinary."
+      "pt": "Second signal: the no. A short upward tilt of the head with a small click of the tongue. It is not disapproval."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-a07-r03",
+      "receptivo": true,
+      "acao": "The click and the chin going up are the whole answer. Nothing is wrong with you — the answer is simply no.",
+      "es": "Τσ. Δεν έχει σήμερα.",
+      "pt": "Nope. There isn't any today.",
+      "tts": "Τσ. Δεν έχει σήμερα."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n43",
-      "pt": "The kisses are for people, never for counters. Nobody selling you anything will offer them."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a07-n07",
+      "pt": "An English ear hears that click as impatience. It is closer to a shrug, and it saves everyone a sentence."
+    },
+    {
+      "consulta": [
+        "reparo/devagar",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "δεν κατάλαβα",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a07-p03",
+      "promptPt": "Something arrived fast and flat and you caught none of it. Open the repair before the moment closes. Speak now.",
+      "audioKey": "el-a07-t03",
+      "es": "Συγγνώμη, δεν κατάλαβα. Πιο αργά, παρακαλώ.",
+      "pinyin": "si-GHNO-mi, dhen ka-TA-la-va · pyo ar-GHA, pa-ra-ka-LO",
+      "pt": "Sorry, I didn't understand. Slower, please.",
+      "tts": "Συγγνώμη, δεν κατάλαβα. Πιο αργά, παρακαλώ."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n44",
-      "pt": "And the arm is the thermometer. Once it starts, the conversation has been going well for a while."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a07-n08",
+      "pt": "Third: volume. A raised voice at the next table is far more often engagement than temperature. Listen to the faces."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a07-r04",
+      "receptivo": true,
+      "acao": "That is welcome, arriving as an instruction. Sit down first and sort out the details afterwards.",
+      "es": "Πέρνα μέσα, κάτσε! Τι θα πιεις;",
+      "pt": "Come in, sit down! What are you having?",
+      "tts": "Πέρνα μέσα, κάτσε! Τι θα πιεις;"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "καθίσω εδώ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a07-p04",
+      "promptPt": "There is one free chair at a busy table and nobody has looked up yet. Ask before you take it. Speak now.",
+      "audioKey": "el-a07-t04",
+      "es": "Μπορώ να καθίσω εδώ;",
+      "pinyin": "bo-RO na ka-THI-so e-DHO",
+      "pt": "Can I sit here?",
+      "tts": "Μπορώ να καθίσω εδώ;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n45",
-      "bloco": "permissao",
-      "tom": "ganha",
-      "pt": "You can put a hand out anywhere in Spain and nobody is offended by it. Not once, not ever."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a07-n09",
+      "pt": "Fourth: the open palm pushed towards someone's face is read as an insult. Wave with your fingers together."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a07-p05",
+      "promptPt": "Two people were mid-conversation when you walked up, and you would rather check than assume. One word does it. Speak now.",
+      "audioKey": "el-a07-t05",
+      "es": "Ενοχλώ;",
+      "pinyin": "e-no-HLO",
+      "pt": "Am I interrupting?",
+      "tts": "Ενοχλώ;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-a07-r05",
+      "receptivo": true,
+      "acao": "Καθόλου means not at all. That is a clear yes to staying — take the chair.",
+      "es": "Καθόλου! Κάτσε μαζί μας.",
+      "pt": "Not at all! Sit with us.",
+      "tts": "Καθόλου! Κάτσε μαζί μας."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n46",
-      "pt": "You can stay on after the plates go, and you can sit there saying nothing for ten minutes."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a07-n10",
+      "pt": "And the last set: leaving. Καλή συνέχεια and στο καλό are release, not dismissal. They mean go well."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a07-p06",
+      "promptPt": "An hour at a table you were not expecting to join, and you want to name what you are grateful for. Speak now.",
+      "audioKey": "el-a07-t06",
+      "es": "Ευχαριστώ πολύ για την παρέα.",
+      "pinyin": "ef-ha-ri-STO po-LI ya tin pa-RE-a",
+      "pt": "Thank you very much for the company.",
+      "tts": "Ευχαριστώ πολύ για την παρέα."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a07-r06",
+      "receptivo": true,
+      "acao": "Standing up is a proposal, not an announcement. Expect to be held for another ten minutes, and let it happen.",
+      "es": "Μη βιάζεσαι, κάτσε λίγο ακόμα.",
+      "pt": "Don't rush, stay a bit longer.",
+      "tts": "Μη βιάζεσαι, κάτσε λίγο ακόμα."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n47",
-      "bloco": "espelho",
-      "pt": "And backing off half a step when somebody moves in is the bit that reads as odd there."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a07-n11",
+      "pt": "Να πηγαίνω is how you open the leaving, not how you finish it. Say it early and expect to be kept."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n48",
-      "pt": "Eighty centimetres of clear air is not respect at that table. It reads as somewhere else to be."
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a07-p07",
+      "promptPt": "You genuinely have to be somewhere, and you want to start the long goodbye rather than cut it. Speak now.",
+      "audioKey": "el-a07-t07",
+      "es": "Να πηγαίνω. Καλή συνέχεια!",
+      "pinyin": "na pi-YE-no · ka-LI si-NE-hya",
+      "pt": "I should get going. Have a good rest of the day!",
+      "tts": "Να πηγαίνω. Καλή συνέχεια!"
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n49",
-      "bloco": "piso",
-      "tom": "ganha",
-      "pt": "You will know when to stay and when to go, and be right about both. Most visitors go home at ten."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-s00",
-      "pt": "Shadowing. Out loud, underneath them, one flick a word. The two that open a night and close it:"
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a07-p08",
+      "promptPt": "You are on your feet, coat in hand, and one warm line is still owed to the person who pulled the chair out. Speak now.",
+      "audioKey": "el-a07-t08",
+      "es": "Χάρηκα πολύ! Θα τα πούμε.",
+      "pinyin": "HA-ri-ka po-LI · tha ta PU-me",
+      "pt": "Really nice to meet you! See you around.",
+      "tts": "Χάρηκα πολύ! Θα τα πούμε."
     },
     {
       "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "a07-gusto-c",
-      "es": "Mucho gusto.",
-      "pinyin": "MOO-choh GOOS-toh",
-      "pt": "Pleased to meet you."
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Emilio",
-      "audioKey": "a07-oye-e",
-      "es": "Oye, una cosa.",
-      "pinyin": "OH-yeh, OO-nah KOH-sah",
-      "pt": "Listen — one thing."
+      "voz": "target_el_f",
+      "audioKey": "el-a07-s01",
+      "es": "Ενοχλώ; Μπορώ να καθίσω εδώ; Να πηγαίνω. Καλή συνέχεια!",
+      "pinyin": "e-no-HLO · bo-RO na ka-THI-so e-DHO · na pi-YE-no, ka-LI si-NE-hya",
+      "pt": "Shadow the three that manage a room: may I, may I stay, and I am starting to go.",
+      "tts": "Ενοχλώ; Μπορώ να καθίσω εδώ; Να πηγαίνω. Καλή συνέχεια!"
     },
     {
       "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "a07-rend",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a07-n12",
       "bloco": "recap",
-      "pt": "One more out loud, somewhere we have not stood tonight, and this time you are the one leaving."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a07-p08",
-      "consulta": ["chegar/sair", "simpatia/agradecer"],
-      "promptPt": "The door of the flat, coats on, and the woman whose kitchen it was has both hands out for you. Two words. Speak now.",
-      "audioKey": "a07-placer-c",
-      "es": "Un placer.",
-      "pinyin": "oon plah-THEHR",
-      "pt": "two words, at the door"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a07-n50",
-      "pt": "That is the room. Stay put, go over the top, let the two seconds pass, and leave last. Hasta luego."
+      "pt": "A07 done. Wait to be moved to εσύ, read the click as no, hear volume as engagement, and start leaving early."
     }
   ],
-
   "aprofundar": {
-    "titulo": "The greeting, the arm, the two seconds and the long goodbye (optional reading)",
+    "titulo": "Four signals, and the one you never produce",
     "secoes": [
       {
-        "titulo": "Two kisses, one hand, and why neither of them is a rule",
-        "corpo": "The shape is simple and it is worth having in your head before you need it: two kisses, right cheek to right cheek first, then the left, cheeks touching or nearly touching and the lips landing on nothing. It is the private greeting — friends, family, a friend of a friend, somebody's flat, an introduction at a table — and it runs between women, and between a woman and a man. Two men who are not family shake hands, or do the hand-plus-shoulder version if they know each other well. What it is not is commercial: nobody behind a counter, a desk, a till or a hotel reception is going to offer it, and if you go in for it there you have simply misread which kind of room you are in. The piece that makes all of this manageable is that the hand settles it. Whoever puts a hand out first has chosen for both people, and the other person takes the hand without a flicker. So the get-out is total and you should use it whenever you want to: put your hand out, and nobody in Spain is offended, ever. One honest note on where this comes from. This is a description of a well-attested convention, not a measured finding — the best European observational work on greeting distance and touch does not include Spain at all, so anybody telling you that studies show Spaniards stand exactly so many centimetres closer is inventing the precision. What you have here is the behaviour and the way out of it, which is all you need at a door.",
+        "titulo": "Two politeness systems, and a symmetrical misreading",
+        "corpo": "This is one of the few things in the course with an academic literature behind it. Politeness research places Greek on the positive-politeness side — involvement, closeness, the assumption that people want to be included — and English on the negative-politeness side, which is built on distance and not imposing. The consequence is documented and it runs both ways: the English speaker experiences Greek warmth as intrusive or abrupt, and the Greek speaker experiences English reserve as cold. Neither reading is about you personally, and knowing that the mirror exists is most of the fix.",
         "exemplos": [
           {
-            "es": "Mucho gusto.",
-            "pt": "MOO-choh GOOS-toh — pleased to meet you. Fits the hand and fits the cheeks, and never changes shape"
+            "es": "Ενοχλώ;",
+            "pt": "Am I interrupting?"
           },
           {
-            "es": "Encantado. / Encantada.",
-            "pt": "en-kahn-TAH-dhoh — 👂 the one that comes back at you. Recognise it; you do not need to produce it"
+            "es": "Καθόλου! Κάτσε μαζί μας.",
+            "pt": "Not at all! Sit with us."
           }
         ]
       },
       {
-        "titulo": "Closer, louder, and over the top",
-        "corpo": "Three things about a Spanish table read to a British ear as something they are not. The distance is shorter, the volume is higher, and people talk on top of each other. None of the three is aggression, and the third one is the one that costs visitors the most, because the British conversational habit is to wait for a gap that is never going to open. A gap in that conversation does not mean 'your turn' — it means the subject has died, and somebody will now change it. The way in is to go over the top at ordinary volume, and there is a set of little openers for doing exactly that: 'oye', 'oye, una cosa', 'pues yo…', 'mira'. They are not rude and they are not clever; they are the ordinary machinery of taking a turn. The hand on the arm belongs to the same family. It arrives when the conversation is going well, it is a marker of engagement rather than of intimacy, and the single most useful thing you can do with it is nothing at all: stay where you are. Stepping back is a reply, whether you meant it as one or not, and it is read as wanting to be elsewhere. And on volume, one permission worth repeating from the first week: talking a bit louder than feels polite to you is what gets you heard, and lowering your voice in a loud bar is the thing that marks you out.",
-        "exemplos": [
-          {
-            "es": "Oye, una cosa.",
-            "pt": "OH-yeh, OO-nah KOH-sah — listen, one thing. The floor, taken without a gap"
-          },
-          {
-            "es": "Pues yo creo que…",
-            "pt": "pwehs yoh KREH-oh keh — 👂 well I reckon… The other standard way in, over the top of somebody"
-          }
-        ]
+        "titulo": "Εσείς, εσύ, and why this is a signal and never a decision",
+        "corpo": "Greek has the standard T/V pair: γεια σας and γεια σου, είστε and είσαι, σας λένε and σε λένε. It is tempting to treat this as something to master, and this course deliberately does not. Choosing between them is a reading of the social situation made under pressure, and it changes the verb as well — which makes it exactly the kind of thing a visitor gets wrong at the worst moment. So it stays receptive. Your rule is one line long: start on εσείς with everyone, and move only when somebody moves you. The move is usually explicit — πάμε στον ενικό, or simply the other person switching mid-sentence — and the correct response is to switch too, immediately and without commentary. Declining, or carefully staying formal after being invited, is the one way to get this wrong."
       },
       {
-        "titulo": "The two seconds, and the no that never gets said",
-        "corpo": "Every room has an edge somewhere, and the way this one tells you that you have found it is a two-second silence followed by somebody starting a different subject and not looking at you while they do it. It is not anger, it is not a sanction, and it is finished by the time you have noticed it — the new subject is the repair, and it has been offered by somebody else so that nobody has to say what happened. The correct move is therefore the cheapest one available: take the new subject with interest and leave the old one lying there. An apology reopens the thing you were being let off, and now everybody has to have the conversation nobody wanted. The flat 'ya, ya' with the eyes elsewhere is the spoken version of the same two seconds. The near relative of all this is the refusal that is not phrased as one. 'Ya te diré' — I'll let you know — and 'ya veremos' — we'll see — are polite noes, and 'es complicado' is a third. None of them is a plan, and pressing for a date turns a comfortable no into an uncomfortable one that somebody now has to say to your face. 'Vale, otro día' releases them, keeps the friendship intact, and keeps you on the list for the invitation they actually do mean. The one place to be careful with this reading is commercial: 'ya le digo algo' from a workshop or an office can be a genuinely pending answer, and there it is fair to ring back.",
-        "exemplos": [
-          {
-            "es": "Ya te diré. / Ya veremos.",
-            "pt": "yah teh dee-REH — 👂 I'll let you know / we'll see. Both are no, said kindly"
-          },
-          {
-            "es": "Vale, otro día.",
-            "pt": "BAH-leh, OH-troh DEE-ah — all right, another day. The answer that keeps everybody"
-          }
-        ]
+        "titulo": "The no, the volume and the palm",
+        "corpo": "Three things an English ear misreads by default. The no is a short upward tilt of the head, usually with a small click of the tongue, and it is complete — no sentence follows because none is needed. It reads as impatience to a visitor and it is closer to a shrug. Volume is the second: a loud table is normally an engaged table, and an exchange that sounds like a row is very often about a football result. Look at the faces rather than the decibels. The third runs the other way, and it is the one signal on this list you can send by accident: an open palm pushed towards someone's face is a recognised insult here. Wave with your fingers together, or raise a hand rather than pushing it forward."
       },
       {
-        "titulo": "Guiri, and what the word is actually pointing at",
-        "corpo": "You will hear it, probably in the third person and probably not aimed at you: guiri, the ordinary slang word for a northern-European visitor. It is teasing and it is usually fond; it is not an insult, and it is not a word anybody is going to use to your face as an attack. What it points at is not your nationality but a set of visible habits — the eleven-in-the-morning beer, the shirt off two streets from the sand, the socks and sandals, the sunburn, the wallet on the table. Which is the useful bit: it is a description of behaviour, and behaviour is adjustable in a way that a passport is not. Two things follow. First, hearing it is information rather than hostility, and reacting to it as an insult is itself the most guiri thing available in the moment. Second, the same word is doing a job for them that no English word quite does, halfway between 'tourist' and 'holidaymaker', and it is used about the whole category with a certain affection — the guiri, after all, is also the person paying for the terrace. Whether you make a joke of it about yourself is a separate skill, and it lives in a part of its own.",
-        "exemplos": [
-          {
-            "es": "Mira, los guiris.",
-            "pt": "MEE-rah, lohs GEE-rees — 👂 look, the guiris. Overheard, not aimed"
-          },
-          {
-            "es": "Somos guiris, ya lo sabemos.",
-            "pt": "SOH-mohs GEE-rees — 👂 we're guiris, we know. The shape it takes when it is said with a laugh"
-          }
-        ]
+        "titulo": "Leaving is a process, not an event",
+        "corpo": "Να πηγαίνω — I should get going — opens the goodbye. It does not close it. Expect μη βιάζεσαι, expect one more coffee to be poured, expect to be walked to the door and possibly to the corner. Announcing your departure ten minutes before you want to leave is not indecision; it is the correct amount of runway. Καλή συνέχεια is what you say to someone whose day is continuing without you, στο καλό is the warm send-off you will hear back, and χάρηκα πολύ closes a first meeting. None of them is a request to leave — they are all release."
       },
       {
-        "titulo": "Leaving: the signal that starts it, and the twenty minutes after",
-        "corpo": "The British reading of 'the evening is over' is built out of things that mean nothing here. The plates being cleared means the food has finished, not the evening — the hour after the plates is the sobremesa, and in a lot of houses it is the best hour of the night. The bill not arriving means the table is still yours, because bringing it unasked is read as throwing a customer out. A quiet minute means somebody is thinking. What actually ends it is physical and it is unmistakable once you know to look for it: the host gets to their feet, says something like 'bueno, pues nada', and starts moving plates or glasses. Before that, standing up gets you '¿ya te vas?', which is not a formality — it is an invitation to sit down again, and 'no, no, me quedo un rato' is the whole of the answer. After it, the leaving itself is a process rather than a moment: goodbyes in the room, more in the hall, more at the door, and a last one from the street, and it genuinely runs on for a good ten minutes. This is not politeness theatre to be escaped; it is the part where the invitation to come back gets made. The way to get it wrong in the other direction is to make the announcement and then keep sitting there, which reads as wanting to be persuaded. Announce it on your feet, with the jacket in your hand, and mean it — and then let the twenty minutes happen.",
-        "exemplos": [
-          {
-            "es": "¿Ya te vas?",
-            "pt": "yah teh bahs — 👂 off already? An invitation to sit back down, not a question"
-          },
-          {
-            "es": "Bueno, pues nada.",
-            "pt": "BWEH-noh, pwehs NAH-dhah — 👂 right then, that's that. Said standing. This one is the real signal"
-          }
-        ]
+        "titulo": "The receptive rule, one more time",
+        "corpo": "You will hear εσύ used about you, around you and at you long before you have any business producing it. That is fine. Receptive knowledge is what this module trades in: recognising the signal costs you nothing and being wrong about producing it costs a small amount of warmth at exactly the moment you were building some. Wait to be moved."
       }
     ]
-  }
+  },
+  "slot": "A07",
+  "permissao": "You are allowed to ask outright whether you are in the way. Ενοχλώ is a single word, it is asked constantly by people who live there, and it is far better received than hovering at the edge of a table trying to read the room in silence. You are also allowed to stay formal for as long as you like — nobody is scoring you on how fast you got to εσύ.",
+  "permissaoAudioKey": "el-a07-n05",
+  "espelho": "Anyone who has stood in a doorway at home wondering whether to say hello or just leave already knows this whole problem. The only new part is that here the signals for come in and for that's enough are different from the ones you grew up reading — not stronger, not warmer, just different.",
+  "fichasCulturais": [
+    {
+      "sinal": "You ask a question and get a short click of the tongue with a small upward jerk of the head, and no words at all.",
+      "suaLeitura": "That was rude, or I have annoyed them by asking.",
+      "oQueEAli": "That is the no. The upward tilt with the click is a complete answer in itself, which is why nothing follows it — the sentence would be redundant. An English ear hears the click as impatience because in English a click before speech usually means exasperation.",
+      "oQueVoceFaz": "Take it as a plain no and carry on. If you need more, ask the follow-up you would have asked after a spoken no: πότε ανοίγετε πάλι, or where else has it.",
+      "oQueMelhora": "You stop reading refusals as hostility, and you stop repeating the question in a louder voice, which is what actually causes friction.",
+      "ondeNaoVale": "This is a description of a widely recognised gesture, not a measured finding, and it is not universal in every register or every generation. Plenty of people simply say όχι. Read the face alongside the gesture rather than treating the click as a decoder ring.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-a07-n06",
+        "el-a07-n07"
+      ]
+    },
+    {
+      "sinal": "Someone you have spoken to twice suddenly starts addressing you with εσύ, and the verbs change shape mid-conversation.",
+      "suaLeitura": "They have decided I am not worth the formal register, or my Greek is so poor they are simplifying it for me.",
+      "oQueEAli": "The opposite. Greek runs a standard formal-familiar distinction, and moving to εσύ is a move towards closeness that the other person is choosing to make. It is often stated out loud — πάμε στον ενικό — and it is an offer.",
+      "oQueVoceFaz": "Switch with them, in the same breath, and do not comment on it. If you are unsure of the familiar forms, keep the sentences short rather than retreating to εσείς.",
+      "oQueMelhora": "You accept an offer of closeness at the exact moment it is made, which is the whole currency of a positive-politeness culture, instead of accidentally declining it.",
+      "ondeNaoVale": "Not licence to open on εσύ yourself. The offer belongs to the other person, and it does not transfer — being on εσύ with the owner of a bar says nothing about how you should address their supplier who has just walked in. And age, workplace and region all shift where the line sits, so treat this as a default rather than a rule.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-a07-n04",
+        "el-a07-n05"
+      ]
+    }
+  ]
 }

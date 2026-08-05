@@ -1,0 +1,96 @@
+{
+  "id": "q-i06",
+  "nivel": "intermediario",
+  "titulo": "Quiz — A day of yours, told out loud",
+  "subtitulo": "Ten finished words, one it was, and the name that earns you the recommendation",
+  "introAudioKey": "el-i06-q-i",
+  "introPt": "A traveller answers the question that arrives every evening — what did you do today — in three sentences and a promise.",
+  "cenario": "The same table as last night, the same neighbour, and a whole day to account for.",
+  "dialogo": [
+    {
+      "audioKey": "el-i06-q01",
+      "voz": "target_el_m",
+      "es": "Τι έκανες σήμερα;",
+      "pt": "What did you do today?",
+      "tts": "Τι έκανες σήμερα;"
+    },
+    {
+      "audioKey": "el-i06-q02",
+      "voz": "target_el_f",
+      "es": "Πήγα στην Κρήτη με το πλοίο. Έφαγα ψάρι στο λιμάνι.",
+      "pt": "I went to Crete on the boat. I ate fish at the harbour.",
+      "tts": "Πήγα στην Κρήτη με το πλοίο. Έφαγα ψάρι στο λιμάνι."
+    },
+    {
+      "audioKey": "el-i06-q03",
+      "voz": "target_el_m",
+      "es": "Α μπράβο! Σου άρεσε;",
+      "pt": "Ah, good for you! Did you like it?",
+      "tts": "Α μπράβο! Σου άρεσε;"
+    },
+    {
+      "audioKey": "el-i06-q04",
+      "voz": "target_el_f",
+      "es": "Μου άρεσε πολύ. Ήταν υπέροχα. Θα ξανάρθω.",
+      "pt": "I liked it a lot. It was wonderful. I'll come back.",
+      "tts": "Μου άρεσε πολύ. Ήταν υπέροχα. Θα ξανάρθω."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What is the most efficient way to carry the Greek past on a trip?",
+      "opcoes": [
+        "Learn the conjugation and build each form",
+        "Learn about ten finished words whole, as separate words",
+        "Avoid the past and answer everything in the present",
+        "Use only «ήταν» for everything"
+      ],
+      "correta": 1,
+      "explica": "Πήγα, έφαγα, ήπια, είδα, πήρα, έμεινα, περπάτησα, κολύμπησα, χάθηκα, μου άρεσε. Ten words learned whole cover every story a trip produces."
+    },
+    {
+      "pergunta": "«Μου αρέσει» and «μου άρεσε» differ by:",
+      "opcoes": [
+        "Nothing, they are alternatives",
+        "One vowel, and where the stress falls — present against finished",
+        "Formality",
+        "Singular against plural"
+      ],
+      "correta": 1,
+      "explica": "The finished one pulls the stress back. Use it for a place you have already left, and the present one for the country you are standing in."
+    },
+    {
+      "pergunta": "Which sentence gets you a recommendation rather than a polite nod?",
+      "opcoes": [
+        "It was a nice day",
+        "I stayed three days in Crete",
+        "I liked everything",
+        "The food was good"
+      ],
+      "correta": 1,
+      "explica": "The proper noun is the hook. A named island or village is something the other person can take hold of; a general verdict gives them nothing."
+    },
+    {
+      "pergunta": "Your friend cannot travel. Can somebody else use her ferry ticket?",
+      "opcoes": [
+        "Yes, a ticket is a ticket",
+        "No — ferry tickets are personal by law and carry the passenger's details",
+        "Only on domestic crossings",
+        "Only if the name is changed at the ramp"
+      ],
+      "correta": 1,
+      "explica": "Name, sex, nationality and date of birth are registered against the crossing. The ticket is attached to a person, not to a seat — take changes to the ticket office."
+    },
+    {
+      "pergunta": "How long should the story be?",
+      "opcoes": [
+        "The whole itinerary, so nothing is left out",
+        "Three sentences — the place, what you ate, how it was — then stop",
+        "One word, so as not to impose",
+        "As long as you can keep going in Greek"
+      ],
+      "correta": 1,
+      "explica": "Three sentences is a story, and stopping is what lets the second question come back at you. Finishing on «Θα ξανάρθω» turns it into a promise."
+    }
+  ]
+}

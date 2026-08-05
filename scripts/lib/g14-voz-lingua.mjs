@@ -56,6 +56,16 @@ const MARCAS = {
     propria:
       /\b(o|a|os|as|um|uma|de|do|da|dos|das|que|é|em|no|na|por|para|com|se|não|seu|sua|mais|mas|como|este|esta|tem|pode|quero|está|são|já|muito|tudo|quando|você|ele|ela|isso|aqui|ali|vai|foi|ser|ter|fazer)\b/i
   },
+  // Grego: o discriminador é o ALFABETO, e é o marcador mais barato e mais
+  // preciso do lote — nenhuma outra língua do catálogo escreve em grego, e
+  // nenhuma frase grega real deixa de escrever nele. `propria` casa a mesma
+  // coisa de propósito: aqui cobertura e precisão coincidem, o que não acontece
+  // em nenhum dos pares latinos.
+  //
+  // Sem esta entrada o portão ficava LIGADO e CEGO: `MARCAS['el']` era
+  // undefined, as três checagens caíam no ramo `mAlvo &&` e nada era conferido
+  // no SKU cujo alfabeto é o produto inteiro.
+  el: { nome: 'grego', forte: /[Ͱ-Ͽἀ-῿]/, propria: /[Ͱ-Ͽἀ-῿]/ },
   zh: { nome: 'mandarim', forte: /[一-鿿]/, propria: /[一-鿿]/ },
   th: { nome: 'tailandês', forte: /[฀-๿]/, propria: /[฀-๿]/ }
 };

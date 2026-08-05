@@ -1,735 +1,442 @@
 {
   "id": "i05",
-  "slot": "I05",
   "nivel": "intermediario",
   "numero": 23,
   "parte": "I05",
-  "titulo": "The five questions everyone asks you",
-  "subtitulo": "The opening that arrives at every counter — where from, first time, how many days, what do you make of it, what have you eaten — and the short answers that hand it back instead of closing it",
+  "titulo": "The five questions, and the five answers you already have",
+  "subtitulo": "Where from, how long, first time, do you like it, what do you do — all of it inside the first minute",
+  "cena": "You sat down alone with a coffee, and the man at the next table has already turned his chair to face yours.",
   "moldura": "ganha",
-
-  "cena": "Second round at a counter in a town you got to this morning, the man on the next stool has turned half round, and he has just asked you where you are from.",
-
-  "decisao": "whether the five questions turn into a conversation or stop dead — the table that answers them and hands one back leaves with the dish that is not on the board, the bar with no sign, a Sunday lunch it was invited to and, in a small place, now and then a round that never reaches the bill; the table that nods gets served and left alone",
-  "emJogo": "ambos",
-
-  "moldes": ["PREFERENCIA"],
-
-  "clique": {
-    "contagem": ["the counter", "the terrace", "the market stall", "the taxi", "the hotel desk"],
-    "desconto": "Nobody gave you those sentences. You made them on the spot, out of two openers and two words handed back.",
-    "piso": "You will answer all five of the questions a stranger asks you at a counter, and put one back. Most visitors answer the first one and nod through the other four."
-  },
-  "cliqueAudioKey": "i05-n30",
-
-  "frasePiso": "You will answer all five of the questions a stranger asks you at a counter, and put one back. Most visitors answer the first one and nod through the other four.",
-
-  "permissao": "You never have to produce estáis, habéis or sois — you will hear them all day and build one about never, and ustedes works if you ever do. Three words is a whole answer, and liking the obvious thing is a real answer: nobody is marking your taste. And you are allowed to lose the question and ask for it again, twice, without it costing you the conversation.",
-  "permissaoAudioKey": "i05-n27",
-
-  "espelho": "Talking your own Spanish down — 'no, no, it's terrible' — is the bit that reads as odd there. It hands the turn back with nothing in it, and the person who was holding a door open closes it politely.",
-
-  "fichasCulturais": [
-    {
-      "sinal": "Somebody you met ninety seconds ago asks where you are from, whether it is your first time, how many days you have got, what you make of the place and what you have eaten — one straight after the other.",
-      "suaLeitura": "I am being interviewed, or sized up, and in a minute somebody is going to try to sell me a boat trip.",
-      "oQueEAli": "It is the standard opening for anybody who has just walked in, and it is how a stranger at a counter is turned into somebody who is there. The questions are the welcome, not the vetting.",
-      "oQueVoceFaz": "Answer each one in three or four words, and put a short question back after the first two.",
-      "oQueMelhora": "You stop being the table nobody talks to, and the answers start arriving with places inside them.",
-      "ondeNaoVale": "Not at a counter with eleven people behind you, and not at a bank, a surgery or a Guardia Civil checkpoint — there nobody asks you anything that is not on a form, and the quiet is not coldness.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i05-n20", "i05-n21", "i05-n22"]
-    },
-    {
-      "sinal": "The question arrives with an ending you have never heard — estáis, habéis, sois — and his eyes go from you to the person next to you and back.",
-      "suaLeitura": "There is a whole half of this language nobody taught me, and I have just lost the thread of a simple question.",
-      "oQueEAli": "It is the plural you, used all day between friends, family and anybody who is not behind a uniform. It is aimed at your table rather than at you, and underneath it is one of the same five questions.",
-      "oQueVoceFaz": "Listen past the ending, answer for both of you in the ordinary way, and never try to build one back.",
-      "oQueMelhora": "You answer questions you did not technically understand, which is what listening well actually looks like on a Tuesday night.",
-      "ondeNaoVale": "Not in the Canaries and much of western Andalusia, where ustedes does the same job between friends — if you never hear estáis in Seville, nothing has gone wrong and nobody is being formal with you.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i05-cuantosdias-e", "i05-quehabeis-e", "i05-n27"]
-    },
-    {
-      "sinal": "You ask him one question back — whether there is something they only do here — and he stops what he is doing and thinks about it properly before answering.",
-      "suaLeitura": "I have made a stranger work, and I am now taking up an afternoon that was not offered to me.",
-      "oQueEAli": "Being asked what is worth knowing about your own town is a job people take on gladly, and here it gets done out loud, at the counter, with the rest of the bar listening in and correcting him.",
-      "oQueVoceFaz": "Ask it once, then stop talking and let him answer at his own length. Write down the name he says.",
-      "oQueMelhora": "You leave with a plate and a street that no search would have given you, and often with him telling the barman what you are drinking next.",
-      "ondeNaoVale": "Not with somebody who is working a queue at half past two — there the same question is a nuisance, and what comes back is the nearest thing on the list.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i05-n16", "i05-n17", "i05-n18"]
-    }
-  ],
-
+  "frasePiso": "Five answers loaded before the questions arrive, and one question of your own to hand back.",
+  "decisao": "fico na conversa ou saio dela; as cinco perguntas que sempre vêm, as minhas respostas prontas e a pergunta que devolvo",
+  "moldes": [],
   "fatosDatados": [
     {
-      "id": "vosotros-receptivo-e-ustedes-no-sul",
-      "afirmacao": "Vosotros is the ordinary plural 'you' across most of Spain and a visitor is almost always on the receiving end of it rather than producing it; in the Canaries and much of western Andalusia ustedes does the same job informally.",
-      "fonte": "docs/pesquisa-espanha.md §4.2, apoiada em RAE/ASALE, Nueva gramática básica §10.6.2 e Moreno Fernández (CVC); a nuance regional está marcada na própria pesquisa como síntese secundária",
+      "id": "el-i05-polidez",
+      "afirmacao": "Politeness in Greek and in English is oriented differently, and this is a described research finding rather than etiquette advice: Greek is oriented towards positive politeness — involvement, closeness — and English towards negative politeness — distance, non-imposition. The direct consequence is symmetrical: the English speaker reads the Greek one as abrupt or intrusive, and the Greek one reads the English speaker as cold or distant. Both readings are wrong.",
+      "fonte": "Maria Sifianou, Politeness Phenomena in England and Greece, e Bayraktaroğlu & Sifianou (eds.), Linguistic Politeness Across Boundaries, John Benjamins, P&BNS 88: o grego é orientado a positive politeness (envolvimento, proximidade) e o inglês a negative politeness (distância, não-imposição). Panorama recente: Languages, 2026, doi:10.3390/languages11050107.",
       "ano": 2026,
-      "revisarAte": "2029-01-01",
-      "evidencia": "CONSENSO",
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["i05-cuantosdias-e", "i05-n27"]
+      "audioKeys": [
+        "el-i05-n02"
+      ]
+    },
+    {
+      "id": "el-i05-ingles",
+      "afirmacao": "On the EF EPI 2025 Greece scores 592, ranked 20th globally, in the «High» band, a fall of ten points; by skill, reading 600, listening 592, writing 571 and speaking 533, the weakest column. The obligatory caveat, admitted by EF itself: respondents are self-selected, have internet access and are biased towards people interested in languages. The index does not measure the English of the Greek population — it measures the English of Greeks who chose to take an online test.",
+      "fonte": "EF EPI 2025: Grécia 592, #20 global, banda «High», queda de 10 pontos. Por habilidade: leitura 600, compreensão oral 592, escrita 571, fala 533 — a mais fraca. ⚠️ Ressalva obrigatória, admitida pela própria EF: respondentes autosselecionados, com acesso à internet, enviesados para quem se interessa por idiomas. O curso pode dizer «figura entre os países de proficiência alta em índices comerciais de autosseleção» e nunca «X% dos gregos falam inglês».",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "el-i05-n04"
+      ]
+    },
+    {
+      "id": "el-i05-makedonia",
+      "afirmacao": "Macedonia in Greece is the name of a Greek region — Μακεδονία, with Thessaloniki as its capital. The Prespa Agreement was signed on 17.06.2018 and has been in force since 12.02.2019, establishing the constitutional name «Republic of North Macedonia» for the neighbouring state, in erga omnes use. An English speaker who says «I'm going to Macedonia» can therefore be understood in two opposite ways.",
+      "fonte": "Acordo de Prespa assinado em 17.06.2018 em Ψαράδες; vigente desde 12.02.2019 (Parlamento grego aprovou em 25.01.2019, 153 votos). Estipula nome constitucional «República da Macedônia do Norte», uso erga omnes. Instrução operacional: «Macedonia» na Grécia é o nome de uma região grega (Μακεδονία, capital Θεσσαλονίκη). Um anglófono que diz «I'm going to Macedonia» pode ser entendido de duas maneiras opostas.",
+      "ano": 2019,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-i05-n03"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n01",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i05-n01",
+      "gesto": 1,
       "bloco": "aquecimento",
-      "gesto": 4,
-      "tom": "ganha",
-      "pt": "Part twenty-three. Warm-up: the flick. One touch, not a roll. Pre-fie-ro. Pa-re-ce. Pri-me-ra."
+      "pt": "Sit anywhere for five minutes and the same five questions arrive. Every one of them has a short answer."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n02",
-      "pt": "The tongue taps the roof once and leaves. Three more, and let the hand flick along with it."
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i05-r01",
+      "es": "Από πού είσαι;",
+      "pt": "Where are you from?",
+      "tts": "Από πού είσαι;",
+      "receptivo": true,
+      "acao": "This is always first. Have the city ready, not the country — the city gets you a follow-up."
     },
     {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "bloco": "callback",
-      "promptAudioKey": "i05-p01",
-      "promptPt": "End of a long night, four of you, and he is already tapping one single total into the machine. Get in before he finishes. Speak now.",
-      "audioKey": "e03c-separado-e",
-      "es": "Pagamos por separado, por favor.",
-      "pinyin": "pah-GAH-mohs por seh-pah-RAH-dhoh, por fah-BOR",
-      "pt": "each of us, our own"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i05-p01",
+      "promptPt": "First question of the evening, and he is waiting with his coffee halfway up. Speak now.",
+      "audioKey": "el-i05-t01",
+      "es": "Είμαι από το Λονδίνο.",
+      "pinyin": "EE-me a-PO to lon-THEE-no",
+      "pt": "I'm from London.",
+      "tts": "Είμαι από το Λονδίνο."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n03",
-      "bloco": "cena",
-      "pt": "Second round, a counter in a town you got to this morning, and the man on the next stool turns half round."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n04",
-      "pt": "He is not selling anything. He is about to ask you five things, and he will ask them fast."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i05-dedonde-e",
-      "es": "¿De dónde eres?",
-      "pinyin": "deh DOHN-deh EH-rehs",
-      "pt": "👂 'Where are you from?' — the first one, every time, everywhere.",
-      "tts": "¿De dónde eres?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i05-primeravez-c",
-      "es": "¿Es la primera vez?",
-      "pinyin": "es lah pree-MEH-rah beth",
-      "pt": "👂 'Is this your first time?' — asked with real interest, and not as a test.",
-      "tts": "¿Es la primera vez?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i05-cuantosdias-e",
-      "es": "¿Cuántos días estáis?",
-      "pinyin": "KWAN-tohs DEE-ahs ehs-TAIS",
-      "pt": "👂 'How many days are you here?' — estáis, because he means the two of you.",
-      "tts": "¿Cuántos días estáis?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i05-queteparece-c",
-      "es": "¿Qué te parece Madrid?",
-      "pinyin": "keh teh pah-REH-theh mah-DHREEDH",
-      "pt": "👂 'What do you make of Madrid?' — and this is the one that decides the evening.",
-      "tts": "¿Qué te parece Madrid?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i05-quehabeis-e",
-      "es": "¿Y qué habéis comido?",
-      "pinyin": "ee keh ah-BAYS koh-MEE-dhoh",
-      "pt": "👂 'And what have you eaten?' — never small talk here. He wants the name of it.",
-      "tts": "¿Y qué habéis comido?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n05",
-      "pt": "Five of them in thirty seconds. One word each, and he turns back to his glass and the telly."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n06",
-      "pt": "Three words each and something handed back, and the rest of the evening changes shape."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n07",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i05-n02",
       "bloco": "molde",
-      "pt": "The frame that does it is two words long, and then the thing you liked."
+      "pt": "The frame is mou aresi, plus the thing. It is what turns an answer into a conversation."
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i05-barrio-e",
-      "es": "Me gusta mucho este barrio.",
-      "pinyin": "meh GOOS-tah MOO-choh EHS-teh BAH-rryoh",
-      "pt": "I really like this part of town.",
-      "tts": "Me gusta mucho este barrio."
+      "voz": "target_el_m",
+      "audioKey": "el-i05-r02",
+      "es": "Πόσες μέρες θα μείνεις;",
+      "pt": "How many days are you staying?",
+      "tts": "Πόσες μέρες θα μείνεις;"
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n08",
-      "pt": "Me gusta, and then the thing. The front never moves. Only what sits on the end of it."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i05-plaza-c",
-      "es": "Me gusta mucho esta plaza.",
-      "pinyin": "meh GOOS-tah MOO-choh EHS-tah PLAH-thah",
-      "pt": "The same two words with something else hanging off them.",
-      "tts": "Me gusta mucho esta plaza."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n09",
-      "pt": "The end of the little word moved with the thing after it. You take that by ear, never by rule."
-    },
-    {
-      "consulta": ["simpatia/puxar-conversa","simpatia/elogiar-lugar"],
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "PREFERENCIA",
-      "encaixe": "este barrio",
-      "encaixeGloss": "this part of town",
-      "promptAudioKey": "i05-p02",
-      "promptPt": "The man on the stool has asked what you make of the streets you have been walking round since breakfast. Speak now.",
-      "audioKey": "i05-barrio-e",
-      "es": "Me gusta mucho este barrio.",
-      "pinyin": "meh GOOS-tah MOO-choh EHS-teh BAH-rryoh",
-      "pt": "what you thought of it"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i05-p02",
+      "promptPt": "Second question, and it wants a number. You landed on the first and you fly out on the eleventh. Speak now.",
+      "audioKey": "el-i05-t02",
+      "es": "Δέκα μέρες.",
+      "pinyin": "THE-ka ME-res",
+      "pt": "Ten days.",
+      "tts": "Δέκα μέρες."
     },
     {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-i05-r03",
+      "es": "Πρώτη φορά στην Ελλάδα;",
+      "pt": "First time in Greece?",
+      "tts": "Πρώτη φορά στην Ελλάδα;"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "PREFERENCIA",
-      "encaixe": "esta plaza",
-      "encaixeGloss": "this square",
-      "promptAudioKey": "i05-p03",
-      "promptPt": "Two towns later, a terrace put out across the paving in front of a church, and the waiter has stopped to ask how you are finding it here. Speak now.",
-      "audioKey": "i05-plaza-c",
-      "es": "Me gusta mucho esta plaza.",
-      "pinyin": "meh GOOS-tah MOO-choh EHS-tah PLAH-thah",
-      "pt": "about where you are sitting"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n10",
-      "pt": "There is a second opener, for when two things are in front of you and you want one of them."
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i05-p03",
+      "promptPt": "Third question. You landed on Tuesday and you have never been here before. Speak now.",
+      "audioKey": "el-i05-t03",
+      "es": "Πρώτη φορά, ναι.",
+      "pinyin": "PRO-ti fo-RA, ne",
+      "pt": "First time, yes.",
+      "tts": "Πρώτη φορά, ναι."
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i05-tinto-e",
-      "es": "Prefiero el vino tinto.",
-      "pinyin": "preh-FYEH-roh el BEE-noh TEEN-toh",
-      "pt": "I'd rather have the red one.",
-      "tts": "Prefiero el vino tinto."
+      "voz": "target_el_f",
+      "audioKey": "el-i05-r04",
+      "es": "Σου αρέσει η Ελλάδα;",
+      "pt": "Do you like Greece?",
+      "tts": "Σου αρέσει η Ελλάδα;",
+      "receptivo": true,
+      "acao": "The verb turns the sentence round: it is Greece doing the pleasing. Your answer keeps the same shape."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i05-fuera-c",
-      "es": "Prefiero sentarme fuera.",
-      "pinyin": "preh-FYEH-roh sen-TAR-meh FWEH-rah",
-      "pt": "I'd rather sit outside. — the same opener, with a doing on the end of it.",
-      "tts": "Prefiero sentarme fuera."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i05-andar-e",
-      "es": "Prefiero andar.",
-      "pinyin": "preh-FYEH-roh an-DAR",
-      "pt": "I'd rather walk. — two words, and it is a whole answer.",
-      "tts": "Prefiero andar."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n11",
-      "pt": "Prefiero, and then the thing, or the doing. Nobody is going to ask you to explain it."
-    },
-    {
+      "consulta": [
+        "simpatia/elogiar-lugar"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "PREFERENCIA",
-      "encaixe": "el vino tinto",
-      "encaixeGloss": "the red one",
-      "promptAudioKey": "i05-p04",
-      "promptPt": "A market stall at the end of the morning, two bottles open on the board, and the woman behind it has a glass in each hand, waiting on you. Speak now.",
-      "audioKey": "i05-tinto-e",
-      "es": "Prefiero el vino tinto.",
-      "pinyin": "preh-FYEH-roh el BEE-noh TEEN-toh",
-      "pt": "which of the two"
-    },
-    {
-      "consulta": ["mesa/mesa","simpatia/puxar-conversa"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "PREFERENCIA",
-      "encaixe": "sentarme fuera",
-      "encaixeGloss": "sit outside",
-      "promptAudioKey": "i05-p05",
-      "promptPt": "The restaurant door, half past nine, and the girl with the menus has one hand pointing into the dark room and the other at the pavement. Speak now.",
-      "audioKey": "i05-fuera-c",
-      "es": "Prefiero sentarme fuera.",
-      "pinyin": "preh-FYEH-roh sen-TAR-meh FWEH-rah",
-      "pt": "where you want to be put"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n12",
-      "pt": "One more, for when you have been to two of something and one of them was better."
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i05-p04",
+      "promptPt": "Fourth question, and it is asked with real interest rather than as small talk. Answer it warmly. Speak now.",
+      "audioKey": "el-i05-t04",
+      "es": "Μου αρέσει πολύ.",
+      "pinyin": "moo a-RE-si po-LEE",
+      "pt": "I like it a lot.",
+      "tts": "Μου αρέσει πολύ.",
+      "molde": "MOU-ARESE",
+      "encaixe": "πολύ"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i05-esquina-e",
-      "es": "Me gusta más el de la esquina.",
-      "pinyin": "meh GOOS-tah mahs el deh lah ehs-KEE-nah",
-      "pt": "I like the one on the corner better. — two bars, one short answer.",
-      "tts": "Me gusta más el de la esquina."
+      "voz": "target_el_m",
+      "audioKey": "el-i05-r05",
+      "es": "Τι δουλειά κάνεις; Είσαι παντρεμένος; Έχεις παιδιά;",
+      "pt": "What work do you do? Are you married? Do you have children?",
+      "tts": "Τι δουλειά κάνεις; Είσαι παντρεμένος; Έχεις παιδιά;",
+      "receptivo": true,
+      "acao": "Three of them in one breath. Answer the one you feel like answering — nobody is auditing the other two."
     },
     {
-      "consulta": ["simpatia/puxar-conversa"],
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "PREFERENCIA",
-      "encaixe": "el de la esquina",
-      "encaixeGloss": "the one on the corner",
-      "promptAudioKey": "i05-p06",
-      "promptPt": "In the taxi back, the driver has named both of the bars you were in tonight and wants to know which you would go to again. Speak now.",
-      "audioKey": "i05-esquina-e",
-      "es": "Me gusta más el de la esquina.",
-      "pinyin": "meh GOOS-tah mahs el deh lah ehs-KEE-nah",
-      "pt": "which of the two you would go back to"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i05-p05",
+      "promptPt": "He asked what you do, and your job title means nothing in any language. Keep it to where you go. Speak now.",
+      "audioKey": "el-i05-t05",
+      "es": "Δουλεύω σε γραφείο.",
+      "pinyin": "thoo-LE-vo se gra-FEE-o",
+      "pt": "I work in an office.",
+      "tts": "Δουλεύω σε γραφείο."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n13",
-      "pt": "Now the half that keeps it moving. Every answer tonight comes with two words on the end."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i05-n03",
+      "pt": "Macedonia is the name of a Greek region, capital Thessaloniki. Name the city you are going to, not the region."
     },
     {
       "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i05-ytu-c",
-      "es": "¿Y tú?",
-      "pinyin": "ee too",
-      "pt": "'And you?' — two words, and the question is his again.",
-      "tts": "¿Y tú?"
+      "voz": "target_el_m",
+      "audioKey": "el-i05-r06",
+      "es": "Πού πας μετά;",
+      "pt": "Where are you going next?",
+      "tts": "Πού πας μετά;"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i05-p06",
+      "promptPt": "Your next stop is the big northern city with the waterfront. Give him the city by name. Speak now.",
+      "audioKey": "el-i05-t06",
+      "es": "Πάω στη Θεσσαλονίκη.",
+      "pinyin": "PA-o sti the-sa-lo-NEE-ki",
+      "pt": "I'm going to Thessaloniki.",
+      "tts": "Πάω στη Θεσσαλονίκη."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n14",
-      "pt": "Say your bit, hand it straight back, and you have stopped being the one being interviewed."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i05-n04",
+      "pt": "Greece sits high on commercial English indexes, and speaking is its weakest column. Do not plan on English."
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i05-londres-e",
-      "es": "Soy de Londres, ¿y tú?",
-      "pinyin": "soy deh LOHN-drehs, ee too",
-      "pt": "Where home is, and then it is his turn again.",
-      "tts": "Soy de Londres, ¿y tú?"
+      "voz": "target_el_f",
+      "audioKey": "el-i05-r07",
+      "es": "Μιλάς ελληνικά;",
+      "pt": "Do you speak Greek?",
+      "tts": "Μιλάς ελληνικά;"
     },
     {
+      "consulta": [
+        "reparo/ingles"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "SOY-ESTOY",
-      "encaixe": "de Londres",
-      "encaixeGloss": "from London",
-      "promptAudioKey": "i05-p07",
-      "promptPt": "First question of the five, thirty seconds in, and he is waiting on you. Say where home is, and put it straight back to him. Speak now.",
-      "audioKey": "i05-londres-e",
-      "es": "Soy de Londres, ¿y tú?",
-      "pinyin": "soy deh LOHN-drehs, ee too",
-      "pt": "and then it is his turn"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i05-p07",
+      "promptPt": "You have four sentences and she has just heard three of them. Undersell it, in Greek. Speak now.",
+      "audioKey": "el-i05-t07",
+      "es": "Μιλάω λίγα ελληνικά.",
+      "pinyin": "mi-LA-o LEE-ga e-li-ni-KA",
+      "pt": "I speak a little Greek.",
+      "tts": "Μιλάω λίγα ελληνικά."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n15",
-      "pt": "Two of the five want a number or a yes, and both of those answers are three words long."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i05-n05",
+      "pt": "Your answer does not have to be long. Two words in Greek buy more room than a paragraph in English."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i05-primera-c",
-      "es": "Sí, es la primera vez.",
-      "pinyin": "see, es lah pree-MEH-rah beth",
-      "pt": "Yes, first time. Then stop, and let him have it.",
-      "tts": "Sí, es la primera vez."
-    },
-    {
-      "consulta": ["simpatia/puxar-conversa"],
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i05-p08",
-      "promptPt": "He has asked whether you have been here before, and you have not. Three words, and then it is his go. Speak now.",
-      "audioKey": "i05-primera-c",
-      "es": "Sí, es la primera vez.",
-      "pinyin": "see, es lah pree-MEH-rah beth",
-      "pt": "three words, and stop"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i05-diezdias-e",
-      "es": "Diez días. ¿Y tú, eres de aquí?",
-      "pinyin": "dyeth DEE-ahs. ee too, EH-rehs deh ah-KEE",
-      "pt": "Ten days — and straight back at him.",
-      "tts": "Diez días. ¿Y tú, eres de aquí?"
-    },
-    {
-      "consulta": ["simpatia/puxar-conversa"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i05-p09",
-      "promptPt": "He wants to know how long you have got. Give him the number, and then find out whether this is his town. Speak now.",
-      "audioKey": "i05-diezdias-e",
-      "es": "Diez días. ¿Y tú, eres de aquí?",
-      "pinyin": "dyeth DEE-ahs. ee too, EH-rehs deh ah-KEE",
-      "pt": "the number, and then his turn"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i05-p08",
+      "promptPt": "You have answered five of his and he has answered none of yours. Hand one back. Speak now.",
+      "audioKey": "el-i05-t08",
+      "es": "Και από πού είστε;",
+      "pinyin": "ke a-PO POO EE-ste",
+      "pt": "And where are you from?",
+      "tts": "Και από πού είστε;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n16",
-      "pt": "And there is a sixth question. That one is yours, and it is the one that pays for the evening."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i05-tipico-e",
-      "es": "¿Hay algo típico de aquí?",
-      "pinyin": "ai AL-goh TEE-pee-koh deh ah-KEE",
-      "pt": "'Is there something they only do here?' — and now he has a job.",
-      "tts": "¿Hay algo típico de aquí?"
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "HAY",
-      "encaixe": "algo típico de aquí",
-      "encaixeGloss": "something they only do here",
-      "promptAudioKey": "i05-p10",
-      "promptPt": "He has told you where he was born, what his father did and why the bridge is shut. Give him the thing he has been waiting all evening to be asked. Speak now.",
-      "audioKey": "i05-tipico-e",
-      "es": "¿Hay algo típico de aquí?",
-      "pinyin": "ai AL-goh TEE-pee-koh deh ah-KEE",
-      "pt": "the one question that is yours"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n17",
-      "pt": "He will think about it properly, and the rest of the bar will start correcting him. Let them."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n18",
-      "pt": "Out of that comes the dish that is not on the board, the bar with no sign, and Sunday lunch."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i05-g01",
-      "pt": "GUIRI ALERT. George here. 'What do you make of Seville?' Here is my answer, in full."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i05-g02",
-      "pt": "'Oh — lovely, yeah. Really lovely. Lovely place. We've had a lovely time.' Five lovelies, nothing in it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i05-g03",
-      "pt": "He nodded and turned back to the telly. Three words with a thing in them beat five with none."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n19",
-      "pt": "The last of the five is about food, and it is the one they most want answered."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i05-pulpo-c",
-      "es": "Me gusta mucho el pulpo.",
-      "pinyin": "meh GOOS-tah MOO-choh el POOL-poh",
-      "pt": "The answer that turns a menu into a conversation.",
-      "tts": "Me gusta mucho el pulpo."
-    },
-    {
-      "consulta": ["simpatia/elogiar-comida","simpatia/puxar-conversa"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "PREFERENCIA",
-      "encaixe": "el pulpo",
-      "encaixeGloss": "the octopus",
-      "promptAudioKey": "i05-p11",
-      "promptPt": "Morning, the hotel desk, and the girl who rang your table through last night wants to know what you had. One thing turned up twice, because you keep ordering it. Speak now.",
-      "audioKey": "i05-pulpo-c",
-      "es": "Me gusta mucho el pulpo.",
-      "pinyin": "meh GOOS-tah MOO-choh el POOL-poh",
-      "pt": "name the one you keep going back to"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n20",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i05-n06",
       "bloco": "capsula",
-      "pt": "Back to those five questions. They are not an interview, and nobody is being nosy at you."
+      "pt": "Hand one back. The question you return is what turns this from an interview into a conversation."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i05-r08",
+      "es": "Εγώ; Από ένα χωριό στην Κρήτη. Δεν το ξέρει κανείς.",
+      "pt": "Me? From a village in Crete. Nobody's heard of it.",
+      "tts": "Εγώ; Από ένα χωριό στην Κρήτη. Δεν το ξέρει κανείς.",
+      "receptivo": true,
+      "acao": "Second sentence out of him and it is not the country — it is the village. Ask about the village."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i05-p09",
+      "promptPt": "He answered at full speed and you caught the word for village and nothing else. Speak now.",
+      "audioKey": "el-i05-t09",
+      "es": "Δεν κατάλαβα. Πιο αργά, παρακαλώ.",
+      "pinyin": "then ka-TA-la-va. pyo ar-GA, pa-ra-ka-LO",
+      "pt": "I didn't catch that. Slower, please.",
+      "tts": "Δεν κατάλαβα. Πιο αργά, παρακαλώ.",
+      "molde": "SIGNOMI",
+      "encaixe": "δεν κατάλαβα"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n21",
-      "pt": "It is the standard welcome for somebody who has just walked in, and it is over in a minute."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i05-n07",
+      "pt": "Not catching it is not the end of the evening. Say so, ask for slower, and the story simply starts again."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i05-p10",
+      "promptPt": "He is standing up and putting his jacket on, and he shook your hand a second ago. Speak now.",
+      "audioKey": "el-i05-t10",
+      "es": "Χάρηκα πολύ.",
+      "pinyin": "HA-ri-ka po-LEE",
+      "pt": "Very glad to have met you.",
+      "tts": "Χάρηκα πολύ."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n22",
-      "pt": "Not at a counter with eleven people behind you. There nobody asks you a thing, and that is fine."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i05-n08",
+      "pt": "Leaving is a sentence, not a slow fade. Say you have to go, say it was good, and then stand up."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n23",
-      "tom": "protege",
-      "pt": "One subject stays out of the first five minutes: Franco, the monarchy, and whether Catalonia is a country."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n24",
-      "pt": "If he opens it, listen and ask. If he does not, neither do you. It gets a part of its own later."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n25",
-      "tom": "ganha",
-      "pt": "Everything else is fair game, and he will bring most of it up himself before the next round lands."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n26",
-      "pt": "Football included. He will tell you who he supports whether or not you have asked him."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n27",
-      "bloco": "permissao",
-      "pt": "You never have to say estáis or habéis. You hear them all day and build one about never."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n28",
-      "pt": "And three words is a whole answer. Liking the obvious thing is a real answer too."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n29",
-      "bloco": "espelho",
-      "pt": "Talking your own Spanish down — 'no, no, it's terrible' — is the bit that reads as odd there."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n30",
-      "bloco": "clique",
-      "tom": "ganha",
-      "pt": "Count the places. The counter. The terrace. The market stall. The taxi. The hotel desk."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n31",
-      "pt": "Nobody gave you those sentences. You made them on the spot, out of two openers and two words back."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n32",
-      "bloco": "piso",
-      "pt": "You will answer all five and hand one back. Most visitors answer the first and nod through the rest."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-s00",
-      "pt": "Shadowing. Out loud, underneath them, flat vowels and one flick of the tongue. The two you will use daily:"
+      "consulta": [
+        "chegar/sair",
+        "simpatia/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i05-p11",
+      "promptPt": "The conversation is good and you are meeting someone in ten minutes. Close it warmly and go. Speak now.",
+      "audioKey": "el-i05-t11",
+      "es": "Πρέπει να φύγω. Χάρηκα πολύ!",
+      "pinyin": "PRE-pi na FEE-go. HA-ri-ka po-LEE",
+      "pt": "I have to go. It was really good to meet you!",
+      "tts": "Πρέπει να φύγω. Χάρηκα πολύ!"
     },
     {
       "tipo": "shadow",
-      "voz": "Emilio",
-      "audioKey": "i05-barrio-e",
-      "molde": "PREFERENCIA",
-      "es": "Me gusta mucho este barrio.",
-      "pinyin": "meh GOOS-tah MOO-choh EHS-teh BAH-rryoh",
-      "pt": "I really like this part of town."
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Emilio",
-      "audioKey": "i05-tinto-e",
-      "molde": "PREFERENCIA",
-      "es": "Prefiero el vino tinto.",
-      "pinyin": "preh-FYEH-roh el BEE-noh TEEN-toh",
-      "pt": "I'd rather have the red one."
+      "voz": "target_el_f",
+      "audioKey": "el-i05-s01",
+      "es": "Είμαι από το Λονδίνο. Πρώτη φορά, ναι. Μου αρέσει πολύ. Και από πού είστε;",
+      "pinyin": "EE-me a-PO to lon-THEE-no. PRO-ti fo-RA, ne. moo a-RE-si po-LEE. ke a-PO POO EE-ste",
+      "pt": "Shadow the four that cover the first minute of every conversation you will have here.",
+      "tts": "Είμαι από το Λονδίνο. Πρώτη φορά, ναι. Μου αρέσει πολύ. Και από πού είστε;",
+      "molde": "MOU-ARESE"
     },
     {
       "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "i05-rend",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i05-n09",
       "bloco": "recap",
-      "pt": "One more out loud, somewhere we have not stood yet, and nobody has asked you anything."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "PREFERENCIA",
-      "encaixe": "andar",
-      "encaixeGloss": "walking",
-      "promptAudioKey": "i05-p12",
-      "promptPt": "Half nine in the morning, the station forecourt, and a driver has got out and opened a door for a place fifteen minutes away on foot. Speak now.",
-      "audioKey": "i05-andar-e",
-      "es": "Prefiero andar.",
-      "pinyin": "preh-FYEH-roh an-DAR",
-      "pt": "two words, and it is an answer"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i05-n33",
-      "pt": "That is it. They asked, you answered short, and you asked one back. Hasta luego."
+      "pt": "I05 done. Five questions, five answers, one question handed back, and a clean way out when you want one."
     }
   ],
-
   "aprofundar": {
-    "titulo": "The five questions, and the two openers that answer them (optional reading)",
+    "titulo": "The first minute, and how to survive being liked",
     "secoes": [
       {
-        "titulo": "Me gusta and prefiero — two openers, one thing on the end",
-        "corpo": "Both of these are learnt whole, with the thing you like sitting on the end, and neither of them has anything you need to work out at a counter. 'Me gusta mucho este barrio' — I really like this part of town. 'Prefiero el vino tinto' — I'd rather have the red. The word 'mucho' is optional and simply turns the volume up; 'me gusta este barrio' is a complete and perfectly ordinary answer. The one thing worth knowing, and it is the reason every recorded example here names exactly one thing: with two or more things on the end the opener grows an -n — 'me gustan las croquetas'. You can sidestep that for the whole fortnight by naming one thing, which is also the better answer socially, because a single named thing is what the other person can pick up and run with. The little word in front of the thing moves with it — este barrio, esta plaza, el vino, la plaza — and you take that by ear. Getting it the other way round is heard as an accent rather than an error, and the sentence lands intact either way. One warning that costs nothing to carry: 'me gusta' about a person is read as a declaration of interest rather than as friendliness. Keep it for streets, squares, plates and wine.",
+        "titulo": "The five, in the order they come",
+        "corpo": "Where are you from, how many days, first time, do you like it, what do you do. They arrive in roughly that order and often two at a time. Load the answers before you need them and the whole exchange takes forty seconds, at which point the conversation can start being about something.",
         "exemplos": [
           {
-            "es": "Me gusta mucho esta ciudad.",
-            "pt": "meh GOOS-tah MOO-choh EHS-tah thyoo-DHAHDH — I really like this city"
+            "es": "Είμαι από το Λονδίνο.",
+            "pt": "I'm from London."
           },
           {
-            "es": "Prefiero andar, gracias.",
-            "pt": "preh-FYEH-roh an-DAR — I'd rather walk, thanks (a whole answer to an offered taxi)"
+            "es": "Πρώτη φορά, ναι.",
+            "pt": "First time, yes."
           }
         ]
       },
       {
-        "titulo": "The five questions, in the order they arrive",
-        "corpo": "They come in more or less this order and they are the same in a bar in Bilbao and a bakery in Cádiz. '¿De dónde eres?' — where are you from. '¿Es la primera vez?' — first time here. '¿Cuántos días estáis?' or '¿Cuánto tiempo estáis?' — how long have you got. '¿Qué te parece Madrid?' — literally 'how does Madrid strike you', and the honest short answer is the good one. '¿Y qué habéis comido?' — and what have you eaten, which is not filler: what you have eaten is treated as evidence of whether you are having a proper time. Two more you will hear in the same slot: '¿Estáis de vacaciones?' (are you on holiday) and '¿Y qué tal?' (and how is it going), which is a door held open rather than a question with an answer. The answers that work are three or four words long, and each one ends with something handed back: '¿y tú?' does it every time, and '¿eres de aquí?' — are you from here — is the one that gets you a life story. There is no politeness cost to a short answer. There is a real cost to a long one, because the person opposite is standing up, holding a glass, and expecting a turn.",
-        "exemplos": [
-          {
-            "es": "¿Y tú, eres de aquí?",
-            "pt": "EH-rehs deh ah-KEE — and you, are you from here? (the one that opens everything)"
-          },
-          {
-            "es": "¿Estáis de vacaciones?",
-            "pt": "ehs-TAIS deh bah-kah-THYOH-nehs — 👂 are you on holiday? (aimed at the two of you)"
-          }
-        ]
+        "titulo": "Why they feel personal",
+        "corpo": "Research comparing the two describes Greek as oriented towards positive politeness — involvement and closeness — and English towards negative politeness — distance and non-imposition. The consequence is documented and symmetrical: the English speaker hears intrusion, the Greek speaker hears coldness, and neither reading is right. Married, children, what you earn on a good month: these are openers, not an inspection."
       },
       {
-        "titulo": "Vosotros: fifty times a day in your ear, never in your mouth",
-        "corpo": "Spain has a plural 'you' that Latin America does not, and it is why half the questions in this part sound like they contain a word you have never met. Vosotros is what you get whenever somebody addresses your table rather than you: '¿qué vais a tomar?' (what are you two having), '¿habéis reservado?' (have you booked), '¿sois vosotros?' (is that you two), '¿de dónde sois?' (where are you both from), 'pasad' and 'sentaos' (come in, sit down). You are almost always on the receiving end of it — to produce one you would have to be giving instructions to two Spanish people, which is not a situation this trip contains. So it lives in your ear and not in your mouth, and if you ever genuinely need it, 'ustedes' does the job and marks you as a foreigner, which you are. Two geographical notes. In the Canaries and much of western Andalusia, 'ustedes' is used informally too, so if you spend a week in Seville and never hear 'estáis', nothing has gone wrong and nobody is being stiff with you. And the -s at the end of these forms often thins to a breath in the south — 'estáih', 'habéih' — which is the same erosion the listening part of the course deals with head on.",
-        "exemplos": [
-          {
-            "es": "¿Habéis reservado?",
-            "pt": "ah-BAYS rreh-sehr-BAH-dhoh — 👂 have you booked? (at the restaurant door)"
-          },
-          {
-            "es": "¿De dónde sois?",
-            "pt": "deh DOHN-deh soys — 👂 where are you both from?"
-          }
-        ]
+        "titulo": "Μου αρέσει turns the sentence round",
+        "corpo": "English puts you in charge of liking: I like Greece. Greek puts the thing in charge: Greece pleases me. That is why the answer to σου αρέσει; comes back as μου αρέσει and not as anything built out of I. Learn the two halves as a pair and you never have to work out which end goes where."
       },
       {
-        "titulo": "Tú, usted, and who is doing the asking",
-        "corpo": "Everything you produce in this part is the same whoever is opposite you, which is half the reason these are the sentences we chose: 'me gusta', 'prefiero', 'soy de Londres' and '¿hay algo típico de aquí?' carry no decision at all about the person you are talking to. What changes is what you hear. A man your own age on the next stool will say '¿de dónde eres?'; an older waiter in a more formal room will say '¿de dónde es usted?', and you answer both the same way. The default across bars, shops, restaurants and taxis is tú, and it is the opposite of what most English speakers assume — reaching for usted everywhere is not more polite, it just marks you as somebody working from a phrasebook, and you may get a cheerful 'no me trates de usted, que me haces mayor' for it. Save usted for three places: police and officials, somebody clearly elderly, and a formal counter. If somebody uses tú with you, use it back. If you hand your question back with '¿y tú?' to a man of seventy, nothing breaks; the worst case is that he finds it friendly.",
-        "exemplos": [
-          {
-            "es": "¿De dónde es usted?",
-            "pt": "deh DOHN-deh es oos-TEDH — 👂 the usted version of the first question"
-          },
-          {
-            "es": "¿Y usted?",
-            "pt": "ee oos-TEDH — 👂 and you? (the version you will hear back from an older stranger)"
-          }
-        ]
+        "titulo": "One word to be careful with",
+        "corpo": "Macedonia in Greece is the name of a Greek region, Μακεδονία, whose capital is Thessaloniki. The Prespa Agreement, in force since February 2019, established «Republic of North Macedonia» as the constitutional name of the neighbouring state. So «I'm going to Macedonia» can land two opposite ways. You do not need a view on any of it — you need to say the city, and the ambiguity disappears."
       },
       {
-        "titulo": "The sixth question, and the one subject you leave alone",
-        "corpo": "'¿Hay algo típico de aquí?' is the single most profitable sentence in this part, and it works because it gives the other person a job they enjoy: telling a visitor what is worth knowing about their own town. Ask it once, then stop talking. What comes back is regularly a dish that is not on the board, a bar with no sign on the front, the one day of the week the market is any good, and — often enough that it stops being a coincidence — an instruction to the barman about what you are drinking next. Two neighbours of it: '¿qué me recomienda?' is the older, wider version and the answer is usually too long to follow, and '¿cuál me recomienda, este o aquel?' is the two-way version from the set-lunch part, which is easier to catch because the answer is one of two things you can already see. What stays out of the first five minutes with somebody you have just met is the political history: Franco, the monarchy, the Civil War, Basque and Catalan independence. There is no legal risk anywhere in that list — Spain argues about all of it openly and constantly — the risk is purely social, and it is the same instinct that stops you asking a stranger in Belfast which side his family was on. If he opens it himself, listen and ask rather than rule: 'no conozco bien el tema, cuéntame' hands it back honestly. Do not guess which side anybody is on from the city, the accent or the language they are speaking; the mental map that says 'speaks Catalan, therefore pro-independence' is wrong often enough to be noticed on the spot. And football is politics carried on by other means: saying you support both of them is the only answer worse than picking one. The full picture is a part of its own in the last module.",
-        "exemplos": [
-          {
-            "es": "¿Hay algo típico de aquí?",
-            "pt": "ai AL-goh TEE-pee-koh deh ah-KEE — is there something they only do here?"
-          },
-          {
-            "es": "No conozco bien el tema, cuéntame.",
-            "pt": "noh koh-NOTH-koh byen el TEH-mah, KWEN-tah-meh — I don't know much about it, tell me"
-          }
-        ]
+        "titulo": "About the English",
+        "corpo": "Greece sits in the high band of commercial English indexes, but those indexes measure people who chose to take an online test, not a population. Speaking is consistently the weakest of the four skills measured. Practically: assume good English at the airport desk and assume none at the village kafeneio, and carry four Greek sentences for the second case."
       }
     ]
-  }
+  },
+  "slot": "I05",
+  "permissao": "You are allowed to answer in two words. Nobody is waiting for a paragraph, and «Δέκα μέρες» is a complete and adult reply to a question about your trip. You are also allowed to not answer the one about being married — a smile and the next question back is a full turn in this conversation, and stepping out of it with «Πρέπει να φύγω» costs you nothing at all.",
+  "permissaoAudioKey": "el-i05-n05",
+  "espelho": "Anyone who has been the new person at a table at home already knows this feeling: the same four questions, in the same order, from everyone you meet, and the relief of finally having answers that come out without thinking. The only new part is that here the questions arrive faster and go deeper sooner.",
+  "fichasCulturais": [
+    {
+      "sinal": "Within two minutes of sitting down you have been asked whether you are married and whether you have children.",
+      "suaLeitura": "That is intrusive, and I am being sized up.",
+      "oQueEAli": "Research comparing English and Greek describes them as oriented differently: Greek towards positive politeness, which is involvement and closeness, and English towards negative politeness, which is distance and non-imposition. The questions are the standard opening move of the first orientation, and the flat English answer is the standard move of the second.",
+      "oQueVoceFaz": "Answer short, answer the one you feel like, and put a question back. «Και από πού είστε;» does more work than any amount of politely absorbing the questions.",
+      "oQueMelhora": "The exchange stops being an interview inside two turns, and you get the far more interesting half — his village, his opinion of your itinerary, where he actually eats.",
+      "ondeNaoVale": "This is a finding about politeness orientation, not a licence to read every question as warmth. A stranger who wants your hotel name, your room number or your phone is having a different conversation, and «Χάρηκα πολύ» plus standing up ends it completely.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i05-n02"
+      ]
+    },
+    {
+      "sinal": "You say where you are heading next and the table goes quiet for a beat, or somebody asks you to say it again.",
+      "suaLeitura": "My pronunciation was wrong and nobody understood the place name.",
+      "oQueEAli": "Macedonia is the name of a Greek region, Μακεδονία, with Thessaloniki as its capital, and since the Prespa Agreement came into force in February 2019 it is also part of the constitutional name of the neighbouring state. The word was understood perfectly — in two opposite ways at once.",
+      "oQueVoceFaz": "Say the city rather than the region: Thessaloniki, Kavala, Ohrid, Skopje. A city name is unambiguous and it also gets you a better recommendation than a region ever does.",
+      "oQueMelhora": "You get directions and a restaurant instead of a pause, and you never have to have a view on any of it.",
+      "ondeNaoVale": "Not a taboo and not a trap. Μακεδονία is an ordinary Greek word on road signs, football shirts and salad menus, and nobody is waiting to catch you out for saying it — the ambiguity is about the destination, not about the word.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i05-n03"
+      ]
+    },
+    {
+      "sinal": "The hotel desk switched to fluent English instantly, and the man in the village kafeneio does not switch at all.",
+      "suaLeitura": "He could speak English if he wanted to and has decided not to.",
+      "oQueEAli": "Commercial English indexes put Greece in the high band, but they measure self-selected people who chose to sit an online test — never a population — and speaking is consistently the weakest of the four skills they measure. Tourist-facing counters and village counters are simply two different populations.",
+      "oQueVoceFaz": "Open in Greek, keep it to four sentences, and let the other person decide whether to switch. If they do not, point, name the thing and use «Δεν κατάλαβα» without apology.",
+      "oQueMelhora": "You stop treating English as the fallback that must be there, and the four Greek sentences turn out to cover most of what you actually need.",
+      "ondeNaoVale": "Not a rule about who speaks what. Plenty of people in small places have worked abroad and will answer you in better English than you expected, and assuming otherwise out loud is its own small insult.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i05-n04"
+      ]
+    }
+  ]
 }

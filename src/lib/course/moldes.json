@@ -1,564 +1,322 @@
 {
-  "versao": 6,
-  "sku": "EN → Espanha",
-  "_changelog": [
-    "6 (2026-07-28): AS QUATRO DECLARAÇÕES DE MOLDE QUE MORAVAM EM ARQUIVO EM TRÂNSITO VIAJARAM JUNTO COM AS FRASES, e DONDE ganha B17 nos redisparos. A entrada de 28/07 acima já avisava: «cinco das nove vivem em arquivos com dissolveEm (ep-e04b, ep-e05b, ep-e08b) — quando eles forem repartidos, as declarações têm de viajar junto com as frases, ou a taxa volta para baixo do piso sem ninguém ter piorado nada». Eram QUATRO e não cinco depois da remoção do PUEDO do provador, e as quatro chegaram: ME-PUEDE em `¿Me lo puede hacer sin ajo?` e `¿Me lo puede hacer sin jamón?` (ep-e04b → B13, ep-e04a.json, redisparo já prometido pelo roster), ME-PONE em `Póngame medio kilo de aceitunas, por favor.` (ep-e05b → B15, ep-b15.json, redisparo já prometido) e DONDE em `He perdido el pasaporte. ¿Dónde está el consulado?` (ep-e08b → B17, ep-e08a.json). Só DONDE exigiu edição de roster: B17 não estava nos redisparos dele e agora está — casa em B08, B17 é nove slots depois, passa no G9d. Não foi acrescentado molde nenhum ao roster e nenhum teto se mexeu (12 operacionais + 3 sociais). ENTRA DE BRINDE, e é o melhor redisparo de HAY do curso depois da farmácia: `¿Hay alguien que hable inglés?` chegou de ep-e08b como `ouvir` puro e virou `responde` com `molde: HAY` em B17 — `alguien que hable inglés` é encaixe novo, está na própria lista de `exemplos` de HAY, e B17 já era redisparo declarado. MEDIDO com `node scripts/valida-tom.mjs`, antes → depois: SKU 150/296 = 51% → 152/294 = 52% · ME VIRO 103/197 = 52,3% → 105/197 = 53,3% · APROVEITO 42% → 42%. E medido TAMBÉM no estado que interessa, com os 9 arquivos em trânsito já apagados, que é onde a dívida vencia: ME VIRO 105/191 = 55,0% e SKU 152/287 = 53,0%. A margem de UMA frase virou margem de nove.",
-    "5 (2026-07-28): REVISÃO ADVERSARIAL DA VARREDURA DO G9 — uma das nove declarações da varredura de ME VIRO foi REMOVIDA. `ep-e05b.json` step 26, `¿Tiene una talla más grande? ¿Puedo probármelo?`, declarava PUEDO e não devia: (a) a metade PUEDO é a string `¿Puedo probármelo?` VERBATIM, que o G9 já conta separadamente em ep-b15 step 24 — o molde não faz trabalho novo nenhum nesta frase; (b) o núcleo produtivo do step é `¿Tiene una talla más grande?`, que molde nenhum gera e que é o que o prompt manda dizer primeiro; (c) o precedente de composto vigente (B09, `Ya tengo el billete. ¿Dónde está el control de acceso?`) exige ENCAIXE NOVO na metade do molde, e aqui não há. É a mesma forma que a própria varredura RECUSOU em `¿Tienen mesa para dos? Somos dos.` («contar o rabo pela frase») — a regra foi aplicada num caso e não no outro. As outras oito foram conferidas uma a uma e FICAM: seis são casca verbatim com encaixe novo ou gêmeo exato de declaração pré-existente, e `He perdido el pasaporte. ¿Dónde está el consulado?` (ep-e08b) fica porque `el consulado` É encaixe novo de DONDE, que é o que o precedente de B09 pede. RESSALVA QUE VIAJA COM O NÚMERO: `No, gracias. Cóbreme en euros… Sin conversión.` (ep-e05a step 22) fica por consistência com o degrau 2 já declarado no mesmo bloco, mas é frágil pelo mesmo teste — `Cóbreme en euros, en moneda local` não sai de molde nenhum; se o degrau 2 cair um dia, este cai junto. MEDIDO depois da remoção: ME VIRO 103/197 = 52,3% (piso 50) · SKU 51% · APROVEITO 42%.",
-    "5 (2026-07-28): B02 ENTRA EM `previas` DE ME-PONE — nenhum texto tocado, nenhum step marcado, nenhum crédito gasto. B02 (ep-e01b) faz o aluno PRODUZIR ME-PONE três vezes — `Ponme una caña, por favor.` num `responde` e num `shadow`, e `Perdone, ¿me pone un café con leche, por favor?` num `responde` —, sempre com o modelo nativo no `ouvir` imediatamente antes, e mesmo assim `npm run briefing B02` imprimia «Nenhum molde ancorado neste slot pelo roster». O roster já citava B02 DUAS VEZES como origem do modelo, nas linhas de prévia de B03 e de B07, e não o listava: é a doença das duas canônicas outra vez, agora dentro do próprio arquivo executável. Entra como PRÉVIA e não redisparo (B02 vem nove slots antes da casa em B11) e não vira casa: B02 ensina o par tú × usted da CASCA, nunca a peça que entra no buraco. MEDIDO: declarar `molde` nos steps daria ganho ZERO no G9 (as duas strings já contam por B03 e por I02 — 151/296 = 51% antes e depois) e acenderia G15 + G16 assim que a parte ganhasse `cena`; o lugar da informação era `previas`, e nenhum portão a lê. FICA ABERTO, e é achado da mesma revisão: B01 também produz ME-PONE (`Perdona, ¿me pones una caña?`, ep-e01a `responde` e01a-13, com modelo do Emilio antes) e também não está em `previas` — a entrada é do revisor de B01, na mesma onda. Achado da revisão adversarial de B02.",
-    "5 (2026-07-28): B17 VOLTA AOS REDISPAROS DE ME-PUEDE, HAY E SOY-ESTOY — a reinstauração que `_pendencia_b17` já tinha escrito, agora que o disco a cumpre. Nenhuma frase-alvo nova, nenhum molde novo, nenhum texto de áudio tocado: ep-e08a.json ganhou `molde` em seis steps que já eram instância dos três moldes e só não declaravam. Os três passam no G9d (casas B03, B08 e B13, todas anteriores a B17) e no G9c (a parte usa os três). QUERIA e DONDE seguem fora pelo motivo escrito na pendência — a cena de `Quería algo para…` que a GRADE §1 prometia é resolvida pela parte gravada com `¿Me puede recomendar algo para…?`, e `¿Dónde…?` não tem uma ocorrência em ep-e08a. ME-HE-DEJADO segue fora: o slot carrega `Me han robado`, que é o par escuro do molde e não o molde. RESSALVA MEDIDA: B17 continua LEGADO (sem `cena`), porque G4 (527 chars/clipe de narração contra teto de 120; 12 de 13 clipes acima de 320) e G15 («the template» em e08a-n11, e a guia nunca diz «the frame») só saem regravando narração — o que o reuso integral desta parte existe para não fazer. Enquanto isso o G9c cobra os três como aviso, não como erro, e eles estão cumpridos de qualquer forma.",
-    "5 (2026-07-28): VARREDURA DE DECLARAÇÃO DO G9 EM ME VIRO — nenhuma frase-alvo nova, nenhum molde novo, nenhum texto tocado: nove frases que o curso JÁ ensinava como instância de molde declarado estavam sem o campo `molde` no step, e a taxa media 46% contra os 50% que o piso de M1 exige. Declaradas: ME-PONE em B03 (`Perdone, ¿me pone un café con leche?`), B07 (`¿Me pone el taxímetro?`) e no bloco de mercado de ep-e05b (`Póngame medio kilo de aceitunas`) · ME-PUEDE em B04 (`¿Me la puede activar aquí?`) e nos dois de ep-e04b (`¿Me lo puede hacer sin ajo / sin jamón?`, gêmeos exatos do `sin cebolla` já declarado em B12 e B13) · SIN-CON-PARA no degrau blindado do DCC em B14 (`Cóbreme en euros… Sin conversión.`, irmão do degrau 2 já declarado) · PUEDO no provador de ep-e05b (`…¿Puedo probármelo?`) · DONDE no consulado de ep-e08b (`He perdido el pasaporte. ¿Dónde está el consulado?`). Os dois últimos são compostos e seguem o precedente de B09 (`Ya tengo el billete. ¿Dónde está el control de acceso?`, já declarado DONDE): frase de entrada + o molde verbatim. B04 entra nos redisparos de ME-PUEDE (vem depois da casa em B03, encaixe novo `activar`); B03 e B07 entram em `previas` de ME-PONE. Medido antes e depois com `node scripts/valida-tom.mjs --relatorio`: ME VIRO 91/197 = 46% → 100/197 = 51%; SKU 47% → 50%. MARGEM DECLARADA, e ela é de UMA frase: 98/197 já reprovaria. E cinco das nove vivem em arquivos com `dissolveEm` (ep-e04b, ep-e05b, ep-e08b) — quando eles forem repartidos, as declarações têm de viajar junto com as frases para B12/B13/B15/B17/B18, ou a taxa volta para baixo do piso sem ninguém ter piorado nada.",
-    "5 (2026-07-28): A CASA VEM ANTES DE TODO REDISPARO — sete moldes estavam com a casa depois de um redisparo e o G9d acusava os sete. Um redisparo é o molde VOLTANDO; se ele «volta» numa parte que o aluno ouve ANTES da casa, ele não voltou — apareceu do nada, sem os quatro tempos, e o aluno é mandado usar uma forma que ninguém ensinou. Resolvidos um a um, contra o que está no DISCO e não contra a GRADE: (a) ME-HE-DEJADO MUDA DE CASA, B18 → B07 — é o único dos sete que não tinha saída barata, porque casa no último slot de ME VIRO torna redisparo estruturalmente impossível (B07 e B16 vêm antes, e nem M2 nem M3 o usam), e um molde sem ≥2 redisparos é frase com outro nome (PRODUTO §5.1, P5). B07 é onde ele primeiro PAGA — o telefone que ficou no táxi à meia-noite — e foi promovido com os tempos que faltavam; B18 vira o maior redisparo do curso, com cinco encaixes, que é um fecho de módulo melhor do que uma casa. (b) QUERIA, HAY, LLEVA, DONDE, YA-ESTA e SOY-ESTOY MANTÊM A CASA e as aparições antecipadas saem dos redisparos e passam a `previas` — nenhuma delas ensinava os quatro tempos, todas são frase inteira modelada ou puro `ouvir`. (c) B17 sai de QUERIA, HAY, DONDE, ME-PUEDE, SOY-ESTOY e ME-HE-DEJADO, e B05 sai de SOY-ESTOY: são as duas partes de M1 ainda NÃO reescritas, o G9c cobrava seis promessas que o disco não cumpre, e a reinstauração está escrita em `_regras._pendencia_b17`. Achado do despacho estrutural de 2026-07-28.",
-    "5 (2026-07-28): campo novo `previas` — a aparição de um molde ANTES da casa dele. Não é redisparo e nunca conta em P5: é frase inteira, modelada por nativo e produzida como inventário congelado, que a casa depois abre. Existe porque tirar o slot dos redisparos apagaria a informação, e um uso não ensinado continua não ensinado mesmo que o roster deixe de mencioná-lo. Nenhum portão o lê; ele existe para o autor da parte e para o revisor.",
-    "5 (2026-07-28): LLEVA troca B11 por B14 nos redisparos. B11 era `ouvir` puro (a própria narração diz «you get it whole later») e vem antes da casa em B13; B14 tem um `responde` que já declarava `\"molde\": \"LLEVA\"` e nunca esteve no roster. Sem a troca o molde ficaria com um redisparo só. RESSALVA MEDIDA: B14 recita `¿Lleva jamón o chorizo?`, a mesma string de B13 — é redisparo de CENA, conta no G9 e NÃO vale como recall com encaixe novo ao aferir P5. Só I03 (`¿Lleva carne?`) traz encaixe novo, e isso é dívida declarada de LLEVA.",
-    "5 (2026-07-28): SOY-ESTOY ganha I06 nos redisparos (`Soy de Londres, ¿y tú?`, já declarado em ep-i06.json e ausente do roster). Sem ele, tirados B05, B08 e B17, o molde ficaria com um redisparo só. Mesma classe das edições de B06, B15, B07, B10, B18 e I05 abaixo: o arquivo executável estava atrás do corpus.",
-    "4 (2026-07-28): I03 entra nos redisparos de ME-PONE. O ep-i03.json abre com o callback obrigatório da parte anterior (I02, o balcão) e o declara como `\"molde\": \"ME-PONE\"`, reusando o audioKey e03a-cana-e; a GRADE §1 diz «0 novos — troca de encaixes» na linha de I03 e não nomeia quais, então nem ela listava. RESSALVA MEDIDA, na régua fixada na escrita de B18: este é redisparo de CENA, não de encaixe — a frase-alvo é a mesma string de B11/B12, então NÃO conta como recall com encaixe novo ao aferir P5. Os quatro redisparos de I03 que trazem encaixe NOVO já estavam no roster e são os que o G9c cobra: HAY (`¿Hay menú del día?`), QUERIA (`Quería media ración`), SIN-CON-PARA (`Con ensalada`) e LLEVA (`¿Lleva carne?`). Achado da escrita de I03.",
-    "4 (2026-07-28): I05 entra nos redisparos de HAY (`¿Hay algo típico de aquí?` — a sexta pergunta, a que o ALUNO faz de volta) e de SOY-ESTOY (`Soy de Londres, ¿y tú?` — a resposta à primeira das cinco perguntas, agora com a devolução colada). A GRADE §1 já lista os dois na linha de I05 («redispara HAY, SOY-ESTOY»); só o arquivo executável estava sem, e sem esta edição o G9c não teria o que cobrar. Mesma classe das edições de B06, B15, B07, B10 e B18 abaixo. RESSALVA MEDIDA (escrita de I05): HAY traz encaixe NOVO (`algo típico de aquí`, que não existe em nenhuma outra parte) e vale como recall com encaixe novo para P5; SOY-ESTOY reusa `de Londres`, que já é o encaixe de B05 — é redisparo de CENA, conta no G9 porque a frase-alvo é outra string, mas NÃO deve ser contado como recall com encaixe novo. Não foi acrescentado I05 aos redisparos de OTRA: `Otra ronda` seria mandar o aluno produzir uma forma que nenhuma voz nativa disse antes (B11 modela `Otra, por favor` e `Otro vino/café/tenedor`), que é exatamente o erro do `Otro café` da Onda 1.",
-    "4 (2026-07-27): B18 entra nos redisparos de QUERIA, PUEDO, YA-ESTA, ME-PUEDE. O ep-b18.json declara os quatro em responde — QUERIA (`Quería dos billetes para el aeropuerto` na bilheteria da última manhã), PUEDO (`¿Puedo dejar las maletas hasta las seis?` no check-out), YA-ESTA (`Ya está pagado` diante da tela do recepcionista) e ME-PUEDE (`¿Me puede dar la factura?` e `¿Me lo puede dar por escrito?` na devolução do carro) — e a GRADE §1 já lista YA-ESTA e ME-PUEDE na linha de B18; só o arquivo executável estava sem. Mesma classe das edições de B06, B15, B07 e B10 registradas abaixo: nenhum portão pega, porque o cross-check do G16/G9b compara `moldes` × `casa` e nunca redisparos. Achado da escrita de B18. RESSALVA MEDIDA (revisão adversarial de B18, mesma data): destes quatro, só QUERIA traz encaixe NOVO (`para el aeropuerto` contra o `para Sevilla` de B09). PUEDO reusa `dejar las maletas`, já ensinado em B16; YA-ESTA reusa `pagado`, já ensinado em B14; e os três ME-PUEDE de B18 são as frases inteiras de B17, B14 e B07, recitadas em cena nova. São redisparos de CENA, não de encaixe — valem como recall e contam no G9 (a frase-alvo é outra string), mas NÃO devem ser contados como recall com encaixe novo na hora de aferir P5.",
-    "4 (2026-07-27): ids ordinais (M1…M12, S1…S3) viram SLUGS derivados da forma (QUERIA, PUEDO, HAY…). Motivo medido: M12 apontava para «Me he dejado» neste arquivo e para «¿Tengo que?» na GRADE, o G9 aceitava o id e a atribuição ficaria errada EM SILÊNCIO. Molde é a única chave estrangeira do corpus; id ordinal convida a renumerar e um número errado é invisível numa revisão, um slug errado não. Campo idAnterior guardado para rastrear.",
-    "3 (2026-07-27): fecha a _pendencia_aberta da v2. «¿Tengo que + [inf]?» vai para ensinados_mas_nao_declarados com casa B09; «Me he dejado» segue declarado. Decidido pela tabela de casos de fronteira do PRODUTO.md (LEI), não por preferência — ela nomeia «Me he dejado» e não nomeia «¿Tengo que?».",
-    "4 (2026-07-27): B10 entra nos redisparos de HAY (¿hay algo para picar? diante de COCINA CERRADA · ¿hay un cajero por aquí? diante de SOLO EFECTIVO), de DONDE (¿dónde está la vía cuatro? · ¿dónde están los aseos? · ¿dónde está la salida? no aeroporto onde SALIDAS é departures) e de PUEDO (¿puedo aparcar aquí? diante da placa ZBE). B10 é o MODO PLACA — receptivo por desenho — e por isso o que ele produz é sempre um molde já plantado, disparado por uma placa lida: nenhuma casa nova, nenhum molde novo. O ep-b10.json declara os três em responde e a GRADE §1 diz «— (receptivo por desenho)» na coluna de moldes, então nem a grade listava os redisparos; só o arquivo executável fecha. Mesma classe das edições de B06, B15 e B07: nenhum portão pega, porque o cross-check do G9b compara `moldes` × `casa` e nunca redisparos. Achado da escrita de B10.",
-    "4 (2026-07-27): B07 entra nos redisparos de ME-PUEDE (¿me puede abrir el maletero? no táxi · ¿me lo puede dar por escrito? no balcão da locadora) e de PUEDO (¿puedo pagar con tarjeta? no banco de trás, callback de B06). O ep-e06a.json declara os dois em responde e a GRADE §1 já lista ME-PUEDE e PUEDO na linha de B07; só o arquivo executável estava sem. Mesma classe das edições de B06 e B15 registradas abaixo: nenhum portão pega, porque o cross-check do G16 compara `moldes` × `casa` e nunca redisparos. Achado da revisão adversarial de B07.",
-    "4 (2026-07-27): B15 entra nos redisparos de OTRA. O ep-b15.json declara `\"molde\": \"OTRA\"` num responde (`¿Tiene otra talla?`, dentro do provador) e a GRADE §1 não listava esse redisparo; o roster dizia só B16 e I04. Mesma classe da edição de B06/HAY registrada abaixo: nenhum portão pega, porque o cross-check do G16 compara `moldes` × `casa` e nunca redisparos. Achado da revisão adversarial de B15.",
-    "3 (2026-07-27): B06 entra nos redisparos de M3 (¿Hay wifi?, no bar do saguão). A GRADE §1 já lista M3 na linha de B06 e o ep-b06.json declara `\"molde\": \"M3\"` num responde; só o arquivo executável estava sem. Nenhum portão pega essa divergência (o cross-check do G16 compara `moldes` × `casa`, não redisparos), então ela sai à mão. Achado da revisão adversarial de B06.",
-    "2 (2026-07-27): Onda 0, item 2 da GRADE-36-ESPANHA §7. (a) B05 entra nos redisparos de M11 (Soy de Londres, na fronteira). (b) entram os TRÊS MOLDES SOCIAIS S1/S2/S3 pela exceção fechada de PRODUTO §5.1 — achado 9 da auditoria adversarial: a lei 'M2 não introduz molde nenhum' era violada três vezes pelo primeiro SKU, e uma lei que a primeira implementação quebra em três partes ou some ou ganha exceção nomeada. (c) o teto passa de '8 a 12' para '12 operacionais + até 3 sociais = 15 declarados'. (d) a lista de ensinados-e-não-declarados passa a nomear casa e motivo de cada um, e recebe ¿Nos vemos…? (o molde COMBINAR, recuperado — achado 10). (e) GRAU entra em `cortados` com o motivo escrito. Já estava feito antes desta edição: casa de M1 = B12 e M12 = Me he dejado.",
-    "1 (2026-07-27): roster inicial de 12 moldes operacionais."
-  ],
-  "_leia": "O NÚCLEO GERADOR do par. Um molde é um encaixe cujo buraco se preenche com uma COISA DO MUNDO (um café, a conta, outro quarto) — escolha, não cálculo de conjugação. É o que separa este produto do phrasebook: com inventário fixo o aluno repete o que escrevemos e trava quando a cena desvia dois graus; com molde ele MONTA a frase que nunca escrevemos. Medido: o inventário atual ensina 'El aire acondicionado no funciona', mas o aluno cujo quarto dá para a praça com banda precisa de 'Quería otra habitación, si es posible' — sete palavras, zero vocabulário novo, e hoje impossível de produzir.",
+  "versao": 1,
+  "sku": "EN → Grécia",
   "_regras": {
-    "teto": "12 moldes OPERACIONAIS + até 3 moldes SOCIAIS = 15 declarados no curso inteiro, e os dois números são LEI (PRODUTO §5.1 e INV-14). O limite é orçamentário, não estético: o molde não custa a apresentação, custa a agenda de recall — 15 × 3 recalls = 45 slots de recall em 36 partes, e o slot de callback do template já está pago em cada parte. É também trava anti-fraude do G9: declarar molde a mais para inflar o numerador quebra o build. Um 13º operacional ou um 4º social só entram por decisão do dono, e o caminho declarado, se o piso do G9 precisar subir, é ELEVAR o teto operacional de 12 para 14 com o dado na mão — nunca inflar a lista com o que o curso já ensina de graça.",
-    "ensinados_mas_nao_declarados": {
-      "_porque": "Estes o curso ENSINA com duas ou mais substituições na frente do aluno, e mesmo assim NÃO entram na declaração, porque o teto é lei e a lista já está cheia com os de maior cobertura. Isto é legítimo (PRODUTO §5.1: 'molde ensinado e não declarado é legítimo'), e a consequência é assumida: eles não contam no numerador do G9, então a taxa medida SUBESTIMA o produto — projeção ~50% em vez de ~60%. Preferimos subestimar a afrouxar a trava. Se a medição real ficar abaixo dos 45%, revê-se o teto COM O DADO NA MÃO, nunca por antecipação. O que NÃO é permitido é o inverso: sumir com um destes da grade porque 'não está no roster'. Estão nomeados aqui exatamente para que ninguém os perca.",
-      "lista": [
-        {
-          "forma": "[X] no funciona",
-          "casa": "B16",
-          "encaixe": "o que quebrou no quarto (el aire acondicionado, la ducha, la llave, el wifi)",
-          "porque_fora": "cobertura de uma cena só — o quarto. Não passa em P2 (alcance cruzado ≥3 partes diferentes) com folga suficiente para gastar um dos 12."
-        },
-        {
-          "forma": "Me han robado + [X]",
-          "casa": "B17",
-          "encaixe": "o que sumiu (el móvil, la cartera, el pasaporte, la maleta)",
-          "porque_fora": "cobre uma cena só e é o par escuro de M12 (Me he dejado), que é o que devolve o objeto de verdade. Declarar o roubo e não o esquecimento seria premiar a moldura de perda que o G1 existe para conter."
-        },
-        {
-          "forma": "Voy a + [infinitivo]",
-          "casa": "B14",
-          "encaixe": "o que eu vou fazer agora (pagar con tarjeta, pagar en efectivo, esperar fuera)",
-          "porque_fora": "no uso do curso ele é uma frase preventiva — 'Voy a pagar con tarjeta' dita ANTES de a maquininha aparecer — e não uma família aberta. Vale como forma fixa dentro do bloco do DCC."
-        },
-        {
-          "forma": "¿Nos vemos + [hora] + en + [lugar]? · ¿Quedamos allí? · Vale, allí estaré",
-          "casa": "I08",
-          "encaixe": "forma fechada, 4 encaixes gravados: hora × lugar",
-          "porque_fora": "é o molde COMBINAR do dossiê (4º da fila dos ausentes prioritários). Fica FORA da declaração porque o teto de 3 sociais já está tomado por APRECIAÇÃO, ESCOLHA e PREFERÊNCIA — mas VOLTA ao curso como forma fechada, e isto não é negociável: sem ele o aluno ENTENDE o convite e não consegue marcar, e I05/I08 não fecham. Um módulo de ganho que não deixa aceitar um convite tem um buraco no meio da promessa (achado 10 da auditoria adversarial; GRADE §9.4)."
-        },
-        {
-          "forma": "¿Tengo que + [infinitivo]?",
-          "casa": "B09",
-          "encaixe": "obrigação — só a interrogativa (validar, hacer transbordo, reservar, llevar algo)",
-          "porque_fora": "Foi o M12 declarado na v1 deste arquivo, e a troca por «Me he dejado» ficou sem registro por uma versão. RESOLVIDO pela tabela de casos de fronteira do PRODUTO.md, que é LEI e diz «não reabrir sem decisão do dono»: ela lista «Me he dejado + [objeto] + [lugar]» como ENTRA, molde fechado, porque «não há como perguntar por objeto perdido sem passado — o ferramental temporal é inescapável». «¿Tengo que?» não está na tabela, e os dois não cabem nos 12. Continua ENSINADO em B09 com ≥2 encaixes; só não conta no numerador do G9. A GRADE §1 e a linha de B09 ainda o chamam de «M12 (CASA)» e estão erradas — corrigir lá, não aqui."
-        }
-      ]
+    "vocabulario_molde": {
+      "termo": "the frame",
+      "porque": "Termo canônico da linha EN, idêntico ao do EN → Itália, EN → França e EN → México. Não muda entre SKUs da mesma língua-guia."
     },
-    "casa": "Onde o molde é ENSINADO, com no mínimo 2 substituições na frente do aluno.",
-    "redisparos": "Onde ele volta com encaixe NOVO. Nenhum molde ganha parte própria — molde atravessa a jornada; virar episódio é como a gramática volta pela janela. LEI DE ORDEM (G9d): todo redisparo vem DEPOIS da casa na ordem canônica dos slots (B01…B18 → I01…I10 → A01…A08). Slot anterior à casa não é redisparo — ou a casa muda para lá, ou o slot vira `previa`.",
-    "previas": "Onde o molde APARECE antes da casa. É legítimo e é bom: o aluno diz a frase inteira, modelada por um nativo, como inventário congelado, e a casa depois a abre. Três regras. (1) Uma prévia NUNCA entra em `redisparos` e NUNCA conta para o P5 — ela não é o molde voltando, é o molde chegando. (2) A prévia tem que ter modelo nativo ANTES do `responde`: sem isso o aluno produz uma forma que ninguém disse, que é o erro nº 1 das ondas 1 a 4. (3) A narração da prévia não pode dizer que o aluno «já tem» a peça, e a narração da CASA não pode apresentá-la como novidade — as duas mentem para o aluno em direções opostas, e as duas já aconteceram neste corpus (e06b-n36 e b14-n31). O campo é documental: nenhum portão o lê.",
-    "_pendencia_b17_RESOLVIDA_EM_PARTE": "2026-07-28, onda de declaração: os três redisparos que esta pendência mandava reinstaurar ESTÃO REINSTAURADOS, porque agora o disco os cumpre. ep-e08a.json ganhou `molde` em seis steps — ME-PUEDE em três `responde` com encaixe novo (`el dolor de cabeza`, `el dolor de estómago`, `las quemaduras del sol`, e é o melhor redisparo de ME-PUEDE do curso), HAY no `responde` e no `shadow` de `¿Hay una farmacia de guardia por aquí?`, e SOY-ESTOY em `Soy alérgico a la penicilina` (encaixe novo) — mais os campos de raiz que faltavam (permissao, espelho, frasePiso, clique, três fichasCulturais com ondeNaoVale e cinco fatosDatados). QUERIA e DONDE seguem FORA, pelo motivo já escrito abaixo. ME-HE-DEJADO segue FORA: não há uma única ocorrência de `Me he dejado` em ep-e08a, só `Me han robado`, que é o par escuro e não o molde. O QUE CONTINUA DEVENDO, e é por isso que a parte NÃO ganhou `cena` e segue LEGADO: o G4 mede 527 chars/clipe de narração contra o teto de 120, com 12 dos 13 clipes acima do teto de 320 por clipe, e o G15 acusa duas vezes (e08a-n11 chama o molde de «the template», e nenhuma fala da guia o nomeia «the frame»). Os três só saem regravando narração, que é exatamente o que o reuso integral desta parte existe para não fazer. Quem escrever o enxerto (ep-e08a + metade de ep-e08b + os seis golpes de ep-c02b) regrava a narração de qualquer jeito: é ali que o G4 e o G15 se pagam, e só então `cena` entra e a parte vai a vigor.",
-    "_pendencia_b17": "B17 (ep-e08a.json) e B05 (ep-e02b.json) são as duas partes de ME VIRO que ainda NÃO foram reescritas — sem `cena`, sem `clique`, sem `tom`, sem nenhuma declaração de `molde` em step nenhum. Por isso saíram dos redisparos na v5: o G9c cobrava seis promessas que o disco não cumpre. QUANDO O ENXERTO DE B17 FOR ESCRITO (ep-e08a intacto + metade de ep-e08b + os seis golpes de ep-c02b), ele TEM de reinstaurar três redisparos que a parte gravada JÁ contém e só não declara: ME-PUEDE (`¿Me puede recomendar algo para el dolor de cabeza / de estómago / las quemaduras del sol?` — três encaixes novos, é o melhor redisparo de ME-PUEDE do curso), HAY (`¿Hay una farmacia de guardia por aquí?`) e SOY-ESTOY (`Soy alérgico a la penicilina` — encaixe novo). NÃO reinstaurar QUERIA nem DONDE: a GRADE §1 promete `Quería algo para…` em B17 e a parte gravada resolve a mesma cena com `¿Me puede recomendar algo para…?`; de `¿Dónde…?` não há uma única ocorrência em ep-e08a, e a GRADE nunca o prometeu ali. ME-HE-DEJADO saiu por outro motivo, e agora é DECIDÍVEL: com a casa em B07, B17 é posterior e pode legitimamente ser redisparo — só que ep-e08a não tem uma única ocorrência de `Me he dejado`. O que o slot carrega é `Me han robado`, que é o par ESCURO do molde e não o molde. Se o enxerto quiser o contraste, ele acrescenta um `responde` de `Me he dejado` e SÓ ENTÃO devolve B17 aos redisparos. Marcar os steps de ep-e08a HOJE seria pior do que esperar: acende o G15 (a parte chama o molde de «the template» em e08a-n11 e nunca o nomeia «the frame») e o G16 (planta molde e não tem `clique`), e os três acusariam uma parte que ninguém escreveu ainda. QUANDO B05 FOR REESCRITO na Onda 6: se ele ganhar `Soy de Londres`, isso é PRÉVIA de SOY-ESTOY e não redisparo — B05 vem onze slots antes da casa em B13, e nenhuma reescrita muda isso. ACRESCENTADO PELA REVISÃO DE 2026-07-28 (dívida que o enxerto TEM de pagar e que não estava escrita aqui): o recap GRAVADO `e08a-rend` termina com «In 8B — the very last part of the course», e 8B é `ep-e08b.json`, que sai do disco nesta mesma onda. A partir da deleção, a última coisa que o aluno ouve em B17 é uma promessa que aponta para conteúdo que não existe mais. MEDIDO no corpus inteiro: esta é a ÚNICA referência viva a uma parte que morre — as outras dez ocorrências de numeração legada («Part 1B», «Part 2A», «3A») estão todas dentro das seis partes ainda LEGADO (ep-c03b, ep-e01a, ep-e01b, ep-e02a, ep-e02b, ep-e08a) e apontam para partes que continuam existindo. NÃO foi corrigida agora de propósito, e o motivo é o mesmo que mantém B17 legado: editar o texto de `e08a-rend` hoje o joga na lista de «texto à frente do áudio» e obriga a regravar um clipe que o enxerto vai regravar de qualquer forma. Quem escrever o enxerto regrava `e08a-rend` junto com o resto da narração e troca o destino do gancho — B17 é o fim de ME VIRO, e o que vem depois é I01, não 8B. O `titulo` («The green cross before the hospital») e o `subtitulo` já estendido NÃO mentem e não precisam de nada.",
-    "padrao_de_ensino": "Quatro tempos, e são dos autores, não inventados: nomear o molde → nomear a peça trocável → trocar na frente do aluno → mandar o aluno trocar num responde.",
-    "m2": "APROVEITO não introduz molde OPERACIONAL nenhum. O trabalho normal dele é trocar os encaixes: o mesmo ¿Me pone…? agora recebe 'una caña y un pincho de tortilla' em vez de 'un café'. EXCEÇÃO FECHADA, e é a única do produto (PRODUTO §5.1): M2 planta até TRÊS MOLDES SOCIAIS, nomeados para sempre — S1 APRECIAÇÃO (casa I07), S2 ESCOLHA (casa I03) e S3 PREFERÊNCIA (casa I05). Existem porque a família apetitiva NÃO TEM CENA EM M1: forçá-la para dentro do Básico quebraria a jornada e o prazo, e deixá-la de fora foi exatamente o que produziu um curso com 252 frases-alvo e uma única fala de apreciação em todas elas (§10, anti-padrão 3). Nenhum quarto molde social entra sem decisão do dono, e a exceção não abre precedente para molde operacional em M2.",
-    "moldes_sociais": "Um molde SOCIAL não pede, não paga e não repara: ele devolve alguma coisa à conversa — apreciação, escolha, preferência. É por isso que a exceção é segura: ele não desloca ferramental operacional do Básico, ocupa a célula que estava literalmente vazia, e o G9 continua contando ele no mesmo numerador (a trava é o teto de 3, não a categoria).",
-    "m3": "LEIO A SALA não produz molde nenhum. A relação dele com os moldes é auditiva — reconhecer, não montar.",
-    "ativo_de_par": "O núcleo gerador vive inteiro em ME VIRO, que é específico do PAR (L1 × destino). Ele NÃO se amortiza entre compradores: o que é forma fechada para um brasileiro não é para um anglófono. A cada comprador novo o roster se RE-DERIVA, não se traduz."
+    "criterio": "Um molde entra se, e só se: (1) o buraco é uma COISA DO MUNDO que o aluno escolhe sob pressão, nunca uma categoria gramatical que ele teria que calcular; (2) o abridor é invariável, ou seja, o aluno nunca conjuga nem declina nada para usá-lo; (3) ele atravessa a jornada — nasce numa casa e volta em pelo menos duas outras partes.",
+    "restricao_do_destino": "O grego tem CASO, e isso aperta o critério (2) mais do que em qualquer outro SKU do catálogo. Um abridor que force o aluno a escolher entre acusativo e genitivo não é molde: é uma regra para aplicar sob pressão. Por isso este roster é deliberadamente construído em cima de abridores que pedem ACUSATIVO — que é o caso do objeto direto e o que o aluno vai ouvir e repetir — e evita qualquer molde cujo encaixe mude de caso conforme a palavra. Onde o caso é inevitável, o encaixe entra no roster já flexionado, como bloco fixo, e o aluno aprende a peça inteira em vez de a regra.",
+    "recusados": [
+      {
+        "candidato": "εσύ / εσείς (tu / você formal)",
+        "porque": "Terceira vez que recuso o mesmo candidato: foi lei/tu na Itália, tu/vous na França, e aqui é εσύ/εσείς. O buraco não se preenche com uma coisa do mundo — preenche-se com uma leitura social do interlocutor feita sob pressão — e a escolha muda a conjugação. Vai para A07 como sinal RECEPTIVO."
+      },
+      {
+        "candidato": "υπάρχει (existe)",
+        "porque": "Equivalente aparente do C'È italiano, recusado pelo mesmo motivo que o «il y a» francês: no balcão grego a pergunta natural é ÉXETE — o que o comerciante TEM. «Υπάρχει φαρμακείο εδώ κοντά;» é correto mas é fala de quem já mora lá. Fica como reconhecimento."
+      },
+      {
+        "candidato": "θέλω (quero)",
+        "porque": "Curto, frequente e tentador — e é exatamente por isso que fica de fora como abridor principal. «Θέλω» sozinho soa mais seco em grego do que «I want» em inglês, e o registro de balcão pede θα ήθελα ou a fórmula com παρακαλώ. Entra dentro de THA-ITHELA, não como molde próprio."
+      },
+      {
+        "candidato": "πόσο κάνει vs πόσο κοστίζει",
+        "porque": "Não é recusa de molde, é uma decisão de FORMA: os dois existem, e o roster fixa πόσο κάνει, que é o que se ouve no balcão e na feira. Registrado aqui para que ninguém 'corrija' o curso depois achando que κοστίζει é mais certo — é mais escolar."
+      },
+      {
+        "candidato": "ο αόριστος (o passado: πήγα, έφαγα, είδα, ήπια)",
+        "porque": "Recusado, e a recusa é específica do grego. Nos SKUs de italiano e de francês o passado ENTROU como molde (HO-FATTO, J-AI-FAIT) porque lá existe um abridor invariável — «ho/sono» e «j'ai/je suis» — e o aluno só encaixa o particípio depois dele. O aoristo grego não tem abridor nenhum: a marca de passado está DENTRO do verbo, e cada verbo muda de radical (πάω→πήγα, τρώω→έφαγα, βλέπω→είδα, πίνω→ήπια). Isso viola o critério (2) de frente — não há peça fixa para reconhecer, há uma lista de formas para memorizar. I06 continua ensinando o passado, e ensina bem, mas como INVENTÁRIO declarado: doze verbos que valem a viagem inteira, aprendidos um a um. Chamar isso de molde seria inflar a taxa de geração com uma peça que o aluno não consegue remontar."
+      }
+    ]
   },
   "moldes": [
     {
-      "id": "QUERIA",
+      "id": "EXETE",
       "categoria": "operacional",
-      "forma": "Quería + [substantivo]",
-      "encaixe": "qualquer coisa que se pede num balcão",
+      "forma": "Έχετε + [coisa];",
+      "encaixe": "qualquer coisa que o outro possa TER",
       "tipo": "aberto",
-      "casa": "B12",
-      "_casa_resolvida": "A tabela de substituição do NÚCLEO §9.1 dizia B09, mas a copy completa do bloco (§5.4) está escrita para B12, com audioKeys e03b-*, e as quatro cenas dela são padaria, mercado, recepção e farmácia — nenhuma é bilheteria. Como §9.4 declara que o segundo bloco de B12 é à escolha do SKU, a casa é B12. B09 NÃO é o primeiro redisparo, como esta linha dizia até a v5: B09 vem três slots ANTES de B12, e o que ele tem é uma frase inteira modelada, não os quatro tempos — é prévia (ver `previas`). Reaberto e reconfirmado em 2026-07-28 contra a alternativa de mudar a casa para B09: B09 tem UM encaixe e nenhuma linha nomeando a peça que troca, e virar casa exigiria dois `responde` novos numa parte já gravada, enquanto B12 já tem os quatro tempos, quatro encaixes e o clique de quatro lugares escritos e gravados.",
+      "tipoBuraco": "coisa",
+      "casa": "B06",
       "redisparos": [
+        "B08",
+        "B11",
+        "B14",
+        "B15",
+        "B16",
+        "I03",
+        "A06",
+        "A08"
+      ],
+      "tiles": [
+        "comprar",
+        "comer",
+        "quarto",
+        "chegar"
+      ],
+      "exemplos": [
+        "τραπέζι",
+        "δωμάτιο",
+        "νερό",
+        "χάρτη",
+        "wifi",
+        "ρέστα"
+      ],
+      "nota": "O de maior alcance do SKU. O encaixe entra no acusativo já pronto, como bloco — o aluno aprende «έχετε τραπέζι» inteiro, não a regra de acusativo."
+    },
+    {
+      "id": "BORO",
+      "categoria": "operacional",
+      "forma": "Μπορώ να + [verbo];",
+      "encaixe": "qualquer coisa que EU quero fazer",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "casa": "B07",
+      "redisparos": [
+        "B10",
         "B15",
         "B16",
         "B18",
         "I03",
-        "I10"
-      ],
-      "previas": [
-        "B09 — `Quería dos billetes para Sevilla` na bilheteria de longa distância, com modelo da Carmen (e06b-billetes-c) imediatamente antes do `responde`. Frase inteira, um encaixe só, nenhuma peça nomeada como trocável: é a chegada do molde, não a volta dele. A narração e06b-n36 dizia «the word you already own from the bakery» e o desconto do clique contava `quería` entre «three words you already had» — as duas mentiam, porque a padaria é B12 e vem depois; corrigidas na v5.",
-        "B11 — `Quería la carta, por favor` em `ouvir`, zero produção. A própria narração (b11-n23) já diz «it gets its own turn next», que é a redação certa de uma prévia. O step mantém `\"molde\": \"QUERIA\"` porque a marca em `ouvir` é inerte para o G9 e serve de rastro."
-      ],
-      "tiles": [
-        "mesa",
-        "compras",
-        "quarto",
-        "saude",
-        "transporte"
-      ],
-      "exemplos": [
-        "dos billetes para Sevilla",
-        "una habitación para tres noches",
-        "algo para el dolor de garganta",
-        "el coche a nombre de García",
-        "una tarjeta SIM solo datos",
-        "medio kilo de esto",
-        "otra habitación, si es posible"
-      ],
-      "porque_o_numero_1": "É o único da lista que NÃO codifica interlocutor. ¿Me pones? vs ¿Me pone? obriga a decidir tú/usted sob estresse — exatamente a decisão que o anglófono toma ao contrário. Quería é 1ª pessoa e invariante diante de qualquer espanhol. Abre bilheteria, recepção, farmácia, padaria, loja, locadora e comisaría.",
-      "idAnterior": "M1"
-    },
-    {
-      "id": "PUEDO",
-      "categoria": "operacional",
-      "forma": "¿Puedo + [infinitivo]?",
-      "encaixe": "qualquer coisa que EU quero fazer",
-      "tipo": "aberto",
-      "casa": "B06",
-      "redisparos": [
-        "B07",
-        "B09",
-        "B10",
-        "B14",
-        "B15",
-        "B16",
-        "B18",
-        "I09"
+        "I09",
+        "A06",
+        "A07"
       ],
       "tiles": [
         "pagar",
         "compras",
         "quarto",
-        "taxi"
+        "chegar"
       ],
       "exemplos": [
-        "pagar con tarjeta",
-        "sentarme aquí",
-        "dejar la maleta",
-        "probármelo",
-        "entrar con esto",
-        "aparcar aquí",
-        "sacar una foto",
-        "usar el baño",
-        "cambiar el billete",
-        "validar aquí"
+        "πληρώσω με κάρτα",
+        "αφήσω τη βαλίτσα",
+        "καθίσω εδώ",
+        "δοκιμάσω",
+        "περάσω"
       ],
-      "nota": "Cobre a categoria de improviso mais comum do turista — 'isso aqui pode?' — que existe porque as regras mudam de cidade e ele não sabe quais: ZBE, terraza, foto, bagagem, cartão.",
-      "idAnterior": "M2"
+      "nota": "«Isso aqui pode?» — a categoria de improviso mais comum do viajante. O να mantém o verbo numa forma só, o que preserva o abridor invariável."
     },
     {
-      "id": "HAY",
+      "id": "POU-INE",
       "categoria": "operacional",
-      "forma": "¿Hay + [X]?",
-      "encaixe": "existência de qualquer coisa",
+      "forma": "Πού είναι + [lugar];",
+      "encaixe": "qualquer lugar que ele precisa alcançar",
       "tipo": "aberto",
-      "casa": "B08",
-      "redisparos": [
-        "B10",
-        "B11",
-        "B12",
-        "B16",
-        "B17",
-        "I01",
-        "I03",
-        "I05"
-      ],
-      "previas": [
-        "B06 — `¿Hay wifi?` no bar do saguão, com modelo da Carmen (b06-wifi-c) no `ouvir` imediatamente antes. Uma frase, três sílabas, nenhuma substituição: inventário congelado que B08 abre depois com cinco encaixes, `por aquí` e a razão de a resposta ser binária. B06 vem dois slots antes de B08 e por isso não pode ser redisparo. O step mantém `\"molde\": \"HAY\"` — a frase É instância do molde e conta no G9; o que ela não é, é uma volta."
-      ],
-      "tiles": [
-        "mesa",
-        "quarto",
-        "dieta",
-        "chegar",
-        "transporte",
-        "saude",
-        "simpatia"
-      ],
-      "exemplos": [
-        "wifi",
-        "baño",
-        "mesa",
-        "sombra",
-        "otro tren",
-        "descuento",
-        "algo sin gluten",
-        "farmacia por aquí",
-        "alguien que hable inglés"
-      ],
-      "nota": "Substitui um vocabulário inteiro de perguntas por uma só, e a resposta é binária — cabe na cabeça do aluno sob estresse. É também o contorno canônico do subjuntivo: 'busco un sitio que tenga wifi' vira '¿Hay wifi?'.",
-      "idAnterior": "M3"
-    },
-    {
-      "id": "ME-PONE",
-      "categoria": "operacional",
-      "forma": "¿Me pone / Me pones + [X]?",
-      "encaixe": "bebida, comida, quantidade — no balcão",
-      "tipo": "aberto",
-      "casa": "B11",
-      "redisparos": [
-        "B15",
-        "I02",
-        "I03"
-      ],
-      "previas": [
-        "B01 — `Perdona, ¿me pones una caña?` no bloco do R (`responde` e01a-p04), com o modelo do Emilio no `ouvir` e01a-13 imediatamente antes e o mesmo audioKey reusado no step. É a PRIMEIRA aparição do molde no curso, dez slots antes da casa em B11, e ficou fora deste roster até a revisão adversarial de B01 (2026-07-28) — a linha de B02 abaixo já registrava a lacuna e a deixava nomeadamente para o revisor desta parte. A frase entra como SOM, não como molde: o que B01 ensina nela é o flick do R e o Ñ, nenhuma linha nomeia `una caña` como peça trocável, e por isso o step NÃO declara `molde`. A medição da linha de B02 vale aqui com um número diferente e a mesma conclusão: as cinco frases-alvo de B01 são ÚNICAS no corpus (medido), então declarar levaria a geração de 151/296 para 154/296 (51% → 52%) — ganho real, e mesmo assim recusado, porque marcar drill de pronúncia como geração infla o numerador do G9 com frase que o aluno não montou, e acende G15 («ensina molde e nunca o NOMEIA») numa parte que nunca vai dizer «the frame». RESSALVA DE ESTADO: B01 é LEGADO (sem `cena`) e não pode entrar em vigor sem regravação — G4 mede 698 chars/clipe de narração contra teto 120, e 8 dos 9 clipes passam de 320.",
-        "B02 — as DUAS formas, produzidas: `Ponme una caña, por favor.` (tú, modelo do Emilio no `ouvir` e01b-06 imediatamente antes do `responde` e01b-p03, mais o shadow e01b-06b) e `Perdone, ¿me pone un café con leche, por favor?` (usted, modelo da Carmen no `ouvir` e01b-08 imediatamente antes do `responde` e01b-p04). É a prévia mais forte do roster e a única que o roster já citava DUAS VEZES sem listar: as linhas de B03 e de B07 abaixo dizem, as duas, que o modelo nativo está «gravado em B02». Enquanto ela faltou, `npm run briefing B02` imprimia «Nenhum molde ancorado neste slot pelo roster» para uma parte que faz o aluno produzir ME-PONE três vezes — exatamente a doença das duas canônicas que o briefing-slot.mjs existe para curar. É chegada e não casa porque o que B02 ensina é o par tú × usted da CASCA (perdonA/perdonE, ponES/ponE, dito em e01b-07); nenhuma linha nomeia a coisa que se pede como peça trocável, e os dois encaixes são frases inteiras modeladas. MEDIDO na revisão adversarial de B02 (2026-07-28): declarar `molde` nesses steps dá ganho ZERO no G9 — as duas strings já contam pelo `alvos` único de B03 (ep-e01c) e de I02 (ep-i02), 151/296 = 51% antes e depois — e, com `cena` posta, acende G15 («ensina molde e nunca o NOMEIA») e G16 («planta molde e não tem clique»), dois erros duros. O lugar da informação é aqui, não no step. B02 vem nove slots antes da casa em B11. RESSALVA MEDIDA: B02 NÃO é a primeira aparição do molde no curso — B01 já faz o aluno produzir `Perdona, ¿me pones una caña?` (ep-e01a, `responde` e01a-13, com modelo do Emilio no `ouvir` imediatamente antes) e também não está listado. A prévia de B01 é do revisor de B01, na mesma onda, e não foi escrita aqui para não colidir com o arquivo dele.",
-        "B03 — `Perdone, ¿me pone un café con leche, por favor?` no callback de abertura, com o modelo nativo gravado em B02 (audioKey e01b-08, reusado no próprio step). Frase inteira, um encaixe só, nenhuma linha nomeando a peça que troca: é a chegada do molde. B03 vem oito slots antes da casa. O step ganhou `\"molde\": \"ME-PONE\"` na varredura de declaração de 2026-07-28 — a frase É instância do molde e conta no G9; o que ela não é, é uma volta.",
-        "B07 — `¿Me pone el taxímetro, por favor?` no banco de trás do táxi, com a maquininha do painel apagada. É a prévia mais interessante do roster porque o encaixe sai do balcão: `el taxímetro` não é bebida nem comida, e mostra o molde funcionando na cena que ninguém escreveu. RESSALVA MEDIDA: não há modelo nativo desta frase em ep-e06a — o que foi modelado é a CASCA, em B02 (`¿me pone un café con leche?`), sete slots antes. Não é o caso do `¿Dónde hay un cajero?` de B06 (que não tinha modelo nenhum e foi corrigido), mas fica registrado para quem reescrever B07."
-      ],
-      "tiles": [
-        "mesa",
-        "compras"
-      ],
-      "exemplos": [
-        "una caña",
-        "dos cortados",
-        "medio kilo de tomates",
-        "un pincho de tortilla",
-        "otra ronda"
-      ],
-      "nota": "4º e não 1º porque é específico de balcão de bar e mercado, enquanto M1–M3 são universais. Mas é a cena que dá nome ao SKU: sem ele o aluno não é servido. Em I02 a variante ultracurta 'Ponme' entra como PERMISSÃO, não como exigência.",
-      "idAnterior": "M4"
-    },
-    {
-      "id": "SIN-CON-PARA",
-      "categoria": "operacional",
-      "forma": "sin / con / para + [X]",
-      "encaixe": "ingrediente, formato, destinatário, finalidade",
-      "tipo": "aberto",
-      "clipe": true,
-      "casa": "B12",
-      "redisparos": [
-        "B13",
-        "B14",
-        "B15",
-        "I03"
-      ],
-      "tiles": [
-        "mesa",
-        "dieta",
-        "pagar"
-      ],
-      "exemplos": [
-        "sin gluten",
-        "sin hielo",
-        "sin gas",
-        "sin cebolla",
-        "sin conversión",
-        "para llevar",
-        "para compartir",
-        "para dos",
-        "para mí",
-        "para el seguro"
-      ],
-      "nota": "O melhor retorno por unidade ensinada de toda a lista: duas palavras, verbo nenhum, e funciona como enunciado inteiro — 'Sin hielo, por favor.' basta sozinho. Carrega a frase que mais dinheiro economiza no curso ('sin conversión', contra o DCC da maquininha). Cola em todos os outros sete.",
-      "idAnterior": "M5"
-    },
-    {
-      "id": "LLEVA",
-      "categoria": "operacional",
-      "forma": "¿Lleva + [ingrediente]?",
-      "encaixe": "qualquer ingrediente",
-      "tipo": "aberto",
-      "casa": "B13",
-      "redisparos": [
-        "B14",
-        "I03"
-      ],
-      "previas": [
-        "B01 — `¿Lleva jamón?` (`responde` e01a-p05), doze slots antes da casa em B13 e ANTES da prévia de B11, o que faz dela a primeira aparição de LLEVA no curso. Tinha o buraco do B06/DONDE: a guia modelava só a palavra difícil (kha-MOHN, em e01a-14) e nenhuma voz espanhola dizia a frase inteira antes de o aluno produzi-la — e aqui o buraco pesa mais que nos outros, porque a frase é de alergia e restrição. Corrigido na revisão adversarial de B01 (2026-07-28) com um `ouvir` da Carmen reusando o clipe e01a-15, já gravado e no manifesto: custo de crédito zero. A frase entra pelo J e não pelo ingrediente — nenhuma linha de B01 diz que `jamón` troca —, e por isso o step não declara `molde`: quem abre o ingrediente como peça é B11 na prévia abaixo e B13 na casa.",
-        "B11 — `¿Lleva jamón o chorizo?` em `ouvir`, zero produção, e a narração b11-n21 já promete: «there is one word that opens it. You get it whole later». Redação certa de prévia. B11 vem dois slots antes de B13."
-      ],
-      "tiles": [
-        "dieta",
-        "mesa"
-      ],
-      "exemplos": [
-        "gluten",
-        "ajo",
-        "jamón",
-        "caldo de pescado",
-        "harina",
-        "frutos secos",
-        "cebolla",
-        "leche"
-      ],
-      "nota": "Entra por aposta × indeterminação, não por frequência. A lista de ingredientes-armadilha é ABERTA (jamón no feijão-verde, caldo de peixe na paella 'de verduras'): é a prova mais limpa de que inventário fixo não fecha — nenhum roteirista pré-escreve a pergunta sobre o ingrediente que ele não sabe que está no prato.",
-      "idAnterior": "M6"
-    },
-    {
-      "id": "DONDE",
-      "categoria": "operacional",
-      "forma": "¿Dónde está + [el/la X]? · ¿Dónde hay + [un/una X]?",
-      "encaixe": "lugar conhecido × lugar qualquer",
-      "tipo": "aberto",
-      "par": true,
+      "tipoBuraco": "lugar",
       "casa": "B08",
       "redisparos": [
         "B09",
         "B10",
         "B17"
       ],
-      "previas": [
-        "B01 — `¿Dónde está el hospital?` (`responde` e01a-p03), sete slots antes da casa em B08 e a PRIMEIRA aparição de DONDE no curso, anterior à de B06. Tinha exatamente o defeito de B06: `responde` sem NENHUM modelo nativo antes — a guia modelava só a sílaba difícil (os-pi-TAL, em e01a-08), nunca a frase inteira, e o aluno era mandado produzir uma forma que nenhuma voz espanhola tinha dito. Corrigido na revisão adversarial de B01 (2026-07-28) pelo mesmo caminho do B06: um `ouvir` da Carmen reusando o próprio clipe e01a-09, que já está gravado e no manifesto com o texto idêntico — nenhum mp3 novo, custo de crédito zero, `valida-audio` limpo. O card de consulta não ganha turno falso porque `build-consulta.mjs` passou a ignorar o `ouvir` que é modelo da própria frase-alvo. Segue prévia e não redisparo, e o step não declara `molde`: B01 ensina `¿Dónde está el hospital?` como frase inteira pelo lugar do soco, e o par definido × qualquer (`está el` × `hay un`) continua sendo da casa.",
-        "B06 — `¿Dónde hay un cajero?` diante do caixa de rua. Era o pior dos sete: um `responde` sem NENHUM modelo nativo antes, em nenhum lugar da parte — o aluno era mandado produzir uma forma que nenhuma voz espanhola tinha dito. Corrigido no próprio ep-b06.json com um `ouvir` da Carmen reusando o clipe e05a-cajero-c (que B08 já usa), custo de crédito zero. Segue prévia e não redisparo: B06 vem dois slots antes de B08, e o par definido × qualquer (`está el` × `hay un`) só é ensinado na casa."
-      ],
       "tiles": [
         "chegar",
         "transporte",
-        "saude"
+        "cidade"
       ],
       "exemplos": [
-        "el baño",
-        "la salida",
-        "el andén 4",
-        "un cajero",
-        "una farmacia",
-        "un súper"
+        "η στάση",
+        "η έξοδος",
+        "το λιμάνι",
+        "η τουαλέτα",
+        "το φαρμακείο"
       ],
-      "nota": "7º e não 3º por honestidade: o problema desta cena é a RESPOSTA, não a pergunta. Entra amarrado à escotilha — ¿Está lejos? + ¿Me lo escribe? + o dedo. Ensinar a pergunta sem o reparo é fabricar o congelamento.",
-      "idAnterior": "M7"
+      "nota": "O que move os pés. Aqui o encaixe entra no NOMINATIVO, que é a forma de dicionário — o aluno lê a palavra na placa e a repete sem mudar nada. É a escolha que torna este molde compatível com o alfabeto que ele ainda está decifrando."
     },
     {
-      "id": "ME-PUEDE",
+      "id": "THA-ITHELA",
       "categoria": "operacional",
-      "forma": "¿Me puede + [infinitivo]?",
-      "encaixe": "qualquer coisa que eu quero que VOCÊ faça",
+      "forma": "Θα ήθελα + [coisa]",
+      "encaixe": "o que ele quer pedir, no registro que o balcão espera",
       "tipo": "aberto",
-      "casa": "B03",
-      "redisparos": [
-        "B04",
-        "B07",
-        "B13",
-        "B14",
-        "B17",
-        "B18",
-        "I07"
-      ],
-      "tiles": [
-        "reparo",
-        "saude",
-        "pagar"
-      ],
-      "exemplos": [
-        "escribir",
-        "repetir",
-        "hablar más despacio",
-        "recomendar algo para…",
-        "avisar en cocina",
-        "dar la factura",
-        "llamar un taxi"
-      ],
-      "nota": "Ganha o 8º lugar por PREÇO: é o M2 no espelho, custa meia unidade de ensino, e traz junto o kit anti-pânico (¿Me lo escribe?), que é a heroína deste par.",
-      "idAnterior": "M8"
-    },
-    {
-      "id": "OTRA",
-      "categoria": "operacional",
-      "forma": "Otra / Otro + [X]",
-      "encaixe": "repetir o que já deu certo",
-      "tipo": "aberto",
+      "tipoBuraco": "coisa",
       "casa": "B11",
       "redisparos": [
+        "B14",
         "B15",
-        "B16",
-        "I04"
+        "I01",
+        "A08"
       ],
       "tiles": [
-        "mesa",
-        "quarto"
-      ],
-      "exemplos": [
-        "otra ronda",
-        "otra habitación",
-        "otro tenedor",
-        "otro día"
-      ],
-      "nota": "'Otra, por favor.' é enunciado completo SEM substantivo nenhum — custo zero. É o molde que te dá de novo aquilo que você já conseguiu, que é 90% do que um turista quer depois do primeiro acerto.",
-      "idAnterior": "M9"
-    },
-    {
-      "id": "YA-ESTA",
-      "categoria": "operacional",
-      "forma": "Ya está + [pagado / reservado / hecho / incluido]",
-      "encaixe": "lista fechada de 4",
-      "tipo": "fechado",
-      "casa": "B14",
-      "redisparos": [
-        "B16",
-        "B18"
-      ],
-      "previas": [
-        "B09 — `Ya está pagado` na bilheteria e `Ya está reservado` no balcão de longa distância, os dois com modelo nativo em `ouvir` antes (b14-yapagado-c, b14-yareservado-e). É a prévia mais forte do curso: dois dos quatro encaixes, modelados e produzidos, cinco slots antes da casa. Não vira casa porque falta o primeiro tempo — nenhuma linha nomeia o molde nem diz que a lista é fechada em quatro, e a lista fechada É a feature. B14 completa com `incluido` e `hecho` e diz «a lista é a lista». A narração b14-n31 dizia «Now the frame that stops you paying for the same thing twice» para um aluno que já o tinha usado duas vezes — é o caso que batizou o G9d, corrigido na v5."
-      ],
-      "tiles": [
+        "comer",
         "pagar",
-        "quarto"
-      ],
-      "exemplos": [
-        "pagado",
-        "reservado",
-        "hecho",
-        "incluido"
-      ],
-      "nota": "Fechado é a FEATURE: com lista fechada o aluno não pode inventar. Evita pagar duas vezes e evita o hotel decidir sozinho o que era a reserva.",
-      "idAnterior": "M10"
-    },
-    {
-      "id": "SOY-ESTOY",
-      "categoria": "operacional",
-      "forma": "Soy / Estoy + [lista fechada]",
-      "encaixe": "lista fechada de 6",
-      "tipo": "fechado",
-      "casa": "B13",
-      "redisparos": [
-        "B17",
-        "I05",
-        "I06"
-      ],
-      "previas": [
-        "B08 — `Estoy perdido/a`, com modelo da Carmen (b08-perdida-c) antes e a nota de gênero. Uma frase inteira, presa à escotilha de «parei um estranho e não entendi a resposta»; a casa em B13 é que ensina `Soy + [rótulo]` com a lista fechada e as quatro substituições. B08 vem cinco slots antes de B13.",
-        "B05 — a GRADE §1 promete `Soy de Londres` na fronteira e o ep-e02b.json NÃO o tem: as três respostas gravadas são `Vengo de vacaciones`, `Diez días` e `Me alojo en…`. Saiu dos redisparos por dois motivos independentes, e o segundo é definitivo: não existe no disco, e B05 vem oito slots antes da casa. Se a Onda 6 o acrescentar, entra aqui como prévia."
-      ],
-      "tiles": [
-        "dieta",
-        "saude",
-        "simpatia"
-      ],
-      "exemplos": [
-        "alérgico/a",
-        "vegetariano/a",
-        "celíaco/a",
-        "de Londres",
-        "perdido/a",
-        "listo/a"
-      ],
-      "nota": "Fechado de propósito: com a lista aberta o aluno produz 'soy aburrido' e diz que é chato.",
-      "idAnterior": "M11"
-    },
-    {
-      "id": "ME-HE-DEJADO",
-      "categoria": "operacional",
-      "forma": "Me he dejado + [X] + [lugar]",
-      "encaixe": "lista fechada de 4 a 5 objetos × lugar",
-      "tipo": "fechado",
-      "casa": "B07",
-      "_casa_resolvida": "Era B18 até a v5, e B18 é a única casa do roster que NÃO PODE existir: é o último slot de ME VIRO, os dois usos anteriores (B07 e B16) ficavam necessariamente antes dela, e nem APROVEITO nem LEIO A SALA usam este molde — ou seja, casa em B18 dava ZERO redisparos possíveis, e molde sem ≥2 recalls posteriores é frase com outro nome (PRODUTO §5.1, P5). Foi o único dos sete casos do G9d sem saída barata: tirar B07 e B16 dos redisparos deixaria a lista vazia. A casa passa para B07 — «do aeroporto até a cama», o telefone que ficou no táxi à meia-noite —, que é literalmente a cena onde o molde primeiro paga, e ep-e06a.json foi promovido com os tempos que faltavam: o modelo nativo (dois `ouvir` reusando b07-dejado-c e b18-chaqueta-e, crédito zero), a linha que nomeia as duas peças que trocam (b07-n20b, clipe novo) e a segunda substituição num `responde` (b07-p-chaqueta, clipe novo). B18 continua com o bloco inteiro de cinco encaixes e vira o maior redisparo do curso — que é um fecho de ME VIRO melhor do que uma casa, porque o aluno reencontra no último dia a frase do primeiro.",
-      "redisparos": [
-        "B16",
-        "B18"
-      ],
-      "tiles": [
-        "quarto",
-        "taxi",
-        "apuro"
-      ],
-      "exemplos": [
-        "el móvil",
-        "el pasaporte",
-        "la maleta",
-        "la chaqueta",
-        "las llaves"
-      ],
-      "nota": "É o esquecimento, não o roubo — e é a diferença que devolve o objeto. 'Me han robado' aciona denúncia; 'me he dejado' aciona a recepção, o táxi e o bar, que é onde a coisa realmente está. Casa em B07 porque a primeira noite é quando se descobre o que ficou no banco de trás, e porque casa no último slot do módulo não deixa o molde voltar nunca.",
-      "idAnterior": "M12"
-    },
-    {
-      "id": "APRECIACION",
-      "categoria": "social",
-      "nome": "APRECIAÇÃO",
-      "forma": "[isto] estaba + [adjetivo forte] · ¡Qué + [adjetivo]!",
-      "encaixe": "lista fechada de 6 adjetivos de elogio, gravados inteiros",
-      "tipo": "fechado",
-      "casa": "I07",
-      "redisparos": [
-        "I08",
-        "I09"
-      ],
-      "tiles": [
-        "simpatia",
-        "mesa"
-      ],
-      "exemplos": [
-        "estaba buenísimo",
-        "estaba riquísimo",
-        "¡qué bueno!",
-        "¡qué rico!",
-        "¡qué sitio más bonito!",
-        "¡qué buena pinta!"
-      ],
-      "nota": "O molde que faltava, e a maior lacuna medida do produto: em 252 frases-alvo do curso a ÚNICA fala de apreciação que o aluno produzia era '¿Qué me recomienda?' — que nem é elogio, é pedido. FECHADO e não aberto porque o adjetivo concorda com o que está sendo elogiado (buenísimo/buenísima) e a lista curta é a feature: 6 encaixes gravados e 'a lista é a lista', dito em voz alta, em vez de mandar o aluno calcular gênero na frente do cozinheiro. Abastece sozinho o tile `simpatia`, que o G8 exige com ≥8 cards e que hoje tem ~2. O retorno faz parte do molde: '¿Le ha gustado el arroz?' → nomear o prato.",
-      "idAnterior": "S1"
-    },
-    {
-      "id": "ELECCION",
-      "categoria": "social",
-      "nome": "ESCOLHA",
-      "forma": "¿Cuál me recomienda: [A] o [B]? · ¿Este es mejor que aquel?",
-      "encaixe": "duas coisas do mundo, lidas na carta, na vitrine ou na mesa ao lado",
-      "tipo": "aberto",
-      "casa": "I03",
-      "redisparos": [
-        "I04",
-        "I09"
-      ],
-      "tiles": [
-        "mesa",
         "compras"
       ],
       "exemplos": [
-        "¿cuál me recomienda, el pulpo o las croquetas?",
-        "¿este es mejor que aquel?",
-        "¿cuál está mejor hoy?",
-        "¿cuál me llevo, el manchego o el cabrales?",
-        "¿cuál es más típico de aquí?"
+        "έναν καφέ",
+        "τον λογαριασμό",
+        "ένα τραπέζι για δύο",
+        "νερό",
+        "ένα εισιτήριο"
       ],
-      "nota": "É o molde que transforma '¿qué me recomienda?' — pergunta aberta cuja resposta o aluno não entende — numa pergunta BINÁRIA cuja resposta cabe na cabeça dele sob estresse, que é o mesmo princípio do M3. Sem ele, I03 promete 'o prato que você não ia pedir' e entrega uma recomendação que o aluno não consegue processar. O encaixe é coisa do mundo (dois pratos, dois queijos, dois bares): passa em P1 por escolha, não por cálculo.",
-      "idAnterior": "S2"
+      "nota": "O condicional de cortesia. Θέλω sozinho é mais seco em grego do que «I want» em inglês; θα ήθελα é a forma que abre a conversa em vez de só transmitir o pedido."
     },
     {
-      "id": "PREFERENCIA",
-      "categoria": "social",
-      "nome": "PREFERÊNCIA",
-      "forma": "Me gusta + [X] · Prefiero + [X]",
-      "encaixe": "coisa, lugar, comida ou bebida — o que eu quero de volta",
+      "id": "HORIS",
+      "categoria": "operacional",
+      "forma": "Χωρίς + [coisa]",
+      "encaixe": "qualquer ingrediente ou elemento que ele não quer",
       "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B12",
+      "redisparos": [
+        "B13",
+        "B17"
+      ],
+      "tiles": [
+        "comer",
+        "saude"
+      ],
+      "exemplos": [
+        "κρεμμύδι",
+        "γλουτένη",
+        "λακτόζη",
+        "πάγο",
+        "αλάτι"
+      ],
+      "nota": "Subtrair em vez de descrever. Χωρίς é preposição de acusativo, mas os encaixes deste molde são todos substantivos que o aluno vai ver escritos na carta — entram como bloco."
+    },
+    {
+      "id": "POSO-KANI",
+      "categoria": "operacional",
+      "forma": "Πόσο κάνει + [coisa];",
+      "encaixe": "qualquer coisa antes de se comprometer com ela",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B15",
+      "redisparos": [
+        "B18",
+        "I02",
+        "I10",
+        "A06"
+      ],
+      "tiles": [
+        "pagar",
+        "compras",
+        "transporte"
+      ],
+      "exemplos": [
+        "αυτό",
+        "το εισιτήριο",
+        "όλα μαζί",
+        "η διαδρομή",
+        "το δωμάτιο"
+      ],
+      "nota": "Nasce onde o erro custa dinheiro. Πόσο κάνει e não πόσο κοστίζει: o primeiro é o que se ouve no balcão e na feira, o segundo é escolar."
+    },
+    {
+      "id": "PSAXNO",
+      "categoria": "operacional",
+      "forma": "Ψάχνω + [coisa / lugar]",
+      "encaixe": "o que ele procura, quando ainda não sabe se existe ali",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
+      "casa": "B10",
+      "redisparos": [
+        "B16",
+        "B17",
+        "I09",
+        "A06"
+      ],
+      "tiles": [
+        "compras",
+        "chegar",
+        "cidade"
+      ],
+      "exemplos": [
+        "φαρμακείο",
+        "ΑΤΜ",
+        "κάτι για τον πονόλαιμο",
+        "την έξοδο",
+        "το λεωφορείο"
+      ],
+      "nota": "A casa é B10, a parte do alfabeto, e essa colocação é deliberada: é onde o aluno descobre que sabe DIZER o que procura muito antes de saber LER a placa que o nomeia. O molde existe para cobrir a distância entre as duas coisas."
+    },
+    {
+      "id": "SIGNOMI",
+      "categoria": "social",
+      "forma": "Συγγνώμη, + [pedido]",
+      "encaixe": "o que ele precisa de um estranho",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "casa": "B03",
+      "redisparos": [
+        "B05",
+        "B08",
+        "B10",
+        "I02",
+        "I07",
+        "A01",
+        "A07"
+      ],
+      "tiles": [
+        "reparo",
+        "chegar",
+        "conversa"
+      ],
+      "exemplos": [
+        "δεν κατάλαβα",
+        "πιο αργά",
+        "μπορείτε να το γράψετε",
+        "μιλάτε αγγλικά"
+      ],
+      "nota": "Molde social e abridor universal de reparo. Συγγνώμη é também a palavra mais difícil de pronunciar do kit inicial (γγν = /ŋn/), e por isso ela aparece em B01 como alvo fonético antes de virar molde em B03."
+    },
+    {
+      "id": "TI-ORA",
+      "categoria": "operacional",
+      "forma": "Τι ώρα + [verbo];",
+      "encaixe": "qualquer coisa que abre, fecha, começa ou é servida",
+      "tipo": "aberto",
+      "tipoBuraco": "acao",
+      "casa": "I01",
+      "redisparos": [
+        "I09",
+        "A06"
+      ],
+      "tiles": [
+        "comer",
+        "transporte",
+        "cidade",
+        "compras"
+      ],
+      "exemplos": [
+        "ανοίγει η κουζίνα",
+        "σερβίρετε",
+        "τρώτε εδώ",
+        "φεύγει το πλοίο",
+        "κλείνει"
+      ],
+      "nota": "O horário é a variável que o aluno não consegue adivinhar e que reorganiza o dia — e na Grécia insular ela decide se ele dorme na ilha. Abridor fixo de duas palavras, verbo variável. A casa é I01 porque é ali que a pergunta deixa de ser avulsa e vira leitura do relógio deles."
+    },
+    {
+      "id": "MOU-ARESE",
+      "categoria": "social",
+      "forma": "Μου αρέσει / Μου άρεσε + [coisa]",
+      "encaixe": "qualquer coisa sobre a qual ele tem opinião",
+      "tipo": "aberto",
+      "tipoBuraco": "coisa",
       "casa": "I05",
       "redisparos": [
         "I06",
-        "I09"
+        "I08"
       ],
       "tiles": [
-        "simpatia",
-        "mesa"
+        "conversa",
+        "comer",
+        "cidade"
       ],
       "exemplos": [
-        "me gusta mucho este barrio",
-        "prefiero el vino tinto",
-        "prefiero sentarme fuera",
-        "me gusta más el de la esquina",
-        "prefiero andar"
+        "πολύ",
+        "η Ακρόπολη",
+        "το φαγητό",
+        "αυτό το μέρος",
+        "η μουσική"
       ],
-      "nota": "É a resposta pronta às perguntas que ELES fazem — '¿qué te parece Madrid?', '¿tinto o blanco?' — e a única forma de o turista DAR alguma coisa à conversa em vez de só pedir. Fica em I05 e não em M1 porque a família apetitiva não tem cena no Básico: no balcão o aluno pede, não opina. ATENÇÃO DE REDAÇÃO: 'me gusta' entra como bloco congelado com a coisa depois; nunca se explica a inversão do sujeito, e a palavra 'verbo' não aparece no áudio (kill-switch de redação, PRODUTO §5.1).",
-      "idAnterior": "S3"
-    }
-  ],
-  "cortados": [
-    {
-      "forma": "Me gustaría + [infinitivo]",
-      "porque": "É o 'I'd like' do livro didático, e é exatamente o acolchoamento que deixa o britânico sem ser servido. 'Quería' faz o mesmo trabalho em menos sílabas e soa local. Nomeado aqui para que nenhum agente futuro o traga de volta."
-    },
-    {
-      "forma": "GRAU — un poco más / un poco menos + [X]",
-      "porque": "Era o 3º da fila dos moldes ausentes prioritários do dossiê (depois de apreciação e escolha, antes de combinar), e fica FORA da Espanha com motivo escrito, não por esquecimento: o que justifica esse molde no Phûut! é a escala de picante, e a cozinha espanhola não é apimentada. Portar o molde seria portar a cena errada — anti-padrão 9 (traduzir prompt em vez de reescrever cena). Onde a viagem realmente pede grau na Espanha, a necessidade já está coberta por forma fechada: 'poco hecho / al punto / muy hecho' em B12 e 'media ración' em B11/I03. Se um destino futuro tiver a cena (Tailândia, México, Índia), o molde volta lá, não aqui."
-    },
-    {
-      "forma": "Subjuntivo em subordinada",
-      "porque": "Regra geral: não subordinar — uma oração, um pedido. 'Quiero que me traiga la cuenta' → 'La cuenta, por favor.' · 'Busco un sitio que tenga wifi' → '¿Hay wifi?' (o M3 existe literalmente para absorver isto) · 'Cuando llegue el tren…' → apontar o painel. EXCEÇÃO já concedida: os votos congelados de I08 (que aproveche, que vaya bien, salud) — são itens de vocabulário com forma de subjuntivo, não subjuntivo."
+      "nota": "Sem opinião o aluno responde perguntas e nunca continua nenhuma. É o molde que faz o interlocutor recomendar em vez de só interrogar. O par αρέσει/άρεσε é presente e passado do MESMO abridor — a única variação é a vogal, e ela é audível, então não é regra a calcular."
     }
   ]
 }

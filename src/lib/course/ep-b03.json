@@ -1,0 +1,353 @@
+{
+  "id": "b03",
+  "nivel": "basico",
+  "numero": 3,
+  "parte": "B03",
+  "titulo": "Συγγνώμη, and then the thing you need",
+  "subtitulo": "One opener for every stranger — the hardest word in the kit, drilled in part one, now doing the most work of any word you own",
+  "cena": "The answer came back at full speed, you caught one word of it, and the person is already looking at whoever is next.",
+  "moldura": "ganha",
+  "frasePiso": "Συγγνώμη, then the thing you need. One opener, and any stranger becomes someone you can ask.",
+  "moldes": [
+    "SIGNOMI"
+  ],
+  "clique": {
+    "contagem": [
+      "the bakery counter",
+      "the ticket window",
+      "the crowded bus",
+      "the pavement outside"
+    ],
+    "desconto": "Nobody handed you a different opener for the baker, the clerk, the passenger and the stranger on the street. You kept one word and changed only what came after it.",
+    "piso": "Next time the sentence goes past you, you will not smile and nod. You will open with συγγνώμη and ask for the half you missed."
+  },
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b03-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "You will lose a sentence on day one. That is not a thing to dodge — it is a moment with one opener that fixes it."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b03-n02",
+      "bloco": "molde",
+      "pt": "Here is the frame: Συγγνώμη, then the thing you need. Same opener for the baker, the clerk and the person in the doorway."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b03-n03",
+      "pt": "You drilled the word as a sound in part one. Sing, no, me, run together. Now it becomes the frame that opens everything."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-b03-t01",
+      "es": "Συγγνώμη, δεν κατάλαβα.",
+      "pinyin": "seeng-NO-mee, dhen ka-TA-la-va",
+      "pt": "Sorry, I didn't catch that.",
+      "tts": "Συγγνώμη, δεν κατάλαβα."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "δεν κατάλαβα",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b03-p01",
+      "promptPt": "At the bakery counter she has just said the price and it went straight past you. Speak now.",
+      "audioKey": "el-b03-t01",
+      "es": "Συγγνώμη, δεν κατάλαβα.",
+      "pinyin": "seeng-NO-mee, dhen ka-TA-la-va",
+      "pt": "Sorry, I didn't catch that.",
+      "tts": "Συγγνώμη, δεν κατάλαβα."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b03-r01",
+      "receptivo": true,
+      "es": "Α, συγγνώμη — είπα δύο ευρώ και σαράντα.",
+      "pinyin": "ah, seeng-NO-mee — EE-pa DHEE-o ev-RO ke sa-RAN-da",
+      "pt": "Oh, sorry — I said two euros forty.",
+      "tts": "Α, συγγνώμη. Είπα δύο ευρώ και σαράντα.",
+      "acao": "The repeat usually comes back shorter, with the padding stripped off. Wait for the number — that is the part you needed."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b03-n04",
+      "bloco": "corpo",
+      "pt": "The frame holds and only the ending changes: ask for it again, ask for it slower, ask for it written down."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "άλλη μια φορά",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b03-p02",
+      "promptPt": "Same bakery counter, and one more go at it would settle everything. Speak now.",
+      "audioKey": "el-b03-t02",
+      "es": "Συγγνώμη, άλλη μια φορά;",
+      "pinyin": "seeng-NO-mee, A-lee mya fo-RA",
+      "pt": "Sorry, one more time?",
+      "tts": "Συγγνώμη, άλλη μια φορά;"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "πιο αργά",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b03-p03",
+      "promptPt": "At the ticket window the second try came back louder, at exactly the same speed. Ask for the other thing. Speak now.",
+      "audioKey": "el-b03-t03",
+      "es": "Συγγνώμη, πιο αργά, παρακαλώ.",
+      "pinyin": "seeng-NO-mee, pyo ar-GHA, pa-ra-ka-LO",
+      "pt": "Sorry, more slowly, please.",
+      "tts": "Συγγνώμη, πιο αργά, παρακαλώ."
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "μπορείτε να το γράψετε",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b03-p04",
+      "promptPt": "Still at the ticket window, and it is a platform number you cannot afford to guess. Speak now.",
+      "audioKey": "el-b03-t04",
+      "es": "Συγγνώμη, μπορείτε να το γράψετε;",
+      "pinyin": "seeng-NO-mee, bo-REE-te na to GHRA-pse-te",
+      "pt": "Sorry, could you write it down?",
+      "tts": "Συγγνώμη, μπορείτε να το γράψετε;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b03-n05",
+      "pt": "Numbers and platforms are the ones to get on paper. Three repeats will not beat one line of handwriting."
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "περνάω",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b03-p05",
+      "promptPt": "You are on the crowded bus, packed to the doors, and your stop is next. Speak now.",
+      "audioKey": "el-b03-t05",
+      "es": "Συγγνώμη, περνάω;",
+      "pinyin": "seeng-NO-mee, per-NA-o",
+      "pt": "Sorry, can I get through?",
+      "tts": "Συγγνώμη, περνάω;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b03-r02",
+      "es": "Βεβαίως, περάστε.",
+      "pinyin": "ve-VE-os, pe-RA-ste",
+      "pt": "Of course, go ahead.",
+      "tts": "Βεβαίως, περάστε."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b03-n06",
+      "bloco": "capsula",
+      "pt": "Two more endings for the frame, both used on the street: whether the person has English, and what a thing is called."
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "μιλάτε αγγλικά",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b03-p06",
+      "promptPt": "On the pavement outside, what you need next is longer than your Greek. Open properly first. Speak now.",
+      "audioKey": "el-b03-t06",
+      "es": "Συγγνώμη, μιλάτε αγγλικά;",
+      "pinyin": "seeng-NO-mee, mee-LA-te ang-lee-KA",
+      "pt": "Sorry, do you speak English?",
+      "tts": "Συγγνώμη, μιλάτε αγγλικά;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-b03-r03",
+      "receptivo": true,
+      "es": "Λίγα αγγλικά. Τι ψάχνετε;",
+      "pinyin": "LEE-gha ang-lee-KA. tee PSA-khne-te",
+      "pt": "A little English. What are you looking for?",
+      "tts": "Λίγα αγγλικά. Τι ψάχνετε;",
+      "acao": "Answer with the noun, not a sentence. One word plus a gesture gets you further than a full question here."
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "πώς το λένε αυτό",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b03-p07",
+      "promptPt": "Back at the bakery counter, holding up the thing you want to be able to name. Speak now.",
+      "audioKey": "el-b03-t07",
+      "es": "Συγγνώμη, πώς το λένε αυτό;",
+      "pinyin": "seeng-NO-mee, pos to LE-ne af-TO",
+      "pt": "Sorry, what is this called?",
+      "tts": "Συγγνώμη, πώς το λένε αυτό;"
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "μπορείτε να μου δείξετε",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b03-p08",
+      "promptPt": "On the pavement outside, the directions came with three street names and one wave of the hand. Speak now.",
+      "audioKey": "el-b03-t08",
+      "es": "Συγγνώμη, μπορείτε να μου δείξετε;",
+      "pinyin": "seeng-NO-mee, bo-REE-te na moo DHEEK-se-te",
+      "pt": "Sorry, could you show me?",
+      "tts": "Συγγνώμη, μπορείτε να μου δείξετε;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b03-n07",
+      "pt": "Say the opener, then stop for half a beat. The pause is what turns your sentence into a request, not an interruption."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b03-p09",
+      "promptPt": "They slowed down, said it again and pointed you round the corner. Close it warmly. Speak now.",
+      "audioKey": "el-b03-t09",
+      "es": "Α, μάλιστα. Ευχαριστώ πολύ!",
+      "pinyin": "ah, MA-lee-sta. ef-kha-ree-STO po-LEE",
+      "pt": "Ah, I see. Thank you very much!",
+      "tts": "Α, μάλιστα. Ευχαριστώ πολύ!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-b03-s01",
+      "es": "Συγγνώμη, δεν κατάλαβα. Συγγνώμη, πιο αργά, παρακαλώ. Συγγνώμη, μπορείτε να το γράψετε; Συγγνώμη, περνάω;",
+      "pinyin": "seeng-NO-mee dhen ka-TA-la-va · seeng-NO-mee pyo ar-GHA pa-ra-ka-LO · seeng-NO-mee bo-REE-te na to GHRA-pse-te · seeng-NO-mee per-NA-o",
+      "pt": "Shadow the same opener across four different needs.",
+      "tts": "Συγγνώμη, δεν κατάλαβα. Συγγνώμη, πιο αργά, παρακαλώ. Συγγνώμη, μπορείτε να το γράψετε; Συγγνώμη, περνάω;",
+      "molde": "SIGNOMI"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b03-n08",
+      "bloco": "recap",
+      "pt": "B03 done. Συγγνώμη plus the need covers the repeat, the slow version, the written version and the way through."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "One opener, every stranger",
+    "secoes": [
+      {
+        "titulo": "The open frame",
+        "corpo": "Keep συγγνώμη and change only what comes after it. Nothing in the opener bends: you never conjugate it, never adapt it to who you are talking to, and it works standing, sitting, in a queue or through a window. It is the cheapest thing you own and the one you will use most.",
+        "exemplos": [
+          {
+            "es": "Συγγνώμη, δεν κατάλαβα.",
+            "pt": "Sorry, I didn't catch that."
+          },
+          {
+            "es": "Συγγνώμη, περνάω;",
+            "pt": "Sorry, can I get through?"
+          }
+        ]
+      },
+      {
+        "titulo": "The word itself, one more time",
+        "corpo": "Double gamma before nu is ng plus n — the joint in the middle of wing nut. Build it as sing–no–me and then close the gaps, with the beat on the middle piece. Under pressure it will come out approximately, and approximately is enough: the word is long, distinctive and unmistakable even when the middle is soft.",
+        "exemplos": [
+          {
+            "es": "Συγγνώμη.",
+            "pt": "seeng-NO-mee — sorry; excuse me"
+          }
+        ]
+      },
+      {
+        "titulo": "Ask for the version you can use",
+        "corpo": "There are three different requests hiding inside 'I didn't get that', and they produce three different results. Άλλη μια φορά gets the same sentence again. Πιο αργά gets it stretched out. Μπορείτε να το γράψετε gets it on paper, which is the only one that survives a platform number, a price or a street name. Choose by what you are missing, not by what feels politest."
+      },
+      {
+        "titulo": "The half-second that makes it work",
+        "corpo": "Say the opener, then stop. The pause is what turns your sentence into a request rather than an interruption, and it gives the other person time to switch out of whatever they were doing. Running the opener straight into the question throws away most of what the word is doing for you."
+      },
+      {
+        "titulo": "Repair comes third on purpose",
+        "corpo": "Every later part of this course assumes you will mishear something. The cost of mishearing drops to almost nothing the moment you own one opener that buys a second attempt, so it arrives before the vocabulary rather than after it. It is also the frame that comes back in the parts on directions, on signs and on getting served — the same three syllables, a different ending each time."
+      }
+    ]
+  },
+  "slot": "B03",
+  "permissao": "You are allowed to not understand, out loud, as many times as it takes. Asking for the slow version is an ordinary thing to say at a Greek counter, and nobody there thinks worse of the person who asks than of the one who nods and walks off with the wrong answer.",
+  "permissaoAudioKey": "el-b03-n01",
+  "espelho": "You already do this in your own language on every bad phone line and in every noisy bar — sorry, say that again, sorry, slower. Nothing about the move is new. The only new part is that the opener is one fixed word and you never have to choose it.",
+  "fichasCulturais": [
+    {
+      "sinal": "You ask for a repeat and the second version comes back louder, at exactly the same speed.",
+      "suaLeitura": "They think I am slow, or they are getting impatient with me.",
+      "oQueEAli": "Volume is the easiest thing to change about your own voice and speed is the hardest to even notice, so volume is what moves first — in any language, between any two speakers. The repeat also tends to arrive stripped down to the part that carries the information: the number, the direction, the yes or no.",
+      "oQueVoceFaz": "Name the thing you actually need instead of asking again: πιο αργά, παρακαλώ. If it is a figure or a platform, skip straight to asking for it in writing.",
+      "oQueMelhora": "You get the one piece you were missing rather than the whole sentence a second time, and the exchange stops looping.",
+      "ondeNaoVale": "Not when the room itself is the problem. On a ferry deck, in a market or beside traffic, no amount of slowing down beats moving two steps away from the noise.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-b03-r01",
+        "el-b03-n05"
+      ]
+    },
+    {
+      "sinal": "You go to open with συγγνώμη, the middle of the word collapses, and you swallow the whole sentence.",
+      "suaLeitura": "If I cannot even say the word for sorry, I have no business trying the rest.",
+      "oQueEAli": "The cluster in the middle is ng followed by n, which English uses constantly — across the join in wing nut, in one go — but almost never inside a single word. It is unfamiliar placement, not an unfamiliar sound, and the word is long and distinctive enough that a soft middle still arrives intact.",
+      "oQueVoceFaz": "Build it in three pieces before you need it: sing, no, me. Under pressure, say it at whatever quality comes out and keep going to the ending — the ending is the part carrying your request.",
+      "oQueMelhora": "You stop abandoning sentences at the first syllable, which is where most day-one exchanges are actually lost.",
+      "ondeNaoVale": "Not a rule that you must have the Greek word before you may ask for anything. Eye contact and a raised hand open the same door, and nobody at a counter is scoring the consonant.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-b03-n03"
+      ]
+    }
+  ]
+}

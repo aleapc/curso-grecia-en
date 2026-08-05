@@ -1,27 +1,22 @@
 {
-  "_comentario": "¡Dime! (EN → Espanha): voz-guia BRITÂNICA (o corredor britânico é 10,9× o americano) — Alice (educadora) + George (avisos). Fala-alvo em espanhol PENINSULAR — Carmen (Carolina Ruiz) + Emilio. REGRA INV-5: a voz-guia NUNCA fala espanhol e a voz nativa NUNCA fala inglês. Espanhol não é tonal: a exigência é sotaque e naturalidade, não fidelidade tonal — alvo em multilingual_v2, guia em flash. Gate de casting: accent === 'peninsular' (locale es-ES não basta; há andaluzas na biblioteca). Rocío (andaluza, só para o ear module, NUNCA como modelo) ainda não casteada.",
-  "model": "eleven_flash_v2_5",
-  "modelZh": "eleven_multilingual_v2",
-  "narrador": "Xb7hH8MSUJpSbSDYk0k2",
-  "Alice": "Xb7hH8MSUJpSbSDYk0k2",
-  "George": "JBFqnCBsd6RMkjVDRZzb",
-  "Carmen": "h2cd3gvcqTp3m65Dysk7",
-  "Emilio": "ZCh4e9eZSUf41K4cmCEL",
-  "Ivan": "FVkjSdzllLpQkLZaNmJl",
-  "Matilda": "tSdO3lUIODN7SK6eWVhu",
-  "_ear_module": "A01 (ear module) usa Ivan e Matilda, NÃO Carmen e Emilio. Razão: Emilio é o modelo masculino padrão dos outros 23 episódios e no ear module antigo ele fazia TAMBÉM a voz do sul — isso contamina o modelo (o aluno passa a ouvir o padrão como se fosse variação regional) e viola a regra que o próprio syllabus já escrevia: a voz de variação entra SÓ no ear module, nunca como modelo. Ivan e Matilda são as duas ÚNICAS vozes peninsulares da biblioteca pública do ElevenLabs; NENHUMA é verificadamente andaluza, e por isso o A01 NÃO deve alegar sotaque de Sevilha nem de região nenhuma. O que o ear module treina com elas é o que dá para entregar com honestidade: outra pessoa, outro ritmo, outra velocidade, o mesmo espanhol. Se um dia houver voz andaluza verificada, ela substitui aqui sem tocar em mais nada.",
+  "_comentario": "EN → Grécia. Voz-guia INGLESA (Matilda educadora + Eric para o que protege), fala-alvo GREGA (Crhysa + Georgios). REGRA INV-5 / G14: a voz-guia NUNCA fala grego e a voz nativa NUNCA fala inglês. Guia em flash_v2_5; alvo em multilingual_v2. Mesmas vozes-guia do EN → Itália e do EN → França, de propósito: a linha EN inteira usa a mesma dupla.",
+  "_casting": "PRIMEIRA VEZ NO CATÁLOGO EM QUE DÁ PARA CASTEAR O EAR MODULE. A biblioteca tem 22 vozes gregas de uso conversacional ou educativo — contra DUAS em italiano e DUAS em francês, onde A01 teve de ser gravado com as mesmas vozes do resto do curso e por isso não alegou variação nenhuma. Aqui Theos e Eleni entram SÓ em A01, como vozes de variação. O motivo de não reusar Crhysa e Georgios ali é o mesmo já documentado no SKU alemão: a voz-modelo padrão usada também como voz de variação contamina o modelo — o aluno passa a ouvir a variação como se fosse o alvo. NÃO alegar sotaque regional: nenhuma destas vozes é verificadamente de região nenhuma, e Creta, Chipre e o norte soam diferente de Atenas. A01 trata de VELOCIDADE e desgaste, não de região.",
+  "_fonetica_do_par": "Inglês → grego, e o problema não é articulatório, é ORTOGRÁFICO E ANTERIOR À FALA: o alfabeto não é latino, e o comprador chega sem conseguir soletrar o nome da rua onde está. CHEGA COM: quase todos os sons. O grego moderno tem /θ/ (θ, o th de think) e /ð/ (δ, o th de this), que são os dois fonemas mais raros do mundo e que o inglês tem de graça — nenhuma outra língua do catálogo dá esse presente. Também tem /f/, /v/, /s/, /z/, /x/ é o único ausente. PRECISA DESAPRENDER: (1) as letras que PARECEM latinas e não são — Ρ é R e não P, Η é I e não H, Χ é KH e não X, Β é V e não B, Ν é N mas Υ é I; ler ΡΟΔΟΣ como «Podos» em vez de «Rodos» é o erro-tipo; (2) o acento gráfico é OBRIGATÓRIO e marca a sílaba tônica em toda palavra de duas ou mais sílabas — é informação, não enfeite; (3) não há vogal reduzida: as cinco vogais gregas são sempre plenas, e o schwa inglês destrói a palavra. CARO E NOVO: o /x/ de χέρι, e a transliteração instável nas placas, que é assunto de B10 e não de fonética.",
+  "guideModel": "eleven_flash_v2_5",
+  "targetModel": "eleven_multilingual_v2",
+  "roles": {
+    "guide_en_us_f": { "voiceId": "XrExE9yKIg1WjnnlVkGX", "languageCode": "en", "name": "Matilda" },
+    "guide_en_us_m": { "voiceId": "cjVigY5qzO86Huf0OWal", "languageCode": "en", "name": "Eric" },
+    "target_el_f": { "voiceId": "4hx4668A4ljDTKS4m5oV", "languageCode": "el", "name": "Crhysa" },
+    "target_el_m": { "voiceId": "TN3alZndDSA8GYZSOf3r", "languageCode": "el", "name": "Georgios" },
+    "ear_el_f": { "voiceId": "aTP4J5SJLQl74WTSRXKW", "languageCode": "el", "name": "Eleni" },
+    "ear_el_m": { "voiceId": "n0vzWypeCK1NlWPVwhOc", "languageCode": "el", "name": "Theos" }
+  },
+  "_ear_module": "ear_el_f e ear_el_m são EXCLUSIVAS de A01. Não usar em nenhum outro slot.",
   "_g14": {
-    "guia": [
-      "Alice",
-      "George"
-    ],
     "guiaLingua": "en",
-    "alvo": [
-      "Carmen",
-      "Emilio",
-      "Ivan",
-      "Matilda"
-    ],
-    "alvoLingua": "es"
+    "guia": ["guide_en_us_f", "guide_en_us_m"],
+    "alvo": ["target_el_f", "target_el_m", "ear_el_f", "ear_el_m"],
+    "alvoLingua": "el"
   }
 }

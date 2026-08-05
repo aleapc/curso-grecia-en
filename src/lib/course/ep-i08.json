@@ -1,704 +1,366 @@
 {
   "id": "i08",
-  "slot": "I08",
   "nivel": "intermediario",
   "numero": 26,
   "parte": "I08",
-  "titulo": "Someone invites you home",
-  "subtitulo": "What you carry through the door, where you put yourself once you are in, the one word that starts the meal, the hour after the plates go — and the two short sentences that fix a night and a doorway before anybody stands up",
+  "titulo": "Someone invites you — what you carry in, where you sit, how you say you are full",
+  "subtitulo": "The whole evening is six short sentences, and the hardest one is the one that means no more, thank you",
+  "cena": "You said yes at the counter this afternoon, and now it is eight o'clock, you are holding a box from the sweet shop, and the door is opening.",
   "moldura": "ganha",
-
-  "cena": "Twenty past ten at a bar you have been in all evening, the man on the next bar stool says come and eat at ours on Saturday, and there is about one minute before the round breaks up and nobody has said a time.",
-
-  "decisao": "whether the invitation becomes an evening in somebody's flat or stays a nice thought on the pavement — a night at a table with five people, or another restaurant and the city seen through a hotel window",
-  "emJogo": "ambos",
-
-  "clique": {
-    "contagem": ["the bar stool", "the landing", "the table", "the square", "the street door"],
-    "desconto": "Nobody gave you those sentences. You made them out of one question, one word and a doorway, and not one of them runs past a single breath.",
-    "piso": "You will turn an invitation into an hour and a place, and be sat at somebody's table on Saturday. Most visitors fly home with an invitation they never put a day on."
-  },
-  "cliqueAudioKey": "i08-n26",
-
-  "frasePiso": "You will turn an invitation into an hour and a place, and be sat at somebody's table on Saturday. Most visitors fly home with an invitation they never put a day on.",
-
-  "permissao": "You are allowed to arrive a little after the hour you were given — on the dot is early, and the kitchen is not ready for you. You are allowed to take something small and cheap, and you are allowed to say no to the third helping: say it twice, with the praise on the end, and it is heard the second time. And you are allowed to leave. Announce it once, sit through the ten minutes that follow, and then go.",
-  "permissaoAudioKey": "i08-n24",
-
-  "espelho": "Getting up the moment the plates are cleared is the bit that reads as odd there. At a table at home, the hour after the food is the part you were invited for, and leaving in the middle of it looks as though the evening was a job you have now finished.",
-
-  "fichasCulturais": [
-    {
-      "sinal": "You are handed a bottle back on the way out, or the one you brought goes straight onto a shelf in the kitchen and is never opened.",
-      "suaLeitura": "They did not like it, or I got the wrong thing, and now everyone knows I do not know what I am doing.",
-      "oQueEAli": "What you carry through the door is the greeting, not the drink for tonight — tonight's is already open. Nobody walks in with empty hands, and nobody costs up what is in them.",
-      "oQueVoceFaz": "Take something small — a bottle, a cake from the shop on the corner, something for the children — hand it over on the doorstep and let go of it.",
-      "oQueMelhora": "You come in as somebody who was expected instead of somebody being fed, and the invitation comes round again.",
-      "ondeNaoVale": "Not a bar or a restaurant somebody has invited you to. There the round is the gift, and turning up with a bottle would be odd.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i08-n09", "i08-n10", "i08-n11"]
-    },
-    {
-      "sinal": "You say you could not eat another thing, and another spoonful lands on your plate anyway, without anybody looking at you.",
-      "suaLeitura": "They did not hear me, or my Spanish came out wrong, and now I have to eat all of it.",
-      "oQueEAli": "The offer runs twice by design: the first no is heard as manners and the second as the answer. Feeding you past the point is the house doing its job, and refusing on the second pass is you doing yours.",
-      "oQueVoceFaz": "Say it again with the reason on the end of the same breath — you cannot manage any more, and it was all delicious — and put your hand flat over the plate.",
-      "oQueMelhora": "You stop eating when you are full and the person who cooked still gets told the thing they wanted to hear.",
-      "ondeNaoVale": "Not an allergy or a diet. That one never goes into this soft register: it is the flat, serious sentence from part thirteen, with the card in your hand.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i08-n18", "i08-n19", "i08-n20"]
-    },
-    {
-      "sinal": "The plates are cleared, the coffee comes out, and nobody stands up for an hour.",
-      "suaLeitura": "The meal is over, they have done their bit, and I am now keeping them up.",
-      "oQueEAli": "The sitting-on after the food has its own name and its own hour, and it is the part of the evening you were actually invited for. The eating was the excuse.",
-      "oQueVoceFaz": "Stay in the chair. When you do go, say it once, sit through what happens next, and stand up on the second time of asking.",
-      "oQueMelhora": "You get the hour where the talking happens, which is where you get told the things nobody tells a table of visitors.",
-      "ondeNaoVale": "Not a weekday lunch that people have to get back from, and not a table with a train or a shift at the end of it — there it finishes on time and nobody sits on.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["i08-n21", "i08-n22", "i08-n23"]
-    }
-  ],
-
+  "frasePiso": "Carry something in, sit where you are put, toast once, and say you are full in a full sentence.",
+  "decisao": "aceitar o convite e chegar com uma coisa na mão, pedir em plural na mesa e sair na hora certa dizendo por quê — em vez de recusar por não saber o roteiro",
+  "moldes": [],
   "fatosDatados": [
     {
-      "id": "cena-en-casa-hora",
-      "afirmacao": "Dinner in a Spanish home does not usually get going before about nine at night, so an invitation for nine means nine, and arriving on the hour is arriving early.",
-      "valor": "~21:00",
-      "fonte": "consenso de fontes secundárias (guias gastronômicos e de viagem) registrado em docs/pesquisa-espanha.md §7.1 — «la cena: a partir das 21:00, cozinha reabre ~20:00–20:30»; o INE não publica hora média da cena, e o texto diz «usually», nunca «the official Spanish schedule»",
-      "ano": 2026,
-      "revisarAte": "2028-01-01",
-      "evidencia": "CONSENSO",
+      "id": "el-i08-unesco",
+      "afirmacao": "The Mediterranean Diet is inscribed on UNESCO's list of the Intangible Cultural Heritage of Humanity, with Greece among the submitting countries. The file says, verbatim: «Eating together is the foundation of the cultural identity and continuity of communities throughout the Mediterranean basin.» What that supports is the weight placed on eating together — and nothing at all about how plates are divided at any particular table.",
+      "fonte": "Comensalidade tem lastro: Dieta Mediterrânea na Lista do Patrimônio Imaterial da UNESCO (ficha ICH 00884), com a Grécia entre os proponentes. Verbatim: «Eating together is the foundation of the cultural identity and continuity of communities throughout the Mediterranean basin.»",
+      "ano": 2013,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
       "risco": "baixo",
-      "audioKeys": ["i08-cenar-e", "i08-n24"]
+      "audioKeys": [
+        "el-i08-n03"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n01",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i08-n01",
+      "gesto": 1,
       "bloco": "aquecimento",
-      "gesto": 4,
-      "tom": "ganha",
-      "pt": "Part twenty-six. Warm-up: the flick. One touch of the tongue, never a roll. Pe-ro. A-ho-ra. La puer-ta."
+      "pt": "An invitation is a small set of moves: what you carry in, where you sit, the toast, and how you say you are full."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n02",
-      "pt": "Three flicks, hand on your leg. If it buzzes, you rolled it. One touch, and the word carries on."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i08-n02",
+      "bloco": "corpo",
+      "pt": "Ask what to bring. You will be told to bring nothing. Bring something anyway — a sweet, a bottle, fruit."
     },
     {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-i08-t01",
+      "es": "Τι να φέρω;",
+      "pinyin": "ti na FE-ro",
+      "pt": "What should I bring?",
+      "tts": "Τι να φέρω;"
+    },
+    {
+      "consulta": [
+        "simpatia/convite"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "bloco": "callback",
-      "molde": "APRECIACION",
-      "encaixe": "buenísimo",
-      "encaixeGloss": "delicious",
-      "promptAudioKey": "i08-p01",
-      "promptPt": "Last night's place. The owner is at the till with your change in his hand, and that fish is still with you. Two words, before he turns round. Speak now.",
-      "audioKey": "i07-buenisimo-e",
-      "es": "Estaba buenísimo.",
-      "pinyin": "ehs-TAH-bah bweh-NEE-see-moh",
-      "pt": "what you thought of it"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n03",
-      "bloco": "cena",
-      "pt": "Thursday, twenty past ten, third round, and the man on the next bar stool has been talking to you for an hour."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n04",
-      "pt": "You have been getting on. Then he says the thing that is either the best night of your fortnight, or nothing at all."
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i08-p01",
+      "promptPt": "The invitation is for tomorrow evening and you have no idea what is expected of you. Ask. Speak now.",
+      "audioKey": "el-i08-t01",
+      "es": "Τι να φέρω;",
+      "pinyin": "ti na FE-ro",
+      "pt": "What should I bring?",
+      "tts": "Τι να φέρω;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i08-cenar-e",
-      "es": "Vente a cenar a casa el sábado, sobre las nueve.",
-      "pinyin": "BEN-teh ah theh-NAR ah KAH-sah el SAH-bah-dhoh, SOH-breh lahs NWEH-beh",
-      "pt": "👂 'Come and eat at ours on Saturday, about nine.' — an invitation, and it is meant. Nine at a Spanish table is when dinner starts, not when it is late.",
-      "tts": "Vente a cenar a casa el sábado, sobre las nueve."
+      "voz": "target_el_m",
+      "audioKey": "el-i08-r01",
+      "receptivo": true,
+      "es": "Έλα, μη φέρεις τίποτα! Τον εαυτό σου.",
+      "pt": "Come on, don't bring anything! Just yourself.",
+      "tts": "Έλα, μη φέρεις τίποτα! Τον εαυτό σου.",
+      "acao": "Hear it as the expected answer, not as an instruction. Buy the sweet on the way anyway."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n05",
-      "pt": "Almost every visitor answers that with a smile and a yes, and then flies home without it ever having a day on it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n06",
-      "pt": "An invitation with no hour and no doorway stays a nice thought. Two short sentences turn it into Saturday."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i08-nosvemos-e",
-      "es": "¿Nos vemos a las nueve en la plaza?",
-      "pinyin": "nohs BEH-mohs ah lahs NWEH-beh en lah PLAH-thah",
-      "pt": "'Shall we meet at nine in the square?' — an hour, and somewhere you can both find in the dark.",
-      "tts": "¿Nos vemos a las nueve en la plaza?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n07",
-      "bloco": "molde",
-      "pt": "That is the frame. Nos vemos — then an hour, then a place. The front of it never moves all night."
-    },
-    {
+      "consulta": [
+        "simpatia/convite",
+        "chegar/entrar"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "encaixe": "en la plaza",
-      "encaixeGloss": "the square",
-      "promptAudioKey": "i08-p02",
-      "promptPt": "He has said Saturday and left the rest to you. There is one wide open bit in the middle of this town with a fountain in it, and the hour he named is the hour. Speak now.",
-      "audioKey": "i08-nosvemos-e",
-      "es": "¿Nos vemos a las nueve en la plaza?",
-      "pinyin": "nohs BEH-mohs ah lahs NWEH-beh en lah PLAH-thah",
-      "pt": "an hour, and somewhere findable"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i08-p02",
+      "promptPt": "You are in the doorway with a box from the sweet shop and someone is already saying you shouldn't have. Hand it over and say what it is. Speak now.",
+      "audioKey": "el-i08-t02",
+      "es": "Έφερα ένα γλυκό.",
+      "pinyin": "E-fe-ra E-na ghli-KO",
+      "pt": "I brought something sweet.",
+      "tts": "Έφερα ένα γλυκό."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i08-portal-c",
-      "es": "¿Nos vemos a las ocho y media en tu portal?",
-      "pinyin": "nohs BEH-mohs ah lahs OH-choh ee MEH-dhyah en too por-TAHL",
-      "pt": "El portal is the street door of a block of flats — the bit with the buzzers, where everyone waits.",
-      "tts": "¿Nos vemos a las ocho y media en tu portal?"
-    },
-    {
-      "consulta": ["simpatia/convite"],
+      "consulta": [
+        "chegar/entrar"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "encaixe": "a las ocho y media en tu portal",
-      "encaixeGloss": "half eight at her street door",
-      "promptAudioKey": "i08-p03",
-      "promptPt": "Her flat this time. She is four floors up with a buzzer that has never worked, so you will be waiting down on the pavement — and dinner is at nine, with thirty minutes before it. Speak now.",
-      "audioKey": "i08-portal-c",
-      "es": "¿Nos vemos a las ocho y media en tu portal?",
-      "pinyin": "nohs BEH-mohs ah lahs OH-choh ee MEH-dhyah en too por-TAHL",
-      "pt": "the hour, and the door downstairs"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i08-p03",
+      "promptPt": "There are nine chairs and no obvious spare one, and you would rather be placed than guess. Ask. Speak now.",
+      "audioKey": "el-i08-t03",
+      "es": "Πού να καθίσω;",
+      "pinyin": "poo na ka-THEE-so",
+      "pt": "Where should I sit?",
+      "tts": "Πού να καθίσω;",
+      "molde": "BORO",
+      "encaixe": "καθίσω"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i08-quedamos-e",
-      "es": "¿Quedamos allí?",
-      "pinyin": "keh-DHAH-mohs ah-YEE",
-      "pt": "'Shall we meet there?' — three words for when you both already know the where and neither of you can pronounce it.",
-      "tts": "¿Quedamos allí?"
+      "voz": "target_el_m",
+      "audioKey": "el-i08-r02",
+      "es": "Κάτσε εδώ, δίπλα μου.",
+      "pt": "Sit here, next to me.",
+      "tts": "Κάτσε εδώ, δίπλα μου."
     },
     {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i08-n03",
+      "pt": "UNESCO lists the Mediterranean Diet, and the file calls eating together the foundation of these communities."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i08-n04",
+      "pt": "So order in the plural. Mezedes arrive as small dishes that land in the middle of the table, not in front of one person."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "mesa/tamanho"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i08-p04",
-      "promptPt": "You have both said the name of the same little bar out loud twice, and neither of you could spell it. Somebody has to close this. Three words. Speak now.",
-      "audioKey": "i08-quedamos-e",
-      "es": "¿Quedamos allí?",
-      "pinyin": "keh-DHAH-mohs ah-YEE",
-      "pt": "three words, and it is shut"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i08-p04",
+      "promptPt": "You have all been handed menus and everyone is waiting for someone to start. Propose the shape of the order. Speak now.",
+      "audioKey": "el-i08-t04",
+      "es": "Ας πάρουμε μερικούς μεζέδες.",
+      "pinyin": "as PA-roo-me me-ri-KOOS me-ZE-thes",
+      "pt": "Let's get a few mezedes.",
+      "tts": "Ας πάρουμε μερικούς μεζέδες."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i08-ysiquedamos-e",
-      "es": "¿Y si quedamos a las diez, que salgo tarde?",
-      "pinyin": "ee see keh-DHAH-mohs ah lahs dyeth, keh SAHL-goh TAR-dheh",
-      "pt": "👂 'What about ten instead — I finish late?' — the push-back. It needs three words back, not a speech.",
-      "tts": "¿Y si quedamos a las diez, que salgo tarde?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i08-alliestare-c",
-      "es": "Vale, allí estaré.",
-      "pinyin": "BAH-leh, ah-YEE ehs-tah-REH",
-      "pt": "'Right, I'll be there.' — the yes that ends it, and nothing else needs saying.",
-      "tts": "Vale, allí estaré."
-    },
-    {
-      "consulta": ["simpatia/convite"],
+      "consulta": [
+        "mesa/comida",
+        "mesa/tamanho"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i08-p05",
-      "promptPt": "He has just moved it an hour later because he finishes when he finishes, and now he is looking at you for a yes. Three words. Speak now.",
-      "audioKey": "i08-alliestare-c",
-      "es": "Vale, allí estaré.",
-      "pinyin": "BAH-leh, ah-YEE ehs-tah-REH",
-      "pt": "the yes that ends it"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n08",
-      "pt": "Say it before anybody stands up, and put it in your phone at the table. The hour is what makes it happen."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n09",
-      "tom": "protege",
-      "pt": "One thing now, and it is the only one all night that anybody would notice: nobody goes through that door with empty hands."
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i08-p05",
+      "promptPt": "The person taking the order wants to know whose dish is whose. Tell them it does not work that way tonight. Speak now.",
+      "audioKey": "el-i08-t05",
+      "es": "Θα τα μοιραστούμε όλα.",
+      "pinyin": "tha ta mi-ra-STOO-me O-la",
+      "pt": "We'll share everything.",
+      "tts": "Θα τα μοιραστούμε όλα."
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i08-cosita-e",
-      "es": "Te he traído una cosita.",
-      "pinyin": "teh eh trah-EE-dhoh OO-nah koh-SEE-tah",
-      "pt": "'I've brought you a little something.' — said as you hand it over, and it is what everybody says.",
-      "tts": "Te he traído una cosita."
+      "voz": "target_el_f",
+      "audioKey": "el-i08-r03",
+      "es": "Καλή όρεξη σε όλους!",
+      "pt": "Enjoy your meal, everyone!",
+      "tts": "Καλή όρεξη σε όλους!"
     },
     {
-      "consulta": ["simpatia/convite","simpatia/agradecer"],
+      "consulta": [
+        "simpatia/brindar"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i08-p06",
-      "promptPt": "You are on the landing, the lift has just gone back down, and the door is opening with a bottle already in your hand. Say it as you put it in his. Speak now.",
-      "audioKey": "i08-cosita-e",
-      "es": "Te he traído una cosita.",
-      "pinyin": "teh eh trah-EE-dhoh OO-nah koh-SEE-tah",
-      "pt": "as you hand it over"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i08-p06",
+      "promptPt": "Glasses are up around the table and everyone is looking at each other. Say the toast. Speak now.",
+      "audioKey": "el-i08-t06",
+      "es": "Στην υγειά μας!",
+      "pinyin": "stin i-YA mas",
+      "pt": "To our health!",
+      "tts": "Στην υγειά μας!"
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n10",
-      "tom": "ganha",
-      "pt": "A bottle, a cake from the shop on the corner, something for the children. What it cost is nobody's business."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n11",
-      "pt": "And it goes on a shelf without being opened. Nothing has gone flat — tonight's bottle was open before you rang."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i08-casa-c",
-      "es": "¡Qué casa más bonita!",
-      "pinyin": "keh KAH-sah mahs boh-NEE-tah",
-      "pt": "'What a lovely place you have!' — said in the hall, in the first ten seconds, out loud.",
-      "tts": "¡Qué casa más bonita!"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n12",
-      "pt": "You already own the front of that one from last night. Only what sits in the middle of it is new."
-    },
-    {
-      "consulta": ["simpatia/elogiar-lugar"],
+      "consulta": [
+        "simpatia/elogiar-comida"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "APRECIACION",
-      "encaixe": "casa",
-      "encaixeGloss": "house",
-      "promptAudioKey": "i08-p07",
-      "promptPt": "She has walked you down the hall past the photographs and into the front room, and she has stopped and is watching your face. Speak now.",
-      "audioKey": "i08-casa-c",
-      "es": "¡Qué casa más bonita!",
-      "pinyin": "keh KAH-sah mahs boh-NEE-tah",
-      "pt": "about the place, in the first ten seconds"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i08-p07",
+      "promptPt": "One small dish is better than anything you have eaten this trip and you cannot name it. Praise it and ask. Speak now.",
+      "audioKey": "el-i08-t07",
+      "es": "Είναι υπέροχο, τι είναι;",
+      "pinyin": "EE-ne i-PE-ro-ho, ti EE-ne",
+      "pt": "This is wonderful, what is it?",
+      "tts": "Είναι υπέροχο, τι είναι;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n13",
-      "pt": "Then sit where you are put. Somebody will point at a chair, and the chair is never an accident."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i08-sientate-c",
-      "es": "Siéntate aquí, que estás mejor.",
-      "pinyin": "SYEN-tah-teh ah-KEE, keh ehs-TAHS meh-KHOR",
-      "pt": "👂 'Sit here, you'll be more comfortable.' — you are being placed. Take the chair you are given.",
-      "tts": "Siéntate aquí, que estás mejor."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n14",
-      "pt": "Glasses go up before the first mouthful, and you have had the word for that since last night."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i08-p08",
-      "promptPt": "Five of you round a table in somebody's front room, the wine has just gone round, and every hand is on a glass waiting for one of you to start it. Speak now.",
-      "audioKey": "i07-salud-e",
-      "es": "¡Salud!",
-      "pinyin": "sah-LOODH",
-      "pt": "up, and then you drink"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n15",
-      "pt": "The dish comes in and goes down in the middle of the table. You said this one to a passing tray last night."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "APRECIACION",
-      "encaixe": "buena pinta",
-      "encaixeGloss": "looks good",
-      "promptAudioKey": "i08-p09",
-      "promptPt": "It has come out of the kitchen in a dish the size of a bicycle wheel, and the woman carrying it is watching the table to see what happens. Speak now.",
-      "audioKey": "i07-buenapinta-e",
-      "es": "¡Qué buena pinta!",
-      "pinyin": "keh BWEH-nah PEEN-tah",
-      "pt": "to the dish, and to the woman carrying it"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i08-vayabien-c",
-      "es": "Que vaya bien.",
-      "pinyin": "keh BAH-yah byen",
-      "pt": "'All the best.' — for somebody heading off: to work, on a trip, to a thing in the morning.",
-      "tts": "Que vaya bien."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n16",
-      "pt": "Three of these, learnt whole, and the list is the list. Nothing inside them ever gets taken apart."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n17",
-      "pt": "One goes up with the glass, one lands with the food, and this one is for somebody heading off."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i08-p10",
-      "promptPt": "Her brother is up at five for a flight and is doing his goodbyes round the table before you do yours. Three words at him. Speak now.",
-      "audioKey": "i08-vayabien-c",
-      "es": "Que vaya bien.",
-      "pinyin": "keh BAH-yah byen",
-      "pt": "three words, to the one leaving"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i08-masarroz-e",
-      "es": "¿Un poquito más? Venga, que hay de sobra.",
-      "pinyin": "oon poh-KEE-toh mahs. BENG-gah, keh ai deh SOH-brah",
-      "pt": "👂 'A bit more? Go on, there's plenty.' — the offer comes round twice whatever you answered the first time.",
-      "tts": "¿Un poquito más? Venga, que hay de sobra."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n18",
-      "pt": "You said no and it landed anyway. That is the shape of the evening, not a failure of your Spanish."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n19",
-      "pt": "So say it again, and hang the reason off the end of the same breath. That is what makes the second one land."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i08-nopuedomas-c",
-      "es": "De verdad que no puedo más, estaba todo buenísimo.",
-      "pinyin": "deh behr-DAHDH keh noh PWEH-dhoh mahs, ehs-TAH-bah TOH-dhoh bweh-NEE-see-moh",
-      "pt": "'I really cannot manage any more — it was all delicious.' The same two words as last night, with one word dropped in the middle.",
-      "tts": "De verdad que no puedo más, estaba todo buenísimo."
-    },
-    {
-      "consulta": ["simpatia/convite"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "APRECIACION",
-      "encaixe": "todo",
-      "encaixeGloss": "the lot",
-      "promptAudioKey": "i08-p11",
-      "promptPt": "The spoon is over your plate for the third time and there is still half a dish left on the table. Turn it down, and put the reason on the end of the same breath. Speak now.",
-      "audioKey": "i08-nopuedomas-c",
-      "es": "De verdad que no puedo más, estaba todo buenísimo.",
-      "pinyin": "deh behr-DAHDH keh noh PWEH-dhoh mahs, ehs-TAH-bah TOH-dhoh bweh-NEE-see-moh",
-      "pt": "the no, with the praise on the end"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n20",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i08-n05",
       "bloco": "capsula",
-      "pt": "Nobody is testing you. The second offer is the manners of the house, and the second no is the answer."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n21",
-      "pt": "Then the plates go, and nothing happens. Nobody moves, the coffee comes out, and that hour has a name."
+      "pt": "Refills keep coming. The way out is not a hand over the plate — it is a warm full sentence, said once."
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i08-sobremesa-e",
-      "es": "Ahora viene la sobremesa.",
-      "pinyin": "ah-OH-rah BYEH-neh lah soh-breh-MEH-sah",
-      "pt": "👂 'Now comes the sobremesa.' — the sitting-on after the food. It is the part you were invited for.",
-      "tts": "Ahora viene la sobremesa."
+      "voz": "target_el_m",
+      "audioKey": "el-i08-r04",
+      "receptivo": true,
+      "es": "Φάε κι άλλο, δεν έφαγες τίποτα!",
+      "pt": "Have some more, you've eaten nothing!",
+      "tts": "Φάε κι άλλο, δεν έφαγες τίποτα!",
+      "acao": "This is the offer, not a verdict on your appetite. Answer it in words rather than by covering the plate."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n22",
-      "pt": "Standing up when the table is cleared reads as though the evening was a job you have now finished."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n23",
-      "pt": "When you do go, say it twice. The first one is the ritual, and nobody at that table believes it."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "i08-mevoyyendo-c",
-      "es": "Bueno, me voy yendo, que mañana madrugo.",
-      "pinyin": "BWEH-noh, meh boy YEN-doh, keh mah-NYAH-nah mah-DHROO-goh",
-      "pt": "'Right, I'll be making a move — early start in the morning.' The first one. It buys you ten more minutes.",
-      "tts": "Bueno, me voy yendo, que mañana madrugo."
-    },
-    {
+      "consulta": [
+        "mesa/comida",
+        "simpatia/agradecer"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i08-p12",
-      "promptPt": "It has gone one, the second coffee has been drunk, and you are on a train at eight. Start it, and expect not one person to move. Speak now.",
-      "audioKey": "i08-mevoyyendo-c",
-      "es": "Bueno, me voy yendo, que mañana madrugo.",
-      "pinyin": "BWEH-noh, meh boy YEN-doh, keh mah-NYAH-nah mah-DHROO-goh",
-      "pt": "the first one, the one nobody believes"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i08-p08",
+      "promptPt": "A third helping is on its way to your plate and you are genuinely finished. Stop it warmly. Speak now.",
+      "audioKey": "el-i08-t08",
+      "es": "Δεν μπορώ άλλο, ήταν υπέροχα.",
+      "pinyin": "then bo-RO A-lo, EE-tan i-PE-ro-ha",
+      "pt": "I can't manage any more, it was wonderful.",
+      "tts": "Δεν μπορώ άλλο, ήταν υπέροχα.",
+      "molde": "MOU-ARESE",
+      "encaixe": "ήταν υπέροχα"
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i08-graciastodo-e",
-      "es": "Muchas gracias por todo. Ha estado genial.",
-      "pinyin": "MOO-chahs GRAH-thyahs por TOH-dhoh. ah ehs-TAH-dhoh kheh-NYAHL",
-      "pt": "'Thank you for everything. It's been great.' — at the door, coat already on, and it is the last thing you say.",
-      "tts": "Muchas gracias por todo. Ha estado genial."
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i08-n06",
+      "pt": "Leaving takes two sentences and about ten minutes. Announce it, thank them for the evening, then stand up."
     },
     {
-      "consulta": ["simpatia/agradecer","chegar/sair"],
+      "consulta": [
+        "chegar/sair",
+        "simpatia/agradecer"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "i08-p13",
-      "promptPt": "Coat on, back out on the landing, and the two of them are stood in the doorway waiting to shut it. One line for the food and one for the night. Speak now.",
-      "audioKey": "i08-graciastodo-e",
-      "es": "Muchas gracias por todo. Ha estado genial.",
-      "pinyin": "MOO-chahs GRAH-thyahs por TOH-dhoh. ah ehs-TAH-dhoh kheh-NYAHL",
-      "pt": "one line for the food, one for the night"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i08-p09",
+      "promptPt": "It is late, you have a boat in the morning, and nobody else is moving. Announce it. Speak now.",
+      "audioKey": "el-i08-t09",
+      "es": "Πρέπει να πηγαίνω, ευχαριστώ πολύ.",
+      "pinyin": "PRE-pi na pi-YE-no, ef-ha-ri-STO po-LEE",
+      "pt": "I should get going, thank you very much.",
+      "tts": "Πρέπει να πηγαίνω, ευχαριστώ πολύ."
     },
     {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i08-g01",
-      "pt": "GUIRI ALERT. George here. Invited to a flat in Lavapiés. I rang the bell on the hour, with both hands free."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i08-g02",
-      "pt": "She answered it with wet hair. Then I stood up the second the plates went, because at home that is the signal."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "i08-g03",
-      "pt": "A cake in my hands, a bit after the hour, and stay for the coffee. That is the whole evening, and I missed it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n24",
-      "bloco": "permissao",
-      "pt": "You can turn up a little after the hour, and you can say no to the third helping. Say it twice and it is heard."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n25",
-      "bloco": "espelho",
-      "pt": "Getting up the moment the plates are cleared is the bit that reads as odd there. That hour is what you came for."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n26",
-      "bloco": "clique",
-      "tom": "ganha",
-      "pt": "Count the places. The bar stool. The landing. The table. The square. The street door with the buzzers."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n27",
-      "pt": "Nobody gave you those sentences. You made them out of one question, one word and a doorway."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n28",
-      "bloco": "piso",
-      "pt": "You will turn an invitation into an hour and a place. Most visitors fly home with one they never used."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-s00",
-      "pt": "Shadowing. Out loud, underneath them, one touch on the r and one punch a word. The two that do the work:"
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i08-p10",
+      "promptPt": "You are at the door with your coat on and one sentence left. Make it the one that gets you invited again. Speak now.",
+      "audioKey": "el-i08-t10",
+      "es": "Ήταν υπέροχη βραδιά.",
+      "pinyin": "EE-tan i-PE-ro-hi vra-DHYA",
+      "pt": "It was a wonderful evening.",
+      "tts": "Ήταν υπέροχη βραδιά."
     },
     {
       "tipo": "shadow",
-      "voz": "Emilio",
-      "audioKey": "i08-nosvemos-e",
-      "es": "¿Nos vemos a las nueve en la plaza?",
-      "pinyin": "nohs BEH-mohs ah lahs NWEH-beh en lah PLAH-thah",
-      "pt": "Shall we meet at nine in the square?"
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "i08-casa-c",
-      "molde": "APRECIACION",
-      "es": "¡Qué casa más bonita!",
-      "pinyin": "keh KAH-sah mahs boh-NEE-tah",
-      "pt": "What a lovely place you have!"
+      "voz": "target_el_f",
+      "audioKey": "el-i08-s01",
+      "es": "Έφερα ένα γλυκό. Στην υγειά μας! Δεν μπορώ άλλο, ήταν υπέροχα.",
+      "pinyin": "E-fe-ra E-na ghli-KO. stin i-YA mas. then bo-RO A-lo, EE-tan i-PE-ro-ha",
+      "pt": "Shadow the arrival, the toast, and the sentence that stops the third helping.",
+      "tts": "Έφερα ένα γλυκό. Στην υγειά μας! Δεν μπορώ άλλο, ήταν υπέροχα.",
+      "molde": "BORO"
     },
     {
       "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "i08-rend",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i08-n07",
       "bloco": "recap",
-      "pt": "One more out loud, somewhere we have not stood yet, and this time nobody has fixed anything for you."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "encaixe": "en la plaza",
-      "encaixeGloss": "the square",
-      "promptAudioKey": "i08-p14",
-      "promptPt": "Different town, different week. The couple from the next table have said come and eat with us tomorrow, and left it at that. There is one open space with a fountain where this town starts its evening. Speak now.",
-      "audioKey": "i08-nosvemos-e",
-      "es": "¿Nos vemos a las nueve en la plaza?",
-      "pinyin": "nohs BEH-mohs ah lahs NWEH-beh en lah PLAH-thah",
-      "pt": "put an hour and a place on it"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "i08-n29",
-      "pt": "That is it. You were invited, you put a day on it, and you stayed for the coffee. Hasta luego."
+      "pt": "I08 done. Carry something in, sit where you are put, toast once, and say you are full out loud."
     }
   ],
-
   "aprofundar": {
-    "titulo": "Getting to somebody's table, and knowing what to do once you are at it (optional reading)",
+    "titulo": "Six sentences and an evening",
     "secoes": [
       {
-        "titulo": "¿Nos vemos…? — the two sentences that turn a nice thought into a Thursday",
-        "corpo": "An invitation in Spain very often arrives without a time attached to it: 'vente a cenar', 'te vienes un día a casa', 'tenemos que quedar'. That is not vagueness and it is not a polite brush-off — it is an opening, and whoever is keener puts the hour on it. The sentence that does that is '¿Nos vemos a las nueve en la plaza?' Literally it is 'do we see each other at nine in the square', and it is a question only in the sense that a handshake is a question. The front of it — nos vemos — never changes; what you drop in is an hour and a place, in that order, with 'en' in front of the place. Two neighbours are worth having whole. '¿Quedamos allí?' is the three-word version for when the place has already been named out loud and neither of you fancies saying it again; quedar is the ordinary verb for arranging to meet, and '¿quedamos?' on its own is what a Spanish phone message looks like. And 'vale, allí estaré' is the yes: vale is the single most useful word in the country, somewhere between 'right', 'okay' and 'fine by me'. If the other person moves the hour on you — '¿y si quedamos a las diez?' — the whole answer is those three words. Do not build a longer one.",
+        "titulo": "Ask, be told nothing, bring something",
+        "corpo": "Τι να φέρω; is the question, and «μη φέρεις τίποτα» is very often the answer. Both halves are part of the same exchange: the question shows you understand there is a form to this, and the refusal is the host's half of it. A box of sweets from a ζαχαροπλαστείο, a bottle, or fruit all work, and Έφερα ένα γλυκό is the whole speech you need at the door.",
         "exemplos": [
           {
-            "es": "¿Nos vemos mañana en el bar de abajo?",
-            "pt": "nohs BEH-mohs mah-NYAH-nah — shall we meet tomorrow at the bar downstairs?"
+            "es": "Τι να φέρω;",
+            "pt": "What should I bring?"
           },
           {
-            "es": "Vale, quedamos allí.",
-            "pt": "BAH-leh, keh-DHAH-mohs ah-YEE — right, we'll meet there. The statement version of the question"
+            "es": "Έφερα ένα γλυκό.",
+            "pt": "I brought something sweet."
           }
         ]
       },
       {
-        "titulo": "What goes through the door, and why it is never opened",
-        "corpo": "The rule is simple and it is the only one anybody would notice you getting wrong: you do not arrive at somebody's home with nothing in your hands. What you take is deliberately small — a bottle of wine, a cake or a tart from the bakery on the corner, a box of something for the children, flowers if you like the person a lot. It is a greeting rather than a contribution to the meal, and that is why it will very often go straight onto a shelf, unopened: the wine for tonight was decided before you rang the bell, and yours is for another day. Do not read that as a snub and do not offer to open it. The sentence that goes with the handover is 'te he traído una cosita' — I've brought you a little something — and the diminutive on cosita is doing real work: it says the thing is small on purpose, which takes any weight of obligation out of it. If you are handing it to somebody you are on usted with, 'le he traído una cosita'. On price: nobody is going to look, and a supermarket bottle handed over warmly beats an expensive one handed over stiffly. The one thing worth avoiding is arriving with a whole course you have made, unless it was asked for — that reads as a comment on the cooking.",
+        "titulo": "Order in the plural",
+        "corpo": "Ας πάρουμε μερικούς μεζέδες and Θα τα μοιραστούμε όλα are the two sentences that change the shape of a table order. Μεζέδες are small dishes meant to arrive together and sit in the middle; ordering them is a decision about the table rather than about your own plate. It is a way of ordering, not a law of nature — plenty of people at plenty of tables order one main each and that is equally normal.",
         "exemplos": [
           {
-            "es": "Te he traído una cosita para los niños.",
-            "pt": "PAH-rah lohs NEE-nyohs — I've brought a little something for the children"
+            "es": "Ας πάρουμε μερικούς μεζέδες.",
+            "pt": "Let's get a few mezedes."
           },
           {
-            "es": "Es un vino de mi tierra.",
-            "pt": "deh mee TYEH-rrah — it's a wine from where I'm from. The line that makes a cheap bottle a good present"
+            "es": "Θα τα μοιραστούμε όλα.",
+            "pt": "We'll share everything."
           }
         ]
       },
       {
-        "titulo": "Nine means nine, and the fifteen minutes nobody writes down",
-        "corpo": "Dinner at home is late by British standards and the number is not a rounding error: 'sobre las nueve' means the table happens somewhere around then, and turning up at nine exactly is turning up early. A quarter of an hour after the hour is the ordinary arrival, and it is what the host has planned for — the shower, the last pan, the tidying of the room you will be sat in. This is the one place in the whole course where being punctual is the mistake, and it runs the other way for everything with a timetable: the train, the museum slot, the doctor and a table booked in a restaurant are all to the minute. The wording tells you which world you are in. 'A las nueve' is an appointment. 'Sobre las nueve', 'a eso de las nueve' or 'a partir de las nueve' is a home, and the last of those three genuinely means 'from nine onwards'. One more piece of arithmetic worth having: if you are being fed at somebody's house, do not eat at seven to be safe. You will not be hungry, they will notice, and the whole point of the evening is the table.",
-        "exemplos": [
-          {
-            "es": "A eso de las nueve, ¿te va bien?",
-            "pt": "ah EH-soh deh lahs NWEH-beh — around nine, does that suit you?"
-          },
-          {
-            "es": "A partir de las nueve, cuando quieras.",
-            "pt": "ah par-TEER deh — from nine onwards, whenever you like"
-          }
-        ]
+        "titulo": "The toast is a fixed formula",
+        "corpo": "Στην υγειά μας is the full one, Γεια μας the short one you will hear more often, and either is complete on its own — nobody expects a speech attached. Eyes up, glass up, one line, drink. If a second round of toasting comes, the same words work again."
       },
       {
-        "titulo": "The second helping, the second no, and the hour after the plates",
-        "corpo": "Two things at the table have a shape you can plan for. The first is the offer of more, which runs twice: '¿un poquito más?', 'venga, que hay de sobra', and a spoonful may well arrive while you are still saying no. Nobody is ignoring you — the first refusal is heard as manners, and the answer is the second one. Make it land by putting the reason in the same breath: 'de verdad que no puedo más, estaba todo buenísimo', with a flat hand over the plate. That sentence is the one from part twenty-five with 'todo' dropped into the middle of it, and it does two jobs at once: it closes the food and it compliments the cook, which is why nobody can be offended by it. There is one exception and it is absolute: an allergy or a diet never goes into this soft register. That is the flat, serious sentence from part thirteen, said looking at them, with the card in your hand. The second shape is what happens after the plates: nothing. The coffee comes out, sometimes something stronger, and the table sits on. This has its own name — la sobremesa — and it is not the polite tail of the evening, it is the evening. Leaving as the plates are cleared is the single most common way a visitor turns a warm night into a cool one, entirely by accident.",
-        "exemplos": [
-          {
-            "es": "Está riquísimo, pero no puedo más.",
-            "pt": "PEH-roh noh PWEH-dhoh mahs — it's delicious, but I can't manage any more"
-          },
-          {
-            "es": "¿Nos quedamos un rato de sobremesa?",
-            "pt": "oon RRAH-toh — shall we sit on a bit after the food?"
-          }
-        ]
+        "titulo": "The heritage file, and what it does not say",
+        "corpo": "UNESCO's file for the Mediterranean Diet states that eating together is the foundation of the cultural identity and continuity of communities across the basin, and Greece is among the countries that submitted it. That is real and it is worth knowing. It is a statement about the value of the shared meal — not evidence for any claim about individual plates being unusual, and this course does not make that claim."
       },
       {
-        "titulo": "Getting out of the door: say it twice, and the three set wishes",
-        "corpo": "Leaving is a two-stage thing and knowing that saves the whole ending. The first announcement — 'bueno, me voy yendo, que mañana madrugo' — is not a departure, it is notice. 'Me voy yendo' is literally 'I'm going going', a shape that means the process has started rather than finished, and 'madrugar' is the verb for getting up early, which is the standard and completely accepted excuse for anything. Expect nobody to move. Ten minutes later you stand up, and that one is real. On your feet at the door, the whole goodbye is 'muchas gracias por todo, ha estado genial', and if you want to be asked back, 'a ver si repetimos' — let's do it again — is what people actually say. Three set wishes cover the rest of the night and none of them is taken apart: '¡salud!' with the glass, 'que aproveche' at anyone eating, and 'que vaya bien' to somebody heading off. They all begin with that little 'que' because they are old wishes with the front of the sentence worn away — 'I hope that it goes well' — and you never need to know that to use them. The family is bigger if you want it: 'que descanses' to somebody going to bed, 'que te mejores' to somebody ill, 'que tengas suerte' before an exam. Same shape, all of it learnt whole.",
-        "exemplos": [
-          {
-            "es": "A ver si repetimos.",
-            "pt": "ah behr see rreh-peh-TEE-mohs — let's do this again. The line that gets you invited back"
-          },
-          {
-            "es": "Que descanses.",
-            "pt": "keh dehs-KAHN-sehs — 👂 sleep well, to somebody heading for bed"
-          }
-        ]
+        "titulo": "How to be full",
+        "corpo": "Δεν μπορώ άλλο, ήταν υπέροχα does two jobs in five words: it declines and it praises, so the refusal is not about the food. Covering the plate with your hand or leaving food to signal you are done both read as puzzles instead. Say it once, warmly, and mean it; you may need to say it twice, and twice is still fine."
       }
     ]
-  }
+  },
+  "slot": "I08",
+  "permissao": "You are allowed to accept an invitation you do not have the script for. Nothing about the evening depends on you performing it correctly — Τι να φέρω; before, Στην υγειά μας at the table and Ήταν υπέροχη βραδιά at the door will carry you through a whole night of a language you barely speak.",
+  "permissaoAudioKey": "el-i08-n01",
+  "espelho": "Anyone who has been the guest at a table where the family already had its own rhythm — who serves, who talks over whom, when it is acceptable to stand up — knows the small panic of not knowing when the evening ends. The only new part here is that the two sentences that solve it are in Greek.",
+  "fichasCulturais": [
+    {
+      "sinal": "Food keeps arriving on your plate after you have said you are finished, and someone tells you that you have eaten nothing.",
+      "suaLeitura": "They think I don't like the food, or I am being judged for how much I eat.",
+      "oQueEAli": "Offering again is part of hosting at that table, and the second offer is expected to happen whether or not the first was accepted. Nothing in it is a measurement of you, and the shared meal is exactly the thing being valued.",
+      "oQueVoceFaz": "Answer in a sentence rather than with a gesture: Δεν μπορώ άλλο, ήταν υπέροχα. It declines and praises at once, which is why it does not read as rejecting the food.",
+      "oQueMelhora": "You stop eating past the point of comfort out of politeness, and the refusal stays warm instead of turning into a small stand-off over a serving spoon.",
+      "ondeNaoVale": "Not a description of every household or every table — plenty of hosts ask once and leave it there, and a restaurant table with friends works nothing like a family kitchen. Read the table you are actually at.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-i08-n05"
+      ]
+    },
+    {
+      "sinal": "You ask what to bring and are firmly told to bring nothing at all.",
+      "suaLeitura": "That settles it — arriving with a gift would be overdoing it.",
+      "oQueEAli": "The question and the refusal are two halves of one exchange. Asking shows you know the evening has a form; the refusal is the host's expected line in it. Turning up with something small is not a contradiction of the answer you were given.",
+      "oQueVoceFaz": "Buy a box of sweets, a bottle or some fruit on the way, hand it over at the door with Έφερα ένα γλυκό, and let it be taken from you without insisting.",
+      "oQueMelhora": "You arrive with your hands doing something, which removes the awkward first thirty seconds entirely, and the gift becomes part of the table rather than a transaction.",
+      "ondeNaoVale": "Not a rule that a gift is required everywhere. A last-minute invitation from the next table in a taverna is not the same event as being asked to someone's home, and turning up empty-handed to the first is not a lapse.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-i08-n02"
+      ]
+    }
+  ]
 }

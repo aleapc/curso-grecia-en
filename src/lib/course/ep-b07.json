@@ -1,0 +1,369 @@
+{
+  "id": "b07",
+  "nivel": "basico",
+  "numero": 7,
+  "parte": "B07",
+  "titulo": "Μπορώ να — the three sounds that open the whole ride into town",
+  "subtitulo": "One opening, four counters, and a taxi rank with its fare already posted on a board",
+  "cena": "Arrivals at Athens: the bag is out, the terminal has a metro office, an Express bus stop and a taxi rank, and you have to choose one of them in the next ten minutes.",
+  "moldura": "ganha",
+  "frasePiso": "Μπορώ να, then the thing you want to do. One opening, and the whole ride into town becomes askable.",
+  "moldes": [
+    "BORO"
+  ],
+  "clique": {
+    "contagem": [
+      "the metro ticket office",
+      "the Express bus",
+      "the taxi rank",
+      "the hotel front desk"
+    ],
+    "desconto": "Nobody handed you a separate sentence for the bus, the taxi and the desk. You kept one opening and changed only the verb after it.",
+    "piso": "Next time you want to do something and are not sure it is allowed here, you will not mime it. You will ask in three sounds and a verb."
+  },
+  "fatosDatados": [
+    {
+      "id": "el-b07-oasa",
+      "afirmacao": "Athens transport prices are published by ΟΑΣΑ: the airport metro is €9.00 one way and €16.00 return, and the Express airport bus is €5.50. The integrated 90-minute ticket in town is €1.20, the day ticket €4.10 and the three-day tourist ticket €20.00.",
+      "fonte": "Atenas (ΟΑΣΑ, oasa.gr): integrado 90 min €1,20; diário €4,10; 5 dias €8,20; turístico 3 dias €20,00; metrô aeroporto €9,00 / €16,00 ida e volta; Express aeroporto €5,50.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "el-b07-n05"
+      ]
+    },
+    {
+      "id": "el-b07-karta",
+      "afirmacao": "Accepting card payment is a legal obligation in Greece for whole categories of trade, not a courtesy. Article 65 of law 4446/2016 imposes the obligation by activity code, and article 66 obliges the trader to inform the customer visibly at the entrance and at the till. The list of activity codes was replaced in 2023 and extended to a further 35 codes, including open-air markets, food retail and kiosks.",
+      "fonte": "Art. 65 do ν.4446/2016, «Υποχρέωση αποδοχής μέσων πληρωμής με κάρτα», obriga por ΚΑΔ (código de atividade); o art. 66 obriga a informar o consumidor de forma visível na entrada e no caixa. A lista de ΚΑΔ foi substituída pela ΚΥΑ 119899/2023, ΦΕΚ Β΄7115/18.12.2023, que estendeu a mais 35 ΚΑΔ — feiras livres, varejo alimentar, bancas.",
+      "ano": 2023,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "el-b07-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b07-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Between the plane and the bed there are four counters, and every one of them answers the same opening."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b07-n02",
+      "bloco": "molde",
+      "pt": "Here is the frame: Μπορώ να, then what you want to do. Can I — and then the verb."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-b07-t01",
+      "es": "Μπορώ να πληρώσω με κάρτα;",
+      "pinyin": "bo-RO na plee-RO-so me KAR-ta",
+      "pt": "Can I pay by card?",
+      "tts": "Μπορώ να πληρώσω με κάρτα;"
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "πληρώσω με κάρτα",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b07-p01",
+      "promptPt": "At the taxi rank, before the door closes: you have no cash on you at all. Check first. Speak now.",
+      "audioKey": "el-b07-t01",
+      "es": "Μπορώ να πληρώσω με κάρτα;",
+      "pinyin": "bo-RO na plee-RO-so me KAR-ta",
+      "pt": "Can I pay by card?",
+      "tts": "Μπορώ να πληρώσω με κάρτα;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b07-r01",
+      "es": "Ναι, βέβαια. Με κάρτα ή με μετρητά;",
+      "pt": "Yes, of course. Card or cash?",
+      "tts": "Ναι, βέβαια. Με κάρτα ή με μετρητά;",
+      "receptivo": true,
+      "acao": "Two options in one short line. Catch the second word of each and answer with the one you have."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b07-n03",
+      "bloco": "corpo",
+      "pt": "The frame does not ask the world for permission. It asks this person, at this counter, right now."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "αγοράσω εισιτήριο εδώ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b07-p02",
+      "promptPt": "At the metro ticket office, both machines have a paper sign on them and a person sits behind the glass. Speak now.",
+      "audioKey": "el-b07-t02",
+      "es": "Μπορώ να αγοράσω εισιτήριο εδώ;",
+      "pinyin": "bo-RO na a-gho-RA-so ee-see-TEE-ree-o e-DHO",
+      "pt": "Can I buy a ticket here?",
+      "tts": "Μπορώ να αγοράσω εισιτήριο εδώ;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b07-n04",
+      "pt": "Card is not a favour here. Whole categories of trade are obliged to take it, and to say so at the door."
+    },
+    {
+      "consulta": [
+        "compras/pagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "πάρω απόδειξη",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b07-p03",
+      "promptPt": "The driver has taken your money and is already reaching for the door handle. Ask for the printed slip. Speak now.",
+      "audioKey": "el-b07-t03",
+      "es": "Μπορώ να πάρω απόδειξη;",
+      "pinyin": "bo-RO na PA-ro a-PO-dhee-ksee",
+      "pt": "Can I have a receipt?",
+      "tts": "Μπορώ να πάρω απόδειξη;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b07-n05",
+      "pt": "The airport metro is nine euros one way, sixteen return. The Express bus into town is five fifty."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b07-r02",
+      "es": "Το εισιτήριο για το κέντρο, πέντε και πενήντα.",
+      "pt": "The ticket into the centre, five fifty.",
+      "tts": "Το εισιτήριο για το κέντρο, πέντε και πενήντα.",
+      "receptivo": true,
+      "acao": "Prices come as two numbers joined by και. Catch both and you have the amount."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "καθίσω εδώ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b07-p04",
+      "promptPt": "The Express bus is full and the one free place has someone's bag on it. Ask the woman beside it. Speak now.",
+      "audioKey": "el-b07-t04",
+      "es": "Μπορώ να καθίσω εδώ;",
+      "pinyin": "bo-RO na ka-THEE-so e-DHO",
+      "pt": "Can I sit here?",
+      "tts": "Μπορώ να καθίσω εδώ;"
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "περάσω",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b07-p05",
+      "promptPt": "You are three bodies away from the doors of the Express bus and they are about to open. Speak now.",
+      "audioKey": "el-b07-t05",
+      "es": "Μπορώ να περάσω;",
+      "pinyin": "bo-RO na pe-RA-so",
+      "pt": "Can I get past?",
+      "tts": "Μπορώ να περάσω;"
+    },
+    {
+      "consulta": [
+        "transporte/plataforma"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "κατέβω εδώ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b07-p06",
+      "promptPt": "The Express bus is stopped at a light and the square you were aiming for is right outside the window. Speak now.",
+      "audioKey": "el-b07-t06",
+      "es": "Μπορώ να κατέβω εδώ;",
+      "pinyin": "bo-RO na ka-TE-vo e-DHO",
+      "pt": "Can I get off here?",
+      "tts": "Μπορώ να κατέβω εδώ;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b07-n06",
+      "bloco": "capsula",
+      "pt": "Same two words every time. Μπορώ να, then pay, buy, sit, get past, get off, leave the bag."
+    },
+    {
+      "consulta": [
+        "quarto/mala"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "αφήσω τη βαλίτσα εδώ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b07-p07",
+      "promptPt": "At the hotel front desk, the room is not ready until two and you want your hands free until then. Speak now.",
+      "audioKey": "el-b07-t07",
+      "es": "Μπορώ να αφήσω τη βαλίτσα εδώ;",
+      "pinyin": "bo-RO na a-FEE-so ti va-LEE-tsa e-DHO",
+      "pt": "Can I leave the suitcase here?",
+      "tts": "Μπορώ να αφήσω τη βαλίτσα εδώ;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b07-r03",
+      "es": "Βεβαίως, αφήστε την εκεί, στη γωνία.",
+      "pt": "Certainly, leave it there, in the corner.",
+      "tts": "Βεβαίως, αφήστε την εκεί, στη γωνία.",
+      "receptivo": true,
+      "acao": "A yes, and then where. Follow the hand rather than the words — εκεί is the only one you need."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b07-n07",
+      "pt": "The taxi rank at the airport works on a posted flat fare into town. Ask before the door shuts, not after."
+    },
+    {
+      "consulta": [
+        "taxi/destino"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b07-p08",
+      "promptPt": "You are in the taxi with the door closed and the driver is waiting for one piece of information. Speak now.",
+      "audioKey": "el-b07-t08",
+      "es": "Στο κέντρο, παρακαλώ.",
+      "pinyin": "sto KEN-dro, pa-ra-ka-LO",
+      "pt": "To the centre, please.",
+      "tts": "Στο κέντρο, παρακαλώ."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b07-p09",
+      "promptPt": "The ride is over and your bag is already out on the pavement. Close it the way people close things here. Speak now.",
+      "audioKey": "el-b07-t09",
+      "es": "Ευχαριστώ πολύ, καλή σας μέρα.",
+      "pinyin": "ef-kha-ree-STO po-LEE, ka-LEE sas ME-ra",
+      "pt": "Thank you very much, have a good day.",
+      "tts": "Ευχαριστώ πολύ, καλή σας μέρα."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-b07-s01",
+      "es": "Μπορώ να πληρώσω με κάρτα; Μπορώ να καθίσω εδώ; Μπορώ να αφήσω τη βαλίτσα εδώ;",
+      "pinyin": "bo-RO na plee-RO-so me KAR-ta. bo-RO na ka-THEE-so e-DHO. bo-RO na a-FEE-so ti va-LEE-tsa e-DHO",
+      "pt": "Shadow the same opening across three completely different moments of the same ride.",
+      "tts": "Μπορώ να πληρώσω με κάρτα; Μπορώ να καθίσω εδώ; Μπορώ να αφήσω τη βαλίτσα εδώ;",
+      "molde": "BORO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b07-n08",
+      "bloco": "recap",
+      "pt": "B07 done. One frame carried you from the terminal to the front desk with no new sentence anywhere."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "One opening, the whole ride into town",
+    "secoes": [
+      {
+        "titulo": "Μπορώ να plus the verb",
+        "corpo": "Keep Μπορώ να and put after it whatever you want to do. The να is what holds the verb in a single shape, so nothing in front of it ever moves — which is exactly why this is the cheapest frame in the course for a language that otherwise changes the ends of its words. The question mark you hear is a rise in the voice; the one you write is a semicolon.",
+        "exemplos": [
+          {
+            "es": "Μπορώ να πληρώσω με κάρτα;",
+            "pt": "Can I pay by card?"
+          },
+          {
+            "es": "Μπορώ να αφήσω τη βαλίτσα εδώ;",
+            "pt": "Can I leave the suitcase here?"
+          }
+        ]
+      },
+      {
+        "titulo": "Three ways in from the airport, three prices",
+        "corpo": "The metro runs from the airport for nine euros one way and sixteen return. The Express bus is five fifty and runs when the metro does not. The taxi rank works on a posted flat fare into the ring road, day rate and night rate, tolls and tax inside the number. Choosing is a matter of luggage and hour, not of nerve."
+      },
+      {
+        "titulo": "Card is an obligation, not a favour",
+        "corpo": "Greek law obliges traders in a long list of activity codes to accept card payment, and obliges them to say so visibly at the entrance and at the till. The list was extended in 2023 to a further thirty-five codes, reaching open-air markets, food retail and kiosks. That is a stronger position than the traveller has in Italy or France — but it is a list, not the whole of commerce, so the useful move is still to ask before you commit."
+      },
+      {
+        "titulo": "The receipt belongs to them",
+        "corpo": "Issuing the receipt is the trader's legal duty, not something you have to argue for. Asking for one costs a single frame — Μπορώ να πάρω απόδειξη; — and it is a completely ordinary thing to say, not a challenge."
+      },
+      {
+        "titulo": "The verbs worth carrying",
+        "corpo": "πληρώσω pay · αγοράσω buy · καθίσω sit · περάσω get past · κατέβω get off · αφήσω leave · πάρω take · δοκιμάσω try. Eight verbs behind one opening covers most of what a first day needs to ask."
+      }
+    ]
+  },
+  "slot": "B07",
+  "permissao": "You do not need a different sentence for the bus, the taxi and the desk, and nobody in that terminal is grading your endings. Μπορώ να, a verb, and a rising voice is a complete request anywhere in the building — and you are allowed to use the identical opening at all four counters without varying it to sound better.",
+  "permissaoAudioKey": "el-b07-n02",
+  "espelho": "Anyone landing at an unfamiliar airport at home already runs this triage without naming it: ticket, seat, bag, somewhere to put your hands. The only new part is doing it with two words that never change.",
+  "fichasCulturais": [
+    {
+      "sinal": "At the airport taxi rank the driver names a round number before you have moved, and there is no meter running.",
+      "suaLeitura": "He is quoting me a made-up price because I have just landed.",
+      "oQueEAli": "Athens airport taxis work on a posted flat fare into the ring-road area rather than on the meter, with a day rate and a higher night rate, and tolls and tax counted inside the number. A round figure named at the rank is the normal shape of that arrangement, not an improvisation.",
+      "oQueVoceFaz": "Look for the fare board at the rank before you get in, and if you cannot see one, ask for the number out loud before the door closes. Then say where you are going: Στο κέντρο, παρακαλώ.",
+      "oQueMelhora": "You stop reading a flat fare as a bad sign, and you find out the amount while you are still standing on the pavement rather than after the boot is shut.",
+      "ondeNaoVale": "The published figures for the flat fare could not be confirmed against an official source in this research — treat them as a widely reported reference, not as a legal certainty. The flat fare also covers a defined zone; a destination outside it is a different arrangement, and a taxi taken anywhere other than the airport rank is a meter job.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-b07-n07"
+      ]
+    },
+    {
+      "sinal": "You hold out a card and the person behind the counter waves it away and points at the notes in your other hand.",
+      "suaLeitura": "Small places here simply do not take cards, and that is that.",
+      "oQueEAli": "In Greece accepting cards is a legal obligation for whole categories of trade, defined by activity code, and the trader also has to inform the customer visibly at the entrance and at the till. The list was extended in 2023 to a further thirty-five codes, including open-air markets, food retail and kiosks.",
+      "oQueVoceFaz": "Check the entrance and the till for the card notice on the way in, and ask before you commit: Μπορώ να πληρώσω με κάρτα; If the answer is no, you still pay in cash — you just know it before the food is on the table.",
+      "oQueMelhora": "You stop guessing which places take plastic, and you keep only as much cash as an evening actually needs.",
+      "ondeNaoVale": "The obligation runs by activity code, not across all commerce, so this is not a rule you can invoke everywhere. Greece's instant-payment system is domestic and a foreign visitor normally cannot use it — what protects you here is the card obligation, nothing else.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b07-n04"
+      ]
+    }
+  ]
+}

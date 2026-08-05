@@ -1,0 +1,96 @@
+{
+  "id": "q-b07",
+  "nivel": "basico",
+  "titulo": "The taxi rank and the four sounds",
+  "subtitulo": "One opening, one flat fare, and a card that is not a favour",
+  "introAudioKey": "el-b07-q-i",
+  "introPt": "You have landed, the bag is out, and there is a taxi rank outside door three. Listen to the whole exchange before you answer.",
+  "cenario": "Athens airport, arrivals. A traveller reaches the head of the taxi rank with one large suitcase and no cash at all.",
+  "dialogo": [
+    {
+      "audioKey": "el-b07-q01",
+      "voz": "target_el_f",
+      "es": "Καλησπέρα. Μπορώ να πληρώσω με κάρτα;",
+      "pt": "Good evening. Can I pay by card?",
+      "tts": "Καλησπέρα. Μπορώ να πληρώσω με κάρτα;"
+    },
+    {
+      "audioKey": "el-b07-q02",
+      "voz": "target_el_m",
+      "es": "Βεβαίως. Σαράντα ευρώ μέχρι το κέντρο, με τα διόδια.",
+      "pt": "Certainly. Forty euros to the centre, tolls included.",
+      "tts": "Βεβαίως. Σαράντα ευρώ μέχρι το κέντρο, με τα διόδια."
+    },
+    {
+      "audioKey": "el-b07-q03",
+      "voz": "target_el_f",
+      "es": "Εντάξει. Στο κέντρο, παρακαλώ. Μπορώ να πάρω απόδειξη;",
+      "pt": "All right. To the centre, please. Can I have a receipt?",
+      "tts": "Εντάξει. Στο κέντρο, παρακαλώ. Μπορώ να πάρω απόδειξη;"
+    },
+    {
+      "audioKey": "el-b07-q04",
+      "voz": "target_el_m",
+      "es": "Ναι, στο τέλος. Αφήστε τη βαλίτσα, την βάζω εγώ.",
+      "pt": "Yes, at the end. Leave the suitcase, I'll put it in.",
+      "tts": "Ναι, στο τέλος. Αφήστε τη βαλίτσα, την βάζω εγώ."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "The traveller asked three different things. What stayed identical in two of them?",
+      "opcoes": [
+        "The opening Μπορώ να, with a different verb after it each time",
+        "The verb, with a different opening each time",
+        "The word παρακαλώ at the end",
+        "The greeting καλησπέρα"
+      ],
+      "correta": 0,
+      "explica": "Μπορώ να πληρώσω and Μπορώ να πάρω share the frame exactly. Only the verb behind να changed — that is the whole economy of this part."
+    },
+    {
+      "pergunta": "The driver said σαράντα ευρώ μέχρι το κέντρο before moving. What kind of number is that?",
+      "opcoes": [
+        "An estimate he will adjust when the meter finishes",
+        "A posted flat fare from the airport rank into the ring-road area",
+        "A surcharge added on top of the meter for luggage",
+        "A price invented because the passenger spoke Greek badly"
+      ],
+      "correta": 1,
+      "explica": "Airport taxis in Athens run on a posted flat fare into the ring-road zone, with a day rate and a higher night rate, tolls and tax inside the figure. A round number named at the rank is the normal shape of that."
+    },
+    {
+      "pergunta": "The card question got an immediate βεβαίως. Why is that unremarkable in Greece?",
+      "opcoes": [
+        "Greek drivers dislike handling cash",
+        "Foreign cards are exempt from local charges",
+        "Card acceptance is a legal obligation for whole categories of trade, defined by activity code",
+        "Every business in Greece must accept every payment method"
+      ],
+      "correta": 2,
+      "explica": "The obligation runs by activity code and comes with a duty to display the fact at the entrance and the till. It is broad, but it is a list — not every business without exception."
+    },
+    {
+      "pergunta": "Which sentence would you use at the hotel desk when the room is not ready until two?",
+      "opcoes": [
+        "Μπορώ να κατέβω εδώ;",
+        "Μπορώ να αφήσω τη βαλίτσα εδώ;",
+        "Μπορώ να περάσω;",
+        "Μπορώ να πληρώσω με κάρτα;"
+      ],
+      "correta": 1,
+      "explica": "αφήσω is leave. The other three are get off, get past and pay — same frame, different verb, completely different counter."
+    },
+    {
+      "pergunta": "Written down, the traveller's question ends in a semicolon. What is that?",
+      "opcoes": [
+        "A pause before the polite word",
+        "The Greek question mark",
+        "A sign that the sentence continues",
+        "A typo carried over from English"
+      ],
+      "correta": 1,
+      "explica": "In Greek the question mark is written as a semicolon. Μπορώ να πληρώσω με κάρτα; is a complete question, and what you hear at the end is the voice rising."
+    }
+  ]
+}

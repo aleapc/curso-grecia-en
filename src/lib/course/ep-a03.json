@@ -1,595 +1,401 @@
 {
   "id": "a03",
-  "slot": "A03",
   "nivel": "avancado",
   "numero": 31,
   "parte": "A03",
   "titulo": "Who they think they are",
-  "subtitulo": "The village they name instead of the country, the running-down of their own place that you are not invited to join in with, and the two comparisons that make the answer go short",
+  "subtitulo": "The answer to where are you from is nearly always smaller than the country, the plate lands in the middle of the table, and the closeness that arrives early is a researched fact rather than a manner",
+  "cena": "Someone has just told you how a thing is done here, with real conviction, and left a gap where your opinion is supposed to go.",
   "moldura": "ganha",
-
-  "cena": "Ten at night on a terrace in a town you cannot pronounce, the man who poured the wine has asked where you are from, and his own answer to that question is a village forty minutes up the road.",
-
-  "frasePiso": "You will get somebody talking about the place they are actually from. Most visitors spend a fortnight here and never get past the name of the country.",
-
-  "permissao": "You are allowed to like it out loud while somebody is running it down in front of you — that is not contradicting anybody, that is being a guest. You are allowed to laugh at the paperwork joke: the laugh is welcome, the agreeing is not yours to do. You are allowed not to know where the town is, because asking is the entire point. And you are allowed to be the guiri and say so out loud — the joke about yourself is the one that is yours to make, and it lands every time.",
-  "permissaoAudioKey": "a03-n27",
-
-  "espelho": "Opening with 'so is it always this hot?' on the second sentence is the bit that reads as odd there — it is the same move you find tiring when somebody lands in your country and starts with the rain. Two more that travel badly in the same direction: the compliment with a comparison bolted to it, which hands somebody their own thing as a version of somebody else's; and running your own country down to be polite, which at that table reads as agreeing with the complaint rather than as modesty. The complaint was never asking for a second opinion.",
-
-  "fichasCulturais": [
+  "frasePiso": "Ask which part, share the plate, and praise one place you actually saw. Curiosity is welcome everywhere; a verdict about the country is not.",
+  "moldes": [],
+  "fatosDatados": [
     {
-      "sinal": "You ask where she is from and she names a village of four thousand people, then stops and waits.",
-      "suaLeitura": "She thinks I know it, or she has misheard me — I was asking which country, and she has answered something much smaller.",
-      "oQueEAli": "The first thing offered is the local one. The country is the answer with the least information in it, so it is rarely the one given first: the town, the region and sometimes the four streets around it come before it.",
-      "oQueVoceFaz": "Ask '¿de qué parte?', and then ask what they eat there. Two questions, and you have the rest of the evening.",
-      "oQueMelhora": "You get recommendations about a real place instead of about a country, from somebody who is now telling you something they actually know.",
-      "ondeNaoVale": "Not at a hotel desk in a city of four million, where 'de aquí' is the whole answer and there is no village behind it — and not abroad either, where the country goes first for them exactly as it does for you.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["a03-n04", "a03-n05", "a03-n25"]
+      "id": "el-a03-unesco",
+      "afirmacao": "The Mediterranean Diet is inscribed on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity, file ICH 00884, with Greece among the submitting states. The inscription says verbatim: «Eating together is the foundation of the cultural identity and continuity of communities throughout the Mediterranean basin.» The listing covers a shared basin, not one country, and it describes commensality — not any rule about how a plate is served.",
+      "fonte": "UNESCO, Representative List of the Intangible Cultural Heritage of Humanity, ficha ICH 00884 «Mediterranean diet»",
+      "ano": 2013,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-a03-n04",
+        "el-a03-n05"
+      ]
     },
     {
-      "sinal": "You say you like it here, and back comes a cheerful list of what does not work — the paperwork, the wages, the trains.",
-      "suaLeitura": "He agrees with the bad things I had already noticed, so joining in is the friendly thing to do.",
-      "oQueEAli": "Running your own house down in front of a guest is a licence, and the licence belongs to the household. The laugh is shared; the verdict is not. A visitor who adds to the list has taken a turn that was not on offer.",
-      "oQueVoceFaz": "Laugh, add nothing, and put one named thing of your own on the table — a market, a street, a plate.",
-      "oQueMelhora": "The list stops being about a country and turns into a conversation, and you leave with the address of the place he does rate.",
-      "ondeNaoVale": "Not when he asks you straight out what the worst of it is. That is a real question, a small specific answer is what he wanted, and hedging there reads as being managed.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["a03-n11", "a03-n12", "a03-n13"]
+      "id": "el-a03-polidez",
+      "afirmacao": "Politeness in Greek and in English has been studied comparatively for decades, and the finding is consistent: Greek is oriented towards positive politeness — involvement, closeness, engagement — while English is oriented towards negative politeness — distance, non-imposition. The direct consequence is symmetrical and documented: the English speaker can read the Greek exchange as abrupt or intrusive, and the Greek speaker can read the English one as cold or distant. Both readings are wrong.",
+      "fonte": "Maria Sifianou, «Politeness Phenomena in England and Greece»; Bayraktaroğlu & Sifianou (eds.), «Linguistic Politeness Across Boundaries», John Benjamins, P&BNS 88; panorama recente em «Languages», 2026, doi:10.3390/languages11050107",
+      "ano": 2026,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-a03-n07",
+        "el-a03-n08",
+        "el-a03-n09"
+      ]
     },
     {
-      "sinal": "You say the rice reminds you of a risotto — or that the Spanish you learned sounds nothing like his — and you get one flat syllable and a turn away.",
-      "suaLeitura": "I have offended him about Italy, or about Mexico, and I cannot tell which.",
-      "oQueEAli": "Neither, and that is why it is invisible. What lands is being handed your own thing as somebody else's version of it. A comparison leaves nothing to add, so the topic shuts; a question about where the thing comes from leaves everything to add.",
-      "oQueVoceFaz": "Drop the comparison and ask instead: '¿hay algo típico de aquí?' Then stop talking.",
-      "oQueMelhora": "You get told what is actually local, at length, and usually with something put in front of you to taste.",
-      "ondeNaoVale": "Not among themselves — the neighbours get compared all day long, in both directions, and half of that is a football table. It is the comparison arriving from outside that makes the answer go short.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["a03-n16", "a03-n17", "a03-n18"]
-    },
-    {
-      "sinal": "You say out loud how cheap it all is, the man who served it says 'ya', and he starts wiping down the counter.",
-      "suaLeitura": "I have just paid his country a compliment about value for money, and he has not taken it.",
-      "oQueEAli": "From where he is standing the sentence is not about what he made, it is about what his country charges. The plate, the hours behind it and the person who cooked it have all dropped out of the compliment, and what is left is a verdict on a price tag.",
-      "oQueVoceFaz": "Say the thing you actually meant: it was good, and it was worth coming for. 'Estaba buenísimo' does the whole job.",
-      "oQueMelhora": "The compliment lands on the person who made it instead of on a price, and the conversation carries on past the number.",
-      "ondeNaoVale": "Not when he says it first. 'Aquí se come bien y barato' is said with pride, and agreeing with that is agreeing with him, which is an entirely different move.",
-      "evidencia": "CONSENSO",
-      "audioKeys": ["a03-n21", "a03-n22", "a03-n23"]
+      "id": "el-a03-taverna",
+      "afirmacao": "Ταβέρνα, εστιατόριο, ουζερί and ψησταριά are not legal categories. Greek food-safety and licensing law groups them all as επιχειρήσεις μαζικής εστίασης under the notification regime of law 4442/2016. The distinction between them is commercial and customary — a promise about the menu, the register and the room — which is precisely why people defend it in conversation.",
+      "fonte": "ν.4442/2016 (regime de γνωστοποίηση); classificação sanitária de επιχειρήσεις μαζικής εστίασης",
+      "ano": 2016,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-a03-n06"
+      ]
     }
   ],
-
   "steps": [
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n01",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a03-n01",
+      "gesto": 1,
       "bloco": "aquecimento",
-      "gesto": 3,
-      "tom": "ganha",
-      "pt": "Part thirty-one. Warm-up: the punch. One syllable a word, and only one. PUE-blo. CÁ-ce-res. Ex-tre-ma-DU-ra."
+      "pt": "Every country has a story about itself. Here the first line is usually a place much smaller than Greece."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n02",
-      "pt": "Hand flat on your leg. Three words, three punches, and every other syllable stays the same size."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a03-n02",
+      "bloco": "corpo",
+      "pt": "Ask where someone is from and the answer often arrives as a village, an island or a neighbourhood."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a03-guiriaqui-e",
-      "es": "¡Ya está aquí el guiri!",
-      "pinyin": "yah ehs-TAH ah-KEE el GEE-ree",
-      "pt": "👂 'Here's the guiri!' — shouted across a bar, in the voice he uses on his own brother.",
-      "tts": "¡Ya está aquí el guiri!"
-    },
-    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "bloco": "callback",
-      "promptAudioKey": "a03-p01",
-      "promptPt": "Third morning in the same bar, and the man behind the counter has just announced you to the whole room. Take the word off him and put your hand up. Speak now.",
-      "audioKey": "a03-guiri-e",
-      "es": "Soy el guiri, ya lo sé.",
-      "pinyin": "soy el GEE-ree, yah loh SEH",
-      "pt": "the joke is yours to make",
-      "consulta": ["simpatia/puxar-conversa"]
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a03-p01",
+      "promptPt": "The woman refilling your glass has talked to you twice and you still know nothing about her. Open the obvious door. Speak now.",
+      "audioKey": "el-a03-t01",
+      "es": "Από πού είστε;",
+      "pinyin": "a-PO PU I-ste",
+      "pt": "Where are you from?",
+      "tts": "Από πού είστε;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a03-delacasa-e",
-      "es": "¡Este ya es de la casa!",
-      "pinyin": "EHS-teh yah ehs deh lah KAH-sah",
-      "pt": "'This one's one of ours now!' — that is what the joke buys, and it is instant.",
-      "tts": "¡Este ya es de la casa!"
+      "voz": "target_el_f",
+      "audioKey": "el-a03-r01",
+      "receptivo": true,
+      "acao": "The country was never going to be the answer. Take the smaller place and ask about it.",
+      "es": "Εγώ δεν είμαι από την Αθήνα. Από ένα χωριό στη Μάνη είμαι.",
+      "pt": "I'm not from Athens. I'm from a village in Mani.",
+      "tts": "Εγώ δεν είμαι από την Αθήνα. Από ένα χωριό στη Μάνη είμαι."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n03",
-      "bloco": "cena",
-      "pt": "Ten at night, a terrace in a town you cannot pronounce, and the man with the wine has asked where you are from."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a03-n03",
+      "pt": "So the useful second question is which part. It costs three words and it opens twenty minutes."
     },
     {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i05-dedonde-e",
-      "es": "¿De dónde eres?",
-      "pinyin": "deh DOHN-deh EH-rehs",
-      "pt": "👂 The one from part twenty-three. It is always the first thing anybody asks you.",
-      "tts": "¿De dónde eres?"
-    },
-    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
       "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a03-p02",
-      "promptPt": "He has poured, he has stayed at the table, and he has asked. Answer him, and hand the same thing straight back. Speak now.",
-      "audioKey": "i05-londres-e",
-      "es": "Soy de Londres, ¿y tú?",
-      "pinyin": "soy deh LOHN-drehs, ee too",
-      "pt": "and then it is his turn",
-      "consulta": ["simpatia/puxar-conversa"]
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a03-p02",
+      "promptPt": "She named a region you have never heard of and stopped there, waiting. Narrow it down. Speak now.",
+      "audioKey": "el-a03-t02",
+      "es": "Από ποιο μέρος;",
+      "pinyin": "a-PO PYO ME-ros",
+      "pt": "Which part?",
+      "tts": "Από ποιο μέρος;"
     },
     {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a03-extremadura-c",
-      "es": "Yo no soy de aquí. Soy de Extremadura.",
-      "pinyin": "yoh noh soy deh ah-KEE. soy deh eks-treh-mah-DHOO-rah",
-      "pt": "👂 'I'm not from here. I'm from Extremadura.' Second sentence out of her, and it is not the country.",
-      "tts": "Yo no soy de aquí. Soy de Extremadura."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n04",
-      "pt": "Notice what she did not say. Not the country. She has given you a region, and then she has stopped."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n05",
-      "pt": "The country is the least she can tell you. Everybody has one of those. Hers is a place with a name on it."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a03-departe-e",
-      "es": "¿De qué parte?",
-      "pinyin": "deh keh PAR-teh",
-      "pt": "'Which part?' — three words, and it is the one that opens the whole evening.",
-      "tts": "¿De qué parte?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n06",
-      "pt": "It works after a region, after a city, after anybody at all who has told you they are from somewhere."
-    },
-    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a03-p03",
-      "promptPt": "She has named a region and gone quiet, waiting to see whether that was enough for you. It is not. Speak now.",
-      "audioKey": "a03-departe-c",
-      "es": "¿De qué parte?",
-      "pinyin": "deh keh PAR-teh",
-      "pt": "three words, and she is off",
-      "consulta": ["simpatia/puxar-conversa"]
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a03-p03",
+      "promptPt": "You are standing in a square in thirty-four degrees, surrounded by other visitors, and you want to know what this place is like when none of you are here. Speak now.",
+      "audioKey": "el-a03-t03",
+      "es": "Πώς είναι εδώ τον χειμώνα;",
+      "pinyin": "POS I-ne e-DHO ton hi-MO-na",
+      "pt": "What's it like here in winter?",
+      "tts": "Πώς είναι εδώ τον χειμώνα;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a03-pueblo-c",
-      "es": "De un pueblo cerca de Cáceres. No lo conoce nadie.",
-      "pinyin": "deh oon PWEH-bloh THEHR-kah deh KAH-theh-rehs. noh loh koh-NOH-theh NAH-dhyeh",
-      "pt": "'A village near Cáceres. Nobody's heard of it.' — and she is smiling while she says it.",
-      "tts": "De un pueblo cerca de Cáceres. No lo conoce nadie."
+      "voz": "target_el_m",
+      "audioKey": "el-a03-r02",
+      "receptivo": true,
+      "acao": "You just got the version of the place that no guidebook prints. Let him keep going.",
+      "es": "Τον χειμώνα; Άλλο μέρος. Μένουμε καμιά τριακοσαριά άνθρωποι.",
+      "pt": "In winter? A different place. About three hundred of us stay.",
+      "tts": "Τον χειμώνα; Άλλο μέρος. Μένουμε καμιά τριακοσαριά άνθρωποι."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n07",
-      "tom": "ganha",
-      "pt": "That is the evening opening. Ask what they eat there and you have lost twenty minutes, in the best way."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n08",
-      "pt": "Try it all week. Count how many towns you hear before anybody bothers to say the name of the country."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "a03-g01",
-      "pt": "GUIRI ALERT. George here. My second sentence, every single time: 'So — is it always this hot?'"
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "a03-g02",
-      "pt": "He has had that one from every single one of us, in July, at that table, all summer long."
-    },
-    {
-      "tipo": "intro",
-      "voz": "George",
-      "audioKey": "a03-g03",
-      "pt": "Run it backwards. Somebody lands in Manchester and opens with the rain. You smile, and you stop listening."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n09",
-      "pt": "Ask him about his town instead. Same effort, and he has been waiting all night for somebody to."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n10",
-      "tom": "protege",
-      "pt": "Now the one that catches everybody. You say you love it here, and back comes a list of what is falling apart."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "a03-nofunciona-c",
-      "es": "Aquí no funciona nada, ya lo verás.",
-      "pinyin": "ah-KEE noh foon-THYOH-nah NAH-dhah, yah loh beh-RAHS",
-      "pt": "👂 'Nothing here works, you'll see.' — said cheerfully, about her own country, to a guest.",
-      "tts": "Aquí no funciona nada, ya lo verás."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a03-burocracia-e",
-      "es": "Es que la burocracia aquí es de risa.",
-      "pinyin": "ehs keh lah boo-roh-KRAH-thyah ah-KEE ehs deh RREE-sah",
-      "pt": "👂 'The paperwork here is a joke.' — and he is laughing while he says it.",
-      "tts": "Es que la burocracia aquí es de risa."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n11",
-      "pt": "That is not an invitation. It is a licence, and the licence belongs to the house."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n12",
-      "pt": "Agree out loud and watch it go quiet for a second. Laugh with him and nothing goes quiet at all."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n13",
-      "tom": "ganha",
-      "pt": "So laugh, and then put one thing of your own on the table. One place, with a name, that you liked."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a03-p04",
-      "promptPt": "The driver has spent ten minutes on everything that is falling down in his city. Give him back the one place he drove you past this morning — the one with the fish and the flowers. Speak now.",
-      "audioKey": "i06-encantomercado-c",
-      "es": "Me encantó el mercado.",
-      "pinyin": "meh en-kan-TOH el mehr-KAH-dhoh",
-      "pt": "one place, named",
-      "consulta": ["simpatia/elogiar-lugar"]
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a03-mercadosi-e",
-      "es": "Bueno, el mercado sí. Eso sí.",
-      "pinyin": "BWEH-noh, el mehr-KAH-dhoh see. EH-soh see",
-      "pt": "'Well — that, yes. That one, yes.' You have just been let off the list.",
-      "tts": "Bueno, el mercado sí. Eso sí."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n14",
-      "pt": "The list does not stop. But you are on the other side of it now, and that is the whole of the trick."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a03-p05",
-      "promptPt": "Another night, another stool, and the man beside you has just written off the whole street you are drinking on. Do not argue with him. Tell him what you make of the few blocks around you. Speak now.",
-      "audioKey": "i05-barrio-e",
-      "es": "Me gusta mucho este barrio.",
-      "pinyin": "meh GOOS-tah MOO-choh EHS-teh BAH-rryoh",
-      "pt": "what you make of it, said plainly"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n15",
-      "tom": "protege",
-      "pt": "One more, and it is the compliment that closes a topic. It is the one with a comparison inside it."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a03-ya-e",
-      "es": "Ya.",
-      "pinyin": "yah",
-      "pt": "👂 One syllable, flat. It means: heard you. It also means the topic is finished.",
-      "tts": "Ya."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n16",
-      "pt": "You said the rice reminded you of a risotto. He said that, and went. Nothing rude happened at all."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n17",
-      "pt": "It is not about the neighbours. It is about being handed your own thing as a version of somebody else's."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n18",
-      "pt": "Same move, further away: tacos, mariachis, the big hat on the poster. That is another country, and an ocean."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n19",
-      "pt": "If you picked yours up from an app, it very likely came from over there. Nobody here is going to correct you."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n20",
-      "pt": "The answers just get shorter and you never find out why. So put the other question in instead."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "tom": "ganha",
-      "promptAudioKey": "a03-p06",
-      "promptPt": "You are one sentence away from telling him this rice is basically an Italian dish. Ask him the other thing: what belongs to this place and to nowhere else. Speak now.",
-      "audioKey": "i05-tipico-e",
-      "es": "¿Hay algo típico de aquí?",
-      "pinyin": "ai AL-goh TEE-pee-koh deh ah-KEE",
-      "pt": "the one question that is yours",
-      "consulta": ["mesa/comida", "simpatia/puxar-conversa"]
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "a03-cocido-e",
-      "es": "Uy, pues aquí lo típico es el cocido. Eso sí que hay que probarlo.",
-      "pinyin": "wee, pwehs ah-KEE loh TEE-pee-koh ehs el koh-THEE-dhoh. EH-soh see keh ai keh proh-BAR-loh",
-      "pt": "'Ooh — what's ours here is the cocido. That you do have to try.' And now he is your guide.",
-      "tts": "Uy, pues aquí lo típico es el cocido. Eso sí que hay que probarlo."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n21",
-      "tom": "protege",
-      "pt": "One line to leave at home, and it sounds like praise on the way out of your mouth: 'it's so cheap here'."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n22",
-      "pt": "Said to the man who cooked it, that is not praise for the food. It is a review of what his country costs."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n23",
-      "tom": "ganha",
-      "pt": "Say the thing you actually meant. It was good, and it was worth coming for. You have had that since part twenty-five."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "i07-buenisimo-e",
-      "es": "Estaba buenísimo.",
-      "pinyin": "ehs-TAH-bah bweh-NEE-see-moh",
-      "pt": "The one from the restaurant part. It is about the plate, and never about the bill.",
-      "tts": "Estaba buenísimo."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n24",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a03-n04",
       "bloco": "capsula",
-      "pt": "Back to the village. When somebody names a town instead of a country, they have handed you something."
+      "pt": "The table does the rest. UNESCO's Mediterranean Diet listing calls eating together the foundation of identity."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n25",
-      "pt": "Take it. Ask which part, ask what they eat there, and the table opens up in front of you."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a03-n05",
+      "pt": "That is about the shared meal, not about your plate. In practice small dishes get ordered for the table."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a03-p04",
+      "promptPt": "Four people are waiting for you to pick something off a menu you cannot read, and one of them eats here every week. Hand it over. Speak now.",
+      "audioKey": "el-a03-t04",
+      "es": "Διαλέξτε εσείς.",
+      "pinyin": "dhya-LEK-ste e-SIS",
+      "pt": "You choose.",
+      "tts": "Διαλέξτε εσείς."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a03-r03",
+      "receptivo": true,
+      "acao": "Nobody is getting their own dinner. Everything ordered belongs to the middle of the table.",
+      "es": "Θα πάρω τρία-τέσσερα μεζεδάκια και τα βάζουμε στη μέση.",
+      "pt": "I'll get three or four small plates and we'll put them in the middle.",
+      "tts": "Θα πάρω τρία-τέσσερα μεζεδάκια και τα βάζουμε στη μέση."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a03-p05",
+      "promptPt": "The waiter is looking at you as though you might want a plate of your own. Make it clear that is not the plan. Speak now.",
+      "audioKey": "el-a03-t05",
+      "es": "Θα τα μοιραστούμε.",
+      "pinyin": "tha ta mi-ra-STU-me",
+      "pt": "We'll share them.",
+      "tts": "Θα τα μοιραστούμε."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n26",
-      "pt": "Not at a hotel desk in a city of four million, where 'de aquí' is the whole answer and no village is hiding."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a03-n06",
+      "pt": "The name over the door is a promise, not a licence class. In law a taverna and a restaurant are one category."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-a03-r04",
+      "receptivo": true,
+      "acao": "That correction is about what she is offering you, not about paperwork. Hear it as pride in a menu.",
+      "es": "Δεν είμαστε εστιατόριο, ταβέρνα είμαστε. Άλλο πράγμα.",
+      "pt": "We're not a restaurant, we're a taverna. Different thing.",
+      "tts": "Δεν είμαστε εστιατόριο, ταβέρνα είμαστε. Άλλο πράγμα."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a03-p06",
+      "promptPt": "You have eaten the same four things in three towns and you would like the one thing this town keeps to itself. Speak now.",
+      "audioKey": "el-a03-t06",
+      "es": "Τι έχει εδώ που δεν έχει αλλού;",
+      "pinyin": "ti E-hi e-DHO pu dhen E-hi a-LU",
+      "pt": "What is there here that isn't anywhere else?",
+      "tts": "Τι έχει εδώ που δεν έχει αλλού;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n27",
-      "bloco": "permissao",
-      "tom": "ganha",
-      "pt": "You are allowed to like it out loud while they are running it down. That is not arguing. That is being a guest."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a03-n07",
+      "pt": "Closeness arrives faster than you expect. Questions come early, and the distance between chairs is short."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n28",
-      "pt": "You are allowed to laugh at the paperwork joke. The laugh is welcome; the agreeing is not yours to do."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a03-n08",
+      "pt": "That is documented, not folklore. Research on politeness puts Greek on involvement and English on distance."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n29",
-      "pt": "And you are allowed to be the guiri and say so out loud. That joke is yours, and it works every time."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a03-n09",
+      "pt": "Which means both readings are wrong. Warm is not intrusive here, and reserved is not cold there."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a03-r05",
+      "receptivo": true,
+      "acao": "Three personal questions in ninety seconds is engagement, not interrogation. Answer short and ask back.",
+      "es": "Και πόσο θα μείνεις; Μόνος σου ήρθες; Παντρεμένος είσαι;",
+      "pt": "And how long are you staying? Did you come on your own? Are you married?",
+      "tts": "Και πόσο θα μείνεις; Μόνος σου ήρθες; Παντρεμένος είσαι;"
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n30",
-      "bloco": "espelho",
-      "pt": "The mirror: 'is it always this hot?' on the second sentence is the rain in Manchester, coming the other way."
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a03-n10",
+      "pt": "Antiquity is yours to enjoy and theirs to live beside. Lead with now, and the past turns up on its own."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-a03-r06",
+      "receptivo": true,
+      "acao": "She is not dismissing the ruins. She is telling you which century she would like to be asked about.",
+      "es": "Αρχαία Ελλάδα, ωραία. Αλλά εμείς εδώ ζούμε τώρα.",
+      "pt": "Ancient Greece, lovely. But we live here now.",
+      "tts": "Αρχαία Ελλάδα, ωραία. Αλλά εμείς εδώ ζούμε τώρα."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a03-p07",
+      "promptPt": "She has stopped, checking whether you are still interested. You are. Tell her to keep going. Speak now.",
+      "audioKey": "el-a03-t07",
+      "es": "Πείτε μου κι άλλα.",
+      "pinyin": "PI-te mu ki A-la",
+      "pt": "Tell me more.",
+      "tts": "Πείτε μου κι άλλα."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n31",
-      "pt": "And running your own country down to be polite reads as agreeing with the complaint. Nobody asked for that."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a03-n11",
+      "pt": "Praise one thing you actually saw. A named place beats a compliment about the country every time."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n32",
-      "bloco": "piso",
-      "tom": "ganha",
-      "pt": "You will get somebody talking about the place they are actually from. Most visitors never get past the country."
+      "consulta": [
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a03-p08",
+      "promptPt": "You spent yesterday afternoon in the village he grew up in, and he has just mentioned it. Say what it did for you, and name it as his. Speak now.",
+      "audioKey": "el-a03-t08",
+      "es": "Μου άρεσε πολύ το χωριό σας.",
+      "pinyin": "mu A-re-se po-LI to ho-RYO sas",
+      "pt": "I really liked your village.",
+      "tts": "Μου άρεσε πολύ το χωριό σας."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-s00",
-      "pt": "Shadowing. Underneath them, out loud. Flat vowels, one punch a word, and no hurry."
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a03-r07",
+      "receptivo": true,
+      "acao": "One named place, and now you have a list. Write down what he says next.",
+      "es": "Σου άρεσε; Τότε πρέπει να δεις και το διπλανό. Πιο ωραίο είναι.",
+      "pt": "You liked it? Then you have to see the next one along. It's nicer.",
+      "tts": "Σου άρεσε; Τότε πρέπει να δεις και το διπλανό. Πιο ωραίο είναι."
     },
     {
       "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "a03-departe-c",
-      "es": "¿De qué parte?",
-      "pinyin": "deh keh PAR-teh",
-      "pt": "Which part?"
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Emilio",
-      "audioKey": "i05-tipico-e",
-      "es": "¿Hay algo típico de aquí?",
-      "pinyin": "ai AL-goh TEE-pee-koh deh ah-KEE",
-      "pt": "Is there something they only do here?"
+      "voz": "target_el_f",
+      "audioKey": "el-a03-s01",
+      "es": "Από ποιο μέρος; Τι έχει εδώ που δεν έχει αλλού; Μου άρεσε πολύ το χωριό σας.",
+      "pinyin": "a-PO PYO ME-ros · ti E-hi e-DHO pu dhen E-hi a-LU · mu A-re-se po-LI to ho-RYO sas",
+      "pt": "Shadow the three that open somebody up: narrow it down, ask what is theirs, praise one place.",
+      "tts": "Από ποιο μέρος; Τι έχει εδώ που δεν έχει αλλού; Μου άρεσε πολύ το χωριό σας."
     },
     {
       "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "a03-rend",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a03-n12",
       "bloco": "recap",
-      "tom": "ganha",
-      "pt": "One more out loud, somewhere we have not stood yet, and this time nobody has asked you anything."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "a03-p07",
-      "promptPt": "Last morning, the queue in a pharmacy, and the woman serving you has just said she is not from this city either. She is waiting to see whether you leave it there. Speak now.",
-      "audioKey": "a03-departe-c",
-      "es": "¿De qué parte?",
-      "pinyin": "deh keh PAR-teh",
-      "pt": "and she is off again"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "a03-n33",
-      "pt": "That is it. You asked, they told you, and nobody had to speak for a whole country. Hasta luego."
+      "pt": "A03 done. Ask which part, share the plate, praise one place — and let them tell you what is theirs."
     }
   ],
-
   "aprofundar": {
-    "titulo": "The town, the empire and the licence to complain (optional reading)",
+    "titulo": "Smaller than the country, bigger than the plate",
     "secoes": [
       {
-        "titulo": "Why the town comes before the country",
-        "corpo": "Spain is a state of seventeen autonomous communities plus two cities on the North African coast, and the arrangement is not decorative: health, education, policing in some places, and the language of the street in several of them are run at that level and not from Madrid. Add to that a country where a very large number of people can still point at the village their family came from, and you get an ordinary conversational habit: the answer to 'where are you from' is normally the smallest unit the other person is likely to place, not the largest. Nothing about this is nationalism, and nobody is making a point when they do it — it is closer to the way somebody in Britain answers with the town rather than 'England'. What is different is how far down it goes and how much conversation sits on top of it: the food changes, the festival changes, the word for the same sandwich changes, and all of that is available to you the moment you ask '¿de qué parte?'. It is also why the question does more work than any compliment you could pay. A compliment ends; a question about somebody's town is a door.",
+        "titulo": "The first answer is never the country",
+        "corpo": "Από πού είστε gets you a village, an island, a region or a neighbourhood far more often than it gets you Greece. That is not evasion and it is not a political statement; it is simply the unit people carry. The follow-up από ποιο μέρος is three words long and it is the single highest-yield question in this module, because it moves the conversation from a country you have read about to a place the person in front of you can actually describe. Everything else in this part depends on that move.",
         "exemplos": [
           {
-            "es": "¿De qué parte?",
-            "pt": "deh keh PAR-teh — which part? The three words that get you the village"
+            "es": "Από πού είστε;",
+            "pt": "Where are you from?"
           },
           {
-            "es": "¿Y allí qué se come?",
-            "pt": "ee ah-YEE keh seh KOH-meh — and what do people eat there? The natural second question"
+            "es": "Από ποιο μέρος;",
+            "pt": "Which part?"
           }
         ]
       },
       {
-        "titulo": "The inheritance: an empire, and then a long time of being the poor south",
-        "corpo": "You do not need any of this at a table, and none of it goes in your mouth — but it explains the two reactions in this part better than anything else. Spain ran one of the largest empires in history and then spent a long stretch of the modern period as the poorer, sunnier end of Western Europe: outside the industrial core, under a dictatorship until the mid-1970s, joining the European Community only in 1986, and then acquiring, in a single generation, motorways, high-speed rail and a middle class. That sequence leaves a very specific sensitivity, and it is not pride in the abstract. It is a low tolerance for being handled as the picturesque south — cheap, hot, late, a bit chaotic, lovely people. Every one of those adjectives is one a visitor deploys as a compliment. Read in that light, 'it's so cheap here' and 'is it always this hot?' stop being random irritants and become the same sentence twice. The counter-move is not to avoid the subjects; it is to talk about the specific place in front of you rather than about the country as a category.",
-        "exemplos": [
-          {
-            "es": "Estaba buenísimo, de verdad.",
-            "pt": "deh behr-DAHDH — it was genuinely delicious. The compliment that lands on the person, not on the price"
-          },
-          {
-            "es": "¡Qué ciudad más bonita!",
-            "pt": "keh thyoo-DHAHDH mahs boh-NEE-tah — what a lovely city. About this one, not about the country"
-          }
-        ]
+        "titulo": "Eating together, and what that does and does not mean",
+        "corpo": "The Mediterranean Diet sits on the UNESCO intangible heritage list — file ICH 00884, Greece among the submitting states — and the inscription puts commensality at the centre: eating together is described as the foundation of cultural identity and continuity across the basin. Read that for what it says. It is a statement about the shared meal across a whole region, not a rule that nobody in Greece ever orders a plate for themselves. In practice what you meet is μεζέδες and collective ordering: several small things put in the middle, chosen by whoever knows the kitchen, and eaten by everyone. Διαλέξτε εσείς hands that job to the person best placed to do it, and it is received as a compliment rather than as helplessness."
       },
       {
-        "titulo": "The licence to complain, and why it is not yours",
-        "corpo": "Complaining about the country to a foreigner is common enough to be a genre: the paperwork, the politicians, the trains that only go to Madrid, the salaries, the summer. It is often funny, it is frequently affectionate, and it is almost never an invitation. The rule of thumb that works everywhere, not only here: the licence to run a house down belongs to the people who live in it. What the guest is offered is the laugh, not the second signature. If you want a test you can apply at speed, listen for whether the sentence ends in a full stop or in a look. 'Aquí no funciona nada' with a shrug is a bit of theatre and wants a laugh. '¿Y a ti qué te parece esto?' — asked straight, eyes up — is a real question, and there a small, specific, honest answer is exactly right, including a critical one. The failure mode is the visitor who mistakes the first for the second and starts listing. That is where the temperature drops, and it drops without anybody saying anything, which is why so many people never learn they did it.",
-        "exemplos": [
-          {
-            "es": "Aquí no funciona nada, ya lo verás.",
-            "pt": "👂 nothing here works, you'll see — theatre, wants a laugh, not a verdict"
-          },
-          {
-            "es": "Pues a mí me encantó el mercado.",
-            "pt": "pwehs ah MEE meh en-kan-TOH — well, I loved the market. One named thing, and the list stops"
-          }
-        ]
+        "titulo": "Taverna is a promise, not a licence",
+        "corpo": "Ταβέρνα, εστιατόριο, ουζερί and ψησταριά are not legal categories at all: Greek law groups them together as mass-catering businesses under the notification regime of law 4442/2016. The distinction is commercial and customary — an expectation about the menu, the price and the register of the room — which is exactly why someone will correct you about it with feeling. When a woman tells you her place is a taverna and not a restaurant, she is telling you what she cooks and how loudly you may talk, not quoting a statute. Note also that the usual glosses vary by region; τσιπουράδικο, for instance, is above all a Volos and Thessaly word."
       },
       {
-        "titulo": "Italy, Mexico, and the Spanish you were taught",
-        "corpo": "Two comparisons come up constantly from visitors and both shorten the conversation, for the same reason and to different degrees. Italy is the neighbour: same sea, same tomatoes, same rice-and-saffron rumour, and a football-shaped rivalry that is entirely alive between themselves. Coming from a foreigner, 'this is like Italian food' is heard as being told your kitchen is a regional variant of somebody else's. Mexico is further and lands harder, because it is not a comparison at all, it is a substitution: tacos, mariachi and the wide-brimmed hat are another country on the other side of an ocean, with its own history with this one, and the visitor who arrives expecting them has effectively skipped Spain. The linguistic version is quieter and just as common: the app most people start with is largely Latin American, as is a good deal of the Spanish taught in schools in the States, so the accent you turn up with may have come from thousands of miles the other side of this country — it depends entirely on where you got it. Nobody minds and nobody will correct you — but it is worth knowing that 'the Spanish I learned sounds nothing like yours' is, from where he is standing, a slightly odd thing to announce. The reliable way out of all three is the same and it is one sentence: ask what is from here.",
-        "exemplos": [
-          {
-            "es": "¿Hay algo típico de aquí?",
-            "pt": "ai AL-goh TEE-pee-koh deh ah-KEE — is there something typical of here? The question that replaces the comparison"
-          },
-          {
-            "es": "¿Esto es de aquí?",
-            "pt": "EHS-toh ehs deh ah-KEE — is this from here? The one-second version, said pointing at a plate"
-          }
-        ]
+        "titulo": "The closeness is measured, and so is your reading of it",
+        "corpo": "Comparative work on politeness in Greek and English — Sifianou's book-length study and the volume she co-edited for John Benjamins — describes Greek as oriented towards positive politeness, built on involvement and closeness, and English as oriented towards negative politeness, built on distance and not imposing. The consequence is symmetrical and it is the most useful thing in this part: the English speaker can read the Greek exchange as abrupt or intrusive, and the Greek speaker can read the English one as cold or standoffish. Neither reading is accurate. When three personal questions arrive in the first two minutes, nothing has gone wrong; you are being included, in the ordinary way."
       },
       {
-        "titulo": "Guiri, and the one joke that is yours",
-        "corpo": "'Guiri' is what a northern European tourist gets called here. It is slang, it is usually not hostile, and it is often affectionate — the barman who uses it about you across the room is not insulting you, he is placing you, and quite often he is doing it with some warmth. There is exactly one joke about it that works in a visitor's mouth, and it is the joke about yourself: 'soy el guiri, ya lo sé' — I'm the guiri, I know. It works because it does two things at once: it shows you understood the word, and it hands the teasing back without taking it seriously. What does not work is using it about somebody else, or reaching for the affectionate insults you have just heard two friends throw at each other. That register is covered in the part before this one, and it stays receptive for a reason: mock insults between friends run on years of history you do not have yet. Yours is the self-deprecating one, and it is enough. Worth adding, because it comes up in the same breath: 'guiri' is about how you are dressed and how you are behaving as much as where you are from, and there is a version of it that costs money — shirtless two streets from the beach is a fine in several cities, and that is in the afternoon part.",
-        "exemplos": [
-          {
-            "es": "Soy el guiri, ya lo sé.",
-            "pt": "soy el GEE-ree, yah loh SEH — I'm the guiri, I know. The one joke about yourself"
-          },
-          {
-            "es": "¡Este ya es de la casa!",
-            "pt": "👂 this one's one of ours now — what you get back for making it"
-          }
-        ]
+        "titulo": "The past is not the small talk",
+        "corpo": "You arrive carrying a very old idea of the place, and everybody knows you do. The ruins are genuinely enjoyed and genuinely lived beside, and the fastest way to be interesting is to ask about the century you are both standing in: what it is like here in winter, what this town has that the next one does not, what has changed in the last few years. The antiquity comes back into the conversation on its own, usually within ten minutes, and it comes back better because somebody chose to bring it."
       }
     ]
-  }
+  },
+  "slot": "A03",
+  "permissao": "You are allowed to know nothing about a place and say so. Δεν ήξερα ότι είναι από εδώ is not an embarrassing admission in this conversation — it is an invitation, and it is answered generously almost every time. The visitor who quietly pretends to recognise a region gets a polite nod; the one who admits they have never heard of it gets the whole story.",
+  "permissaoAudioKey": "el-a03-n02",
+  "espelho": "Anyone who has been asked abroad what their own country is like knows the small dishonesty of the answer — you name the whole place and mean two streets. Here you are on the other side of it, and the only skill required is asking which two streets.",
+  "fichasCulturais": [
+    {
+      "sinal": "You ask someone where they are from and get a village, an island or a region you have never heard of, said as though you would obviously know it.",
+      "suaLeitura": "They have misunderstood the question, or they are being awkward about a simple one.",
+      "oQueEAli": "The unit people carry is smaller than the country, and naming it is the ordinary answer rather than a correction of your question. It usually comes with a family, a house and a set of directions attached, all of which are on offer.",
+      "oQueVoceFaz": "Ask από ποιο μέρος, and if you have genuinely never heard of it, say so plainly. Then ask what it is like there in winter, which is the question that gets you the real description.",
+      "oQueMelhora": "You get a specific place with a person in it, which is worth more to the rest of your trip than any general account of the country, and it usually arrives with recommendations.",
+      "ondeNaoVale": "Not a rule that nobody identifies with the country. Plenty of people answer Greece first, particularly to a stranger at a counter — this is about the second answer, which is the one worth asking for.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-a03-n02",
+        "el-a03-n03"
+      ]
+    },
+    {
+      "sinal": "Within two minutes of meeting you, someone has asked how long you are staying, whether you came alone and whether you are married — and has moved their chair closer.",
+      "suaLeitura": "This is intrusive, and I am being interrogated rather than talked to.",
+      "oQueEAli": "Comparative research on politeness describes Greek as oriented towards positive politeness — involvement and closeness — and English towards negative politeness — distance and non-imposition. The questions are the local form of taking an interest, and the same exchange run the other way makes the English speaker look cold.",
+      "oQueVoceFaz": "Answer short, and ask something back rather than deflecting. Two sentences about yourself and one question in return puts the exchange back on its own rails.",
+      "oQueMelhora": "You stop spending energy on a discomfort that has no cause, and you get let into conversations that would otherwise stop at the weather.",
+      "ondeNaoVale": "Not a licence to run the same questions at anybody. A visitor asking a stranger at a counter whether they are married is doing something different from a local doing it, because the roles are not symmetrical — receive the questions warmly before you start putting them.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-a03-n07",
+        "el-a03-n08",
+        "el-a03-n09"
+      ]
+    }
+  ]
 }

@@ -1,597 +1,369 @@
 {
   "id": "b08",
-  "slot": "B08",
   "nivel": "basico",
   "numero": 8,
   "parte": "B08",
-  "titulo": "Stopping a stranger, and understanding the answer",
-  "subtitulo": "Four in the afternoon, a street that is not where the map put it, and forty people walking past who could all fix it in ten seconds",
+  "titulo": "Πού είναι — and the answer that fits in your head",
+  "subtitulo": "Five places, one opening, and a follow-up short enough to be answered with a hand",
+  "cena": "A corner in the centre of Athens: five streets, two of them signed, and the place you want is somewhere behind one of them.",
   "moldura": "ganha",
-  "cena": "Four in the afternoon, your phone is on four per cent, the street you want is not where the map said it was, and forty people a minute are walking past you.",
+  "frasePiso": "Πού είναι, then the place, exactly as the map spells it. Then shrink the answer until it fits in your head.",
   "moldes": [
-    "HAY",
-    "DONDE"
+    "POU-INE"
   ],
   "clique": {
     "contagem": [
-      "a kiosk",
-      "a beach bar",
-      "a station",
-      "a doorway"
+      "the bus stop",
+      "the pharmacy",
+      "the port",
+      "the cash machine"
     ],
-    "desconto": "Nobody gave you those four sentences. You built them out of two words: hay, and dónde.",
-    "piso": "You will stop a stranger in the street tomorrow and get where you are going. Most people who spend a fortnight here never once try."
+    "desconto": "Nobody gave you a separate question for each of those. You kept one opening and dropped in the word you had already read off the map.",
+    "piso": "Next time you are lost, you will not open a paragraph. You will ask two words, then narrow the answer down to a hand pointing."
   },
-  "cliqueAudioKey": "b08-n23",
-  "permissao": "You are not going to understand the answer, and you are not meant to. One word in five plus an arm pointing is a successful conversation here. Ask, catch what you catch, and start walking.",
-  "permissaoAudioKey": "b08-n22",
-  "frasePiso": "You will stop a stranger in the street and get where you are going. Most people who spend a fortnight in Spain do the whole trip without opening their mouth outdoors once.",
-  "espelho": "Saying sorry, no idea and carrying on is a normal answer at home. If someone stops you in the street there, they expect you to have a go, badly, for as long as it takes.",
-  "fichasCulturais": [
+  "fatosDatados": [
     {
-      "sinal": "You ask one short question and the answer comes back as three streets, two roundabouts and a long arm pointing over your shoulder.",
-      "suaLeitura": "He has not realised that I did not understand. If I ask again we will both be embarrassed, so I will nod and walk off.",
-      "oQueEAli": "Directions are given generously and at full speed, and the arm is doing as much of the work as the words. Stopping halfway to check whether you followed is not part of how it is done.",
-      "oQueVoceFaz": "Do not ask for a repeat. Ask ¿está lejos? and walk the first turn his arm gave you.",
-      "oQueMelhora": "You get there having understood one word in five, which is what getting there looks like for everybody who does not live on that street.",
-      "ondeNaoVale": "Not at a hotel desk or a tourist office. There the person is paid to slow down, and will draw it on a paper map if you ask for it.",
-      "evidencia": "CONSENSO",
+      "id": "el-b08-elot",
+      "afirmacao": "Greek place names on road signs are romanised by the national standard ELOT 743, second edition 2001, identical to ISO 843:1997. The British PCGN records that it «is very widely used on road signs in Greece as well as printed guide books», that «place names in Wikipedia and on Google Earth are not romanized consistently», and — the part that matters at a corner — that ELOT 743 «is a less reliable guide to Modern Greek pronunciation» than the older system it replaced. Reading the sign aloud does not produce the Greek word.",
+      "fonte": "PCGN britânico, Greece Toponymic Factfile, abril 2020, verbatim: o ELOT 743 «is very widely used on road signs in Greece as well as printed guide books»; «place names in Wikipedia and on Google Earth are not romanized consistently»; «is a less reliable guide to Modern Greek pronunciation» do que o sistema BGN/PCGN de 1962. ΕΛΟΤ 743, 2ª edição, 2001, idêntica à ISO 843:1997.",
+      "ano": 2020,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
       "audioKeys": [
-        "b08-n20",
-        "b08-n21"
+        "el-b08-n04"
+      ]
+    },
+    {
+      "id": "el-b08-politeness",
+      "afirmacao": "Politeness in Greek and in English is documented as running on opposite defaults: Greek is oriented to positive politeness — involvement and closeness — and English to negative politeness — distance and non-imposition. The symmetrical consequence is documented too: the English speaker reads the Greek as abrupt or intrusive, and the Greek reads the English speaker as cold. Both readings are artefacts of the mismatch.",
+      "fonte": "Maria Sifianou, Politeness Phenomena in England and Greece; Bayraktaroğlu & Sifianou (eds.), Linguistic Politeness Across Boundaries, John Benjamins, P&BNS 88. Panorama recente: Languages, 2026, doi:10.3390/languages11050107.",
+      "ano": 2026,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-b08-n07"
       ]
     }
   ],
   "steps": [
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n01",
-      "bloco": "aquecimento",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b08-n01",
       "gesto": 1,
-      "pt": "Part eight. Warm-up: metronome hand. One tap per syllable, all the same size. Ca-je-ro. Three taps, three equal ones."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "bloco": "callback",
-      "promptAudioKey": "b08-p01",
-      "promptPt": "Yesterday's taxi. Back seat, and the hotel is a name you cannot pronounce, glowing on your phone. Hold up the screen and ask him. Speak now.",
-      "audioKey": "e06a-d2",
-      "es": "¿Me lleva a esta dirección, por favor?",
-      "pinyin": "meh YEH-bah ah EHS-tah dee-rek-THYON, por fah-BOR",
-      "pt": "Can you take me to this address, please?",
-      "tts": "¿Me lleva a esta dirección, por favor?"
+      "bloco": "aquecimento",
+      "pt": "Ask where something is and you can get a paragraph back. The trick is asking so the answer fits in your head."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n02",
-      "bloco": "cena",
-      "pt": "Right. Today you are on foot. Four in the afternoon, phone on four per cent, and the street you want is not where the map put it."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n03",
-      "pt": "Forty people a minute walk past you. Any one of them can fix this in ten seconds."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n04",
-      "pt": "And here is what goes wrong, and it is not your Spanish. You ask a perfect question and get a paragraph back."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n05",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b08-n02",
       "bloco": "molde",
-      "pt": "So we start with the question that comes back as a yes or a no. The frame is hay — is there."
+      "pt": "Here is the frame: Πού είναι, then the place. The place goes in exactly as the map spells it."
     },
     {
       "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b08-cajero-c",
-      "es": "¿Hay un cajero por aquí?",
-      "pinyin": "ai oon kah-KHEH-roh por ah-KEE",
-      "pt": "Is there a cash machine round here?",
-      "tts": "¿Hay un cajero por aquí?"
+      "voz": "target_el_f",
+      "audioKey": "el-b08-t01",
+      "es": "Πού είναι η στάση;",
+      "pinyin": "POO EE-ne ee STA-see",
+      "pt": "Where is the bus stop?",
+      "tts": "Πού είναι η στάση;"
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n06",
-      "pt": "The piece that moves is the middle. The two ends of that frame never change at all."
+      "consulta": [
+        "transporte/plataforma"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "POU-INE",
+      "encaixe": "η στάση",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b08-p01",
+      "promptPt": "The app says the bus leaves in four minutes and there is no shelter in sight. Ask the man at the kiosk. Speak now.",
+      "audioKey": "el-b08-t01",
+      "es": "Πού είναι η στάση;",
+      "pinyin": "POO EE-ne ee STA-see",
+      "pt": "Where is the bus stop?",
+      "tts": "Πού είναι η στάση;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b08-farmacia-e",
-      "es": "¿Hay una farmacia por aquí?",
-      "pinyin": "ai OO-nah far-MAH-thyah por ah-KEE",
-      "pt": "Is there a chemist round here?",
-      "tts": "¿Hay una farmacia por aquí?"
+      "voz": "target_el_m",
+      "audioKey": "el-b08-r01",
+      "es": "Ευθεία και μετά δεξιά, δίπλα στο περίπτερο.",
+      "pt": "Straight on and then right, next to the kiosk.",
+      "tts": "Ευθεία και μετά δεξιά, δίπλα στο περίπτερο.",
+      "receptivo": true,
+      "acao": "Two moves and a landmark. Take the first move now and ask again when you get there."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n07",
-      "pt": "Por aquí is the bit doing the work. It shrinks the whole thing down to a yes or a no."
-    },
-    {
-      "consulta": ["pagar/dinheiro"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "HAY",
-      "encaixe": "un cajero",
-      "encaixeGloss": "cash machine",
-      "promptAudioKey": "b08-p02",
-      "promptPt": "A bar the size of a lift, SOLO EFECTIVO hand-written on the door, and nothing in your pockets but cards. The man at the kiosk is free. Speak now.",
-      "audioKey": "b08-cajero-c",
-      "es": "¿Hay un cajero por aquí?",
-      "pinyin": "ai oon kah-KHEH-roh por ah-KEE",
-      "pt": "Is there a cash machine round here?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b08-comision-e",
-      "es": "Ahí en la esquina hay uno, pero cobra comisión. El del banco está a dos calles.",
-      "pinyin": "ah-EE en lah ehs-KEE-nah ai OO-noh, PEH-roh KOH-brah koh-mee-SYON. el del BAN-koh ehs-TAH ah dohs KAH-yehs",
-      "pt": "👂 'There's one on the corner, but it charges. The bank's own is two streets away.' — walk the two streets.",
-      "tts": "Ahí en la esquina hay uno, pero cobra comisión. El del banco está a dos calles."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "HAY",
-      "encaixe": "aseos",
-      "encaixeGloss": "toilets",
-      "promptAudioKey": "b08-p03",
-      "promptPt": "A beach bar, plastic chairs, and three cold beers behind you. Not one door in the place is marked with anything. The girl clearing tables walks past you. Speak now.",
-      "audioKey": "b08-aseos-e",
-      "es": "¿Hay aseos por aquí?",
-      "pinyin": "ai ah-SEH-ohs por ah-KEE",
-      "pt": "Are there toilets round here?",
-      "tts": "¿Hay aseos por aquí?"
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "HAY",
-      "encaixe": "una parada de taxis",
-      "encaixeGloss": "taxi rank",
-      "promptAudioKey": "b08-p04",
-      "promptPt": "Half eleven at night on a station forecourt, the last bus long gone, and your feet have had enough. Two men smoking by the door. Speak now.",
-      "audioKey": "b08-taxis-c",
-      "es": "¿Hay una parada de taxis por aquí?",
-      "pinyin": "ai OO-nah pah-RAH-dhah deh TAK-sees por ah-KEE",
-      "pt": "Is there a taxi rank round here?",
-      "tts": "¿Hay una parada de taxis por aquí?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b08-adonde-e",
-      "es": "¿Adónde va?",
-      "pinyin": "ah-DOHN-deh bah",
-      "pt": "👂 Where are you going? — the question that comes straight back at you",
-      "tts": "¿Adónde va?"
-    },
-    {
-      "consulta": ["taxi/destino"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "b08-p05",
-      "promptPt": "He does not answer. He asks you a question of his own, and the name of the big square is on your phone. Say it, with nothing round it. Speak now.",
-      "audioKey": "b08-plaza-c",
-      "es": "A la Plaza Mayor.",
-      "pinyin": "ah lah PLAH-thah mah-YOR",
-      "pt": "To the Plaza Mayor.",
-      "tts": "A la Plaza Mayor."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n08",
-      "tom": "protege",
-      "pt": "One thing here costs you money and daylight: nodding politely at an answer you did not get. That is twenty minutes and the wrong bridge."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n09",
-      "tom": "ganha",
-      "pt": "Which is exactly why a yes-or-no question is worth more to you than a better accent."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n10",
-      "pt": "One more, and it is the one nobody drills: the thing you cannot name in any language at all."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "HAY",
-      "encaixe": "una tienda",
-      "encaixeGloss": "a shop",
-      "promptAudioKey": "b08-p06",
-      "promptPt": "You are holding the plastic clip that snapped off your suitcase. You have no word for it in English either. Hold it up to the woman in the doorway. Speak now.",
-      "audioKey": "b08-tienda-e",
-      "es": "¿Hay una tienda por aquí?",
-      "pinyin": "ai OO-nah TYEN-dah por ah-KEE",
-      "pt": "Is there a shop round here?",
-      "tts": "¿Hay una tienda por aquí?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n11",
-      "pt": "You had no word for the object. You did not need one. The frame, plus a finger, plus a yes."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n12",
-      "bloco": "molde",
-      "pt": "Now the open one, for when a yes is not enough. Dónde está — where is. It comes in two versions."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b08-donde-aseos-c",
-      "es": "¿Dónde están los aseos?",
-      "pinyin": "DOHN-deh ehs-TAN lohs ah-SEH-ohs",
-      "pt": "Where are the toilets? — the ones this place has got",
-      "tts": "¿Dónde están los aseos?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "e05a-cajero-c",
-      "es": "¿Dónde hay un cajero?",
-      "pinyin": "DOHN-deh ai oon kah-KHEH-roh",
-      "pt": "Where is there a cash machine? — any one, anywhere",
-      "tts": "¿Dónde hay un cajero?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n13",
-      "pt": "Dónde está el is the one this building has. Dónde hay un is any one, anywhere. Same frame, one word apart."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n14",
-      "pt": "The little word gives it away. El and la mean the one we both know about. Un and una mean give me any."
-    },
-    {
-      "consulta": ["transporte/placas"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "DONDE",
-      "encaixe": "la salida",
-      "encaixeGloss": "the way out",
-      "promptAudioKey": "b08-p07",
-      "promptPt": "Underground, three identical corridors, and the woman in the ticket booth has watched you turn round twice. Ask her how to get back up to the street. Speak now.",
-      "audioKey": "b08-salida-e",
-      "es": "¿Dónde está la salida?",
-      "pinyin": "DOHN-deh ehs-TAH lah sah-LEE-dhah",
-      "pt": "Where's the way out?",
-      "tts": "¿Dónde está la salida?"
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b08-correspondencia-c",
-      "es": "¿La salida a la calle o la correspondencia?",
-      "pinyin": "lah sah-LEE-dhah ah lah KAH-yeh oh lah koh-rrehs-pon-DEN-thyah",
-      "pt": "👂 'Out to the street, or the change of line?' — SALIDA is the street. CORRESPONDENCIA is the other platform.",
-      "tts": "¿La salida a la calle o la correspondencia?"
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "DONDE",
-      "encaixe": "los aseos",
-      "encaixeGloss": "the toilets",
-      "promptAudioKey": "b08-p08",
-      "promptPt": "Two hours into lunch. You stand up, and the door you need is not marked and not in sight. The waiter is two tables away. Speak now.",
-      "audioKey": "b08-donde-aseos-c",
-      "es": "¿Dónde están los aseos?",
-      "pinyin": "DOHN-deh ehs-TAN lohs ah-SEH-ohs",
-      "pt": "Where are the toilets?"
-    },
-    {
-      "consulta": ["saude/guardia"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "DONDE",
-      "encaixe": "una farmacia",
-      "encaixeGloss": "a chemist",
-      "promptAudioKey": "b08-p09",
-      "promptPt": "Sunday morning, a neighbourhood you do not know, and your partner's ankle has come up like a bread roll. Any one that is open will do. Ask the man sweeping up. Speak now.",
-      "audioKey": "b08-donde-farmacia-e",
-      "es": "¿Dónde hay una farmacia?",
-      "pinyin": "DOHN-deh ai OO-nah far-MAH-thyah",
-      "pt": "Where's there a chemist? (any one)",
-      "tts": "¿Dónde hay una farmacia?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n15",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b08-n03",
       "bloco": "corpo",
-      "pt": "And now the half of this that nobody teaches. You asked it perfectly. Here comes the answer."
+      "pt": "Nothing changes shape after Πού είναι. You read the word on the map, and you say the word."
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "POU-INE",
+      "encaixe": "η έξοδος",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b08-p02",
+      "promptPt": "You are in a station hall with four stairways and none of them is signed in a way you can read. Speak now.",
+      "audioKey": "el-b08-t02",
+      "es": "Πού είναι η έξοδος;",
+      "pinyin": "POO EE-ne ee E-kso-dhos",
+      "pt": "Where is the exit?",
+      "tts": "Πού είναι η έξοδος;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b08-n04",
+      "pt": "Road signs are romanised by a standard used very widely in Greece — and it is a poor guide to the sound."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b08-n05",
+      "pt": "So say the Greek, not the sign. ΒΟΛΟΣ is Volos, not Bolos: that Β is a V, and the Η is an ee."
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "POU-INE",
+      "encaixe": "η τουαλέτα",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b08-p03",
+      "promptPt": "You are inside a café, you have already ordered, and there is one door at the back with no picture on it. Speak now.",
+      "audioKey": "el-b08-t03",
+      "es": "Πού είναι η τουαλέτα;",
+      "pinyin": "POO EE-ne ee too-a-LE-ta",
+      "pt": "Where is the toilet?",
+      "tts": "Πού είναι η τουαλέτα;"
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "POU-INE",
+      "encaixe": "το φαρμακείο",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b08-p04",
+      "promptPt": "Your blister has gone from annoying to limping, and you want the green cross on this street. Speak now.",
+      "audioKey": "el-b08-t04",
+      "es": "Πού είναι το φαρμακείο;",
+      "pinyin": "POO EE-ne to far-ma-KEE-o",
+      "pt": "Where is the pharmacy?",
+      "tts": "Πού είναι το φαρμακείο;"
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "POU-INE",
+      "encaixe": "το λιμάνι",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b08-p05",
+      "promptPt": "You got off the train at Piraeus, everyone is walking in three directions, and your boat leaves at eight. Speak now.",
+      "audioKey": "el-b08-t05",
+      "es": "Πού είναι το λιμάνι;",
+      "pinyin": "POO EE-ne to lee-MA-nee",
+      "pt": "Where is the port?",
+      "tts": "Πού είναι το λιμάνι;"
     },
     {
       "tipo": "ouvir",
-      "voz": "Emilio",
-      "audioKey": "b08-respuesta-e",
-      "es": "Sí, mira, todo recto, en el segundo semáforo a la izquierda, y luego la segunda a la derecha, al lado del banco.",
-      "pinyin": "see, MEE-rah, TOH-dhoh RREK-toh, en el seh-GOON-doh seh-MAH-foh-roh ah lah eeth-KYEHR-dhah, ee LWEH-goh lah seh-GOON-dah ah lah deh-REH-chah, al LAH-dhoh del BAN-koh",
-      "pt": "👂 Straight on, second lights, left, then second right, next to the bank. — don't decode it. Catch one word.",
-      "tts": "Sí, mira, todo recto, en el segundo semáforo a la izquierda, y luego la segunda a la derecha, al lado del banco."
+      "voz": "target_el_m",
+      "audioKey": "el-b08-r02",
+      "es": "Πέντε λεπτά με τα πόδια. Ακολουθήστε τον κόσμο.",
+      "pt": "Five minutes on foot. Follow the crowd.",
+      "tts": "Πέντε λεπτά με τα πόδια. Ακολουθήστε τον κόσμο.",
+      "receptivo": true,
+      "acao": "A time and an instruction, no street names at all. That is a complete answer — take it."
     },
     {
       "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n16",
-      "pt": "You caught izquierda. Left. That is normal, and for the next thirty seconds it is plenty."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n17",
-      "pt": "So you do not ask him to say it again. You ask the one thing whose answer is a number or a nod."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b08-lejos-c",
-      "es": "¿Está lejos?",
-      "pinyin": "ehs-TAH LEH-khohs",
-      "pt": "Is it far? — the hatch out of any answer you did not follow",
-      "tts": "¿Está lejos?"
-    },
-    {
-      "consulta": ["reparo/apontar","reparo/devagar"],
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "b08-p10",
-      "promptPt": "Four turns and a set of traffic lights, and you got the first one. Do not make him repeat it. Ask the thing that tells you whether to walk or sit down. Speak now.",
-      "audioKey": "b08-lejos-c",
-      "es": "¿Está lejos?",
-      "pinyin": "ehs-TAH LEH-khohs",
-      "pt": "Is it far?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n18",
-      "pt": "Two rungs left, and you already own both of them from part three. Get it out of the air."
-    },
-    {
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "ME-PUEDE",
-      "encaixe": "enseñar",
-      "encaixeGloss": "show",
-      "promptAudioKey": "b08-p11",
-      "promptPt": "He is pointing at a corner you cannot see, and the bus stop two steps away has the whole neighbourhood printed on the side of it. Move his arm onto that. Speak now.",
-      "audioKey": "b08-mapa-e",
-      "es": "¿Me lo puede enseñar en el mapa?",
-      "pinyin": "meh loh PWEH-dheh en-seh-NYAR en el MAH-pah",
-      "pt": "Can you show me on the map?",
-      "tts": "¿Me lo puede enseñar en el mapa?"
-    },
-    {
-      "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "promptAudioKey": "b08-p12",
-      "promptPt": "The street name has four syllables and two of them you have never heard. He is happy to say it again. That is not what you need. Speak now.",
-      "audioKey": "e01c-08",
-      "es": "¿Me lo escribe, por favor?",
-      "pinyin": "meh loh ehs-KREE-beh, por fah-BOR",
-      "pt": "Could you write it down for me, please?",
-      "tts": "¿Me lo escribe, por favor?"
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n19",
-      "pt": "And when the whole thing has gone, two words make a stranger stop and take charge of you."
-    },
-    {
-      "tipo": "ouvir",
-      "voz": "Carmen",
-      "audioKey": "b08-perdida-c",
-      "es": "Estoy perdida.",
-      "pinyin": "ehs-TOY pehr-DEE-dhah",
-      "pt": "I'm lost. (a woman speaking — note the -a)",
-      "tts": "Estoy perdida."
-    },
-    {
-      "consulta": ["reparo/apontar"],
-      "tipo": "responde",
-      "voz": "Emilio",
-      "promptVoz": "Alice",
-      "molde": "SOY-ESTOY",
-      "encaixe": "perdido",
-      "encaixeGloss": "lost",
-      "promptAudioKey": "b08-p13",
-      "promptPt": "Twenty minutes of walking and the square is not where a square should be. A woman with a dog is coming towards you. Two words, with the ending that belongs to you. Speak now.",
-      "audioKey": "b08-perdido-e",
-      "es": "Estoy perdido.",
-      "pinyin": "ehs-TOY pehr-DEE-dhoh",
-      "pt": "I'm lost. (a man speaking — note the -o)",
-      "tts": "Estoy perdido."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-s00",
-      "pt": "Shadowing. Straight over the top of them, do not wait for a gap. Two sentences."
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "b08-cajero-c",
-      "molde": "HAY",
-      "es": "¿Hay un cajero por aquí?",
-      "pinyin": "ai oon kah-KHEH-roh por ah-KEE",
-      "pt": "Say it with her."
-    },
-    {
-      "tipo": "shadow",
-      "voz": "Carmen",
-      "audioKey": "b08-lejos-c",
-      "es": "¿Está lejos?",
-      "pinyin": "ehs-TAH LEH-khohs",
-      "pt": "And the one that rescues the answer."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n20",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b08-n06",
       "bloco": "capsula",
-      "pt": "Watch what happens when you ask. Three streets, two roundabouts, and a long arm pointing over your shoulder."
+      "pt": "Now shrink the answer. Far or not, left or right, this way — three words and a pointed finger."
     },
     {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n21",
-      "pt": "That arm is half the answer. Do not ask for a repeat: ask ¿está lejos? and walk the first turn it gave you."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n22",
-      "bloco": "permissao",
-      "pt": "You are not going to understand the answer, and you are not meant to. One word in five plus an arm is a successful conversation here."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n23",
-      "bloco": "clique",
-      "pt": "Count where you have just been. A kiosk with your pockets empty. A beach bar. A station at half eleven at night. A doorway, with a broken clip in your hand."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n24",
-      "pt": "Nobody gave you those four sentences. You built them out of two words: hay, and dónde."
-    },
-    {
-      "tipo": "intro",
-      "voz": "Alice",
-      "audioKey": "b08-n25",
-      "pt": "Tomorrow you will stop a stranger and get where you are going. Most people who spend a fortnight here never once try."
-    },
-    {
-      "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "b08-r01",
-      "bloco": "recap",
-      "pt": "Part eight done. Let's recall it, out loud, one last one."
-    },
-    {
+      "consulta": [
+        "reparo/apontar"
+      ],
       "tipo": "responde",
-      "voz": "Carmen",
-      "promptVoz": "Alice",
-      "molde": "HAY",
-      "encaixe": "un supermercado",
-      "encaixeGloss": "supermarket",
-      "promptAudioKey": "b08-p14",
-      "promptPt": "Nine at night in a village. Everything on the square shut at eight, and you need water, bread and coffee for the morning. A man on a bench. Speak now.",
-      "audioKey": "b08-super-c",
-      "es": "¿Hay un supermercado por aquí?",
-      "pinyin": "ai oon soo-pehr-mehr-KAH-dhoh por ah-KEE",
-      "pt": "Is there a supermarket round here?",
-      "tts": "¿Hay un supermercado por aquí?"
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b08-p06",
+      "promptPt": "They have just pointed down a long street and you need to know whether to walk it or find a bus. Speak now.",
+      "audioKey": "el-b08-t06",
+      "es": "Είναι μακριά;",
+      "pinyin": "EE-ne ma-kree-A",
+      "pt": "Is it far?",
+      "tts": "Είναι μακριά;"
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b08-p07",
+      "promptPt": "The answer had four street names in it and you caught none of them. Offer them two options instead. Speak now.",
+      "audioKey": "el-b08-t07",
+      "es": "Αριστερά ή δεξιά;",
+      "pinyin": "a-ree-ste-RA ee dhe-ksee-A",
+      "pt": "Left or right?",
+      "tts": "Αριστερά ή δεξιά;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b08-n07",
+      "pt": "Research describes Greek politeness as leaning on closeness where English leans on distance. Short reads as normal."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "πού είναι το ΑΤΜ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b08-p08",
+      "promptPt": "You are stopping a stranger mid-stride on the pavement, and the machine you need takes cards. Speak now.",
+      "audioKey": "el-b08-t08",
+      "es": "Συγγνώμη, πού είναι το ΑΤΜ;",
+      "pinyin": "seeng-NO-mee, POO EE-ne to ei-tee-EM",
+      "pt": "Excuse me, where is the cash machine?",
+      "tts": "Συγγνώμη, πού είναι το ΑΤΜ;"
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "EXETE",
+      "encaixe": "χάρτη",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b08-p09",
+      "promptPt": "At the hotel desk, your phone is at six percent and paper survives a flat battery. Speak now.",
+      "audioKey": "el-b08-t09",
+      "es": "Έχετε χάρτη;",
+      "pinyin": "E-khe-te KHAR-tee",
+      "pt": "Do you have a map?",
+      "tts": "Έχετε χάρτη;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b08-r03",
+      "es": "Ναι, ορίστε. Είμαστε εδώ, και το λιμάνι είναι εκεί.",
+      "pt": "Yes, here you are. We are here, and the port is there.",
+      "tts": "Ναι, ορίστε. Είμαστε εδώ, και το λιμάνι είναι εκεί.",
+      "receptivo": true,
+      "acao": "Two fingers on the paper, εδώ and εκεί. Watch the hand and mark both before you thank them."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-b08-s01",
+      "es": "Πού είναι η στάση; Πού είναι το φαρμακείο; Πού είναι το λιμάνι;",
+      "pinyin": "POO EE-ne ee STA-see. POO EE-ne to far-ma-KEE-o. POO EE-ne to lee-MA-nee",
+      "pt": "Shadow the same two words with three completely different places dropped into them.",
+      "tts": "Πού είναι η στάση; Πού είναι το φαρμακείο; Πού είναι το λιμάνι;",
+      "molde": "POU-INE"
     },
     {
       "tipo": "recap",
-      "voz": "Alice",
-      "audioKey": "b08-r02",
-      "pt": "Hay plus por aquí comes back as a yes. Dónde está comes back as a paragraph, and ¿está lejos? rescues it. Next: tickets, gates, and the beep that lets you through."
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b08-n08",
+      "bloco": "recap",
+      "pt": "B08 done. One frame, five places, and a follow-up short enough to be answered with a hand."
     }
   ],
   "aprofundar": {
-    "titulo": "Asking the street, and reading what comes back (optional)",
+    "titulo": "Two words, five places, and a smaller answer",
     "secoes": [
       {
-        "titulo": "Why the yes-or-no question is worth more than the good one",
-        "corpo": "A question is only as useful as the answer you can hold in your head. ¿Dónde está…? is a better sentence and a worse tool: it invites a route, and a route said at speed by someone who lives there is four instructions long. ¿Hay… por aquí? invites a yes, a no, or a pointed arm — all three of which you can act on immediately. Ask the closed question first, get the direction of travel, and start walking; ask the open one only when you already know the thing exists. This is the same trick the course uses everywhere: shrink the answer space before you ask.",
+        "titulo": "Πού είναι plus the place",
+        "corpo": "The place goes in after Πού είναι in its dictionary form — the shape you see on a map, a timetable or a shop front. Nothing about it changes, which is what makes this frame usable while you are still decoding the alphabet: you recognise the word, you say the word. The little words in front of it, η and το, come attached to the noun; learn them as part of the word rather than as a rule.",
         "exemplos": [
           {
-            "es": "¿Hay un cajero por aquí?",
-            "pt": "Is there a cash machine round here?"
+            "es": "Πού είναι η στάση;",
+            "pt": "Where is the bus stop?"
           },
           {
-            "es": "¿Dónde está la salida?",
-            "pt": "Where's the way out?"
+            "es": "Πού είναι το φαρμακείο;",
+            "pt": "Where is the pharmacy?"
           }
         ]
       },
       {
-        "titulo": "el / la or un / una — the one word that changes the question",
-        "corpo": "¿Dónde está el baño? asks for the one this building has. ¿Dónde hay un baño? asks for any one at all, anywhere near here. Get it the wrong way round and nothing terrible happens — you will be pointed at something — but the second version is the one that works in the street, and the first is the one that works indoors. Learn each place name with its little word already glued to the front (el baño, la salida, los aseos, una farmacia, un cajero) and never think about it again.",
-        "exemplos": [
-          {
-            "es": "¿Dónde están los aseos?",
-            "pt": "Where are the toilets? (in this restaurant)"
-          },
-          {
-            "es": "¿Dónde hay una farmacia?",
-            "pt": "Where's there a chemist? (anywhere near)"
-          }
-        ]
+        "titulo": "Ask a question whose answer you can hold",
+        "corpo": "Πού είναι opens the door and can bring back forty words of street names. The second question is the useful one, and it is designed to be answerable with a gesture: Είναι μακριά; is far or not far. Αριστερά ή δεξιά; puts two options on the table and gets one back. Εδώ; with a finger on the map gets a yes or a correction. You are not shortening the conversation to be polite — you are shortening it so you can act on it."
       },
       {
-        "titulo": "The hatch: far, map, paper, finger",
-        "corpo": "The repair kit from part three does its heaviest work in the street, and the order matters. ¿Está lejos? converts a paragraph into a number or a shrug. ¿Me lo puede enseñar en el mapa? moves the answer out of the air and onto something you can look at twice — a paper map on a bus shelter, a street plan on a wall, or your own screen. ¿Me lo escribe, por favor? gets the street name written down by someone who can spell it. And the finger is not a failure: pointing at the thing, the screen or the map is a legitimate, adult, universally understood move, and it is faster than the word you are hunting for.",
-        "exemplos": [
-          {
-            "es": "¿Está lejos?",
-            "pt": "Is it far?"
-          },
-          {
-            "es": "¿Me lo puede enseñar en el mapa?",
-            "pt": "Can you show me on the map?"
-          }
-        ]
+        "titulo": "The sign is not the sound",
+        "corpo": "Greek road signs are romanised by a national standard used very widely across the country, and the British place-name authority notes plainly that the same standard is a less reliable guide to pronunciation than the older system it replaced. Practical consequence: read the Latin line to identify the place, but say the Greek one. Ρ is an R, Β is a V, Η is an ee, Χ is the sound at the end of Scottish loch. ΒΟΛΟΣ read as Bolos gets you a blank face — and part ten takes the whole set of five apart."
       },
       {
-        "titulo": "Estoy perdido — and why it works",
-        "corpo": "Estoy perdido, or perdida, is not a confession, it is a request that people respond to. It moves you from a person asking a question to a person who needs a hand, and it usually produces a slower, shorter, better answer than the question you were about to ask. It is also one of the handful of words in this course where the ending matters, because the word is describing you: -o if you are a man, -a if you are a woman. Everywhere else in Spanish you can get the ending wrong all day and still be understood.",
-        "exemplos": [
-          {
-            "es": "Estoy perdido. / Estoy perdida.",
-            "pt": "I'm lost. (man / woman speaking)"
-          },
-          {
-            "es": "Perdone, ¿está lejos la Plaza Mayor?",
-            "pt": "Excuse me, is the Plaza Mayor far?"
-          }
-        ]
+        "titulo": "Short is not rude here",
+        "corpo": "Work on politeness across the two languages describes Greek as oriented to involvement and closeness, and English to distance and non-imposition. That is why the English speaker's padded question — sorry, I don't suppose you could possibly tell me — can land as odd, and why a direct two-word question with a συγγνώμη in front of it reads as completely normal. The mismatch produces two mirror-image misreadings, and knowing that is enough to stop taking either personally."
+      },
+      {
+        "titulo": "The words that come back",
+        "corpo": "ευθεία straight on · δεξιά right · αριστερά left · εδώ here · εκεί there · δίπλα next to · απέναντι opposite · κοντά near · μακριά far · πέντε λεπτά με τα πόδια five minutes on foot. Ten words is enough to act on almost any answer you will get."
       }
     ]
-  }
+  },
+  "slot": "B08",
+  "permissao": "You are allowed to ask a two-word question and then interrupt the answer with a smaller one. Nobody is offended by Είναι μακριά; — it is what someone who wants to arrive actually says, and you may use the same two words a dozen times in a day without dressing them up.",
+  "permissaoAudioKey": "el-b08-n02",
+  "espelho": "Anyone who has given directions at home knows the moment when the visitor's eyes go flat around the third street name, and knows that the useful thing was the pointed finger. You are just getting to the pointed finger faster.",
+  "fichasCulturais": [
+    {
+      "sinal": "You ask a two-word question and get a long, fast answer delivered close to your face, with a hand on your arm.",
+      "suaLeitura": "That was intense — I have annoyed them, or they think I am helpless.",
+      "oQueEAli": "Research comparing the two languages describes Greek politeness as oriented to involvement and closeness, and English politeness to distance and non-imposition. Proximity, volume and taking charge of your problem are the local shape of helpfulness, not of irritation.",
+      "oQueVoceFaz": "Stay in it. Let the answer run, then narrow it yourself: Αριστερά ή δεξιά; or Είναι μακριά; Nodding and asking a smaller question is a normal, welcome move here.",
+      "oQueMelhora": "You stop reading warmth as pressure, and you leave the exchange with something you can actually walk on.",
+      "ondeNaoVale": "This is an orientation described in the research literature, not a personality, and it does not predict any individual. Someone in a hurry is in a hurry, and a short flat answer on a Monday morning means nothing about you.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b08-n07"
+      ]
+    },
+    {
+      "sinal": "You read the place name off the road sign, say it out loud, and the person you asked simply does not recognise it.",
+      "suaLeitura": "My accent is too bad to be understood at all.",
+      "oQueEAli": "The romanisation on the signs is a national transliteration standard used very widely on Greek roads, and the British place-name authority records that it is a less reliable guide to pronunciation than the system it replaced. Reading the Latin line aloud does not reconstruct the Greek word — the letters were chosen to map letters, not sounds.",
+      "oQueVoceFaz": "Use the Latin line to identify the place and the Greek line to say it. Keep four letters in mind: Ρ is R, Β is V, Η is ee, Χ is the loch sound. If it still does not land, point at the word.",
+      "oQueMelhora": "Place names start arriving intact, and you stop attributing to your accent what was really a spelling convention.",
+      "ondeNaoVale": "Not every sign follows the standard: the same authority notes that place names online are not romanised consistently, and older signs, private signs and map apps can disagree with each other. Where they do, the Greek spelling is the one to trust.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b08-n04"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,372 @@
+{
+  "id": "b09",
+  "nivel": "basico",
+  "numero": 9,
+  "parte": "B09",
+  "titulo": "The ticket starts when you start it",
+  "subtitulo": "Buy it, put your name on the one the law asks for, and set the clock running yourself",
+  "cena": "Two windows on the same trip: a metro ticket office in Athens where the machine prints a paper you still have to do something with, and a ferry desk in Piraeus that wants your name before it will print anything at all.",
+  "moldura": "ganha",
+  "frasePiso": "A ticket here is two moves. Buying it is the first one. Validating it is the one that starts the clock.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "el-b09-akyrosi",
+      "afirmacao": "In Athens the integrated 90-minute ticket costs €1.20, the day ticket €4.10 and the three-day tourist ticket €20.00. The operator states that the validity of a ticket counts «since its first validation» — the validation, not the purchase, is what starts the clock.",
+      "fonte": "Atenas (ΟΑΣΑ, oasa.gr): integrado 90 min €1,20; diário €4,10; 5 dias €8,20; turístico 3 dias €20,00; metrô aeroporto €9,00 / €16,00 ida e volta; Express aeroporto €5,50. Validade conta «since its first validation» — a validação é o fato gerador.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "el-b09-n02"
+      ]
+    },
+    {
+      "id": "el-b09-onomastiko",
+      "afirmacao": "A Greek ferry ticket is a named ticket by law: the carrier must register the passenger's name, sex, nationality and date of birth. The practical consequence is direct — you do not buy a ferry ticket for somebody else, and a spare ticket is not passed along to a friend.",
+      "fonte": "Bilhete de balsa é NOMINAL por lei. π.δ. 23/1999, alterado pelo π.δ. 102/2019 (Diretiva UE 2017/2109): registro de nome, sexo, nacionalidade, data de nascimento. Consequência a ensinar: não se compra bilhete para outra pessoa nem se repassa bilhete.",
+      "ano": 2019,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-b09-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b09-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "A ticket here is two moves, not one. You buy it, and then you start it. The clock has not begun yet."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-b09-t01",
+      "es": "Πού είναι το ταμείο;",
+      "pinyin": "POO EE-ne to ta-MEE-o",
+      "pt": "Where is the ticket office?",
+      "tts": "Πού είναι το ταμείο;"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "POU-INE",
+      "encaixe": "το ταμείο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b09-p01",
+      "promptPt": "In the station hall, every machine has a queue and you would rather deal with a person. Speak now.",
+      "audioKey": "el-b09-t01",
+      "es": "Πού είναι το ταμείο;",
+      "pinyin": "POO EE-ne to ta-MEE-o",
+      "pt": "Where is the ticket office?",
+      "tts": "Πού είναι το ταμείο;"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b09-p02",
+      "promptPt": "You are at the window, you are travelling alone, and the person behind the glass is waiting. Speak now.",
+      "audioKey": "el-b09-t02",
+      "es": "Ένα εισιτήριο, παρακαλώ.",
+      "pinyin": "E-na ee-see-TEE-ree-o, pa-ra-ka-LO",
+      "pt": "One ticket, please.",
+      "tts": "Ένα εισιτήριο, παρακαλώ."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b09-r01",
+      "es": "Ένα ευρώ και είκοσι.",
+      "pt": "One euro twenty.",
+      "tts": "Ένα ευρώ και είκοσι.",
+      "receptivo": true,
+      "acao": "Two numbers joined by και. You do not have to say them back — you have to catch both."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b09-n02",
+      "bloco": "corpo",
+      "pt": "In Athens the ninety-minute ticket is one euro twenty, and the ninety minutes run from the first validation."
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "POU-INE",
+      "encaixe": "το ακυρωτικό",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b09-p03",
+      "promptPt": "The paper is in your hand and there is a small orange box somewhere on this platform. Ask the guard. Speak now.",
+      "audioKey": "el-b09-t03",
+      "es": "Πού είναι το ακυρωτικό;",
+      "pinyin": "POO EE-ne to a-kee-ro-tee-KO",
+      "pt": "Where is the validating machine?",
+      "tts": "Πού είναι το ακυρωτικό;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b09-r02",
+      "es": "Εκεί, στην είσοδο. Ακυρώστε το πριν μπείτε.",
+      "pt": "There, at the entrance. Validate it before you get on.",
+      "tts": "Εκεί, στην είσοδο. Ακυρώστε το πριν μπείτε.",
+      "receptivo": true,
+      "acao": "The instruction is in the second half. Do it on the way in, not once you are sitting down."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b09-n03",
+      "pt": "So validate on the way in. Until you do, it is a piece of paper and the ninety minutes have not started."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b09-p04",
+      "promptPt": "You bought a paper ticket on a route where you have only ever seen people tap a card. Check with the driver. Speak now.",
+      "audioKey": "el-b09-t04",
+      "es": "Πρέπει να το ακυρώσω;",
+      "pinyin": "PRE-pee na to a-kee-RO-so",
+      "pt": "Do I have to validate it?",
+      "tts": "Πρέπει να το ακυρώσω;"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b09-p05",
+      "promptPt": "You have one more stop to make before the museum and you want to know if this paper covers both. Speak now.",
+      "audioKey": "el-b09-t05",
+      "es": "Ισχύει για ενενήντα λεπτά;",
+      "pinyin": "ee-SKHEE-ee ya e-ne-NEEN-da le-PTA",
+      "pt": "Is it valid for ninety minutes?",
+      "tts": "Ισχύει για ενενήντα λεπτά;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b09-n04",
+      "pt": "An unvalidated ticket in front of an inspector costs around a hundred euros. That figure is under revision."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b09-n05",
+      "bloco": "capsula",
+      "pt": "A ferry ticket is a different animal. By law it carries your name, sex, nationality and date of birth."
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b09-p06",
+      "promptPt": "At the ferry desk in Piraeus, there are two of you and the boat you want goes to Naxos. Speak now.",
+      "audioKey": "el-b09-t06",
+      "es": "Δύο εισιτήρια για τη Νάξο, παρακαλώ.",
+      "pinyin": "DHEE-o ee-see-TEE-ree-a ya ti NA-kso, pa-ra-ka-LO",
+      "pt": "Two tickets to Naxos, please.",
+      "tts": "Δύο εισιτήρια για τη Νάξο, παρακαλώ."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b09-r03",
+      "es": "Τα ονόματά σας, παρακαλώ. Και την ημερομηνία γέννησης.",
+      "pt": "Your names, please. And the date of birth.",
+      "tts": "Τα ονόματά σας, παρακαλώ. Και την ημερομηνία γέννησης.",
+      "receptivo": true,
+      "acao": "This is the law talking, not curiosity. Have the passports out before you reach the window."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b09-p07",
+      "promptPt": "The clerk has asked for something and your document is at the bottom of the bag. Check what they need. Speak now.",
+      "audioKey": "el-b09-t07",
+      "es": "Χρειάζομαι το διαβατήριό μου;",
+      "pinyin": "khree-A-zo-me to dhya-va-TEE-ree-O moo",
+      "pt": "Do I need my passport?",
+      "tts": "Χρειάζομαι το διαβατήριό μου;"
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b09-p08",
+      "promptPt": "At the gangway, the crew member looks at the paper and then at you. Confirm the obvious out loud. Speak now.",
+      "audioKey": "el-b09-t08",
+      "es": "Το εισιτήριο είναι στο όνομά μου.",
+      "pinyin": "to ee-see-TEE-ree-o EE-ne sto O-no-MA moo",
+      "pt": "The ticket is in my name.",
+      "tts": "Το εισιτήριο είναι στο όνομά μου."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b09-n06",
+      "pt": "So nobody buys a ferry ticket for you, and nobody hands a spare one along. The name has to be yours."
+    },
+    {
+      "consulta": [
+        "transporte/plataforma"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "POU-INE",
+      "encaixe": "η αποβάθρα",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b09-p09",
+      "promptPt": "The boarding paper has a gate number on it and the quay in front of you has eight of them. Speak now.",
+      "audioKey": "el-b09-t09",
+      "es": "Πού είναι η αποβάθρα;",
+      "pinyin": "POO EE-ne ee a-po-VA-thra",
+      "pt": "Where is the quay?",
+      "tts": "Πού είναι η αποβάθρα;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b09-n07",
+      "pt": "Numbers come fast at a window. You do not have to say them back — you have to catch two of them."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b09-p10",
+      "promptPt": "The clerk gave you the amount and the gate in one breath and you caught neither. Ask for it again, gently. Speak now.",
+      "audioKey": "el-b09-t10",
+      "es": "Πιο αργά, παρακαλώ.",
+      "pinyin": "pyo ar-GHA, pa-ra-ka-LO",
+      "pt": "Slower, please.",
+      "tts": "Πιο αργά, παρακαλώ."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b09-r04",
+      "es": "Εννιά ευρώ. Αποβάθρα τέσσερα, στις οκτώ.",
+      "pt": "Nine euros. Quay four, at eight.",
+      "tts": "Εννιά ευρώ. Αποβάθρα τέσσερα, στις οκτώ.",
+      "receptivo": true,
+      "acao": "Three numbers, and only two of them matter to you now: the quay and the hour."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-b09-s01",
+      "es": "Ένα εισιτήριο, παρακαλώ. Πού είναι το ακυρωτικό; Το εισιτήριο είναι στο όνομά μου.",
+      "pinyin": "E-na ee-see-TEE-ree-o, pa-ra-ka-LO. POO EE-ne to a-kee-ro-tee-KO. to ee-see-TEE-ree-o EE-ne sto O-no-MA moo",
+      "pt": "Shadow the three sentences that cover buying it, starting it and boarding with it.",
+      "tts": "Ένα εισιτήριο, παρακαλώ. Πού είναι το ακυρωτικό; Το εισιτήριο είναι στο όνομά μου."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b09-n08",
+      "bloco": "recap",
+      "pt": "B09 done. Buy it, put your name on it where the law asks, and start the clock before anyone else does."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Two moves, one name, and the numbers you only have to hear",
+    "secoes": [
+      {
+        "titulo": "The validation is the event",
+        "corpo": "The Athens operator is explicit that a ticket's validity counts from its first validation. That single sentence reorganises the whole habit: buying ten tickets in advance costs you nothing in time, because none of them is running until you put it in the machine. The integrated ninety-minute ticket is €1.20, the day ticket €4.10, the three-day tourist ticket €20.00 — and each of them starts the moment it is stamped, not the moment it is sold.",
+        "exemplos": [
+          {
+            "es": "Πού είναι το ακυρωτικό;",
+            "pt": "Where is the validating machine?"
+          },
+          {
+            "es": "Ισχύει για ενενήντα λεπτά;",
+            "pt": "Is it valid for ninety minutes?"
+          }
+        ]
+      },
+      {
+        "titulo": "The ferry ticket has your name on it",
+        "corpo": "Greek law requires the carrier to register each passenger's name, sex, nationality and date of birth, which is why the ferry desk asks for a document before it prints anything. Two consequences follow and both are practical: you cannot buy the ticket for a friend who is still asleep at the hotel, and a spare ticket cannot be handed on. Arrive at the window with the passports already out and the transaction takes a minute."
+      },
+      {
+        "titulo": "What happens when the boat does not sail",
+        "corpo": "European passenger rights split two different things. If the departure is cancelled or badly delayed, you are entitled to a refund or to be re-routed. If the arrival is late, there is a separate compensation of a quarter to a half of the fare — but that compensation is expressly excluded where weather conditions endanger the safe operation of the ship. In a strong meltemi, then: you keep the refund or the new sailing, and you do not get the compensation. Knowing which of the two you are asking for saves the whole conversation."
+      },
+      {
+        "titulo": "Numbers, from the listening side only",
+        "corpo": "Prices arrive as two numbers joined by και: ένα ευρώ και είκοσι is one twenty. The ones worth recognising at a window are ένα, δύο, τρία, τέσσερα, πέντε, έξι, εφτά, οκτώ, εννιά, δέκα, and then είκοσι, τριάντα, σαράντα, πενήντα, εκατό. You are not being asked to produce them under pressure — you are being asked to catch the quay and the hour."
+      },
+      {
+        "titulo": "The two words on the machine",
+        "corpo": "ακυρωτικό is the validating machine and ακυρώστε is the instruction to use it. Reading those two on an orange box on a platform is worth more than any sentence you could say about them."
+      }
+    ]
+  },
+  "slot": "B09",
+  "permissao": "You are allowed to ask whether a ticket needs validating even when everybody around you already knows. Πρέπει να το ακυρώσω; costs four words and is asked by locals on unfamiliar lines too — and you are allowed to hold the queue for the five seconds it takes to hear a price twice.",
+  "permissaoAudioKey": "el-b09-n01",
+  "espelho": "Anyone who has stood on a platform at home holding a ticket, wondering whether the barrier or the little machine on the post is the one that counts, already knows this exact hesitation. The only new part is that here the machine is orange and the word on it is ακυρωτικό.",
+  "fichasCulturais": [
+    {
+      "sinal": "Plain-clothes inspectors board between two stops and everyone around you produces a small stamped paper.",
+      "suaLeitura": "Nobody really checks here, and buying the ticket was the part that mattered.",
+      "oQueEAli": "Buying and validating are two separate acts, and only the second one makes the ticket a ticket. A ticket found unvalidated is treated as no ticket at all, and the penalty reported in the Greek press is around one hundred euros, with a reduced figure for prompt payment. The legal basis for those amounts is currently under revision.",
+      "oQueVoceFaz": "Stamp it at the orange box on the way in, before you sit down, every single time. If you cannot see the box, ask: Πού είναι το ακυρωτικό;",
+      "oQueMelhora": "The ninety minutes start when you want them to, and an inspection becomes a two-second event instead of a conversation.",
+      "ondeNaoVale": "The penalty figures circulate in convergent press reports and were not confirmed against the official gazette in this research — treat them as an order of magnitude, not as a quoted amount. Systems also differ between cities and between paper and contactless cards, so what you validate and where changes with the network.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-b09-n04"
+      ]
+    },
+    {
+      "sinal": "At the ferry desk the clerk asks for passports and dates of birth before printing anything, for a two-hour crossing.",
+      "suaLeitura": "This is unusually nosy for a boat ride, and someone is building a file on me.",
+      "oQueEAli": "A Greek ferry ticket is a named ticket by law: the carrier is required to register each passenger's name, sex, nationality and date of birth. The questions at the window are the carrier meeting an obligation, and they are asked of everyone in the queue in exactly the same order.",
+      "oQueVoceFaz": "Have the documents out before you reach the window, and buy only your own seats — the ticket has to carry the traveller's own name. At the gangway you can say it plainly: Το εισιτήριο είναι στο όνομά μου.",
+      "oQueMelhora": "The transaction takes a minute instead of five, and you never turn up with a ticket someone else's name is on.",
+      "ondeNaoVale": "Not a reason to hand over documents to anyone who asks outside a ticket desk or a boarding gate. And it is about the passenger list, not about your itinerary — nobody at that window needs your hotel or your plans.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b09-n05"
+      ]
+    }
+  ]
+}

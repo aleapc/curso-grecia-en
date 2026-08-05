@@ -1,0 +1,96 @@
+{
+  "id": "q-b13",
+  "nivel": "basico",
+  "titulo": "Quiz — Έχω αλλεργία — before the order, not after the plate",
+  "subtitulo": "The hammer sentence, χωρίς, the written card and the two numbers that are real",
+  "introAudioKey": "el-b13-q-i",
+  "introPt": "A traveller says the allergy before ordering, hears an honest answer about the kitchen, and adjusts.",
+  "cenario": "A taverna table where the small plates are about to be chosen for everyone.",
+  "dialogo": [
+    {
+      "audioKey": "el-b13-q01",
+      "voz": "target_el_f",
+      "es": "Έχω αλλεργία στα θαλασσινά. Είναι σοβαρό.",
+      "pt": "I have an allergy to seafood. It's serious.",
+      "tts": "Έχω αλλεργία στα θαλασσινά. Είναι σοβαρό."
+    },
+    {
+      "audioKey": "el-b13-q02",
+      "voz": "target_el_m",
+      "es": "Εντάξει. Το ψάρι όμως τηγανίζεται στο ίδιο λάδι.",
+      "pt": "All right. The fish, though, is fried in the same oil.",
+      "tts": "Εντάξει. Το ψάρι όμως τηγανίζεται στο ίδιο λάδι."
+    },
+    {
+      "audioKey": "el-b13-q03",
+      "voz": "target_el_f",
+      "es": "Τότε όχι ψάρι. Τι έχει μέσα η σαλάτα;",
+      "pt": "Then no fish. What's in the salad?",
+      "tts": "Τότε όχι ψάρι. Τι έχει μέσα η σαλάτα;"
+    },
+    {
+      "audioKey": "el-b13-q04",
+      "voz": "target_el_m",
+      "es": "Ντομάτα, αγγούρι, φέτα και λίγο σουσάμι.",
+      "pt": "Tomato, cucumber, feta and a little sesame.",
+      "tts": "Ντομάτα, αγγούρι, φέτα και λίγο σουσάμι."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "When does the allergy sentence have to be said?",
+      "opcoes": [
+        "When the plate arrives, so you can point at it",
+        "Before the order goes to the kitchen",
+        "At the end, with the bill",
+        "Only if you see something risky on the menu"
+      ],
+      "correta": 1,
+      "explica": "A kitchen can only act while it is still cooking. After the plate lands, the only option left is sending it back."
+    },
+    {
+      "pergunta": "What do the two words «είναι σοβαρό» do?",
+      "opcoes": [
+        "Apologise for the trouble",
+        "Ask the waiter to check with the kitchen",
+        "Move the request from the taste column to the cannot column",
+        "Mean you would like a smaller portion"
+      ],
+      "correta": 2,
+      "explica": "Hedging is the expensive English instinct here. Είναι σοβαρό is short, unhedged, and reads as a condition rather than a preference."
+    },
+    {
+      "pergunta": "The waiter says the fish is fried «στο ίδιο λάδι». What has he just told you?",
+      "opcoes": [
+        "The fish is fresh today",
+        "It is cooked in the same oil as the seafood",
+        "The oil is local olive oil",
+        "It will take longer to cook"
+      ],
+      "correta": 1,
+      "explica": "Ίδιο λάδι — same oil. That is a helpful, honest answer about cross-contamination, not a refusal to accommodate you."
+    },
+    {
+      "pergunta": "You have the sentence written in Greek on your phone. What is the best use of it?",
+      "opcoes": [
+        "Keep it as a backup only if your spoken Greek fails",
+        "Show it and ask that it be shown to the kitchen as well",
+        "Read it aloud from the screen so the accent is right",
+        "Send it to the restaurant beforehand instead of speaking"
+      ],
+      "correta": 1,
+      "explica": "Το έχω γραμμένο εδώ gets it read by the waiter; μπορείτε να το δείξετε στην κουζίνα; gets it read by whoever is holding the pan."
+    },
+    {
+      "pergunta": "Which numbers should you actually carry for a medical emergency in Greece?",
+      "opcoes": [
+        "1016, the doctors' line",
+        "112 and 166",
+        "1434 for the on-call service",
+        "100, which routes medical calls"
+      ],
+      "correta": 1,
+      "explica": "112 is the European emergency line and reaches everything; 166 is ΕΚΑΒ, the ambulance service. 1016 is the commercial line of a private paid service and appears on no ministry list."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "q-b12",
+  "nivel": "basico",
+  "titulo": "Quiz — Χωρίς and the edited plate",
+  "subtitulo": "Subtract, add, repeat",
+  "introAudioKey": "el-b12-q-i",
+  "introPt": "One salad, one ingredient left out, and a counter that reads the whole plate back.",
+  "cenario": "A taverna at lunchtime, one table free and a card with twenty lines on it.",
+  "dialogo": [
+    {
+      "audioKey": "el-b12-q01",
+      "voz": "target_el_f",
+      "es": "Μια χωριάτικη, χωρίς κρεμμύδι, παρακαλώ.",
+      "pt": "One village salad, without onion, please.",
+      "tts": "Μια χωριάτικη, χωρίς κρεμμύδι, παρακαλώ."
+    },
+    {
+      "audioKey": "el-b12-q02",
+      "voz": "target_el_m",
+      "es": "Χωρίς κρεμμύδι, εντάξει. Ντομάτα, αγγούρι, φέτα — όλα τα άλλα μέσα;",
+      "pt": "Without onion, fine. Tomato, cucumber, feta — everything else in?",
+      "tts": "Χωρίς κρεμμύδι, εντάξει. Ντομάτα, αγγούρι, φέτα — όλα τα άλλα μέσα;"
+    },
+    {
+      "audioKey": "el-b12-q03",
+      "voz": "target_el_f",
+      "es": "Ναι, όλα. Και με πολύ λεμόνι.",
+      "pt": "Yes, everything. And with plenty of lemon.",
+      "tts": "Ναι, όλα. Και με πολύ λεμόνι."
+    },
+    {
+      "audioKey": "el-b12-q04",
+      "voz": "target_el_m",
+      "es": "Ωραία. Θέλετε να δείτε τι έχουμε σήμερα; Ελάτε.",
+      "pt": "Good. Would you like to see what we have today? Come.",
+      "tts": "Ωραία. Θέλετε να δείτε τι έχουμε σήμερα; Ελάτε."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Where does χωρίς go?",
+      "opcoes": [
+        "In front of the dish",
+        "At the end, after the dish, with nothing in front of it changing",
+        "Only in the middle of a full sentence",
+        "It cannot be used at a counter"
+      ],
+      "correta": 1,
+      "explica": "One word at the end, then the thing you do not want. The order in front of it stays exactly as it was."
+    },
+    {
+      "pergunta": "The counter reads the whole plate back to you as a question. You should:",
+      "opcoes": [
+        "Start the order again from the beginning",
+        "Listen to the end and answer ναι, or take out one more thing",
+        "Assume the first request was not heard",
+        "Point at the card instead"
+      ],
+      "correta": 1,
+      "explica": "The read-back is your last window to edit. The first χωρίς already landed."
+    },
+    {
+      "pergunta": "Something in the dish would genuinely make you ill. Χωρίς is:",
+      "opcoes": [
+        "Enough on its own",
+        "Not the right tool — that has its own sentence and its own written card",
+        "Only usable with a doctor's note",
+        "Stronger than any other option"
+      ],
+      "correta": 1,
+      "explica": "Χωρίς is preference. The heavier sentence and the written card are a separate part of the course, deliberately."
+    },
+    {
+      "pergunta": "How does a table of small plates usually get built?",
+      "opcoes": [
+        "All at once, at the start",
+        "In waves, with ένα ακόμα doing the work as you go",
+        "From a set menu chosen by the kitchen",
+        "One plate per person, ordered separately"
+      ],
+      "correta": 1,
+      "explica": "Nobody commits to the whole evening at the moment of sitting down. Ένα ακόμα is the sentence that keeps it moving."
+    },
+    {
+      "pergunta": "You cannot read the card and the food is in trays behind the counter. Μπορώ να δω; is:",
+      "opcoes": [
+        "A phrase you may use — in many places asking to look is acceptable",
+        "A guaranteed right to inspect the kitchen",
+        "Considered an accusation about hygiene",
+        "Only for markets, never for a taverna"
+      ],
+      "correta": 0,
+      "explica": "What this course stands behind is the sentence, not a claim about how any given kitchen is run. If the answer is no, the card is the route and the question cost nothing."
+    }
+  ]
+}
