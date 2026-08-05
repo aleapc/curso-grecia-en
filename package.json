@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev --host",
-    "prebuild": "npm run esqueleto && npm run outline:conferir && npm run estrutura:estrito && npm run audio:check && npm run tom && npm run voz && npm run arte",
+    "prebuild": "npm run esqueleto && npm run outline:conferir && npm run estrutura:estrito && npm run audio:check && npm run tom && npm run casca && npm run voz && npm run arte",
     "build": "vite build",
     "preview": "vite preview --host",
     "check": "svelte-check --tsconfig ./tsconfig.json",
@@ -26,7 +26,10 @@
     "transito": "node scripts/confere-transito.mjs",
     "esqueleto": "node scripts/valida-esqueleto.mjs",
     "arte": "node scripts/valida-arte.mjs",
-    "voz": "node scripts/valida-voz.mjs"
+    "voz": "node scripts/valida-voz.mjs",
+    "arte:estrito": "node scripts/valida-arte.mjs --estrito",
+    "publicar": "npm run prebuild && npm run arte:estrito",
+    "casca": "node scripts/valida-casca.mjs"
   },
   "_prebuild": {
     "_": "OS PORTÕES, E EM QUE MODO CADA UM RODA. npm executa `prebuild` antes de `build`; qualquer um dos três saindo != 0 impede a build. Até 27/07/2026 não havia prebuild nenhum: os dois validadores existiam e ninguém os executava (achado 3 da auditoria adversarial — 'portão descrito e não escrito é pior que portão nenhum, porque desliga a conferência humana sem ligar a automática').",

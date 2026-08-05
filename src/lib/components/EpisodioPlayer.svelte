@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { curso } from '$lib/curso.config';
   import { onMount, onDestroy } from 'svelte';
   import type { Episode, Step } from '$lib/types';
   import { markDone } from '$lib/state.svelte';
@@ -21,13 +22,13 @@
 
   // Modo: estudo (controle passo a passo) ou carro (áudio-livro contínuo, mãos livres)
   let modo = $state<'estudo' | 'carro'>(
-    typeof localStorage !== 'undefined' && localStorage.getItem('es-modo') === 'carro'
+    typeof localStorage !== 'undefined' && localStorage.getItem(`${curso.sku}:modo`) === 'carro'
       ? 'carro'
       : 'estudo'
   );
   function setModo(m: 'estudo' | 'carro') {
     modo = m;
-    if (typeof localStorage !== 'undefined') localStorage.setItem('es-modo', m);
+    if (typeof localStorage !== 'undefined') localStorage.setItem(`${curso.sku}:modo`, m);
   }
 
   // Velocidade da pausa pra responder (persistida)
@@ -37,11 +38,11 @@
     { nome: 'long', f: 1.5 }
   ];
   let fator = $state(
-    typeof localStorage !== 'undefined' ? Number(localStorage.getItem('es-pausa')) || 1 : 1
+    typeof localStorage !== 'undefined' ? Number(localStorage.getItem(`${curso.sku}:pausa`)) || 1 : 1
   );
   function setFator(f: number) {
     fator = f;
-    if (typeof localStorage !== 'undefined') localStorage.setItem('es-pausa', String(f));
+    if (typeof localStorage !== 'undefined') localStorage.setItem(`${curso.sku}:pausa`, String(f));
   }
 
   const step = $derived(steps[index]);
@@ -342,8 +343,8 @@
       try {
         navigator.mediaSession.metadata = new MediaMetadata({
           title: `${episodio.titulo} (Ep. ${episodio.numero}${episodio.parte ? ' · ' + episodio.parte : ''})`,
-          artist: 'Dime Spanish',
-          album: 'Dime Spanish'
+          artist: 'Ορίστε! Greek',
+          album: 'Ορίστε! Greek'
         });
         navigator.mediaSession.setActionHandler('play', () => botaoCentral());
         navigator.mediaSession.setActionHandler('pause', () => pausar());
@@ -523,7 +524,7 @@
 </div>
 {#if micErro}
   <p role="status" class="mt-1 text-center text-xs text-terracota">
-    ⚠️ No microphone access — allow it in iPhone Settings › Dime › Microphone.
+    ⚠️ No microphone access — allow it in iPhone Settings › Ορίστε! › Microphone.
   </p>
 {/if}
 

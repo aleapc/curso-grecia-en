@@ -48,7 +48,10 @@ const MARCAS = {
     // sempre maiúsculos, e são o tratamento formal de todo o catálogo DE — o
     // filtro apagava justamente a marca mais frequente da língua no corpus.
     capitalizaSubstantivos: true,
-    forte: /[äöüßÄÖÜ]|\b(bitte|danke|nicht|schon)\b/i,
+    // SEM o-trema e SEM u-trema: o TURCO os escreve (lütfen, güzel, Türkçem) e
+    // toda fala nativa turca era acusada de ser alemã. Ficam ä e ß, que nenhuma
+    // outra língua do catálogo usa, mais funcionais que o turco não tem.
+    forte: /[äßÄ]|\b(bitte|danke|nicht|schon|noch|auch|sehr|immer|wieder)\b/i,
     propria:
       /\b(der|die|das|den|dem|des|ein|eine|einen|einem|und|ist|sind|nicht|von|zu|zum|zur|mit|auf|für|im|in|an|es|sie|ihr|ihre|ihres|ihnen|ich|du|wir|aber|auch|wenn|dass|noch|nur|schon|hier|man|kann|können|wird|werden|war|waren|hat|haben|sein|mehr|so|als|wie|was|wer|wo|warum|also|aus|sich|dann|denn|oder|über|nach|bei|um|vor|durch|ohne|gegen|weil|jetzt|immer|etwas|nichts|welche|welchem|welcher|welches|diese|dieser|dieses|aufs|ins|ans|vom|beim|am|fürs|übers|durchs|hinein|hinaus|zurück|wieder|fertig|steht|geht|kommt|macht|sagt|heißt|gibt|braucht|muss|müssen|soll|sollen|will|wollen|lässt|damit|dabei|dafür|davon|dazu|deshalb|trotzdem|zwei|drei|vier|erst)\b/
   },

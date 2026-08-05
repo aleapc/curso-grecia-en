@@ -127,17 +127,25 @@ if (orfas.length)
       `                     (o app pede img/<slot>.webp e nunca vai ler estas)`
   );
 
+// ESTE PORTÃO NÃO BLOQUEIA O BUILD, e a escolha é deliberada. Arte errada tem de
+// impedir PUBLICAR, não impedir construir e testar: travar o `build` de cinco
+// cursos até a estação Mac entregar imagem pararia o trabalho em tudo o mais —
+// conteúdo, áudio, portões — que não depende dela em nada. Sem `--estrito` ele
+// grita e devolve zero; com `--estrito`, reprova. É o `--estrito` que roda antes
+// de publicar.
+const estrito = process.argv.includes('--estrito');
+
 if (erros.length) {
   console.log('\nARTE DE OUTRO DESTINO:');
   for (const e of erros) console.log(`  ✗ ${e}`);
   console.log(
     '\nArte é ativo de DESTINO, igual ao áudio nativo. Dois SKUs do mesmo destino\n' +
-      'devem compartilhá-la byte a byte; dois SKUs de destinos diferentes, nunca.\n'
+      'devem compartilhá-la byte a byte; dois SKUs de destinos diferentes, nunca.\n' +
+      (estrito ? '' : 'NÃO PUBLICAR assim. Rode com --estrito para tratar isto como reprovação.\n')
   );
-  process.exit(1);
 }
-if (avisos.length) {
+if (avisos.length)
   console.log(`\n⚠ ${avisos.length} slot(s) sem arte — o app vai mostrar imagem quebrada.\n`);
-  process.exit(process.argv.includes('--estrito') ? 1 : 0);
-}
+if (estrito && (erros.length || avisos.length)) process.exit(1);
+if (erros.length || avisos.length) process.exit(0);
 console.log('\n✓ toda a arte é do destino certo.\n');

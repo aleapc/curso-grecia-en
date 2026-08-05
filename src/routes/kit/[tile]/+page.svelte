@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-  <title>{data.tile.rotulo} · ¡Dime!</title>
+  <title>{data.tile.rotulo} · Ορίστε!</title>
 </svelte:head>
 
 <KitTela voltarPara="{base}/kit/">

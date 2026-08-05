@@ -4,6 +4,13 @@
 // hard-coded. Derivar um SKU novo = copiar este arquivo e trocar os valores.
 
 export const curso = {
+  /**
+   * Identidade do SKU, e ela NÃO é cosmética: é o namespace de
+   * localStorage. Todos os cursos servem de aleapc.github.io/<curso>/, e
+   * localStorage é por ORIGEM, não por caminho — sem isto, os cursos leem e
+   * sobrescrevem o progresso uns dos outros.
+   */
+  sku: 'curso-grecia-en',
   /** Idioma do comprador (a voz-guia). */
   buyerLang: 'en',
   /** Idioma do destino (a fala nativa ensinada). */

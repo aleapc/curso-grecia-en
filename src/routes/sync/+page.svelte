@@ -75,12 +75,12 @@
   {:else if estado === 'fora'}
     <h1 class="text-2xl font-extrabold">Almost there 📲</h1>
     <p class="mx-auto mt-2 max-w-sm text-carvao/70">
-      This link opened in your <b>browser</b> — but your progress lives in the <b>¡Dime! app</b> on
+      This link opened in your <b>browser</b> — but your progress lives in the <b>Ορίστε! app</b> on
       your home screen. Copy the code and paste it in there:
     </p>
     <ol class="mx-auto mt-3 max-w-sm space-y-1 text-left text-sm text-carvao/70">
       <li>1. Tap <b>Copy code</b> below</li>
-      <li>2. Open the <b>¡Dime!</b> app on your home screen (on a computer: the course home)</li>
+      <li>2. Open the <b>Ορίστε!</b> app on your home screen (on a computer: the course home)</li>
       <li>3. Under <b>Sync</b>, paste it and import</li>
     </ol>
     <button class="btn-primary mt-4" onclick={copiar}>

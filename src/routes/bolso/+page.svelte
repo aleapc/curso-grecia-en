@@ -109,7 +109,7 @@
   const fieldClass = 'w-full rounded-xl border border-black/10 bg-white px-3 py-2 text-right text-lg font-semibold outline-none focus:border-terracota';
 </script>
 
-<svelte:head><title>Traveler's pocket · ¡Dime!</title></svelte:head>
+<svelte:head><title>Traveler's pocket · Ορίστε!</title></svelte:head>
 
 <div class="mx-auto max-w-lg space-y-6 pb-8">
   <header>

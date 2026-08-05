@@ -60,8 +60,8 @@
   >
     <div class="flex items-center justify-between gap-2">
       <a href="{base}/" class="flex items-baseline gap-1.5">
-        <span class="text-lg font-extrabold text-terracota">¡Dime!</span>
-        <span class="hidden text-xs font-medium text-carvao/50 sm:inline">· Spain survival Spanish</span>
+        <span class="text-lg font-extrabold text-terracota">Ορίστε!</span>
+        <span class="hidden text-xs font-medium text-carvao/50 sm:inline">· Greece survival Greek</span>
       </a>
       <div class="flex items-center gap-1">
         {#each PROFILES as p}

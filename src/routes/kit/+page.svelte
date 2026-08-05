@@ -37,7 +37,7 @@
 </script>
 
 <svelte:head>
-  <title>The kit · ¡Dime!</title>
+  <title>The kit · Ορίστε!</title>
 </svelte:head>
 
 <KitTela>

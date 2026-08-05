@@ -42,7 +42,7 @@
 </script>
 
 <svelte:head>
-  <title>{data.folha.rotulo} · ¡Dime!</title>
+  <title>{data.folha.rotulo} · Ορίστε!</title>
 </svelte:head>
 
 <KitTela voltarPara="{base}/kit/{data.tile.id}/">
