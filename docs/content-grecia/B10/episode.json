@@ -1,0 +1,368 @@
+{
+  "id": "b10",
+  "nivel": "basico",
+  "numero": 10,
+  "parte": "B10",
+  "titulo": "ΡΟΔΟΣ is not Podos — reading the sign and saying the word",
+  "subtitulo": "Five letters do not mean what your eye says, and the Latin line underneath is a spelling, not a pronunciation",
+  "cena": "A departures board, a street corner and a shop door, each written twice — once in letters you are learning to match and once in letters that mislead you.",
+  "moldura": "ganha",
+  "frasePiso": "Read the sign to find the place. Say the place out loud with ψάχνω.",
+  "moldes": [
+    "PSAXNO"
+  ],
+  "clique": {
+    "contagem": [
+      "the ferry gate",
+      "the kiosk in the square",
+      "the station window",
+      "the back of the café"
+    ],
+    "desconto": "Nobody gave you a sentence for each of those. You kept one opening and changed only the thing after it — and the opening worked even where you could not yet read the word.",
+    "piso": "Next time a sign is written in letters you cannot decode at speed, you will not stand there decoding. You will say what you are looking for and let someone point."
+  },
+  "fatosDatados": [
+    {
+      "id": "el-b10-elot",
+      "afirmacao": "The Greek romanisation standard is ELOT 743, second edition, 2001, identical to ISO 843:1997. It defines two types: Type 1, a reversible transliteration, and Type 2, a phonetic transcription. The standard names road signs and map toponyms as a case for Type 2 — and it does not impose which type an application must use. Each application chooses and declares.",
+      "fonte": "ΕΛΟΤ 743, 2ª edição, 2001, idêntica à ISO 843:1997. Τύπος 1 = transliteração reversível; Τύπος 2 = transcrição fonética, que «μπορεί να χρησιμοποιηθεί … στα οδικά σήματα, στα τοπωνύμια χαρτών». O padrão não impõe qual tipo usar.",
+      "ano": 2001,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-b10-n06"
+      ]
+    },
+    {
+      "id": "el-b10-pcgn",
+      "afirmacao": "The British Permanent Committee on Geographical Names records that ELOT 743 «is very widely used on road signs in Greece as well as printed guide books», that it «is a less reliable guide to Modern Greek pronunciation» than the BGN/PCGN 1962 system it replaced, and that «place names in Wikipedia and on Google Earth are not romanized consistently». PCGN adopted the system in 1996; the UN recommended it by resolution V/19 in 1987.",
+      "fonte": "PCGN britânico, «Greece Toponymic Factfile», abril de 2020 — texto bruto verificado. PCGN adotou em 1996; ONU recomendou pela resolução V/19 (1987).",
+      "ano": 2020,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-b10-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b10-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Greek signs come in two scripts. Only one of them is the place. The other is a spelling, not a sound."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b10-n02",
+      "bloco": "molde",
+      "pt": "The frame is ψάχνω, then the thing. It says what you are after long before you can read the word for it."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-b10-t01",
+      "es": "Ψάχνω την έξοδο.",
+      "pinyin": "PSAKH-no tin E-kso-dho",
+      "pt": "I'm looking for the exit.",
+      "tts": "Ψάχνω την έξοδο."
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "την έξοδο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b10-p01",
+      "promptPt": "The hall has four doors and the only word above them is in letters you are still matching. Say what you are after. Speak now.",
+      "audioKey": "el-b10-t01",
+      "es": "Ψάχνω την έξοδο.",
+      "pinyin": "PSAKH-no tin E-kso-dho",
+      "pt": "I'm looking for the exit.",
+      "tts": "Ψάχνω την έξοδο."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b10-r01",
+      "receptivo": true,
+      "es": "Εκεί, δεξιά. Γράφει ΕΞΟΔΟΣ πάνω από την πόρτα.",
+      "pt": "Over there, on the right. It says ΕΞΟΔΟΣ above the door.",
+      "tts": "Εκεί, δεξιά. Γράφει ΕΞΟΔΟΣ πάνω από την πόρτα.",
+      "acao": "You were handed the shape to look for. Find the two Ξ-and-Ο word above a door and walk at it."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b10-n03",
+      "bloco": "corpo",
+      "pt": "Five letters lie to your eye. Ρ is R, Η is I, Χ is CH, Β is V, and Υ comes out as ee."
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem",
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "το πλοίο για τη Ρόδο",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b10-p02",
+      "promptPt": "At the ferry gate the board reads ΡΟΔΟΣ and your printed ticket reads RODOS. Tell the agent which sailing you want. Speak now.",
+      "audioKey": "el-b10-t02",
+      "es": "Ψάχνω το πλοίο για τη Ρόδο.",
+      "pinyin": "PSAKH-no to PLEE-o ya ti RO-dho",
+      "pt": "I'm looking for the boat to Rhodes.",
+      "tts": "Ψάχνω το πλοίο για τη Ρόδο."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b10-r02",
+      "receptivo": true,
+      "es": "Ρόδος; Πύλη τρία, στο βάθος αριστερά.",
+      "pt": "Rhodes? Gate three, at the far end on the left.",
+      "tts": "Ρόδος; Πύλη τρία, στο βάθος αριστερά.",
+      "acao": "The Ρ at the front is an R sound, not a P. Repeat the gate number back before you move."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b10-n04",
+      "pt": "The British board on geographical names calls that Latin line a less reliable guide to pronunciation. Read it, don't say it."
+    },
+    {
+      "consulta": [
+        "pagar/dinheiro"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "ένα ΑΤΜ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b10-p03",
+      "promptPt": "Your wallet is down to coins and there is a machine somewhere off this square. Ask at the kiosk. Speak now.",
+      "audioKey": "el-b10-t03",
+      "es": "Ψάχνω ένα ΑΤΜ.",
+      "pinyin": "PSAKH-no E-na ei-tee-EM",
+      "pt": "I'm looking for a cash machine.",
+      "tts": "Ψάχνω ένα ΑΤΜ."
+    },
+    {
+      "consulta": [
+        "transporte/qual-trem"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "POU-INE",
+      "encaixe": "η στάση",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b10-p04",
+      "promptPt": "You have the bus number written on your hand and no idea which side of the road it is picked up from. Ask a passer-by. Speak now.",
+      "audioKey": "el-b10-t04",
+      "es": "Πού είναι η στάση;",
+      "pinyin": "poo EE-ne ee STA-si",
+      "pt": "Where is the stop?",
+      "tts": "Πού είναι η στάση;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b10-n05",
+      "pt": "ΑΝΔΡΩΝ is men, ΓΥΝΑΙΚΩΝ is women. They end the same way, so read the front of the word."
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "την τουαλέτα",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b10-p05",
+      "promptPt": "Two unmarked doors at the back of the café and no picture on either one. Speak now.",
+      "audioKey": "el-b10-t05",
+      "es": "Ψάχνω την τουαλέτα.",
+      "pinyin": "PSAKH-no tin too-a-LE-ta",
+      "pt": "I'm looking for the toilet.",
+      "tts": "Ψάχνω την τουαλέτα."
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "μπορείτε να το γράψετε",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b10-p06",
+      "promptPt": "They have said the street name twice and it still has not landed in your ear. Ask for it on paper. Speak now.",
+      "audioKey": "el-b10-t06",
+      "es": "Συγγνώμη, μπορείτε να το γράψετε;",
+      "pinyin": "si-GHNO-mi, bo-REE-te na to GHRA-pse-te",
+      "pt": "Sorry, could you write it down?",
+      "tts": "Συγγνώμη, μπορείτε να το γράψετε;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b10-r03",
+      "receptivo": true,
+      "es": "Ναι, να σας το γράψω. Φαρμακείο — με φι και με κάπα.",
+      "pt": "Yes, let me write it for you. Φαρμακείο — with a phi and a kappa.",
+      "tts": "Ναι, να σας το γράψω. Φαρμακείο — με φι και με κάπα.",
+      "acao": "Now you are carrying the shape, not the sound. Hold the paper up against the words above the doors."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b10-n06",
+      "bloco": "capsula",
+      "pt": "One standard, two types, and no rule on which. A town can be spelled three ways across map, ticket and sign."
+    },
+    {
+      "consulta": [
+        "saude/algo-para"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "το φαρμακείο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b10-p07",
+      "promptPt": "The green cross you walked past yesterday is not on this street. Say what you are after at the kiosk in the square. Speak now.",
+      "audioKey": "el-b10-t07",
+      "es": "Ψάχνω το φαρμακείο.",
+      "pinyin": "PSAKH-no to far-ma-KEE-o",
+      "pt": "I'm looking for the chemist.",
+      "tts": "Ψάχνω το φαρμακείο."
+    },
+    {
+      "consulta": [
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "περάσω από εδώ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b10-p08",
+      "promptPt": "A rope and a small printed card block half the walkway, and someone in a uniform is standing beside it. Speak now.",
+      "audioKey": "el-b10-t08",
+      "es": "Μπορώ να περάσω από εδώ;",
+      "pinyin": "bo-RO na pe-RA-so a-PO e-DHO",
+      "pt": "Can I go through here?",
+      "tts": "Μπορώ να περάσω από εδώ;"
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "τα εισιτήρια",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b10-p09",
+      "promptPt": "Three of them in a row, and the word above the station window is still only a shape to you. Speak now.",
+      "audioKey": "el-b10-t09",
+      "es": "Ψάχνω τα εισιτήρια.",
+      "pinyin": "PSAKH-no ta ee-see-TEE-ree-a",
+      "pt": "I'm looking for the tickets.",
+      "tts": "Ψάχνω τα εισιτήρια."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-b10-s01",
+      "es": "Ψάχνω την έξοδο. Ψάχνω το φαρμακείο. Ψάχνω τα εισιτήρια.",
+      "pinyin": "PSAKH-no tin E-kso-dho. PSAKH-no to far-ma-KEE-o. PSAKH-no ta ee-see-TEE-ree-a",
+      "pt": "Shadow the same opening across three things you could not read a minute ago.",
+      "tts": "Ψάχνω την έξοδο. Ψάχνω το φαρμακείο. Ψάχνω τα εισιτήρια.",
+      "molde": "PSAXNO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b10-n07",
+      "bloco": "recap",
+      "pt": "B10 done. Ψάχνω plus the thing, five letters that lie, and a sign you now match by shape."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The sign, the Latin line, and the word you say out loud",
+    "secoes": [
+      {
+        "titulo": "The five letters that lie to an English eye",
+        "corpo": "Ρ is an R — ΡΟΔΟΣ is Rhodes, and reading it as Podos is the classic first error. Η is an I. Χ is CH. Β is V. Υ is written Y and sounds like ee. Add Ν, whose lowercase ν looks like a v; Ξ, which is X; Ψ, which is PS; and Θ, which is TH. Two clusters shift under you: ΜΠ comes out B or MP depending on where it sits, and ΕΥ comes out EV or EF depending on the sound after it.",
+        "exemplos": [
+          {
+            "es": "Ψάχνω το πλοίο για τη Ρόδο.",
+            "pt": "I'm looking for the boat to Rhodes."
+          },
+          {
+            "es": "Ψάχνω την έξοδο.",
+            "pt": "I'm looking for the exit."
+          }
+        ]
+      },
+      {
+        "titulo": "One standard, two jobs",
+        "corpo": "ELOT 743, second edition 2001, is identical to ISO 843:1997 and contains two systems, not one. Type 1 is a reversible transliteration: you can rebuild the Greek from it letter by letter. Type 2 is a phonetic transcription, and the standard names road signs and map place names as a case for that one. What the standard does not do is order anybody to pick a particular type — each application chooses and says which it used. Which is why the Latin line under a sign is doing a different job from the Latin line on your ticket."
+      },
+      {
+        "titulo": "Why the Latin line is not a script for your mouth",
+        "corpo": "The British Permanent Committee on Geographical Names, whose 2020 factfile on Greece is the reference in English, states plainly that ELOT 743 is a less reliable guide to Modern Greek pronunciation than the older BGN/PCGN system it replaced, while being very widely used on road signs and in printed guide books. Both halves matter. The romanised name is excellent for matching what you are holding to what is on the pole. It is a poor set of instructions for your mouth."
+      },
+      {
+        "titulo": "Words worth knowing by shape, not by sound",
+        "corpo": "ΕΞΟΔΟΣ out, ΕΙΣΟΔΟΣ in, ΩΘΗΣΑΤΕ push, ΣΥΡΑΤΕ pull, ΑΝΟΙΧΤΟ open, ΚΛΕΙΣΤΟ shut, ΤΑΜΕΙΟ the till, ΕΙΣΙΤΗΡΙΑ tickets, ΑΦΙΞΕΙΣ arrivals, ΑΝΑΧΩΡΗΣΕΙΣ departures, ΦΑΡΜΑΚΕΙΟ the chemist, ΤΡΑΠΕΖΑ the bank, ΑΝΔΡΩΝ and ΓΥΝΑΙΚΩΝ on the two doors at the back. Learn the silhouette of each, the way you know a logo, and the reading stops being letter work."
+      },
+      {
+        "titulo": "The same place, spelled three ways",
+        "corpo": "PCGN also records that place names in Wikipedia and on Google Earth are not romanized consistently. So your booking, your map app and the sign at the junction can disagree on the vowels and all three be the town you want. Trust the Greek spelling as the anchor: it is the one that does not move."
+      }
+    ]
+  },
+  "slot": "B10",
+  "permissao": "You are allowed to not read the alphabet yet. Matching a word by its shape is real reading, and saying ψάχνω plus the thing gets you moved along by someone who reads it fluently — you do not owe anybody a decoded sign before you are allowed to ask.",
+  "permissaoAudioKey": "el-b10-n02",
+  "espelho": "Anyone who has stood in front of a departures board in a country whose script they do not have, comparing a printed booking against a row of words letter by letter, already knows this exact stillness. The only new part is that here you can also just say what you are looking for.",
+  "fichasCulturais": [
+    {
+      "sinal": "You say the name of the town exactly as it is printed in Latin letters on your ticket, and the person you are asking looks blank.",
+      "suaLeitura": "My accent is so bad that a place name did not survive it.",
+      "oQueEAli": "The Latin line is a spelling system, not a pronunciation key. The British committee on geographical names records that the standard used on Greek road signs is a less reliable guide to Modern Greek pronunciation than the system it replaced. Reading it aloud produces something the ear on the other side was not expecting.",
+      "oQueVoceFaz": "Point at the Greek spelling while you say it, and let them say it back. Then repeat their version, not yours — you have just been given the word for free.",
+      "oQueMelhora": "Place names start landing on the first try, and the pointing turns a failed exchange into a two-second lesson you keep.",
+      "ondeNaoVale": "Not a reason to distrust the Latin line — it is exactly what lets you match a ticket to a sign, and plenty of names come out close enough that saying them as printed works perfectly well. It is a bad script for your mouth, not bad information.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b10-n04"
+      ]
+    },
+    {
+      "sinal": "The same town appears with three different Latin spellings across your booking, your map app and the sign at the roadside.",
+      "suaLeitura": "One of these is a typo, or I have the wrong place entirely.",
+      "oQueEAli": "The romanisation standard contains two different systems and does not order anyone to pick one; each application chooses. And the same British factfile records that place names in Wikipedia and on Google Earth are not romanized consistently. Three spellings of one name is the expected state of things, not an error.",
+      "oQueVoceFaz": "Treat the Greek spelling as the anchor and match it by shape. Photograph the Greek form of your destination before you set off, and compare that, not the Latin version.",
+      "oQueMelhora": "You stop losing minutes at junctions deciding whether two spellings are the same place, and you start carrying the one form that never shifts.",
+      "ondeNaoVale": "Not a licence to assume any two similar spellings must be the same place. Greece has genuinely distinct towns with names that differ by a letter, and the Greek spelling is what tells them apart — which is the whole reason to carry it.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b10-n06"
+      ]
+    }
+  ]
+}

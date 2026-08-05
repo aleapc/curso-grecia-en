@@ -1,0 +1,96 @@
+{
+  "id": "q-b04",
+  "nivel": "basico",
+  "titulo": "Quiz — The list that stops being free",
+  "subtitulo": "One phone call, five deadlines",
+  "introAudioKey": "el-b04-q-i",
+  "introPt": "Ten days before the flight, one call to the hotel closes the gaps that a phone call can still close.",
+  "cenario": "Your own kitchen table, a week and a half before departure.",
+  "dialogo": [
+    {
+      "audioKey": "el-b04-q01",
+      "voz": "target_el_m",
+      "es": "Ξενοδοχείο Αίγλη, καλημέρα.",
+      "pt": "Hotel Aigli, good morning.",
+      "tts": "Ξενοδοχείο Αίγλη, καλημέρα."
+    },
+    {
+      "audioKey": "el-b04-q02",
+      "voz": "target_el_f",
+      "es": "Γεια σας, τηλεφωνώ για την κράτηση. Ποια είναι η ακριβής διεύθυνση;",
+      "pt": "Hello, I'm calling about the booking. What is the exact address?",
+      "tts": "Γεια σας, τηλεφωνώ για την κράτηση. Ποια είναι η ακριβής διεύθυνση;"
+    },
+    {
+      "audioKey": "el-b04-q03",
+      "voz": "target_el_m",
+      "es": "Αριστοτέλους δώδεκα, τρίτος όροφος.",
+      "pt": "Aristotelous twelve, third floor.",
+      "tts": "Αριστοτέλους δώδεκα, τρίτος όροφος."
+    },
+    {
+      "audioKey": "el-b04-q04",
+      "voz": "target_el_f",
+      "es": "Μπορείτε να μου το γράψετε; Φτάνω στις δέκα το βράδυ.",
+      "pt": "Can you write it down for me? I arrive at ten at night.",
+      "tts": "Μπορείτε να μου το γράψετε; Φτάνω στις δέκα το βράδυ."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "A friend cancels the island leg. Can someone else use their ferry ticket?",
+      "opcoes": [
+        "Yes, a ferry ticket is a ticket like any other",
+        "No — Greek ferry tickets are nominal by law and carry the passenger's details",
+        "Only if the two passengers have the same nationality",
+        "Only on the mainland routes"
+      ],
+      "correta": 1,
+      "explica": "Name, sex, nationality and date of birth of every passenger are registered at the point of sale. Book each crossing under the person who will actually board."
+    },
+    {
+      "pergunta": "You have a European health card. What does it NOT do in Greece?",
+      "opcoes": [
+        "Get you into a state hospital",
+        "Cover a private provider that has no contract with the system",
+        "Cover outpatient care at a Κέντρο Υγείας",
+        "Cover an inpatient stay in the ΕΣΥ"
+      ],
+      "correta": 1,
+      "explica": "State hospital care is covered. At a private provider with no contract, the card covers nothing — which is why the card and travel insurance are two different products."
+    },
+    {
+      "pergunta": "A bill comes to six hundred euros. What does Greek law say about paying it in notes?",
+      "opcoes": [
+        "Fine, there is no ceiling for visitors",
+        "Fine up to a thousand euros",
+        "It has to go by card, transfer or another electronic means",
+        "It depends on the region"
+      ],
+      "correta": 2,
+      "explica": "The ceiling for a consumer paying a business in cash is five hundred euros. At or above that, the payment moves to card, transfer or another electronic route."
+    },
+    {
+      "pergunta": "Why save the hotel address in Greek letters as well as Latin ones?",
+      "opcoes": [
+        "Because Latin transliteration is illegal on Greek documents",
+        "Because the sign on the corner of the building is in Greek",
+        "Because Greek addresses have no numbers",
+        "Because taxi apps refuse Latin input"
+      ],
+      "correta": 1,
+      "explica": "The Latin version is what your booking gave you. The Greek version is what is bolted to the building and what a driver reads."
+    },
+    {
+      "pergunta": "«Μπορείτε να μου το γράψετε;» — when is it worth saying on this call?",
+      "opcoes": [
+        "Only if you did not understand anything at all",
+        "The moment someone reads out an address or a number you will need later",
+        "Never on the phone, only face to face",
+        "Only at the border desk"
+      ],
+      "correta": 1,
+      "explica": "An address read aloud does not survive the walk to the taxi rank. Asking for it in writing turns a memory into a note you can hand to someone."
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "id": "b14",
+  "nivel": "basico",
+  "numero": 14,
+  "parte": "B14",
+  "titulo": "Τον λογαριασμό — and the list by the door",
+  "subtitulo": "Greece writes the prices where you can read them, and asks before anything reaches your table",
+  "cena": "The end of a long dinner: bread and a bottle of water are on the table, neither of them ordered out loud, and the folded paper is on its way over.",
+  "moldura": "ganha",
+  "frasePiso": "Θα ήθελα τον λογαριασμό, παρακαλώ — and behind it, a list on the wall that you are entitled to read first.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "el-b14-kouver",
+      "afirmacao": "A cover charge is prohibited in Greece. Article 72 of the ΔΙ.Ε.Π.Π.Υ. rules bans charging κουβέρ, and no product at all — bread and bottled water explicitly included — may be served and then charged without prior consent. The fine is €500 per item. Bread may be charged as an item if it was offered and accepted. This is the opposite of Italy, where a declared coperto is lawful.",
+      "fonte": "COUVERT É PROIBIDO, e isso é um achado sólido. Art. 72 dos Κανόνες ΔΙ.Ε.Π.Π.Υ. (ΥΑ 91354/2017, ΦΕΚ Β΄2983/30.8.2017) proíbe cobrar κουβέρ, e nenhum produto — incluindo pão e água engarrafada — pode ser servido e cobrado sem consentimento prévio. Multa de €500 por item. Autuações reais documentadas (Cibum: Θεσσαλονίκη, Αρεόπολη). Pão pode ser cobrado como item, se oferecido e aceito.",
+      "ano": 2017,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-b14-n02",
+        "el-b14-n03",
+        "el-b14-n05"
+      ]
+    },
+    {
+      "id": "el-b14-timokatalogos",
+      "afirmacao": "A price list is compulsory, in Greek, visible at the entrance and again before you order, with prices inclusive of VAT. Absence of the list carries a €1,000 fine, and charging above the listed price carries €500 per item. Article 72 requires a visible list in self-service areas as well.",
+      "fonte": "Transparência de preço, arts. 70–71: lista obrigatória, em grego, visível na entrada E antes do pedido, preços com IVA; multa de €1.000 pela ausência de lista e €500 por item cobrado acima do listado. O art. 72 exige lista visível também em área self-service. Isso dá ao aluno um direito verificável da calçada.",
+      "ano": 2017,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-b14-n06",
+        "el-b14-n07"
+      ]
+    },
+    {
+      "id": "el-b14-apodeixi",
+      "afirmacao": "Issuing the receipt is the business's legal obligation, not the customer's. Law 4308/2014 governs it, and issue through a certified fiscal device has been required since 1 January 2015. There is no basis for saying the customer can be penalised for not carrying one.",
+      "fonte": "Recibo é obrigação do COMERCIANTE, não do cliente. ν.4308/2014, emissão por ΦΗΜ desde 01.01.2015. ⚠️ NÃO AFIRMAR que o cliente pode ser multado por não portar — dispositivo não localizado.",
+      "ano": 2014,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-b14-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b14-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "The bill in Greece has a rule sitting behind it that works in your favour, and almost no visitor knows it."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b14-n02",
+      "pt": "Nothing may be served and then charged without your prior consent. Not the bread. Not the bottled water."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b14-r01",
+      "es": "Να σας φέρω ψωμί; Χρεώνεται ένα ευρώ το άτομο.",
+      "pt": "Shall I bring you bread? It's charged at one euro per person.",
+      "tts": "Να σας φέρω ψωμί; Χρεώνεται ένα ευρώ το άτομο.",
+      "receptivo": true,
+      "acao": "That question is the law working. He is asking first, and naming the price. Yes or no are both fine answers."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b14-n03",
+      "bloco": "corpo",
+      "pt": "Κουβέρ — a flat cover charge — is simply not allowed. Five hundred euros per item, and inspectors do issue it."
+    },
+    {
+      "consulta": [
+        "mesa/conta",
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "THA-ITHELA",
+      "encaixe": "τον λογαριασμό",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b14-p01",
+      "promptPt": "Plates cleared, coffee finished, and he is passing the table. Catch him. Speak now.",
+      "audioKey": "el-b14-t01",
+      "es": "Θα ήθελα τον λογαριασμό, παρακαλώ.",
+      "pinyin": "tha EE-the-la ton lo-gha-ria-SMO, pa-ra-ka-LO",
+      "pt": "I'd like the bill, please.",
+      "tts": "Θα ήθελα τον λογαριασμό, παρακαλώ."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b14-n04",
+      "pt": "This is the opposite of Italy, where a declared coperto is lawful. Here consent is the whole hinge."
+    },
+    {
+      "consulta": [
+        "mesa/agua-pao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "THA-ITHELA",
+      "encaixe": "ένα νερό",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b14-p02",
+      "promptPt": "The table is dry and you would rather choose the bottle than have one appear. Order it yourself. Speak now.",
+      "audioKey": "el-b14-t02",
+      "es": "Θα ήθελα κι ένα νερό, παρακαλώ.",
+      "pinyin": "tha EE-the-la KYE-na ne-RO, pa-ra-ka-LO",
+      "pt": "I'd also like a water, please.",
+      "tts": "Θα ήθελα κι ένα νερό, παρακαλώ."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b14-n05",
+      "pt": "Bread can still appear on the bill — if it was offered and you said yes. Offered, accepted, charged. In that order."
+    },
+    {
+      "consulta": [
+        "mesa/conta",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b14-p03",
+      "promptPt": "There is a line on the paper you cannot read, with a number next to it. Put your finger on it. Speak now.",
+      "audioKey": "el-b14-t03",
+      "es": "Τι είναι αυτό;",
+      "pinyin": "tee EE-ne af-TO",
+      "pt": "What is this?",
+      "tts": "Τι είναι αυτό;"
+    },
+    {
+      "consulta": [
+        "mesa/agua-pao",
+        "pagar/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b14-p04",
+      "promptPt": "The bottle arrived on its own an hour ago and nobody asked. Say what happened, calmly and flatly. Speak now.",
+      "audioKey": "el-b14-t04",
+      "es": "Το νερό δεν το παραγγείλαμε.",
+      "pinyin": "to ne-RO dhen to pa-ra-GHEE-la-me",
+      "pt": "We didn't order the water.",
+      "tts": "Το νερό δεν το παραγγείλαμε."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b14-r02",
+      "es": "Α, συγγνώμη. Το βγάζω αμέσως.",
+      "pt": "Ah, sorry. I'll take it off right away.",
+      "tts": "Α, συγγνώμη. Το βγάζω αμέσως.",
+      "receptivo": true,
+      "acao": "That is the normal ending. One flat sentence, and the line comes off without anyone raising a voice."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b14-n06",
+      "pt": "There has to be a price list, in Greek, visible at the entrance and again before you order, with tax included."
+    },
+    {
+      "consulta": [
+        "mesa/carta",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "EXETE",
+      "encaixe": "τιμοκατάλογο",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b14-p05",
+      "promptPt": "You are standing at the entrance of a terrace with no board anywhere in sight. Ask before you sit down. Speak now.",
+      "audioKey": "el-b14-t05",
+      "es": "Έχετε τιμοκατάλογο;",
+      "pinyin": "EH-he-te ti-mo-ka-TA-lo-gho",
+      "pt": "Do you have a price list?",
+      "tts": "Έχετε τιμοκατάλογο;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b14-r03",
+      "es": "Βεβαίως, είναι στην είσοδο και στο μενού.",
+      "pt": "Of course, it's at the entrance and in the menu.",
+      "tts": "Βεβαίως, είναι στην είσοδο και στο μενού.",
+      "receptivo": true,
+      "acao": "Walk the four steps and read it. Thirty seconds at the door beats a conversation at the end."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b14-n07",
+      "pt": "No list at all is a thousand euro penalty. A price charged above the listed one is five hundred, per item."
+    },
+    {
+      "consulta": [
+        "mesa/carta",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "EXETE",
+      "encaixe": "τιμοκατάλογο για τα κρασιά",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b14-p06",
+      "promptPt": "He has recommended the house one from a jug and no number has been said out loud yet. Ask to see it written. Speak now.",
+      "audioKey": "el-b14-t06",
+      "es": "Έχετε τιμοκατάλογο για τα κρασιά;",
+      "pinyin": "EH-he-te ti-mo-ka-TA-lo-gho ya ta kra-SYA",
+      "pt": "Do you have a price list for the wines?",
+      "tts": "Έχετε τιμοκατάλογο για τα κρασιά;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b14-n08",
+      "pt": "The printed receipt is the business's duty, not yours. Take it, but nobody can penalise you for not carrying it."
+    },
+    {
+      "consulta": [
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "THA-ITHELA",
+      "encaixe": "την απόδειξη",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b14-p07",
+      "promptPt": "Cash is on the little plate and the change has come back without any paper. Speak now.",
+      "audioKey": "el-b14-t07",
+      "es": "Θα ήθελα την απόδειξη, παρακαλώ.",
+      "pinyin": "tha EE-the-la tin a-PO-dhi-ksi, pa-ra-ka-LO",
+      "pt": "I'd like the receipt, please.",
+      "tts": "Θα ήθελα την απόδειξη, παρακαλώ."
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b14-p08",
+      "promptPt": "Your pocket has four euros in coins and the total is a good deal more than that. Speak now.",
+      "audioKey": "el-b14-t08",
+      "es": "Δέχεστε κάρτα;",
+      "pinyin": "DHE-he-ste KAR-ta",
+      "pt": "Do you take card?",
+      "tts": "Δέχεστε κάρτα;"
+    },
+    {
+      "consulta": [
+        "pagar/rachar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b14-p09",
+      "promptPt": "Four of you, four cards, and one folded paper in the middle of the table. Speak now.",
+      "audioKey": "el-b14-t09",
+      "es": "Μπορούμε να πληρώσουμε χωριστά;",
+      "pinyin": "bo-ROO-me na pli-RO-soo-me ho-ri-STA",
+      "pt": "Can we pay separately?",
+      "tts": "Μπορούμε να πληρώσουμε χωριστά;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b14-n09",
+      "bloco": "capsula",
+      "pt": "Totals come fast. Δεκαοκτώ και πενήντα is eighteen fifty — catch the και and the cents are already yours."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b14-r04",
+      "es": "Δεκαοκτώ και πενήντα, παρακαλώ.",
+      "pt": "Eighteen fifty, please.",
+      "tts": "Δεκαοκτώ και πενήντα, παρακαλώ.",
+      "receptivo": true,
+      "acao": "Write the two halves down as you hear them: the euros before και, the cents after. Do not translate, just note."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-b14-s01",
+      "es": "Θα ήθελα τον λογαριασμό, παρακαλώ. Τι είναι αυτό; Δέχεστε κάρτα;",
+      "pinyin": "tha EE-the-la ton lo-gha-ria-SMO, pa-ra-ka-LO. tee EE-ne af-TO. DHE-he-ste KAR-ta",
+      "pt": "Shadow the three lines that close any meal in the country.",
+      "tts": "Θα ήθελα τον λογαριασμό, παρακαλώ. Τι είναι αυτό; Δέχεστε κάρτα;",
+      "molde": "THA-ITHELA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b14-n10",
+      "bloco": "recap",
+      "pt": "B14 done. The bill asked for, the list read at the door, and nothing on the paper you were not asked about first."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Consent, the list, and the paper",
+    "secoes": [
+      {
+        "titulo": "There is no cover charge here",
+        "corpo": "Article 72 of the Greek market conduct rules bans κουβέρ outright, and goes further: no product may be served and then charged without prior consent, with bread and bottled water named explicitly. The penalty is five hundred euros per item, and it has been issued in real inspections. Bread is still allowed on a bill — but only where it was offered, priced and accepted. If it landed silently and appears as a line, the sequence was wrong, and one flat sentence is all it takes to say so.",
+        "exemplos": [
+          {
+            "es": "Το νερό δεν το παραγγείλαμε.",
+            "pt": "We didn't order the water."
+          },
+          {
+            "es": "Το ψωμί δεν το ζητήσαμε.",
+            "pt": "We didn't ask for the bread."
+          }
+        ]
+      },
+      {
+        "titulo": "Why this surprises anyone who has been to Italy",
+        "corpo": "The Italian coperto is lawful when it is declared: you agree to it by sitting down at a place that has written it on the menu. Greece runs the opposite logic. There is no lawful flat charge for the privilege of the table, and the bread and water that arrive with it are goods like any other goods — they need an offer and a yes before they need a price. Travellers who have learned to shrug at the coperto often pay a Greek line they did not have to."
+      },
+      {
+        "titulo": "The list you can read from the pavement",
+        "corpo": "Articles 70 and 71 make a price list compulsory: written in Greek, displayed visibly at the entrance and again before you order, with prices including tax. No list is a thousand euro penalty on the business; a price charged above the listed one is five hundred per item. The practical value of this is that it happens before you commit. You can stand on the pavement, read the board, and choose — which is a much better place to have the conversation than a table with your coat already on the chair."
+      },
+      {
+        "titulo": "Whose job the receipt is",
+        "corpo": "Issuing the printed receipt is the business's legal obligation under Law 4308/2014, with issue through a certified fiscal device required since the start of 2015. So asking for it is not an accusation and not a favour; it is asking someone to do a thing they were going to have to do anyway. What you should not believe is the widely repeated claim that a customer can be penalised for walking out without one — no such provision has been located."
+      },
+      {
+        "titulo": "Tipping: the mechanics, and the number nobody has",
+        "corpo": "Tips exist and are recognised — a 2024 law exempts up to three hundred euros a month per worker from income tax and the whole amount from social contributions, which is about as institutional as recognition gets. What does not exist is a defensible percentage. No survey, sector federation or statistical source produces one. So learn the mechanics — ask for the bill, round the coins up or leave a small note — and treat any figure quoted online as somebody's guess rather than a rule you are breaking."
+      }
+    ]
+  },
+  "slot": "B14",
+  "permissao": "You are allowed to read the board before you sit down, and to ask what a line on the paper is. Neither of those is an accusation. The whole system here is built on telling you the price in advance and asking before serving you anything, which means the questions you were raised to swallow are the ones the rules already expect you to ask. And if something arrives that nobody offered you, one flat sentence — we did not order that — is the entire procedure. No argument, no raised voice, no bad evening.",
+  "permissaoAudioKey": "el-b14-n02",
+  "espelho": "Anyone who has ever looked at a bill at home, seen one line they did not recognise, and decided it was easier to pay it than to ask, already knows the exact feeling this part is about. The difference is that here the rules are unusually clearly on the side of asking, and the sentence is five words long.",
+  "fichasCulturais": [
+    {
+      "sinal": "Bread lands on the table, then a bottle of water, and nobody asked you about either one.",
+      "suaLeitura": "That is the local cover charge and I will just be paying for it — everywhere in the Mediterranean does this.",
+      "oQueEAli": "Not here. Article 72 of the ΔΙ.Ε.Π.Π.Υ. rules bans κουβέρ outright, and prohibits serving and charging for any product — bread and bottled water named explicitly — without prior consent, with a €500 fine per item. Bread may be charged only when it was offered and accepted. Places that do it properly ask you first and name the price, which is why you sometimes hear «να σας φέρω ψωμί;» before it arrives.",
+      "oQueVoceFaz": "When something arrives unasked, either wave it away as it lands or say τον λογαριασμό and then, flatly, το νερό δεν το παραγγείλαμε. If bread is offered with a price, say yes or no — both are ordinary answers.",
+      "oQueMelhora": "You stop paying for the Italian habit in a country that outlawed it, and you get the version of the exchange the rules were written to produce.",
+      "ondeNaoVale": "This is not a licence to dispute bread you accepted. If someone offered it, said the price and you nodded, it is an ordered item like any other. The rule is about the sequence — offer, consent, charge — not about bread being free.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b14-n02",
+        "el-b14-n03"
+      ]
+    },
+    {
+      "sinal": "You round the change up, leave a couple of coins, and get no visible reaction at all.",
+      "suaLeitura": "I got it wrong — I either left too little and offended someone, or too much and looked like a tourist.",
+      "oQueEAli": "Tipping is real and institutionally recognised — a 2024 law exempts up to €300 a month per worker from income tax, and the full amount from social contributions. What does not exist is a published percentage. Searches of research, sector federations and statistics produce nothing usable; every figure circulating online traces back to blogs and agencies. A quiet reaction is not a verdict, because there is no agreed number to be measured against.",
+      "oQueVoceFaz": "Do the mechanics and stop there: ask θα ήθελα τον λογαριασμό, παρακαλώ, look at the total, round it up or leave a small note, and let it go. If you want a steer, watch what the table next to you does.",
+      "oQueMelhora": "You stop running an anxious calculation at the end of every meal and treat the tip as what it is here — variable, optional in size, and nobody's test of you.",
+      "ondeNaoVale": "Do not read this as 'tipping does not happen'. It plainly does, enough for the state to legislate about its taxation. The honest position is narrower: the custom exists, the percentage is not documented, and anyone quoting you a firm figure is quoting a guess.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-b14-n08"
+      ]
+    }
+  ]
+}

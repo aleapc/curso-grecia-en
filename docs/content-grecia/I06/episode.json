@@ -1,0 +1,414 @@
+{
+  "id": "i06",
+  "nivel": "intermediario",
+  "numero": 24,
+  "parte": "I06",
+  "titulo": "Yesterday I went, I ate, I loved it",
+  "subtitulo": "The past you need is a short list of finished words, not a tense you have to build under pressure",
+  "cena": "Somebody at the next table asks what you did today, and the whole day is sitting in your head in English.",
+  "moldura": "ganha",
+  "frasePiso": "Ten finished words and one word for it was. That is the entire past this trip needs.",
+  "decisao": "quais três coisas eu conto e em que ordem; contar o dia de ontem no passado em vez de responder tudo no presente",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "el-i06-eisitirio",
+      "afirmacao": "A ferry ticket in Greece is personal by law: name, sex, nationality and date of birth are registered. The practical consequence for a traveller telling the story of a crossing: you cannot buy a ticket for somebody else, and you cannot pass a spare one on.",
+      "fonte": "Bilhete de balsa é NOMINAL por lei. π.δ. 23/1999, alterado pelo π.δ. 102/2019 (Diretiva UE 2017/2109): registro de nome, sexo, nacionalidade, data de nascimento. Consequência a ensinar: não se compra bilhete para outra pessoa nem se repassa bilhete.",
+      "ano": 2019,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-i06-n08"
+      ]
+    },
+    {
+      "id": "el-i06-temporada",
+      "afirmacao": "Greece took 29.3 million international air arrivals in 2024, up 9.7%. July is the peak with 5.0 million, 16.9% of the total, and January the low with 648 thousand, 2.2%. The summer share, June to August, fell from 56% in 2019 to 50% in 2024, with spring up 21% and winter up 16% — the season is widening rather than shifting.",
+      "fonte": "INSETE, International Air Arrivals 2023-2024 (mar/2025): 29,3 M de chegadas aéreas internacionais em 2024 (+9,7%); julho é o pico com 5,0 M, 16,9% do total; janeiro é o mínimo com 648 mil, 2,2%. A participação do verão (jun-ago) caiu de 56% em 2019 para 50% em 2024, com primavera +21% e inverno +16% — ou seja, a temporada está se alargando.",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-i06-n07"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i06-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "The past you need here is not a tense. It is about ten finished words and one word that means it was."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i06-r01",
+      "es": "Τι έκανες χθες;",
+      "pt": "What did you do yesterday?",
+      "tts": "Τι έκανες χθες;",
+      "receptivo": true,
+      "acao": "Some version of this arrives every single evening. Two sentences is a full answer, three is a story."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i06-n02",
+      "bloco": "corpo",
+      "pt": "Greek pulls the stress backwards when a thing is finished. Learn each one as its own word, not as a rule."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i06-p01",
+      "promptPt": "He asked about the day before, and you spent that morning up on the rock above the city. Speak now.",
+      "audioKey": "el-i06-t01",
+      "es": "Χθες πήγα στην Ακρόπολη.",
+      "pinyin": "hthes PEE-ga stin a-KRO-po-li",
+      "pt": "Yesterday I went to the Acropolis.",
+      "tts": "Χθες πήγα στην Ακρόπολη."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i06-r02",
+      "es": "Α μπράβο! Και πού έφαγες;",
+      "pt": "Ah, good for you! And where did you eat?",
+      "tts": "Α μπράβο! Και πού έφαγες;"
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i06-p02",
+      "promptPt": "Lunch was at the last table on the quay, and the boats were tied up two metres away. Speak now.",
+      "audioKey": "el-i06-t02",
+      "es": "Έφαγα ψάρι στο λιμάνι.",
+      "pinyin": "E-fa-ga PSA-ri sto li-MA-ni",
+      "pt": "I ate fish at the harbour.",
+      "tts": "Έφαγα ψάρι στο λιμάνι."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i06-n03",
+      "pt": "One word covers it was, they were and it was wonderful. It never changes, whatever you point it at."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i06-p03",
+      "promptPt": "He is waiting for the verdict on the whole day, and it deserves more than a nod. Speak now.",
+      "audioKey": "el-i06-t03",
+      "es": "Ήταν υπέροχα.",
+      "pinyin": "EE-tan i-PE-ro-ha",
+      "pt": "It was wonderful.",
+      "tts": "Ήταν υπέροχα."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-i06-r03",
+      "es": "Σου άρεσε;",
+      "pt": "Did you like it?",
+      "tts": "Σου άρεσε;",
+      "receptivo": true,
+      "acao": "One vowel apart from the present. The stress moves back and the day is over — listen for that."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i06-n04",
+      "pt": "Liking runs backwards here: the thing pleases you. Past and present differ by a vowel, so listen for it."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i06-p04",
+      "promptPt": "She asked about the place you have just described, and it is finished, done, yesterday. Speak now.",
+      "audioKey": "el-i06-t04",
+      "es": "Μου άρεσε πολύ.",
+      "pinyin": "moo A-re-se po-LEE",
+      "pt": "I liked it a lot.",
+      "tts": "Μου άρεσε πολύ.",
+      "molde": "MOU-ARESE",
+      "encaixe": "πολύ"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i06-p05",
+      "promptPt": "You stayed on the wall until the light went orange and then pink. Tell her what you watched. Speak now.",
+      "audioKey": "el-i06-t05",
+      "es": "Είδα το ηλιοβασίλεμα.",
+      "pinyin": "EE-tha to i-lio-va-SEE-le-ma",
+      "pt": "I saw the sunset.",
+      "tts": "Είδα το ηλιοβασίλεμα."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i06-n05",
+      "pt": "Three sentences is a story. The place, what you ate, and how it was — in that order, and then stop."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i06-p06",
+      "promptPt": "Last night somebody put a glass of the warm honey one in front of you and you had never met it. Speak now.",
+      "audioKey": "el-i06-t06",
+      "es": "Ήπια ρακόμελο για πρώτη φορά.",
+      "pinyin": "EE-pya ra-KO-me-lo ya PRO-ti fo-RA",
+      "pt": "I drank rakomelo for the first time.",
+      "tts": "Ήπια ρακόμελο για πρώτη φορά."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i06-n06",
+      "pt": "Name the actual place. A named village earns you a recommendation; a nice day out earns you a polite nod."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i06-p07",
+      "promptPt": "You spent three days on one island before this one, and it has a name worth saying. Speak now.",
+      "audioKey": "el-i06-t07",
+      "es": "Έμεινα τρεις μέρες στην Κρήτη.",
+      "pinyin": "E-mi-na tris ME-res stin KREE-ti",
+      "pt": "I stayed three days in Crete.",
+      "tts": "Έμεινα τρεις μέρες στην Κρήτη."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i06-r04",
+      "es": "Στην Κρήτη; Και πού αλλού πήγες;",
+      "pt": "In Crete? And where else did you go?",
+      "tts": "Στην Κρήτη; Και πού αλλού πήγες;",
+      "receptivo": true,
+      "acao": "The name did the work. He repeated it back and asked for more — give him the next place."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i06-p08",
+      "promptPt": "You came over on the boat, six hours, on the deck at the back. Say how you got here. Speak now.",
+      "audioKey": "el-i06-t08",
+      "es": "Πήρα το πλοίο για τη Νάξο.",
+      "pinyin": "PEE-ra to PLEE-o ya ti NA-kso",
+      "pt": "I took the boat to Naxos.",
+      "tts": "Πήρα το πλοίο για τη Νάξο."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i06-n07",
+      "pt": "July is the peak month for arrivals, and spring and winter are growing fastest. When you came is part of it."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i06-p09",
+      "promptPt": "The water was warm and nobody else was on that beach at eight in the morning. Speak now.",
+      "audioKey": "el-i06-t09",
+      "es": "Κολύμπησα στη θάλασσα.",
+      "pinyin": "ko-LEEM-bi-sa sti THA-la-sa",
+      "pt": "I swam in the sea.",
+      "tts": "Κολύμπησα στη θάλασσα."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i06-n08",
+      "pt": "Ferry tickets carry your name by law. You cannot buy one for someone else or pass a spare one on."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-i06-r05",
+      "es": "Το εισιτήριο του πλοίου είναι στο όνομά σου, έτσι;",
+      "pt": "The boat ticket is in your name, isn't it?",
+      "tts": "Το εισιτήριο του πλοίου είναι στο όνομά σου, έτσι;",
+      "receptivo": true,
+      "acao": "That is the law talking, not curiosity. Names go on ferry tickets and they are checked at the ramp."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i06-p10",
+      "promptPt": "You took a wrong turn in the old town for half an hour and came out somewhere better. Speak now.",
+      "audioKey": "el-i06-t10",
+      "es": "Χάθηκα λίγο, αλλά ήταν ωραία.",
+      "pinyin": "HA-thi-ka LEE-go, a-LA EE-tan o-RE-a",
+      "pt": "I got a bit lost, but it was lovely.",
+      "tts": "Χάθηκα λίγο, αλλά ήταν ωραία."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i06-p11",
+      "promptPt": "You walked the whole town twice and your legs know it. Say how the day went, in the past. Speak now.",
+      "audioKey": "el-i06-t11",
+      "es": "Περπάτησα πολύ σήμερα.",
+      "pinyin": "per-PA-ti-sa po-LEE SEE-me-ra",
+      "pt": "I walked a lot today.",
+      "tts": "Περπάτησα πολύ σήμερα."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i06-n09",
+      "bloco": "capsula",
+      "pt": "Finish on the future. One short sentence about coming back is what turns the story into a promise."
+    },
+    {
+      "consulta": [
+        "simpatia/convite",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i06-p12",
+      "promptPt": "The story is told, everyone is smiling, and you fly on Sunday. Close it with next time. Speak now.",
+      "audioKey": "el-i06-t12",
+      "es": "Θα ξανάρθω.",
+      "pinyin": "tha ksa-NAR-tho",
+      "pt": "I'll come back.",
+      "tts": "Θα ξανάρθω."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-i06-s01",
+      "es": "Χθες πήγα στην Ακρόπολη. Έφαγα ψάρι στο λιμάνι. Ήταν υπέροχα. Θα ξανάρθω.",
+      "pinyin": "hthes PEE-ga stin a-KRO-po-li. E-fa-ga PSA-ri sto li-MA-ni. EE-tan i-PE-ro-ha. tha ksa-NAR-tho",
+      "pt": "Shadow a whole day: where you went, what you ate, how it was, and the promise on the end.",
+      "tts": "Χθες πήγα στην Ακρόπολη. Έφαγα ψάρι στο λιμάνι. Ήταν υπέροχα. Θα ξανάρθω."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i06-n10",
+      "bloco": "recap",
+      "pt": "I06 done. Ten finished words, one it was, and a day of yours told out loud in three sentences."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Ten finished words and one it was",
+    "secoes": [
+      {
+        "titulo": "The list, and why it is a list",
+        "corpo": "Πήγα, έφαγα, ήπια, είδα, πήρα, έμεινα, περπάτησα, κολύμπησα, χάθηκα, μου άρεσε. Ten words, each one already finished, each one learned whole. Building them out of their present-tense forms is a job for somebody who is staying a year; recognising them as ten separate words is a job for one evening, and it covers every story a trip produces.",
+        "exemplos": [
+          {
+            "es": "Χθες πήγα στην Ακρόπολη.",
+            "pt": "Yesterday I went to the Acropolis."
+          },
+          {
+            "es": "Έφαγα ψάρι στο λιμάνι.",
+            "pt": "I ate fish at the harbour."
+          }
+        ]
+      },
+      {
+        "titulo": "The stress moves, and that is the signal",
+        "corpo": "Greek marks the tonic syllable in writing on every word of two syllables or more, and the finished forms very often carry it further back than the present ones do. You do not need the rule behind it. You need to hear that the accent has moved and to put it where the written mark is — which is the one piece of Greek spelling that pays you back immediately."
+      },
+      {
+        "titulo": "Ήταν does everything",
+        "corpo": "It was, they were, it was lovely, it was awful, it was full. One form, no agreement, no number. Pair it with two or three adjectives — υπέροχα, ωραία, γεμάτο — and you have a verdict for anything that already happened, which is the second half of every story anyone will ask you for."
+      },
+      {
+        "titulo": "Μου άρεσε, one vowel from μου αρέσει",
+        "corpo": "The present says it pleases me and the past says it pleased me, and the difference sits in the last vowel and in where the stress lands. Say the past one about a place you have already left and the present one about the country you are standing in, and you will be right nearly every time."
+      },
+      {
+        "titulo": "The boat, and whose name is on it",
+        "corpo": "A ferry ticket in Greece is personal by law — name, sex, nationality, date of birth are all registered. So the crossing in your story is also a document with your name on it: you cannot buy the ticket for a friend who is running late, and a spare cannot be handed to anyone. Worth knowing before the ramp, not after."
+      }
+    ]
+  },
+  "slot": "I06",
+  "permissao": "You are allowed to tell it in three short sentences and stop. Nobody is waiting for the full itinerary, and «Χθες πήγα στην Ακρόπολη. Ήταν υπέροχα.» is a complete and adult account of a day. You are also allowed to get the ending of a word wrong while you are telling it — the day still happened, the person listening still knows where you went, and being understood is what the past tense is for.",
+  "permissaoAudioKey": "el-i06-n01",
+  "espelho": "Anybody who has come home from a trip and been asked how it was already knows this problem: the day was enormous and the answer that comes out is «good, yeah, really good». The fix is the same in both languages — name one place, name one thing you ate, and let the other person ask the second question.",
+  "fichasCulturais": [
+    {
+      "sinal": "You say the day was lovely and get a polite nod; you name the village and suddenly the chair is pulled closer.",
+      "suaLeitura": "My Greek was too weak the first time and better the second.",
+      "oQueEAli": "The name is what changed, not the grammar. A place name is the hook the other person can grab — they have been there, or their cousin has, or they will tell you the one you should have gone to instead. A general verdict gives them nothing to take hold of.",
+      "oQueVoceFaz": "Put the proper noun in the sentence: the village, the island, the harbour, the dish. Then stop and let the question come back to you.",
+      "oQueMelhora": "You stop delivering monologues and start collecting recommendations, which is the entire point of telling the story out loud.",
+      "ondeNaoVale": "Not a technique that survives being used on everybody. Somebody working a counter with a queue behind you is being friendly, not settling in for the afternoon, and the same three sentences are the right length there.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-i06-n06"
+      ]
+    },
+    {
+      "sinal": "A friend cannot travel and you offer to hand their ferry ticket to somebody else at the port.",
+      "suaLeitura": "A ticket is a ticket — whoever holds it can board.",
+      "oQueEAli": "Ferry tickets in Greece are personal by law: name, sex, nationality and date of birth are registered against the crossing. It is a passenger manifest requirement, and it is checked. The ticket is attached to a person, not to a seat.",
+      "oQueVoceFaz": "Buy each ticket in the name of the person travelling, and carry the document that matches it. If plans change, deal with the ticket office rather than with the person next to you in the queue.",
+      "oQueMelhora": "You are not turned away at the ramp with luggage in your hands, and changes get made where they can actually be made.",
+      "ondeNaoVale": "This is about the boat, not about everything. Urban bus and metro tickets are not personal in this way, and the rule says nothing about who may pay for the ticket — only about whose name goes on it.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i06-n08"
+      ]
+    }
+  ]
+}

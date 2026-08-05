@@ -74,4 +74,4 @@ export const outline: ModuloOutline[] = [
 ];
 
 // Gerado de static/img/ — a home só pede imagem que existe.
-export const COM_IMAGEM = new Set(["a01","a02","a03","a05","a06","a07","a08","b01","b02","b03","b04","b05","b06","b07","b08","b09","b10","b11","b12","b13","b14","b15","b16","b17","b18","c01","c02","c03","e01","e02","e03","e04","e05","e06","e07","e08","i01","i02","i03","i04","i05","i06","i07","i08","i09","i10"]);
+export const COM_IMAGEM = new Set(["a01","a02","a03","a04","a05","a06","a07","a08","b01","b02","b03","b04","b05","b06","b07","b08","b09","b10","b11","b12","b13","b14","b15","b16","b17","b18","i01","i02","i03","i04","i05","i06","i07","i08","i09","i10"]);

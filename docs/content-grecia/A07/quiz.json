@@ -1,0 +1,96 @@
+{
+  "id": "q-a07",
+  "nivel": "avancado",
+  "titulo": "Quiz — Welcome, discomfort and time to go",
+  "subtitulo": "Five questions about εσείς, the click that means no, and a goodbye that takes twenty minutes",
+  "introAudioKey": "el-a07-q-i",
+  "introPt": "A traveller learns to wait to be moved, and to start leaving long before leaving.",
+  "cenario": "One table, one hour, and four signals that arrive before the sentences do.",
+  "dialogo": [
+    {
+      "audioKey": "el-a07-q01",
+      "voz": "target_el_f",
+      "es": "Πώς σας λένε; Από πού είστε;",
+      "pt": "What's your name? Where are you from?",
+      "tts": "Πώς σας λένε; Από πού είστε;"
+    },
+    {
+      "audioKey": "el-a07-q02",
+      "voz": "target_el_m",
+      "es": "Έλα, πάμε στον ενικό. Τι λες;",
+      "pt": "Come on, let's drop the formal. What do you say?",
+      "tts": "Έλα, πάμε στον ενικό. Τι λες;"
+    },
+    {
+      "audioKey": "el-a07-q03",
+      "voz": "target_el_f",
+      "es": "Τσ. Δεν έχει σήμερα.",
+      "pt": "Nope. There isn't any today.",
+      "tts": "Τσ. Δεν έχει σήμερα."
+    },
+    {
+      "audioKey": "el-a07-q04",
+      "voz": "target_el_m",
+      "es": "Μη βιάζεσαι, κάτσε λίγο ακόμα.",
+      "pt": "Don't rush, stay a bit longer.",
+      "tts": "Μη βιάζεσαι, κάτσε λίγο ακόμα."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Politeness research places Greek and English on opposite sides. Which way round?",
+      "opcoes": [
+        "Greek towards distance and non-imposition, English towards involvement",
+        "Greek towards involvement and closeness, English towards distance and non-imposition",
+        "Both towards involvement, at different volumes",
+        "Neither has a documented orientation"
+      ],
+      "correta": 1,
+      "explica": "Greek is positive-politeness oriented, English negative-politeness oriented. The misreading is symmetrical: warmth reads as intrusion, reserve reads as coldness, and neither is about you."
+    },
+    {
+      "pergunta": "Someone you have met twice switches from εσείς to εσύ mid-conversation. What do you do?",
+      "opcoes": [
+        "Stay formal, to be safe",
+        "Switch with them, without commenting on it",
+        "Ask permission first",
+        "Apologise for your Greek"
+      ],
+      "correta": 1,
+      "explica": "The move is an offer of closeness. Accepting it in the same breath is the whole job; carefully staying formal after being invited is the one way to get it wrong."
+    },
+    {
+      "pergunta": "You ask a question and get a short click of the tongue with the chin going up. That is:",
+      "opcoes": [
+        "Impatience with the question",
+        "A request to repeat yourself",
+        "A complete no",
+        "Agreement"
+      ],
+      "correta": 2,
+      "explica": "The tilt with the click is a full answer, which is why no sentence follows it. An English ear reads the click as exasperation; it is closer to a shrug."
+    },
+    {
+      "pergunta": "Which gesture is the one you can send by accident and should avoid?",
+      "opcoes": [
+        "Waving with fingers together",
+        "An open palm pushed towards someone's face",
+        "Raising a hand to get attention",
+        "Nodding while listening"
+      ],
+      "correta": 1,
+      "explica": "The spread open palm pushed forward is a recognised insult. Wave with the fingers together, or raise a hand rather than pushing it out."
+    },
+    {
+      "pergunta": "You say να πηγαίνω and are told μη βιάζεσαι. What has happened?",
+      "opcoes": [
+        "You were rude to announce it",
+        "They did not understand you",
+        "You have opened the goodbye, and being held a while is its normal shape",
+        "They want you to pay first"
+      ],
+      "correta": 2,
+      "explica": "Leaving is a process, not an event. Start ten or fifteen minutes early, let the extra coffee happen, and close it at the door with καλή αντάμωση."
+    }
+  ]
+}

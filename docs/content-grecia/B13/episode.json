@@ -1,0 +1,393 @@
+{
+  "id": "b13",
+  "nivel": "basico",
+  "numero": 13,
+  "parte": "B13",
+  "titulo": "Έχω αλλεργία — the sentence that has to land the first time",
+  "subtitulo": "Said before the order, backed by a card written in Greek, and never softened into a preference",
+  "cena": "A taverna table where four small plates have already arrived in the middle, and the waiter is halfway through telling everyone what is in them.",
+  "moldura": "protege",
+  "frasePiso": "Έχω αλλεργία, the thing, and είναι σοβαρό. Three pieces, one job, said before anything is cooked.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "el-b13-112",
+      "afirmacao": "The European emergency number 112 works throughout Greece and reaches every service. The ambulance service ΕΚΑΒ has its own number, 166. Those two are the ones to carry. The number 1016, which circulates in travel material, is the commercial line of a private paid doctor service and appears on no list published by the Ministry of Health.",
+      "fonte": "Números (gov.gr; Υπ. Κλιματικής Κρίσης): 112 europeu, aciona tudo · 166 ΕΚΑΒ · 100 polícia · 199 bombeiros · 108 guarda costeira · 171 polícia turística. ⚠️ CORREÇÃO IMPORTANTE: 1016 NÃO é número público de emergência. É o telefone comercial dos «SOS Ιατροί», serviço privado pago.",
+      "ano": 2026,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "alto",
+      "audioKeys": [
+        "el-b13-n08"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b13-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "One sentence in this part has to work the first time. Not beautifully. Just clearly, and in Greek."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b13-n02",
+      "pt": "The hammer is έχω αλλεργία — I have an allergy — and then the thing. It never changes shape."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-b13-t01",
+      "es": "Έχω αλλεργία στα θαλασσινά.",
+      "pinyin": "EH-ho a-ler-YEE-a sta tha-la-si-NA",
+      "pt": "I have an allergy to seafood.",
+      "tts": "Έχω αλλεργία στα θαλασσινά."
+    },
+    {
+      "consulta": [
+        "dieta/dizer",
+        "saude/minha-alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b13-p01",
+      "promptPt": "The waiter has the pad open and nothing has gone to the kitchen yet. This is the moment. Speak now.",
+      "audioKey": "el-b13-t01",
+      "es": "Έχω αλλεργία στα θαλασσινά.",
+      "pinyin": "EH-ho a-ler-YEE-a sta tha-la-si-NA",
+      "pt": "I have an allergy to seafood.",
+      "tts": "Έχω αλλεργία στα θαλασσινά."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b13-r01",
+      "es": "Εντάξει. Θα ρωτήσω στην κουζίνα.",
+      "pt": "All right. I'll ask in the kitchen.",
+      "tts": "Εντάξει. Θα ρωτήσω στην κουζίνα.",
+      "receptivo": true,
+      "acao": "Wait for him to come back before you order. The trip to the kitchen is the answer, not a delay."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b13-n03",
+      "bloco": "corpo",
+      "pt": "Say it before you order, never when the plate arrives. A kitchen can only help you while it is still cooking."
+    },
+    {
+      "consulta": [
+        "dieta/nao-levam-a-serio",
+        "saude/minha-alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b13-p02",
+      "promptPt": "He nods and starts writing. You want the line that moves this out of the taste column. Speak now.",
+      "audioKey": "el-b13-t02",
+      "es": "Είναι σοβαρό.",
+      "pinyin": "EE-ne so-va-RO",
+      "pt": "It's serious.",
+      "tts": "Είναι σοβαρό."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b13-n04",
+      "pt": "Two words, είναι σοβαρό. In any language that is the difference between a request and a condition."
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "HORIS",
+      "encaixe": "ξηρούς καρπούς",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b13-p03",
+      "promptPt": "The salad on the board comes dressed with something crunchy on top. Subtract it. Speak now.",
+      "audioKey": "el-b13-t03",
+      "es": "Χωρίς ξηρούς καρπούς, παρακαλώ.",
+      "pinyin": "ho-REES ksi-ROOS kar-POOS, pa-ra-ka-LO",
+      "pt": "Without nuts, please.",
+      "tts": "Χωρίς ξηρούς καρπούς, παρακαλώ."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b13-r02",
+      "es": "Το ψάρι είναι φρέσκο, αλλά τηγανίζεται στο ίδιο λάδι με τα θαλασσινά.",
+      "pt": "The fish is fresh, but it is fried in the same oil as the seafood.",
+      "tts": "Το ψάρι είναι φρέσκο, αλλά τηγανίζεται στο ίδιο λάδι με τα θαλασσινά.",
+      "receptivo": true,
+      "acao": "That is a helpful answer, not a bad one. Ίδιο λάδι — same oil. Choose something else."
+    },
+    {
+      "consulta": [
+        "dieta/o-que-tem"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b13-p04",
+      "promptPt": "A white sauce has appeared beside the bread and nobody has named it. Ask about milk. Speak now.",
+      "audioKey": "el-b13-t04",
+      "es": "Έχει γάλα αυτό;",
+      "pinyin": "EH-hi GA-la af-TO",
+      "pt": "Does this have milk in it?",
+      "tts": "Έχει γάλα αυτό;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b13-n05",
+      "pt": "Χωρίς subtracts. It is the same small word you already used at the table, doing much heavier work here."
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "HORIS",
+      "encaixe": "γλουτένη",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b13-p05",
+      "promptPt": "You are ordering for someone at the table who cannot have wheat in anything. Speak now.",
+      "audioKey": "el-b13-t05",
+      "es": "Χωρίς γλουτένη, παρακαλώ.",
+      "pinyin": "ho-REES gloo-TE-ni, pa-ra-ka-LO",
+      "pt": "Without gluten, please.",
+      "tts": "Χωρίς γλουτένη, παρακαλώ."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b13-n06",
+      "pt": "Plates travel here. Μεζέδες land in the middle and everyone reaches, so your line belongs to the whole table."
+    },
+    {
+      "consulta": [
+        "dieta/o-que-tem"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b13-p06",
+      "promptPt": "A dish you did not order is being set down in the middle for everyone. Open it up before a fork goes in. Speak now.",
+      "audioKey": "el-b13-t06",
+      "es": "Τι έχει μέσα;",
+      "pinyin": "tee EH-hi ME-sa",
+      "pt": "What's in it?",
+      "tts": "Τι έχει μέσα;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b13-r03",
+      "es": "Γιαούρτι, αγγούρι, σκόρδο, και λίγο σουσάμι από πάνω.",
+      "pt": "Yoghurt, cucumber, garlic, and a little sesame on top.",
+      "tts": "Γιαούρτι, αγγούρι, σκόρδο, και λίγο σουσάμι από πάνω.",
+      "receptivo": true,
+      "acao": "The list came fast and the last item is the one that matters. Catch σουσάμι and answer it."
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "HORIS",
+      "encaixe": "σουσάμι",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b13-p07",
+      "promptPt": "He is still holding the plate and can take it back to the kitchen. Answer the last thing he said. Speak now.",
+      "audioKey": "el-b13-t07",
+      "es": "Χωρίς σουσάμι, παρακαλώ.",
+      "pinyin": "ho-REES soo-SA-mi, pa-ra-ka-LO",
+      "pt": "Without sesame, please.",
+      "tts": "Χωρίς σουσάμι, παρακαλώ."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b13-n07",
+      "pt": "Carry it written in Greek on your phone. A card takes your accent out of the exchange entirely."
+    },
+    {
+      "consulta": [
+        "dieta/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b13-p08",
+      "promptPt": "The room is loud and he has asked you to repeat yourself twice. Your phone is already open at the right screen. Speak now.",
+      "audioKey": "el-b13-t08",
+      "es": "Το έχω γραμμένο εδώ.",
+      "pinyin": "to EH-ho gra-ME-no e-DHO",
+      "pt": "I have it written here.",
+      "tts": "Το έχω γραμμένο εδώ."
+    },
+    {
+      "consulta": [
+        "dieta/cartao",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b13-p09",
+      "promptPt": "He has read the screen and understood. The person who needs to read it next is behind the door. Speak now.",
+      "audioKey": "el-b13-t09",
+      "es": "Μπορείτε να το δείξετε στην κουζίνα;",
+      "pinyin": "bo-REE-te na to DHEEK-se-te stin koo-ZEE-na",
+      "pt": "Could you show it to the kitchen?",
+      "tts": "Μπορείτε να το δείξετε στην κουζίνα;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b13-n08",
+      "pt": "If breathing changes, the number is 112. It reaches everything, in English, anywhere in the country. Ambulances are 166."
+    },
+    {
+      "consulta": [
+        "saude/minha-alergia",
+        "apuro/denuncia"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b13-p10",
+      "promptPt": "Something has gone wrong and there are people around you who do not yet know why. Two short sentences. Speak now.",
+      "audioKey": "el-b13-t10",
+      "es": "Χρειάζομαι βοήθεια. Έχω αλλεργία.",
+      "pinyin": "hri-A-zo-me vo-EE-thi-a. EH-ho a-ler-YEE-a",
+      "pt": "I need help. I have an allergy.",
+      "tts": "Χρειάζομαι βοήθεια. Έχω αλλεργία."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b13-n09",
+      "bloco": "capsula",
+      "pt": "Put the two halves together and say them as one breath. That version is the one you want in your mouth."
+    },
+    {
+      "consulta": [
+        "dieta/dizer",
+        "saude/minha-alergia"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b13-p11",
+      "promptPt": "New taverna, new waiter, and today the risk on the board is peanut oil. Both halves, one breath. Speak now.",
+      "audioKey": "el-b13-t11",
+      "es": "Έχω αλλεργία στα φιστίκια. Είναι σοβαρό.",
+      "pinyin": "EH-ho a-ler-YEE-a sta fi-STEE-kya. EE-ne so-va-RO",
+      "pt": "I have an allergy to peanuts. It's serious.",
+      "tts": "Έχω αλλεργία στα φιστίκια. Είναι σοβαρό."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-b13-s01",
+      "es": "Έχω αλλεργία στα θαλασσινά. Είναι σοβαρό. Χωρίς σουσάμι, παρακαλώ.",
+      "pinyin": "EH-ho a-ler-YEE-a sta tha-la-si-NA. EE-ne so-va-RO. ho-REES soo-SA-mi, pa-ra-ka-LO",
+      "pt": "Shadow the three lines you may need before a single order is written down.",
+      "tts": "Έχω αλλεργία στα θαλασσινά. Είναι σοβαρό. Χωρίς σουσάμι, παρακαλώ.",
+      "molde": "HORIS"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b13-n10",
+      "bloco": "recap",
+      "pt": "B13 done. The allergy said out loud, είναι σοβαρό behind it, χωρίς for the rest, and 112 if it turns."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Four pieces that travel together",
+    "secoes": [
+      {
+        "titulo": "Έχω αλλεργία σε — the block that does not bend",
+        "corpo": "Greek nouns change shape depending on their job in the sentence, and that is exactly what you do not want to be calculating while a waiter waits. So this one is learned whole, as a block, with the ending already on it: στα θαλασσινά, στα φιστίκια, στους ξηρούς καρπούς, στα γαλακτοκομικά, στη γλουτένη. You are not applying a rule. You are picking a finished phrase off a short shelf.",
+        "exemplos": [
+          {
+            "es": "Έχω αλλεργία στα θαλασσινά.",
+            "pt": "I have an allergy to seafood."
+          },
+          {
+            "es": "Έχω αλλεργία στα φιστίκια.",
+            "pt": "I have an allergy to peanuts."
+          }
+        ]
+      },
+      {
+        "titulo": "Είναι σοβαρό, and why it is not rude",
+        "corpo": "In English the polite instinct is to downplay: a bit of an allergy, if it is not too much trouble. That instinct is expensive here, because a hedged sentence is heard as a hedged requirement. Είναι σοβαρό is two words and it does the whole job — it moves the line from the column marked taste to the column marked cannot. Nobody in a kitchen will think less of you for it."
+      },
+      {
+        "titulo": "Χωρίς, once more",
+        "corpo": "You already met χωρίς when you were subtracting onion or ice. Here it is doing the same grammatical thing and a completely different practical one, so it is worth saying twice: χωρίς plus the thing, and the thing goes in as a block. Χωρίς γλουτένη. Χωρίς σουσάμι. Χωρίς ξηρούς καρπούς. Χωρίς γαρίδες.",
+        "exemplos": [
+          {
+            "es": "Χωρίς γλουτένη, παρακαλώ.",
+            "pt": "Without gluten, please."
+          },
+          {
+            "es": "Χωρίς σουσάμι, παρακαλώ.",
+            "pt": "Without sesame, please."
+          }
+        ]
+      },
+      {
+        "titulo": "The card, and why it beats your pronunciation",
+        "corpo": "Write the sentence in Greek letters, keep it on your phone, and hand the phone over. Το έχω γραμμένο εδώ gets it looked at; μπορείτε να το δείξετε στην κουζίνα; gets it looked at by the person who is actually holding the pan. A card is not a confession that your Greek failed. It is the version of the message that survives a loud room, a busy service and a language you have had for three weeks."
+      },
+      {
+        "titulo": "The two numbers, and the one that is not a number",
+        "corpo": "112 is the European emergency line and it works everywhere in Greece, reaching police, fire, coastguard and ambulance from a single call, including from a phone with no local credit. 166 is ΕΚΑΒ, the ambulance service, direct. Those are the two to have. A third number, 1016, circulates in travel material as though it were public: it is the commercial line of a private, paid doctor service and it is on no ministry list."
+      }
+    ]
+  },
+  "slot": "B13",
+  "permissao": "You are allowed to say this badly. A mispronounced αλλεργία with a serious face and a phone screen held up is worth more than a perfect sentence you decided not to risk. You are also allowed to say it twice, to say it to the second waiter after you already said it to the first, and to ask again about a dish that arrived without being ordered. Nobody at that table is keeping score, and repeating yourself here is not fussiness — it is the point of the sentence.",
+  "permissaoAudioKey": "el-b13-n02",
+  "espelho": "Anyone who has ever handed back a plate at home, or read a packet twice in a supermarket aisle, already knows the small social cost of asking and the much larger cost of not asking. The arithmetic is the same in Greek. Only the words are new, and there are four of them.",
+  "fichasCulturais": [
+    {
+      "sinal": "Small plates keep arriving in the middle of the table and everyone reaches into all of them, including the ones you did not order.",
+      "suaLeitura": "I only need to worry about my own plate, so I will check that one and leave the rest alone.",
+      "oQueEAli": "Ordering in μεζέδες means the unit of food is the table, not the person. Dishes are chosen collectively, land in the centre and are shared from there, so a restriction that is only handled at your own plate is not being handled at all. Eating together is central enough in the region that the Mediterranean Diet sits on the UNESCO intangible heritage list with Greece among the proposing states.",
+      "oQueVoceFaz": "Say the allergy line to the person taking the order for the whole table, not quietly to yourself, and ask τι έχει μέσα about any dish that arrives unnamed. Then use χωρίς on the shared dishes, not just the ones you personally wanted.",
+      "oQueMelhora": "The restriction gets built into what the table orders, which is far easier than trying to police a plate that seven forks are already reaching into.",
+      "ondeNaoVale": "This is about how ordering tends to work in a taverna, not a rule that individual plates do not exist. Plenty of places serve a single dish per person, and in a ψησταριά or a lunch counter your plate is simply yours. Read the room and the menu rather than assuming the shape.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-b13-n06"
+      ]
+    },
+    {
+      "sinal": "You say what you cannot eat and get warmth back instead of a nod — questions, a suggestion, a dish pushed towards you, possibly a small argument about what you should have instead.",
+      "suaLeitura": "They are not taking this seriously, or they are pushing food at me on purpose.",
+      "oQueEAli": "Research on politeness comparing Greek and English usage describes Greek as oriented towards involvement and closeness, and English towards distance and non-imposition. Two symmetrical misreadings follow: the English speaker hears involvement as intrusion, and the Greek speaker hears reserve as coldness. Taking an interest in what you can eat, and offering an alternative, is the involved version of taking it seriously.",
+      "oQueVoceFaz": "Stay with it rather than retreating. Repeat έχω αλλεργία, add είναι σοβαρό, and accept the offered alternative if it is safe — engaging with the suggestion is what signals that you took the offer seriously in return.",
+      "oQueMelhora": "You stop reading enthusiasm as pressure, and the person opposite you gets a clear answer instead of a polite English retreat they cannot interpret.",
+      "ondeNaoVale": "The politeness research describes an orientation, not the behaviour of any individual, and it is not a promise that every kitchen will handle cross-contamination well. If the answers stay vague after you have said είναι σοβαρό, that is information — order something simple and grilled, or eat somewhere else.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-b13-n04"
+      ]
+    }
+  ]
+}

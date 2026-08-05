@@ -1,0 +1,96 @@
+{
+  "id": "q-b02",
+  "nivel": "basico",
+  "titulo": "Quiz — Γεια σας on the way in, and nine more words",
+  "subtitulo": "The word that opens and closes, the one that does three jobs, and the hour nobody has fixed",
+  "introAudioKey": "el-b02-q-i",
+  "introPt": "A traveller walks into a small shop in the middle of the afternoon and leaves two minutes later.",
+  "cenario": "A small shop just after two in the afternoon, the owner behind the counter.",
+  "dialogo": [
+    {
+      "audioKey": "el-b02-q01",
+      "voz": "target_el_f",
+      "es": "Γεια σας.",
+      "pt": "Hello.",
+      "tts": "Γεια σας."
+    },
+    {
+      "audioKey": "el-b02-q02",
+      "voz": "target_el_m",
+      "es": "Καλό μεσημέρι! Ορίστε.",
+      "pt": "Good afternoon! Go ahead.",
+      "tts": "Καλό μεσημέρι! Ορίστε."
+    },
+    {
+      "audioKey": "el-b02-q03",
+      "voz": "target_el_f",
+      "es": "Όχι, ευχαριστώ. Μόνο αυτό.",
+      "pt": "No, thank you. Just this.",
+      "tts": "Όχι, ευχαριστώ. Μόνο αυτό."
+    },
+    {
+      "audioKey": "el-b02-q04",
+      "voz": "target_el_m",
+      "es": "Παρακαλώ. Γεια σας!",
+      "pt": "You're welcome. Goodbye!",
+      "tts": "Παρακαλώ. Γεια σας!"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Which greeting is safe with a shopkeeper you have never met?",
+      "opcoes": [
+        "Γεια σου, every time",
+        "Γεια σας — it covers anyone you are not close to, and more than one person",
+        "Neither; you need a different word for shops",
+        "Whichever one is shorter"
+      ],
+      "correta": 1,
+      "explica": "Use γεια σας always and you never have to decide. When γεια σου comes back at you, that is warmth arriving, not a correction."
+    },
+    {
+      "pergunta": "How many jobs does παρακαλώ do?",
+      "opcoes": [
+        "One — please",
+        "Three — please, you're welcome, and go ahead",
+        "Two — please and sorry",
+        "It is only used on the telephone"
+      ],
+      "correta": 1,
+      "explica": "Same four syllables, beat at the end, three positions. You will hear it far more often than you say it."
+    },
+    {
+      "pergunta": "It is half past two. Καλημέρα or καλησπέρα?",
+      "opcoes": [
+        "Καλημέρα — the rule says noon",
+        "There is no fixed hour; hand back whichever one reaches you, and γεια σας is safe at any time",
+        "Καλησπέρα — the rule says one o'clock",
+        "Neither is used in the afternoon"
+      ],
+      "correta": 1,
+      "explica": "No normative source sets the switch. Three usages coexist, καλό μεσημέρι sits in the gap, and native speakers hesitate in that band too."
+    },
+    {
+      "pergunta": "A question about your job or your hotel arrives quickly and directly. What is that?",
+      "opcoes": [
+        "A sign that something is being asked of you",
+        "A standard move in a politeness system built on involvement rather than distance",
+        "Rudeness, and you should end the conversation",
+        "A translation error"
+      ],
+      "correta": 1,
+      "explica": "The research describes two politeness systems, not two kinds of people. The mismatch runs both ways and produces two symmetrical misreadings."
+    },
+    {
+      "pergunta": "What does Greece's position in the English proficiency indices allow you to say?",
+      "opcoes": [
+        "A precise share of the population speaks English",
+        "It places among the high-proficiency countries in commercial self-selection indices — a direction, not a headcount",
+        "Almost nobody speaks English",
+        "Speaking is its strongest sub-score"
+      ],
+      "correta": 1,
+      "explica": "The samples are online and self-selected, as the publisher itself states. Speaking is the lowest of the four sub-scores, which is exactly where a short Greek sentence pays."
+    }
+  ]
+}

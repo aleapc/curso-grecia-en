@@ -1,0 +1,345 @@
+{
+  "id": "i01",
+  "nivel": "intermediario",
+  "numero": 19,
+  "parte": "I01",
+  "titulo": "Their clock, and the question that hands it to you",
+  "subtitulo": "The hour a room fills is not printed on the door — one short question at the door gets it from someone who lives there",
+  "cena": "Half past seven on a side street, four tables empty, a menu on the wall, and you are about to decide something about this place on the basis of an empty room.",
+  "moldura": "ganha",
+  "frasePiso": "Do not guess the hour. Ask it, and come back when they told you.",
+  "decisao": "what time you eat — whether you ask them for their hour instead of bringing your own, and whether you take the table out loud while you are still standing at the door",
+  "emJogo": "tempo",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "el-i01-kiriaki",
+      "afirmacao": "Sunday closing in Greece dates from 1909, and from the start it exempted restaurants, tavernas, patisseries, cafés and shops selling tourist goods — what a visitor needs was never inside the rule. The current regime is article 16 of law 4177/2013, with declared exceptions and tourist zones designated by ministerial decision.",
+      "fonte": "art. 16 do ν.4177/2013; fechamento dominical instituído em 1909, já então com exceção para restaurantes, tavernas, confeitarias, cafés e lojas de artigo turístico. ATENÇÃO: o regime do COMÉRCIO é politicamente disputado — uma decisão de liberalização foi julgada inconstitucional; não apresentar como estável. A exceção da restauração é a parte estável e é a única que o episódio afirma.",
+      "ano": 2013,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "el-i01-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "You will not find the dinner hour written anywhere. You find it by asking, and the answer is local."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i01-r01",
+      "receptivo": true,
+      "es": "Τώρα είναι νωρίς. Ο κόσμος έρχεται πιο μετά.",
+      "pt": "It's early now. People come later.",
+      "tts": "Τώρα είναι νωρίς. Ο κόσμος έρχεται πιο μετά.",
+      "acao": "Do not read the empty room as a verdict. He just gave you an hour — take it and come back."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i01-n02",
+      "bloco": "corpo",
+      "pt": "The useful question is about the kitchen, not the room. A room can be open long after the cooking stops."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i01-p01",
+      "promptPt": "You are outside a place you like the look of, and the lights are on. Find out when the cooking starts. Speak now.",
+      "audioKey": "el-i01-t01",
+      "es": "Τι ώρα ανοίγει η κουζίνα;",
+      "pinyin": "ti O-ra a-NI-yi i koo-ZI-na",
+      "pt": "What time does the kitchen open?",
+      "tts": "Τι ώρα ανοίγει η κουζίνα;",
+      "molde": "TI-ORA",
+      "encaixe": "ανοίγει η κουζίνα"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i01-r02",
+      "receptivo": true,
+      "es": "Η κουζίνα δουλεύει μέχρι τις έντεκα.",
+      "pt": "The kitchen runs until eleven.",
+      "tts": "Η κουζίνα δουλεύει μέχρι τις έντεκα.",
+      "acao": "Write the number down. That one number decides the whole evening."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i01-p02",
+      "promptPt": "You are at the door late and the last plates are going out. One question decides whether you sit down. Speak now.",
+      "audioKey": "el-i01-t02",
+      "es": "Μέχρι τι ώρα σερβίρετε;",
+      "pinyin": "ME-hri ti O-ra ser-VI-re-te",
+      "pt": "Until what time do you serve?",
+      "tts": "Μέχρι τι ώρα σερβίρετε;",
+      "molde": "TI-ORA",
+      "encaixe": "σερβίρετε"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i01-n03",
+      "bloco": "molde",
+      "pt": "The frame from part eleven still works. Tha íthela, then the thing — and here the thing is a table and a time."
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "THA-ITHELA",
+      "encaixe": "ένα τραπέζι για τις εννιά",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i01-p03",
+      "promptPt": "They told you the room fills at nine. Take nine, out loud, while you are still standing there. Speak now.",
+      "audioKey": "el-i01-t03",
+      "es": "Θα ήθελα ένα τραπέζι για τις εννιά.",
+      "pinyin": "tha I-the-la E-na tra-PE-zi ya tis e-NYA",
+      "pt": "I'd like a table for nine o'clock.",
+      "tts": "Θα ήθελα ένα τραπέζι για τις εννιά."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i01-r03",
+      "es": "Στις εννιά ή στις δέκα;",
+      "pt": "Nine or ten?",
+      "tts": "Στις εννιά ή στις δέκα;"
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "THA-ITHELA",
+      "encaixe": "να κλείσω τραπέζι για απόψε",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i01-p04",
+      "promptPt": "A different place, an empty afternoon, and you want tonight settled before you walk away. Speak now.",
+      "audioKey": "el-i01-t04",
+      "es": "Θα ήθελα να κλείσω τραπέζι για απόψε.",
+      "pinyin": "tha I-the-la na KLI-so tra-PE-zi ya a-PO-pse",
+      "pt": "I'd like to book a table for tonight.",
+      "tts": "Θα ήθελα να κλείσω τραπέζι για απόψε."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i01-n04",
+      "pt": "Ask what time they eat, not what time you should eat. The second one gets you the visitor answer."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i01-p05",
+      "promptPt": "You are talking to someone who lives on this street. Ask about their day, not about your plan. Speak now.",
+      "audioKey": "el-i01-t05",
+      "es": "Τι ώρα τρώτε εδώ;",
+      "pinyin": "ti O-ra TRO-te e-DHO",
+      "pt": "What time do you eat here?",
+      "tts": "Τι ώρα τρώτε εδώ;",
+      "molde": "TI-ORA",
+      "encaixe": "τρώτε εδώ"
+    },
+    {
+      "consulta": [
+        "chegar/entrar",
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i01-p06",
+      "promptPt": "You arrived and the room has three people in it. Check the hour instead of walking out. Speak now.",
+      "audioKey": "el-i01-t06",
+      "es": "Είναι νωρίς ακόμα;",
+      "pinyin": "I-ne no-RIS a-KO-ma",
+      "pt": "Is it still early?",
+      "tts": "Είναι νωρίς ακόμα;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i01-n05",
+      "bloco": "capsula",
+      "pt": "The greeting is a clock too, and between noon and five even people who live here hesitate over it."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i01-p07",
+      "promptPt": "It is two in the afternoon and you are walking into a bakery. Use the greeting built for that gap. Speak now.",
+      "audioKey": "el-i01-t07",
+      "es": "Καλό μεσημέρι.",
+      "pinyin": "ka-LO me-si-ME-ri",
+      "pt": "Good afternoon. (the midday one)",
+      "tts": "Καλό μεσημέρι."
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i01-p08",
+      "promptPt": "The table is booked for nine and you would rather walk another hour first. Ask. Speak now.",
+      "audioKey": "el-i01-t08",
+      "es": "Μπορούμε να έρθουμε πιο αργά;",
+      "pinyin": "bo-ROO-me na ER-thoo-me pyo ar-GA",
+      "pt": "Can we come later?",
+      "tts": "Μπορούμε να έρθουμε πιο αργά;",
+      "molde": "BORO",
+      "encaixe": "έρθουμε πιο αργά"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i01-n06",
+      "pt": "Sunday closing is old law with an old exception. Places that feed you were never inside the rule."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i01-p09",
+      "promptPt": "It is Saturday night and you are planning tomorrow around one particular room. Check it. Speak now.",
+      "audioKey": "el-i01-t09",
+      "es": "Είστε ανοιχτά την Κυριακή;",
+      "pinyin": "I-ste a-nih-TA tin kir-ya-KI",
+      "pt": "Are you open on Sunday?",
+      "tts": "Είστε ανοιχτά την Κυριακή;",
+      "molde": "EXETE",
+      "encaixe": "ανοιχτά την Κυριακή"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i01-r04",
+      "receptivo": true,
+      "es": "Την Κυριακή είμαστε ανοιχτά κανονικά.",
+      "pt": "On Sunday we're open as usual.",
+      "tts": "Την Κυριακή είμαστε ανοιχτά κανονικά.",
+      "acao": "Kanoniká is the word to catch: as usual, nothing special about it."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-i01-s01",
+      "es": "Τι ώρα ανοίγει η κουζίνα; Τι ώρα τρώτε εδώ; Θα ήθελα ένα τραπέζι για τις εννιά.",
+      "pinyin": "ti O-ra a-NI-yi i koo-ZI-na · ti O-ra TRO-te e-DHO · tha I-the-la E-na tra-PE-zi ya tis e-NYA",
+      "pt": "Shadow the three sentences that turn a whole day of eating into someone else's timetable.",
+      "tts": "Τι ώρα ανοίγει η κουζίνα; Τι ώρα τρώτε εδώ; Θα ήθελα ένα τραπέζι για τις εννιά.",
+      "molde": "THA-ITHELA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i01-n07",
+      "bloco": "recap",
+      "pt": "I01 done. Kitchen hours, a table taken out loud, and the greeting that tells you what time it is."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "One question instead of one number",
+    "secoes": [
+      {
+        "titulo": "Why this part has no hour in it",
+        "corpo": "There is a European time-use survey with exactly the table you would want, and Greece takes part in it, but the Greek figures were not extracted for this course. So the course does not print an hour. What it gives you instead is the question, which works in every town and does not go out of date: ti óra tróte edó.",
+        "exemplos": [
+          {
+            "es": "Τι ώρα τρώτε εδώ;",
+            "pt": "What time do you eat here?"
+          },
+          {
+            "es": "Είναι νωρίς ακόμα;",
+            "pt": "Is it still early?"
+          }
+        ]
+      },
+      {
+        "titulo": "The kitchen and the room are two different questions",
+        "corpo": "I kouzína is the cooking; the room around it often stays open for a drink long after the pots are off. Asking ti óra anígi i kouzína gets you the hour that matters, and méhri ti óra servírete gets you the other end of it.",
+        "exemplos": [
+          {
+            "es": "Μέχρι τι ώρα σερβίρετε;",
+            "pt": "Until what time do you serve?"
+          }
+        ]
+      },
+      {
+        "titulo": "Kaliméra, kalispéra and the gap in between",
+        "corpo": "There is no rule fixing the moment one becomes the other. Three usages live side by side, and there is a named prescriptive position holding that the evening starts at sunset and that kalispéra at midday is imported. Greek also has kaló mesiméri for exactly the ambiguous stretch. The honest teaching is that natives hesitate there too — so take back whatever comes at you and stop auditing yourself."
+      },
+      {
+        "titulo": "Sunday, and the exception older than the rule",
+        "corpo": "Sunday closing was instituted in 1909 and it already carried the exception for restaurants, tavernas, patisseries, cafés and tourist shops. The current framework is article 16 of law 4177/2013, with declared exceptions and ministerially designated tourist zones. The shop side of that framework is not settled — a liberalisation was struck down as unconstitutional and the question is still argued about locally — so treat it as something to check on the day rather than as a fixed timetable. The part that has not moved in a century is the part you eat in."
+      }
+    ]
+  },
+  "slot": "I01",
+  "permissao": "You are allowed to be hungry for two hours, and you are allowed to ask the hour out loud instead of working it out from how full a room looks. Nobody hears that question as ignorance — it is the question a person asks when they intend to come back.",
+  "permissaoAudioKey": "el-i01-n04",
+  "espelho": "Anyone who has landed somewhere and eaten dinner at six because the body clock had not moved yet knows this gap. It closes by itself in two days, and the only thing it costs in the meantime is which rooms you saw full.",
+  "fichasCulturais": [
+    {
+      "sinal": "You walk past a dining room early in the evening, see empty tables, and keep walking.",
+      "suaLeitura": "An empty room at dinner time means the people who live here have decided against this place.",
+      "oQueEAli": "An empty room at a given hour is information about the hour before it is information about the food. This course has no measured figure for the Greek dinner hour and will not invent one — which is precisely why the move is to ask rather than to read the room.",
+      "oQueVoceFaz": "Ask ti óra tróte edó, or ti óra anígi i kouzína, and come back at the hour you are handed.",
+      "oQueMelhora": "You stop filtering places by which ones are busy on the schedule you flew in with — a filter that reliably selects the rooms built for people who flew in.",
+      "ondeNaoVale": "Not a claim that early is always wrong. In high season, in a beach village, and anywhere the ferry timetable sets the day, rooms fill at hours that have nothing to do with habit.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-i01-n01"
+      ]
+    },
+    {
+      "sinal": "You say kaliméra at two in the afternoon and the answer comes back kalispéra.",
+      "suaLeitura": "I used the wrong one and I have just been corrected.",
+      "oQueEAli": "No normative source fixes the cut. Three usages coexist, one named prescriptive position holds that the evening begins at sunset and that kalispéra at midday is an imported habit, and the language has kaló mesiméri sitting in the gap. What came back at you is that person's usage, not a correction of yours.",
+      "oQueVoceFaz": "Use kaló mesiméri between noon and five if you want the safe one, and otherwise return whatever greeting you were given.",
+      "oQueMelhora": "You stop spending attention on a choice that natives make differently from each other, and put it into the sentence that follows the greeting.",
+      "ondeNaoVale": "Not a licence to treat the greeting as optional. The hesitation is about which one, never about whether — walking in with no greeting at all is a different thing entirely.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-i01-n05"
+      ]
+    }
+  ]
+}

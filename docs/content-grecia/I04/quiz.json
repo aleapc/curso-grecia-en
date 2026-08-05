@@ -1,0 +1,96 @@
+{
+  "id": "q-i04",
+  "nivel": "intermediario",
+  "titulo": "Quiz — One table, one bill, one goodnight",
+  "subtitulo": "The bread, the round, the list on the wall and the way out",
+  "introAudioKey": "el-i04-q-i",
+  "introPt": "Two travellers get through a whole evening — a table outside, a local glass and one bill — without a single surprise.",
+  "cenario": "A pavement table outside an ouzeri, half past ten, the plates arriving in the middle.",
+  "dialogo": [
+    {
+      "audioKey": "el-i04-q01",
+      "voz": "target_el_m",
+      "es": "Καλησπέρα! Έξω ή μέσα; Το ψωμί είναι ένα ευρώ το άτομο, το θέλετε;",
+      "pt": "Good evening! Outside or inside? The bread is one euro a head — do you want it?",
+      "tts": "Καλησπέρα! Έξω ή μέσα; Το ψωμί είναι ένα ευρώ το άτομο, το θέλετε;"
+    },
+    {
+      "audioKey": "el-i04-q02",
+      "voz": "target_el_f",
+      "es": "Έξω, παρακαλώ. Ναι στο ψωμί. Τι έχετε ντόπιο;",
+      "pt": "Outside, please. Yes to the bread. What do you have that's local?",
+      "tts": "Έξω, παρακαλώ. Ναι στο ψωμί. Τι έχετε ντόπιο;"
+    },
+    {
+      "audioKey": "el-i04-q03",
+      "voz": "target_el_m",
+      "es": "Ρακόμελο και τσίπουρο. Οι τιμές είναι στον τιμοκατάλογο, στην είσοδο.",
+      "pt": "Rakomelo and tsipouro. The prices are on the list, at the entrance.",
+      "tts": "Ρακόμελο και τσίπουρο. Οι τιμές είναι στον τιμοκατάλογο, στην είσοδο."
+    },
+    {
+      "audioKey": "el-i04-q04",
+      "voz": "target_el_f",
+      "es": "Δύο ρακόμελο. Κερνάω εγώ. Πόσο κάνει όλα μαζί;",
+      "pt": "Two rakomelo. This one's on me. How much is it all together?",
+      "tts": "Δύο ρακόμελο. Κερνάω εγώ. Πόσο κάνει όλα μαζί;"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Bread arrives at the table before you have ordered. What is the rule?",
+      "opcoes": [
+        "It is always free",
+        "It may be charged only if it was offered and you accepted",
+        "It is a cover charge and it is normal",
+        "It is charged per table, never per person"
+      ],
+      "correta": 1,
+      "explica": "A cover charge is prohibited outright, and no item — bread and bottled water named explicitly — may be served and billed without prior consent, at €500 per item. Offered and accepted, bread is a perfectly lawful line."
+    },
+    {
+      "pergunta": "Where do you find what the evening will cost before you sit down?",
+      "opcoes": [
+        "You ask the waiter, there is no list",
+        "On the price list, in Greek, at the entrance and again before you order",
+        "Only on the bill at the end",
+        "On the board only in tourist areas"
+      ],
+      "correta": 1,
+      "explica": "The list is compulsory, in Greek, visible at the entrance and before ordering, VAT included — €1,000 if it is missing, €500 for any item billed above the listed price."
+    },
+    {
+      "pergunta": "Somebody waves your money away and pays for the whole table. Best move?",
+      "opcoes": [
+        "Insist until he takes it",
+        "Thank him and get the next round in",
+        "Leave the money on the table anyway",
+        "Work out your share and transfer it later"
+      ],
+      "correta": 1,
+      "explica": "The round is the unit, not the individual drink. Taking the next one is the second half of the same gesture — arithmetic at one in the morning is not."
+    },
+    {
+      "pergunta": "How much should you tip?",
+      "opcoes": [
+        "Exactly ten per cent",
+        "Fifteen per cent, as at home",
+        "There is no standard percentage — rounding up is a complete answer",
+        "Nothing, tipping does not exist here"
+      ],
+      "correta": 2,
+      "explica": "Greek tax law recognises tips — up to €300 a month per worker is exempt from income tax — which confirms they exist and are normal. No defensible national percentage exists."
+    },
+    {
+      "pergunta": "You have a boat at seven and the table is staying out. How do you leave?",
+      "opcoes": [
+        "Slip away quietly so nobody breaks up the evening",
+        "Say you are going, say goodnight, and go",
+        "Wait until everybody else stands up",
+        "Announce that the evening is over"
+      ],
+      "correta": 1,
+      "explica": "Leaving is announced, not performed. «Εγώ φεύγω. Καληνύχτα!» ends your night without ending anybody else's, and «Τα λέμε αύριο» leaves the door open."
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "schema": "kit-audio-pre-v1",
+  "slot": "B03",
+  "targetLocale": "it-IT",
+  "buyerLocale": "en-US",
+  "status": "pending_generation",
+  "clips": [
+    {
+      "key": "el-b03-n01",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-b03-n02",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-b03-n03",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-b03-t01",
+      "role": "target_el_f",
+      "kind": "return"
+    },
+    {
+      "key": "el-b03-p01",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-b03-r01",
+      "role": "target_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-b03-n04",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-b03-p02",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-b03-t02",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-b03-p03",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-b03-t03",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-b03-p04",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-b03-t04",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-b03-n05",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-b03-p05",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-b03-t05",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-b03-r02",
+      "role": "target_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-b03-n06",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-b03-p06",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-b03-t06",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-b03-r03",
+      "role": "target_el_f",
+      "kind": "return"
+    },
+    {
+      "key": "el-b03-p07",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-b03-t07",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-b03-p08",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-b03-t08",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-b03-n07",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-b03-p09",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-b03-t09",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-b03-s01",
+      "role": "target_el_f",
+      "kind": "shadow"
+    },
+    {
+      "key": "el-b03-n08",
+      "role": "guide_en_us_f",
+      "kind": "recap"
+    },
+    {
+      "key": "el-b03-q-i",
+      "role": "guide_en_us_f",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "el-b03-q01",
+      "role": "target_el_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "el-b03-q02",
+      "role": "target_el_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "el-b03-q03",
+      "role": "target_el_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "el-b03-q04",
+      "role": "target_el_m",
+      "kind": "quiz"
+    }
+  ]
+}

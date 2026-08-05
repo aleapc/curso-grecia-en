@@ -1,0 +1,369 @@
+{
+  "id": "b12",
+  "nivel": "basico",
+  "numero": 12,
+  "parte": "B12",
+  "titulo": "Χωρίς — the one word that edits any plate",
+  "subtitulo": "Subtract instead of describing, and the kitchen has your version of the dish in a single word",
+  "cena": "A card with twenty lines on it, a dish you already want, and one ingredient in it that you would rather leave on the counter.",
+  "moldura": "ganha",
+  "frasePiso": "Χωρίς, then the thing you do not want. One word does the editing.",
+  "moldes": [
+    "HORIS"
+  ],
+  "clique": {
+    "contagem": [
+      "the taverna salad",
+      "the café glass",
+      "the souvlaki wrap",
+      "the plate of chips"
+    ],
+    "desconto": "Nobody taught you to describe a dish you wanted differently. You took one word, put it at the end, and changed only the thing after it.",
+    "piso": "Next time a plate is nearly right, you will not eat around the part you do not want. You will say one word before it is cooked."
+  },
+  "fatosDatados": [
+    {
+      "id": "el-b12-unesco",
+      "afirmacao": "The Mediterranean Diet is inscribed on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity, file ICH 00884, with Greece among the countries that submitted it. The inscription states verbatim: «Eating together is the foundation of the cultural identity and continuity of communities throughout the Mediterranean basin.»",
+      "fonte": "UNESCO, Lista Representativa do Patrimônio Cultural Imaterial da Humanidade, ficha ICH 00884 («Mediterranean Diet»), com a Grécia entre os proponentes. Verbatim: «Eating together is the foundation of the cultural identity and continuity of communities throughout the Mediterranean basin.»",
+      "ano": 2013,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-b12-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b12-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "You already know which dish you want. What you need now is one word that edits it."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b12-n02",
+      "bloco": "molde",
+      "pt": "The frame is χωρίς, then the thing you do not want. Subtract instead of describing."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-b12-t01",
+      "es": "Χωρίς κρεμμύδι, παρακαλώ.",
+      "pinyin": "kho-REES kre-MEE-dhi, pa-ra-ka-LO",
+      "pt": "Without onion, please.",
+      "tts": "Χωρίς κρεμμύδι, παρακαλώ."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "HORIS",
+      "encaixe": "κρεμμύδι",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b12-p01",
+      "promptPt": "The salad at this taverna comes built one way, and there is one thing in it you would rather leave out. Speak now.",
+      "audioKey": "el-b12-t01",
+      "es": "Χωρίς κρεμμύδι, παρακαλώ.",
+      "pinyin": "kho-REES kre-MEE-dhi, pa-ra-ka-LO",
+      "pt": "Without onion, please.",
+      "tts": "Χωρίς κρεμμύδι, παρακαλώ."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b12-r01",
+      "receptivo": true,
+      "es": "Χωρίς κρεμμύδι, εντάξει. Ντομάτα, αγγούρι, φέτα — όλα τα άλλα μέσα;",
+      "pt": "Without onion, fine. Tomato, cucumber, feta — everything else in?",
+      "tts": "Χωρίς κρεμμύδι, εντάξει. Ντομάτα, αγγούρι, φέτα — όλα τα άλλα μέσα;",
+      "acao": "They are reading the plate back to you. Say ναι, or take one more thing out while the list is still open."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b12-n03",
+      "bloco": "corpo",
+      "pt": "Χωρίς goes at the end, after the dish, and nothing in front of it has to change."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "HORIS",
+      "encaixe": "πάγο",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b12-p02",
+      "promptPt": "The café fills every cold glass to the rim before it pours, and you want the glass to be drink. Speak now.",
+      "audioKey": "el-b12-t02",
+      "es": "Χωρίς πάγο.",
+      "pinyin": "kho-REES PA-gho",
+      "pt": "Without ice.",
+      "tts": "Χωρίς πάγο."
+    },
+    {
+      "consulta": [
+        "dieta/o-que-tem"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b12-p03",
+      "promptPt": "A tray behind the glass at the bakery, no card beside it, and you cannot see what is under the top layer. Speak now.",
+      "audioKey": "el-b12-t03",
+      "es": "Τι έχει μέσα;",
+      "pinyin": "tee E-khi ME-sa",
+      "pt": "What's in it?",
+      "tts": "Τι έχει μέσα;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b12-n04",
+      "pt": "This is preference. The allergy sentence is a different tool, it is heavier, and it comes next."
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "HORIS",
+      "encaixe": "γλουτένη",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b12-p04",
+      "promptPt": "You are ordering at the souvlaki counter and the wrap is not going to work for you. Speak now.",
+      "audioKey": "el-b12-t04",
+      "es": "Χωρίς γλουτένη.",
+      "pinyin": "kho-REES ghloo-TE-ni",
+      "pt": "Without gluten.",
+      "tts": "Χωρίς γλουτένη."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "HORIS",
+      "encaixe": "λακτόζη",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b12-p05",
+      "promptPt": "At the café the coffee arrives with milk in it unless someone says otherwise, and milk does not sit well with you. Speak now.",
+      "audioKey": "el-b12-t05",
+      "es": "Χωρίς λακτόζη.",
+      "pinyin": "kho-REES la-KTO-zi",
+      "pt": "Without lactose.",
+      "tts": "Χωρίς λακτόζη."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b12-r02",
+      "receptivo": true,
+      "es": "Έχει γάλα μέσα, ναι. Θέλετε με σόγια;",
+      "pt": "It does have milk in it, yes. Would you like it with soya?",
+      "tts": "Έχει γάλα μέσα, ναι. Θέλετε με σόγια;",
+      "acao": "The answer came with an alternative attached. Stay for the second half before you decide."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b12-p06",
+      "promptPt": "The grilled fish is about to go out and you want it dressed the way the plate at the next table is. Speak now.",
+      "audioKey": "el-b12-t06",
+      "es": "Με πολύ λεμόνι.",
+      "pinyin": "me po-LEE le-MO-ni",
+      "pt": "With plenty of lemon.",
+      "tts": "Με πολύ λεμόνι."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b12-n05",
+      "bloco": "capsula",
+      "pt": "Eating together is on the UNESCO heritage list, with Greece among the countries that proposed it."
+    },
+    {
+      "consulta": [
+        "dieta/sem",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "HORIS",
+      "encaixe": "αλάτι",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b12-p07",
+      "promptPt": "At the taverna the chips come seasoned hard, and you would rather do that part at the table. Speak now.",
+      "audioKey": "el-b12-t07",
+      "es": "Χωρίς αλάτι.",
+      "pinyin": "kho-REES a-LA-ti",
+      "pt": "Without salt.",
+      "tts": "Χωρίς αλάτι."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b12-n06",
+      "pt": "Small plates for the middle get ordered the same way — one word at a time, out loud, as you go."
+    },
+    {
+      "consulta": [
+        "mesa/tamanho"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b12-p08",
+      "promptPt": "The small plate in the middle of the taverna table lasted four minutes and everyone is still looking at it. Speak now.",
+      "audioKey": "el-b12-t08",
+      "es": "Ένα ακόμα, παρακαλώ.",
+      "pinyin": "E-na a-KO-ma, pa-ra-ka-LO",
+      "pt": "One more, please.",
+      "tts": "Ένα ακόμα, παρακαλώ."
+    },
+    {
+      "consulta": [
+        "dieta/sem"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "HORIS",
+      "encaixe": "σάλτσα",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b12-p09",
+      "promptPt": "The souvlaki counter builds every wrap in the same order, and one of the layers is not for you. Speak now.",
+      "audioKey": "el-b12-t09",
+      "es": "Χωρίς σάλτσα.",
+      "pinyin": "kho-REES SAL-tsa",
+      "pt": "Without sauce.",
+      "tts": "Χωρίς σάλτσα."
+    },
+    {
+      "consulta": [
+        "mesa/carta",
+        "dieta/o-que-tem"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b12-p10",
+      "promptPt": "The trays are behind the counter at the taverna and the names on the card mean nothing to you yet. Speak now.",
+      "audioKey": "el-b12-t10",
+      "es": "Μπορώ να δω;",
+      "pinyin": "bo-RO na DHO",
+      "pt": "Can I have a look?",
+      "tts": "Μπορώ να δω;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b12-r03",
+      "receptivo": true,
+      "es": "Θέλετε να δείτε; Ελάτε, ελάτε.",
+      "pt": "You want to have a look? Come, come.",
+      "tts": "Θέλετε να δείτε; Ελάτε, ελάτε.",
+      "acao": "The invitation is the answer. Go and point at what you want instead of reading the card."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-b12-s01",
+      "es": "Χωρίς κρεμμύδι. Χωρίς πάγο. Χωρίς σάλτσα.",
+      "pinyin": "kho-REES kre-MEE-dhi. kho-REES PA-gho. kho-REES SAL-tsa",
+      "pt": "Shadow one word across three completely different counters.",
+      "tts": "Χωρίς κρεμμύδι. Χωρίς πάγο. Χωρίς σάλτσα.",
+      "molde": "HORIS"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b12-n07",
+      "bloco": "recap",
+      "pt": "B12 done. Χωρίς plus the thing, and any plate on the card can be your version of it."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Subtract, add, repeat",
+    "secoes": [
+      {
+        "titulo": "Χωρίς plus the thing",
+        "corpo": "One word, at the end, after whatever you ordered. Nothing in front of it moves and nothing agrees with anything. The items come in as blocks you will also see written on the card, which is the point: κρεμμύδι, πάγο, αλάτι, σάλτσα, γλουτένη, λακτόζη. Learn the six and you can edit most of what you are handed.",
+        "exemplos": [
+          {
+            "es": "Χωρίς κρεμμύδι, παρακαλώ.",
+            "pt": "Without onion, please."
+          },
+          {
+            "es": "Χωρίς πάγο.",
+            "pt": "Without ice."
+          }
+        ]
+      },
+      {
+        "titulo": "The other two directions",
+        "corpo": "Με is the opposite move: με πολύ λεμόνι, with plenty of lemon. Ένα ακόμα is more of the same thing, and it is how a table of small plates actually gets built — nobody orders the whole evening at once. And τι έχει μέσα is what you say before you decide anything at all, when the tray behind the glass has no card next to it."
+      },
+      {
+        "titulo": "Preference is not the allergy sentence",
+        "corpo": "Everything here is preference, and preference is allowed to be casual. If something in it would actually make you ill, this is not the tool: that has its own sentence, its own written card, and its own part of the course, and it is deliberately heavier than one word at the end of an order. Use χωρίς for the onion. Use the other one for the nut."
+      },
+      {
+        "titulo": "Ordering as it goes",
+        "corpo": "The Mediterranean Diet is on the UNESCO intangible heritage list with Greece among the countries that proposed it, and the inscription puts eating together at the centre of it. What that means for your evening is practical rather than philosophical: several small plates in the middle, ordered in waves, and ένα ακόμα doing more work than any menu column. You are not committing to a plan at the moment you sit down."
+      },
+      {
+        "titulo": "Μπορώ να δω;",
+        "corpo": "In many places it is perfectly acceptable to ask to look at what is there — μπορώ να δω, can I have a look — and pointing at a tray is a complete order in any language. Treat this as a thing you may ask, not as a custom you are owed: if the answer is a shake of the head, the card is the route and the question cost you nothing."
+      }
+    ]
+  },
+  "slot": "B12",
+  "permissao": "You are allowed to change a dish. Asking for it without the onion is not fussiness and it is not an insult to the kitchen — it is one word at the end of an order, and every counter you say it at will have heard it forty times that day.",
+  "permissaoAudioKey": "el-b12-n02",
+  "espelho": "Anyone who has ever picked something out of a sandwich at their own desk rather than send it back already knows the calculation. The only new part is that here the sentence costs one word and arrives before the food does.",
+  "fichasCulturais": [
+    {
+      "sinal": "You say χωρίς and one thing, and the person behind the counter reads the whole dish back at you before writing anything down.",
+      "suaLeitura": "They did not understand me and they are checking whether I meant it.",
+      "oQueEAli": "Reading the plate back is how an order gets confirmed out loud at a counter that does not work from a screen. The list you are hearing is your last chance to take out one more thing before it is built, which is why it comes as a question.",
+      "oQueVoceFaz": "Listen to the end of the list, then answer ναι, or add a second χωρίς. Do not start the whole order again — the first one landed.",
+      "oQueMelhora": "You stop repeating yourself into a confirmation, and you get the second edit in while the window is still open.",
+      "ondeNaoVale": "Not every counter does this, and a silent nod is not a sign of anything going badly. A busy grill on a Saturday writes it and moves on, and the plate comes out exactly as you asked.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-b12-n03"
+      ]
+    },
+    {
+      "sinal": "The dishes are in trays behind a counter, the card on the wall is in Greek, and you cannot tell which is which.",
+      "suaLeitura": "I will have to guess, or point at whatever the person in front of me ordered.",
+      "oQueEAli": "There is a sentence for this. In many places it is acceptable to ask to look — μπορώ να δω — and being shown the trays turns reading into pointing. What is reliable here is the language, not a rule about how any given kitchen is run.",
+      "oQueVoceFaz": "Ask μπορώ να δω, and if you are waved over, point and say αυτό. If nothing happens, fall back on τι έχει μέσα for the one line on the card you can half read.",
+      "oQueMelhora": "You order what is actually good there that day rather than the two words on the card you recognised.",
+      "ondeNaoVale": "This is a phrase you may use, not an entitlement to walk behind a counter. Plenty of kitchens are closed to the room for perfectly ordinary reasons, and the travel-book version of this — that visitors are generally invited in to inspect the pots — is not something this course can stand behind as a custom.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-b12-n06"
+      ]
+    }
+  ]
+}

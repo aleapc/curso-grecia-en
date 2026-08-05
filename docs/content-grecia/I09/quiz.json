@@ -1,0 +1,96 @@
+{
+  "id": "q-i09",
+  "nivel": "intermediario",
+  "titulo": "Quiz — The market, the long coffee, the square",
+  "subtitulo": "Sunday looks shut and is not",
+  "introAudioKey": "el-i09-q-i",
+  "introPt": "A traveller finds the market days, tries something at a stall, and learns what Sunday actually closes.",
+  "cenario": "A neighbourhood street on a Saturday morning, then the same street on a Sunday.",
+  "dialogo": [
+    {
+      "audioKey": "el-i09-q01",
+      "voz": "target_el_f",
+      "es": "Ψάχνω τη λαϊκή αγορά.",
+      "pt": "I'm looking for the street market.",
+      "tts": "Ψάχνω τη λαϊκή αγορά."
+    },
+    {
+      "audioKey": "el-i09-q02",
+      "voz": "target_el_m",
+      "es": "Η λαϊκή είναι Τετάρτη και Σάββατο, μέχρι τις δύο.",
+      "pt": "The market is Wednesday and Saturday, until two.",
+      "tts": "Η λαϊκή είναι Τετάρτη και Σάββατο, μέχρι τις δύο."
+    },
+    {
+      "audioKey": "el-i09-q03",
+      "voz": "target_el_f",
+      "es": "Είστε ανοιχτά την Κυριακή;",
+      "pt": "Are you open on Sunday?",
+      "tts": "Είστε ανοιχτά την Κυριακή;"
+    },
+    {
+      "audioKey": "el-i09-q04",
+      "voz": "target_el_m",
+      "es": "Την Κυριακή τα μαγαζιά είναι κλειστά, αλλά τα καφέ και οι ταβέρνες ανοιχτά.",
+      "pt": "On Sunday the shops are closed, but the cafés and the tavernas are open.",
+      "tts": "Την Κυριακή τα μαγαζιά είναι κλειστά, αλλά τα καφέ και οι ταβέρνες ανοιχτά."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Sunday closing in Greece was instituted in 1909. Who was exempt from the very first version?",
+      "opcoes": [
+        "Nobody — the exceptions came much later",
+        "Only pharmacies",
+        "Restaurants, tavernas, patisseries, cafés and shops selling tourist goods",
+        "Only businesses inside designated tourist zones"
+      ],
+      "correta": 2,
+      "explica": "The half of a town a visitor actually uses has never been inside the rule. The current framework is article 16 of law 4177/2013."
+    },
+    {
+      "pergunta": "How should you treat a list of Sunday shop-opening rules you found online?",
+      "opcoes": [
+        "As settled law",
+        "As possibly out of date — the shop side has been contested and one liberalisation was struck down",
+        "As applying identically in every town",
+        "As irrelevant, since nothing opens"
+      ],
+      "correta": 1,
+      "explica": "Είστε ανοιχτά την Κυριακή; asked at the actual counter beats any list."
+    },
+    {
+      "pergunta": "You finish your freddo and nobody brings the bill. That means:",
+      "opcoes": [
+        "You have been forgotten",
+        "You are expected to leave now",
+        "The bill comes when you ask for it — the order bought the table",
+        "You must order a second one to stay"
+      ],
+      "correta": 2,
+      "explica": "One glass is the cost of the hour. Τον λογαριασμό, παρακαλώ is what ends it."
+    },
+    {
+      "pergunta": "Which opening puts an action after it rather than a thing?",
+      "opcoes": [
+        "Ψάχνω",
+        "Μπορώ να",
+        "Πόσο κάνει",
+        "Έχετε"
+      ],
+      "correta": 1,
+      "explica": "Μπορώ να δοκιμάσω, Μπορώ να καθίσω εδώ. Ψάχνω takes the thing or the place."
+    },
+    {
+      "pergunta": "The reply says the market is Τετάρτη και Σάββατο, μέχρι τις δύο. What do you write down first?",
+      "opcoes": [
+        "The days",
+        "The closing time",
+        "The street name",
+        "Nothing — you can check later"
+      ],
+      "correta": 0,
+      "explica": "Getting the time right on the wrong day costs you the whole morning. Days first, time second."
+    }
+  ]
+}

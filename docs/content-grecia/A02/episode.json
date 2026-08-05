@@ -1,0 +1,377 @@
+{
+  "id": "a02",
+  "nivel": "avancado",
+  "numero": 30,
+  "parte": "A02",
+  "titulo": "What they laugh at, and the one joke that is yours",
+  "subtitulo": "Πλάκα κάνω closes a tease before it can land badly, σιγά said flat means the opposite of what it says, and the joke that always works is the one about you",
+  "cena": "The table has just laughed at something said in a completely level voice, and you cannot tell whether anyone was insulted.",
+  "moldura": "ganha",
+  "frasePiso": "Laugh at yourself, laugh with them, and stay out of the old arguments. Self-deprecation travels; everything else is borrowed.",
+  "moldes": [],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a02-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Humour arrives last and misfires first. So this part is built mostly for your ear, and only a little for your mouth."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a02-n02",
+      "bloco": "corpo",
+      "pt": "The move you will hear most is flat irony. Σιγά and καλά, said perfectly level, mean the reverse of the words."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a02-r01",
+      "receptivo": true,
+      "acao": "Σιγά τα λάχανα is literally slow the cabbages and means big deal. Nobody is impressed, and nobody is angry either.",
+      "es": "Σιγά τα λάχανα!",
+      "pt": "Big deal!",
+      "tts": "Σιγά τα λάχανα!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a02-n03",
+      "pt": "Listen for the flatness, not the word. Real enthusiasm has a lift on it; the level version is the joke."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-a02-r02",
+      "receptivo": true,
+      "acao": "Καλά here is not fine. Said like this it is polite disbelief — closer to sure it is.",
+      "es": "Καλά, σοβαρά τώρα;",
+      "pt": "Right, seriously?",
+      "tts": "Καλά, σοβαρά τώρα;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a02-n04",
+      "bloco": "capsula",
+      "pt": "Second: the tease. It sounds much harder than it is meant, and it comes with its own closing signal."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a02-r03",
+      "receptivo": true,
+      "acao": "Πλάκα κάνω is the closer. It means I am joking, and it arrives fast, before anything can settle wrong.",
+      "es": "Έλα ρε, πλάκα κάνω!",
+      "pt": "Come on, I'm joking!",
+      "tts": "Έλα ρε, πλάκα κάνω!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a02-n05",
+      "pt": "Πλάκα κάνω, σε δουλεύω, αστειεύομαι — three ways of saying that was a joke. All three mean closeness."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-a02-r04",
+      "receptivo": true,
+      "acao": "Δουλεύω means to work. Με δουλεύεις means you are winding me up, and it is a friendly accusation.",
+      "es": "Με δουλεύεις τώρα;",
+      "pt": "Are you winding me up?",
+      "tts": "Με δουλεύεις τώρα;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a02-n06",
+      "pt": "The licence to tease is earned, not shared with the room. Being teased back a few days later is the sign it arrived."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a02-r05",
+      "receptivo": true,
+      "acao": "That is somebody's long-running argument with their own country. Laugh, enjoy it, and take no side at all.",
+      "es": "Αθήνα και Θεσσαλονίκη... δύο κόσμοι, σου λέω.",
+      "pt": "Athens and Thessaloniki... two different worlds, I'm telling you.",
+      "tts": "Αθήνα και Θεσσαλονίκη... δύο κόσμοι, σου λέω."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a02-n07",
+      "pt": "Two subjects look like small talk and are not: religion, and the old argument between one city and another."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a02-p01",
+      "promptPt": "The whole table has turned to you for a verdict on their own argument. Decline it, cheerfully, hands up. Speak now.",
+      "audioKey": "el-a02-t01",
+      "es": "Εγώ δεν λέω τίποτα!",
+      "pinyin": "e-GHO dhen LE-o TI-po-ta",
+      "pt": "I'm saying nothing!",
+      "tts": "Εγώ δεν λέω τίποτα!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a02-n08",
+      "pt": "That sentence is worth learning by heart. It gets a laugh, it costs nothing, and it keeps you out of every old argument."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-a02-r06",
+      "receptivo": true,
+      "acao": "A whole recognised genre, told between people who share it. You are the audience here, never the teller.",
+      "es": "Άκου μια. Πάει ένας στον γιατρό...",
+      "pt": "Listen to this one. So a bloke goes to the doctor...",
+      "tts": "Άκου μια. Πάει ένας στον γιατρό..."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a02-n09",
+      "pt": "That genre belongs to the people inside it. A visitor retelling one is not joining in — it lands as a verdict."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a02-n10",
+      "pt": "So what is yours? Make yourself the subject: your Greek, your reading of the alphabet, the size of your lunch."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a02-p02",
+      "promptPt": "Get in first about your own Greek, before anybody else has to be polite about it. Speak now.",
+      "audioKey": "el-a02-t02",
+      "es": "Τα ελληνικά μου είναι τραγικά!",
+      "pinyin": "ta e-li-ni-KA mu I-ne tra-yi-KA",
+      "pt": "My Greek is tragic!",
+      "tts": "Τα ελληνικά μου είναι τραγικά!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a02-r07",
+      "receptivo": true,
+      "acao": "The reassurance is quick and warm. Accept it — do not argue with a compliment.",
+      "es": "Όχι ρε, μια χαρά τα λες!",
+      "pt": "Not at all, you're doing fine!",
+      "tts": "Όχι ρε, μια χαρά τα λες!"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a02-p03",
+      "promptPt": "Confess what your first week at the bakery counter did to you, and sound pleased about it. Speak now.",
+      "audioKey": "el-a02-t03",
+      "es": "Έφαγα για τέσσερις!",
+      "pinyin": "E-fa-gha ya TE-se-ris",
+      "pt": "I ate enough for four!",
+      "tts": "Έφαγα για τέσσερις!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-a02-r08",
+      "receptivo": true,
+      "acao": "A joke aimed straight at you. Agreeing lands far better than defending yourself.",
+      "es": "Και το δεύτερο γλυκό; Ομολόγησε!",
+      "pt": "And the second pudding? Confess!",
+      "tts": "Και το δεύτερο γλυκό; Ομολόγησε!"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a02-p04",
+      "promptPt": "Own it instead of explaining yourself, and put the number up rather than down. Speak now.",
+      "audioKey": "el-a02-t04",
+      "es": "Ένοχος! Πήρα δύο.",
+      "pinyin": "E-no-hos! PI-ra DHI-o",
+      "pt": "Guilty! I had two.",
+      "tts": "Ένοχος! Πήρα δύο."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a02-n11",
+      "pt": "That is the whole move. Being teased and agreeing cheerfully is how a table stops handling you carefully."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a02-p05",
+      "promptPt": "You got there half a beat late, but you got there. Show it without explaining it. Speak now.",
+      "audioKey": "el-a02-t05",
+      "es": "Α, με δουλεύετε!",
+      "pinyin": "a, me dhu-LE-ve-te",
+      "pt": "Ah, you're winding me up!",
+      "tts": "Α, με δουλεύετε!"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a02-p06",
+      "promptPt": "Admit out loud what the sign at the port did to you on day one. It always gets a laugh. Speak now.",
+      "audioKey": "el-a02-t06",
+      "es": "Διάβασα «Ρόδος» και είπα «Πόδος»!",
+      "pinyin": "DHYA-va-sa RO-dhos ke I-pa PO-dhos",
+      "pt": "I read Rodos and said Podos!",
+      "tts": "Διάβασα Ρόδος και είπα Πόδος!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a02-n12",
+      "pt": "That one works because it is true, it is about you, and the letter that tripped you trips every visitor."
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz",
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a02-p07",
+      "promptPt": "Everyone laughed and you have no idea why. Ask, instead of doing the polite laugh. Speak now.",
+      "audioKey": "el-a02-t07",
+      "es": "Δεν κατάλαβα το αστείο. Μου το εξηγείτε;",
+      "pinyin": "dhen ka-TA-la-va to a-STI-o · mu to e-ksi-YI-te",
+      "pt": "I didn't get the joke. Explain it to me?",
+      "tts": "Δεν κατάλαβα το αστείο. Μου το εξηγείτε;"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a02-p08",
+      "promptPt": "Somebody teased you and you enjoyed it. Say so and hand them the point. Speak now.",
+      "audioKey": "el-a02-t08",
+      "es": "Με κάνετε και γελάω. Έχετε δίκιο!",
+      "pinyin": "me KA-ne-te ke ye-LA-o · E-he-te DHI-kyo",
+      "pt": "You make me laugh. You're right!",
+      "tts": "Με κάνετε και γελάω. Έχετε δίκιο!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-a02-s01",
+      "es": "Τα ελληνικά μου είναι τραγικά! Ένοχος! Πήρα δύο. Εγώ δεν λέω τίποτα!",
+      "pinyin": "ta e-li-ni-KA mu I-ne tra-yi-KA · E-no-hos PI-ra DHI-o · e-GHO dhen LE-o TI-po-ta",
+      "pt": "Shadow the three that cover it: laugh at yourself, own the tease, decline the argument.",
+      "tts": "Τα ελληνικά μου είναι τραγικά! Ένοχος! Πήρα δύο. Εγώ δεν λέω τίποτα!"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a02-n13",
+      "bloco": "recap",
+      "pt": "A02 done. Flat means inverted, πλάκα κάνω closes the tease, and the joke about yourself is the one that lands."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Receptive humour, and the lines that are yours",
+    "secoes": [
+      {
+        "titulo": "Flat delivery, inverted meaning",
+        "corpo": "Σιγά on its own, and the fuller σιγά τα λάχανα — literally slow the cabbages — mean big deal, and they are said without any change of pace to mark the joke. Καλά, which you learned as fine, does the same trick: level and slightly slow, it is polite disbelief rather than agreement. Because nothing in the delivery flags it, this register is invisible to an ear still working on vocabulary, which is exactly why it sits in this module rather than in the basic one.",
+        "exemplos": [
+          {
+            "es": "Σιγά τα λάχανα!",
+            "pt": "Big deal!"
+          },
+          {
+            "es": "Καλά, σοβαρά τώρα;",
+            "pt": "Right, seriously?"
+          }
+        ]
+      },
+      {
+        "titulo": "Πλάκα and δουλειά",
+        "corpo": "Πλάκα κάνω is the standard closer on a tease: I am joking. It comes fast, often before the tease has finished landing, and its speed is the point — it keeps the sharpness inside the friendship. Σε δουλεύω is the same move with a different image: δουλεύω means to work, and to work someone is to wind them up. Turned round, it is what you say when you have just caught one, and saying it is itself a way of joining in. Keep your own version in the -ετε form — με δουλεύετε — the way every other sentence you produce in this course is built: the εσύ/εσείς choice is a signal you read in other people, never a decision you make under pressure, and A07 comes back to exactly that."
+      },
+      {
+        "titulo": "The genres that are not yours",
+        "corpo": "Jokes about a neighbouring country, jokes about one Greek city against another, jokes about a region and its people all run constantly and all of them are internal. A visitor repeating one is not participating in a shared game; it reads as an outsider passing judgement on a family argument, and it costs more goodwill than the laugh is worth. Two topics deserve the same treatment for the same reason: religion, and any comparison between parts of the country. Listening is free. Retelling is not, and neither is having a view."
+      },
+      {
+        "titulo": "Εγώ δεν λέω τίποτα",
+        "corpo": "Learn this one by heart. It means I am saying nothing, it is delivered with a smile and both hands up, and it is the cheapest exit available from any conversation where somebody wants a foreigner to settle an argument about their own country. It gets a laugh because everybody at the table recognises the move. Nothing else you could say buys as much for as little."
+      },
+      {
+        "titulo": "The joke that is reliably yours",
+        "corpo": "Make yourself the subject. Your Greek, the amount you have eaten, the pudding you went back for, and above all the alphabet: reading ΡΟΔΟΣ aloud as Podos because the rho looks like a p is the visitor's error, and telling it against yourself is funny precisely because everyone has watched somebody do it. Self-deprecation is the one register that travels intact, and it also does something useful — it gets the anxiety about your accent out of the room before anybody has to be polite about it."
+      }
+    ]
+  },
+  "slot": "A02",
+  "permissao": "You are allowed to miss the joke and say so out loud. Δεν κατάλαβα το αστείο, half a beat late, is received far better than the polite laugh — which gives you away anyway — and asking what was funny is itself the friendliest thing you can do at a table that has just laughed.",
+  "permissaoAudioKey": "el-a02-n01",
+  "espelho": "Anyone who has laughed a half-second behind a group in their own language knows the small panic in this part. Humour is where fluency really gets measured, in every language, which is exactly why nobody expects you to be quick at it in your third week.",
+  "fichasCulturais": [
+    {
+      "sinal": "Someone says something that sounds like praise in a completely level voice, and the table laughs.",
+      "suaLeitura": "I missed a word, because that sentence was clearly positive and the laugh does not fit it.",
+      "oQueEAli": "The sentence was inverted by delivery alone. Σιγά and καλά, said flat, mean the reverse of what they say, and nothing else marks the switch — no wink, no change of pace, no rise at the end. The flatness is the signal.",
+      "oQueVoceFaz": "Check the delivery before the vocabulary. If the line had no lift on it, read it as the opposite and look at who it was aimed at, which tells you whether it was affection or complaint.",
+      "oQueMelhora": "You stop taking level criticism as praise and level praise as criticism, which is most of what makes a new table feel unreadable in the first days.",
+      "ondeNaoVale": "Not at a counter, and not with someone you have just met. This register lives between people who know each other; a stranger telling you something positive is very probably just telling you something positive.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-a02-n02",
+        "el-a02-n03"
+      ]
+    },
+    {
+      "sinal": "The table starts arguing about their own country — one city against another, the mainland against the islands — and then turns to you for an opinion.",
+      "suaLeitura": "I am being invited in, and having a view would show I have been paying attention.",
+      "oQueEAli": "The argument is old, it predates you, and everyone at the table has standing in it that you do not. Being asked is hospitality, the same move as being passed the bread, and it carries no requirement to answer.",
+      "oQueVoceFaz": "Say εγώ δεν λέω τίποτα, hands up, smiling. Then ask one of them what they think, which is the thing they actually wanted in the first place.",
+      "oQueMelhora": "You stay a guest instead of becoming a position, and the conversation carries on around you rather than pausing to place you.",
+      "ondeNaoVale": "Not a rule of silence about the country. Praising a specific place you liked is welcome and costs nothing — what you are declining is the comparison and the verdict, not the topic.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-a02-n07",
+        "el-a02-n08"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "id": "i08",
+  "nivel": "intermediario",
+  "numero": 26,
+  "parte": "I08",
+  "titulo": "Someone invites you — what you carry in, where you sit, how you say you are full",
+  "subtitulo": "The whole evening is six short sentences, and the hardest one is the one that means no more, thank you",
+  "cena": "You said yes at the counter this afternoon, and now it is eight o'clock, you are holding a box from the sweet shop, and the door is opening.",
+  "moldura": "ganha",
+  "frasePiso": "Carry something in, sit where you are put, toast once, and say you are full in a full sentence.",
+  "decisao": "aceitar o convite e chegar com uma coisa na mão, pedir em plural na mesa e sair na hora certa dizendo por quê — em vez de recusar por não saber o roteiro",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "el-i08-unesco",
+      "afirmacao": "The Mediterranean Diet is inscribed on UNESCO's list of the Intangible Cultural Heritage of Humanity, with Greece among the submitting countries. The file says, verbatim: «Eating together is the foundation of the cultural identity and continuity of communities throughout the Mediterranean basin.» What that supports is the weight placed on eating together — and nothing at all about how plates are divided at any particular table.",
+      "fonte": "Comensalidade tem lastro: Dieta Mediterrânea na Lista do Patrimônio Imaterial da UNESCO (ficha ICH 00884), com a Grécia entre os proponentes. Verbatim: «Eating together is the foundation of the cultural identity and continuity of communities throughout the Mediterranean basin.»",
+      "ano": 2013,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-i08-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i08-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "An invitation is a small set of moves: what you carry in, where you sit, the toast, and how you say you are full."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i08-n02",
+      "bloco": "corpo",
+      "pt": "Ask what to bring. You will be told to bring nothing. Bring something anyway — a sweet, a bottle, fruit."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-i08-t01",
+      "es": "Τι να φέρω;",
+      "pinyin": "ti na FE-ro",
+      "pt": "What should I bring?",
+      "tts": "Τι να φέρω;"
+    },
+    {
+      "consulta": [
+        "simpatia/convite"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i08-p01",
+      "promptPt": "The invitation is for tomorrow evening and you have no idea what is expected of you. Ask. Speak now.",
+      "audioKey": "el-i08-t01",
+      "es": "Τι να φέρω;",
+      "pinyin": "ti na FE-ro",
+      "pt": "What should I bring?",
+      "tts": "Τι να φέρω;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i08-r01",
+      "receptivo": true,
+      "es": "Έλα, μη φέρεις τίποτα! Τον εαυτό σου.",
+      "pt": "Come on, don't bring anything! Just yourself.",
+      "tts": "Έλα, μη φέρεις τίποτα! Τον εαυτό σου.",
+      "acao": "Hear it as the expected answer, not as an instruction. Buy the sweet on the way anyway."
+    },
+    {
+      "consulta": [
+        "simpatia/convite",
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i08-p02",
+      "promptPt": "You are in the doorway with a box from the sweet shop and someone is already saying you shouldn't have. Hand it over and say what it is. Speak now.",
+      "audioKey": "el-i08-t02",
+      "es": "Έφερα ένα γλυκό.",
+      "pinyin": "E-fe-ra E-na ghli-KO",
+      "pt": "I brought something sweet.",
+      "tts": "Έφερα ένα γλυκό."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i08-p03",
+      "promptPt": "There are nine chairs and no obvious spare one, and you would rather be placed than guess. Ask. Speak now.",
+      "audioKey": "el-i08-t03",
+      "es": "Πού να καθίσω;",
+      "pinyin": "poo na ka-THEE-so",
+      "pt": "Where should I sit?",
+      "tts": "Πού να καθίσω;",
+      "molde": "BORO",
+      "encaixe": "καθίσω"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i08-r02",
+      "es": "Κάτσε εδώ, δίπλα μου.",
+      "pt": "Sit here, next to me.",
+      "tts": "Κάτσε εδώ, δίπλα μου."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i08-n03",
+      "pt": "UNESCO lists the Mediterranean Diet, and the file calls eating together the foundation of these communities."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i08-n04",
+      "pt": "So order in the plural. Mezedes arrive as small dishes that land in the middle of the table, not in front of one person."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "mesa/tamanho"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i08-p04",
+      "promptPt": "You have all been handed menus and everyone is waiting for someone to start. Propose the shape of the order. Speak now.",
+      "audioKey": "el-i08-t04",
+      "es": "Ας πάρουμε μερικούς μεζέδες.",
+      "pinyin": "as PA-roo-me me-ri-KOOS me-ZE-thes",
+      "pt": "Let's get a few mezedes.",
+      "tts": "Ας πάρουμε μερικούς μεζέδες."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "mesa/tamanho"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i08-p05",
+      "promptPt": "The person taking the order wants to know whose dish is whose. Tell them it does not work that way tonight. Speak now.",
+      "audioKey": "el-i08-t05",
+      "es": "Θα τα μοιραστούμε όλα.",
+      "pinyin": "tha ta mi-ra-STOO-me O-la",
+      "pt": "We'll share everything.",
+      "tts": "Θα τα μοιραστούμε όλα."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-i08-r03",
+      "es": "Καλή όρεξη σε όλους!",
+      "pt": "Enjoy your meal, everyone!",
+      "tts": "Καλή όρεξη σε όλους!"
+    },
+    {
+      "consulta": [
+        "simpatia/brindar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i08-p06",
+      "promptPt": "Glasses are up around the table and everyone is looking at each other. Say the toast. Speak now.",
+      "audioKey": "el-i08-t06",
+      "es": "Στην υγειά μας!",
+      "pinyin": "stin i-YA mas",
+      "pt": "To our health!",
+      "tts": "Στην υγειά μας!"
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i08-p07",
+      "promptPt": "One small dish is better than anything you have eaten this trip and you cannot name it. Praise it and ask. Speak now.",
+      "audioKey": "el-i08-t07",
+      "es": "Είναι υπέροχο, τι είναι;",
+      "pinyin": "EE-ne i-PE-ro-ho, ti EE-ne",
+      "pt": "This is wonderful, what is it?",
+      "tts": "Είναι υπέροχο, τι είναι;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i08-n05",
+      "bloco": "capsula",
+      "pt": "Refills keep coming. The way out is not a hand over the plate — it is a warm full sentence, said once."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i08-r04",
+      "receptivo": true,
+      "es": "Φάε κι άλλο, δεν έφαγες τίποτα!",
+      "pt": "Have some more, you've eaten nothing!",
+      "tts": "Φάε κι άλλο, δεν έφαγες τίποτα!",
+      "acao": "This is the offer, not a verdict on your appetite. Answer it in words rather than by covering the plate."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i08-p08",
+      "promptPt": "A third helping is on its way to your plate and you are genuinely finished. Stop it warmly. Speak now.",
+      "audioKey": "el-i08-t08",
+      "es": "Δεν μπορώ άλλο, ήταν υπέροχα.",
+      "pinyin": "then bo-RO A-lo, EE-tan i-PE-ro-ha",
+      "pt": "I can't manage any more, it was wonderful.",
+      "tts": "Δεν μπορώ άλλο, ήταν υπέροχα.",
+      "molde": "MOU-ARESE",
+      "encaixe": "ήταν υπέροχα"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i08-n06",
+      "pt": "Leaving takes two sentences and about ten minutes. Announce it, thank them for the evening, then stand up."
+    },
+    {
+      "consulta": [
+        "chegar/sair",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i08-p09",
+      "promptPt": "It is late, you have a boat in the morning, and nobody else is moving. Announce it. Speak now.",
+      "audioKey": "el-i08-t09",
+      "es": "Πρέπει να πηγαίνω, ευχαριστώ πολύ.",
+      "pinyin": "PRE-pi na pi-YE-no, ef-ha-ri-STO po-LEE",
+      "pt": "I should get going, thank you very much.",
+      "tts": "Πρέπει να πηγαίνω, ευχαριστώ πολύ."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i08-p10",
+      "promptPt": "You are at the door with your coat on and one sentence left. Make it the one that gets you invited again. Speak now.",
+      "audioKey": "el-i08-t10",
+      "es": "Ήταν υπέροχη βραδιά.",
+      "pinyin": "EE-tan i-PE-ro-hi vra-DHYA",
+      "pt": "It was a wonderful evening.",
+      "tts": "Ήταν υπέροχη βραδιά."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-i08-s01",
+      "es": "Έφερα ένα γλυκό. Στην υγειά μας! Δεν μπορώ άλλο, ήταν υπέροχα.",
+      "pinyin": "E-fe-ra E-na ghli-KO. stin i-YA mas. then bo-RO A-lo, EE-tan i-PE-ro-ha",
+      "pt": "Shadow the arrival, the toast, and the sentence that stops the third helping.",
+      "tts": "Έφερα ένα γλυκό. Στην υγειά μας! Δεν μπορώ άλλο, ήταν υπέροχα.",
+      "molde": "BORO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i08-n07",
+      "bloco": "recap",
+      "pt": "I08 done. Carry something in, sit where you are put, toast once, and say you are full out loud."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Six sentences and an evening",
+    "secoes": [
+      {
+        "titulo": "Ask, be told nothing, bring something",
+        "corpo": "Τι να φέρω; is the question, and «μη φέρεις τίποτα» is very often the answer. Both halves are part of the same exchange: the question shows you understand there is a form to this, and the refusal is the host's half of it. A box of sweets from a ζαχαροπλαστείο, a bottle, or fruit all work, and Έφερα ένα γλυκό is the whole speech you need at the door.",
+        "exemplos": [
+          {
+            "es": "Τι να φέρω;",
+            "pt": "What should I bring?"
+          },
+          {
+            "es": "Έφερα ένα γλυκό.",
+            "pt": "I brought something sweet."
+          }
+        ]
+      },
+      {
+        "titulo": "Order in the plural",
+        "corpo": "Ας πάρουμε μερικούς μεζέδες and Θα τα μοιραστούμε όλα are the two sentences that change the shape of a table order. Μεζέδες are small dishes meant to arrive together and sit in the middle; ordering them is a decision about the table rather than about your own plate. It is a way of ordering, not a law of nature — plenty of people at plenty of tables order one main each and that is equally normal.",
+        "exemplos": [
+          {
+            "es": "Ας πάρουμε μερικούς μεζέδες.",
+            "pt": "Let's get a few mezedes."
+          },
+          {
+            "es": "Θα τα μοιραστούμε όλα.",
+            "pt": "We'll share everything."
+          }
+        ]
+      },
+      {
+        "titulo": "The toast is a fixed formula",
+        "corpo": "Στην υγειά μας is the full one, Γεια μας the short one you will hear more often, and either is complete on its own — nobody expects a speech attached. Eyes up, glass up, one line, drink. If a second round of toasting comes, the same words work again."
+      },
+      {
+        "titulo": "The heritage file, and what it does not say",
+        "corpo": "UNESCO's file for the Mediterranean Diet states that eating together is the foundation of the cultural identity and continuity of communities across the basin, and Greece is among the countries that submitted it. That is real and it is worth knowing. It is a statement about the value of the shared meal — not evidence for any claim about individual plates being unusual, and this course does not make that claim."
+      },
+      {
+        "titulo": "How to be full",
+        "corpo": "Δεν μπορώ άλλο, ήταν υπέροχα does two jobs in five words: it declines and it praises, so the refusal is not about the food. Covering the plate with your hand or leaving food to signal you are done both read as puzzles instead. Say it once, warmly, and mean it; you may need to say it twice, and twice is still fine."
+      }
+    ]
+  },
+  "slot": "I08",
+  "permissao": "You are allowed to accept an invitation you do not have the script for. Nothing about the evening depends on you performing it correctly — Τι να φέρω; before, Στην υγειά μας at the table and Ήταν υπέροχη βραδιά at the door will carry you through a whole night of a language you barely speak.",
+  "permissaoAudioKey": "el-i08-n01",
+  "espelho": "Anyone who has been the guest at a table where the family already had its own rhythm — who serves, who talks over whom, when it is acceptable to stand up — knows the small panic of not knowing when the evening ends. The only new part here is that the two sentences that solve it are in Greek.",
+  "fichasCulturais": [
+    {
+      "sinal": "Food keeps arriving on your plate after you have said you are finished, and someone tells you that you have eaten nothing.",
+      "suaLeitura": "They think I don't like the food, or I am being judged for how much I eat.",
+      "oQueEAli": "Offering again is part of hosting at that table, and the second offer is expected to happen whether or not the first was accepted. Nothing in it is a measurement of you, and the shared meal is exactly the thing being valued.",
+      "oQueVoceFaz": "Answer in a sentence rather than with a gesture: Δεν μπορώ άλλο, ήταν υπέροχα. It declines and praises at once, which is why it does not read as rejecting the food.",
+      "oQueMelhora": "You stop eating past the point of comfort out of politeness, and the refusal stays warm instead of turning into a small stand-off over a serving spoon.",
+      "ondeNaoVale": "Not a description of every household or every table — plenty of hosts ask once and leave it there, and a restaurant table with friends works nothing like a family kitchen. Read the table you are actually at.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-i08-n05"
+      ]
+    },
+    {
+      "sinal": "You ask what to bring and are firmly told to bring nothing at all.",
+      "suaLeitura": "That settles it — arriving with a gift would be overdoing it.",
+      "oQueEAli": "The question and the refusal are two halves of one exchange. Asking shows you know the evening has a form; the refusal is the host's expected line in it. Turning up with something small is not a contradiction of the answer you were given.",
+      "oQueVoceFaz": "Buy a box of sweets, a bottle or some fruit on the way, hand it over at the door with Έφερα ένα γλυκό, and let it be taken from you without insisting.",
+      "oQueMelhora": "You arrive with your hands doing something, which removes the awkward first thirty seconds entirely, and the gift becomes part of the table rather than a transaction.",
+      "ondeNaoVale": "Not a rule that a gift is required everywhere. A last-minute invitation from the next table in a taverna is not the same event as being asked to someone's home, and turning up empty-handed to the first is not a lapse.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-i08-n02"
+      ]
+    }
+  ]
+}

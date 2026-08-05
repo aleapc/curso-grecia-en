@@ -1,0 +1,375 @@
+{
+  "id": "i02",
+  "nivel": "intermediario",
+  "numero": 20,
+  "parte": "I02",
+  "titulo": "The counter, and the sentence that is shorter than yours",
+  "subtitulo": "Politeness research puts Greek on the side of closeness and English on the side of distance — which is why your padded version lands as coldness",
+  "cena": "A counter three deep, a coffee machine going, and you rehearsing a sentence with four cushions in it while the person in front of you says five words and leaves.",
+  "moldura": "ganha",
+  "frasePiso": "Greeting, then the thing, then parakaló. Short is not rude here.",
+  "decisao": "how you order at the counter — whether you shorten the request instead of padding it, and put the whole of the courtesy into the greeting and into parakaló",
+  "emJogo": "tempo",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "el-i02-sifianou",
+      "afirmacao": "Politeness research describes Greek as oriented towards positive politeness — involvement and closeness — and English towards negative politeness — distance and non-imposition. The documented consequence is symmetrical: the English speaker reads Greek directness as abrupt, and the Greek speaker reads English hedging as cold. Both readings are wrong in the same way.",
+      "fonte": "Maria Sifianou, «Politeness Phenomena in England and Greece»; Bayraktaroğlu & Sifianou (eds.), «Linguistic Politeness Across Boundaries», John Benjamins, P&BNS 88; panorama recente em «Languages», 2026, doi:10.3390/languages11050107",
+      "ano": 2026,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-i02-n02",
+        "el-i02-n04"
+      ]
+    },
+    {
+      "id": "el-i02-timokatalogos",
+      "afirmacao": "A price list in Greek is compulsory and has to be visible at the entrance and before you order, with prices including VAT. Absence of the list carries a €1,000 fine, and charging above the listed price €500 per item. Article 72 requires a visible list in self-service areas as well.",
+      "fonte": "Κανόνες ΔΙ.Ε.Π.Π.Υ., ΥΑ 91354/2017, ΦΕΚ Β΄2983/30.8.2017, arts. 70-72 — lista obrigatória em grego, visível na entrada e antes do pedido, preços com IVA",
+      "ano": 2017,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-i02-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i02-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "A counter moves fast, and the sentence that works at one is shorter than the one you would say at home."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i02-r01",
+      "receptivo": true,
+      "es": "Παρακαλώ;",
+      "pt": "Yes? Go ahead.",
+      "tts": "Παρακαλώ;",
+      "acao": "This one is not please. Said to you, with a rise on the end, it means: go ahead, I'm listening."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i02-n02",
+      "bloco": "corpo",
+      "pt": "Politeness research puts Greek on the side of closeness and English on the side of distance."
+    },
+    {
+      "consulta": [
+        "chegar/balcao",
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i02-p01",
+      "promptPt": "Your turn at the counter, morning, one thing wanted and three people behind you. Speak now.",
+      "audioKey": "el-i02-t01",
+      "es": "Καλημέρα. Έναν καφέ, παρακαλώ.",
+      "pinyin": "ka-li-ME-ra · E-nan ka-FE, pa-ra-ka-LO",
+      "pt": "Good morning. A coffee, please.",
+      "tts": "Καλημέρα. Έναν καφέ, παρακαλώ."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i02-n03",
+      "pt": "Parakaló does four jobs: please, you're welcome, go ahead, and yes at a counter."
+    },
+    {
+      "consulta": [
+        "chegar/ultimo",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "περιμένετε",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i02-p02",
+      "promptPt": "Nobody is in a line and you cannot tell who got here first. Find out before you step forward. Speak now.",
+      "audioKey": "el-i02-t02",
+      "es": "Συγγνώμη, περιμένετε;",
+      "pinyin": "sing-NO-mi, pe-ri-ME-ne-te",
+      "pt": "Excuse me, are you waiting?",
+      "tts": "Συγγνώμη, περιμένετε;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i02-r02",
+      "receptivo": true,
+      "es": "Τι θα πάρετε;",
+      "pt": "What will you have?",
+      "tts": "Τι θα πάρετε;",
+      "acao": "That is the whole question. Answer it with the thing and parakaló, nothing in front of it."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i02-p03",
+      "promptPt": "He asked what you will have, and you take yours without sugar. Answer in one breath. Speak now.",
+      "audioKey": "el-i02-t03",
+      "es": "Έναν καφέ σκέτο, παρακαλώ.",
+      "pinyin": "E-nan ka-FE SKE-to, pa-ra-ka-LO",
+      "pt": "A coffee with no sugar, please.",
+      "tts": "Έναν καφέ σκέτο, παρακαλώ."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i02-n04",
+      "bloco": "molde",
+      "pt": "The padded version is not heard as extra respect. It is heard as distance, which is not what you meant."
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i02-p04",
+      "promptPt": "Two of you, both thirsty, and the counter is waiting. Two words and the polite one. Speak now.",
+      "audioKey": "el-i02-t04",
+      "es": "Δύο νερά, παρακαλώ.",
+      "pinyin": "DHI-o ne-RA, pa-ra-ka-LO",
+      "pt": "Two waters, please.",
+      "tts": "Δύο νερά, παρακαλώ."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i02-r03",
+      "receptivo": true,
+      "es": "Αμέσως. Για εδώ ή για έξω;",
+      "pt": "Right away. For here or to take away?",
+      "tts": "Αμέσως. Για εδώ ή για έξω;",
+      "acao": "Two options, one word each. Give back the one you want and nothing else."
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i02-p05",
+      "promptPt": "You are staying, sitting at the little table by the window. Answer the question you were just asked. Speak now.",
+      "audioKey": "el-i02-t05",
+      "es": "Για εδώ, ευχαριστώ.",
+      "pinyin": "ya e-DHO, ef-ha-ri-STO",
+      "pt": "For here, thanks.",
+      "tts": "Για εδώ, ευχαριστώ."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i02-n05",
+      "bloco": "capsula",
+      "pt": "The price list is on the wall by law, in Greek, before you order. You are allowed to read it first."
+    },
+    {
+      "consulta": [
+        "compras/quanto",
+        "pagar/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "POSO-KANI",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i02-p06",
+      "promptPt": "The list on the wall is in an alphabet you are still decoding. Get the number spoken instead. Speak now.",
+      "audioKey": "el-i02-t06",
+      "es": "Πόσο κάνει;",
+      "pinyin": "PO-so KA-ni",
+      "pt": "How much is it?",
+      "tts": "Πόσο κάνει;"
+    },
+    {
+      "consulta": [
+        "pagar/pedir",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "πού πληρώνω",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i02-p07",
+      "promptPt": "You have the cup in your hand and there are two possible tills and no queue at either. Speak now.",
+      "audioKey": "el-i02-t07",
+      "es": "Συγγνώμη, πού πληρώνω;",
+      "pinyin": "sing-NO-mi, poo pli-RO-no",
+      "pt": "Excuse me, where do I pay?",
+      "tts": "Συγγνώμη, πού πληρώνω;"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "δεν κατάλαβα",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i02-p08",
+      "promptPt": "The answer came back fast and over the noise of the machine. Say so, without apologising twice. Speak now.",
+      "audioKey": "el-i02-t08",
+      "es": "Συγγνώμη, δεν κατάλαβα.",
+      "pinyin": "sing-NO-mi, dhen ka-TA-la-va",
+      "pt": "Sorry, I didn't catch that.",
+      "tts": "Συγγνώμη, δεν κατάλαβα."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i02-r04",
+      "receptivo": true,
+      "es": "Ορίστε. Τρία ευρώ.",
+      "pt": "Here you are. Three euros.",
+      "tts": "Ορίστε. Τρία ευρώ.",
+      "acao": "Oríste arrives with things and with turns. Here it hands you the cup and the number together."
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i02-p09",
+      "promptPt": "Your name has just been called over the counter and you are the one who ordered. Speak now.",
+      "audioKey": "el-i02-t09",
+      "es": "Ναι, εγώ είμαι.",
+      "pinyin": "ne, e-GHO I-me",
+      "pt": "Yes, that's me.",
+      "tts": "Ναι, εγώ είμαι."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i02-n06",
+      "pt": "Say the greeting, then the thing, then parakaló. That is the whole shape of it."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i02-p10",
+      "promptPt": "Cup in hand, ten seconds spent, and you are stepping away from the counter. Close it. Speak now.",
+      "audioKey": "el-i02-t10",
+      "es": "Ευχαριστώ πολύ. Γεια σας.",
+      "pinyin": "ef-ha-ri-STO po-LI · ya sas",
+      "pt": "Thank you very much. Goodbye.",
+      "tts": "Ευχαριστώ πολύ. Γεια σας."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-i02-s01",
+      "es": "Καλημέρα. Έναν καφέ, παρακαλώ. Πόσο κάνει; Ευχαριστώ πολύ.",
+      "pinyin": "ka-li-ME-ra · E-nan ka-FE, pa-ra-ka-LO · PO-so KA-ni · ef-ha-ri-STO po-LI",
+      "pt": "Shadow the whole counter, start to finish, at the speed the counter actually runs.",
+      "tts": "Καλημέρα. Έναν καφέ, παρακαλώ. Πόσο κάνει; Ευχαριστώ πολύ.",
+      "molde": "POSO-KANI"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i02-n07",
+      "bloco": "recap",
+      "pt": "I02 done. One greeting, one thing, one parakaló — and parakaló coming back at you means go ahead."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Short, and why short is the polite one",
+    "secoes": [
+      {
+        "titulo": "Two politeness systems, pulling opposite ways",
+        "corpo": "Research on politeness describes Greek as oriented to positive politeness — involvement, closeness, showing the other person is one of yours — and English as oriented to negative politeness — distance, not imposing, leaving an exit. The consequence is symmetrical and documented: the same exchange reads as abrupt from one side and as cold from the other. Neither reading is about the person in front of you.",
+        "exemplos": [
+          {
+            "es": "Έναν καφέ, παρακαλώ.",
+            "pt": "A coffee, please."
+          },
+          {
+            "es": "Δύο νερά, παρακαλώ.",
+            "pt": "Two waters, please."
+          }
+        ]
+      },
+      {
+        "titulo": "Where the courtesy actually lives",
+        "corpo": "It is not in the number of conditional clauses. It is in the greeting on the way in, in parakaló on the end of the order, and in efharistó on the way out. Put it there and the middle can be two words, which is what the counter is built for."
+      },
+      {
+        "titulo": "Parakaló, four jobs",
+        "corpo": "Please, on the end of a request. You're welcome, after a thank-you. Go ahead — said to you with a rising tone, it is the counter opening its turn. And in a shop it can simply mean yes, I'm with you. One word, four positions, and you only ever have to recognise which position you are in.",
+        "exemplos": [
+          {
+            "es": "Παρακαλώ;",
+            "pt": "Yes? Go ahead."
+          },
+          {
+            "es": "Ορίστε.",
+            "pt": "Here you are. / Go ahead."
+          }
+        ]
+      },
+      {
+        "titulo": "The list on the wall is yours to read",
+        "corpo": "A price list in Greek is compulsory and it has to be visible at the entrance and before you order, prices including VAT — with a €1,000 fine for not having one and €500 per item charged above it. Standing there and reading the wall before you speak is not rudeness or suspicion; it is exactly what the list is posted for."
+      }
+    ]
+  },
+  "slot": "I02",
+  "permissao": "You are allowed to drop the cushions. The four-clause English request — sorry to bother you, I was just wondering whether I might possibly — does not arrive as respect here; it arrives as somebody holding themselves back. Two words and parakaló is the courteous version, and you have permission to say it that short.",
+  "permissaoAudioKey": "el-i02-n04",
+  "espelho": "Anyone who has stood at a busy counter at home and watched a visitor deliver a beautifully constructed sentence while four people wait behind them knows both halves of this. You have been on the fast side of that counter yourself, and you were not annoyed — you were just already reaching for the cup.",
+  "fichasCulturais": [
+    {
+      "sinal": "You ask for something in your most careful, most cushioned English and get a short flat answer back.",
+      "suaLeitura": "I have annoyed them, or they would rather not deal with me.",
+      "oQueEAli": "Politeness research places Greek on the positive-politeness side — closeness and involvement — and English on the negative-politeness side, which builds courtesy out of distance and hedging. The short answer is that system running normally. It is not a verdict on you, and the mismatch runs in both directions.",
+      "oQueVoceFaz": "Move your courtesy to the edges: greeting on the way in, parakaló on the request, efharistó on the way out, and let the middle be two words.",
+      "oQueMelhora": "You get served at counter speed instead of at rehearsal speed, and the exchange ends with the warmth you were trying to signal in the first place.",
+      "ondeNaoVale": "This describes an orientation documented in research on politeness, not a personality and not a rule about individuals. Plenty of exchanges anywhere are short because it is the end of a shift, and none of this licenses skipping the greeting.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i02-n02"
+      ]
+    },
+    {
+      "sinal": "You want to check a price before ordering and it feels like an accusation to ask.",
+      "suaLeitura": "Asking what it costs first suggests I think they will overcharge me.",
+      "oQueEAli": "The list is posted because the law requires it: in Greek, visible at the entrance and before you order, prices including VAT, with fines for its absence and for charging above it. The list exists to be read by whoever is standing there, and reading it is the ordinary use of it.",
+      "oQueVoceFaz": "Read the wall on the way in. If the alphabet is still slow for you, ask póso káni and take the number by ear.",
+      "oQueMelhora": "You stop treating the price as something to be discovered at the end, and you order the thing you actually wanted rather than the safest-looking thing.",
+      "ondeNaoVale": "Not a licence to treat a missing list as proof of bad faith. Kiosks, market stalls and moving situations vary, and the enforceable point is the posted list and the price you are charged — not an argument at the counter.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i02-n05"
+      ]
+    }
+  ]
+}

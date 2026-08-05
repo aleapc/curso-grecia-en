@@ -1,0 +1,364 @@
+{
+  "id": "i09",
+  "nivel": "intermediario",
+  "numero": 27,
+  "parte": "I09",
+  "titulo": "Doing what they do — the market, the long coffee, and the square after dark",
+  "subtitulo": "Sunday morning looks shut and is not, and one freddo buys you a table for as long as you want it",
+  "cena": "It is Sunday, the shutters are down along an entire street, and two hundred metres away every café table is taken.",
+  "moldura": "ganha",
+  "frasePiso": "Psachno for what you want, boro na for what you may do — and one coffee holds the table.",
+  "decisao": "gastar a tarde onde eles gastam — feira de manhã, um café que dura uma hora, a praça à noite — em vez de programar a partir de uma lista de horários que não vale para tavernas e cafés",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "el-i09-kyriaki",
+      "afirmacao": "Sunday closing in Greece was instituted in 1909, and from that first version it already carried an exception for restaurants, tavernas, patisseries, cafés and shops selling tourist goods — meaning that the places a visitor actually uses have never been inside the rule. The present regime is article 16 of law 4177/2013, which sets out the closing rule together with its exceptions — the Sundays before Christmas, the sale periods, the first Sunday of May and of November — and allows tourist zones to be designated by ministerial decision. Which other categories of shop may open on a Sunday has been repeatedly contested, and one liberalisation decision was struck down as unconstitutional, so the shop side of this should not be treated as settled.",
+      "fonte": "Domingo: fechamento instituído em 1909, já então com exceção para restaurantes, tavernas, confeitarias, cafés e lojas de artigo turístico — o que interessa ao turista sempre esteve fora da regra. Regime atual: art. 16 do ν.4177/2013, com exceções (domingos de Natal, liquidações, 1º de maio e de novembro) e zonas turísticas por decisão ministerial. ⚠️ CONTESTADO: uma decisão de liberalização foi julgada inconstitucional; tema politicamente disputado. Não apresentar como estável.",
+      "ano": 2013,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "el-i09-n03",
+        "el-i09-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i09-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "An afternoon here has a shape: the market early, a coffee that lasts an hour, the square once it cools down."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i09-n02",
+      "bloco": "corpo",
+      "pt": "Two openings you already own do most of this: psachno for what you want, boro na for what you may do."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-i09-t01",
+      "es": "Ψάχνω τη λαϊκή αγορά.",
+      "pinyin": "PSA-hno ti la-i-KEE a-go-RA",
+      "pt": "I'm looking for the street market.",
+      "tts": "Ψάχνω τη λαϊκή αγορά."
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "τη λαϊκή αγορά",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i09-p01",
+      "promptPt": "Someone told you the neighbourhood has a street market and you are two streets away from something noisy. Ask. Speak now.",
+      "audioKey": "el-i09-t01",
+      "es": "Ψάχνω τη λαϊκή αγορά.",
+      "pinyin": "PSA-hno ti la-i-KEE a-go-RA",
+      "pt": "I'm looking for the street market.",
+      "tts": "Ψάχνω τη λαϊκή αγορά."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i09-r01",
+      "receptivo": true,
+      "es": "Η λαϊκή είναι Τετάρτη και Σάββατο, μέχρι τις δύο.",
+      "pt": "The market is Wednesday and Saturday, until two.",
+      "tts": "Η λαϊκή είναι Τετάρτη και Σάββατο, μέχρι τις δύο.",
+      "acao": "Two days and a closing time just went past. Write down the days before you write down the time."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i09-p02",
+      "promptPt": "You want to come back tomorrow morning and you do not want to arrive as they pack up. Ask about the start. Speak now.",
+      "audioKey": "el-i09-t02",
+      "es": "Τι ώρα ανοίγει;",
+      "pinyin": "ti O-ra a-NEE-yi",
+      "pt": "What time does it open?",
+      "tts": "Τι ώρα ανοίγει;",
+      "molde": "TI-ORA",
+      "encaixe": "ανοίγει"
+    },
+    {
+      "consulta": [
+        "compras/so-olhando",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "PSAXNO",
+      "encaixe": "κάτι ντόπιο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i09-p03",
+      "promptPt": "You are at a stall stacked with things you cannot name and you want whatever is from here. Speak now.",
+      "audioKey": "el-i09-t03",
+      "es": "Ψάχνω κάτι ντόπιο.",
+      "pinyin": "PSA-hno KA-ti DO-pio",
+      "pt": "I'm looking for something local.",
+      "tts": "Ψάχνω κάτι ντόπιο."
+    },
+    {
+      "consulta": [
+        "compras/so-olhando"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "δοκιμάσω",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i09-p04",
+      "promptPt": "There is an open tub of olives on the stall and a spoon beside it. Ask before your hand moves. Speak now.",
+      "audioKey": "el-i09-t04",
+      "es": "Μπορώ να δοκιμάσω;",
+      "pinyin": "bo-RO na tho-ki-MA-so",
+      "pt": "Can I try some?",
+      "tts": "Μπορώ να δοκιμάσω;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i09-r02",
+      "es": "Πάρε, δοκίμασε! Δικά μας είναι.",
+      "pt": "Go on, try it! They're ours.",
+      "tts": "Πάρε, δοκίμασε! Δικά μας είναι."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i09-n03",
+      "pt": "Sunday closing was written in 1909, and tavernas, cafés, patisseries and tourist shops were exempt from the start."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i09-n04",
+      "pt": "Which other shops may open has been argued and litigated for years, so ask the one you care about rather than plan on it."
+    },
+    {
+      "consulta": [
+        "compras/balcao",
+        "transporte/placas"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i09-p05",
+      "promptPt": "You want to come back on Sunday to this particular counter and the sign gives you nothing. Ask them directly. Speak now.",
+      "audioKey": "el-i09-t05",
+      "es": "Είστε ανοιχτά την Κυριακή;",
+      "pinyin": "EE-ste a-nih-TA tin ki-rya-KEE",
+      "pt": "Are you open on Sunday?",
+      "tts": "Είστε ανοιχτά την Κυριακή;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i09-r03",
+      "receptivo": true,
+      "es": "Την Κυριακή τα μαγαζιά είναι κλειστά, αλλά τα καφέ και οι ταβέρνες ανοιχτά.",
+      "pt": "On Sunday the shops are closed, but the cafés and the tavernas are open.",
+      "tts": "Την Κυριακή τα μαγαζιά είναι κλειστά, αλλά τα καφέ και οι ταβέρνες ανοιχτά.",
+      "acao": "Hear the second half. The half of the town you were going to use is the half that stays open."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i09-n05",
+      "bloco": "capsula",
+      "pt": "Coffee is the unit of the afternoon, not the fuel for it. One freddo buys the table for as long as you want it."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i09-p06",
+      "promptPt": "It is four in the afternoon, thirty-one degrees, and every table around you has the same tall glass. Order one. Speak now.",
+      "audioKey": "el-i09-t06",
+      "es": "Έναν φρέντο εσπρέσο, παρακαλώ.",
+      "pinyin": "E-nan FRE-do e-SPRE-so, pa-ra-ka-LO",
+      "pt": "One freddo espresso, please.",
+      "tts": "Έναν φρέντο εσπρέσο, παρακαλώ."
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "καθίσω εδώ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i09-p07",
+      "promptPt": "There is one free table under the tree and nobody has looked up at you yet. Ask before you sit. Speak now.",
+      "audioKey": "el-i09-t07",
+      "es": "Μπορώ να καθίσω εδώ;",
+      "pinyin": "bo-RO na ka-THEE-so e-DO",
+      "pt": "Can I sit here?",
+      "tts": "Μπορώ να καθίσω εδώ;"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i09-p08",
+      "promptPt": "The person who brought your coffee is standing there with nothing to do. Ask what the day looks like from the inside. Speak now.",
+      "audioKey": "el-i09-t08",
+      "es": "Τι κάνει ο κόσμος εδώ την Κυριακή;",
+      "pinyin": "ti KA-ni o KO-zmos e-DO tin ki-rya-KEE",
+      "pt": "What do people do here on Sunday?",
+      "tts": "Τι κάνει ο κόσμος εδώ την Κυριακή;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i09-n06",
+      "pt": "The square after dark is the other half of it. Ask what is on tonight instead of looking it up on a screen."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i09-p09",
+      "promptPt": "Chairs are being carried into the square and something is clearly being set up. Ask about tonight. Speak now.",
+      "audioKey": "el-i09-t09",
+      "es": "Έχει κάτι απόψε στην πλατεία;",
+      "pinyin": "E-hi KA-ti a-PO-pse stin pla-TEE-a",
+      "pt": "Is there something on in the square tonight?",
+      "tts": "Έχει κάτι απόψε στην πλατεία;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i09-r04",
+      "receptivo": true,
+      "es": "Ναι, έχει μουσική στις εννιά. Ελάτε!",
+      "pt": "Yes, there's music at nine. Come along!",
+      "tts": "Ναι, έχει μουσική στις εννιά. Ελάτε!",
+      "acao": "That last word is an invitation, and it is in the plural — it is aimed at your whole table."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i09-p10",
+      "promptPt": "You have finished the coffee, the light is going, and the person you came with is on their phone. Propose the obvious. Speak now.",
+      "audioKey": "el-i09-t10",
+      "es": "Πάμε μια βόλτα;",
+      "pinyin": "PA-me mia VOL-ta",
+      "pt": "Shall we go for a walk?",
+      "tts": "Πάμε μια βόλτα;"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-i09-s01",
+      "es": "Ψάχνω τη λαϊκή αγορά. Μπορώ να δοκιμάσω; Έχει κάτι απόψε στην πλατεία;",
+      "pinyin": "PSA-hno ti la-i-KEE a-go-RA. bo-RO na tho-ki-MA-so. E-hi KA-ti a-PO-pse stin pla-TEE-a",
+      "pt": "Shadow the three questions that turn an empty afternoon into their afternoon.",
+      "tts": "Ψάχνω τη λαϊκή αγορά. Μπορώ να δοκιμάσω; Έχει κάτι απόψε στην πλατεία;",
+      "molde": "PSAXNO"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i09-n07",
+      "bloco": "recap",
+      "pt": "I09 done. Market early, one coffee for an hour, and a question in the square about tonight."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "An afternoon, in three moves",
+    "secoes": [
+      {
+        "titulo": "The two openings carry the whole day",
+        "corpo": "Ψάχνω puts a thing or a place after it — τη λαϊκή αγορά, κάτι ντόπιο, την πλατεία — and works even when you do not know whether the thing exists nearby. Μπορώ να puts an action after it — δοκιμάσω, καθίσω εδώ, περάσω — and is the question you need at a stall, at a table and at a door. Neither changes shape when you change what follows it.",
+        "exemplos": [
+          {
+            "es": "Ψάχνω κάτι ντόπιο.",
+            "pt": "I'm looking for something local."
+          },
+          {
+            "es": "Μπορώ να δοκιμάσω;",
+            "pt": "Can I try some?"
+          }
+        ]
+      },
+      {
+        "titulo": "Sunday, and the exception that is older than the rule",
+        "corpo": "Sunday closing dates from 1909, and the first version already exempted restaurants, tavernas, patisseries, cafés and shops selling goods to visitors. The current framework is article 16 of law 4177/2013, with its own list of exceptions — the Sundays before Christmas, the sale periods, the first Sunday of May and of November — and tourist zones designated by ministerial decision. The practical reading is short: the eating-and-drinking half of a town is open on a Sunday and always has been."
+      },
+      {
+        "titulo": "What is not settled, and how to handle it",
+        "corpo": "Which other categories of shop may trade on a Sunday has moved more than once, and at least one liberalisation was struck down as unconstitutional. That is a live argument and this course has no opinion in it — but it does mean that any list of Sunday opening rules you read online may be out of date. Είστε ανοιχτά την Κυριακή; asked at the actual counter beats any list."
+      },
+      {
+        "titulo": "The coffee is the table, not the drink",
+        "corpo": "Ordering a freddo espresso or a freddo cappuccino buys the seat, and there is no expectation that finishing it means leaving. Nobody will bring the bill until you ask for it. If you want an hour in a square with a book, one glass is the entire cost of the hour, and the second one is optional."
+      },
+      {
+        "titulo": "Βόλτα and the square",
+        "corpo": "Πάμε μια βόλτα; is a walk with no destination attached, usually after the heat drops, usually ending at whatever the square is doing. Έχει κάτι απόψε στην πλατεία; is how you find out what that is, and it is a better source than a listings page in a town small enough that the chairs are being carried out in front of you."
+      }
+    ]
+  },
+  "slot": "I09",
+  "permissao": "You are allowed to spend an afternoon doing almost nothing. One coffee, one table, one hour is not a wasted day here — it is the day. And you are allowed to ask a person what is on tonight instead of searching for it, which in a town of any size is also the faster method.",
+  "permissaoAudioKey": "el-i09-n05",
+  "espelho": "Anyone who has spent a holiday afternoon walking briskly between the things on a list, arriving at each one slightly out of breath, already knows the feeling of having seen a place without ever sitting down in it. Nothing about that is Greek. It is what happens when the day has a list instead of a square.",
+  "fichasCulturais": [
+    {
+      "sinal": "It is Sunday morning, every shutter on the street is down, and the day looks like a write-off.",
+      "suaLeitura": "Everything is closed and there is nothing to do until tomorrow.",
+      "oQueEAli": "Sunday closing was instituted in 1909 and already exempted restaurants, tavernas, patisseries, cafés and shops selling goods to visitors; the current framework is article 16 of law 4177/2013, with listed exceptions and tourist zones set by ministerial decision. The half of town you were actually going to use was never inside the rule.",
+      "oQueVoceFaz": "Walk to where the tables are rather than where the shops are. If a specific counter matters to you, ask it directly: Είστε ανοιχτά την Κυριακή;",
+      "oQueMelhora": "Sunday stops being a lost day and becomes the day the eating-and-sitting side of the town is busiest, which is also when it is most worth watching.",
+      "ondeNaoVale": "Not a promise about shops. Which other categories may open on a Sunday has changed repeatedly and one liberalisation was struck down as unconstitutional, so treat any published list as possibly stale — and a designated tourist zone in one city says nothing about the next town.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i09-n03",
+        "el-i09-n04"
+      ]
+    },
+    {
+      "sinal": "You finish your coffee, and nothing happens — no bill, no second look, no one clearing the glass.",
+      "suaLeitura": "I have been forgotten, or I am supposed to leave now.",
+      "oQueEAli": "The order bought the table, not just the drink. The bill arrives when it is asked for, and an empty glass is not read as a signal that you are done sitting there.",
+      "oQueVoceFaz": "Stay as long as you want to. When you do want to go, ask for it out loud: τον λογαριασμό, παρακαλώ.",
+      "oQueMelhora": "You stop rushing an hour that was never on a clock, and you stop reading a slow table as bad service.",
+      "ondeNaoVale": "Not at a packed place at its busiest with people waiting outside, and not where a queue has formed behind you at a counter with no seating. Read the room before you settle in for the second hour.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-i09-n05"
+      ]
+    }
+  ]
+}

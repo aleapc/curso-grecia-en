@@ -1,0 +1,401 @@
+{
+  "id": "a01",
+  "nivel": "avancado",
+  "numero": 29,
+  "parte": "A01",
+  "titulo": "How they talk when it is not to you",
+  "subtitulo": "Ναι means yes and comes out sounding like nah, εντάξει carries half the traffic, and λοιπόν tells you the decision is arriving",
+  "cena": "Two people beside you are settling something at full speed, and the only word you are sure of sounds like the English for no.",
+  "moldura": "ganha",
+  "frasePiso": "If you take one thing out of this part — that ναι means yes — you will stop misreading agreement as refusal for the rest of the trip.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "el-a01-elot-pronuncia",
+      "afirmacao": "Reading a romanised Greek sign aloud does not produce Greek pronunciation. The transliteration used on road signs is ELOT 743, second edition, 2001, identical to ISO 843:1997, adopted by the British PCGN in 1996 and recommended by the UN in 1987. The PCGN Greece Toponymic Factfile of April 2020 records that ELOT 743 «is very widely used on road signs in Greece as well as printed guide books», that «place names in Wikipedia and on Google Earth are not romanized consistently», and — the point that matters to the ear — that it is «a less reliable guide to Modern Greek pronunciation» than the BGN/PCGN system of 1962 that it replaced. The spelling on the sign is for matching a name, not for saying it.",
+      "fonte": "ΕΛΟΤ 743, 2ª edição, 2001, idêntica à ISO 843:1997. O PCGN britânico, Greece Toponymic Factfile, abril 2020, diz verbatim que o ELOT 743 «is very widely used on road signs in Greece as well as printed guide books» e que «place names in Wikipedia and on Google Earth are not romanized consistently». PCGN adotou em 1996; ONU recomendou pela resolução V/19 (1987). O PCGN registra que o ELOT 743 «is a less reliable guide to Modern Greek pronunciation» do que o sistema BGN/PCGN de 1962 que substituiu.",
+      "ano": 2020,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-a01-n11"
+      ]
+    },
+    {
+      "id": "el-a01-ef-epi-2025",
+      "afirmacao": "In the EF English Proficiency Index 2025 Greece scores 592 points, 20th globally, in the «High» band, down ten points; by skill, reading 600, listening 592, writing 571 and speaking 533, the weakest of the four. EF itself states the limitation: respondents are self-selected and need internet access, which biases the sample towards people already interested in languages. So the index does not measure the English of the Greek population; it measures the English of Greeks who chose to sit an online test. It supports saying that Greece figures among the countries rated high on commercial self-selected indexes. It supports no claim about what share of people speak English, and the low speaking sub-score is exactly where a short Greek sentence keeps its practical value.",
+      "fonte": "EF EPI 2025: Grécia 592, #20 global, banda «High», queda de 10 pontos. Por habilidade: leitura 600, compreensão oral 592, escrita 571, fala 533 — a mais fraca. ⚠️ Ressalva obrigatória, admitida pela própria EF: respondentes autosselecionados, com acesso à internet, enviesados para quem se interessa por idiomas. O EF EPI não mede o inglês da população grega; mede o inglês de gregos que decidiram fazer um teste online. O curso pode dizer «figura entre os países de proficiência alta em índices comerciais de autosseleção» e nunca «X% dos gregos falam inglês».",
+      "ano": 2025,
+      "revisarAte": "2027-02-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "el-a01-n12"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "So far Greek has been aimed at you. This part is Greek aimed at somebody else, and that is a different thing."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a01-n02",
+      "bloco": "corpo",
+      "pt": "Rule one, and it is the one that saves you: ναι means yes. It comes out of a real mouth sounding like nah."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_el_f",
+      "audioKey": "el-a01-r01",
+      "receptivo": true,
+      "acao": "That was three agreements in a row. Do not hear the English word inside it — you were just told yes.",
+      "es": "Ναι, ναι, εντάξει.",
+      "pt": "Yes, yes, fine.",
+      "tts": "Ναι, ναι, εντάξει."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a01-n03",
+      "pt": "Όχι is no, and it is longer and heavier than ναι. If the word was short and light, it was the yes."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_el_m",
+      "audioKey": "el-a01-r02",
+      "receptivo": true,
+      "acao": "Εντάξει twice is the sound of something being closed. Nothing is being negotiated any more.",
+      "es": "Εντάξει, εντάξει, τελείωσε.",
+      "pt": "Fine, fine, it's done.",
+      "tts": "Εντάξει, εντάξει, τελείωσε."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a01-n04",
+      "pt": "Rule two: εντάξει carries the traffic. Fine, agreed, no need, we are done — one word doing four jobs."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_el_f",
+      "audioKey": "el-a01-r03",
+      "receptivo": true,
+      "acao": "Λοιπόν opened it. Whatever comes after that word is the part you actually needed.",
+      "es": "Λοιπόν, τι λέμε; Πάμε ή όχι;",
+      "pt": "Right, what are we saying? Are we going or not?",
+      "tts": "Λοιπόν, τι λέμε; Πάμε ή όχι;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a01-n05",
+      "bloco": "capsula",
+      "pt": "Λοιπόν opens the decision. When you hear it, the useful half of the conversation is about to arrive."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_el_m",
+      "audioKey": "el-a01-r04",
+      "receptivo": true,
+      "acao": "Δεν loses its ν at speed, so δεν ξέρω arrives as one short word. Recognise it; say the full form yourself.",
+      "es": "Δε ξέρω, ρε παιδί μου, δε ξέρω.",
+      "pt": "Dunno, mate, dunno.",
+      "tts": "Δε ξέρω, ρε παιδί μου, δε ξέρω."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a01-n06",
+      "pt": "Ρε goes between people who know each other, constantly. Hear it as warmth, and keep it out of your own mouth."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_el_f",
+      "audioKey": "el-a01-r05",
+      "receptivo": true,
+      "acao": "Έλα here is not come. On a phone it is hello; between friends it is go on, tell me.",
+      "es": "Έλα! Έλα, πες μου.",
+      "pt": "Hello! Go on, tell me.",
+      "tts": "Έλα! Έλα, πες μου."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a01-n07",
+      "pt": "Έλα literally means come. It is also hello on the phone, and also go on, out with it. Context does the work."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_el_m",
+      "audioKey": "el-a01-r06",
+      "receptivo": true,
+      "acao": "Same word twice, two jobs. Rising at the end it is a question; falling, it is here you are.",
+      "es": "Ορίστε; ... Α, ορίστε.",
+      "pt": "Sorry? ... Ah, here you are.",
+      "tts": "Ορίστε; ... Α, ορίστε."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a01-n08",
+      "pt": "Ορίστε does two opposite jobs: here you are, and sorry, say that again. The rise at the end tells you which."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_el_f",
+      "audioKey": "el-a01-r07",
+      "receptivo": true,
+      "acao": "A price at full speed, as one block. Look at the little screen instead of decoding it while she waits.",
+      "es": "Λοιπόν, τρία ευρώ και εξήντα.",
+      "pt": "Right, three euros sixty.",
+      "tts": "Λοιπόν, τρία ευρώ και εξήντα."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a01-n09",
+      "pt": "Prices come out in one block. Watch the little screen instead of doing arithmetic in a second language."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "ear_el_m",
+      "audioKey": "el-a01-r08",
+      "receptivo": true,
+      "acao": "Καλά, εντάξει, πάμε — three closing words in a row. That table is standing up in about four seconds.",
+      "es": "Καλά, εντάξει. Πάμε, πάμε.",
+      "pt": "Fine, all right. Let's go, let's go.",
+      "tts": "Καλά, εντάξει. Πάμε, πάμε."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a01-n10",
+      "pt": "Πάμε means we are going, right now. If it is aimed at your table, put your glass down and stand up."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a01-n11",
+      "pt": "About your own ear: reading the romanised sign aloud does not produce Greek. That spelling is for matching names."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a01-n12",
+      "pt": "English rates high here on self-selected commercial indexes, and speaking is the weakest skill. Expect it unevenly."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "ear_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "δεν κατάλαβα",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a01-p01",
+      "promptPt": "You caught nothing at all in that sentence. Say so once, cleanly, without apologising twice. Speak now.",
+      "audioKey": "el-a01-t01",
+      "es": "Συγγνώμη, δεν κατάλαβα.",
+      "pinyin": "si-GHNO-mi, dhen ka-TA-la-va",
+      "pt": "Sorry, I didn't understand.",
+      "tts": "Συγγνώμη, δεν κατάλαβα."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "ear_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a01-p02",
+      "promptPt": "You need the whole thing again at the same speed, because you only lost the beginning. Speak now.",
+      "audioKey": "el-a01-t02",
+      "es": "Μπορείτε να το πείτε ξανά;",
+      "pinyin": "bo-RI-te na to PI-te ksa-NA",
+      "pt": "Could you say that again?",
+      "tts": "Μπορείτε να το πείτε ξανά;"
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "ear_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a01-p03",
+      "promptPt": "The second pass came at exactly the same speed as the first. Ask for the one thing that would fix it. Speak now.",
+      "audioKey": "el-a01-t03",
+      "es": "Πιο αργά, παρακαλώ.",
+      "pinyin": "pyo ar-GHA, pa-ra-ka-LO",
+      "pt": "More slowly, please.",
+      "tts": "Πιο αργά, παρακαλώ."
+    },
+    {
+      "consulta": [
+        "reparo/como-se-diz"
+      ],
+      "tipo": "responde",
+      "voz": "ear_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a01-p04",
+      "promptPt": "One word in the middle did all the work and it went past you. Point at it and ask. Speak now.",
+      "audioKey": "el-a01-t04",
+      "es": "Τι σημαίνει αυτό;",
+      "pinyin": "ti si-ME-ni af-TO",
+      "pt": "What does that mean?",
+      "tts": "Τι σημαίνει αυτό;"
+    },
+    {
+      "consulta": [
+        "reparo/escreve"
+      ],
+      "tipo": "responde",
+      "voz": "ear_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a01-p05",
+      "promptPt": "It is a street name in an alphabet you are still decoding, and a third hearing will not help. Speak now.",
+      "audioKey": "el-a01-t05",
+      "es": "Μπορείτε να το γράψετε;",
+      "pinyin": "bo-RI-te na to GHRA-pse-te",
+      "pt": "Could you write it down?",
+      "tts": "Μπορείτε να το γράψετε;"
+    },
+    {
+      "consulta": [
+        "reparo/devagar",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "ear_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a01-p06",
+      "promptPt": "You got the shape of it and lost the detail. Say exactly that, so the useful half comes back. Speak now.",
+      "audioKey": "el-a01-t06",
+      "es": "Κατάλαβα λίγο, όχι όλα.",
+      "pinyin": "ka-TA-la-va LI-gho, O-hi O-la",
+      "pt": "I understood a bit, not all of it.",
+      "tts": "Κατάλαβα λίγο, όχι όλα."
+    },
+    {
+      "consulta": [
+        "reparo/ingles"
+      ],
+      "tipo": "responde",
+      "voz": "ear_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a01-p07",
+      "promptPt": "The counter is technical, the queue behind you is six deep, and you need this to be quick. Speak now.",
+      "audioKey": "el-a01-t07",
+      "es": "Μιλάτε αγγλικά;",
+      "pinyin": "mi-LA-te ang-gli-KA",
+      "pt": "Do you speak English?",
+      "tts": "Μιλάτε αγγλικά;"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "ear_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a01-p08",
+      "promptPt": "The table just turned from you to each other and the speed tripled. Say what you noticed, cheerfully. Speak now.",
+      "audioKey": "el-a01-t08",
+      "es": "Μεταξύ σας μιλάτε πολύ γρήγορα!",
+      "pinyin": "me-ta-KSI sas mi-LA-te po-LI GHRI-gho-ra",
+      "pt": "Between yourselves you speak very fast!",
+      "tts": "Μεταξύ σας μιλάτε πολύ γρήγορα!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "ear_el_f",
+      "audioKey": "el-a01-s01",
+      "es": "Συγγνώμη, δεν κατάλαβα. Μπορείτε να το πείτε ξανά; Πιο αργά, παρακαλώ.",
+      "pinyin": "si-GHNO-mi dhen ka-TA-la-va · bo-RI-te na to PI-te ksa-NA · pyo ar-GHA pa-ra-ka-LO",
+      "pt": "Shadow the three sentences that buy you a second pass at anything.",
+      "tts": "Συγγνώμη, δεν κατάλαβα. Μπορείτε να το πείτε ξανά; Πιο αργά, παρακαλώ."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a01-n13",
+      "bloco": "recap",
+      "pt": "A01 done. Ναι is yes, εντάξει is everywhere, λοιπόν starts the decision, and a third of the room is plenty."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The five words that carry the room",
+    "secoes": [
+      {
+        "titulo": "Ναι is yes, and it is the trap",
+        "corpo": "The single most expensive mishearing available to an English speaker in Greece is ναι, which means yes and arrives sounding like nah. Όχι is no, and it is the longer, heavier word of the two. Once you have this the right way round, a great many exchanges stop looking like refusals: the short light word was agreement, and the person who said it is already doing what you asked.",
+        "exemplos": [
+          {
+            "es": "Ναι, ναι, εντάξει.",
+            "pt": "Yes, yes, fine."
+          },
+          {
+            "es": "Όχι, όχι σήμερα.",
+            "pt": "No, not today."
+          }
+        ]
+      },
+      {
+        "titulo": "Εντάξει, λοιπόν, καλά, πάμε, ορίστε",
+        "corpo": "Εντάξει is fine, agreed, no need, we are done, and it turns up several times a minute. Λοιπόν opens a decision and is the best thing your ear can be tuned for, because the useful half of the sentence follows it. Καλά is roughly all right and often signals a closing. Πάμε means we are going, now. Ορίστε does two opposite jobs — here you are, and sorry, say that again — separated only by whether the voice rises at the end."
+      },
+      {
+        "titulo": "What disappears at speed",
+        "corpo": "Δεν loses its ν, so δεν ξέρω comes out as one short run of sound rather than two words. Ρε is an address particle between people who know each other, and it appears constantly in ordinary talk; recognise it as warmth and never use it yourself, because in a visitor's mouth it reads as an impression of Greek rather than as Greek. Έλα means come, and is also the standard hello on the phone, and also go on, out with it — three uses of one word, sorted entirely by context."
+      },
+      {
+        "titulo": "The sign is not a pronunciation guide",
+        "corpo": "Road signs are romanised with ELOT 743, second edition 2001, the same as ISO 843:1997, adopted by the British PCGN in 1996 and recommended by the UN in 1987. The PCGN's own Greece Toponymic Factfile of April 2020 says it is widely used on road signs and in printed guidebooks, that place names online are not romanised consistently, and that ELOT 743 is a less reliable guide to Modern Greek pronunciation than the older system it replaced. Practical consequence: use the romanised form to match a name on a ticket, a map or a departure board, and use your ear — not the spelling — for how it sounds."
+      },
+      {
+        "titulo": "English, unevenly",
+        "corpo": "Greece scores 592 in the EF English Proficiency Index 2025, twentieth globally and in the High band, with speaking at 533 as its weakest skill. EF states plainly that respondents are self-selected and need internet access, so the number describes people who chose to take an online test, not the population. Read it as: English is often available, especially at counters that serve travellers, and a short Greek sentence keeps its value exactly where speaking scores lowest."
+      }
+    ]
+  },
+  "slot": "A01",
+  "permissao": "You are allowed to understand about a third of what you overhear and count it as a win. Nobody follows a fast conversation in a second language at full resolution — knowing whether a decision has just been made, and whether it involves you standing up, is the actual skill, and it takes five words rather than five hundred.",
+  "permissaoAudioKey": "el-a01-n01",
+  "espelho": "Anyone who has listened to two people from another part of their own country and lost half of it already knows this is not really a foreign-language problem. Speed and shared context do most of the damage, and the vocabulary is only part of it.",
+  "fichasCulturais": [
+    {
+      "sinal": "You ask for something, hear what sounds like nah, and the person immediately starts doing the thing you asked for.",
+      "suaLeitura": "I was turned down and then helped anyway, which is confusing.",
+      "oQueEAli": "Nothing was turned down. Ναι is the Greek word for yes, and to an English ear it lands almost exactly on the English no. Όχι is the word for no, and it is longer and heavier. The action you are watching is the accurate translation of what was said.",
+      "oQueVoceFaz": "Lock the pair in before you land: short and light is yes, longer and heavier is no. When you are unsure, watch what the hands do — the answer is usually already in progress.",
+      "oQueMelhora": "You stop reading a whole category of agreement as refusal, which is the single most common misfire an English speaker has in the first days here.",
+      "ondeNaoVale": "Not a rule about gestures or head movements, which this course makes no claim about. And not an excuse to guess: where the answer actually matters — a platform, a dose, a departure time — ask for it again rather than reading a one-syllable word.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-a01-n02",
+        "el-a01-n03"
+      ]
+    },
+    {
+      "sinal": "You read a place name off the road sign exactly as it is written in Latin letters, and the person you say it to does not recognise it.",
+      "suaLeitura": "My accent is hopeless, or that sign was wrong.",
+      "oQueEAli": "Both are fine. Road signs use the ELOT 743 transliteration, and the British PCGN records in its 2020 factfile that this standard is a less reliable guide to Modern Greek pronunciation than the system it replaced. It was built to map letters onto letters reversibly, not to tell you how a word sounds.",
+      "oQueVoceFaz": "Use the romanised spelling to match a name on a ticket, a map or a board — that is what it is good at. For saying it out loud, copy the version you heard, and if you have not heard one, ask.",
+      "oQueMelhora": "You stop blaming your mouth for a mismatch built into the spelling system, and you keep using the Latin letters for the job they actually do well.",
+      "ondeNaoVale": "Not a claim that romanisation is useless or that signs are unreliable — PCGN describes the standard as very widely used on road signs and in guidebooks. And online sources are a separate matter: PCGN notes that place names on Wikipedia and Google Earth are not romanised consistently.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-a01-n11"
+      ]
+    }
+  ]
+}

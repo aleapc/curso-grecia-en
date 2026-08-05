@@ -1,0 +1,96 @@
+{
+  "id": "q-b05",
+  "nivel": "basico",
+  "titulo": "Quiz — Three answers at the desk",
+  "subtitulo": "Purpose, days, where you sleep",
+  "introAudioKey": "el-b05-q-i",
+  "introPt": "A traveller reaches passport control in Athens with three short answers and one repair phrase.",
+  "cenario": "Passport control, Athens airport, twenty minutes after landing.",
+  "dialogo": [
+    {
+      "audioKey": "el-b05-q01",
+      "voz": "target_el_m",
+      "es": "Καλημέρα. Για ποιον λόγο ταξιδεύετε;",
+      "pt": "Good morning. What is the purpose of your travel?",
+      "tts": "Καλημέρα. Για ποιον λόγο ταξιδεύετε;"
+    },
+    {
+      "audioKey": "el-b05-q02",
+      "voz": "target_el_f",
+      "es": "Γεια σας. Είμαι για διακοπές. Δέκα μέρες.",
+      "pt": "Hello. I'm here on holiday. Ten days.",
+      "tts": "Γεια σας. Είμαι για διακοπές. Δέκα μέρες."
+    },
+    {
+      "audioKey": "el-b05-q03",
+      "voz": "target_el_m",
+      "es": "Πού θα μείνετε; Έχετε την κράτηση;",
+      "pt": "Where will you be staying? Do you have the booking?",
+      "tts": "Πού θα μείνετε; Έχετε την κράτηση;"
+    },
+    {
+      "audioKey": "el-b05-q04",
+      "voz": "target_el_f",
+      "es": "Στην Αθήνα, σε ξενοδοχείο. Ναι, ορίστε.",
+      "pt": "In Athens, in a hotel. Yes, here you are.",
+      "tts": "Στην Αθήνα, σε ξενοδοχείο. Ναι, ορίστε."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "What are the three questions the desk is actually asking?",
+      "opcoes": [
+        "Your job, your income and your return date",
+        "Why you came, how many days, where you sleep",
+        "Your address at home, your employer and your insurer",
+        "Your itinerary, your budget and your travel companions"
+      ],
+      "correta": 1,
+      "explica": "Purpose, length, address. Three separate answers, each one waiting for its own question."
+    },
+    {
+      "pergunta": "The question arrives bare, with no softening in front of it. What does that tell you?",
+      "opcoes": [
+        "That the officer is annoyed with you",
+        "Nothing about you — the two languages put politeness in different places",
+        "That you should switch to English immediately",
+        "That your paperwork has a problem"
+      ],
+      "correta": 1,
+      "explica": "Comparative research describes Greek as oriented to involvement and closeness, English to distance and non-imposition. The missing cushion carries no message."
+    },
+    {
+      "pergunta": "«Ορίστε» — what is it doing when you hand over the booking?",
+      "opcoes": [
+        "Apologising for the delay",
+        "Asking the officer to repeat",
+        "Here you are — it hands the thing over and ends the sentence",
+        "Confirming your name"
+      ],
+      "correta": 2,
+      "explica": "Ορίστε has three jobs: here you are, go ahead, and sorry, what? At a desk it is the first, and it moves the exchange onto your evidence."
+    },
+    {
+      "pergunta": "A woman saying she is travelling alone says:",
+      "opcoes": [
+        "Ταξιδεύω μόνος μου",
+        "Ταξιδεύω μόνη μου",
+        "Ταξιδεύω μόνο",
+        "Ταξιδεύω μόνοι"
+      ],
+      "correta": 1,
+      "explica": "Μόνος μου for a man, μόνη μου for a woman. One letter, and it is the only thing in the sentence that moves."
+    },
+    {
+      "pergunta": "Can you count on the officer speaking English?",
+      "opcoes": [
+        "Yes — everyone in Greek public service does",
+        "No — English is rare in Greece",
+        "Sometimes, and the three Greek answers work either way",
+        "Only in the summer season"
+      ],
+      "correta": 2,
+      "explica": "Greece ranks high on commercial self-selected English indices, but those measure people who chose to sit an online test, not a population. Speaking is the weakest of the four skills. Have the three answers ready anyway."
+    }
+  ]
+}

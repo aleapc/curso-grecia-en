@@ -1,0 +1,209 @@
+{
+  "schema": "kit-audio-pre-v1",
+  "slot": "A04",
+  "targetLocale": "it-IT",
+  "buyerLocale": "en-US",
+  "status": "pending_generation",
+  "clips": [
+    {
+      "key": "el-a04-n01",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a04-n02",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a04-n03",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a04-r01",
+      "role": "target_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-a04-n04",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a04-p01",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a04-t01",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a04-p02",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a04-t02",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a04-n05",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a04-n06",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a04-n07",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a04-n08",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a04-r02",
+      "role": "target_el_f",
+      "kind": "return"
+    },
+    {
+      "key": "el-a04-p03",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a04-t03",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a04-n09",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a04-r03",
+      "role": "target_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-a04-n10",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a04-p04",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a04-t04",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a04-p05",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a04-t05",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a04-n11",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a04-p06",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a04-t06",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a04-r04",
+      "role": "target_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-a04-p07",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a04-t07",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a04-p08",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a04-t08",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a04-p09",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a04-t09",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a04-s01",
+      "role": "target_el_f",
+      "kind": "shadow"
+    },
+    {
+      "key": "el-a04-n12",
+      "role": "guide_en_us_m",
+      "kind": "recap"
+    },
+    {
+      "key": "el-a04-q-i",
+      "role": "guide_en_us_f",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "el-a04-q01",
+      "role": "target_el_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "el-a04-q02",
+      "role": "target_el_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "el-a04-q03",
+      "role": "target_el_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "el-a04-q04",
+      "role": "target_el_f",
+      "kind": "quiz"
+    }
+  ]
+}

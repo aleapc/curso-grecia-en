@@ -20,17 +20,13 @@ export type { ModuloOutline };
 // partes com id novo (`b06`, `b08`) antes de alguém decidir em que card elas
 // moram, e é melhor a home mostrá-las sozinhas do que escondê-las.
 const EP_META: Record<string, { nome: string; emoji: string }> = {
-  e01: { nome: 'Sounds, rhythm and the repair kit', emoji: '🗣️' },
-  e02: { nome: 'Before you fly, and the border', emoji: '✈️' },
-  e03: { nome: 'Bar, table and the bill', emoji: '🍺' },
-  e04: { nome: 'Allergy and the invisible ingredient', emoji: '⚠️' },
-  e05: { nome: 'Money and the card machine', emoji: '💳' },
-  e06: { nome: 'Getting around', emoji: '🚇' },
-  e07: { nome: 'Rooms and wheels', emoji: '🏨' },
-  e08: { nome: 'When it goes wrong', emoji: '🆘' },
-  c01: { nome: 'The Spanish clock', emoji: '🕘' },
-  c02: { nome: 'Money manners and the con', emoji: '💶' },
-  c03: { nome: 'Rules with a price tag', emoji: '⚖️' }
+  // Vazio de propósito, e o vazio é a correção. Este mapa agrupava as partes do
+  // curso da ESPANHA, cuja nomenclatura era e01a/e01b/c01. O contrato de 36 slots
+  // usa b/i/a e nenhum prefixo daqui casa — ou seja, toda entrada já era código
+  // morto. Pior: era código morto MENTINDO, com «The Spanish clock» dentro de um
+  // curso que não é da Espanha, esperando alguém ler e acreditar. Esvaziar preserva
+  // o comportamento (cada parte já virava um card sozinho, por degradação
+  // deliberada) e remove a mentira.
 };
 
 export interface ParteCard {

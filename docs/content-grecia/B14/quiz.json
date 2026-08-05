@@ -1,0 +1,96 @@
+{
+  "id": "q-b14",
+  "nivel": "basico",
+  "titulo": "Quiz — Τον λογαριασμό — nothing arrives without being asked",
+  "subtitulo": "The banned cover charge, the compulsory list, and whose job the receipt is",
+  "introAudioKey": "el-b14-q-i",
+  "introPt": "A traveller closes a meal: asks for the bill, queries a line nobody offered, and takes the printed paper.",
+  "cenario": "The end of dinner on a terrace, with bread on the table that arrived on its own.",
+  "dialogo": [
+    {
+      "audioKey": "el-b14-q01",
+      "voz": "target_el_f",
+      "es": "Θα ήθελα τον λογαριασμό, παρακαλώ.",
+      "pt": "I'd like the bill, please.",
+      "tts": "Θα ήθελα τον λογαριασμό, παρακαλώ."
+    },
+    {
+      "audioKey": "el-b14-q02",
+      "voz": "target_el_m",
+      "es": "Αμέσως. Είκοσι δύο και σαράντα.",
+      "pt": "Right away. Twenty-two forty.",
+      "tts": "Αμέσως. Είκοσι δύο και σαράντα."
+    },
+    {
+      "audioKey": "el-b14-q03",
+      "voz": "target_el_f",
+      "es": "Τι είναι αυτό; Το ψωμί δεν το ζητήσαμε.",
+      "pt": "What is this? We didn't ask for the bread.",
+      "tts": "Τι είναι αυτό; Το ψωμί δεν το ζητήσαμε."
+    },
+    {
+      "audioKey": "el-b14-q04",
+      "voz": "target_el_m",
+      "es": "Έχετε δίκιο, συγγνώμη. Το βγάζω αμέσως.",
+      "pt": "You're right, sorry. I'll take it off right away.",
+      "tts": "Έχετε δίκιο, συγγνώμη. Το βγάζω αμέσως."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "A cover charge — κουβέρ — appears on your bill in Greece. What is the position?",
+      "opcoes": [
+        "It is lawful if written on the menu, as in Italy",
+        "It is lawful only outside the tourist season",
+        "It is prohibited outright",
+        "It is lawful up to two euros per person"
+      ],
+      "correta": 2,
+      "explica": "Article 72 of the ΔΙ.Ε.Π.Π.Υ. rules bans it. Greece runs the opposite logic to the Italian coperto, which is lawful when declared."
+    },
+    {
+      "pergunta": "Bread and bottled water land on the table without anyone asking you. Can they be charged?",
+      "opcoes": [
+        "Yes, they are standard table items everywhere",
+        "No — nothing may be served and charged without prior consent",
+        "Only the water, never the bread",
+        "Only if the total is above twenty euros"
+      ],
+      "correta": 1,
+      "explica": "Bread and bottled water are named explicitly in the rule. The fine is €500 per item. Bread may be charged only where it was offered and accepted."
+    },
+    {
+      "pergunta": "What does the law require about the price list?",
+      "opcoes": [
+        "It must exist somewhere on request",
+        "It must be in Greek, visible at the entrance and again before you order, with tax included",
+        "It must be posted in Greek and English",
+        "It is only required for businesses with outdoor seating"
+      ],
+      "correta": 1,
+      "explica": "Articles 70 and 71. No list at all is a €1,000 penalty; a price charged above the listed one is €500 per item."
+    },
+    {
+      "pergunta": "Whose legal obligation is the printed receipt?",
+      "opcoes": [
+        "The customer's — you can be penalised for leaving without it",
+        "The business's, under Law 4308/2014",
+        "Nobody's; it is a courtesy",
+        "The customer's, but only for amounts above €50"
+      ],
+      "correta": 1,
+      "explica": "Issue through a certified fiscal device has been required since 1 January 2015. The claim that a customer can be penalised has no located basis."
+    },
+    {
+      "pergunta": "What percentage should you tip in Greece?",
+      "opcoes": [
+        "Ten per cent",
+        "Fifteen per cent at dinner",
+        "Five per cent, rounded up",
+        "No documented percentage exists — do the mechanics and round up"
+      ],
+      "correta": 3,
+      "explica": "Tipping is recognised enough for a 2024 law to exempt up to €300 a month from income tax, but no survey or federation produces a figure. Any number quoted online is a guess."
+    }
+  ]
+}

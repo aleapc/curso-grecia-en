@@ -1,0 +1,96 @@
+{
+  "id": "q-a05",
+  "nivel": "avancado",
+  "titulo": "Quiz — The other language",
+  "subtitulo": "Five questions about what the index can say, the skill that scores lowest, and the six words",
+  "introAudioKey": "el-a05-q-i",
+  "introPt": "A ticket window at nine in the morning, one greeting in Greek, and an exchange that has to survive a platform number and a time.",
+  "cenario": "A small port office with a queue behind you and a timetable pinned to the glass in two alphabets.",
+  "dialogo": [
+    {
+      "audioKey": "el-a05-q01",
+      "voz": "target_el_f",
+      "es": "Καλημέρα σας. Συγγνώμη, μιλάτε αγγλικά;",
+      "pt": "Good morning. Excuse me, do you speak English?",
+      "tts": "Καλημέρα σας. Συγγνώμη, μιλάτε αγγλικά;"
+    },
+    {
+      "audioKey": "el-a05-q02",
+      "voz": "target_el_m",
+      "es": "Ναι... λίγα. Λίγα αγγλικά.",
+      "pt": "Yes... a little. A little English.",
+      "tts": "Ναι... λίγα. Λίγα αγγλικά."
+    },
+    {
+      "audioKey": "el-a05-q03",
+      "voz": "target_el_f",
+      "es": "Πιο αργά, παρακαλώ. Μπορείτε να το γράψετε;",
+      "pt": "Slower, please. Can you write it down?",
+      "tts": "Πιο αργά, παρακαλώ. Μπορείτε να το γράψετε;"
+    },
+    {
+      "audioKey": "el-a05-q04",
+      "voz": "target_el_m",
+      "es": "Να σου το γράψω και στα λατινικά, να το διαβάσεις.",
+      "pt": "I'll write it in Latin letters too, so you can read it.",
+      "tts": "Να σου το γράψω και στα λατινικά, να το διαβάσεις."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "The EF index for 2025 puts Greece at 592, twentieth, in the High band. What can you honestly conclude from that?",
+      "opcoes": [
+        "That most Greek people speak English",
+        "That Greece figures among the high-proficiency countries in a commercial index of self-selected respondents",
+        "That English is a second official language",
+        "That English is stronger in Greece than anywhere else in southern Europe"
+      ],
+      "correta": 1,
+      "explica": "EF states the limitation itself: respondents opt in, need internet access, and skew towards people already interested in languages. The index measures Greeks who chose to sit an online test, not the population, so no percentage of speakers can be drawn from it."
+    },
+    {
+      "pergunta": "Inside the same index, which skill scores lowest — and what does that change for you?",
+      "opcoes": [
+        "Writing, so avoid emails",
+        "Listening, so speak louder",
+        "Speaking at 533 against reading at 600, so put numbers and names on paper",
+        "Reading, so never write anything down"
+      ],
+      "correta": 2,
+      "explica": "Reading 600, listening 592, writing 571, speaking 533. The gap between understanding your question and producing an answer is real, which is why μπορείτε να το γράψετε; is the highest-value four words in this part."
+    },
+    {
+      "pergunta": "Which set is the courtesy kit this part teaches?",
+      "opcoes": [
+        "Καλημέρα, καλησπέρα, γεια σας, παρακαλώ, ευχαριστώ, συγγνώμη",
+        "Ναι, όχι, καλά, εντάξει, ωραία, τέλεια",
+        "Πόσο κάνει, πού είναι, έχετε, θέλω, μπορώ, ψάχνω",
+        "Γεια, μπράβο, σιγά, έλα, ρε, λοιπόν"
+      ],
+      "correta": 0,
+      "explica": "Six words cover nearly every counter. Two of them multitask: παρακαλώ is please, you're welcome and go ahead, and γεια σας is the polite or plural form where γεια σου is the familiar one."
+    },
+    {
+      "pergunta": "It is half past one. Καλημέρα or καλησπέρα?",
+      "opcoes": [
+        "Καλησπέρα — the rule is that it changes at noon",
+        "Καλημέρα — the rule is that it changes at sunset",
+        "Either; there is no normative source, natives hesitate in that stretch, and καλό μεσημέρι covers the gap",
+        "Neither; use γεια σας until evening"
+      ],
+      "correta": 2,
+      "explica": "No normative source fixes the switch. There is a named prescriptive position holding that the evening begins at sunset, and there is ordinary practice, where three usages coexist. Between noon and about five you will hear natives correct themselves and laugh about it."
+    },
+    {
+      "pergunta": "He writes the place name for you in Latin letters. What is that version good for?",
+      "opcoes": [
+        "Reading aloud, since it gives you the Greek pronunciation",
+        "Matching the word on a sign to the word on your ticket — but not for the sound",
+        "Nothing; it is an unofficial improvisation",
+        "Both meaning and sound, since it is an official standard"
+      ],
+      "correta": 1,
+      "explica": "The romanisation is the ELOT 743 standard, widely used on Greek road signs. The PCGN's own factfile records that it is a less reliable guide to Modern Greek pronunciation than the system it replaced, so ask a person for the sound: πώς το λένε αυτό στα ελληνικά;"
+    }
+  ]
+}

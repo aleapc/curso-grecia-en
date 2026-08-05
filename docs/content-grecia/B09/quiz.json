@@ -1,0 +1,96 @@
+{
+  "id": "q-b09",
+  "nivel": "basico",
+  "titulo": "The paper, the orange box and the name",
+  "subtitulo": "What starts the clock, and what the ferry desk is legally obliged to ask",
+  "introAudioKey": "el-b09-q-i",
+  "introPt": "One window in Piraeus, one platform, and a paper that is not yet a ticket. Listen for the two numbers that matter.",
+  "cenario": "Piraeus. A traveller buys a crossing at the ferry desk, then goes back to the metro platform with a paper ticket still unstamped.",
+  "dialogo": [
+    {
+      "audioKey": "el-b09-q01",
+      "voz": "target_el_f",
+      "es": "Δύο εισιτήρια για τη Νάξο, παρακαλώ.",
+      "pt": "Two tickets to Naxos, please.",
+      "tts": "Δύο εισιτήρια για τη Νάξο, παρακαλώ."
+    },
+    {
+      "audioKey": "el-b09-q02",
+      "voz": "target_el_m",
+      "es": "Τα ονόματά σας και την ημερομηνία γέννησης, παρακαλώ. Αποβάθρα τέσσερα, στις οκτώ.",
+      "pt": "Your names and date of birth, please. Quay four, at eight.",
+      "tts": "Τα ονόματά σας και την ημερομηνία γέννησης, παρακαλώ. Αποβάθρα τέσσερα, στις οκτώ."
+    },
+    {
+      "audioKey": "el-b09-q03",
+      "voz": "target_el_f",
+      "es": "Πιο αργά, παρακαλώ. Πού είναι το ακυρωτικό;",
+      "pt": "Slower, please. Where is the validating machine?",
+      "tts": "Πιο αργά, παρακαλώ. Πού είναι το ακυρωτικό;"
+    },
+    {
+      "audioKey": "el-b09-q04",
+      "voz": "target_el_m",
+      "es": "Εκεί, στην είσοδο. Ακυρώστε το πριν μπείτε.",
+      "pt": "There, at the entrance. Validate it before you get on.",
+      "tts": "Εκεί, στην είσοδο. Ακυρώστε το πριν μπείτε."
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Why did the ferry clerk ask for names and a date of birth for a short crossing?",
+      "opcoes": [
+        "Because foreign passengers are registered separately",
+        "Because the law requires the carrier to register name, sex, nationality and date of birth for every passenger",
+        "Because the fare depends on age",
+        "Because the traveller asked for two tickets rather than one"
+      ],
+      "correta": 1,
+      "explica": "The Greek ferry ticket is a named ticket by law. Everyone in that queue is asked the same thing in the same order, and it is the carrier meeting an obligation."
+    },
+    {
+      "pergunta": "A friend still at the hotel asks you to pick up their ferry ticket while you are at the desk. What is the problem?",
+      "opcoes": [
+        "Nothing, as long as you pay in cash",
+        "The ticket carries the traveller's own name, so it cannot be bought for someone else or passed along",
+        "Only the first ticket of the day can be bought for another person",
+        "Nothing, as long as you have their phone number"
+      ],
+      "correta": 1,
+      "explica": "The named-ticket rule is the whole point: the person sailing is the person registered. A spare ticket is not transferable to a friend."
+    },
+    {
+      "pergunta": "The traveller bought the metro ticket forty minutes ago and has not stamped it. When do the ninety minutes start?",
+      "opcoes": [
+        "At the moment of purchase, so fifty minutes are left",
+        "At midnight of the day of purchase",
+        "At the first validation, so the ninety minutes have not started at all",
+        "When the train leaves the platform"
+      ],
+      "correta": 2,
+      "explica": "The operator states that validity counts from the ticket's first validation. Until the paper goes into the machine, the clock has not begun — which is also why buying several in advance costs you nothing."
+    },
+    {
+      "pergunta": "What does the second half of Εκεί, στην είσοδο. Ακυρώστε το πριν μπείτε tell you to do?",
+      "opcoes": [
+        "Show the ticket to the driver once you are seated",
+        "Keep the ticket until the end of the journey and hand it in",
+        "Stamp it on the way in, before boarding",
+        "Buy a second one at the entrance"
+      ],
+      "correta": 2,
+      "explica": "Ακυρώστε is the instruction on the orange box itself, and πριν μπείτε is before you get on. The instruction is in the second half of the sentence — staying one beat past the first half is what gets you the useful part."
+    },
+    {
+      "pergunta": "An inspector finds an unvalidated ticket. What is the honest thing to say about the amount?",
+      "opcoes": [
+        "It is a fixed statutory figure printed on every ticket",
+        "It is around a hundred euros in convergent press reports, with the legal basis currently under revision",
+        "There is no penalty if you can show the receipt for the purchase",
+        "It is set by the individual inspector"
+      ],
+      "correta": 1,
+      "explica": "The figures reported are around one hundred euros, with a reduced amount for prompt payment, and they could not be confirmed against the official gazette. Treat it as an order of magnitude — and stamp the ticket."
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "schema": "kit-audio-pre-v1",
+  "slot": "I05",
+  "targetLocale": "it-IT",
+  "buyerLocale": "en-US",
+  "status": "pending_generation",
+  "clips": [
+    {
+      "key": "el-i05-n01",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-i05-r01",
+      "role": "target_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-i05-p01",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i05-t01",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i05-n02",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-i05-r02",
+      "role": "target_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-i05-p02",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i05-t02",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i05-r03",
+      "role": "target_el_f",
+      "kind": "return"
+    },
+    {
+      "key": "el-i05-p03",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i05-t03",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i05-r04",
+      "role": "target_el_f",
+      "kind": "return"
+    },
+    {
+      "key": "el-i05-p04",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i05-t04",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i05-r05",
+      "role": "target_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-i05-p05",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i05-t05",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i05-n03",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-i05-r06",
+      "role": "target_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-i05-p06",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i05-t06",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i05-n04",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-i05-r07",
+      "role": "target_el_f",
+      "kind": "return"
+    },
+    {
+      "key": "el-i05-p07",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i05-t07",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i05-n05",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-i05-p08",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i05-t08",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i05-n06",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-i05-r08",
+      "role": "target_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-i05-p09",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i05-t09",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i05-n07",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-i05-p10",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i05-t10",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i05-n08",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-i05-p11",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i05-t11",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i05-s01",
+      "role": "target_el_f",
+      "kind": "shadow"
+    },
+    {
+      "key": "el-i05-n09",
+      "role": "guide_en_us_f",
+      "kind": "recap"
+    },
+    {
+      "key": "el-i05-q-i",
+      "role": "guide_en_us_f",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "el-i05-q01",
+      "role": "target_el_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "el-i05-q02",
+      "role": "target_el_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "el-i05-q03",
+      "role": "target_el_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "el-i05-q04",
+      "role": "target_el_f",
+      "kind": "quiz"
+    }
+  ]
+}

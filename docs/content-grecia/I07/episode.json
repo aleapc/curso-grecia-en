@@ -1,0 +1,357 @@
+{
+  "id": "i07",
+  "nivel": "intermediario",
+  "numero": 25,
+  "parte": "I07",
+  "titulo": "The praise that reaches the kitchen, and the flat sentence that gets the plate sorted",
+  "subtitulo": "Name the dish and the compliment travels; name the fact and the plate moves — both in about six words",
+  "cena": "The fish was genuinely excellent, the plate that came after it arrived cold, and you have ten seconds to do something useful with either fact.",
+  "moldura": "ganha",
+  "frasePiso": "Put a noun in it. Praise with a dish in it reaches the kitchen; a sentence with a fact in it gets acted on.",
+  "decisao": "elogiar nomeando o prato e dizer o fato em voz calma na hora, em vez de dizer «poli oreo» a tudo e guardar o incômodo para a avaliação online",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "el-i07-politeness",
+      "afirmacao": "Politeness in Greek and in English is described in the research literature as pulling in different directions: Greek is oriented towards positive politeness — involvement, closeness — and English towards negative politeness — distance and non-imposition. The practical consequence is symmetrical and documented, not folklore: the English speaker can read the Greek exchange as abrupt or intrusive, and the Greek speaker can read the English one as cold. Both readings are wrong in the same way.",
+      "fonte": "Maria Sifianou, Politeness Phenomena in England and Greece, e Bayraktaroğlu & Sifianou (eds.), Linguistic Politeness Across Boundaries, John Benjamins, P&BNS 88. Panorama recente: Languages, 2026, doi:10.3390/languages11050107.",
+      "ano": 2026,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-i07-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i07-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Two sentences tonight, opposite jobs, one rule: put a noun in it. Vague praise stops at your own table."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i07-n02",
+      "bloco": "corpo",
+      "pt": "Praise first. Poli oreo is warm and it is also nothing. Name the dish and it becomes a message someone can carry."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-i07-t01",
+      "es": "Το ψάρι ήταν εξαιρετικό.",
+      "pinyin": "to PSA-ri EE-tan e-kse-re-ti-KO",
+      "pt": "The fish was outstanding.",
+      "tts": "Το ψάρι ήταν εξαιρετικό."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i07-p01",
+      "promptPt": "One plate on the table was better than everything else on it. Praise that one by name. Speak now.",
+      "audioKey": "el-i07-t01",
+      "es": "Το ψάρι ήταν εξαιρετικό.",
+      "pinyin": "to PSA-ri EE-tan e-kse-re-ti-KO",
+      "pt": "The fish was outstanding.",
+      "tts": "Το ψάρι ήταν εξαιρετικό."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i07-r01",
+      "receptivo": true,
+      "es": "Να 'στε καλά! Θα το πω στην κουζίνα.",
+      "pt": "That's kind of you! I'll pass it on to the kitchen.",
+      "tts": "Να 'στε καλά! Θα το πω στην κουζίνα.",
+      "acao": "Stay seated a beat. The reply is short and the message still travels."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i07-n03",
+      "pt": "Nostimo, iperoho, exeretiko. Three ordinary words here, and every one of them beats a nod and a smile."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i07-p02",
+      "promptPt": "The plates are being cleared and the two of you are still eating well. Say so as they pass. Speak now.",
+      "audioKey": "el-i07-t02",
+      "es": "Πολύ νόστιμο, ευχαριστούμε.",
+      "pinyin": "po-LEE NO-sti-mo, ef-ha-ri-STOO-me",
+      "pt": "Really tasty, thank you.",
+      "tts": "Πολύ νόστιμο, ευχαριστούμε."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i07-p03",
+      "promptPt": "You want the praise to go past the person serving and reach whoever cooked. Speak now.",
+      "audioKey": "el-i07-t03",
+      "es": "Συγχαρητήρια στην κουζίνα!",
+      "pinyin": "sing-ha-ri-TEE-ree-a stin koo-ZEE-na",
+      "pt": "Compliments to the kitchen!",
+      "tts": "Συγχαρητήρια στην κουζίνα!"
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i07-p04",
+      "promptPt": "It is the room you like, not one dish — the light, the noise, the whole thing. Say it on your way past the counter. Speak now.",
+      "audioKey": "el-i07-t04",
+      "es": "Πολύ ωραίο μαγαζί.",
+      "pinyin": "po-LEE o-RE-o ma-ga-ZEE",
+      "pt": "Really lovely place.",
+      "tts": "Πολύ ωραίο μαγαζί."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i07-n04",
+      "bloco": "capsula",
+      "pt": "Now the other one. Signomi, then the fact, then stop talking. No story, no apology stacked on top of it."
+    },
+    {
+      "consulta": [
+        "mesa/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "αυτό είναι κρύο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i07-p05",
+      "promptPt": "The plate in front of you came out cold. Say only that, in a level voice. Speak now.",
+      "audioKey": "el-i07-t05",
+      "es": "Συγγνώμη, αυτό είναι κρύο.",
+      "pinyin": "si-GHNO-mi, af-TO EE-ne KREE-o",
+      "pt": "Excuse me, this is cold.",
+      "tts": "Συγγνώμη, αυτό είναι κρύο."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i07-r02",
+      "es": "Αμέσως, συγγνώμη, σας το αλλάζω.",
+      "pt": "Right away, sorry, I'll change it for you.",
+      "tts": "Αμέσως, συγγνώμη, σας το αλλάζω."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i07-n05",
+      "pt": "Research puts the two languages on opposite settings: Greek leans to closeness, English to distance. Neither one is rudeness."
+    },
+    {
+      "consulta": [
+        "mesa/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "δεν παρήγγειλα αυτό",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i07-p06",
+      "promptPt": "Something landed in front of you that nobody at this table asked for. Say that, and nothing else. Speak now.",
+      "audioKey": "el-i07-t06",
+      "es": "Συγγνώμη, δεν παρήγγειλα αυτό.",
+      "pinyin": "si-GHNO-mi, then pa-REEN-gi-la af-TO",
+      "pt": "Excuse me, I didn't order this.",
+      "tts": "Συγγνώμη, δεν παρήγγειλα αυτό."
+    },
+    {
+      "consulta": [
+        "mesa/errado",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i07-p07",
+      "promptPt": "The glass they put down has a chip on the rim. Ask for the swap, no explanation attached. Speak now.",
+      "audioKey": "el-i07-t07",
+      "es": "Μπορείτε να το αλλάξετε, παρακαλώ;",
+      "pinyin": "bo-REE-te na to a-LA-kse-te, pa-ra-ka-LO",
+      "pt": "Could you change it, please?",
+      "tts": "Μπορείτε να το αλλάξετε, παρακαλώ;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-i07-n06",
+      "pt": "Signomi comes first every single time. It is the knock, and whatever follows it lands as information."
+    },
+    {
+      "consulta": [
+        "mesa/comida",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "θα αργήσει πολύ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i07-p08",
+      "promptPt": "Forty minutes have gone by and the table beside you is on dessert. Ask about the wait without accusing anyone. Speak now.",
+      "audioKey": "el-i07-t08",
+      "es": "Συγγνώμη, θα αργήσει πολύ;",
+      "pinyin": "si-GHNO-mi, tha ar-YEE-si po-LEE",
+      "pt": "Excuse me, will it be much longer?",
+      "tts": "Συγγνώμη, θα αργήσει πολύ;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-i07-r03",
+      "receptivo": true,
+      "es": "Δύο λεπτά, έρχεται τώρα.",
+      "pt": "Two minutes, it's coming now.",
+      "tts": "Δύο λεπτά, έρχεται τώρα.",
+      "acao": "Two minutes means the plate is at the pass. Stay at the table."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-i07-p09",
+      "promptPt": "They sorted the whole thing in under a minute. Close the loop so the table stays warm. Speak now.",
+      "audioKey": "el-i07-t09",
+      "es": "Ευχαριστώ πολύ, πολύ ευγενικό.",
+      "pinyin": "ef-ha-ri-STO po-LEE, po-LEE ev-ye-ni-KO",
+      "pt": "Thank you very much, that's very kind.",
+      "tts": "Ευχαριστώ πολύ, πολύ ευγενικό."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-lugar",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-i07-p10",
+      "promptPt": "You are standing up to leave and you mean it about coming back. Say the strongest compliment there is. Speak now.",
+      "audioKey": "el-i07-t10",
+      "es": "Θα ξανάρθουμε σίγουρα.",
+      "pinyin": "tha ksa-NAR-thoo-me SEE-goo-ra",
+      "pt": "We'll definitely come back.",
+      "tts": "Θα ξανάρθουμε σίγουρα."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-i07-s01",
+      "es": "Το ψάρι ήταν εξαιρετικό. Συγγνώμη, αυτό είναι κρύο. Ευχαριστώ πολύ, πολύ ευγενικό.",
+      "pinyin": "to PSA-ri EE-tan e-kse-re-ti-KO. si-GHNO-mi, af-TO EE-ne KREE-o. ef-ha-ri-STO po-LEE, po-LEE ev-ye-ni-KO",
+      "pt": "Shadow the praise, the fact, and the close that keeps the room warm.",
+      "tts": "Το ψάρι ήταν εξαιρετικό. Συγγνώμη, αυτό είναι κρύο. Ευχαριστώ πολύ, πολύ ευγενικό.",
+      "molde": "SIGNOMI"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-i07-n07",
+      "bloco": "recap",
+      "pt": "I07 done. Name the dish to send praise through, name the fact to get the plate sorted, and close warm either way."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Both sentences need a noun in them",
+    "secoes": [
+      {
+        "titulo": "Name the dish and it becomes carriable",
+        "corpo": "Nobody can walk «everything was lovely» into a kitchen. They can walk «to psari» in. Το ψάρι ήταν εξαιρετικό is six words and it is repeatable by whoever hears it, which is the whole mechanism. Συγχαρητήρια στην κουζίνα is the fixed phrase that addresses the cooking rather than the serving, and it works in a taverna the same way it works at a counter.",
+        "exemplos": [
+          {
+            "es": "Το ψάρι ήταν εξαιρετικό.",
+            "pt": "The fish was outstanding."
+          },
+          {
+            "es": "Συγχαρητήρια στην κουζίνα!",
+            "pt": "Compliments to the kitchen!"
+          }
+        ]
+      },
+      {
+        "titulo": "Signomi plus the fact",
+        "corpo": "Αυτό είναι κρύο. Δεν παρήγγειλα αυτό. Θα αργήσει πολύ; Three sentences, no adjectives about how the evening has gone, no account of your day. The shorter it is, the faster the plate moves — and the opener does the softening so the content does not have to.",
+        "exemplos": [
+          {
+            "es": "Συγγνώμη, αυτό είναι κρύο.",
+            "pt": "Excuse me, this is cold."
+          },
+          {
+            "es": "Μπορείτε να το αλλάξετε, παρακαλώ;",
+            "pt": "Could you change it, please?"
+          }
+        ]
+      },
+      {
+        "titulo": "Two politeness systems, pointed in different directions",
+        "corpo": "Descriptive work on Greek and English politeness places them on opposite settings: Greek oriented to involvement and closeness, English to distance and non-imposition. That is why the same flat factual sentence you would hedge three times at home lands here as ordinary information, and why a warmly delivered Greek exchange can read to you as more forward than it is meant to be. The mismatch runs both ways and neither side is being rude."
+      },
+      {
+        "titulo": "Why the over-apology backfires",
+        "corpo": "Stacking sorries on top of a fact buries the one piece of information the other person needs and signals that you are braced for an argument. Signomi once, the fact, then silence. If the fix comes, ευχαριστώ πολύ closes it; if it does not, you have still said the thing out loud rather than typed it into a phone in the taxi."
+      },
+      {
+        "titulo": "The strongest compliment is the return",
+        "corpo": "Θα ξανάρθουμε σίγουρα outranks any adjective available to you. A room that feeds the same neighbourhood every week counts its work in the people who walk back in, and saying it on the way out costs four words."
+      }
+    ]
+  },
+  "slot": "I07",
+  "permissao": "You are allowed to say that a plate is cold. Συγγνώμη, αυτό είναι κρύο is an ordinary sentence in a Greek dining room, it is heard as information and not as an attack, and the version where you eat it cold and grumble about it afterwards helps nobody, least of all you.",
+  "permissaoAudioKey": "el-i07-n04",
+  "espelho": "Anyone who has eaten a wrong order at home rather than flag it, and then complained about it in the car on the way back, already knows this reflex. It has nothing to do with Greek. It is the belief that saying something out loud makes you difficult, which is exactly backwards.",
+  "fichasCulturais": [
+    {
+      "sinal": "You praise a dish warmly and get a quick «να 'στε καλά» and nothing more — no held smile, no follow-up question.",
+      "suaLeitura": "The compliment landed badly, or they were too busy to care about it.",
+      "oQueEAli": "At the table the reply to praise is usually short and the part that matters happens where you cannot see it. The length of the answer measures how busy the room is, not how the message was received.",
+      "oQueVoceFaz": "Say it once, with the dish named, and let the short answer be the whole answer. Do not repeat it louder or produce a second, longer version.",
+      "oQueMelhora": "The compliment gets passed on, and the exchange stays the size it was meant to be — which is also what makes it easy to do again the next night.",
+      "ondeNaoVale": "Not when what you actually want is a change to the plate. Praise carries no request inside it, and the request needs its own sentence, opening with συγγνώμη.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-i07-n02"
+      ]
+    },
+    {
+      "sinal": "You deliver a fact about your plate the way you would at home — hedged, apologetic, wrapped in explanation — and the reply comes back puzzled or clipped.",
+      "suaLeitura": "Complaints are not welcome here, and I should have kept quiet.",
+      "oQueEAli": "Politeness research describes Greek as oriented towards involvement and closeness and English towards distance and non-imposition. A padded, distance-keeping sentence is doing work that this setting does not ask for, and the padding hides the fact that the other person needs in order to act.",
+      "oQueVoceFaz": "Συγγνώμη, then the fact, then stop. Level voice, no adjectives, no account of the evening. Six words is a complete, well-formed request here.",
+      "oQueMelhora": "The same fact gets a different reception, and you stop reading a difference in style as a verdict on you.",
+      "ondeNaoVale": "Not a licence to drop the opener or to raise your voice — the shortness works because συγγνώμη is in front of it. And a genuinely swamped kitchen will be brisk with everyone in the room, which is what «δύο λεπτά» is telling you.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-i07-n05"
+      ]
+    }
+  ]
+}

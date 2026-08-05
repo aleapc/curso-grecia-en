@@ -1,0 +1,209 @@
+{
+  "schema": "kit-audio-pre-v1",
+  "slot": "I03",
+  "targetLocale": "it-IT",
+  "buyerLocale": "en-US",
+  "status": "pending_generation",
+  "clips": [
+    {
+      "key": "el-i03-n01",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-i03-n02",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-i03-p01",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i03-t01",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i03-r01",
+      "role": "target_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-i03-n03",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-i03-p02",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i03-t02",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i03-r02",
+      "role": "target_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-i03-p03",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i03-t03",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i03-p04",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i03-t04",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i03-n04",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-i03-p05",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i03-t05",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i03-p06",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i03-t06",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i03-n05",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-i03-r03",
+      "role": "target_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-i03-n06",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-i03-p07",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i03-t07",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i03-p08",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i03-t08",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i03-p09",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i03-t09",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i03-r04",
+      "role": "target_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-i03-p10",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i03-t10",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i03-p11",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-i03-t11",
+      "role": "target_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-i03-n07",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-i03-s01",
+      "role": "target_el_f",
+      "kind": "shadow"
+    },
+    {
+      "key": "el-i03-n08",
+      "role": "guide_en_us_m",
+      "kind": "recap"
+    },
+    {
+      "key": "el-i03-q-i",
+      "role": "guide_en_us_f",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "el-i03-q01",
+      "role": "target_el_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "el-i03-q02",
+      "role": "target_el_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "el-i03-q03",
+      "role": "target_el_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "el-i03-q04",
+      "role": "target_el_m",
+      "kind": "quiz"
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "id": "b11",
+  "nivel": "basico",
+  "numero": 11,
+  "parte": "B11",
+  "titulo": "Θα ήθελα — sitting down and getting the first round",
+  "subtitulo": "Two words in front of anything you want, and the table hears a request instead of an instruction",
+  "cena": "A terrace at eight in the evening: tables half full, nobody hurrying, and a waiter who will pass your elbow exactly once in the next minute.",
+  "moldura": "ganha",
+  "frasePiso": "Θα ήθελα, then the thing. Two words that open the table.",
+  "moldes": [
+    "THA-ITHELA"
+  ],
+  "clique": {
+    "contagem": [
+      "the taverna terrace",
+      "the ouzeri",
+      "the café counter"
+    ],
+    "desconto": "Nobody handed you a different sentence for a table, a menu, a beer and a coffee. You kept two words and changed only what came after them.",
+    "piso": "Next time you want something from someone standing over your table, you will not point and hope. You will open with two words and name it."
+  },
+  "fatosDatados": [
+    {
+      "id": "el-b11-categorias",
+      "afirmacao": "Ταβέρνα, εστιατόριο, ουζερί and ψησταριά are not legal categories in Greece. Health and food legislation groups all of them as επιχειρήσεις μαζικής εστίασης under the notification regime of law 4442/2016. The distinction between the names is commercial and customary — an expectation about the menu and the register of the place, not a licence class.",
+      "fonte": "A legislação sanitária grega agrupa todas essas casas em «επιχειρήσεις μαζικής εστίασης», sob o regime de γνωστοποίηση do ν.4442/2016. A distinção entre ταβέρνα, εστιατόριο, ουζερί e ψησταριά é comercial e consuetudinária, não legal.",
+      "ano": 2016,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-b11-n03"
+      ]
+    },
+    {
+      "id": "el-b11-kouver",
+      "afirmacao": "A cover charge is prohibited in Greece. Article 72 of the ΔΙ.Ε.Π.Π.Υ. rules bans charging κουβέρ, and no product — bread and bottled water expressly included — may be served and charged without prior consent, with a penalty of €500 per item. Articles 70 and 71 require a price list in Greek, visible at the entrance and before ordering, with VAT included: €1,000 where the list is missing and €500 per item charged above the listed price.",
+      "fonte": "Art. 72 dos Κανόνες ΔΙ.Ε.Π.Π.Υ. (ΥΑ 91354/2017, ΦΕΚ Β΄2983/30.8.2017), que proíbe o κουβέρ e a cobrança sem consentimento prévio, incluindo pão e água engarrafada — multa de €500 por item. Arts. 70–71: lista de preços obrigatória, em grego, visível na entrada e antes do pedido, com IVA — multa de €1.000 pela ausência e €500 por item cobrado acima do listado.",
+      "ano": 2017,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-b11-n04",
+        "el-b11-n05"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b11-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "You sit down, and the first thirty seconds decide whether this is a transaction or a table."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b11-n02",
+      "bloco": "molde",
+      "pt": "The frame is θα ήθελα, then the thing. Two words that turn an instruction into a request."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-b11-t01",
+      "es": "Θα ήθελα ένα τραπέζι για δύο.",
+      "pinyin": "tha EE-the-la E-na tra-PE-zi ya DHEE-o",
+      "pt": "I'd like a table for two.",
+      "tts": "Θα ήθελα ένα τραπέζι για δύο."
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "THA-ITHELA",
+      "encaixe": "ένα τραπέζι για δύο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b11-p01",
+      "promptPt": "You and one other are standing at the edge of the taverna terrace and someone finally catches your eye. Speak now.",
+      "audioKey": "el-b11-t01",
+      "es": "Θα ήθελα ένα τραπέζι για δύο.",
+      "pinyin": "tha EE-the-la E-na tra-PE-zi ya DHEE-o",
+      "pt": "I'd like a table for two.",
+      "tts": "Θα ήθελα ένα τραπέζι για δύο."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b11-r01",
+      "receptivo": true,
+      "es": "Καλησπέρα! Για πόσα άτομα;",
+      "pt": "Good evening! For how many people?",
+      "tts": "Καλησπέρα! Για πόσα άτομα;",
+      "acao": "The whole question is the number. Answer with it — and fingers count as an answer."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b11-n03",
+      "bloco": "corpo",
+      "pt": "Ταβέρνα, εστιατόριο, ουζερί, ψησταριά. Those are habits of trade, not legal categories."
+    },
+    {
+      "consulta": [
+        "mesa/mesa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "EXETE",
+      "encaixe": "τραπέζι έξω",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b11-p02",
+      "promptPt": "The inside room is full and you can hear chairs on the terrace that you cannot see from the door. Speak now.",
+      "audioKey": "el-b11-t02",
+      "es": "Έχετε τραπέζι έξω;",
+      "pinyin": "E-khe-te tra-PE-zi E-kso",
+      "pt": "Do you have a table outside?",
+      "tts": "Έχετε τραπέζι έξω;"
+    },
+    {
+      "consulta": [
+        "mesa/carta"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "THA-ITHELA",
+      "encaixe": "τον κατάλογο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b11-p03",
+      "promptPt": "You are seated, nothing has been put in front of you, and the waiter is about to pass your table. Speak now.",
+      "audioKey": "el-b11-t03",
+      "es": "Θα ήθελα τον κατάλογο, παρακαλώ.",
+      "pinyin": "tha EE-the-la ton ka-TA-lo-gho, pa-ra-ka-LO",
+      "pt": "I'd like the menu, please.",
+      "tts": "Θα ήθελα τον κατάλογο, παρακαλώ."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b11-n04",
+      "pt": "The price list has to be posted in Greek, at the door and before you order, tax included."
+    },
+    {
+      "consulta": [
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b11-p04",
+      "promptPt": "You have made up your mind and the waiter is two tables away, glancing over. Speak now.",
+      "audioKey": "el-b11-t04",
+      "es": "Θα ήθελα να παραγγείλω.",
+      "pinyin": "tha EE-the-la na pa-ra-GEE-lo",
+      "pt": "I'd like to order.",
+      "tts": "Θα ήθελα να παραγγείλω."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "THA-ITHELA",
+      "encaixe": "μια μπύρα",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b11-p05",
+      "promptPt": "First round at the ouzeri, and everything on offer is written on the wall behind the counter. Speak now.",
+      "audioKey": "el-b11-t05",
+      "es": "Θα ήθελα μια μπύρα.",
+      "pinyin": "tha EE-the-la mya BEE-ra",
+      "pt": "I'd like a beer.",
+      "tts": "Θα ήθελα μια μπύρα."
+    },
+    {
+      "consulta": [
+        "mesa/agua-pao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "THA-ITHELA",
+      "encaixe": "ένα μπουκάλι νερό",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b11-p06",
+      "promptPt": "The terrace still holds the heat of the afternoon and there is no jug anywhere on the table. Speak now.",
+      "audioKey": "el-b11-t06",
+      "es": "Θα ήθελα ένα μπουκάλι νερό.",
+      "pinyin": "tha EE-the-la E-na boo-KA-li ne-RO",
+      "pt": "I'd like a bottle of water.",
+      "tts": "Θα ήθελα ένα μπουκάλι νερό."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b11-r02",
+      "receptivo": true,
+      "es": "Αμέσως. Νερό στο τραπέζι, να σας φέρω;",
+      "pt": "Right away. Water on the table, shall I bring some?",
+      "tts": "Αμέσως. Νερό στο τραπέζι, να σας φέρω;",
+      "acao": "That question is the consent being asked for. Say ναι only if you want it on the bill."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b11-n05",
+      "bloco": "capsula",
+      "pt": "Nothing may be served and charged without your consent — bread and bottled water included."
+    },
+    {
+      "consulta": [
+        "mesa/tamanho",
+        "mesa/comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "EXETE",
+      "encaixe": "μεζέδες",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b11-p07",
+      "promptPt": "The board lists big plates only, and what you want is several small ones for the middle of the table. Speak now.",
+      "audioKey": "el-b11-t07",
+      "es": "Έχετε μεζέδες;",
+      "pinyin": "E-khe-te me-ZE-dhes",
+      "pt": "Do you have small plates?",
+      "tts": "Έχετε μεζέδες;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b11-r03",
+      "receptivo": true,
+      "es": "Έχουμε, ναι. Να σας πω τι έχει σήμερα;",
+      "pt": "We do, yes. Shall I tell you what there is today?",
+      "tts": "Έχουμε, ναι. Να σας πω τι έχει σήμερα;",
+      "acao": "Say ναι and let the list come. The day's plates are often the ones that never reach the card."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b11-n06",
+      "pt": "Έχετε asks what this counter has. Θα ήθελα says what you would like. One table, two openings."
+    },
+    {
+      "consulta": [
+        "mesa/bebida",
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "THA-ITHELA",
+      "encaixe": "έναν καφέ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b11-p08",
+      "promptPt": "Morning, the café counter, and the two people behind you are moving faster than you are. Speak now.",
+      "audioKey": "el-b11-t08",
+      "es": "Θα ήθελα έναν καφέ.",
+      "pinyin": "tha EE-the-la E-nan ka-FE",
+      "pt": "I'd like a coffee.",
+      "tts": "Θα ήθελα έναν καφέ."
+    },
+    {
+      "consulta": [
+        "mesa/agua-pao",
+        "pagar/errado"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b11-p09",
+      "promptPt": "A basket lands on the taverna table without anyone asking you anything about it. Speak now.",
+      "audioKey": "el-b11-t09",
+      "es": "Το ψωμί χρεώνεται;",
+      "pinyin": "to pso-MEE khre-O-ne-te",
+      "pt": "Is the bread charged?",
+      "tts": "Το ψωμί χρεώνεται;"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-b11-s01",
+      "es": "Θα ήθελα ένα τραπέζι για δύο. Θα ήθελα τον κατάλογο, παρακαλώ. Θα ήθελα έναν καφέ.",
+      "pinyin": "tha EE-the-la E-na tra-PE-zi ya DHEE-o. tha EE-the-la ton ka-TA-lo-gho, pa-ra-ka-LO. tha EE-the-la E-nan ka-FE",
+      "pt": "Shadow the same two words across a table, a menu and a coffee.",
+      "tts": "Θα ήθελα ένα τραπέζι για δύο. Θα ήθελα τον κατάλογο, παρακαλώ. Θα ήθελα έναν καφέ.",
+      "molde": "THA-ITHELA"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b11-n07",
+      "bloco": "recap",
+      "pt": "B11 done. Θα ήθελα plus the thing, and the first round arrives without a word of English."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Two words, one table",
+    "secoes": [
+      {
+        "titulo": "Θα ήθελα plus the thing",
+        "corpo": "Keep θα ήθελα and put after it anything a table can bring you. Nothing in the opening moves — the two words are fixed, and the item comes in ready-made: έναν καφέ, μια μπύρα, τον κατάλογο, ένα τραπέζι για δύο. Learn each item as a block, the way you learned a phone number, and the frame never asks you to calculate anything at speed.",
+        "exemplos": [
+          {
+            "es": "Θα ήθελα τον κατάλογο, παρακαλώ.",
+            "pt": "I'd like the menu, please."
+          },
+          {
+            "es": "Θα ήθελα μια μπύρα.",
+            "pt": "I'd like a beer."
+          }
+        ]
+      },
+      {
+        "titulo": "Why not θέλω",
+        "corpo": "Θέλω means I want, and it is shorter, so it is tempting. It also lands drier in Greek than I want does in English — closer to a statement of fact than to an approach. Θα ήθελα is the conditional, and at a counter it does the job that please does in English before you have even reached the noun. Παρακαλώ then stacks on top and covers please, you're welcome and go ahead, all three."
+      },
+      {
+        "titulo": "Ταβέρνα, εστιατόριο, ουζερί, ψησταριά",
+        "corpo": "None of those is a licence class. Greek food legislation puts them all in one bucket — mass catering businesses, under the notification regime of law 4442/2016 — and the difference between the words is trade custom, which is exactly what makes them useful to you. They tell you what to expect on the card and in the room, not what the paperwork says. Τσιπουράδικο is worth knowing as a regional habit above all, strongest around Βόλος and Θεσσαλία."
+      },
+      {
+        "titulo": "The list on the wall is a right you can read from the pavement",
+        "corpo": "The trading rules require a price list in Greek, visible at the entrance and before you order, with VAT included — €1,000 where it is missing, €500 for an item charged above what is listed. You do not have to read Greek fluently to use this: find the list, find the line, compare the number. It is the cheapest thirty seconds of the evening."
+      },
+      {
+        "titulo": "Bread, water and consent",
+        "corpo": "A cover charge is prohibited. Nothing may be served and charged without prior consent, bread and bottled water expressly included, at €500 per item. This is the opposite of what a traveller arriving from Italy expects, where a declared coperto is lawful. So when the basket appears, the question is not rude — it is the mechanism working. Bread can perfectly well be charged as an item, once it has been offered and accepted."
+      }
+    ]
+  },
+  "slot": "B11",
+  "permissao": "You are allowed to arrive at a table with two words and a noun and nothing else. Nobody at that terrace is waiting for a full sentence, and using θα ήθελα identically for a table, a menu, a beer and a coffee is not laziness — it is the frame doing exactly what it was built to do.",
+  "permissaoAudioKey": "el-b11-n02",
+  "espelho": "Anyone who has ever sat at an outdoor table at home, catching an eye and then losing it, rehearsing a sentence for the fourth time while the moment passes, already knows this. The only new part is that the sentence is two words long and never changes.",
+  "fichasCulturais": [
+    {
+      "sinal": "A basket of bread and a bottle of water arrive at your table without anyone having asked you a thing.",
+      "suaLeitura": "This is the local cover charge and I am about to be billed for something I never ordered.",
+      "oQueEAli": "A cover charge is prohibited outright, and the trading rules say no product may be served and charged without prior consent — with bread and bottled water written into the text — at €500 per item. Often what has arrived is genuinely offered, not billed. Sometimes the offer simply has not been made out loud yet.",
+      "oQueVoceFaz": "Ask, flatly and early: το ψωμί χρεώνεται; If the answer is yes and you want it, keep it. If you do not, say όχι, ευχαριστώ and it goes back — that is the consent step happening, a little late.",
+      "oQueMelhora": "The question costs three seconds at the start of the meal and removes the whole conversation from the end of it.",
+      "ondeNaoVale": "Not a rule that bread must be free. It can be charged as an item like any other, once it has been offered and accepted — and the great majority of tables are already doing exactly that. What is prohibited is the charge that appears without the offer.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b11-n05"
+      ]
+    },
+    {
+      "sinal": "Two places on the same street call themselves different things — one ταβέρνα, one ουζερί — and the food coming out of both looks much the same.",
+      "suaLeitura": "The names are marketing and they mean nothing at all.",
+      "oQueEAli": "They are not legal categories: the legislation groups all mass catering under one regime, and the distinction between the words is commercial and customary. But custom is information. The names carry an expectation about the shape of the card and the register of the room, which is why they survive without any legal force behind them.",
+      "oQueVoceFaz": "Read the word on the sign as a forecast, not a guarantee. Ουζερί and τσιπουράδικο point towards small plates for the middle of the table; ψησταριά points at the grill. Then check the list at the door, which is the part that is actually required to be there.",
+      "oQueMelhora": "You choose the room that matches the meal you want instead of the one with the most English on the board.",
+      "ondeNaoVale": "The forecast is loose and regional. Τσιπουράδικο above all is a habit of certain regions rather than a national category, and plenty of places use a name that no longer matches what the kitchen does. When the two disagree, the card wins.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b11-n03"
+      ]
+    }
+  ]
+}

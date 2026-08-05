@@ -1,0 +1,369 @@
+{
+  "id": "a07",
+  "nivel": "avancado",
+  "numero": 35,
+  "parte": "A07",
+  "titulo": "Ορίστε, πέρνα, να πηγαίνω — the signals that arrive before the sentence",
+  "subtitulo": "Εσείς and εσύ are a door somebody else opens, the no is a tilt of the head with a small click, volume is engagement rather than temperature, and leaving starts long before anyone stands up",
+  "cena": "You have been at the table forty minutes, everyone is talking over everyone, and you genuinely cannot tell whether you are welcome or in the way.",
+  "moldura": "ganha",
+  "frasePiso": "Start on εσείς and wait to be moved. Say να πηγαίνω, then take ten more minutes to actually go.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "el-a07-politeness",
+      "afirmacao": "Politeness research places Greek on the positive-politeness side — involvement, closeness — and English on the negative-politeness side — distance, non-imposition. The documented consequence is symmetrical and it is not folklore: the English speaker reads the Greek one as abrupt or intrusive, and the Greek speaker reads the English one as cold or distant. Both readings are wrong.",
+      "fonte": "Maria Sifianou, Politeness Phenomena in England and Greece, e Bayraktaroğlu & Sifianou (eds.), Linguistic Politeness Across Boundaries, John Benjamins, P&BNS 88: o grego é orientado a positive politeness (envolvimento, proximidade) e o inglês a negative politeness (distância, não-imposição). Panorama recente: Languages, 2026, doi:10.3390/languages11050107.",
+      "ano": 2026,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-a07-n02",
+        "el-a07-n03"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a07-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Half of what you need to read in a Greek room arrives before the sentence does, and most of it is not body language."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a07-n02",
+      "bloco": "corpo",
+      "pt": "Politeness research puts Greek on the involvement side and English on the distance side. That is measured, not folklore."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a07-n03",
+      "pt": "So warmth can read to you as intrusion, and your good manners can read to them as coldness. Both readings are wrong."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a07-n04",
+      "pt": "First signal: εσείς and εσύ. Formal and familiar, and the same distinction you already met in γεια σας and γεια σου."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-a07-r01",
+      "receptivo": true,
+      "acao": "That is εσείς: σας, είστε, the plural forms. A stranger, a counter, someone older. Answer in the same register.",
+      "es": "Πώς σας λένε; Από πού είστε;",
+      "pt": "What's your name? Where are you from?",
+      "tts": "Πώς σας λένε; Από πού είστε;"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a07-p01",
+      "promptPt": "Someone behind a counter has been kind to you three days running and you still do not know how to address them. Ask, politely. Speak now.",
+      "audioKey": "el-a07-t01",
+      "es": "Πώς σας λένε;",
+      "pinyin": "pos sas LE-ne",
+      "pt": "What's your name?",
+      "tts": "Πώς σας λένε;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a07-n05",
+      "pt": "The move to εσύ is offered, not taken. You start on εσείς and wait for someone to open the other door."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a07-r02",
+      "receptivo": true,
+      "acao": "That is the offer. Πάμε στον ενικό means let's drop the formal. Accepting is the whole of your job here.",
+      "es": "Έλα, πάμε στον ενικό. Τι λες;",
+      "pt": "Come on, let's drop the formal. What do you say?",
+      "tts": "Έλα, πάμε στον ενικό. Τι λες;"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a07-p02",
+      "promptPt": "The door just opened and the only wrong answer is hesitating. Take it, warmly. Speak now.",
+      "audioKey": "el-a07-t02",
+      "es": "Ναι, βέβαια! Πάμε στον ενικό.",
+      "pinyin": "ne, VE-ve-a! PA-me ston e-ni-KO",
+      "pt": "Yes, of course! Let's drop the formal.",
+      "tts": "Ναι, βέβαια! Πάμε στον ενικό."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a07-n06",
+      "bloco": "capsula",
+      "pt": "Second signal: the no. A short upward tilt of the head with a small click of the tongue. It is not disapproval."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-a07-r03",
+      "receptivo": true,
+      "acao": "The click and the chin going up are the whole answer. Nothing is wrong with you — the answer is simply no.",
+      "es": "Τσ. Δεν έχει σήμερα.",
+      "pt": "Nope. There isn't any today.",
+      "tts": "Τσ. Δεν έχει σήμερα."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a07-n07",
+      "pt": "An English ear hears that click as impatience. It is closer to a shrug, and it saves everyone a sentence."
+    },
+    {
+      "consulta": [
+        "reparo/devagar",
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "SIGNOMI",
+      "encaixe": "δεν κατάλαβα",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a07-p03",
+      "promptPt": "Something arrived fast and flat and you caught none of it. Open the repair before the moment closes. Speak now.",
+      "audioKey": "el-a07-t03",
+      "es": "Συγγνώμη, δεν κατάλαβα. Πιο αργά, παρακαλώ.",
+      "pinyin": "si-GHNO-mi, dhen ka-TA-la-va · pyo ar-GHA, pa-ra-ka-LO",
+      "pt": "Sorry, I didn't understand. Slower, please.",
+      "tts": "Συγγνώμη, δεν κατάλαβα. Πιο αργά, παρακαλώ."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a07-n08",
+      "pt": "Third: volume. A raised voice at the next table is far more often engagement than temperature. Listen to the faces."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a07-r04",
+      "receptivo": true,
+      "acao": "That is welcome, arriving as an instruction. Sit down first and sort out the details afterwards.",
+      "es": "Πέρνα μέσα, κάτσε! Τι θα πιεις;",
+      "pt": "Come in, sit down! What are you having?",
+      "tts": "Πέρνα μέσα, κάτσε! Τι θα πιεις;"
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "καθίσω εδώ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a07-p04",
+      "promptPt": "There is one free chair at a busy table and nobody has looked up yet. Ask before you take it. Speak now.",
+      "audioKey": "el-a07-t04",
+      "es": "Μπορώ να καθίσω εδώ;",
+      "pinyin": "bo-RO na ka-THI-so e-DHO",
+      "pt": "Can I sit here?",
+      "tts": "Μπορώ να καθίσω εδώ;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a07-n09",
+      "pt": "Fourth: the open palm pushed towards someone's face is read as an insult. Wave with your fingers together."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a07-p05",
+      "promptPt": "Two people were mid-conversation when you walked up, and you would rather check than assume. One word does it. Speak now.",
+      "audioKey": "el-a07-t05",
+      "es": "Ενοχλώ;",
+      "pinyin": "e-no-HLO",
+      "pt": "Am I interrupting?",
+      "tts": "Ενοχλώ;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-a07-r05",
+      "receptivo": true,
+      "acao": "Καθόλου means not at all. That is a clear yes to staying — take the chair.",
+      "es": "Καθόλου! Κάτσε μαζί μας.",
+      "pt": "Not at all! Sit with us.",
+      "tts": "Καθόλου! Κάτσε μαζί μας."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a07-n10",
+      "pt": "And the last set: leaving. Καλή συνέχεια and στο καλό are release, not dismissal. They mean go well."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a07-p06",
+      "promptPt": "An hour at a table you were not expecting to join, and you want to name what you are grateful for. Speak now.",
+      "audioKey": "el-a07-t06",
+      "es": "Ευχαριστώ πολύ για την παρέα.",
+      "pinyin": "ef-ha-ri-STO po-LI ya tin pa-RE-a",
+      "pt": "Thank you very much for the company.",
+      "tts": "Ευχαριστώ πολύ για την παρέα."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a07-r06",
+      "receptivo": true,
+      "acao": "Standing up is a proposal, not an announcement. Expect to be held for another ten minutes, and let it happen.",
+      "es": "Μη βιάζεσαι, κάτσε λίγο ακόμα.",
+      "pt": "Don't rush, stay a bit longer.",
+      "tts": "Μη βιάζεσαι, κάτσε λίγο ακόμα."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a07-n11",
+      "pt": "Να πηγαίνω is how you open the leaving, not how you finish it. Say it early and expect to be kept."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a07-p07",
+      "promptPt": "You genuinely have to be somewhere, and you want to start the long goodbye rather than cut it. Speak now.",
+      "audioKey": "el-a07-t07",
+      "es": "Να πηγαίνω. Καλή συνέχεια!",
+      "pinyin": "na pi-YE-no · ka-LI si-NE-hya",
+      "pt": "I should get going. Have a good rest of the day!",
+      "tts": "Να πηγαίνω. Καλή συνέχεια!"
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a07-p08",
+      "promptPt": "You are on your feet, coat in hand, and one warm line is still owed to the person who pulled the chair out. Speak now.",
+      "audioKey": "el-a07-t08",
+      "es": "Χάρηκα πολύ! Θα τα πούμε.",
+      "pinyin": "HA-ri-ka po-LI · tha ta PU-me",
+      "pt": "Really nice to meet you! See you around.",
+      "tts": "Χάρηκα πολύ! Θα τα πούμε."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-a07-s01",
+      "es": "Ενοχλώ; Μπορώ να καθίσω εδώ; Να πηγαίνω. Καλή συνέχεια!",
+      "pinyin": "e-no-HLO · bo-RO na ka-THI-so e-DHO · na pi-YE-no, ka-LI si-NE-hya",
+      "pt": "Shadow the three that manage a room: may I, may I stay, and I am starting to go.",
+      "tts": "Ενοχλώ; Μπορώ να καθίσω εδώ; Να πηγαίνω. Καλή συνέχεια!"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a07-n12",
+      "bloco": "recap",
+      "pt": "A07 done. Wait to be moved to εσύ, read the click as no, hear volume as engagement, and start leaving early."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "Four signals, and the one you never produce",
+    "secoes": [
+      {
+        "titulo": "Two politeness systems, and a symmetrical misreading",
+        "corpo": "This is one of the few things in the course with an academic literature behind it. Politeness research places Greek on the positive-politeness side — involvement, closeness, the assumption that people want to be included — and English on the negative-politeness side, which is built on distance and not imposing. The consequence is documented and it runs both ways: the English speaker experiences Greek warmth as intrusive or abrupt, and the Greek speaker experiences English reserve as cold. Neither reading is about you personally, and knowing that the mirror exists is most of the fix.",
+        "exemplos": [
+          {
+            "es": "Ενοχλώ;",
+            "pt": "Am I interrupting?"
+          },
+          {
+            "es": "Καθόλου! Κάτσε μαζί μας.",
+            "pt": "Not at all! Sit with us."
+          }
+        ]
+      },
+      {
+        "titulo": "Εσείς, εσύ, and why this is a signal and never a decision",
+        "corpo": "Greek has the standard T/V pair: γεια σας and γεια σου, είστε and είσαι, σας λένε and σε λένε. It is tempting to treat this as something to master, and this course deliberately does not. Choosing between them is a reading of the social situation made under pressure, and it changes the verb as well — which makes it exactly the kind of thing a visitor gets wrong at the worst moment. So it stays receptive. Your rule is one line long: start on εσείς with everyone, and move only when somebody moves you. The move is usually explicit — πάμε στον ενικό, or simply the other person switching mid-sentence — and the correct response is to switch too, immediately and without commentary. Declining, or carefully staying formal after being invited, is the one way to get this wrong."
+      },
+      {
+        "titulo": "The no, the volume and the palm",
+        "corpo": "Three things an English ear misreads by default. The no is a short upward tilt of the head, usually with a small click of the tongue, and it is complete — no sentence follows because none is needed. It reads as impatience to a visitor and it is closer to a shrug. Volume is the second: a loud table is normally an engaged table, and an exchange that sounds like a row is very often about a football result. Look at the faces rather than the decibels. The third runs the other way, and it is the one signal on this list you can send by accident: an open palm pushed towards someone's face is a recognised insult here. Wave with your fingers together, or raise a hand rather than pushing it forward."
+      },
+      {
+        "titulo": "Leaving is a process, not an event",
+        "corpo": "Να πηγαίνω — I should get going — opens the goodbye. It does not close it. Expect μη βιάζεσαι, expect one more coffee to be poured, expect to be walked to the door and possibly to the corner. Announcing your departure ten minutes before you want to leave is not indecision; it is the correct amount of runway. Καλή συνέχεια is what you say to someone whose day is continuing without you, στο καλό is the warm send-off you will hear back, and χάρηκα πολύ closes a first meeting. None of them is a request to leave — they are all release."
+      },
+      {
+        "titulo": "The receptive rule, one more time",
+        "corpo": "You will hear εσύ used about you, around you and at you long before you have any business producing it. That is fine. Receptive knowledge is what this module trades in: recognising the signal costs you nothing and being wrong about producing it costs a small amount of warmth at exactly the moment you were building some. Wait to be moved."
+      }
+    ]
+  },
+  "slot": "A07",
+  "permissao": "You are allowed to ask outright whether you are in the way. Ενοχλώ is a single word, it is asked constantly by people who live there, and it is far better received than hovering at the edge of a table trying to read the room in silence. You are also allowed to stay formal for as long as you like — nobody is scoring you on how fast you got to εσύ.",
+  "permissaoAudioKey": "el-a07-n05",
+  "espelho": "Anyone who has stood in a doorway at home wondering whether to say hello or just leave already knows this whole problem. The only new part is that here the signals for come in and for that's enough are different from the ones you grew up reading — not stronger, not warmer, just different.",
+  "fichasCulturais": [
+    {
+      "sinal": "You ask a question and get a short click of the tongue with a small upward jerk of the head, and no words at all.",
+      "suaLeitura": "That was rude, or I have annoyed them by asking.",
+      "oQueEAli": "That is the no. The upward tilt with the click is a complete answer in itself, which is why nothing follows it — the sentence would be redundant. An English ear hears the click as impatience because in English a click before speech usually means exasperation.",
+      "oQueVoceFaz": "Take it as a plain no and carry on. If you need more, ask the follow-up you would have asked after a spoken no: πότε ανοίγετε πάλι, or where else has it.",
+      "oQueMelhora": "You stop reading refusals as hostility, and you stop repeating the question in a louder voice, which is what actually causes friction.",
+      "ondeNaoVale": "This is a description of a widely recognised gesture, not a measured finding, and it is not universal in every register or every generation. Plenty of people simply say όχι. Read the face alongside the gesture rather than treating the click as a decoder ring.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-a07-n06",
+        "el-a07-n07"
+      ]
+    },
+    {
+      "sinal": "Someone you have spoken to twice suddenly starts addressing you with εσύ, and the verbs change shape mid-conversation.",
+      "suaLeitura": "They have decided I am not worth the formal register, or my Greek is so poor they are simplifying it for me.",
+      "oQueEAli": "The opposite. Greek runs a standard formal-familiar distinction, and moving to εσύ is a move towards closeness that the other person is choosing to make. It is often stated out loud — πάμε στον ενικό — and it is an offer.",
+      "oQueVoceFaz": "Switch with them, in the same breath, and do not comment on it. If you are unsure of the familiar forms, keep the sentences short rather than retreating to εσείς.",
+      "oQueMelhora": "You accept an offer of closeness at the exact moment it is made, which is the whole currency of a positive-politeness culture, instead of accidentally declining it.",
+      "ondeNaoVale": "Not licence to open on εσύ yourself. The offer belongs to the other person, and it does not transfer — being on εσύ with the owner of a bar says nothing about how you should address their supplier who has just walked in. And age, workplace and region all shift where the line sits, so treat this as a default rather than a rule.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-a07-n04",
+        "el-a07-n05"
+      ]
+    }
+  ]
+}

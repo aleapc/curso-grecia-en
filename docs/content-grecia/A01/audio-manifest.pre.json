@@ -1,0 +1,224 @@
+{
+  "schema": "kit-audio-pre-v1",
+  "slot": "A01",
+  "targetLocale": "it-IT",
+  "buyerLocale": "en-US",
+  "status": "pending_generation",
+  "clips": [
+    {
+      "key": "el-a01-n01",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a01-n02",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a01-r01",
+      "role": "ear_el_f",
+      "kind": "return"
+    },
+    {
+      "key": "el-a01-n03",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a01-r02",
+      "role": "ear_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-a01-n04",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a01-r03",
+      "role": "ear_el_f",
+      "kind": "return"
+    },
+    {
+      "key": "el-a01-n05",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a01-r04",
+      "role": "ear_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-a01-n06",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a01-r05",
+      "role": "ear_el_f",
+      "kind": "return"
+    },
+    {
+      "key": "el-a01-n07",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a01-r06",
+      "role": "ear_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-a01-n08",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a01-r07",
+      "role": "ear_el_f",
+      "kind": "return"
+    },
+    {
+      "key": "el-a01-n09",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a01-r08",
+      "role": "ear_el_m",
+      "kind": "return"
+    },
+    {
+      "key": "el-a01-n10",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a01-n11",
+      "role": "guide_en_us_f",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a01-n12",
+      "role": "guide_en_us_m",
+      "kind": "narration"
+    },
+    {
+      "key": "el-a01-p01",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a01-t01",
+      "role": "ear_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a01-p02",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a01-t02",
+      "role": "ear_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a01-p03",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a01-t03",
+      "role": "ear_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a01-p04",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a01-t04",
+      "role": "ear_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a01-p05",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a01-t05",
+      "role": "ear_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a01-p06",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a01-t06",
+      "role": "ear_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a01-p07",
+      "role": "guide_en_us_f",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a01-t07",
+      "role": "ear_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a01-p08",
+      "role": "guide_en_us_m",
+      "kind": "prompt"
+    },
+    {
+      "key": "el-a01-t08",
+      "role": "ear_el_f",
+      "kind": "target"
+    },
+    {
+      "key": "el-a01-s01",
+      "role": "ear_el_f",
+      "kind": "shadow"
+    },
+    {
+      "key": "el-a01-n13",
+      "role": "guide_en_us_f",
+      "kind": "recap"
+    },
+    {
+      "key": "el-a01-q-i",
+      "role": "guide_en_us_f",
+      "kind": "quiz_intro"
+    },
+    {
+      "key": "el-a01-q01",
+      "role": "ear_el_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "el-a01-q02",
+      "role": "ear_el_m",
+      "kind": "quiz"
+    },
+    {
+      "key": "el-a01-q03",
+      "role": "ear_el_f",
+      "kind": "quiz"
+    },
+    {
+      "key": "el-a01-q04",
+      "role": "ear_el_m",
+      "kind": "quiz"
+    }
+  ]
+}

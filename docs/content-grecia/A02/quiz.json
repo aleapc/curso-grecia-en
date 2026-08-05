@@ -1,0 +1,96 @@
+{
+  "id": "q-a02",
+  "nivel": "avancado",
+  "titulo": "Quiz — What they laugh at",
+  "subtitulo": "Five questions about the flat line, the tease and the joke that is yours",
+  "introAudioKey": "el-a02-q-i",
+  "introPt": "A long table, a tease that sounds harder than it is, and a visitor working out who is allowed to say what.",
+  "cenario": "Late in a meal, with people who have known each other for twenty years and one guest who has not.",
+  "dialogo": [
+    {
+      "audioKey": "el-a02-q01",
+      "voz": "target_el_m",
+      "es": "Σιγά τα λάχανα! Πρώτη φορά το ακούω.",
+      "pt": "Big deal! First I've heard of it.",
+      "tts": "Σιγά τα λάχανα! Πρώτη φορά το ακούω."
+    },
+    {
+      "audioKey": "el-a02-q02",
+      "voz": "target_el_f",
+      "es": "Καλά, σοβαρά τώρα; Με δουλεύεις!",
+      "pt": "Right, seriously? You're winding me up!",
+      "tts": "Καλά, σοβαρά τώρα; Με δουλεύεις!"
+    },
+    {
+      "audioKey": "el-a02-q03",
+      "voz": "target_el_m",
+      "es": "Έλα ρε, πλάκα κάνω!",
+      "pt": "Come on, I'm joking!",
+      "tts": "Έλα ρε, πλάκα κάνω!"
+    },
+    {
+      "audioKey": "el-a02-q04",
+      "voz": "target_el_f",
+      "es": "Τα ελληνικά μου είναι τραγικά, το ξέρω!",
+      "pt": "My Greek is tragic, I know!",
+      "tts": "Τα ελληνικά μου είναι τραγικά, το ξέρω!"
+    }
+  ],
+  "perguntas": [
+    {
+      "pergunta": "Σιγά is said perfectly flat. What does it mean there?",
+      "opcoes": [
+        "Slow down, please",
+        "Big deal — the opposite of impressed",
+        "Careful",
+        "Wait for me"
+      ],
+      "correta": 1,
+      "explica": "Σιγά literally means slowly, and σιγά τα λάχανα is literally slow the cabbages. Said level, both mean big deal. The flatness is the whole signal."
+    },
+    {
+      "pergunta": "Πλάκα κάνω has just landed. What has happened?",
+      "opcoes": [
+        "An apology was offered",
+        "A price was quoted",
+        "The tease was closed — that was a joke",
+        "Somebody left the table"
+      ],
+      "correta": 2,
+      "explica": "It is the standard closer, and it arrives fast, before the sharpness can settle wrong."
+    },
+    {
+      "pergunta": "Someone says με δουλεύεις. What is going on?",
+      "opcoes": [
+        "You are being asked about your job",
+        "You are being accused, friendlily, of winding them up",
+        "You are being asked to work",
+        "You are being told off"
+      ],
+      "correta": 1,
+      "explica": "Δουλεύω is to work, and to work somebody is to pull their leg. Saying it back is itself a way of joining in."
+    },
+    {
+      "pergunta": "The table starts arguing about one Greek city versus another and asks your view. What do you do?",
+      "opcoes": [
+        "Pick the city you liked more and say why",
+        "Repeat a joke you heard about one of them",
+        "Say εγώ δεν λέω τίποτα, smile, and ask them what they think",
+        "Change the subject to politics"
+      ],
+      "correta": 2,
+      "explica": "The argument predates you and everyone there has standing in it that you do not. Being asked is hospitality; it carries no requirement to answer."
+    },
+    {
+      "pergunta": "Which joke reliably works in a visitor's mouth?",
+      "opcoes": [
+        "A joke about the neighbouring country",
+        "A joke about a Greek region",
+        "The joke about yourself — your Greek, your appetite, your reading of the alphabet",
+        "A joke about religion"
+      ],
+      "correta": 2,
+      "explica": "Self-deprecation is the one register that travels intact. Reading ΡΟΔΟΣ aloud as Podos and admitting it gets a laugh because everyone has watched somebody do it."
+    }
+  ]
+}

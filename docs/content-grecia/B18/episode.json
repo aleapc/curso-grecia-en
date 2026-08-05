@@ -1,0 +1,392 @@
+{
+  "id": "b18",
+  "nivel": "basico",
+  "numero": 18,
+  "parte": "B18",
+  "titulo": "The last morning — μπορώ να αφήσω, and the goodbye that gets you asked back",
+  "subtitulo": "Check-out is at eleven and your flight is at nine, and the hours in between are still yours",
+  "cena": "Reception again, one week later. The key is going back across the counter, the bag has nowhere to be, and the island has one more afternoon in it.",
+  "moldura": "ganha",
+  "frasePiso": "Μπορώ να αφήσω τις βαλίτσες — and the day stays yours until the gate.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "el-b18-oasa",
+      "afirmacao": "In Athens the metro to the airport costs €9.00 one way and €16.00 return, and the Express bus to the airport is €5.50. The ordinary integrated ticket, valid 90 minutes, is €1.20; a day is €4.10, five days €8.20 and the three-day tourist ticket €20.00. Validity is counted from the first validation, so validating is the act that starts the clock.",
+      "fonte": "Atenas (ΟΑΣΑ, oasa.gr): integrado 90 min €1,20; diário €4,10; 5 dias €8,20; turístico 3 dias €20,00; metrô aeroporto €9,00 / €16,00 ida e volta; Express aeroporto €5,50. Validade conta «since its first validation» — a validação é o fato gerador.",
+      "ano": 2026,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "el-b18-n05"
+      ]
+    },
+    {
+      "id": "el-b18-akteploika",
+      "afirmacao": "A Greek ferry ticket is nominal by law: name, sex, nationality and date of birth are registered with the ticket. The practical consequence is that you cannot buy a ticket in someone else's name and you cannot pass an unused ticket on to another traveller.",
+      "fonte": "Bilhete de balsa é NOMINAL por lei. π.δ. 23/1999, alterado pelo π.δ. 102/2019 (Diretiva UE 2017/2109): registro de nome, sexo, nacionalidade, data de nascimento. Consequência a ensinar: não se compra bilhete para outra pessoa nem se repassa bilhete.",
+      "ano": 2019,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "el-b18-n06"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b18-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Last morning. Check-out is early, the flight is not, and the gap between them is the whole point."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b18-n02",
+      "bloco": "molde",
+      "pt": "Ask them to keep the bags before you hand back the key. That request buys the day back."
+    },
+    {
+      "consulta": [
+        "quarto/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b18-p01",
+      "promptPt": "You are at the desk at half past ten with the key in your hand. Open the check-out. Speak now.",
+      "audioKey": "el-b18-t01",
+      "es": "Καλημέρα, φεύγω σήμερα.",
+      "pinyin": "ka-li-ME-ra, FEV-gho SEE-me-ra",
+      "pt": "Good morning, I'm leaving today.",
+      "tts": "Καλημέρα, φεύγω σήμερα."
+    },
+    {
+      "consulta": [
+        "quarto/mala"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "αφήσω τις βαλίτσες μέχρι το βράδυ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b18-p02",
+      "promptPt": "The room goes back at eleven and your flight is at nine tonight. Ask before you hand the key over. Speak now.",
+      "audioKey": "el-b18-t02",
+      "es": "Μπορώ να αφήσω τις βαλίτσες μέχρι το βράδυ;",
+      "pinyin": "bo-RO na a-FEE-so tis va-LEE-tses ME-khri to VRA-thi",
+      "pt": "Can I leave my bags until this evening?",
+      "tts": "Μπορώ να αφήσω τις βαλίτσες μέχρι το βράδυ;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b18-r01",
+      "es": "Φυσικά. Θα τις βάλω στον χώρο αποσκευών.",
+      "pt": "Of course. I'll put them in the luggage room.",
+      "tts": "Φυσικά. Θα τις βάλω στον χώρο αποσκευών.",
+      "receptivo": true,
+      "acao": "The bags now live somewhere with a door. Ask what time that door is staffed until."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b18-n03",
+      "bloco": "corpo",
+      "pt": "Μπορώ να still opens everything on this floor. Leave the bag, hand back the key, call a car."
+    },
+    {
+      "consulta": [
+        "quarto/checkout"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "αφήσω το κλειδί εδώ",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b18-p03",
+      "promptPt": "Nobody is behind the desk and there is a small bowl on the counter. Call through to the back and ask. Speak now.",
+      "audioKey": "el-b18-t03",
+      "es": "Μπορώ να αφήσω το κλειδί εδώ;",
+      "pinyin": "bo-RO na a-FEE-so to kli-THEE e-THO",
+      "pt": "Can I leave the key here?",
+      "tts": "Μπορώ να αφήσω το κλειδί εδώ;"
+    },
+    {
+      "consulta": [
+        "pagar/pedir",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "POSO-KANI",
+      "encaixe": "όλα μαζί",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b18-p04",
+      "promptPt": "Seven nights, three breakfasts and two things from the fridge are about to be added up. Speak now.",
+      "audioKey": "el-b18-t04",
+      "es": "Πόσο κάνει όλα μαζί;",
+      "pinyin": "PO-so KA-ni O-la ma-ZEE",
+      "pt": "How much is it all together?",
+      "tts": "Πόσο κάνει όλα μαζί;"
+    },
+    {
+      "consulta": [
+        "pagar/cartao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "πληρώσω με κάρτα",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b18-p05",
+      "promptPt": "The total has just been said out loud and you have no wish to count notes. Speak now.",
+      "audioKey": "el-b18-t05",
+      "es": "Μπορώ να πληρώσω με κάρτα;",
+      "pinyin": "bo-RO na pli-RO-so meh KAR-ta",
+      "pt": "Can I pay by card?",
+      "tts": "Μπορώ να πληρώσω με κάρτα;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b18-r02",
+      "es": "Βεβαίως. Ορίστε η απόδειξη.",
+      "pt": "Of course. Here's your receipt.",
+      "tts": "Βεβαίως. Ορίστε η απόδειξη."
+    },
+    {
+      "consulta": [
+        "quarto/mala",
+        "apuro/perdi"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b18-p06",
+      "promptPt": "Halfway down the street you picture the charger still in the socket by the bed. Go back and say it. Speak now.",
+      "audioKey": "el-b18-t06",
+      "es": "Ξέχασα κάτι στο δωμάτιο.",
+      "pinyin": "KSE-kha-sa KA-ti sto tho-MA-ti-o",
+      "pt": "I left something in the room.",
+      "tts": "Ξέχασα κάτι στο δωμάτιο."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b18-n04",
+      "pt": "Πόσο κάνει before you commit is worth as much on the last day as it was on the first one."
+    },
+    {
+      "consulta": [
+        "taxi/destino",
+        "compras/quanto"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "POSO-KANI",
+      "encaixe": "η διαδρομή για το αεροδρόμιο",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b18-p07",
+      "promptPt": "A driver has stopped and the boot is open, and you have not agreed anything yet. Speak now.",
+      "audioKey": "el-b18-t07",
+      "es": "Πόσο κάνει η διαδρομή για το αεροδρόμιο;",
+      "pinyin": "PO-so KA-ni i thi-a-thro-MEE ya to a-e-ro-THRO-mi-o",
+      "pt": "How much is the ride to the airport?",
+      "tts": "Πόσο κάνει η διαδρομή για το αεροδρόμιο;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b18-n05",
+      "pt": "In Athens the metro out is nine euros, sixteen return, and the Express bus is five fifty."
+    },
+    {
+      "consulta": [
+        "taxi/destino"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "BORO",
+      "encaixe": "καλέσω ταξί από εδώ",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b18-p08",
+      "promptPt": "It is raining, the bags are heavy and the desk has a phone on it. Speak now.",
+      "audioKey": "el-b18-t08",
+      "es": "Μπορώ να καλέσω ταξί από εδώ;",
+      "pinyin": "bo-RO na ka-LE-so ta-KSEE a-PO e-THO",
+      "pt": "Can I call a taxi from here?",
+      "tts": "Μπορώ να καλέσω ταξί από εδώ;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b18-n06",
+      "pt": "If your way out is a boat, the ticket carries your name. Nobody travels on someone else's."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b18-r03",
+      "es": "Το εισιτήριο είναι ονομαστικό. Χρειάζομαι το όνομά σας.",
+      "pt": "The ticket is issued in a name. I need your name.",
+      "tts": "Το εισιτήριο είναι ονομαστικό. Χρειάζομαι το όνομά σας.",
+      "receptivo": true,
+      "acao": "Ονομαστικό means it carries a name. Spell yours as it appears in the passport."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b18-n07",
+      "bloco": "capsula",
+      "pt": "Then the goodbye, which is short here and does considerably more than it looks like it does."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b18-p09",
+      "promptPt": "The same person has sorted out four things for you this week and is behind the desk now. Speak now.",
+      "audioKey": "el-b18-t09",
+      "es": "Ευχαριστώ για όλα. Ήταν υπέροχα.",
+      "pinyin": "ef-kha-ri-STO ya O-la. EE-tan i-PE-ro-kha",
+      "pt": "Thank you for everything. It was wonderful.",
+      "tts": "Ευχαριστώ για όλα. Ήταν υπέροχα."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b18-n08",
+      "pt": "Θα ξανάρθω — I'll come back. Say it loosely: it lands as warmth, not as a promise you owe."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b18-p10",
+      "promptPt": "You are at the door with the bag on your shoulder and they are watching you go. Speak now.",
+      "audioKey": "el-b18-t10",
+      "es": "Θα ξανάρθω σίγουρα.",
+      "pinyin": "tha ksa-NAR-tho SEE-ghoo-ra",
+      "pt": "I'll definitely come back.",
+      "tts": "Θα ξανάρθω σίγουρα."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b18-r04",
+      "es": "Καλό ταξίδι! Να 'στε καλά.",
+      "pt": "Safe journey! All the best to you.",
+      "tts": "Καλό ταξίδι! Να 'στε καλά."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer",
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b18-p11",
+      "promptPt": "They have just wished you a good journey and you have one line left to give back. Speak now.",
+      "audioKey": "el-b18-t11",
+      "es": "Καλή συνέχεια! Να 'στε καλά.",
+      "pinyin": "ka-LEE si-NE-khi-a! na steh ka-LA",
+      "pt": "Enjoy the rest of it! All the best to you.",
+      "tts": "Καλή συνέχεια! Να 'στε καλά."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-b18-s01",
+      "es": "Μπορώ να αφήσω τις βαλίτσες μέχρι το βράδυ; Πόσο κάνει όλα μαζί; Θα ξανάρθω σίγουρα.",
+      "pinyin": "bo-RO na a-FEE-so tis va-LEE-tses ME-khri to VRA-thi. PO-so KA-ni O-la ma-ZEE. tha ksa-NAR-tho SEE-ghoo-ra",
+      "pt": "Shadow the three that carry the last day: the bag, the bill and the door left open.",
+      "tts": "Μπορώ να αφήσω τις βαλίτσες μέχρι το βράδυ; Πόσο κάνει όλα μαζί; Θα ξανάρθω σίγουρα."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b18-n09",
+      "bloco": "recap",
+      "pt": "B18 done, and the module with it. The bag is safe, the bill is settled, the door is open."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The day between check-out and the gate",
+    "secoes": [
+      {
+        "titulo": "The bag first, the key second",
+        "corpo": "Almost every place that rents rooms will keep a bag for the day, and almost none will volunteer it. Ask while the key is still in your hand, because the request reads as part of check-out rather than as a favour asked by someone who no longer has a room. Then ask the second question that matters: μέχρι τι ώρα — until what time — because the luggage room is only useful while somebody is there to open it.",
+        "exemplos": [
+          {
+            "es": "Μπορώ να αφήσω τις βαλίτσες μέχρι το βράδυ;",
+            "pt": "Can I leave my bags until this evening?"
+          },
+          {
+            "es": "Μπορώ να αφήσω το κλειδί εδώ;",
+            "pt": "Can I leave the key here?"
+          }
+        ]
+      },
+      {
+        "titulo": "Πόσο κάνει, one last time",
+        "corpo": "The frame that started at the market closes the trip: πόσο κάνει όλα μαζί at the desk, πόσο κάνει η διαδρομή before the boot closes. Asking the number before you commit costs nothing on the last day either, and the last day is exactly when people stop asking because they are already halfway home in their heads."
+      },
+      {
+        "titulo": "Getting out of Athens",
+        "corpo": "From the centre the metro to the airport is €9.00 one way and €16.00 return, and the Express bus is €5.50 — the ordinary €1.20 ticket does not cover the airport line. A normal integrated ticket lasts 90 minutes and, like all of them, it starts counting from its first validation, not from purchase. So buy early if you like, but validate at the moment you actually travel."
+      },
+      {
+        "titulo": "A ferry ticket has your name on it",
+        "corpo": "Greek ferry tickets are nominal by law — name, sex, nationality and date of birth are registered with the booking. Two practical consequences: you cannot buy a ticket for a friend using your own details, and an unused ticket cannot be handed to somebody else. If plans change, the conversation is with the company, not with the person you meant to give it to."
+      },
+      {
+        "titulo": "The three lines that close a week",
+        "corpo": "Ευχαριστώ για όλα, thank you for everything. Ήταν υπέροχα, it was wonderful. Θα ξανάρθω, I'll come back. The last one is not a contract and nobody hears it as one; it is the standard warm close, and the answer you will usually get is να 'στε καλά or καλό ταξίδι. Καλή συνέχεια — enjoy the rest of it — is the one you can give them back."
+      }
+    ]
+  },
+  "slot": "B18",
+  "permissao": "You are allowed to leave your bag behind a desk you have stopped paying for, and you are allowed to say θα ξανάρθω without knowing whether it is true. Nobody is holding you to it — it is the ordinary way a good week is closed here, and saying it badly still says it.",
+  "permissaoAudioKey": "el-b18-n08",
+  "espelho": "Anyone who has spent a last day dragging a suitcase around a city they were enjoying until that morning already knows exactly what this part is worth. The only new part is that eleven Greek words hand the bag over and hand the afternoon back.",
+  "fichasCulturais": [
+    {
+      "sinal": "You say goodbye at the desk and it does not end — there are more questions, a coffee is offered, and you are somehow still standing there ten minutes later.",
+      "suaLeitura": "I have handled the goodbye badly, or they want something from me.",
+      "oQueEAli": "Research comparing politeness in England and Greece describes Greek interaction as oriented towards involvement and closeness rather than towards distance and non-imposition. A leave-taking built out of that orientation runs longer and warmer than the English one, which is built to release both people quickly. Neither is a judgement about you.",
+      "oQueVoceFaz": "Budget five extra minutes for the goodbye and spend them. Give the closing lines rather than backing towards the door: ευχαριστώ για όλα, ήταν υπέροχα, θα ξανάρθω. A clear line said warmly ends things better than a slow retreat.",
+      "oQueMelhora": "You leave on the note the week actually deserved, and the person behind the desk remembers a guest rather than a room number.",
+      "ondeNaoVale": "This describes a documented difference between two politeness systems, not a personality, and it predicts nothing about any particular morning. A busy check-out with four people queuing behind you is short for reasons that have nothing to do with warmth.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b18-n07"
+      ]
+    },
+    {
+      "sinal": "Your plans change, you offer your unused ferry ticket to someone at the hostel, and the counter will not let them board on it.",
+      "suaLeitura": "The company is being difficult about a piece of paper that is already paid for.",
+      "oQueEAli": "Greek ferry tickets are nominal by law: name, sex, nationality and date of birth are registered against the ticket, under a 1999 presidential decree amended in 2019 to implement the EU passenger-registration directive. The name on the ticket is the point of it, and the crew list is built from those names.",
+      "oQueVoceFaz": "Buy tickets in the name of the person actually travelling, with the passport in front of you, and take spelling seriously. If plans change, talk to the ferry company about changing or refunding, not to another traveller.",
+      "oQueMelhora": "You stop losing money on a transfer that was never going to work, and boarding takes seconds because the name matches the document.",
+      "ondeNaoVale": "It is a rule about ferries and their passenger lists, not about every ticket in the country, and it says nothing about how flexible a given company is on changing the date once you ask them directly.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b18-n06"
+      ]
+    }
+  ]
+}

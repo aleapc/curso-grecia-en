@@ -1,0 +1,369 @@
+{
+  "id": "b02",
+  "nivel": "basico",
+  "numero": 2,
+  "parte": "B02",
+  "titulo": "Γεια σας on the way in, and nine more words",
+  "subtitulo": "Ten words cover the whole visit — and the one that opens it shifts around midday, which is the hour locals hesitate over too",
+  "cena": "You step into a small shop with two people in it, the owner is behind the counter, and there is a half-second in which either the word comes out or it does not.",
+  "moldura": "ganha",
+  "frasePiso": "One word on the way in, one on the way out. Everything you need in that shop fits into eight more.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "el-b02-ef-epi-2025",
+      "afirmacao": "Greece scores 592 on the EF English Proficiency Index 2025, ranked 20th globally and placed in the «High» band, down 10 points. By skill: reading 600, listening 592, writing 571, speaking 533 — speaking is the weakest of the four. EF itself states the respondents are self-selected internet users, so the index does not measure English in the Greek population; it measures the English of people who chose to sit an online test. The usable reading: Greece appears among the high-proficiency countries in commercial self-selection indices, and a short Greek sentence keeps its practical value precisely where the sub-score is lowest.",
+      "fonte": "EF EPI 2025: Grécia 592, #20 global, banda «High», queda de 10 pontos. Por habilidade: leitura 600, compreensão oral 592, escrita 571, fala 533 — a mais fraca. Ressalva obrigatória, admitida pela própria EF: respondentes autosselecionados, com acesso à internet, enviesados para quem se interessa por idiomas. O curso pode dizer «figura entre os países de proficiência alta em índices comerciais de autosseleção» e nunca «X% dos gregos falam inglês».",
+      "ano": 2025,
+      "revisarAte": "2027-08-05",
+      "evidencia": "FATO",
+      "risco": "medio",
+      "audioKeys": [
+        "el-b02-n05"
+      ]
+    },
+    {
+      "id": "el-b02-polidez",
+      "afirmacao": "Politeness in Greek and in English is described in the research literature as running on opposite defaults: Greek is oriented to positive politeness — involvement, closeness — and English to negative politeness — distance, non-imposition. The documented consequence is symmetrical and it is about the systems, not about people: an English speaker can read a Greek exchange as abrupt or intrusive, and a Greek speaker can read an English one as cool or distant. Both readings are artefacts of the mismatch.",
+      "fonte": "Maria Sifianou, Politeness Phenomena in England and Greece, e Bayraktaroğlu & Sifianou (eds.), Linguistic Politeness Across Boundaries, John Benjamins, P&BNS 88: o grego é orientado a positive politeness (envolvimento, proximidade) e o inglês a negative politeness (distância, não-imposição). Panorama recente: Languages, 2026, doi:10.3390/languages11050107. Consequência direta, e é documentada e não folclore: o anglófono lê o grego como abrupto ou intrusivo, e o grego lê o anglófono como frio ou distante. As duas leituras são erradas e simétricas.",
+      "ano": 2026,
+      "revisarAte": "2029-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-b02-n02"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b02-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Ten words cover a whole shop visit. One of them has to come first, and it is the same word going in and coming out."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-b02-t01",
+      "es": "Γεια σας.",
+      "pinyin": "YA sas",
+      "pt": "Hello. Said on the way in, before anything else happens — and again on the way out.",
+      "tts": "Γεια σας."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b02-p01",
+      "promptPt": "You are crossing the doorway of a small shop with the owner behind the counter. Speak now.",
+      "audioKey": "el-b02-t01",
+      "es": "Γεια σας.",
+      "pinyin": "YA sas",
+      "pt": "Hello.",
+      "tts": "Γεια σας."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b02-r01",
+      "receptivo": true,
+      "es": "Γεια σου! Ορίστε.",
+      "pinyin": "YA soo! o-REE-ste",
+      "pt": "Hello! Go ahead. The shorter ending comes back at you constantly — take it, do not copy it.",
+      "tts": "Γεια σου! Ορίστε.",
+      "acao": "That is the door opening. Now ask — and if English is all you have, ask in English."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b02-n02",
+      "bloco": "corpo",
+      "pt": "Research on politeness puts Greek and English on opposite defaults: closeness on one side, distance on the other."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b02-n03",
+      "pt": "So the greeting is not decoration here. It is the move that says you are entering, and it costs one word."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b02-p02",
+      "promptPt": "The sun has gone and the lights are on along the street. You are walking into a taverna. Speak now.",
+      "audioKey": "el-b02-t02",
+      "es": "Καλησπέρα.",
+      "pinyin": "ka-lee-SPE-ra",
+      "pt": "Good evening.",
+      "tts": "Καλησπέρα."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-b02-r02",
+      "receptivo": true,
+      "es": "Καλό μεσημέρι!",
+      "pinyin": "ka-LO me-see-ME-ree",
+      "pt": "Good afternoon — literally, good midday. It exists precisely because the middle of the day is unsettled.",
+      "tts": "Καλό μεσημέρι!",
+      "acao": "Between roughly noon and five, take whichever greeting reaches you first and hand it straight back."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b02-n04",
+      "pt": "There is no rule fixing the hour the morning word turns into the evening one. Locals hesitate in that band too."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b02-p03",
+      "promptPt": "He has just put the change into your hand and closed the till. Speak now.",
+      "audioKey": "el-b02-t03",
+      "es": "Ευχαριστώ.",
+      "pinyin": "ef-kha-ree-STO",
+      "pt": "Thank you.",
+      "tts": "Ευχαριστώ."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b02-r03",
+      "es": "Παρακαλώ.",
+      "pinyin": "pa-ra-ka-LO",
+      "pt": "You're welcome — and also please, and also go ahead. One word, three jobs.",
+      "tts": "Παρακαλώ."
+    },
+    {
+      "consulta": [
+        "chegar/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b02-p04",
+      "promptPt": "Someone at the counter steps back and opens a hand towards the window to let you go first. Say the one word. Speak now.",
+      "audioKey": "el-b02-t04",
+      "es": "Παρακαλώ.",
+      "pinyin": "pa-ra-ka-LO",
+      "pt": "Please; after you.",
+      "tts": "Παρακαλώ."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b02-p05",
+      "promptPt": "He tilts the carafe towards your glass for a second one, and you want it. Two words. Speak now.",
+      "audioKey": "el-b02-t05",
+      "es": "Ναι, παρακαλώ.",
+      "pinyin": "NE, pa-ra-ka-LO",
+      "pt": "Yes, please.",
+      "tts": "Ναι, παρακαλώ."
+    },
+    {
+      "consulta": [
+        "compras/so-olhando"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b02-p06",
+      "promptPt": "You are browsing a rack of linen and someone comes over to help. Turn it down without closing the door. Speak now.",
+      "audioKey": "el-b02-t06",
+      "es": "Όχι, ευχαριστώ.",
+      "pinyin": "O-khee, ef-kha-ree-STO",
+      "pt": "No, thank you.",
+      "tts": "Όχι, ευχαριστώ."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b02-n05",
+      "bloco": "capsula",
+      "pt": "Greece sits high in the commercial English indices, and speaking is its lowest score. Those samples are self-selected."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b02-n06",
+      "pt": "Read that as a direction, never as a headcount. Two Greek words at the door are worth more than a plan built on English."
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b02-p07",
+      "promptPt": "The aisle is narrow, two people are talking across it, and your stop is the door behind them. Speak now.",
+      "audioKey": "el-b02-t07",
+      "es": "Συγγνώμη, περνάω.",
+      "pinyin": "seeng-NO-mee, per-NA-o",
+      "pt": "Sorry, coming through.",
+      "tts": "Συγγνώμη, περνάω."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b02-r04",
+      "es": "Βεβαίως, περάστε.",
+      "pinyin": "ve-VE-os, pe-RA-ste",
+      "pt": "Of course, go ahead.",
+      "tts": "Βεβαίως, περάστε."
+    },
+    {
+      "consulta": [
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b02-p08",
+      "promptPt": "It is nearly one in the morning and you are leaving the table for bed. Speak now.",
+      "audioKey": "el-b02-t08",
+      "es": "Καληνύχτα.",
+      "pinyin": "ka-lee-NEE-khta",
+      "pt": "Good night.",
+      "tts": "Καληνύχτα."
+    },
+    {
+      "consulta": [
+        "chegar/sair",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b02-p09",
+      "promptPt": "Bag in hand, one foot out of the shop, and the owner is still watching from the counter. Close the visit. Speak now.",
+      "audioKey": "el-b02-t09",
+      "es": "Ευχαριστώ, γεια σας.",
+      "pinyin": "ef-kha-ree-STO, YA sas",
+      "pt": "Thank you, goodbye.",
+      "tts": "Ευχαριστώ, γεια σας."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b02-r05",
+      "es": "Γεια σας! Καλή σας μέρα!",
+      "pinyin": "YA sas! ka-LEE sas ME-ra",
+      "pt": "Goodbye! Have a good day!",
+      "tts": "Γεια σας! Καλή σας μέρα!"
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-b02-s01",
+      "es": "Γεια σας. Ναι, παρακαλώ. Όχι, ευχαριστώ. Ευχαριστώ, γεια σας.",
+      "pinyin": "YA sas · NE pa-ra-ka-LO · O-khee ef-kha-ree-STO · ef-kha-ree-STO YA sas",
+      "pt": "Shadow the whole visit: in, answer, decline, out.",
+      "tts": "Γεια σας. Ναι, παρακαλώ. Όχι, ευχαριστώ. Ευχαριστώ, γεια σας."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b02-n07",
+      "bloco": "recap",
+      "pt": "B02 done. Γεια σας in and out, καλημέρα and καλησπέρα, ευχαριστώ, παρακαλώ, ναι and όχι, συγγνώμη, καληνύχτα."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The ten words, and the order they go in",
+    "secoes": [
+      {
+        "titulo": "The list",
+        "corpo": "Γεια σας, καλημέρα, καλησπέρα, καληνύχτα, ευχαριστώ, παρακαλώ, ναι, όχι, συγγνώμη, ορίστε. Ten words, one breath each, and between them they cover the entry, the yes, the no, the thanks, the squeeze past and the exit of an ordinary shop visit.",
+        "exemplos": [
+          {
+            "es": "Γεια σας.",
+            "pt": "YA sas — hello, and goodbye, with the same word"
+          },
+          {
+            "es": "Ευχαριστώ, γεια σας.",
+            "pt": "ef-kha-ree-STO, YA sas — the exit"
+          }
+        ]
+      },
+      {
+        "titulo": "Say γεια σας and never choose",
+        "corpo": "Greek has the two-way split most European languages have: γεια σου to one person you are close to, γεια σας to anyone else and to more than one person. You do not have to work out which is which at the door. Use γεια σας every time — with the shopkeeper, with the waiter, with the person on the ferry — and it is correct in all of them. When γεια σου comes back at you, that is warmth arriving, not a correction."
+      },
+      {
+        "titulo": "Παρακαλώ does three jobs",
+        "corpo": "It is please on the end of a request, you're welcome after a thank you, and go ahead when someone is waving you forward or picking up the phone. You will hear it far more often than you say it, and in every one of those positions it is the same four syllables with the beat at the end.",
+        "exemplos": [
+          {
+            "es": "Ναι, παρακαλώ.",
+            "pt": "NE, pa-ra-ka-LO — yes, please"
+          },
+          {
+            "es": "Ευχαριστώ. — Παρακαλώ.",
+            "pt": "thank you — you're welcome"
+          }
+        ]
+      },
+      {
+        "titulo": "The midday gap is real, and nobody has fixed it",
+        "corpo": "There is no normative source setting the hour where καλημέρα gives way to καλησπέρα. Three usages coexist, and there is a named prescriptive position — Babiniotis holds that the evening starts at sunset and that καλησπέρα at noon is a foreign import. Meanwhile καλό μεσημέρι exists precisely to cover the ambiguous stretch. The honest instruction is the useful one: in the early afternoon, listen for the greeting that reaches you and return it."
+      },
+      {
+        "titulo": "Two politeness systems, not two temperaments",
+        "corpo": "Work by Sifianou and others describes Greek as oriented to positive politeness — involvement and closeness — and English to negative politeness — distance and non-imposition. It is a description of how the two systems build a polite move, nothing more. The predictable consequence is symmetrical: a directly worded offer or question can read as intrusive to an English ear, and English hedging can read as cool to a Greek one. Neither reading is about anybody's character."
+      },
+      {
+        "titulo": "About English here",
+        "corpo": "Greece places high in the commercial proficiency indices, with speaking as its weakest sub-score. Those indices are built from online, self-selected samples, so they are evidence of a trend and never a count of speakers. Practically: expect English at hotel desks, ferry offices and city centres, expect less of it at a village bakery, and do not build a plan on either. The short Greek sentence keeps its value exactly where the sub-score is lowest."
+      }
+    ]
+  },
+  "slot": "B02",
+  "permissao": "Ten words is a complete kit. You do not need a sentence to enter a shop in Greece — you need one word on the way in and one on the way out, and everything between them is allowed to be in English, in gestures, or in pointing.",
+  "permissaoAudioKey": "el-b02-n01",
+  "espelho": "Anyone who has walked into a small local shop at home knows the difference between the customer who says hello and the one who opens with 'do you have'. The second one gets served just the same, and the room feels different. Greece runs that same difference, with a word that is also the goodbye.",
+  "fichasCulturais": [
+    {
+      "sinal": "A question comes at you faster and more directly than you expected — what you do, where you are staying, why you came — and it arrives without any of the softening you would put in front of it.",
+      "suaLeitura": "That was intrusive, or they are pushing me for something.",
+      "oQueEAli": "Politeness research describes Greek as oriented to positive politeness, built on involvement and closeness, and English as oriented to negative politeness, built on distance and non-imposition. A direct question is one of the standard positive-politeness moves. The mismatch runs both ways, and it produces two symmetrical misreadings.",
+      "oQueVoceFaz": "Answer the question short and plainly and ask one back. Skipping the hedges you would normally add is not rudeness here — it is the same register you were just handed.",
+      "oQueMelhora": "The exchange stops feeling like an interrogation and starts working the way it was meant to, which usually means a longer and warmer conversation.",
+      "ondeNaoVale": "This describes two politeness systems, not two kinds of people, and it predicts nothing about any individual. It also does not turn every direct question into a friendly one — an intrusive question is still intrusive, and you are allowed to leave it unanswered.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b02-n02"
+      ]
+    },
+    {
+      "sinal": "It is half past two in the afternoon and you cannot tell whether the room wants καλημέρα or καλησπέρα.",
+      "suaLeitura": "There must be an official cut-off and I am about to get it wrong.",
+      "oQueEAli": "There is no normative source for the switch. Three usages coexist, there is a named prescriptive position holding that the evening only begins at sunset, and the language has καλό μεσημέρι sitting in the gap for exactly this reason. Native speakers hesitate in that band as well.",
+      "oQueVoceFaz": "Let the other person go first and hand the same word back. If you get there first, γεια σας is safe at any hour of the day.",
+      "oQueMelhora": "You stop losing the half-second of hesitation that makes the whole entry look uncertain, and you never have to guess.",
+      "ondeNaoVale": "Not after dark, where καλησπέρα is simply the word and there is nothing ambiguous about it; and not on the way out, where the goodbye formulas are a different set entirely.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-b02-n04"
+      ]
+    }
+  ]
+}

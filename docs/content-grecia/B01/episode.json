@@ -1,0 +1,377 @@
+{
+  "id": "b01",
+  "nivel": "basico",
+  "numero": 1,
+  "parte": "B01",
+  "titulo": "You already own the two rarest sounds",
+  "subtitulo": "English gave you θ and δ for free — what is left is one new sound, two letters your eye has to relearn, and a beat that is printed on the page",
+  "cena": "The bakery window in Plaka has four words on it, every letter looks like one you know, and three of them are not the letter you think.",
+  "moldura": "ganha",
+  "frasePiso": "Beat on the printed accent, θ and δ for free, χ on air, Ρ as r and Η as i. That is enough to be understood on day one.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "el-b01-elot",
+      "afirmacao": "The Latin spelling on a Greek road sign follows ELOT 743 (2nd edition, 2001), identical to ISO 843:1997. The British PCGN records that it «is very widely used on road signs in Greece as well as printed guide books» and, crucially for a traveller, that it «is a less reliable guide to Modern Greek pronunciation» than the BGN/PCGN 1962 system it replaced. Reading the romanised sign aloud does not produce the Greek word.",
+      "fonte": "ΕΛΟΤ 743, 2ª edição, 2001, idêntica à ISO 843:1997. PCGN britânico, Greece Toponymic Factfile, abril 2020, verbatim: o ELOT 743 «is very widely used on road signs in Greece as well as printed guide books»; e o PCGN registra que o ELOT 743 «is a less reliable guide to Modern Greek pronunciation» do que o sistema BGN/PCGN de 1962 que substituiu. PCGN adotou em 1996; ONU recomendou pela resolução V/19 (1987).",
+      "ano": 2020,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-b01-n09"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b01-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Good news first: English owns the two rarest sounds in Greek, and you have said both since you were four."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b01-n02",
+      "gesto": 1,
+      "bloco": "corpo",
+      "pt": "Your hand does this. Flat across the word, one flick down on the syllable that carries the printed accent."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b01-n03",
+      "pt": "Move one. Almost every Greek word of two syllables prints its beat. Flick where the mark is, not where English wants."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-b01-t01",
+      "es": "Καλημέρα.",
+      "pinyin": "ka-lee-MEH-ra",
+      "pt": "Good morning. The mark sits on the third syllable, so the flick lands there.",
+      "tts": "Καλημέρα."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b01-p01",
+      "promptPt": "It is early, you are crossing the doorway of a bakery, and the woman behind the counter looks up. Speak now.",
+      "audioKey": "el-b01-t01",
+      "es": "Καλημέρα.",
+      "pinyin": "ka-lee-MEH-ra",
+      "pt": "Good morning.",
+      "tts": "Καλημέρα."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b01-n04",
+      "pt": "Move two. Theta is the th of thin. Delta is the th of this. Two of the rarest sounds on earth, already yours."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b01-r01",
+      "receptivo": true,
+      "es": "Αθήνα — Δεν πειράζει.",
+      "pinyin": "a-THEE-na — dhen pee-RA-zee",
+      "pt": "Athens; never mind. First th as in thin, second th as in this. Nothing new is being asked of your mouth.",
+      "tts": "Αθήνα. Δεν πειράζει.",
+      "acao": "Say thin and this back to back before you copy. You are looking for the sounds you already have, not new ones."
+    },
+    {
+      "consulta": [
+        "transporte/bilhete"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b01-p02",
+      "promptPt": "At the station window, one journey, one person, and the destination is the capital. Speak now.",
+      "audioKey": "el-b01-t02",
+      "es": "Ένα εισιτήριο για την Αθήνα.",
+      "pinyin": "E-na ee-see-TEE-ree-o ya teen a-THEE-na",
+      "pt": "One ticket to Athens.",
+      "tts": "Ένα εισιτήριο για την Αθήνα."
+    },
+    {
+      "consulta": [
+        "reparo/devagar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b01-p03",
+      "promptPt": "The answer came back at full speed and none of it landed. Say so, and let the first sound be the th of this. Speak now.",
+      "audioKey": "el-b01-t03",
+      "es": "Δεν καταλαβαίνω.",
+      "pinyin": "dhen ka-ta-la-VE-no",
+      "pt": "I don't understand.",
+      "tts": "Δεν καταλαβαίνω."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b01-n05",
+      "pt": "Move three. Chi is the new one. Push air over the back of the tongue and keep it running — never kick it like a k."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-b01-r02",
+      "receptivo": true,
+      "es": "χάρτης — κάρτα",
+      "pinyin": "KHAR-tees — KAR-ta",
+      "pt": "A map; a card. The first one leaks air the whole way through, the second one stops it dead.",
+      "tts": "χάρτης, κάρτα.",
+      "acao": "Listen twice before you copy. Breathe the first sound out like a long h and do not let the tongue close."
+    },
+    {
+      "consulta": [
+        "chegar/entrar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b01-p04",
+      "promptPt": "You walk into a taverna at midday and two people at the till look up together. Greet the room. Speak now.",
+      "audioKey": "el-b01-t04",
+      "es": "Χαίρετε.",
+      "pinyin": "KHE-re-te",
+      "pt": "Hello there.",
+      "tts": "Χαίρετε."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b01-p05",
+      "promptPt": "She has just wrapped the thing and handed it across. The air sound is in the middle, and the beat is at the very end. Speak now.",
+      "audioKey": "el-b01-t05",
+      "es": "Ευχαριστώ πολύ.",
+      "pinyin": "ef-kha-ree-STO po-LEE",
+      "pt": "Thank you very much.",
+      "tts": "Ευχαριστώ πολύ."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b01-n06",
+      "pt": "Move four. Rho is r, not p. Eta is i, not h. Your eye has to unlearn two shapes it thinks it already knows."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b01-r03",
+      "receptivo": true,
+      "es": "ΕΞΟΔΟΣ · ΗΡΑΚΛΕΙΟ · ΡΟΔΟΣ · ΧΑΝΙΑ",
+      "pinyin": "EX-o-dhos · ee-RA-klee-o · RO-dhos · kha-NYA",
+      "pt": "Way out; Iraklio; Rhodes; Chania. Four signs, and the letters that look most familiar are the ones lying to you.",
+      "tts": "Έξοδος. Ηράκλειο. Ρόδος. Χανιά.",
+      "acao": "Read each one twice: once the way your eye offers it, once the way the voice says it. The second one is the word."
+    },
+    {
+      "consulta": [
+        "mesa/bebida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b01-p06",
+      "promptPt": "At the table, the jug is empty and the label on the bottle behind the bar starts with the letter that is not a v. Speak now.",
+      "audioKey": "el-b01-t06",
+      "es": "Νερό, παρακαλώ.",
+      "pinyin": "ne-RO, pa-ra-ka-LO",
+      "pt": "Water, please.",
+      "tts": "Νερό, παρακαλώ."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b01-n07",
+      "pt": "Move five. Nu is n, psi is ps, xi is x, and epsilon plus upsilon comes out ef. Read the sound, not the shape."
+    },
+    {
+      "consulta": [
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b01-p07",
+      "promptPt": "Back at the bakery, your finger is on the round brown one on the top tray and there is one person ahead of you. Speak now.",
+      "audioKey": "el-b01-t07",
+      "es": "Ένα ψωμί, παρακαλώ.",
+      "pinyin": "E-na pso-MEE, pa-ra-ka-LO",
+      "pt": "One loaf, please.",
+      "tts": "Ένα ψωμί, παρακαλώ."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-b01-n08",
+      "bloco": "capsula",
+      "pt": "Move six. Συγγνώμη is the hardest word in the kit. Its middle is the ng-n of wing nut, said in one go."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-b01-t08",
+      "es": "Συγγνώμη.",
+      "pinyin": "seeng-NO-mee",
+      "pt": "Sorry; excuse me. Say sing, then no, then me, and then run the three together without a gap.",
+      "tts": "Συγγνώμη."
+    },
+    {
+      "consulta": [
+        "reparo/apontar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-b01-p08",
+      "promptPt": "The aisle is narrow and your bag has just caught somebody's arm. One word, three pieces. Speak now.",
+      "audioKey": "el-b01-t08",
+      "es": "Συγγνώμη.",
+      "pinyin": "seeng-NO-mee",
+      "pt": "Sorry.",
+      "tts": "Συγγνώμη."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b01-n09",
+      "pt": "One more thing about signs. The Latin spelling on a road sign is a spelling rule, not a guide to how the word sounds."
+    },
+    {
+      "consulta": [
+        "chegar/sair"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-b01-p09",
+      "promptPt": "You are at the door on your way out and she is still behind the counter. Two syllables, and the beat is on the first. Speak now.",
+      "audioKey": "el-b01-t09",
+      "es": "Γεια σας.",
+      "pinyin": "YA sas",
+      "pt": "Hello; goodbye.",
+      "tts": "Γεια σας."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-b01-r04",
+      "es": "Γεια σας! Καλή σας μέρα.",
+      "pinyin": "YA sas! ka-LEE sas ME-ra",
+      "pt": "Bye! Have a good day.",
+      "tts": "Γεια σας! Καλή σας μέρα."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-b01-s01",
+      "es": "Καλημέρα. Ευχαριστώ πολύ. Νερό, παρακαλώ. Συγγνώμη. Γεια σας.",
+      "pinyin": "ka-lee-MEH-ra · ef-kha-ree-STO po-LEE · ne-RO pa-ra-ka-LO · seeng-NO-mee · YA sas",
+      "pt": "Shadow all six moves in one run. Flat hand, one flick down where the accent is printed.",
+      "tts": "Καλημέρα. Ευχαριστώ πολύ. Νερό, παρακαλώ. Συγγνώμη. Γεια σας."
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-b01-n10",
+      "bloco": "recap",
+      "pt": "B01 done. Beat on the printed accent, theta and delta free, chi on air, rho as r, eta as i, Συγγνώμη in one go."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The sound model this course uses",
+    "secoes": [
+      {
+        "titulo": "The inversion nobody tells you about",
+        "corpo": "Theta and delta — the th of thin and the th of this — are among the rarest consonants in the world's languages, and most learners of English spend years on them. You were born into them. Greek hands you both back for free, which means the phonetic bill for this trip is far smaller than it looks from the outside.",
+        "exemplos": [
+          {
+            "es": "Αθήνα",
+            "pt": "a-THEE-na — the th of thin"
+          },
+          {
+            "es": "Δεν καταλαβαίνω.",
+            "pt": "dhen ka-ta-la-VE-no — the th of this"
+          }
+        ]
+      },
+      {
+        "titulo": "Chi is the only genuinely new sound",
+        "corpo": "Chi is made where a k is made, but the tongue never quite closes, so air keeps flowing. Before a, o and ou it is the throaty version; before e and i it thins out towards the h of huge. English speakers reach for a k and the word arrives as a different one — cheri and keri are not the same. The hand cue is a flat palm pushed slowly forward: as long as the palm is moving, the air is still running.",
+        "exemplos": [
+          {
+            "es": "χάρτης / κάρτα",
+            "pt": "KHAR-tees / KAR-ta — a map / a card"
+          },
+          {
+            "es": "Χαίρετε.",
+            "pt": "KHE-re-te — hello there"
+          }
+        ]
+      },
+      {
+        "titulo": "The beat is printed for you",
+        "corpo": "Greek writes the stress on nearly every word of two syllables or more. That mark is not decoration and it is not optional: it tells you exactly where the flick goes. English speakers default to their own stress habits and the word lands somewhere else. The whole point of the hand in this part is that it makes the disagreement visible — if your flick and the printed mark are in different places, you can see it before you hear it."
+      },
+      {
+        "titulo": "Two letters the eye has to unlearn",
+        "corpo": "Rho is written like a Latin P and is an r; eta is written like a Latin H and is an i. Those two account for most first-week misreadings — ΡΟΔΟΣ read as Podos is the standard example. Add nu, which looks like a v and is an n, and chi, which looks like an x and is not. Beta is a v, xi is the x, and psi is ps. The rest of the alphabet is more helpful than it looks."
+      },
+      {
+        "titulo": "Signomi, and why it is here in part one",
+        "corpo": "The double gamma before nu comes out as ng followed by n — the same joint that sits in the middle of wing nut. Build it in three pieces, sing–no–me, then close the gaps. It is the hardest word in the starter kit and it is also the one that opens every repair you will ever need, which is why it gets drilled as a sound here, two parts before it becomes an opener."
+      },
+      {
+        "titulo": "The sign is not the pronunciation",
+        "corpo": "The Latin lettering beside the Greek on road signs follows a national standard. That standard was chosen so the spelling can be turned back into Greek letters, not so it can be read aloud, and the British naming authority that adopted it says plainly it is a less reliable guide to pronunciation than the older system it replaced. Use it to match a place name on a map. Do not use it to say the name out loud."
+      }
+    ]
+  },
+  "slot": "B01",
+  "permissao": "You are allowed to sound foreign. Nobody at that counter is grading your chi, and the two sounds most learners find impossible are ones your mouth has made all your life. Put the beat where the accent is printed, let the air run through chi, and the sentence arrives — which is the entire job on day one.",
+  "permissaoAudioKey": "el-b01-n01",
+  "espelho": "You already read shapes that lie in your own language: the g of gem and of get, the ough of though, through and cough. Nobody calls that difficult, because the eye learned it once and stopped arguing. This part is the same job on four shapes and one new sound.",
+  "fichasCulturais": [
+    {
+      "sinal": "You read a place name off the road sign the way it is spelled in Latin letters, and the person you say it to hesitates or asks you to repeat it.",
+      "suaLeitura": "My accent is so bad that I cannot even say the name of the town I am standing in.",
+      "oQueEAli": "The Latin lettering on Greek signs follows a national transliteration standard. The British naming authority that adopted that standard records that it is a less reliable guide to Modern Greek pronunciation than the older system it replaced — the spelling was designed to be reversible back into Greek letters, not to be read aloud.",
+      "oQueVoceFaz": "Say the Greek line, not the Latin one: rho as r, eta as i, chi with air. If you only have the Latin spelling, show it on your phone rather than performing it.",
+      "oQueMelhora": "Place names start landing the first time, and you stop blaming an accent for something the sign did to you.",
+      "ondeNaoVale": "Not a claim that the romanisation is wrong or inconsistent everywhere — it is very widely used and it does the job it was built for. And at an airport desk or a big ferry counter, staff decode approximations all day and will get you either way.",
+      "evidencia": "FATO",
+      "audioKeys": [
+        "el-b01-n09"
+      ]
+    },
+    {
+      "sinal": "You say a word you are completely sure of and the answer comes back slower, or in English, even though every individual sound was right.",
+      "suaLeitura": "I must be mangling the consonants.",
+      "oQueEAli": "Very often the consonants were fine and the beat was not. Greek prints the stressed syllable on the page, and moving it can turn one word into another; English speakers apply the stress pattern their own language would use, and the result arrives as a word the listener has to hunt for.",
+      "oQueVoceFaz": "Look for the accent mark before you say anything, and land one small flick of the hand exactly there. If the word has no mark, it has one syllable and there is nothing to decide.",
+      "oQueMelhora": "The same handful of words you already know start being recognised at first pass, and conversations stay in Greek a beat longer.",
+      "ondeNaoVale": "This is a description of how the writing system helps you, not a rule anyone enforces. Nobody is scoring your stress, and plenty of exchanges go perfectly with the beat in the wrong place.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-b01-n03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "id": "a08",
+  "nivel": "avancado",
+  "numero": 36,
+  "parte": "A08",
+  "titulo": "The last minute with each of them, and the eight openings in your pocket",
+  "subtitulo": "Name the person, name the thing they did, name the season you are coming back — and then the eight frames that carried the whole trip, small enough to fit on one card",
+  "cena": "Last morning. Three doors within two hundred metres, three people who made the week, and a bus in fifty minutes.",
+  "moldura": "ganha",
+  "frasePiso": "Vague warmth evaporates. A named dish and a named season do not. Θα ξανάρθω το φθινόπωρο.",
+  "moldes": [],
+  "fatosDatados": [
+    {
+      "id": "el-a08-temporada",
+      "afirmacao": "Greece recorded 29.3 million international air arrivals in 2024, up 9.7 percent. The summer share, June to August, fell from 56 percent in 2019 to 50 percent in 2024, while spring rose 21 percent and winter 16 percent. July is the peak with 16.9 percent of the year and January the low with 2.2 percent — so the season is widening at both ends.",
+      "fonte": "INSETE, International Air Arrivals 2023-2024 (mar/2025): 29,3 M de chegadas aéreas internacionais em 2024 (+9,7%); julho é o pico com 5,0 M, 16,9% do total; janeiro é o mínimo com 648 mil, 2,2%. A participação do verão (jun-ago) caiu de 56% em 2019 para 50% em 2024, com primavera +21% e inverno +16%.",
+      "ano": 2025,
+      "revisarAte": "2028-08-05",
+      "evidencia": "FATO",
+      "risco": "baixo",
+      "audioKeys": [
+        "el-a08-n04"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a08-n01",
+      "gesto": 1,
+      "bloco": "aquecimento",
+      "pt": "Last morning. The people who made your week are three doors apart, and each of them takes about a minute."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a08-n02",
+      "bloco": "corpo",
+      "pt": "The shape is the same every time: name the person, name the thing they did, name when you are coming back."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a08-p01",
+      "promptPt": "The woman at the guesthouse desk fixed four separate things this week without being asked. Open the goodbye. Speak now.",
+      "audioKey": "el-a08-t01",
+      "es": "Ευχαριστώ για όλα.",
+      "pinyin": "ef-ha-ri-STO ya O-la",
+      "pt": "Thank you for everything.",
+      "tts": "Ευχαριστώ για όλα."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-a08-r01",
+      "receptivo": true,
+      "acao": "Να 'σαι καλά is the warm answer, and καλό ταξίδι sends you off. Say something back rather than just smiling.",
+      "es": "Να 'σαι καλά! Καλό ταξίδι.",
+      "pt": "Bless you! Have a good trip.",
+      "tts": "Να 'σαι καλά! Καλό ταξίδι."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a08-n03",
+      "pt": "Then be specific. Thanks for everything is polite; naming the dish is what the cook actually hears."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-comida"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a08-p02",
+      "promptPt": "You are settling up at the taverna you came back to three nights running. Say the one thing worth saying. Speak now.",
+      "audioKey": "el-a08-t02",
+      "es": "Το φαγητό ήταν υπέροχο.",
+      "pinyin": "to fa-yi-TO I-tan i-PE-ro-ho",
+      "pt": "The food was wonderful.",
+      "tts": "Το φαγητό ήταν υπέροχο."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a08-r02",
+      "receptivo": true,
+      "acao": "The question is real, not politeness. Answer it with a month and you have made a small promise worth keeping.",
+      "es": "Πότε ξανάρχεσαι;",
+      "pt": "When are you coming back?",
+      "tts": "Πότε ξανάρχεσαι;"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a08-n04",
+      "pt": "Say a season, not someday. Summer's share of arrivals fell from fifty-six percent to fifty; spring and winter are growing."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a08-p03",
+      "promptPt": "They asked when, and vagueness would waste the moment. Put a season on it. Speak now.",
+      "audioKey": "el-a08-t03",
+      "es": "Θα ξανάρθω το φθινόπωρο.",
+      "pinyin": "tha ksa-NAR-tho to fthi-NO-po-ro",
+      "pt": "I'll come back in the autumn.",
+      "tts": "Θα ξανάρθω το φθινόπωρο."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a08-n05",
+      "bloco": "capsula",
+      "pt": "Then ask for the card. It gives you a name to book with, and it says out loud that you intend to be back."
+    },
+    {
+      "consulta": [
+        "quarto/pedir",
+        "compras/balcao"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "EXETE",
+      "encaixe": "κάρτα",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a08-p04",
+      "promptPt": "You want a way to reach this place directly next year instead of through a booking site. Ask at the desk. Speak now.",
+      "audioKey": "el-a08-t04",
+      "es": "Έχετε κάρτα;",
+      "pinyin": "E-he-te KAR-ta",
+      "pt": "Do you have a card?",
+      "tts": "Έχετε κάρτα;"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a08-r03",
+      "receptivo": true,
+      "acao": "Ringing before you arrive is the whole point of the card. Take the number and use it next time.",
+      "es": "Πάρε την κάρτα μου. Τηλεφώνησε πριν έρθεις.",
+      "pt": "Take my card. Ring before you come.",
+      "tts": "Πάρε την κάρτα μου. Τηλεφώνησε πριν έρθεις."
+    },
+    {
+      "consulta": [
+        "quarto/pedir"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "molde": "THA-ITHELA",
+      "encaixe": "το ίδιο δωμάτιο του χρόνου",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a08-p05",
+      "promptPt": "One of them looked straight at the harbour, and you would rather not be reassigned when you come back. Say so at the desk. Speak now.",
+      "audioKey": "el-a08-t05",
+      "es": "Θα ήθελα το ίδιο δωμάτιο του χρόνου.",
+      "pinyin": "tha I-the-la to I-dhi-o dho-MA-ti-o tu HRO-nu",
+      "pt": "I'd like the same room next year.",
+      "tts": "Θα ήθελα το ίδιο δωμάτιο του χρόνου."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a08-n06",
+      "pt": "One more line is worth more than any review you could write, and it costs you nothing at all to say."
+    },
+    {
+      "consulta": [
+        "simpatia/elogiar-lugar"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a08-p06",
+      "promptPt": "You mean it, and the family running this place will hear it as the best thing said to them all week. Speak now.",
+      "audioKey": "el-a08-t06",
+      "es": "Θα σας συστήσω σε φίλους.",
+      "pinyin": "tha sas si-STI-so se FI-lus",
+      "pt": "I'll recommend you to friends.",
+      "tts": "Θα σας συστήσω σε φίλους."
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_f",
+      "audioKey": "el-a08-r04",
+      "receptivo": true,
+      "acao": "That is an invitation, and it is meant. Say yes now and work out the details when the time comes.",
+      "es": "Την άλλη φορά θα φας σπίτι μου.",
+      "pt": "Next time you'll eat at my place.",
+      "tts": "Την άλλη φορά θα φας σπίτι μου."
+    },
+    {
+      "consulta": [
+        "simpatia/puxar-conversa",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a08-p07",
+      "promptPt": "The person in front of you spent an hour of their own time on you on Tuesday. Close a first meeting properly. Speak now.",
+      "audioKey": "el-a08-t07",
+      "es": "Χάρηκα πολύ που σας γνώρισα.",
+      "pinyin": "HA-ri-ka po-LI pu sas GHNO-ri-sa",
+      "pt": "I was really glad to meet you.",
+      "tts": "Χάρηκα πολύ που σας γνώρισα."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a08-n07",
+      "pt": "Να είστε καλά is the warmest thing in the whole kit and costs nothing. It means be well, and it lands every time."
+    },
+    {
+      "consulta": [
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_m",
+      "promptAudioKey": "el-a08-p08",
+      "promptPt": "The bag is on your shoulder and one line is still owed to the people at the door. Speak now.",
+      "audioKey": "el-a08-t08",
+      "es": "Να είστε καλά!",
+      "pinyin": "na I-ste ka-LA",
+      "pt": "Be well!",
+      "tts": "Να είστε καλά!"
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a08-n08",
+      "pt": "And the goodbye of someone who plans to return: καλή αντάμωση. Until we meet again, said as a plan."
+    },
+    {
+      "consulta": [
+        "chegar/sair",
+        "simpatia/agradecer"
+      ],
+      "tipo": "responde",
+      "voz": "target_el_f",
+      "promptVoz": "guide_en_us_f",
+      "promptAudioKey": "el-a08-p09",
+      "promptPt": "Last line of the trip, at the door, to someone you fully intend to see again. Speak now.",
+      "audioKey": "el-a08-t09",
+      "es": "Καλή αντάμωση!",
+      "pinyin": "ka-LI a-DA-mo-si",
+      "pt": "Until we meet again!",
+      "tts": "Καλή αντάμωση!"
+    },
+    {
+      "tipo": "ouvir",
+      "voz": "target_el_m",
+      "audioKey": "el-a08-r05",
+      "receptivo": true,
+      "acao": "Στο καλό is the send-off. Nothing else is required from you except walking out smiling.",
+      "es": "Καλή αντάμωση! Στο καλό.",
+      "pt": "Until we meet again! Go well.",
+      "tts": "Καλή αντάμωση! Στο καλό."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a08-n09",
+      "pt": "Eight openings carried this entire trip, and they fit on one card in your pocket. Here they are, in order."
+    },
+    {
+      "tipo": "intro",
+      "voz": "guide_en_us_m",
+      "audioKey": "el-a08-n10",
+      "pt": "Έχετε, μπορώ να, πού είναι, θα ήθελα. Then χωρίς, πόσο κάνει, ψάχνω, and συγγνώμη in front of any of them."
+    },
+    {
+      "tipo": "shadow",
+      "voz": "target_el_f",
+      "audioKey": "el-a08-s01",
+      "es": "Ευχαριστώ για όλα. Θα ξανάρθω το φθινόπωρο. Να είστε καλά! Καλή αντάμωση!",
+      "pinyin": "ef-ha-ri-STO ya O-la · tha ksa-NAR-tho to fthi-NO-po-ro · na I-ste ka-LA · ka-LI a-DA-mo-si",
+      "pt": "Shadow the four that get you invited back: thanks, a season, be well, until next time.",
+      "tts": "Ευχαριστώ για όλα. Θα ξανάρθω το φθινόπωρο. Να είστε καλά! Καλή αντάμωση!"
+    },
+    {
+      "tipo": "recap",
+      "voz": "guide_en_us_f",
+      "audioKey": "el-a08-n11",
+      "bloco": "recap",
+      "pt": "A08 done, and the course with it. Name them, name the thing, name the season. Eight openings in your pocket."
+    }
+  ],
+  "aprofundar": {
+    "titulo": "The last minute, and the card in your pocket",
+    "secoes": [
+      {
+        "titulo": "Three parts, one minute",
+        "corpo": "Every goodbye worth making has the same three parts and none of them takes long. Name the person, so it is addressed to somebody rather than announced to a room. Name the thing they did — the room they moved you to, the dish, the bus they told you not to take. And name when you are coming back, with a season attached. Generalised warmth evaporates on the way out of the door; a named dish and a named month stay in the building. This is also why the last morning is worth budgeting fifteen minutes for rather than five.",
+        "exemplos": [
+          {
+            "es": "Ευχαριστώ για όλα.",
+            "pt": "Thank you for everything."
+          },
+          {
+            "es": "Θα ξανάρθω το φθινόπωρο.",
+            "pt": "I'll come back in the autumn."
+          }
+        ]
+      },
+      {
+        "titulo": "Why a season, and why that season",
+        "corpo": "Πότε ξανάρχεσαι is asked as a real question, not as a formula, so an answer with a month in it does actual work. There is a second reason to reach for autumn or spring rather than August. Of 29.3 million international air arrivals in 2024, July alone took 16.9 percent and January 2.2 — but the June-to-August share has fallen from 56 percent in 2019 to 50 percent, with spring up 21 percent and winter up 16. The season is stretching at both ends, and the place you have just said goodbye to is quieter and less pressed in those months. Saying θα ξανάρθω το φθινόπωρο is both the warmer answer and the better plan."
+      },
+      {
+        "titulo": "The card, the phone number, and the sentence that beats a review",
+        "corpo": "Έχετε κάρτα turns a place you liked into a place you can reach. The card gives you a name to ask for and a number to ring before you arrive, which in a small guesthouse or a family taverna is worth more than any booking platform. Two sentences do the rest: θα ήθελα το ίδιο δωμάτιο του χρόνου, which is a booking and a compliment at once, and θα σας συστήσω σε φίλους, which is the single most valuable thing a visitor can say to a small business and costs nothing to mean."
+      },
+      {
+        "titulo": "The four farewells and what each is for",
+        "corpo": "Χάρηκα πολύ που σας γνώρισα closes a first meeting — glad to have met you. Να είστε καλά means be well, it is the warmest ordinary thing in the language, and it is never out of place. Καλή αντάμωση is the goodbye of someone who intends to return: until we meet again, said as a plan rather than a wish. And στο καλό is what you will hear back, a send-off meaning go well. You will also get καλό ταξίδι at the door. None of these needs an answer more complicated than another one of them."
+      },
+      {
+        "titulo": "The card in your pocket: eight openings",
+        "corpo": "Everything operational in this course sits on eight frames, and none of them changes shape. Έχετε plus the thing, for whatever the person in front of you might have. Μπορώ να plus the verb, for whatever you want to do. Πού είναι plus the place, in the form written on the sign. Θα ήθελα plus the thing, which is how you order without sounding blunt. Χωρίς plus the ingredient, to subtract instead of describing. Πόσο κάνει plus the thing, before you commit to it. Ψάχνω plus what you are after, when you do not yet know whether it exists nearby. And συγγνώμη in front of any of them, which turns a request to a stranger into a conversation. Eight openings, one card, and the rest is nouns."
+      }
+    ]
+  },
+  "slot": "A08",
+  "permissao": "You are allowed to say goodbye badly and say it anyway. A clumsy ευχαριστώ για όλα delivered to a specific person about a specific thing beats a perfect sentence you rehearsed and never used, and nobody at that door is grading the grammar of someone who is visibly sorry to be leaving.",
+  "permissaoAudioKey": "el-a08-n02",
+  "espelho": "Anyone who has left a place at home meaning to say thank you properly, and then just waved from the car, knows exactly what this part is for. The difference is only that here the last minute is expected to take a while, and nobody will rush you through it.",
+  "fichasCulturais": [
+    {
+      "sinal": "You say you are leaving, and somebody immediately asks when you are coming back and waits for an actual answer.",
+      "suaLeitura": "That is the local version of see you soon, and a vague reply is all that is wanted.",
+      "oQueEAli": "The question is normally literal. In a culture oriented towards involvement rather than distance, an answer with a month in it is treated as a small commitment made in good faith, and it is remembered. A shrug reads as the polite non-answer it is.",
+      "oQueVoceFaz": "Give a season — θα ξανάρθω το φθινόπωρο — and ask for the card while you are at it, so the answer has somewhere to land.",
+      "oQueMelhora": "You leave as somebody who is expected back rather than as a completed transaction, and the room you liked is easier to get next time.",
+      "ondeNaoVale": "Do not invent a date you will not keep. The same directness that makes the answer land makes a broken one land too, and a friendly ίσως του χρόνου — maybe next year — is a perfectly respectable reply.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-a08-n03",
+        "el-a08-n04"
+      ]
+    },
+    {
+      "sinal": "You try to leave, and the goodbye takes another twenty minutes, with coffee poured and someone walking you to the corner.",
+      "suaLeitura": "They have not understood that I need to go, and I am now being rude by standing here.",
+      "oQueEAli": "Departure is a process here rather than an announcement. Standing up opens the goodbye; being held for a while afterwards is the normal shape of it, and cutting it short is the part that would read badly.",
+      "oQueVoceFaz": "Start ten or fifteen minutes before you actually need to move, say να πηγαίνω early, and let the extra coffee happen. Καλή αντάμωση at the door closes it cleanly.",
+      "oQueMelhora": "You stop arriving at the bus stop tense and apologetic, and the last impression you leave is warmth rather than a scramble.",
+      "ondeNaoVale": "Not at a counter, and not when someone is working a queue. This is the shape of leaving a table or a home; a shop with three people waiting behind you wants the short version, and gets it.",
+      "evidencia": "CONSENSO",
+      "audioKeys": [
+        "el-a08-n01",
+        "el-a08-n02"
+      ]
+    }
+  ]
+}
