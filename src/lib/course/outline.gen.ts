@@ -14,7 +14,7 @@ export const outline: ModuloOutline[] = [
   {
     nivel: 'basico',
     nome: 'Basic · Get by',
-    descricao: 'The Spanish that gets the day done: arriving, ordering, paying, moving, and getting help.',
+    descricao: 'The Greek that gets the day done: arriving, ordering, paying, moving, and getting help.',
     cor: 'terracota',
     licoes: [
       { id: 'b01', titulo: 'You already own the two rarest sounds', pronta: true },

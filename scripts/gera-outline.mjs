@@ -17,7 +17,7 @@
 // instante em que declara o slot dela — sem ninguém editar lista nenhuma.
 
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
-import { join, dirname } from 'node:path';
+import { join, dirname , basename} from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -29,10 +29,46 @@ const contrato = JSON.parse(readFileSync(join(dir, 'slots.json'), 'utf8'));
 const ordemDoSlot = new Map(contrato.slots.map((s, i) => [s.id, i]));
 
 // Cor e descrição são apresentação, não conteúdo — ficam aqui, únicas por módulo.
-const APRESENTACAO = {
+// O nome do destino NÃO é literal aqui, e essa é a correção. Ele sai da pasta,
+// que é a única camada que o clone não consegue falsificar: curso-<destino>-<lg>.
+// Antes havia «The Spanish that gets the day done» fixo neste arquivo, em OITO
+// cursos — e como isto é um GERADOR, a string se reescrevia sozinha a cada
+// `npm run outline`, inclusive por cima de correções feitas à mão.
+const _pasta = basename(root);
+const _destino = (/^curso-([a-z]+)/.exec(_pasta) || [, ''])[1];
+const _lingua = (/^curso-([a-z]+)-([a-z]{2})$/.exec(_pasta) || [])[2] || 'en';
+const NOME_DA_LINGUA = {
+  espanha: 'Spanish', mexico: 'Spanish', franca: 'French', italia: 'Italian',
+  grecia: 'Greek', turquia: 'Turkish', portugal: 'Portuguese', alemanha: 'German'
+};
+const NOME_DA_LINGUA_DE = {
+  espanha: 'Spanisch', mexico: 'Spanisch', franca: 'Französisch', italia: 'Italienisch',
+  grecia: 'Griechisch', turquia: 'Türkisch', portugal: 'Portugiesisch', alemanha: 'Deutsch'
+};
+const _lg = _lingua === 'de'
+  ? (NOME_DA_LINGUA_DE[_destino] || _destino)
+  : (NOME_DA_LINGUA[_destino] || _destino);
+
+const APRESENTACAO = _lingua === 'de' ? {
+  basico: {
+    nome: 'Grundstufe · Zurechtkommen',
+    descricao: `Das ${_lg}, mit dem Sie durch den Tag kommen: ankommen, bestellen, bezahlen, sich bewegen und um Hilfe bitten.`,
+    cor: 'terracota'
+  },
+  intermediario: {
+    nome: 'Mittelstufe · Das Gute mitnehmen',
+    descricao: 'Essen Sie dort, wo sie essen, wann sie essen, zu dem Preis, den sie zahlen.',
+    cor: 'oliva'
+  },
+  avancado: {
+    nome: 'Oberstufe · Den Raum lesen',
+    descricao: 'Der Humor, der Stolz, der alte Streit — und was ihr Schweigen bedeutet.',
+    cor: 'indigo'
+  }
+} : {
   basico: {
     nome: 'Basic · Get by',
-    descricao: 'The Spanish that gets the day done: arriving, ordering, paying, moving, and getting help.',
+    descricao: `The ${_lg} that gets the day done: arriving, ordering, paying, moving, and getting help.`,
     cor: 'terracota'
   },
   intermediario: {
