@@ -1,0 +1,1 @@
+var e={sku:`curso-grecia-en`,buyerLang:`en`,targetLang:`el`,translatorPair:{sl:`en`,tl:`el`},destCurrency:`EUR`,homeCurrencies:[`GBP`,`USD`],timeZone:`Europe/Athens`};export{e as t};
