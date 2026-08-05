@@ -43,11 +43,50 @@ const erros = [];
 const ler = (...p) => (existsSync(join(root, ...p)) ? readFileSync(join(root, ...p), 'utf8') : '');
 
 // ── 1. a casca nomeia OUTRO destino? ────────────────────────────────────────
+//
+// TODA ROTA CONTA, e não só o cabeçalho. A primeira versão deste portão olhava
+// `app.html` e `+layout.svelte`, e por isso deixou passar a HOME: quatro cursos
+// foram publicados com «¡Hola! 👋 — Survival Spanish and culture for Spain» na
+// primeira tela, um deles ensinando grego. Foi achado abrindo o site publicado,
+// não rodando portão — a lição é que a casca não é o topo da página, é tudo o
+// que o comprador lê antes de começar a estudar.
+// SÓ O QUE É RENDERIZADO CONTA. Este portão pergunta «o que o comprador LÊ na
+// tela», então código e comentário ficam de fora — o próprio comentário que
+// explica este bug menciona a Türkiye, e a primeira versão acusou os catorze
+// cursos por causa dele. Portão que acusa a própria documentação é portão que
+// se aprende a ignorar.
+const semCodigo = (s) =>
+  s
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<!--[\s\S]*?-->/g, ' ');
+
+const rotas = [];
+const varre = (dir) => {
+  for (const f of readdirSync(join(root, dir), { withFileTypes: true })) {
+    const rel = `${dir}/${f.name}`;
+    if (f.isDirectory()) varre(rel);
+    else if (f.name.endsWith('.svelte')) rotas.push(semCodigo(readFileSync(join(root, rel), 'utf8')));
+  }
+};
+try {
+  varre('src/routes');
+} catch {
+  /* sem rotas: nada a varrer */
+}
 const app = ler('src', 'app.html');
-const layout = ler('src', 'routes', '+layout.svelte');
-const cabecalho = app + '\n' + layout;
+const cabecalho = app + '\n' + rotas.join('\n');
+// O PAÍS DO COMPRADOR NÃO É «OUTRO DESTINO». O curso IT → Espanha diz, com razão,
+// «Spagna e Italia usano l'euro: non serve alcuna conversione» — a Itália ali é a
+// CASA de quem compra, não um destino trocado. A primeira versão deste portão
+// acusava essa frase, que é justamente o tipo de falso positivo que ensina a
+// ignorar portão.
+const CASA_DO_COMPRADOR = { de: 'alemanha', fr: 'franca', it: 'italia' };
+const buyerLang = (/buyerLang:\s*'([a-z-]+)'/.exec(ler('src', 'lib', 'curso.config.ts')) || [])[1];
+const casa = CASA_DO_COMPRADOR[buyerLang];
+
 for (const [d, nomes] of Object.entries(NOMES)) {
-  if (d === destino) continue;
+  if (d === destino || d === casa) continue;
   for (const n of nomes) {
     // fronteira de palavra à mão: `Italia` não pode casar dentro de `Italiano`
     const re = new RegExp(`(^|[^\\p{L}])${n}([^\\p{L}]|$)`, 'u');

@@ -63,10 +63,10 @@
 
 <section class="mt-2">
   <h1 class="text-2xl font-extrabold leading-tight">
-    ¡Hola! 👋
+    Γεια σας! 👋
   </h1>
   <p class="mt-1 text-carvao/70">
-    Survival Spanish and culture for Spain — listen, say it out loud, and don't get had.
+    Survival Greek and culture for Greece — listen, say it out loud, and don’t get had.
   </p>
 </section>
 
@@ -91,7 +91,7 @@
   <span class="min-w-0 flex-1">
     <span class="block font-bold leading-tight text-carvao">Offline translator</span>
     <span class="block text-xs text-carvao/60"
-      >Get <b>Google Translate</b> and download <b>Spanish</b> for offline use — the camera reads
+      >Get <b>Google Translate</b> and download <b>Greek</b> for offline use — the camera reads
       menus, labels and forms on the spot.</span
     >
   </span>
