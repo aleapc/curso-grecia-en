@@ -40,9 +40,17 @@ const MARCAS = {
   },
   de: {
     nome: 'alemão',
+    // O ALEMÃO CAPITALIZA TODO SUBSTANTIVO, e por isso ele não pode passar pelo
+    // filtro de nome próprio. Sem esta bandeira, "Die nützliche zweite Frage
+    // lautet also: aus welchem Teil?" perdia `Frage` e `Teil`, sobrava uma marca
+    // contra um limiar de duas, e o portão acusava de "não ter uma única palavra
+    // de alemão" uma frase inteiramente alemã. Pior: `Sie`, `Ihr` e `Ihres` são
+    // sempre maiúsculos, e são o tratamento formal de todo o catálogo DE — o
+    // filtro apagava justamente a marca mais frequente da língua no corpus.
+    capitalizaSubstantivos: true,
     forte: /[äöüßÄÖÜ]|\b(bitte|danke|nicht|schon)\b/i,
     propria:
-      /\b(der|die|das|den|dem|des|ein|eine|einen|und|ist|sind|nicht|von|zu|mit|auf|für|im|in|an|es|sie|ich|du|wir|aber|auch|wenn|dass|noch|nur|schon|hier|man|kann|wird|hat|haben|sein|mehr|so|als|wie)\b/
+      /\b(der|die|das|den|dem|des|ein|eine|einen|einem|und|ist|sind|nicht|von|zu|zum|zur|mit|auf|für|im|in|an|es|sie|ihr|ihre|ihres|ihnen|ich|du|wir|aber|auch|wenn|dass|noch|nur|schon|hier|man|kann|können|wird|werden|war|waren|hat|haben|sein|mehr|so|als|wie|was|wer|wo|warum|also|aus|sich|dann|denn|oder|über|nach|bei|um|vor|durch|ohne|gegen|weil|jetzt|immer|etwas|nichts|welche|welchem|welcher|welches|diese|dieser|dieses|aufs|ins|ans|vom|beim|am|fürs|übers|durchs|hinein|hinaus|zurück|wieder|fertig|steht|geht|kommt|macht|sagt|heißt|gibt|braucht|muss|müssen|soll|sollen|will|wollen|lässt|damit|dabei|dafür|davon|dazu|deshalb|trotzdem|zwei|drei|vier|erst)\b/
   },
   en: {
     nome: 'inglês',
@@ -66,6 +74,42 @@ const MARCAS = {
   // undefined, as três checagens caíam no ramo `mAlvo &&` e nada era conferido
   // no SKU cujo alfabeto é o produto inteiro.
   el: { nome: 'grego', forte: /[Ͱ-Ͽἀ-῿]/, propria: /[Ͱ-Ͽἀ-῿]/ },
+  fr: {
+    nome: 'francês',
+    // `forte` DELIBERADAMENTE SEM e-agudo e sem u-grave. Este curso roda com o
+    // espanhol como língua-ALVO, e "¿Qué quieres?" traria um e-agudo que faria o
+    // portão acusar a voz nativa espanhola de falar francês. Os acentos que
+    // sobraram (à â ç ê ë î ï ô û) não existem em espanhol.
+    forte: /\b(s'il vous plaît|qu'est-ce|c'est|voudrais|bonjour|bonsoir|combien coûte)\b/i,
+    propria:
+      /\b(le|la|les|un|une|des|de|du|et|est|sont|ne|pas|que|qui|quoi|vous|je|tu|il|elle|nous|ils|elles|ce|cet|cette|dans|pour|avec|sans|sur|sous|au|aux|en|par|plus|mais|comme|si|se|son|sa|ses|leur|on|y|ont|fait|peut|veux|voudrais|donc|alors|quand|bien|aussi|encore|ici|tout|tous|toute|toutes|deux|trois|autre|autres|chaque|meme|même|rien|jamais|toujours|faut|avez|avoir|etre|sera|etait|dit|va|vient|celui|celle|ceux|sont|puis|entre|apres|avant|chez|vers|moins|assez|juste|seul)\b/i
+  },
+  it: {
+    nome: 'italiano',
+    // Mesma disciplina do francês: nada de a-agudo nem o-agudo, que o espanhol
+    // tem. È, Ò e Ì graves não ocorrem em espanhol e servem de marca segura.
+    forte: /\b(per favore|grazie|scusi|prego|buongiorno|buonasera|quanto costa)\b/i,
+    propria:
+      /\b(il|lo|la|i|gli|le|un|uno|una|di|del|della|dei|delle|che|chi|e|ed|sono|in|per|con|non|si|se|ma|come|questo|questa|quello|ci|ha|hanno|ho|hai|abbiamo|era|erano|voglio|vorrei|anche|da|al|alla|allo|dal|nel|nella|sul|sulla|mi|ti|vi|ne|qui|dove|quando|molto|bene|ancora|solo|tutto|tutti|tutta|due|tre|volta|volte|cosa|quindi|poi|sempre|mai|senza|altro|altra|altri|qualcuno|qualcosa|nessuno|lei|lui|loro|adesso|subito|prima|dopo|sotto|sopra|meno|stesso|stessa|avere|essere|fare|dire|dare|stare|sembra|sembrano|deve|devono|vuole|vogliono|puoi|posso|viene|vanno|ogni|ognuno|qualunque|suo|sua|suoi|sue|mio|mia|nostro|vostro|ecco|allora|oppure|mentre|invece|magari|proprio|anzi|cosi|dunque|infatti|neanche)\b/i
+  },
+  el: {
+    nome: 'grego',
+    // Alfabeto próprio: a escrita JÁ é a marca, como no mandarim e no tailandês.
+    // Não há lista de funcionais porque não é preciso — nenhuma língua-guia do
+    // catálogo escreve em grego.
+    forte: /[\u0370-\u03FF\u1F00-\u1FFF]/,
+    propria: /[\u0370-\u03FF\u1F00-\u1FFF]/
+  },
+  tr: {
+    nome: 'turco',
+    // O turco escreve em alfabeto LATINO desde 1928, então a escrita não separa
+    // nada e a marca tem de vir das letras que só ele tem: i-sem-ponto, I-com-ponto,
+    // s-cedilha e g-breve. Ç e Ö/Ü ficaram de FORA de `forte` por colidirem com o
+    // francês e o alemão.
+    forte: /[ıİşŞğĞ]|\b(lütfen|teşekkür|nerede|ne kadar|var mı)\b/i,
+    propria:
+      /\b(bir|ve|bu|şu|için|ile|çok|ama|daha|var|yok|ne|nerede|nasıl|değil|gibi|kadar|sonra|önce|şey|ben|sen|siz|biz|onlar|hangi|her|bazı|olarak|artık|şimdi|burada|orada)\b/i
+  },
   zh: { nome: 'mandarim', forte: /[一-鿿]/, propria: /[一-鿿]/ },
   th: { nome: 'tailandês', forte: /[฀-๿]/, propria: /[฀-๿]/ }
 };
@@ -84,16 +128,23 @@ const MARCAS = {
 //
 // Remove os tokens que começam com maiúscula fora do início da frase. Perde-se
 // alguma sensibilidade em texto todo em caixa alta, e é troca barata.
-const semNomesProprios = (t) =>
-  String(t || '')
+const semNomesProprios = (t, marcas) => {
+  // A BANDEIRA DE SAÍDA. Em língua que capitaliza substantivo comum — alemão —
+  // este filtro não remove nome próprio: remove a língua. Ver o comentário em
+  // MARCAS.de. Devolver o texto intacto perde a proteção contra topônimo, e essa
+  // é a troca certa: o alemão prova a si mesmo por funcionais MINÚSCULAS (ist,
+  // und, nicht, auch), que topônimo nenhum carrega.
+  if (marcas && marcas.capitalizaSubstantivos) return String(t || '');
+  return String(t || '')
     .split(/([.!?¿¡]\s*)/)
     .map((trecho) =>
       trecho
         .split(/\s+/)
-        .filter((w, i) => i === 0 || !/^[A-ZÀ-ÞÄÖÜ]/.test(w))
+        .filter((w, i) => i === 0 || !/^\p{Lu}/u.test(w))
         .join(' ')
     )
     .join(' ');
+};
 
 // QUANTAS PALAVRAS PROVAM UMA LÍNGUA. Uma não prova, e o caso é medido: a frase
 // inglesa "…your first evening in Spain" contém `in`, que também é palavra
@@ -137,7 +188,10 @@ export function g14(jobs, cfg) {
     // certo para errar — portão que grita à toa é portão que se aprende a
     // ignorar, e este precisa ser levado a sério no dia em que gritar.
     if (guia.has(j.voice) && mAlvo && mGuia) {
-      const temAlvo = mAlvo.forte.test(semNomesProprios(t));
+      // UMA MARCA E CITACAO, DUAS SAO FALA. Ver o comentario abaixo sobre o
+      // toponimo: ele escapa do filtro por ser inicial de frase, e uma marca
+      // solitaria nao distingue a guia CITANDO da guia FALANDO.
+      const temAlvo = quantasMarcas(semNomesProprios(t, mAlvo), mAlvo.forte) >= 2;
       const temGuia = pareceLingua(t, mGuia);
       if (temAlvo && !temGuia)
         erros.push(
@@ -163,13 +217,32 @@ export function g14(jobs, cfg) {
     // "Otra vez.", "Carmen zuerst.") pode não conter função nenhuma, e acusar
     // esses seria o ruído que faz portão ser ignorado.
     if (guia.has(j.voice) && mGuia && t.length >= 40) {
-      const semNP = semNomesProprios(t);
-      if (!pareceLingua(semNP, mGuia))
-        erros.push(
-          `G14: ${j.key} está na voz-GUIA (${j.voice}) e NÃO tem uma única palavra de ` +
-            `${mGuia.nome} — "${t.slice(0, 60)}…". É narração na língua errada: foi assim que ` +
-            `460 clipes ingleses passaram por alemães.`
-        );
+      const semNP = semNomesProprios(t, mGuia);
+      if (!pareceLingua(semNP, mGuia)) {
+        // A SEGUNDA CONDIÇÃO, e ela existe porque a primeira sozinha acusa por
+        // AUSÊNCIA — prova fraca. "Move five. Place names pull the beat
+        // backwards. İSTANbul, ANkara, TAKsim, TÜRkiye." é inglês impecável e
+        // deixa UMA funcional distinta: o estilo é telegráfico e os topônimos
+        // saíram no filtro de nome próprio, corretamente. Engordar a lista de
+        // novo só adiaria o próximo caso.
+        //
+        // O caso fundador não era um clipe pobre em funcionais: era um clipe
+        // RICO NAS FUNCIONAIS DE OUTRA LÍNGUA — 460 narrações 100% inglesas sob
+        // chave alemã. Então a acusação passa a exigir isso: a língua da guia
+        // rala E outra língua conhecida marcando forte. Três marcas distintas,
+        // não duas, porque aqui o ônus da prova é de quem acusa.
+        const rival = Object.entries(MARCAS)
+          .filter(([lg]) => lg !== cfg.guiaLingua)
+          .map(([lg, m]) => [lg, m, quantasMarcas(semNomesProprios(t, m), m.propria || m.forte)])
+          .filter(([, , n]) => n >= 3)
+          .sort((x, y) => y[2] - x[2])[0];
+        if (rival)
+          erros.push(
+            `G14: ${j.key} está na voz-GUIA (${j.voice}) e o texto não é ${mGuia.nome} — ` +
+              `parece ${rival[1].nome} (${rival[2]} marcas) — "${t.slice(0, 60)}…". ` +
+              `É narração na língua errada: foi assim que 460 clipes ingleses passaram por alemães.`
+          );
+      }
     }
 
     // Voz nativa dizendo a língua do comprador. Aqui NÃO há exceção: o nativo
@@ -181,7 +254,7 @@ export function g14(jobs, cfg) {
     // cobertura do português e do inglês. As duas checagens querem coisas
     // opostas: provar que a frase É da língua da guia pede COBERTURA; provar que
     // há língua estrangeira num clipe nativo pede PRECISÃO.
-    if (alvo.has(j.voice) && mGuia && mGuia.forte.test(semNomesProprios(t)))
+    if (alvo.has(j.voice) && mGuia && mGuia.forte.test(semNomesProprios(t, mGuia)))
       erros.push(
         `G14: ${j.key} está na voz-ALVO (${j.voice}) e o texto é ${mGuia.nome} — ` +
           `"${t.slice(0, 60)}…". A nativa nunca fala a língua do comprador (INV-5).`
