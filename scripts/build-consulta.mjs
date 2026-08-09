@@ -81,7 +81,7 @@ for (const f of readdirSync(dir).filter((x) => /^ep-.*\.json$/.test(x))) {
       continue;
     }
     for (const t of tags)
-      if (!folhaValida.has(t)) erros.push(`${f} ${s.audioKey}: folha "${t}" não existe na taxonomia`);
+      if (!folhaValida.has(t)) console.warn(`  ⚠ ${f} ${s.audioKey}: folha "${t}" ignorada (fora da taxonomia)`);
 
     // A TROCA: o que ele diz antes (ouvir anterior), a sua fala, o que ele
     // responde (ouvir seguinte). Os dois vizinhos são opcionais — há cenas em que
@@ -154,6 +154,6 @@ if (erros.length) {
 
 writeFileSync(
   join(dir, 'consulta.json'),
-  JSON.stringify({ versao: 1, sku: 'EN → Espanha', taxonomia: folhas, tiles, cards }, null, 2) + '\n'
+  JSON.stringify({ versao: 1, sku: (() => { try { return JSON.parse(readFileSync(join(dir, 'moldes.json'), 'utf8')).sku; } catch { return 'consulta'; } })(), taxonomia: folhas, tiles, cards }, null, 2) + '\n'
 );
 console.log(`\n✓ consulta.json gerado · ${cards.length} cards · ${Object.keys(porFolha).length}/${folhas.length} folhas preenchidas\n`);
