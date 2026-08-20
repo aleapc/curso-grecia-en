@@ -3,9 +3,25 @@
 //     em static/audio/index.json. Usado pra diálogos, frases-chave e escuta.
 //  2) Voz do navegador (Web Speech API): grátis e ilimitada, pro "toque na
 //     palavra e ouça". Também é o fallback quando o mp3 premium ainda não existe.
+//
+// A voz do navegador tem que ser a da LÍNGUA-ALVO (o que o aluno está
+// aprendendo), não a do comprador — esta função era hard-coded pra espanhol
+// (herdada do ¡Dime! original) e continuava assim mesmo em SKUs cujo alvo é
+// outra língua; achado e corrigido em 2026-08-20 (ver memória
+// kit-de-bordo-fallback-voz-hardcoded — o mesmo bug existe em praticamente
+// todo o catálogo publicado, corrigido aqui só para este SKU).
 
 import { base } from '$app/paths';
 import { pararAudio, tocarClipe } from '$lib/audio';
+import { curso } from '$lib/curso.config';
+
+// Ordem de preferência de sotaque por targetLang. Prioriza o sotaque que o
+// ÁUDIO PREMIUM deste SKU usa (ver audio.config.json._comentario) — a voz do
+// navegador é só o fallback quando o mp3 ainda não existe, e não deve soar
+// diferente do que o aluno vai ouvir quando o áudio premium chegar.
+const PREFERENCIA_SOTAQUE: Record<string, string[]> = {
+  el: ['el'] // curso-grecia-en: alvo grego (só uma variante disponível)
+};
 
 let premium: Set<string> | null = null;
 let carregando: Promise<Set<string>> | null = null;
@@ -65,14 +81,14 @@ export async function playKey(
 }
 
 /**
- * Fala um texto com a melhor voz de espanhol do aparelho, priorizando sotaque
- * rioplatense (Uruguai/Argentina). Se NÃO houver nenhuma voz de espanhol, não
- * fala — o navegador leria com sotaque de inglês ("gringo"), e o áudio premium
+ * Fala um texto com a melhor voz da língua-alvo do aparelho, priorizando o
+ * sotaque de `PREFERENCIA_SOTAQUE`. Se NÃO houver nenhuma voz da língua-alvo,
+ * não fala — o navegador leria com o sotaque errado, e o áudio premium
  * (ElevenLabs) é a fonte de verdade. Retorna true se realmente falou.
  */
 export function speak(text: string): boolean {
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) return false;
-  const v = pickSpanishVoice();
+  const v = pickTargetVoice();
   if (!v) return false;
   window.speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);
@@ -83,30 +99,25 @@ export function speak(text: string): boolean {
   return true;
 }
 
-function pickSpanishVoice(): SpeechSynthesisVoice | undefined {
+function pickTargetVoice(): SpeechSynthesisVoice | undefined {
   const voices = window.speechSynthesis.getVoices();
   const byLang = (l: string) =>
     voices.find((v) => v.lang.toLowerCase().replace('_', '-') === l);
-  // Ordem de preferência: rioplatense primeiro, depois neutro/LatAm, por último qualquer es.
-  return (
-    byLang('es-uy') ||
-    byLang('es-ar') ||
-    byLang('es-419') ||
-    byLang('es-cl') ||
-    byLang('es-mx') ||
-    byLang('es-us') ||
-    byLang('es-es') ||
-    voices.find((v) => v.lang.toLowerCase().startsWith('es'))
-  );
+  const ordem = PREFERENCIA_SOTAQUE[curso.targetLang] ?? [curso.targetLang];
+  for (const l of ordem) {
+    const v = byLang(l);
+    if (v) return v;
+  }
+  return voices.find((v) => v.lang.toLowerCase().startsWith(curso.targetLang));
 }
 
 export function speechSupported(): boolean {
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) return false;
-  return !!pickSpanishVoice();
+  return !!pickTargetVoice();
 }
 
 /** Reconhecimento de fala (pra exercícios de pronúncia). Rejeita se não houver suporte. */
-export function recognizeOnce(lang = 'es-MX'): Promise<string> {
+export function recognizeOnce(lang = curso.targetLang): Promise<string> {
   return new Promise((resolve, reject) => {
     const SR =
       (window as unknown as { SpeechRecognition?: any; webkitSpeechRecognition?: any })
